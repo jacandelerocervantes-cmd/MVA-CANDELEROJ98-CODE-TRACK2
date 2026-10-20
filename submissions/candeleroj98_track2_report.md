@@ -292,7 +292,7 @@ The repository README explains how to install the pipeline and how to re-run it 
 
 ### 5.2 Data governance and licences
 
-The patient's data belong to the patient and their family; they were used under the terms of the Hackathon and are not redistributed. Patient-derived detail is held in a private folder, and only aggregates are published. This report, the supporting tables and the source code are released under the Creative Commons Attribution 4.0 International licence (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/).
+The patient's data belong to the patient and their family; they were used under the terms of the Hackathon. This repository redistributes none of them: patient-derived detail is held in a private folder, and only aggregates are published here. This report, the supporting tables and the source code are released under the Creative Commons Attribution 4.0 International licence (CC BY 4.0; https://creativecommons.org/licenses/by/4.0/).
 
 Public resources used in the analysis keep their own licences, which are listed in the repository file THIRD_PARTY_LICENSES.md. No raw source file is redistributed.
 
