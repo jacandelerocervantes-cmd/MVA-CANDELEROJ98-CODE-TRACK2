@@ -283,7 +283,7 @@ def compose(out: Path) -> str:
     t.append("### Data protection\n")
     t.append("The child's reads and variant calls are not part of the repository. Per-variant detail is kept in a private folder and is not published, and this article names variants at protein level only. The Track 1 submission file, which contains the variant coordinates required by the challenge format and is the single case-specific input of the pipeline, is not included in the repository. All data derived from the challenge dataset will be deleted by 23 November 2026, as the hackathon rules require.\n")
     t.append("### Data and code availability\n")
-    t.append("The code, configuration and derived outputs accompany the submission in a public repository (link in the submission form; MIT licence). The public sources used, with versions, file hashes and licences, are listed in the repository. The challenge dataset is gated and is not redistributed.\n")
+    t.append("The code, configuration and derived outputs accompany the submission in a public repository (link in the submission form; CC BY 4.0 licence). The public sources used, with versions, file hashes and licences, are listed in the repository. The challenge dataset is gated and is not redistributed.\n")
     t.append("### Generative-AI disclosure\n")
     t.append(body(sec["13"]) + "\n")
     t.append("### Competing interests and funding\n")

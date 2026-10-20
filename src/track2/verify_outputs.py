@@ -40,6 +40,7 @@ def files(root: Path = Path(".")) -> tuple[list[Path], list[Path]]:
     det |= set(root.glob("protocol/*.md")) | set(root.glob("protocol/*.sha256")) | set(root.glob("config/*.json"))  # the rules and the review files, in their final state
     for g in GLOBS:
         det |= set(root.glob(g))
+    det = {p for p in det if not p.name.endswith("_track2_report.md")}  # the report is edited by hand until submission and is not a pipeline output
     net = sorted({q for p in NETWORK_DEPENDENT for q in (root.glob(p) if any(c in p for c in "*?[") else [root / p]) if q.exists()})
     return sorted(det), sorted(net)
 

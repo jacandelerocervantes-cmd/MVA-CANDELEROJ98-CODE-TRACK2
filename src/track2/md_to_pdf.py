@@ -134,7 +134,7 @@ def to_pdf(md_path: Path, pdf_path: Path, landscape: bool = False, lang: str = "
     title = re.search(r"^# (.+)$", md_path.read_text(encoding="utf-8"), re.M)
     body = convert(md_path.read_text(encoding="utf-8"))
     css = CSS.replace("size: letter;", "size: letter landscape;") if landscape else CSS
-    doc = f"<!DOCTYPE html><html lang=\"{lang}\"><head><meta charset=\"utf-8\"><title>{html.escape(title.group(1) if title else md_path.stem)}</title><style>{css}</style></head><body>{body}</body></html>"
+    doc = f"<!DOCTYPE html><html lang=\"{lang}\"><head><meta charset=\"utf-8\"><title>{html.escape(title.group(1).replace('*', '') if title else md_path.stem)}</title><style>{css}</style></head><body>{body}</body></html>"
     with tempfile.TemporaryDirectory() as tmp:
         page = Path(tmp) / "report.html"
         page.write_text(doc, encoding="utf-8")

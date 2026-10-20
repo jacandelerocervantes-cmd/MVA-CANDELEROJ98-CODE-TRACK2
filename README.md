@@ -81,7 +81,7 @@ Measured ChEMBL binding is used for drug-target links (at least two activity rec
 |-- (inputs)        the Track 1 submission CSV is NOT included; see below
 |-- protocol/       frozen protocol, addenda (four lines, review2), deviations.md
 |-- src/track2/     the pipeline and the final analysis modules
-|-- tests/          581 tests
+|-- tests/          586 tests collected
 |-- out/            computed outputs, forking_ledger.json, checksums.sha256
 |-- docs/           data protection, context of use, coverage, roadmap, mechanism screen
 |-- notebooks/      Colab notebook
@@ -91,7 +91,7 @@ Measured ChEMBL binding is used for drug-target links (at least two activity rec
 
 ## Tested environment and versions
 
-Executed by the author on **Windows 11 (10.0.26200), Python 3.10.11, pip 23.0.1, setuptools 78.1.0**; 581 tests pass. The code uses `pathlib` and writes files with explicit LF.
+Executed by the author on **Windows 11 (10.0.26200), Python 3.10.11, pip 23.0.1, setuptools 78.1.0**; 586 tests are collected; 581 passed in the author's environment with the downloaded sources, and in a clean clone without them 561 pass and 25 are skipped. The code uses `pathlib` and writes files with explicit LF.
 
 **Also run on Google Colab (Linux 6.6, glibc 2.39, Python 3.13.16, CPU runtime, 2026-10-07)** with `notebooks/MVA_Hackathon_2026_Track2.ipynb` (all 12 code cells, 59 s, `USE_DRIVE = False`): `requirements-track2.lock` installs without changes, the 169 tests pass, the four sources downloaded again (15 files compared) have the SHA-256 recorded in `data/sources/record.json`, and two results of the final analysis (`out/phenotype_module_e5.json`, `out/kg_query_e5.json`) are regenerated **byte for byte** and match `out/checksums.sha256`. The first attempt showed that the information-content scores of the phenotype module differ in the last digit (about 1e-15, `math.log` differs between operating systems); the written scores are now rounded to 10 decimals, with no change to any gene, variant or ranking.
 
@@ -125,26 +125,26 @@ Exact pins are in [`requirements-track2.lock`](requirements-track2.lock). numpy,
 Linux / macOS:
 
 ```bash
-git clone https://github.com/jacandelerocervantes-cmd/HSelith_MVA-Track2.git
-cd HSelith_MVA-Track2
+git clone https://github.com/jacandelerocervantes-cmd/MVA-CANDELEROJ98-CODE-TRACK2.git
+cd MVA-CANDELEROJ98-CODE-TRACK2
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
 pip install -r requirements-track2.lock
-python -m pytest -v              # 581 passed
+python -m pytest -v              # 561 passed, 25 skipped in a clean clone (586 collected; the 25 need the downloaded sources)
 ```
 
 Windows (PowerShell):
 
 ```powershell
-git clone https://github.com/jacandelerocervantes-cmd/HSelith_MVA-Track2.git
-cd HSelith_MVA-Track2
+git clone https://github.com/jacandelerocervantes-cmd/MVA-CANDELEROJ98-CODE-TRACK2.git
+cd MVA-CANDELEROJ98-CODE-TRACK2
 py -3 -m venv .venv
 # if activation is blocked: Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 .\.venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
 pip install -r requirements-track2.lock
-python -m pytest -v              # 581 passed
+python -m pytest -v              # 561 passed, 25 skipped in a clean clone (586 collected; the 25 need the downloaded sources)
 ```
 
 ### 2. Reproduce the analysis
@@ -215,7 +215,7 @@ The files for `--gtf`, `--cds-cache` and `--gnomad-cache` are produced by the Tr
 
 **Outputs that read live label text.** The label tables, the caution list and the quote checks read DailyMed and openFDA text, and labels change over time, so those outputs can differ between runs. They are listed as network-dependent in the checksums, and the label readings of this study were fixed on 2026-10-08.
 
-The record is `out/checksums.sha256` (185 files at the time of writing: 127 deterministic and 58 that embed live service text, depend on files outside the repository or on the machine, and need the same cache). `python -m track2.verify_outputs` compares the files with it and exits non-zero on any difference in the deterministic group; `python -m track2.verify_outputs --write` records the current state. The hashes of the protocol files at the moment the amendments were approved are in `protocol/hashes_review2.sha256`. Source files downloaded for the four lines are hashed in `data/sources/record.json`.
+The record is `out/checksums.sha256` (184 files at the time of writing: 126 deterministic and 58 that embed live service text, depend on files outside the repository or on the machine, and need the same cache). `python -m track2.verify_outputs` compares the files with it and exits non-zero on any difference in the deterministic group; `python -m track2.verify_outputs --write` records the current state. The hashes of the protocol files at the moment the amendments were approved are in `protocol/hashes_review2.sha256`. Source files downloaded for the four lines are hashed in `data/sources/record.json`.
 
 ## Gene landscape, differential diagnosis, variant mechanism and case profile
 
@@ -248,7 +248,7 @@ Where each third-party resource was obtained, how access is obtained and how it 
 
 ## Licence
 
-As the terms of the dataset (Hackathon Rules and Data Transfer Agreement) state, participant submissions and results (predictions, code and reports) are released under CC BY 4.0 and may be reused with attribution; this applies to the submission (reports, tables and the other submitted files). The code is also available under the MIT licence (file `LICENSE`). Third-party resources keep their own licences (see `THIRD_PARTY_LICENSES.md`); where a resource is CC BY-SA, derived tables that reproduce its content keep that licence.
+As the terms of the dataset (Hackathon Rules and Data Transfer Agreement) state, participant submissions and results (predictions, code and reports) are released under CC BY 4.0 and may be reused with attribution; this applies to the submission (reports, tables and the other submitted files). The code is released under the same terms (CC BY 4.0; the full text is in `LICENSE`). Third-party resources keep their own licences (see `THIRD_PARTY_LICENSES.md`); where a resource is CC BY-SA, derived tables that reproduce its content keep that licence.
 
 ## Data privacy
 
