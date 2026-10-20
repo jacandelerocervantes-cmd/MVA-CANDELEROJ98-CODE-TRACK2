@@ -284,7 +284,7 @@ The biases declared in Section 4.1 could themselves be measured. Repeating the s
 
 ### 5.1 Reproducibility
 
-The pipeline comprises 150 Python modules with 581 collected tests; SHA-256 checksums are recorded for 184 output files, and the download record lists each source with, where a file was downloaded, its size and SHA-256; the gaps are marked in the repository.
+The pipeline comprises 150 Python modules with 586 collected tests; SHA-256 checksums are recorded for 184 output files, and the download record lists each source with, where a file was downloaded, its size and SHA-256; the gaps are marked in the repository.
 
 One run on a free cloud runtime installed the locked environment unchanged, passed 169 tests, matched four downloaded sources against their recorded hashes and reproduced two outputs byte for byte; information-content scores differed in the last digit between operating systems, so written scores are rounded. The pipeline also ran unchanged on two synthetic cases, of the Fanconi anaemia and MVA types, with repeat runs producing byte-identical output.
 
