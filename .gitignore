@@ -3,3 +3,12 @@ __pycache__/
 .pytest_cache/
 .coverage
 .env
+
+# patient-derived and raw data: never version
+data/private/
+*.vcf
+*.vcf.gz
+*.bam
+*.cram
+*.fastq
+*.fastq.gz
