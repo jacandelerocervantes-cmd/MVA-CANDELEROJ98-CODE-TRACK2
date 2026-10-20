@@ -1,0 +1,6748 @@
+{
+ "caveats": [
+  "Spontaneous reports: no denominator, no incidence; reporting is influenced by media, drug age and indication.",
+  "Confounding by indication: the disease treated (or its complications) is reported with the drug.",
+  "Duplicate and incomplete reports; a drug is matched by its generic name and may be suspect or concomitant.",
+  "A disproportionality signal is a hypothesis for expert pharmacovigilance review, not evidence of causality.",
+  "The outcome groups are regular-expression groups of MedDRA preferred terms (see module doc); not for medical decisions."
+ ],
+ "drugs": {
+  "CHEMBL107": {
+   "available": true,
+   "groups": {
+    "cardiac": {
+     "chi2_yates": 1655.1,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.191,
+     "prr_ci95": [
+      2.11,
+      2.275
+     ],
+     "ror": 2.314,
+     "ror_ci95": [
+      2.22,
+      2.413
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 2455,
+      "b": 23726,
+      "c": 884410,
+      "d": 19782099
+     }
+    },
+    "haematological": {
+     "chi2_yates": 2241.266,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.679,
+     "prr_ci95": [
+      2.57,
+      2.792
+     ],
+     "ror": 2.823,
+     "ror_ci95": [
+      2.699,
+      2.953
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 2076,
+      "b": 24105,
+      "c": 611783,
+      "d": 20054726
+     }
+    },
+    "hepatic": {
+     "chi2_yates": 1413.707,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.331,
+     "prr_ci95": [
+      2.23,
+      2.437
+     ],
+     "ror": 2.43,
+     "ror_ci95": [
+      2.317,
+      2.549
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 1812,
+      "b": 24369,
+      "c": 613630,
+      "d": 20052879
+     }
+    },
+    "hypersensitivity": {
+     "chi2_yates": 647.172,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.622,
+     "prr_ci95": [
+      1.563,
+      1.683
+     ],
+     "ror": 1.689,
+     "ror_ci95": [
+      1.622,
+      1.76
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 2557,
+      "b": 23624,
+      "c": 1244332,
+      "d": 19422177
+     }
+    },
+    "neurological": {
+     "chi2_yates": 7.518,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.13,
+     "prr_ci95": [
+      1.036,
+      1.232
+     ],
+     "ror": 1.133,
+     "ror_ci95": [
+      1.037,
+      1.237
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 503,
+      "b": 25678,
+      "c": 351353,
+      "d": 20315156
+     }
+    },
+    "renal": {
+     "chi2_yates": 8298.079,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 3.882,
+     "prr_ci95": [
+      3.769,
+      3.999
+     ],
+     "ror": 4.365,
+     "ror_ci95": [
+      4.216,
+      4.518
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 3754,
+      "b": 22427,
+      "c": 763309,
+      "d": 19903200
+     }
+    }
+   },
+   "n_drug_reports": 26181,
+   "name_queried": "COLCHICINE"
+  },
+  "CHEMBL1096": {
+   "available": false,
+   "name_queried": "AMLEXANOX",
+   "reason": "openFDA has no reports under this generic name"
+  },
+  "CHEMBL1102": {
+   "available": false,
+   "name_queried": "GLUTETHIMIDE",
+   "reason": "openFDA has no reports under this generic name"
+  },
+  "CHEMBL12": {
+   "available": true,
+   "groups": {
+    "cardiac": {
+     "chi2_yates": 9497.704,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.338,
+     "prr_ci95": [
+      2.299,
+      2.379
+     ],
+     "ror": 2.486,
+     "ror_ci95": [
+      2.44,
+      2.534
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 12031,
+      "b": 108949,
+      "c": 874834,
+      "d": 19696876
+     }
+    },
+    "haematological": {
+     "chi2_yates": 11.954,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.943,
+     "prr_ci95": [
+      0.912,
+      0.975
+     ],
+     "ror": 0.941,
+     "ror_ci95": [
+      0.91,
+      0.974
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 3385,
+      "b": 117595,
+      "c": 610474,
+      "d": 19961236
+     }
+    },
+    "hepatic": {
+     "chi2_yates": 488.659,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.365,
+     "prr_ci95": [
+      1.328,
+      1.403
+     ],
+     "ror": 1.38,
+     "ror_ci95": [
+      1.341,
+      1.421
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 4901,
+      "b": 116079,
+      "c": 610541,
+      "d": 19961169
+     }
+    },
+    "hypersensitivity": {
+     "chi2_yates": 32.083,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.935,
+     "prr_ci95": [
+      0.914,
+      0.957
+     ],
+     "ror": 0.932,
+     "ror_ci95": [
+      0.909,
+      0.955
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 6822,
+      "b": 114158,
+      "c": 1240067,
+      "d": 19331643
+     }
+    },
+    "neurological": {
+     "chi2_yates": 5216.585,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.599,
+     "prr_ci95": [
+      2.53,
+      2.668
+     ],
+     "ror": 2.672,
+     "ror_ci95": [
+      2.599,
+      2.747
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 5296,
+      "b": 115684,
+      "c": 346560,
+      "d": 20225150
+     }
+    },
+    "renal": {
+     "chi2_yates": 998.907,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.466,
+     "prr_ci95": [
+      1.432,
+      1.501
+     ],
+     "ror": 1.493,
+     "ror_ci95": [
+      1.456,
+      1.53
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 6556,
+      "b": 114424,
+      "c": 760507,
+      "d": 19811203
+     }
+    }
+   },
+   "n_drug_reports": 120980,
+   "name_queried": "DIAZEPAM"
+  },
+  "CHEMBL1200472": {
+   "available": true,
+   "groups": {
+    "cardiac": {
+     "chi2_yates": 38.061,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.722,
+     "prr_ci95": [
+      1.994,
+      3.717
+     ],
+     "ror": 2.95,
+     "ror_ci95": [
+      2.073,
+      4.196
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 35,
+      "b": 265,
+      "c": 886830,
+      "d": 19805560
+     }
+    },
+    "haematological": {
+     "chi2_yates": 1.501,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.461,
+     "prr_ci95": [
+      0.858,
+      2.486
+     ],
+     "ror": 1.482,
+     "ror_ci95": [
+      0.85,
+      2.583
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 13,
+      "b": 287,
+      "c": 613846,
+      "d": 20078544
+     }
+    },
+    "hepatic": {
+     "chi2_yates": 10.596,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.129,
+     "prr_ci95": [
+      1.378,
+      3.291
+     ],
+     "ror": 2.206,
+     "ror_ci95": [
+      1.386,
+      3.51
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 19,
+      "b": 281,
+      "c": 615423,
+      "d": 20076967
+     }
+    },
+    "hypersensitivity": {
+     "chi2_yates": 7.89,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.332,
+     "prr_ci95": [
+      0.15,
+      0.733
+     ],
+     "ror": 0.318,
+     "ror_ci95": [
+      0.142,
+      0.714
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 6,
+      "b": 294,
+      "c": 1246883,
+      "d": 19445507
+     }
+    },
+    "neurological": {
+     "chi2_yates": 0.39,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.372,
+     "prr_ci95": [
+      0.66,
+      2.854
+     ],
+     "ror": 1.381,
+     "ror_ci95": [
+      0.653,
+      2.923
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 7,
+      "b": 293,
+      "c": 351849,
+      "d": 20340541
+     }
+    },
+    "renal": {
+     "chi2_yates": 0.641,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.719,
+     "prr_ci95": [
+      0.363,
+      1.425
+     ],
+     "ror": 0.712,
+     "ror_ci95": [
+      0.353,
+      1.437
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 8,
+      "b": 292,
+      "c": 767055,
+      "d": 19925335
+     }
+    }
+   },
+   "n_drug_reports": 300,
+   "name_queried": "QUAZEPAM"
+  },
+  "CHEMBL1200790": {
+   "available": false,
+   "name_queried": "METHYPRYLON",
+   "reason": "openFDA has no reports under this generic name"
+  },
+  "CHEMBL1200802": {
+   "available": false,
+   "name_queried": "TALBUTAL",
+   "reason": "openFDA has no reports under this generic name"
+  },
+  "CHEMBL1201748": {
+   "available": true,
+   "groups": {
+    "cardiac": {
+     "chi2_yates": 3.457,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.847,
+     "prr_ci95": [
+      0.714,
+      1.006
+     ],
+     "ror": 0.842,
+     "ror_ci95": [
+      0.705,
+      1.006
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 126,
+      "b": 3343,
+      "c": 886739,
+      "d": 19802482
+     }
+    },
+    "haematological": {
+     "chi2_yates": 3091.753,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 6.409,
+     "prr_ci95": [
+      5.984,
+      6.866
+     ],
+     "ror": 7.678,
+     "ror_ci95": [
+      7.053,
+      8.358
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 659,
+      "b": 2810,
+      "c": 613200,
+      "d": 20076021
+     }
+    },
+    "hepatic": {
+     "chi2_yates": 33.988,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.57,
+     "prr_ci95": [
+      1.351,
+      1.825
+     ],
+     "ror": 1.598,
+     "ror_ci95": [
+      1.365,
+      1.871
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 162,
+      "b": 3307,
+      "c": 615280,
+      "d": 20073941
+     }
+    },
+    "hypersensitivity": {
+     "chi2_yates": 96.308,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.34,
+     "prr_ci95": [
+      0.27,
+      0.428
+     ],
+     "ror": 0.326,
+     "ror_ci95": [
+      0.258,
+      0.412
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 71,
+      "b": 3398,
+      "c": 1246818,
+      "d": 19442403
+     }
+    },
+    "neurological": {
+     "chi2_yates": 80.97,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.17,
+     "prr_ci95": [
+      1.831,
+      2.573
+     ],
+     "ror": 2.215,
+     "ror_ci95": [
+      1.857,
+      2.643
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 128,
+      "b": 3341,
+      "c": 351728,
+      "d": 20337493
+     }
+    },
+    "renal": {
+     "chi2_yates": 82.243,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.789,
+     "prr_ci95": [
+      1.579,
+      2.027
+     ],
+     "ror": 1.845,
+     "ror_ci95": [
+      1.614,
+      2.109
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 230,
+      "b": 3239,
+      "c": 766833,
+      "d": 19922388
+     }
+    }
+   },
+   "n_drug_reports": 3469,
+   "name_queried": "CABAZITAXEL"
+  },
+  "CHEMBL1201752": {
+   "available": true,
+   "groups": {
+    "cardiac": {
+     "chi2_yates": 4.914,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.335,
+     "prr_ci95": [
+      1.044,
+      1.706
+     ],
+     "ror": 1.355,
+     "ror_ci95": [
+      1.044,
+      1.758
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 60,
+      "b": 989,
+      "c": 886805,
+      "d": 19804836
+     }
+    },
+    "haematological": {
+     "chi2_yates": 984.128,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 6.557,
+     "prr_ci95": [
+      5.797,
+      7.417
+     ],
+     "ror": 7.899,
+     "ror_ci95": [
+      6.779,
+      9.204
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 204,
+      "b": 845,
+      "c": 613655,
+      "d": 20077986
+     }
+    },
+    "hepatic": {
+     "chi2_yates": 11.064,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.603,
+     "prr_ci95": [
+      1.223,
+      2.1
+     ],
+     "ror": 1.633,
+     "ror_ci95": [
+      1.229,
+      2.169
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 50,
+      "b": 999,
+      "c": 615392,
+      "d": 20076249
+     }
+    },
+    "hypersensitivity": {
+     "chi2_yates": 3.643,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.759,
+     "prr_ci95": [
+      0.576,
+      1.001
+     ],
+     "ror": 0.748,
+     "ror_ci95": [
+      0.56,
+      0.999
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 48,
+      "b": 1001,
+      "c": 1246841,
+      "d": 19444800
+     }
+    },
+    "neurological": {
+     "chi2_yates": 268.9,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 4.878,
+     "prr_ci95": [
+      3.989,
+      5.966
+     ],
+     "ror": 5.229,
+     "ror_ci95": [
+      4.199,
+      6.512
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 87,
+      "b": 962,
+      "c": 351769,
+      "d": 20339872
+     }
+    },
+    "renal": {
+     "chi2_yates": 1.982,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.234,
+     "prr_ci95": [
+      0.936,
+      1.627
+     ],
+     "ror": 1.246,
+     "ror_ci95": [
+      0.932,
+      1.664
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 48,
+      "b": 1001,
+      "c": 767015,
+      "d": 19924626
+     }
+    }
+   },
+   "n_drug_reports": 1049,
+   "name_queried": "IXABEPILONE"
+  },
+  "CHEMBL1522": {
+   "available": true,
+   "groups": {
+    "cardiac": {
+     "chi2_yates": 4.151,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.061,
+     "prr_ci95": [
+      1.003,
+      1.123
+     ],
+     "ror": 1.064,
+     "ror_ci95": [
+      1.003,
+      1.129
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 1151,
+      "b": 24162,
+      "c": 885714,
+      "d": 19781663
+     }
+    },
+    "haematological": {
+     "chi2_yates": 66.157,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.707,
+     "prr_ci95": [
+      0.65,
+      0.769
+     ],
+     "ror": 0.701,
+     "ror_ci95": [
+      0.643,
+      0.764
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 531,
+      "b": 24782,
+      "c": 613328,
+      "d": 20054049
+     }
+    },
+    "hepatic": {
+     "chi2_yates": 69.612,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.7,
+     "prr_ci95": [
+      0.643,
+      0.761
+     ],
+     "ror": 0.693,
+     "ror_ci95": [
+      0.636,
+      0.756
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 527,
+      "b": 24786,
+      "c": 614915,
+      "d": 20052462
+     }
+    },
+    "hypersensitivity": {
+     "chi2_yates": 90.424,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.764,
+     "prr_ci95": [
+      0.722,
+      0.808
+     ],
+     "ror": 0.752,
+     "ror_ci95": [
+      0.709,
+      0.798
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 1165,
+      "b": 24148,
+      "c": 1245724,
+      "d": 19421653
+     }
+    },
+    "neurological": {
+     "chi2_yates": 0.155,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.02,
+     "prr_ci95": [
+      0.93,
+      1.119
+     ],
+     "ror": 1.02,
+     "ror_ci95": [
+      0.928,
+      1.121
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 439,
+      "b": 24874,
+      "c": 351417,
+      "d": 20315960
+     }
+    },
+    "renal": {
+     "chi2_yates": 0.0,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.001,
+     "prr_ci95": [
+      0.94,
+      1.066
+     ],
+     "ror": 1.001,
+     "ror_ci95": [
+      0.938,
+      1.068
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 939,
+      "b": 24374,
+      "c": 766124,
+      "d": 19901253
+     }
+    }
+   },
+   "n_drug_reports": 25313,
+   "name_queried": "ESZOPICLONE"
+  },
+  "CHEMBL1568698": {
+   "available": false,
+   "name_queried": "GANAXOLONE",
+   "reason": "openFDA has no reports under this generic name"
+  },
+  "CHEMBL1697737": {
+   "available": false,
+   "name_queried": "CLOTIAZEPAM",
+   "reason": "openFDA has no reports under this generic name"
+  },
+  "CHEMBL1742994": {
+   "available": true,
+   "groups": {
+    "cardiac": {
+     "chi2_yates": 0.454,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.033,
+     "prr_ci95": [
+      0.944,
+      1.13
+     ],
+     "ror": 1.034,
+     "ror_ci95": [
+      0.941,
+      1.137
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 451,
+      "b": 9739,
+      "c": 886414,
+      "d": 19796086
+     }
+    },
+    "haematological": {
+     "chi2_yates": 11981.258,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 7.224,
+     "prr_ci95": [
+      6.959,
+      7.499
+     ],
+     "ror": 8.915,
+     "ror_ci95": [
+      8.502,
+      9.348
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 2177,
+      "b": 8013,
+      "c": 611682,
+      "d": 20070818
+     }
+    },
+    "hepatic": {
+     "chi2_yates": 521.301,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.295,
+     "prr_ci95": [
+      2.136,
+      2.465
+     ],
+     "ror": 2.389,
+     "ror_ci95": [
+      2.212,
+      2.581
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 695,
+      "b": 9495,
+      "c": 614747,
+      "d": 20067753
+     }
+    },
+    "hypersensitivity": {
+     "chi2_yates": 30.43,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.217,
+     "prr_ci95": [
+      1.136,
+      1.304
+     ],
+     "ror": 1.234,
+     "ror_ci95": [
+      1.145,
+      1.329
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 747,
+      "b": 9443,
+      "c": 1246142,
+      "d": 19436358
+     }
+    },
+    "neurological": {
+     "chi2_yates": 8546.74,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 7.992,
+     "prr_ci95": [
+      7.608,
+      8.395
+     ],
+     "ror": 9.087,
+     "ror_ci95": [
+      8.585,
+      9.619
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 1380,
+      "b": 8810,
+      "c": 350476,
+      "d": 20332024
+     }
+    },
+    "renal": {
+     "chi2_yates": 21.672,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.236,
+     "prr_ci95": [
+      1.132,
+      1.351
+     ],
+     "ror": 1.248,
+     "ror_ci95": [
+      1.137,
+      1.369
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 467,
+      "b": 9723,
+      "c": 766596,
+      "d": 19915904
+     }
+    }
+   },
+   "n_drug_reports": 10190,
+   "name_queried": "BRENTUXIMAB VEDOTIN"
+  },
+  "CHEMBL1743082": {
+   "available": false,
+   "name_queried": "TRASTUZUMAB EMTANSINE",
+   "reason": "openFDA has no reports under this generic name"
+  },
+  "CHEMBL1770916": {
+   "available": true,
+   "groups": {
+    "cardiac": {
+     "chi2_yates": 15.95,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.334,
+     "prr_ci95": [
+      0.191,
+      0.586
+     ],
+     "ror": 0.324,
+     "ror_ci95": [
+      0.183,
+      0.574
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 12,
+      "b": 826,
+      "c": 886853,
+      "d": 19804999
+     }
+    },
+    "haematological": {
+     "chi2_yates": 11.096,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.322,
+     "prr_ci95": [
+      0.161,
+      0.641
+     ],
+     "ror": 0.315,
+     "ror_ci95": [
+      0.157,
+      0.633
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 8,
+      "b": 830,
+      "c": 613851,
+      "d": 20078001
+     }
+    },
+    "hepatic": {
+     "chi2_yates": 3.042,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.364,
+     "prr_ci95": [
+      0.981,
+      1.896
+     ],
+     "ror": 1.38,
+     "ror_ci95": [
+      0.979,
+      1.944
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 34,
+      "b": 804,
+      "c": 615408,
+      "d": 20076444
+     }
+    },
+    "hypersensitivity": {
+     "chi2_yates": 298.455,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 3.367,
+     "prr_ci95": [
+      2.944,
+      3.851
+     ],
+     "ror": 3.969,
+     "ror_ci95": [
+      3.354,
+      4.697
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 170,
+      "b": 668,
+      "c": 1246719,
+      "d": 19445133
+     }
+    },
+    "neurological": {
+     "chi2_yates": 2.36,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.561,
+     "prr_ci95": [
+      0.282,
+      1.119
+     ],
+     "ror": 0.557,
+     "ror_ci95": [
+      0.278,
+      1.118
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 8,
+      "b": 830,
+      "c": 351848,
+      "d": 20340004
+     }
+    },
+    "renal": {
+     "chi2_yates": 1.913,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.74,
+     "prr_ci95": [
+      0.495,
+      1.108
+     ],
+     "ror": 0.733,
+     "ror_ci95": [
+      0.484,
+      1.109
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 23,
+      "b": 815,
+      "c": 767040,
+      "d": 19924812
+     }
+    }
+   },
+   "n_drug_reports": 838,
+   "name_queried": "NIROGACESTAT"
+  },
+  "CHEMBL207538": {
+   "available": false,
+   "name_queried": "BREXANOLONE",
+   "reason": "openFDA has no reports under this generic name"
+  },
+  "CHEMBL2103875": {
+   "available": true,
+   "groups": {
+    "cardiac": {
+     "chi2_yates": 18.542,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.868,
+     "prr_ci95": [
+      0.814,
+      0.926
+     ],
+     "ror": 0.863,
+     "ror_ci95": [
+      0.807,
+      0.923
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 894,
+      "b": 23129,
+      "c": 885971,
+      "d": 19782696
+     }
+    },
+    "haematological": {
+     "chi2_yates": 46.828,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.253,
+     "prr_ci95": [
+      1.175,
+      1.337
+     ],
+     "ror": 1.263,
+     "ror_ci95": [
+      1.181,
+      1.351
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 893,
+      "b": 23130,
+      "c": 612966,
+      "d": 20055701
+     }
+    },
+    "hepatic": {
+     "chi2_yates": 658.018,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.948,
+     "prr_ci95": [
+      1.851,
+      2.05
+     ],
+     "ror": 2.006,
+     "ror_ci95": [
+      1.9,
+      2.118
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 1390,
+      "b": 22633,
+      "c": 614052,
+      "d": 20054615
+     }
+    },
+    "hypersensitivity": {
+     "chi2_yates": 593.4,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.622,
+     "prr_ci95": [
+      1.561,
+      1.685
+     ],
+     "ror": 1.689,
+     "ror_ci95": [
+      1.619,
+      1.763
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 2346,
+      "b": 21677,
+      "c": 1244543,
+      "d": 19424124
+     }
+    },
+    "neurological": {
+     "chi2_yates": 72.921,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.421,
+     "prr_ci95": [
+      1.311,
+      1.54
+     ],
+     "ror": 1.431,
+     "ror_ci95": [
+      1.318,
+      1.554
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 580,
+      "b": 23443,
+      "c": 351276,
+      "d": 20317391
+     }
+    },
+    "renal": {
+     "chi2_yates": 0.042,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.007,
+     "prr_ci95": [
+      0.945,
+      1.074
+     ],
+     "ror": 1.008,
+     "ror_ci95": [
+      0.943,
+      1.077
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 897,
+      "b": 23126,
+      "c": 766166,
+      "d": 19902501
+     }
+    }
+   },
+   "n_drug_reports": 24023,
+   "name_queried": "TRAMETINIB"
+  },
+  "CHEMBL2105755": {
+   "available": true,
+   "groups": {
+    "cardiac": {
+     "chi2_yates": 2.209,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.182,
+     "prr_ci95": [
+      0.957,
+      1.459
+     ],
+     "ror": 1.191,
+     "ror_ci95": [
+      0.954,
+      1.488
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 82,
+      "b": 1537,
+      "c": 886783,
+      "d": 19804288
+     }
+    },
+    "haematological": {
+     "chi2_yates": 183.498,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.936,
+     "prr_ci95": [
+      2.508,
+      3.438
+     ],
+     "ror": 3.121,
+     "ror_ci95": [
+      2.626,
+      3.71
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 141,
+      "b": 1478,
+      "c": 613718,
+      "d": 20077353
+     }
+    },
+    "hepatic": {
+     "chi2_yates": 330.983,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 3.593,
+     "prr_ci95": [
+      3.121,
+      4.137
+     ],
+     "ror": 3.904,
+     "ror_ci95": [
+      3.334,
+      4.571
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 173,
+      "b": 1446,
+      "c": 615269,
+      "d": 20075802
+     }
+    },
+    "hypersensitivity": {
+     "chi2_yates": 4.837,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.779,
+     "prr_ci95": [
+      0.625,
+      0.97
+     ],
+     "ror": 0.768,
+     "ror_ci95": [
+      0.61,
+      0.967
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 76,
+      "b": 1543,
+      "c": 1246813,
+      "d": 19444258
+     }
+    },
+    "neurological": {
+     "chi2_yates": 0.0,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.981,
+     "prr_ci95": [
+      0.675,
+      1.426
+     ],
+     "ror": 0.98,
+     "ror_ci95": [
+      0.67,
+      1.434
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 27,
+      "b": 1592,
+      "c": 351829,
+      "d": 20339242
+     }
+    },
+    "renal": {
+     "chi2_yates": 34.245,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.75,
+     "prr_ci95": [
+      1.454,
+      2.105
+     ],
+     "ror": 1.802,
+     "ror_ci95": [
+      1.478,
+      2.196
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 105,
+      "b": 1514,
+      "c": 766958,
+      "d": 19924113
+     }
+    }
+   },
+   "n_drug_reports": 1619,
+   "name_queried": "NALDEMEDINE"
+  },
+  "CHEMBL2110725": {
+   "available": false,
+   "name_queried": "VINFLUNINE",
+   "reason": "openFDA has no reports under this generic name"
+  },
+  "CHEMBL2403108": {
+   "available": true,
+   "groups": {
+    "cardiac": {
+     "chi2_yates": 1.113,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.893,
+     "prr_ci95": [
+      0.73,
+      1.092
+     ],
+     "ror": 0.889,
+     "ror_ci95": [
+      0.721,
+      1.096
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 91,
+      "b": 2287,
+      "c": 886774,
+      "d": 19803538
+     }
+    },
+    "haematological": {
+     "chi2_yates": 0.534,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.907,
+     "prr_ci95": [
+      0.712,
+      1.155
+     ],
+     "ror": 0.905,
+     "ror_ci95": [
+      0.706,
+      1.16
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 64,
+      "b": 2314,
+      "c": 613795,
+      "d": 20076517
+     }
+    },
+    "hepatic": {
+     "chi2_yates": 1257.784,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 5.163,
+     "prr_ci95": [
+      4.698,
+      5.674
+     ],
+     "ror": 5.918,
+     "ror_ci95": [
+      5.293,
+      6.616
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 365,
+      "b": 2013,
+      "c": 615077,
+      "d": 20075235
+     }
+    },
+    "hypersensitivity": {
+     "chi2_yates": 25.672,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.586,
+     "prr_ci95": [
+      0.475,
+      0.723
+     ],
+     "ror": 0.571,
+     "ror_ci95": [
+      0.459,
+      0.71
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 84,
+      "b": 2294,
+      "c": 1246805,
+      "d": 19443507
+     }
+    },
+    "neurological": {
+     "chi2_yates": 5.71,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.385,
+     "prr_ci95": [
+      1.069,
+      1.794
+     ],
+     "ror": 1.394,
+     "ror_ci95": [
+      1.07,
+      1.817
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 56,
+      "b": 2322,
+      "c": 351800,
+      "d": 20338512
+     }
+    },
+    "renal": {
+     "chi2_yates": 74.185,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.906,
+     "prr_ci95": [
+      1.647,
+      2.205
+     ],
+     "ror": 1.975,
+     "ror_ci95": [
+      1.688,
+      2.31
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 168,
+      "b": 2210,
+      "c": 766895,
+      "d": 19923417
+     }
+    }
+   },
+   "n_drug_reports": 2378,
+   "name_queried": "CERITINIB"
+  },
+  "CHEMBL270190": {
+   "available": true,
+   "groups": {
+    "cardiac": {
+     "chi2_yates": 0.245,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.628,
+     "prr_ci95": [
+      0.547,
+      4.848
+     ],
+     "ror": 1.675,
+     "ror_ci95": [
+      0.518,
+      5.414
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 3,
+      "b": 40,
+      "c": 886862,
+      "d": 19805785
+     }
+    },
+    "haematological": {
+     "chi2_yates": 1.211,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.352,
+     "prr_ci95": [
+      0.79,
+      7.005
+     ],
+     "ror": 2.453,
+     "ror_ci95": [
+      0.759,
+      7.93
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 3,
+      "b": 40,
+      "c": 613856,
+      "d": 20078791
+     }
+    },
+    "hepatic": {
+     "chi2_yates": 0.0,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.782,
+     "prr_ci95": [
+      0.113,
+      5.425
+     ],
+     "ror": 0.777,
+     "ror_ci95": [
+      0.107,
+      5.643
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 1,
+      "b": 42,
+      "c": 615441,
+      "d": 20077206
+     }
+    },
+    "hypersensitivity": {
+     "chi2_yates": 0.489,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.386,
+     "prr_ci95": [
+      0.056,
+      2.678
+     ],
+     "ror": 0.371,
+     "ror_ci95": [
+      0.051,
+      2.698
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 1,
+      "b": 42,
+      "c": 1246888,
+      "d": 19445759
+     }
+    },
+    "neurological": {
+     "estimable": false,
+     "note": "no report of the drug with this outcome group; no estimate",
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 0,
+      "b": 43,
+      "c": 351856,
+      "d": 20340791
+     }
+    },
+    "renal": {
+     "chi2_yates": 9.94,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 3.764,
+     "prr_ci95": [
+      1.792,
+      7.907
+     ],
+     "ror": 4.212,
+     "ror_ci95": [
+      1.778,
+      9.981
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 6,
+      "b": 37,
+      "c": 767057,
+      "d": 19925590
+     }
+    }
+   },
+   "n_drug_reports": 43,
+   "name_queried": "ALVIMOPAN"
+  },
+  "CHEMBL285674": {
+   "available": true,
+   "groups": {
+    "cardiac": {
+     "chi2_yates": 299.404,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.863,
+     "prr_ci95": [
+      2.542,
+      3.225
+     ],
+     "ror": 3.123,
+     "ror_ci95": [
+      2.727,
+      3.577
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 238,
+      "b": 1702,
+      "c": 886627,
+      "d": 19804123
+     }
+    },
+    "haematological": {
+     "chi2_yates": 129.235,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.485,
+     "prr_ci95": [
+      2.122,
+      2.91
+     ],
+     "ror": 2.603,
+     "ror_ci95": [
+      2.196,
+      3.087
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 143,
+      "b": 1797,
+      "c": 613716,
+      "d": 20077034
+     }
+    },
+    "hepatic": {
+     "chi2_yates": 82.12,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.184,
+     "prr_ci95": [
+      1.845,
+      2.586
+     ],
+     "ror": 2.266,
+     "ror_ci95": [
+      1.892,
+      2.715
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 126,
+      "b": 1814,
+      "c": 615316,
+      "d": 20075434
+     }
+    },
+    "hypersensitivity": {
+     "chi2_yates": 8.976,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.727,
+     "prr_ci95": [
+      0.591,
+      0.895
+     ],
+     "ror": 0.715,
+     "ror_ci95": [
+      0.575,
+      0.888
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 85,
+      "b": 1855,
+      "c": 1246804,
+      "d": 19443946
+     }
+    },
+    "neurological": {
+     "chi2_yates": 21.679,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.819,
+     "prr_ci95": [
+      1.418,
+      2.334
+     ],
+     "ror": 1.845,
+     "ror_ci95": [
+      1.427,
+      2.386
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 60,
+      "b": 1880,
+      "c": 351796,
+      "d": 20338954
+     }
+    },
+    "renal": {
+     "chi2_yates": 91.474,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.114,
+     "prr_ci95": [
+      1.815,
+      2.462
+     ],
+     "ror": 2.209,
+     "ror_ci95": [
+      1.871,
+      2.606
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 152,
+      "b": 1788,
+      "c": 766911,
+      "d": 19923839
+     }
+    }
+   },
+   "n_drug_reports": 1940,
+   "name_queried": "ESTAZOLAM"
+  },
+  "CHEMBL315795": {
+   "available": false,
+   "name_queried": "CLOMETHIAZOLE",
+   "reason": "openFDA has no reports under this generic name"
+  },
+  "CHEMBL3187723": {
+   "available": true,
+   "groups": {
+    "cardiac": {
+     "chi2_yates": 18.6,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.767,
+     "prr_ci95": [
+      0.68,
+      0.865
+     ],
+     "ror": 0.759,
+     "ror_ci95": [
+      0.67,
+      0.86
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 255,
+      "b": 7501,
+      "c": 886610,
+      "d": 19798324
+     }
+    },
+    "haematological": {
+     "chi2_yates": 1.065,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.069,
+     "prr_ci95": [
+      0.945,
+      1.209
+     ],
+     "ror": 1.071,
+     "ror_ci95": [
+      0.944,
+      1.217
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 246,
+      "b": 7510,
+      "c": 613613,
+      "d": 20071321
+     }
+    },
+    "hepatic": {
+     "chi2_yates": 569.074,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.55,
+     "prr_ci95": [
+      2.36,
+      2.757
+     ],
+     "ror": 2.678,
+     "ror_ci95": [
+      2.462,
+      2.913
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 588,
+      "b": 7168,
+      "c": 614854,
+      "d": 20070080
+     }
+    },
+    "hypersensitivity": {
+     "chi2_yates": 55.533,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.335,
+     "prr_ci95": [
+      1.239,
+      1.44
+     ],
+     "ror": 1.365,
+     "ror_ci95": [
+      1.257,
+      1.481
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 624,
+      "b": 7132,
+      "c": 1246265,
+      "d": 19438669
+     }
+    },
+    "neurological": {
+     "chi2_yates": 73.533,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.744,
+     "prr_ci95": [
+      1.536,
+      1.981
+     ],
+     "ror": 1.767,
+     "ror_ci95": [
+      1.55,
+      2.015
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 230,
+      "b": 7526,
+      "c": 351626,
+      "d": 20333308
+     }
+    },
+    "renal": {
+     "chi2_yates": 238.644,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.896,
+     "prr_ci95": [
+      1.749,
+      2.056
+     ],
+     "ror": 1.964,
+     "ror_ci95": [
+      1.8,
+      2.143
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 545,
+      "b": 7211,
+      "c": 766518,
+      "d": 19918416
+     }
+    }
+   },
+   "n_drug_reports": 7756,
+   "name_queried": "BINIMETINIB"
+  },
+  "CHEMBL325041": {
+   "available": true,
+   "groups": {
+    "cardiac": {
+     "chi2_yates": 240.637,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.247,
+     "prr_ci95": [
+      1.213,
+      1.282
+     ],
+     "ror": 1.261,
+     "ror_ci95": [
+      1.224,
+      1.298
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 4746,
+      "b": 84166,
+      "c": 882119,
+      "d": 19721659
+     }
+    },
+    "haematological": {
+     "chi2_yates": 21802.258,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 3.873,
+     "prr_ci95": [
+      3.802,
+      3.946
+     ],
+     "ror": 4.241,
+     "ror_ci95": [
+      4.154,
+      4.331
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 10092,
+      "b": 78820,
+      "c": 603767,
+      "d": 20000011
+     }
+    },
+    "hepatic": {
+     "chi2_yates": 0.003,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.999,
+     "prr_ci95": [
+      0.962,
+      1.037
+     ],
+     "ror": 0.999,
+     "ror_ci95": [
+      0.961,
+      1.038
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 2641,
+      "b": 86271,
+      "c": 612801,
+      "d": 19990977
+     }
+    },
+    "hypersensitivity": {
+     "chi2_yates": 135.147,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.846,
+     "prr_ci95": [
+      0.822,
+      0.87
+     ],
+     "ror": 0.837,
+     "ror_ci95": [
+      0.813,
+      0.863
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 4534,
+      "b": 84378,
+      "c": 1242355,
+      "d": 19361423
+     }
+    },
+    "neurological": {
+     "chi2_yates": 46125.767,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 6.621,
+     "prr_ci95": [
+      6.496,
+      6.748
+     ],
+     "ror": 7.315,
+     "ror_ci95": [
+      7.161,
+      7.473
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 9774,
+      "b": 79138,
+      "c": 342082,
+      "d": 20261696
+     }
+    },
+    "renal": {
+     "chi2_yates": 1627.167,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.693,
+     "prr_ci95": [
+      1.65,
+      1.737
+     ],
+     "ror": 1.739,
+     "ror_ci95": [
+      1.693,
+      1.787
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 5564,
+      "b": 83348,
+      "c": 761499,
+      "d": 19842279
+     }
+    }
+   },
+   "n_drug_reports": 88912,
+   "name_queried": "BORTEZOMIB"
+  },
+  "CHEMBL3286830": {
+   "available": true,
+   "groups": {
+    "cardiac": {
+     "chi2_yates": 27.358,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.298,
+     "prr_ci95": [
+      1.178,
+      1.429
+     ],
+     "ror": 1.315,
+     "ror_ci95": [
+      1.187,
+      1.457
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 388,
+      "b": 6589,
+      "c": 886477,
+      "d": 19799236
+     }
+    },
+    "haematological": {
+     "chi2_yates": 2.308,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.106,
+     "prr_ci95": [
+      0.974,
+      1.257
+     ],
+     "ror": 1.11,
+     "ror_ci95": [
+      0.973,
+      1.266
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 229,
+      "b": 6748,
+      "c": 613630,
+      "d": 20072083
+     }
+    },
+    "hepatic": {
+     "chi2_yates": 69.169,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.571,
+     "prr_ci95": [
+      1.413,
+      1.747
+     ],
+     "ror": 1.599,
+     "ror_ci95": [
+      1.431,
+      1.787
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 326,
+      "b": 6651,
+      "c": 615116,
+      "d": 20070597
+     }
+    },
+    "hypersensitivity": {
+     "chi2_yates": 230.798,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.281,
+     "prr_ci95": [
+      0.235,
+      0.336
+     ],
+     "ror": 0.268,
+     "ror_ci95": [
+      0.224,
+      0.322
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 118,
+      "b": 6859,
+      "c": 1246771,
+      "d": 19438942
+     }
+    },
+    "neurological": {
+     "chi2_yates": 453.231,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.944,
+     "prr_ci95": [
+      2.657,
+      3.261
+     ],
+     "ror": 3.046,
+     "ror_ci95": [
+      2.735,
+      3.392
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 349,
+      "b": 6628,
+      "c": 351507,
+      "d": 20334206
+     }
+    },
+    "renal": {
+     "chi2_yates": 0.391,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.04,
+     "prr_ci95": [
+      0.925,
+      1.169
+     ],
+     "ror": 1.042,
+     "ror_ci95": [
+      0.922,
+      1.177
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 269,
+      "b": 6708,
+      "c": 766794,
+      "d": 19918919
+     }
+    }
+   },
+   "n_drug_reports": 6977,
+   "name_queried": "LORLATINIB"
+  },
+  "CHEMBL3301582": {
+   "available": true,
+   "groups": {
+    "cardiac": {
+     "chi2_yates": 2.96,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.916,
+     "prr_ci95": [
+      0.83,
+      1.011
+     ],
+     "ror": 0.913,
+     "ror_ci95": [
+      0.824,
+      1.011
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 381,
+      "b": 9321,
+      "c": 886484,
+      "d": 19796504
+     }
+    },
+    "haematological": {
+     "chi2_yates": 11564.139,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 7.266,
+     "prr_ci95": [
+      6.994,
+      7.548
+     ],
+     "ror": 8.981,
+     "ror_ci95": [
+      8.555,
+      9.427
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 2085,
+      "b": 7617,
+      "c": 611774,
+      "d": 20071214
+     }
+    },
+    "hepatic": {
+     "chi2_yates": 198.93,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.82,
+     "prr_ci95": [
+      1.675,
+      1.978
+     ],
+     "ror": 1.867,
+     "ror_ci95": [
+      1.71,
+      2.039
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 525,
+      "b": 9177,
+      "c": 614917,
+      "d": 20068071
+     }
+    },
+    "hypersensitivity": {
+     "chi2_yates": 341.613,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.258,
+     "prr_ci95": [
+      0.22,
+      0.302
+     ],
+     "ror": 0.246,
+     "ror_ci95": [
+      0.21,
+      0.289
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 151,
+      "b": 9551,
+      "c": 1246738,
+      "d": 19436250
+     }
+    },
+    "neurological": {
+     "chi2_yates": 1742.992,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 4.231,
+     "prr_ci95": [
+      3.939,
+      4.545
+     ],
+     "ror": 4.481,
+     "ror_ci95": [
+      4.149,
+      4.841
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 697,
+      "b": 9005,
+      "c": 351159,
+      "d": 20331829
+     }
+    },
+    "renal": {
+     "chi2_yates": 71.985,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.441,
+     "prr_ci95": [
+      1.325,
+      1.567
+     ],
+     "ror": 1.465,
+     "ror_ci95": [
+      1.341,
+      1.601
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 518,
+      "b": 9184,
+      "c": 766545,
+      "d": 19916443
+     }
+    }
+   },
+   "n_drug_reports": 9702,
+   "name_queried": "POLATUZUMAB VEDOTIN"
+  },
+  "CHEMBL3301589": {
+   "available": true,
+   "groups": {
+    "cardiac": {
+     "chi2_yates": 39.456,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.649,
+     "prr_ci95": [
+      0.566,
+      0.744
+     ],
+     "ror": 0.639,
+     "ror_ci95": [
+      0.555,
+      0.735
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 201,
+      "b": 7023,
+      "c": 886664,
+      "d": 19798802
+     }
+    },
+    "haematological": {
+     "chi2_yates": 1050.025,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 3.185,
+     "prr_ci95": [
+      2.965,
+      3.421
+     ],
+     "ror": 3.413,
+     "ror_ci95": [
+      3.154,
+      3.693
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 682,
+      "b": 6542,
+      "c": 613177,
+      "d": 20072289
+     }
+    },
+    "hepatic": {
+     "chi2_yates": 817.085,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.925,
+     "prr_ci95": [
+      2.714,
+      3.152
+     ],
+     "ror": 3.108,
+     "ror_ci95": [
+      2.864,
+      3.373
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 628,
+      "b": 6596,
+      "c": 614814,
+      "d": 20070652
+     }
+    },
+    "hypersensitivity": {
+     "chi2_yates": 2759.096,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 3.444,
+     "prr_ci95": [
+      3.292,
+      3.603
+     ],
+     "ror": 4.084,
+     "ror_ci95": [
+      3.858,
+      4.323
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 1498,
+      "b": 5726,
+      "c": 1245391,
+      "d": 19440075
+     }
+    },
+    "neurological": {
+     "chi2_yates": 6572.065,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 8.276,
+     "prr_ci95": [
+      7.816,
+      8.763
+     ],
+     "ror": 9.464,
+     "ror_ci95": [
+      8.855,
+      10.114
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 1014,
+      "b": 6210,
+      "c": 350842,
+      "d": 20334624
+     }
+    },
+    "renal": {
+     "chi2_yates": 339.236,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.107,
+     "prr_ci95": [
+      1.946,
+      2.281
+     ],
+     "ror": 2.201,
+     "ror_ci95": [
+      2.019,
+      2.398
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 564,
+      "b": 6660,
+      "c": 766499,
+      "d": 19918967
+     }
+    }
+   },
+   "n_drug_reports": 7224,
+   "name_queried": "ENFORTUMAB VEDOTIN"
+  },
+  "CHEMBL344159": {
+   "available": true,
+   "groups": {
+    "cardiac": {
+     "chi2_yates": 2183.787,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.841,
+     "prr_ci95": [
+      2.719,
+      2.968
+     ],
+     "ror": 3.096,
+     "ror_ci95": [
+      2.945,
+      3.254
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 1757,
+      "b": 12691,
+      "c": 885108,
+      "d": 19793134
+     }
+    },
+    "haematological": {
+     "chi2_yates": 22.126,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.225,
+     "prr_ci95": [
+      1.126,
+      1.332
+     ],
+     "ror": 1.234,
+     "ror_ci95": [
+      1.131,
+      1.346
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 525,
+      "b": 13923,
+      "c": 613334,
+      "d": 20064908
+     }
+    },
+    "hepatic": {
+     "chi2_yates": 4218.772,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 4.095,
+     "prr_ci95": [
+      3.919,
+      4.279
+     ],
+     "ror": 4.524,
+     "ror_ci95": [
+      4.303,
+      4.755
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 1756,
+      "b": 12692,
+      "c": 613686,
+      "d": 20064556
+     }
+    },
+    "hypersensitivity": {
+     "chi2_yates": 379.614,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.359,
+     "prr_ci95": [
+      0.322,
+      0.401
+     ],
+     "ror": 0.345,
+     "ror_ci95": [
+      0.309,
+      0.386
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 313,
+      "b": 14135,
+      "c": 1246576,
+      "d": 19431666
+     }
+    },
+    "neurological": {
+     "chi2_yates": 0.911,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.062,
+     "prr_ci95": [
+      0.942,
+      1.198
+     ],
+     "ror": 1.064,
+     "ror_ci95": [
+      0.941,
+      1.202
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 261,
+      "b": 14187,
+      "c": 351595,
+      "d": 20326647
+     }
+    },
+    "renal": {
+     "chi2_yates": 6419.706,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 4.408,
+     "prr_ci95": [
+      4.247,
+      4.574
+     ],
+     "ror": 5.071,
+     "ror_ci95": [
+      4.852,
+      5.3
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 2355,
+      "b": 12093,
+      "c": 764708,
+      "d": 19913534
+     }
+    }
+   },
+   "n_drug_reports": 14448,
+   "name_queried": "TOLVAPTAN"
+  },
+  "CHEMBL3545132": {
+   "available": true,
+   "groups": {
+    "cardiac": {
+     "chi2_yates": 22.76,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.438,
+     "prr_ci95": [
+      0.309,
+      0.621
+     ],
+     "ror": 0.427,
+     "ror_ci95": [
+      0.3,
+      0.61
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 31,
+      "b": 1620,
+      "c": 886834,
+      "d": 19804205
+     }
+    },
+    "haematological": {
+     "chi2_yates": 23.647,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.695,
+     "prr_ci95": [
+      1.374,
+      2.09
+     ],
+     "ror": 1.732,
+     "ror_ci95": [
+      1.389,
+      2.159
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 83,
+      "b": 1568,
+      "c": 613776,
+      "d": 20077263
+     }
+    },
+    "hepatic": {
+     "chi2_yates": 0.611,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.12,
+     "prr_ci95": [
+      0.864,
+      1.452
+     ],
+     "ror": 1.124,
+     "ror_ci95": [
+      0.859,
+      1.471
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 55,
+      "b": 1596,
+      "c": 615387,
+      "d": 20075652
+     }
+    },
+    "hypersensitivity": {
+     "chi2_yates": 33.528,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.432,
+     "prr_ci95": [
+      0.322,
+      0.58
+     ],
+     "ror": 0.417,
+     "ror_ci95": [
+      0.308,
+      0.565
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 43,
+      "b": 1608,
+      "c": 1246846,
+      "d": 19444193
+     }
+    },
+    "neurological": {
+     "chi2_yates": 433.944,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 4.917,
+     "prr_ci95": [
+      4.191,
+      5.769
+     ],
+     "ror": 5.275,
+     "ror_ci95": [
+      4.431,
+      6.279
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 138,
+      "b": 1513,
+      "c": 351718,
+      "d": 20339321
+     }
+    },
+    "renal": {
+     "chi2_yates": 13.979,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.523,
+     "prr_ci95": [
+      0.371,
+      0.737
+     ],
+     "ror": 0.513,
+     "ror_ci95": [
+      0.362,
+      0.728
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 32,
+      "b": 1619,
+      "c": 767031,
+      "d": 19924008
+     }
+    }
+   },
+   "n_drug_reports": 1651,
+   "name_queried": "MIRVETUXIMAB SORAVTANSINE"
+  },
+  "CHEMBL3545185": {
+   "available": true,
+   "groups": {
+    "cardiac": {
+     "chi2_yates": 71.95,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.567,
+     "prr_ci95": [
+      0.496,
+      0.648
+     ],
+     "ror": 0.556,
+     "ror_ci95": [
+      0.484,
+      0.638
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 209,
+      "b": 8397,
+      "c": 886656,
+      "d": 19797428
+     }
+    },
+    "haematological": {
+     "chi2_yates": 5333.305,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 5.514,
+     "prr_ci95": [
+      5.256,
+      5.784
+     ],
+     "ror": 6.394,
+     "ror_ci95": [
+      6.039,
+      6.771
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 1405,
+      "b": 7201,
+      "c": 612454,
+      "d": 20071630
+     }
+    },
+    "hepatic": {
+     "chi2_yates": 88.785,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.418,
+     "prr_ci95": [
+      0.346,
+      0.505
+     ],
+     "ror": 0.411,
+     "ror_ci95": [
+      0.339,
+      0.497
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 107,
+      "b": 8499,
+      "c": 615335,
+      "d": 20068749
+     }
+    },
+    "hypersensitivity": {
+     "chi2_yates": 322.045,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.235,
+     "prr_ci95": [
+      0.197,
+      0.28
+     ],
+     "ror": 0.224,
+     "ror_ci95": [
+      0.187,
+      0.268
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 122,
+      "b": 8484,
+      "c": 1246767,
+      "d": 19437317
+     }
+    },
+    "neurological": {
+     "chi2_yates": 55.292,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.613,
+     "prr_ci95": [
+      1.422,
+      1.83
+     ],
+     "ror": 1.63,
+     "ror_ci95": [
+      1.433,
+      1.856
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 236,
+      "b": 8370,
+      "c": 351620,
+      "d": 20332464
+     }
+    },
+    "renal": {
+     "chi2_yates": 2.831,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.094,
+     "prr_ci95": [
+      0.987,
+      1.212
+     ],
+     "ror": 1.098,
+     "ror_ci95": [
+      0.986,
+      1.222
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 349,
+      "b": 8257,
+      "c": 766714,
+      "d": 19917370
+     }
+    }
+   },
+   "n_drug_reports": 8606,
+   "name_queried": "SELINEXOR"
+  },
+  "CHEMBL3545432": {
+   "available": true,
+   "groups": {
+    "cardiac": {
+     "chi2_yates": 61.582,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.78,
+     "prr_ci95": [
+      0.733,
+      0.83
+     ],
+     "ror": 0.773,
+     "ror_ci95": [
+      0.724,
+      0.824
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 957,
+      "b": 27652,
+      "c": 885908,
+      "d": 19778173
+     }
+    },
+    "haematological": {
+     "chi2_yates": 2823.455,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.803,
+     "prr_ci95": [
+      2.697,
+      2.913
+     ],
+     "ror": 2.966,
+     "ror_ci95": [
+      2.844,
+      3.094
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 2373,
+      "b": 26236,
+      "c": 611486,
+      "d": 20052595
+     }
+    },
+    "hepatic": {
+     "chi2_yates": 276.43,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.438,
+     "prr_ci95": [
+      0.396,
+      0.485
+     ],
+     "ror": 0.431,
+     "ror_ci95": [
+      0.389,
+      0.477
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 373,
+      "b": 28236,
+      "c": 615069,
+      "d": 20049012
+     }
+    },
+    "hypersensitivity": {
+     "chi2_yates": 0.098,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.008,
+     "prr_ci95": [
+      0.963,
+      1.055
+     ],
+     "ror": 1.008,
+     "ror_ci95": [
+      0.96,
+      1.058
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 1737,
+      "b": 26872,
+      "c": 1245152,
+      "d": 19418929
+     }
+    },
+    "neurological": {
+     "chi2_yates": 3372.456,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 3.623,
+     "prr_ci95": [
+      3.462,
+      3.791
+     ],
+     "ror": 3.794,
+     "ror_ci95": [
+      3.615,
+      3.982
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 1756,
+      "b": 26853,
+      "c": 350100,
+      "d": 20313981
+     }
+    },
+    "renal": {
+     "chi2_yates": 120.113,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.331,
+     "prr_ci95": [
+      1.265,
+      1.401
+     ],
+     "ror": 1.348,
+     "ror_ci95": [
+      1.278,
+      1.422
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 1411,
+      "b": 27198,
+      "c": 765652,
+      "d": 19898429
+     }
+    }
+   },
+   "n_drug_reports": 28609,
+   "name_queried": "IXAZOMIB"
+  },
+  "CHEMBL3990044": {
+   "available": false,
+   "name_queried": "RELATLIMAB",
+   "reason": "openFDA has no reports under this generic name"
+  },
+  "CHEMBL407": {
+   "available": true,
+   "groups": {
+    "cardiac": {
+     "chi2_yates": 305.295,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 3.848,
+     "prr_ci95": [
+      3.307,
+      4.477
+     ],
+     "ror": 4.41,
+     "ror_ci95": [
+      3.679,
+      5.287
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 140,
+      "b": 709,
+      "c": 886725,
+      "d": 19805116
+     }
+    },
+    "haematological": {
+     "chi2_yates": 0.004,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.032,
+     "prr_ci95": [
+      0.707,
+      1.507
+     ],
+     "ror": 1.033,
+     "ror_ci95": [
+      0.699,
+      1.527
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 26,
+      "b": 823,
+      "c": 613833,
+      "d": 20078008
+     }
+    },
+    "hepatic": {
+     "chi2_yates": 66.125,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.614,
+     "prr_ci95": [
+      2.073,
+      3.295
+     ],
+     "ror": 2.75,
+     "ror_ci95": [
+      2.139,
+      3.535
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 66,
+      "b": 783,
+      "c": 615376,
+      "d": 20076465
+     }
+    },
+    "hypersensitivity": {
+     "chi2_yates": 1.559,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.821,
+     "prr_ci95": [
+      0.611,
+      1.103
+     ],
+     "ror": 0.812,
+     "ror_ci95": [
+      0.595,
+      1.107
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 42,
+      "b": 807,
+      "c": 1246847,
+      "d": 19444994
+     }
+    },
+    "neurological": {
+     "chi2_yates": 982.298,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 9.216,
+     "prr_ci95": [
+      7.884,
+      10.773
+     ],
+     "ror": 10.742,
+     "ror_ci95": [
+      8.927,
+      12.926
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 133,
+      "b": 716,
+      "c": 351723,
+      "d": 20340118
+     }
+    },
+    "renal": {
+     "chi2_yates": 35.997,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.065,
+     "prr_ci95": [
+      1.635,
+      2.609
+     ],
+     "ror": 2.154,
+     "ror_ci95": [
+      1.672,
+      2.774
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 65,
+      "b": 784,
+      "c": 766998,
+      "d": 19924843
+     }
+    }
+   },
+   "n_drug_reports": 849,
+   "name_queried": "FLUMAZENIL"
+  },
+  "CHEMBL4105630": {
+   "available": true,
+   "groups": {
+    "cardiac": {
+     "chi2_yates": 43.655,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.207,
+     "prr_ci95": [
+      0.123,
+      0.348
+     ],
+     "ror": 0.2,
+     "ror_ci95": [
+      0.118,
+      0.338
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 14,
+      "b": 1565,
+      "c": 886851,
+      "d": 19804260
+     }
+    },
+    "haematological": {
+     "chi2_yates": 45.235,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.021,
+     "prr_ci95": [
+      0.003,
+      0.151
+     ],
+     "ror": 0.021,
+     "ror_ci95": [
+      0.003,
+      0.147
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 1,
+      "b": 1578,
+      "c": 613858,
+      "d": 20077253
+     }
+    },
+    "hepatic": {
+     "chi2_yates": 41.46,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.064,
+     "prr_ci95": [
+      0.021,
+      0.198
+     ],
+     "ror": 0.062,
+     "ror_ci95": [
+      0.02,
+      0.193
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 3,
+      "b": 1576,
+      "c": 615439,
+      "d": 20075672
+     }
+    },
+    "hypersensitivity": {
+     "chi2_yates": 59.028,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.231,
+     "prr_ci95": [
+      0.153,
+      0.35
+     ],
+     "ror": 0.22,
+     "ror_ci95": [
+      0.145,
+      0.336
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 22,
+      "b": 1557,
+      "c": 1246867,
+      "d": 19444244
+     }
+    },
+    "neurological": {
+     "chi2_yates": 8.927,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.41,
+     "prr_ci95": [
+      0.227,
+      0.738
+     ],
+     "ror": 0.406,
+     "ror_ci95": [
+      0.224,
+      0.734
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 11,
+      "b": 1568,
+      "c": 351845,
+      "d": 20339266
+     }
+    },
+    "renal": {
+     "chi2_yates": 55.708,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.034,
+     "prr_ci95": [
+      0.009,
+      0.136
+     ],
+     "ror": 0.033,
+     "ror_ci95": [
+      0.008,
+      0.132
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 2,
+      "b": 1577,
+      "c": 767061,
+      "d": 19924050
+     }
+    }
+   },
+   "n_drug_reports": 1579,
+   "name_queried": "ZURANOLONE"
+  },
+  "CHEMBL426084": {
+   "available": false,
+   "name_queried": "SAMIDORPHAN",
+   "reason": "openFDA has no reports under this generic name"
+  },
+  "CHEMBL428647": {
+   "available": true,
+   "groups": {
+    "cardiac": {
+     "chi2_yates": 458.712,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.324,
+     "prr_ci95": [
+      1.291,
+      1.358
+     ],
+     "ror": 1.343,
+     "ror_ci95": [
+      1.307,
+      1.38
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 5578,
+      "b": 92876,
+      "c": 881287,
+      "d": 19712949
+     }
+    },
+    "haematological": {
+     "chi2_yates": 88852.813,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 6.591,
+     "prr_ci95": [
+      6.505,
+      6.678
+     ],
+     "ror": 7.907,
+     "ror_ci95": [
+      7.78,
+      8.035
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 18752,
+      "b": 79702,
+      "c": 595107,
+      "d": 19999129
+     }
+    },
+    "hepatic": {
+     "chi2_yates": 8166.164,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.662,
+     "prr_ci95": [
+      2.605,
+      2.72
+     ],
+     "ror": 2.804,
+     "ror_ci95": [
+      2.739,
+      2.87
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 7734,
+      "b": 90720,
+      "c": 607708,
+      "d": 19986528
+     }
+    },
+    "hypersensitivity": {
+     "chi2_yates": 387.288,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.249,
+     "prr_ci95": [
+      1.222,
+      1.276
+     ],
+     "ror": 1.269,
+     "ror_ci95": [
+      1.239,
+      1.299
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 7399,
+      "b": 91055,
+      "c": 1239490,
+      "d": 19354746
+     }
+    },
+    "neurological": {
+     "chi2_yates": 19253.048,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 4.426,
+     "prr_ci95": [
+      4.328,
+      4.526
+     ],
+     "ror": 4.699,
+     "ror_ci95": [
+      4.588,
+      4.814
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 7290,
+      "b": 91164,
+      "c": 344566,
+      "d": 20249670
+     }
+    },
+    "renal": {
+     "chi2_yates": 911.873,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.493,
+     "prr_ci95": [
+      1.455,
+      1.532
+     ],
+     "ror": 1.522,
+     "ror_ci95": [
+      1.481,
+      1.564
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 5436,
+      "b": 93018,
+      "c": 761627,
+      "d": 19832609
+     }
+    }
+   },
+   "n_drug_reports": 98454,
+   "name_queried": "PACLITAXEL"
+  },
+  "CHEMBL4297841": {
+   "available": true,
+   "groups": {
+    "cardiac": {
+     "chi2_yates": 25.009,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.205,
+     "prr_ci95": [
+      0.103,
+      0.408
+     ],
+     "ror": 0.198,
+     "ror_ci95": [
+      0.099,
+      0.396
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 8,
+      "b": 904,
+      "c": 886857,
+      "d": 19804921
+     }
+    },
+    "haematological": {
+     "chi2_yates": 62.314,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.514,
+     "prr_ci95": [
+      2.0,
+      3.159
+     ],
+     "ror": 2.636,
+     "ror_ci95": [
+      2.059,
+      3.374
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 68,
+      "b": 844,
+      "c": 613791,
+      "d": 20077987
+     }
+    },
+    "hepatic": {
+     "chi2_yates": 0.262,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.885,
+     "prr_ci95": [
+      0.596,
+      1.313
+     ],
+     "ror": 0.882,
+     "ror_ci95": [
+      0.588,
+      1.323
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 24,
+      "b": 888,
+      "c": 615418,
+      "d": 20076360
+     }
+    },
+    "hypersensitivity": {
+     "chi2_yates": 1.414,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.165,
+     "prr_ci95": [
+      0.92,
+      1.475
+     ],
+     "ror": 1.177,
+     "ror_ci95": [
+      0.913,
+      1.518
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 64,
+      "b": 848,
+      "c": 1246825,
+      "d": 19444953
+     }
+    },
+    "neurological": {
+     "chi2_yates": 340.015,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 5.676,
+     "prr_ci95": [
+      4.653,
+      6.923
+     ],
+     "ror": 6.175,
+     "ror_ci95": [
+      4.957,
+      7.693
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 88,
+      "b": 824,
+      "c": 351768,
+      "d": 20340010
+     }
+    },
+    "renal": {
+     "chi2_yates": 0.052,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.947,
+     "prr_ci95": [
+      0.673,
+      1.33
+     ],
+     "ror": 0.945,
+     "ror_ci95": [
+      0.664,
+      1.344
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 32,
+      "b": 880,
+      "c": 767031,
+      "d": 19924747
+     }
+    }
+   },
+   "n_drug_reports": 912,
+   "name_queried": "TISOTUMAB VEDOTIN"
+  },
+  "CHEMBL450": {
+   "available": false,
+   "name_queried": "METHARBITAL",
+   "reason": "openFDA has no reports under this generic name"
+  },
+  "CHEMBL451": {
+   "available": false,
+   "name_queried": "CHLORDIAZEPOXIDE",
+   "reason": "openFDA has no reports under this generic name"
+  },
+  "CHEMBL451887": {
+   "available": true,
+   "groups": {
+    "cardiac": {
+     "chi2_yates": 1089.762,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.933,
+     "prr_ci95": [
+      1.859,
+      2.009
+     ],
+     "ror": 2.017,
+     "ror_ci95": [
+      1.933,
+      2.104
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 2326,
+      "b": 25792,
+      "c": 884539,
+      "d": 19780033
+     }
+    },
+    "haematological": {
+     "chi2_yates": 12553.115,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 4.845,
+     "prr_ci95": [
+      4.707,
+      4.986
+     ],
+     "ror": 5.486,
+     "ror_ci95": [
+      5.305,
+      5.673
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 4020,
+      "b": 24098,
+      "c": 609839,
+      "d": 20054733
+     }
+    },
+    "hepatic": {
+     "chi2_yates": 9.295,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.895,
+     "prr_ci95": [
+      0.834,
+      0.961
+     ],
+     "ror": 0.893,
+     "ror_ci95": [
+      0.83,
+      0.96
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 749,
+      "b": 27369,
+      "c": 614693,
+      "d": 20049879
+     }
+    },
+    "hypersensitivity": {
+     "chi2_yates": 441.456,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.505,
+     "prr_ci95": [
+      0.473,
+      0.539
+     ],
+     "ror": 0.489,
+     "ror_ci95": [
+      0.457,
+      0.524
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 856,
+      "b": 27262,
+      "c": 1246033,
+      "d": 19418539
+     }
+    },
+    "neurological": {
+     "chi2_yates": 1388.889,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.696,
+     "prr_ci95": [
+      2.556,
+      2.844
+     ],
+     "ror": 2.777,
+     "ror_ci95": [
+      2.626,
+      2.937
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 1286,
+      "b": 26832,
+      "c": 350570,
+      "d": 20314002
+     }
+    },
+    "renal": {
+     "chi2_yates": 1242.997,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.074,
+     "prr_ci95": [
+      1.992,
+      2.16
+     ],
+     "ror": 2.164,
+     "ror_ci95": [
+      2.071,
+      2.261
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 2159,
+      "b": 25959,
+      "c": 764904,
+      "d": 19899668
+     }
+    }
+   },
+   "n_drug_reports": 28118,
+   "name_queried": "CARFILZOMIB"
+  },
+  "CHEMBL452": {
+   "available": true,
+   "groups": {
+    "cardiac": {
+     "chi2_yates": 5424.983,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.882,
+     "prr_ci95": [
+      1.85,
+      1.913
+     ],
+     "ror": 1.958,
+     "ror_ci95": [
+      1.923,
+      1.994
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 12758,
+      "b": 146525,
+      "c": 874107,
+      "d": 19659300
+     }
+    },
+    "haematological": {
+     "chi2_yates": 98.58,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.857,
+     "prr_ci95": [
+      0.831,
+      0.884
+     ],
+     "ror": 0.853,
+     "ror_ci95": [
+      0.827,
+      0.881
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 4055,
+      "b": 155228,
+      "c": 609804,
+      "d": 19923603
+     }
+    },
+    "hepatic": {
+     "chi2_yates": 9.026,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.957,
+     "prr_ci95": [
+      0.93,
+      0.985
+     ],
+     "ror": 0.955,
+     "ror_ci95": [
+      0.928,
+      0.984
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 4534,
+      "b": 154749,
+      "c": 610908,
+      "d": 19922499
+     }
+    },
+    "hypersensitivity": {
+     "chi2_yates": 54.359,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.073,
+     "prr_ci95": [
+      1.053,
+      1.094
+     ],
+     "ror": 1.078,
+     "ror_ci95": [
+      1.057,
+      1.1
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 10296,
+      "b": 148987,
+      "c": 1236593,
+      "d": 19296814
+     }
+    },
+    "neurological": {
+     "chi2_yates": 9088.484,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.849,
+     "prr_ci95": [
+      2.787,
+      2.913
+     ],
+     "ror": 2.942,
+     "ror_ci95": [
+      2.874,
+      3.011
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 7609,
+      "b": 151674,
+      "c": 344247,
+      "d": 20189160
+     }
+    },
+    "renal": {
+     "chi2_yates": 279.165,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.215,
+     "prr_ci95": [
+      1.187,
+      1.243
+     ],
+     "ror": 1.225,
+     "ror_ci95": [
+      1.196,
+      1.254
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 7160,
+      "b": 152123,
+      "c": 759903,
+      "d": 19773504
+     }
+    }
+   },
+   "n_drug_reports": 159283,
+   "name_queried": "CLONAZEPAM"
+  },
+  "CHEMBL454": {
+   "available": false,
+   "name_queried": "BUTALBITAL",
+   "reason": "openFDA has no reports under this generic name"
+  },
+  "CHEMBL4559134": {
+   "available": false,
+   "name_queried": "SELPERCATINIB",
+   "reason": "openFDA has no reports under this generic name"
+  },
+  "CHEMBL4582651": {
+   "available": true,
+   "groups": {
+    "cardiac": {
+     "chi2_yates": 18.799,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.509,
+     "prr_ci95": [
+      0.373,
+      0.694
+     ],
+     "ror": 0.498,
+     "ror_ci95": [
+      0.363,
+      0.684
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 39,
+      "b": 1749,
+      "c": 886826,
+      "d": 19804076
+     }
+    },
+    "haematological": {
+     "chi2_yates": 310.735,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 3.394,
+     "prr_ci95": [
+      2.955,
+      3.899
+     ],
+     "ror": 3.662,
+     "ror_ci95": [
+      3.139,
+      4.272
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 180,
+      "b": 1608,
+      "c": 613679,
+      "d": 20077223
+     }
+    },
+    "hepatic": {
+     "chi2_yates": 176.113,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.802,
+     "prr_ci95": [
+      2.403,
+      3.268
+     ],
+     "ror": 2.966,
+     "ror_ci95": [
+      2.508,
+      3.508
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 149,
+      "b": 1639,
+      "c": 615293,
+      "d": 20075609
+     }
+    },
+    "hypersensitivity": {
+     "chi2_yates": 43.341,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.381,
+     "prr_ci95": [
+      0.281,
+      0.515
+     ],
+     "ror": 0.366,
+     "ror_ci95": [
+      0.269,
+      0.499
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 41,
+      "b": 1747,
+      "c": 1246848,
+      "d": 19444054
+     }
+    },
+    "neurological": {
+     "chi2_yates": 3.978,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.625,
+     "prr_ci95": [
+      0.4,
+      0.977
+     ],
+     "ror": 0.621,
+     "ror_ci95": [
+      0.395,
+      0.976
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 19,
+      "b": 1769,
+      "c": 351837,
+      "d": 20339065
+     }
+    },
+    "renal": {
+     "chi2_yates": 12.479,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.433,
+     "prr_ci95": [
+      1.179,
+      1.743
+     ],
+     "ror": 1.458,
+     "ror_ci95": [
+      1.186,
+      1.792
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 95,
+      "b": 1693,
+      "c": 766968,
+      "d": 19923934
+     }
+    }
+   },
+   "n_drug_reports": 1788,
+   "name_queried": "PRALSETINIB"
+  },
+  "CHEMBL500": {
+   "available": true,
+   "groups": {
+    "cardiac": {
+     "chi2_yates": 24.674,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.847,
+     "prr_ci95": [
+      1.457,
+      2.341
+     ],
+     "ror": 1.919,
+     "ror_ci95": [
+      1.484,
+      2.483
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 63,
+      "b": 733,
+      "c": 886802,
+      "d": 19805092
+     }
+    },
+    "haematological": {
+     "chi2_yates": 1.042,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.228,
+     "prr_ci95": [
+      0.859,
+      1.755
+     ],
+     "ror": 1.237,
+     "ror_ci95": [
+      0.854,
+      1.792
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 29,
+      "b": 767,
+      "c": 613830,
+      "d": 20078064
+     }
+    },
+    "hepatic": {
+     "chi2_yates": 3.665,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.591,
+     "prr_ci95": [
+      0.352,
+      0.994
+     ],
+     "ror": 0.584,
+     "ror_ci95": [
+      0.344,
+      0.991
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 14,
+      "b": 782,
+      "c": 615428,
+      "d": 20076466
+     }
+    },
+    "hypersensitivity": {
+     "chi2_yates": 0.006,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.022,
+     "prr_ci95": [
+      0.779,
+      1.34
+     ],
+     "ror": 1.023,
+     "ror_ci95": [
+      0.766,
+      1.366
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 49,
+      "b": 747,
+      "c": 1246840,
+      "d": 19445054
+     }
+    },
+    "neurological": {
+     "chi2_yates": 1.182,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.33,
+     "prr_ci95": [
+      0.842,
+      2.1
+     ],
+     "ror": 1.338,
+     "ror_ci95": [
+      0.838,
+      2.134
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 18,
+      "b": 778,
+      "c": 351838,
+      "d": 20340056
+     }
+    },
+    "renal": {
+     "chi2_yates": 11.394,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.627,
+     "prr_ci95": [
+      1.237,
+      2.14
+     ],
+     "ror": 1.667,
+     "ror_ci95": [
+      1.245,
+      2.232
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 48,
+      "b": 748,
+      "c": 767015,
+      "d": 19924879
+     }
+    }
+   },
+   "n_drug_reports": 796,
+   "name_queried": "PINDOLOL"
+  },
+  "CHEMBL511142": {
+   "available": true,
+   "groups": {
+    "cardiac": {
+     "chi2_yates": 772.151,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.567,
+     "prr_ci95": [
+      0.544,
+      0.59
+     ],
+     "ror": 0.556,
+     "ror_ci95": [
+      0.533,
+      0.58
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 2239,
+      "b": 89754,
+      "c": 884626,
+      "d": 19716071
+     }
+    },
+    "haematological": {
+     "chi2_yates": 1919.491,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.175,
+     "prr_ci95": [
+      0.16,
+      0.191
+     ],
+     "ror": 0.171,
+     "ror_ci95": [
+      0.156,
+      0.187
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 479,
+      "b": 91514,
+      "c": 613380,
+      "d": 19987317
+     }
+    },
+    "hepatic": {
+     "chi2_yates": 81.658,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.829,
+     "prr_ci95": [
+      0.796,
+      0.864
+     ],
+     "ror": 0.825,
+     "ror_ci95": [
+      0.791,
+      0.86
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 2271,
+      "b": 89722,
+      "c": 613171,
+      "d": 19987526
+     }
+    },
+    "hypersensitivity": {
+     "chi2_yates": 708.041,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.348,
+     "prr_ci95": [
+      1.319,
+      1.378
+     ],
+     "ror": 1.379,
+     "ror_ci95": [
+      1.346,
+      1.412
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 7460,
+      "b": 84533,
+      "c": 1239429,
+      "d": 19361268
+     }
+    },
+    "neurological": {
+     "chi2_yates": 329.061,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.545,
+     "prr_ci95": [
+      0.51,
+      0.583
+     ],
+     "ror": 0.541,
+     "ror_ci95": [
+      0.505,
+      0.578
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 854,
+      "b": 91139,
+      "c": 351002,
+      "d": 20249695
+     }
+    },
+    "renal": {
+     "chi2_yates": 1894.463,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.269,
+     "prr_ci95": [
+      0.252,
+      0.287
+     ],
+     "ror": 0.262,
+     "ror_ci95": [
+      0.245,
+      0.279
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 921,
+      "b": 91072,
+      "c": 766142,
+      "d": 19834555
+     }
+    }
+   },
+   "n_drug_reports": 91993,
+   "name_queried": "BUPRENORPHINE"
+  },
+  "CHEMBL521606": {
+   "available": true,
+   "groups": {
+    "cardiac": {
+     "chi2_yates": 386.899,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.073,
+     "prr_ci95": [
+      1.928,
+      2.229
+     ],
+     "ror": 2.178,
+     "ror_ci95": [
+      2.012,
+      2.358
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 669,
+      "b": 6863,
+      "c": 886196,
+      "d": 19798962
+     }
+    },
+    "haematological": {
+     "chi2_yates": 359.309,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.252,
+     "prr_ci95": [
+      2.07,
+      2.451
+     ],
+     "ror": 2.342,
+     "ror_ci95": [
+      2.139,
+      2.564
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 503,
+      "b": 7029,
+      "c": 613356,
+      "d": 20071802
+     }
+    },
+    "hepatic": {
+     "chi2_yates": 624.922,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.649,
+     "prr_ci95": [
+      2.452,
+      2.862
+     ],
+     "ror": 2.79,
+     "ror_ci95": [
+      2.565,
+      3.034
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 593,
+      "b": 6939,
+      "c": 614849,
+      "d": 20070309
+     }
+    },
+    "hypersensitivity": {
+     "chi2_yates": 0.791,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.958,
+     "prr_ci95": [
+      0.875,
+      1.05
+     ],
+     "ror": 0.956,
+     "ror_ci95": [
+      0.868,
+      1.053
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 435,
+      "b": 7097,
+      "c": 1246454,
+      "d": 19438704
+     }
+    },
+    "neurological": {
+     "chi2_yates": 172.703,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.156,
+     "prr_ci95": [
+      1.92,
+      2.421
+     ],
+     "ror": 2.2,
+     "ror_ci95": [
+      1.951,
+      2.481
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 276,
+      "b": 7256,
+      "c": 351580,
+      "d": 20333578
+     }
+    },
+    "renal": {
+     "chi2_yates": 162.987,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.752,
+     "prr_ci95": [
+      1.608,
+      1.909
+     ],
+     "ror": 1.804,
+     "ror_ci95": [
+      1.646,
+      1.977
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 489,
+      "b": 7043,
+      "c": 766574,
+      "d": 19918584
+     }
+    }
+   },
+   "n_drug_reports": 7532,
+   "name_queried": "NADOLOL"
+  },
+  "CHEMBL526": {
+   "available": true,
+   "groups": {
+    "cardiac": {
+     "chi2_yates": 17568.728,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 4.309,
+     "prr_ci95": [
+      4.216,
+      4.404
+     ],
+     "ror": 5.053,
+     "ror_ci95": [
+      4.92,
+      5.19
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 6669,
+      "b": 29652,
+      "c": 880196,
+      "d": 19776173
+     }
+    },
+    "haematological": {
+     "chi2_yates": 45.126,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.202,
+     "prr_ci95": [
+      1.14,
+      1.268
+     ],
+     "ror": 1.21,
+     "ror_ci95": [
+      1.144,
+      1.279
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 1295,
+      "b": 35026,
+      "c": 612564,
+      "d": 20043805
+     }
+    },
+    "hepatic": {
+     "chi2_yates": 2450.536,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.489,
+     "prr_ci95": [
+      2.4,
+      2.582
+     ],
+     "ror": 2.608,
+     "ror_ci95": [
+      2.507,
+      2.713
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 2682,
+      "b": 33639,
+      "c": 612760,
+      "d": 20043609
+     }
+    },
+    "hypersensitivity": {
+     "chi2_yates": 8291.259,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.895,
+     "prr_ci95": [
+      2.831,
+      2.961
+     ],
+     "ror": 3.294,
+     "ror_ci95": [
+      3.205,
+      3.385
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 6315,
+      "b": 30006,
+      "c": 1240574,
+      "d": 19415795
+     }
+    },
+    "neurological": {
+     "chi2_yates": 2010.789,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.797,
+     "prr_ci95": [
+      2.671,
+      2.929
+     ],
+     "ror": 2.886,
+     "ror_ci95": [
+      2.75,
+      3.03
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 1722,
+      "b": 34599,
+      "c": 350134,
+      "d": 20306235
+     }
+    },
+    "renal": {
+     "chi2_yates": 1916.973,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.175,
+     "prr_ci95": [
+      2.1,
+      2.252
+     ],
+     "ror": 2.277,
+     "ror_ci95": [
+      2.193,
+      2.365
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 2922,
+      "b": 33399,
+      "c": 764141,
+      "d": 19892228
+     }
+    }
+   },
+   "n_drug_reports": 36321,
+   "name_queried": "PROPOFOL"
+  },
+  "CHEMBL5314379": {
+   "available": true,
+   "groups": {
+    "cardiac": {
+     "chi2_yates": 160.726,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.354,
+     "prr_ci95": [
+      0.299,
+      0.419
+     ],
+     "ror": 0.344,
+     "ror_ci95": [
+      0.289,
+      0.409
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 131,
+      "b": 8503,
+      "c": 886734,
+      "d": 19797322
+     }
+    },
+    "haematological": {
+     "chi2_yates": 16.298,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.75,
+     "prr_ci95": [
+      0.652,
+      0.862
+     ],
+     "ror": 0.744,
+     "ror_ci95": [
+      0.645,
+      0.858
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 192,
+      "b": 8442,
+      "c": 613667,
+      "d": 20070389
+     }
+    },
+    "hepatic": {
+     "chi2_yates": 156.291,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.23,
+     "prr_ci95": [
+      0.178,
+      0.296
+     ],
+     "ror": 0.224,
+     "ror_ci95": [
+      0.174,
+      0.29
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 59,
+      "b": 8575,
+      "c": 615383,
+      "d": 20068673
+     }
+    },
+    "hypersensitivity": {
+     "chi2_yates": 49.01,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.701,
+     "prr_ci95": [
+      0.634,
+      0.776
+     ],
+     "ror": 0.688,
+     "ror_ci95": [
+      0.62,
+      0.764
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 365,
+      "b": 8269,
+      "c": 1246524,
+      "d": 19437532
+     }
+    },
+    "neurological": {
+     "chi2_yates": 46.967,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.436,
+     "prr_ci95": [
+      0.341,
+      0.556
+     ],
+     "ror": 0.432,
+     "ror_ci95": [
+      0.338,
+      0.552
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 64,
+      "b": 8570,
+      "c": 351792,
+      "d": 20332264
+     }
+    },
+    "renal": {
+     "chi2_yates": 2238.621,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 3.6,
+     "prr_ci95": [
+      3.411,
+      3.799
+     ],
+     "ror": 4.0,
+     "ror_ci95": [
+      3.759,
+      4.256
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 1151,
+      "b": 7483,
+      "c": 765912,
+      "d": 19918144
+     }
+    }
+   },
+   "n_drug_reports": 8634,
+   "name_queried": "VOCLOSPORIN"
+  },
+  "CHEMBL548": {
+   "available": true,
+   "groups": {
+    "cardiac": {
+     "chi2_yates": 276.845,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 3.797,
+     "prr_ci95": [
+      3.244,
+      4.443
+     ],
+     "ror": 4.34,
+     "ror_ci95": [
+      3.597,
+      5.237
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 130,
+      "b": 669,
+      "c": 886735,
+      "d": 19805156
+     }
+    },
+    "haematological": {
+     "chi2_yates": 6.051,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.519,
+     "prr_ci95": [
+      1.104,
+      2.09
+     ],
+     "ror": 1.543,
+     "ror_ci95": [
+      1.105,
+      2.156
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 36,
+      "b": 763,
+      "c": 613823,
+      "d": 20078068
+     }
+    },
+    "hepatic": {
+     "chi2_yates": 111.647,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 3.156,
+     "prr_ci95": [
+      2.545,
+      3.915
+     ],
+     "ror": 3.38,
+     "ror_ci95": [
+      2.665,
+      4.287
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 75,
+      "b": 724,
+      "c": 615367,
+      "d": 20076524
+     }
+    },
+    "hypersensitivity": {
+     "chi2_yates": 2.998,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.748,
+     "prr_ci95": [
+      0.543,
+      1.029
+     ],
+     "ror": 0.736,
+     "ror_ci95": [
+      0.527,
+      1.028
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 36,
+      "b": 763,
+      "c": 1246853,
+      "d": 19445038
+     }
+    },
+    "neurological": {
+     "chi2_yates": 0.0,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.03,
+     "prr_ci95": [
+      0.613,
+      1.732
+     ],
+     "ror": 1.031,
+     "ror_ci95": [
+      0.608,
+      1.749
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 14,
+      "b": 785,
+      "c": 351842,
+      "d": 20340049
+     }
+    },
+    "renal": {
+     "chi2_yates": 6.034,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.54,
+     "prr_ci95": [
+      0.333,
+      0.877
+     ],
+     "ror": 0.531,
+     "ror_ci95": [
+      0.324,
+      0.871
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 16,
+      "b": 783,
+      "c": 767047,
+      "d": 19924844
+     }
+    }
+   },
+   "n_drug_reports": 799,
+   "name_queried": "DINOPROSTONE"
+  },
+  "CHEMBL568": {
+   "available": true,
+   "groups": {
+    "cardiac": {
+     "chi2_yates": 2202.385,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.52,
+     "prr_ci95": [
+      2.425,
+      2.62
+     ],
+     "ror": 2.704,
+     "ror_ci95": [
+      2.59,
+      2.824
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 2306,
+      "b": 19075,
+      "c": 884559,
+      "d": 19786750
+     }
+    },
+    "haematological": {
+     "chi2_yates": 332.622,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.715,
+     "prr_ci95": [
+      1.618,
+      1.817
+     ],
+     "ror": 1.753,
+     "ror_ci95": [
+      1.649,
+      1.864
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 1087,
+      "b": 20294,
+      "c": 612772,
+      "d": 20058537
+     }
+    },
+    "hepatic": {
+     "chi2_yates": 680.391,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.021,
+     "prr_ci95": [
+      1.917,
+      2.131
+     ],
+     "ror": 2.087,
+     "ror_ci95": [
+      1.972,
+      2.208
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 1284,
+      "b": 20097,
+      "c": 614158,
+      "d": 20057151
+     }
+    },
+    "hypersensitivity": {
+     "chi2_yates": 138.217,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.682,
+     "prr_ci95": [
+      0.639,
+      0.728
+     ],
+     "ror": 0.668,
+     "ror_ci95": [
+      0.625,
+      0.715
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 879,
+      "b": 20502,
+      "c": 1246010,
+      "d": 19425299
+     }
+    },
+    "neurological": {
+     "chi2_yates": 267.343,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.853,
+     "prr_ci95": [
+      1.72,
+      1.996
+     ],
+     "ror": 1.88,
+     "ror_ci95": [
+      1.741,
+      2.031
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 673,
+      "b": 20708,
+      "c": 351183,
+      "d": 20320126
+     }
+    },
+    "renal": {
+     "chi2_yates": 1367.089,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.292,
+     "prr_ci95": [
+      2.193,
+      2.395
+     ],
+     "ror": 2.412,
+     "ror_ci95": [
+      2.298,
+      2.531
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 1814,
+      "b": 19567,
+      "c": 765249,
+      "d": 19906060
+     }
+    }
+   },
+   "n_drug_reports": 21381,
+   "name_queried": "OXAZEPAM"
+  },
+  "CHEMBL571546": {
+   "available": true,
+   "groups": {
+    "cardiac": {
+     "chi2_yates": 2.455,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.478,
+     "prr_ci95": [
+      0.201,
+      1.138
+     ],
+     "ror": 0.467,
+     "ror_ci95": [
+      0.193,
+      1.133
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 5,
+      "b": 239,
+      "c": 886860,
+      "d": 19805586
+     }
+    },
+    "haematological": {
+     "estimable": false,
+     "note": "no report of the drug with this outcome group; no estimate",
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 0,
+      "b": 244,
+      "c": 613859,
+      "d": 20078587
+     }
+    },
+    "hepatic": {
+     "estimable": false,
+     "note": "no report of the drug with this outcome group; no estimate",
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 0,
+      "b": 244,
+      "c": 615442,
+      "d": 20077004
+     }
+    },
+    "hypersensitivity": {
+     "chi2_yates": 8.438,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.768,
+     "prr_ci95": [
+      1.23,
+      2.543
+     ],
+     "ror": 1.86,
+     "ror_ci95": [
+      1.239,
+      2.793
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 26,
+      "b": 218,
+      "c": 1246863,
+      "d": 19445583
+     }
+    },
+    "neurological": {
+     "estimable": false,
+     "note": "no report of the drug with this outcome group; no estimate",
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 0,
+      "b": 244,
+      "c": 351856,
+      "d": 20340590
+     }
+    },
+    "renal": {
+     "estimable": false,
+     "note": "no report of the drug with this outcome group; no estimate",
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 0,
+      "b": 244,
+      "c": 767063,
+      "d": 19925383
+     }
+    }
+   },
+   "n_drug_reports": 244,
+   "name_queried": "TIRBANIBULIN"
+  },
+  "CHEMBL580": {
+   "available": true,
+   "groups": {
+    "cardiac": {
+     "chi2_yates": 8276.745,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.031,
+     "prr_ci95": [
+      2.0,
+      2.062
+     ],
+     "ror": 2.128,
+     "ror_ci95": [
+      2.093,
+      2.164
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 15417,
+      "b": 163314,
+      "c": 871448,
+      "d": 19642511
+     }
+    },
+    "haematological": {
+     "chi2_yates": 7834.565,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.215,
+     "prr_ci95": [
+      2.176,
+      2.255
+     ],
+     "ror": 2.3,
+     "ror_ci95": [
+      2.257,
+      2.344
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 11624,
+      "b": 167107,
+      "c": 602235,
+      "d": 19911724
+     }
+    },
+    "hepatic": {
+     "chi2_yates": 2305.847,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.655,
+     "prr_ci95": [
+      1.622,
+      1.69
+     ],
+     "ror": 1.689,
+     "ror_ci95": [
+      1.653,
+      1.726
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 8750,
+      "b": 169981,
+      "c": 606692,
+      "d": 19907267
+     }
+    },
+    "hypersensitivity": {
+     "chi2_yates": 579.171,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.226,
+     "prr_ci95": [
+      1.206,
+      1.247
+     ],
+     "ror": 1.244,
+     "ror_ci95": [
+      1.222,
+      1.267
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 13181,
+      "b": 165550,
+      "c": 1233708,
+      "d": 19280251
+     }
+    },
+    "neurological": {
+     "chi2_yates": 6192.102,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.439,
+     "prr_ci95": [
+      2.385,
+      2.495
+     ],
+     "ror": 2.501,
+     "ror_ci95": [
+      2.442,
+      2.56
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 7322,
+      "b": 171409,
+      "c": 344534,
+      "d": 20169425
+     }
+    },
+    "renal": {
+     "chi2_yates": 2326.654,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.587,
+     "prr_ci95": [
+      1.558,
+      1.617
+     ],
+     "ror": 1.624,
+     "ror_ci95": [
+      1.592,
+      1.656
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 10462,
+      "b": 168269,
+      "c": 756601,
+      "d": 19757358
+     }
+    }
+   },
+   "n_drug_reports": 178731,
+   "name_queried": "LORAZEPAM"
+  },
+  "CHEMBL591": {
+   "available": false,
+   "name_queried": "ETHCHLORVYNOL",
+   "reason": "openFDA has no reports under this generic name"
+  },
+  "CHEMBL601719": {
+   "available": true,
+   "groups": {
+    "cardiac": {
+     "chi2_yates": 51.185,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.302,
+     "prr_ci95": [
+      1.212,
+      1.399
+     ],
+     "ror": 1.32,
+     "ror_ci95": [
+      1.223,
+      1.424
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 705,
+      "b": 11933,
+      "c": 886160,
+      "d": 19793892
+     }
+    },
+    "haematological": {
+     "chi2_yates": 74.509,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.441,
+     "prr_ci95": [
+      1.327,
+      1.565
+     ],
+     "ror": 1.46,
+     "ror_ci95": [
+      1.34,
+      1.592
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 540,
+      "b": 12098,
+      "c": 613319,
+      "d": 20066733
+     }
+    },
+    "hepatic": {
+     "chi2_yates": 1237.592,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.791,
+     "prr_ci95": [
+      2.634,
+      2.958
+     ],
+     "ror": 2.953,
+     "ror_ci95": [
+      2.772,
+      3.146
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 1048,
+      "b": 11590,
+      "c": 614394,
+      "d": 20065658
+     }
+    },
+    "hypersensitivity": {
+     "chi2_yates": 279.414,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.412,
+     "prr_ci95": [
+      0.37,
+      0.46
+     ],
+     "ror": 0.397,
+     "ror_ci95": [
+      0.355,
+      0.444
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 314,
+      "b": 12324,
+      "c": 1246575,
+      "d": 19433477
+     }
+    },
+    "neurological": {
+     "chi2_yates": 2.011,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.098,
+     "prr_ci95": [
+      0.968,
+      1.246
+     ],
+     "ror": 1.1,
+     "ror_ci95": [
+      0.967,
+      1.251
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 236,
+      "b": 12402,
+      "c": 351620,
+      "d": 20328432
+     }
+    },
+    "renal": {
+     "chi2_yates": 231.437,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.691,
+     "prr_ci95": [
+      1.581,
+      1.809
+     ],
+     "ror": 1.737,
+     "ror_ci95": [
+      1.617,
+      1.867
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 792,
+      "b": 11846,
+      "c": 766271,
+      "d": 19913781
+     }
+    }
+   },
+   "n_drug_reports": 12638,
+   "name_queried": "CRIZOTINIB"
+  },
+  "CHEMBL655": {
+   "available": true,
+   "groups": {
+    "cardiac": {
+     "chi2_yates": 5321.685,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 3.185,
+     "prr_ci95": [
+      3.087,
+      3.286
+     ],
+     "ror": 3.53,
+     "ror_ci95": [
+      3.404,
+      3.66
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 3412,
+      "b": 21647,
+      "c": 883453,
+      "d": 19784178
+     }
+    },
+    "haematological": {
+     "chi2_yates": 725.773,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.976,
+     "prr_ci95": [
+      1.88,
+      2.076
+     ],
+     "ror": 2.036,
+     "ror_ci95": [
+      1.932,
+      2.147
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 1467,
+      "b": 23592,
+      "c": 612392,
+      "d": 20055239
+     }
+    },
+    "hepatic": {
+     "chi2_yates": 1048.428,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.171,
+     "prr_ci95": [
+      2.071,
+      2.276
+     ],
+     "ror": 2.252,
+     "ror_ci95": [
+      2.141,
+      2.369
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 1616,
+      "b": 23443,
+      "c": 613826,
+      "d": 20053805
+     }
+    },
+    "hypersensitivity": {
+     "chi2_yates": 238.591,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.386,
+     "prr_ci95": [
+      1.33,
+      1.444
+     ],
+     "ror": 1.421,
+     "ror_ci95": [
+      1.359,
+      1.486
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 2092,
+      "b": 22967,
+      "c": 1244797,
+      "d": 19422834
+     }
+    },
+    "neurological": {
+     "chi2_yates": 12704.431,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 6.454,
+     "prr_ci95": [
+      6.229,
+      6.688
+     ],
+     "ror": 7.121,
+     "ror_ci95": [
+      6.843,
+      7.411
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 2732,
+      "b": 22327,
+      "c": 349124,
+      "d": 20318507
+     }
+    },
+    "renal": {
+     "chi2_yates": 1287.697,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.158,
+     "prr_ci95": [
+      2.069,
+      2.251
+     ],
+     "ror": 2.259,
+     "ror_ci95": [
+      2.158,
+      2.364
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 2002,
+      "b": 23057,
+      "c": 765061,
+      "d": 19902570
+     }
+    }
+   },
+   "n_drug_reports": 25059,
+   "name_queried": "MIDAZOLAM"
+  },
+  "CHEMBL661": {
+   "available": true,
+   "groups": {
+    "cardiac": {
+     "chi2_yates": 10609.903,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.092,
+     "prr_ci95": [
+      2.063,
+      2.122
+     ],
+     "ror": 2.199,
+     "ror_ci95": [
+      2.165,
+      2.233
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 18180,
+      "b": 186736,
+      "c": 868685,
+      "d": 19619089
+     }
+    },
+    "haematological": {
+     "chi2_yates": 207.398,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.183,
+     "prr_ci95": [
+      1.157,
+      1.211
+     ],
+     "ror": 1.19,
+     "ror_ci95": [
+      1.162,
+      1.218
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 7180,
+      "b": 197736,
+      "c": 606679,
+      "d": 19881095
+     }
+    },
+    "hepatic": {
+     "chi2_yates": 23.495,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.062,
+     "prr_ci95": [
+      1.036,
+      1.087
+     ],
+     "ror": 1.064,
+     "ror_ci95": [
+      1.037,
+      1.09
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 6466,
+      "b": 198450,
+      "c": 608976,
+      "d": 19878798
+     }
+    },
+    "hypersensitivity": {
+     "chi2_yates": 1.99,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.988,
+     "prr_ci95": [
+      0.971,
+      1.005
+     ],
+     "ror": 0.987,
+     "ror_ci95": [
+      0.969,
+      1.005
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 12196,
+      "b": 192720,
+      "c": 1234693,
+      "d": 19253081
+     }
+    },
+    "neurological": {
+     "chi2_yates": 1062.429,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.553,
+     "prr_ci95": [
+      1.513,
+      1.595
+     ],
+     "ror": 1.568,
+     "ror_ci95": [
+      1.526,
+      1.612
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 5383,
+      "b": 199533,
+      "c": 346473,
+      "d": 20141301
+     }
+    },
+    "renal": {
+     "chi2_yates": 1735.684,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.474,
+     "prr_ci95": [
+      1.447,
+      1.501
+     ],
+     "ror": 1.501,
+     "ror_ci95": [
+      1.472,
+      1.53
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 11142,
+      "b": 193774,
+      "c": 755921,
+      "d": 19731853
+     }
+    }
+   },
+   "n_drug_reports": 204916,
+   "name_queried": "ALPRAZOLAM"
+  },
+  "CHEMBL681": {
+   "available": true,
+   "groups": {
+    "cardiac": {
+     "chi2_yates": 1594.116,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 5.016,
+     "prr_ci95": [
+      4.632,
+      5.432
+     ],
+     "ror": 6.116,
+     "ror_ci95": [
+      5.526,
+      6.768
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 476,
+      "b": 1739,
+      "c": 886389,
+      "d": 19804086
+     }
+    },
+    "haematological": {
+     "chi2_yates": 10.434,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.4,
+     "prr_ci95": [
+      1.146,
+      1.71
+     ],
+     "ror": 1.418,
+     "ror_ci95": [
+      1.15,
+      1.747
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 92,
+      "b": 2123,
+      "c": 613767,
+      "d": 20076708
+     }
+    },
+    "hepatic": {
+     "chi2_yates": 24.563,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.609,
+     "prr_ci95": [
+      1.336,
+      1.938
+     ],
+     "ror": 1.64,
+     "ror_ci95": [
+      1.349,
+      1.993
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 106,
+      "b": 2109,
+      "c": 615336,
+      "d": 20075139
+     }
+    },
+    "hypersensitivity": {
+     "chi2_yates": 16.894,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.349,
+     "prr_ci95": [
+      1.172,
+      1.551
+     ],
+     "ror": 1.38,
+     "ror_ci95": [
+      1.184,
+      1.607
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 180,
+      "b": 2035,
+      "c": 1246709,
+      "d": 19443766
+     }
+    },
+    "neurological": {
+     "chi2_yates": 90.36,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.549,
+     "prr_ci95": [
+      2.096,
+      3.1
+     ],
+     "ror": 2.619,
+     "ror_ci95": [
+      2.135,
+      3.214
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 96,
+      "b": 2119,
+      "c": 351760,
+      "d": 20338715
+     }
+    },
+    "renal": {
+     "chi2_yates": 1203.008,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 4.764,
+     "prr_ci95": [
+      4.354,
+      5.212
+     ],
+     "ror": 5.571,
+     "ror_ci95": [
+      4.994,
+      6.214
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 391,
+      "b": 1824,
+      "c": 766672,
+      "d": 19923803
+     }
+    }
+   },
+   "n_drug_reports": 2215,
+   "name_queried": "ETOMIDATE"
+  },
+  "CHEMBL70418": {
+   "available": true,
+   "groups": {
+    "cardiac": {
+     "chi2_yates": 15.885,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.879,
+     "prr_ci95": [
+      0.824,
+      0.936
+     ],
+     "ror": 0.874,
+     "ror_ci95": [
+      0.818,
+      0.934
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 914,
+      "b": 23356,
+      "c": 885951,
+      "d": 19782469
+     }
+    },
+    "haematological": {
+     "chi2_yates": 9.515,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.886,
+     "prr_ci95": [
+      0.821,
+      0.957
+     ],
+     "ror": 0.883,
+     "ror_ci95": [
+      0.816,
+      0.955
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 638,
+      "b": 23632,
+      "c": 613221,
+      "d": 20055199
+     }
+    },
+    "hepatic": {
+     "chi2_yates": 4.589,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.079,
+     "prr_ci95": [
+      1.007,
+      1.157
+     ],
+     "ror": 1.082,
+     "ror_ci95": [
+      1.007,
+      1.162
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 779,
+      "b": 23491,
+      "c": 614663,
+      "d": 20053757
+     }
+    },
+    "hypersensitivity": {
+     "chi2_yates": 125.432,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.716,
+     "prr_ci95": [
+      0.674,
+      0.759
+     ],
+     "ror": 0.703,
+     "ror_ci95": [
+      0.661,
+      0.748
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 1047,
+      "b": 23223,
+      "c": 1245842,
+      "d": 19422578
+     }
+    },
+    "neurological": {
+     "chi2_yates": 86312.894,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 15.594,
+     "prr_ci95": [
+      15.263,
+      15.932
+     ],
+     "ror": 20.74,
+     "ror_ci95": [
+      20.15,
+      21.347
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 6327,
+      "b": 17943,
+      "c": 345529,
+      "d": 20322891
+     }
+    },
+    "renal": {
+     "chi2_yates": 136.893,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.617,
+     "prr_ci95": [
+      0.568,
+      0.669
+     ],
+     "ror": 0.608,
+     "ror_ci95": [
+      0.559,
+      0.661
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 555,
+      "b": 23715,
+      "c": 766508,
+      "d": 19901912
+     }
+    }
+   },
+   "n_drug_reports": 24270,
+   "name_queried": "CLOBAZAM"
+  },
+  "CHEMBL723": {
+   "available": true,
+   "groups": {
+    "cardiac": {
+     "chi2_yates": 31003.549,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 3.311,
+     "prr_ci95": [
+      3.267,
+      3.356
+     ],
+     "ror": 3.686,
+     "ror_ci95": [
+      3.63,
+      3.744
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 18798,
+      "b": 115664,
+      "c": 868067,
+      "d": 19690161
+     }
+    },
+    "haematological": {
+     "chi2_yates": 2361.755,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.764,
+     "prr_ci95": [
+      1.724,
+      1.805
+     ],
+     "ror": 1.806,
+     "ror_ci95": [
+      1.763,
+      1.851
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 7003,
+      "b": 127459,
+      "c": 606856,
+      "d": 19951372
+     }
+    },
+    "hepatic": {
+     "chi2_yates": 21.766,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.927,
+     "prr_ci95": [
+      0.898,
+      0.957
+     ],
+     "ror": 0.925,
+     "ror_ci95": [
+      0.895,
+      0.956
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 3709,
+      "b": 130753,
+      "c": 611733,
+      "d": 19946495
+     }
+    },
+    "hypersensitivity": {
+     "chi2_yates": 113.804,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.885,
+     "prr_ci95": [
+      0.865,
+      0.905
+     ],
+     "ror": 0.878,
+     "ror_ci95": [
+      0.858,
+      0.899
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 7174,
+      "b": 127288,
+      "c": 1239715,
+      "d": 19318513
+     }
+    },
+    "neurological": {
+     "chi2_yates": 74.596,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.18,
+     "prr_ci95": [
+      1.137,
+      1.225
+     ],
+     "ror": 1.184,
+     "ror_ci95": [
+      1.139,
+      1.23
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 2695,
+      "b": 131767,
+      "c": 349161,
+      "d": 20209067
+     }
+    },
+    "renal": {
+     "chi2_yates": 20433.978,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 3.02,
+     "prr_ci95": [
+      2.974,
+      3.066
+     ],
+     "ror": 3.27,
+     "ror_ci95": [
+      3.215,
+      3.327
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 14856,
+      "b": 119606,
+      "c": 752207,
+      "d": 19806021
+     }
+    }
+   },
+   "n_drug_reports": 134462,
+   "name_queried": "CARVEDILOL"
+  },
+  "CHEMBL92": {
+   "available": true,
+   "groups": {
+    "cardiac": {
+     "chi2_yates": 76.795,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.161,
+     "prr_ci95": [
+      1.123,
+      1.2
+     ],
+     "ror": 1.169,
+     "ror_ci95": [
+      1.129,
+      1.21
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 3331,
+      "b": 63675,
+      "c": 883534,
+      "d": 19742150
+     }
+    },
+    "haematological": {
+     "chi2_yates": 47783.926,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 5.915,
+     "prr_ci95": [
+      5.816,
+      6.015
+     ],
+     "ror": 6.941,
+     "ror_ci95": [
+      6.802,
+      7.082
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 11573,
+      "b": 55433,
+      "c": 602286,
+      "d": 20023398
+     }
+    },
+    "hepatic": {
+     "chi2_yates": 751.635,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.607,
+     "prr_ci95": [
+      1.554,
+      1.663
+     ],
+     "ror": 1.638,
+     "ror_ci95": [
+      1.58,
+      1.697
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 3197,
+      "b": 63809,
+      "c": 612245,
+      "d": 20013439
+     }
+    },
+    "hypersensitivity": {
+     "chi2_yates": 440.761,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.679,
+     "prr_ci95": [
+      0.655,
+      0.705
+     ],
+     "ror": 0.666,
+     "ror_ci95": [
+      0.641,
+      0.692
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 2746,
+      "b": 64260,
+      "c": 1244143,
+      "d": 19381541
+     }
+    },
+    "neurological": {
+     "chi2_yates": 4060.717,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.887,
+     "prr_ci95": [
+      2.791,
+      2.985
+     ],
+     "ror": 2.983,
+     "ror_ci95": [
+      2.88,
+      3.091
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 3269,
+      "b": 63737,
+      "c": 348587,
+      "d": 20277097
+     }
+    },
+    "renal": {
+     "chi2_yates": 5.877,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 0.952,
+     "prr_ci95": [
+      0.915,
+      0.99
+     ],
+     "ror": 0.95,
+     "ror_ci95": [
+      0.912,
+      0.99
+     ],
+     "ror_signal": false,
+     "signal": false,
+     "table": {
+      "a": 2365,
+      "b": 64641,
+      "c": 764698,
+      "d": 19860986
+     }
+    }
+   },
+   "n_drug_reports": 67006,
+   "name_queried": "DOCETAXEL"
+  },
+  "CHEMBL967": {
+   "available": true,
+   "groups": {
+    "cardiac": {
+     "chi2_yates": 2489.087,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.222,
+     "prr_ci95": [
+      2.154,
+      2.293
+     ],
+     "ror": 2.35,
+     "ror_ci95": [
+      2.27,
+      2.433
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 3561,
+      "b": 33914,
+      "c": 883304,
+      "d": 19771911
+     }
+    },
+    "haematological": {
+     "chi2_yates": 878.833,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.878,
+     "prr_ci95": [
+      1.802,
+      1.959
+     ],
+     "ror": 1.93,
+     "ror_ci95": [
+      1.847,
+      2.018
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 2085,
+      "b": 35390,
+      "c": 611774,
+      "d": 20043441
+     }
+    },
+    "hepatic": {
+     "chi2_yates": 634.985,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.746,
+     "prr_ci95": [
+      1.672,
+      1.823
+     ],
+     "ror": 1.786,
+     "ror_ci95": [
+      1.707,
+      1.87
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 1943,
+      "b": 35532,
+      "c": 613499,
+      "d": 20041716
+     }
+    },
+    "hypersensitivity": {
+     "chi2_yates": 81.836,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.185,
+     "prr_ci95": [
+      1.142,
+      1.229
+     ],
+     "ror": 1.199,
+     "ror_ci95": [
+      1.153,
+      1.247
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 2675,
+      "b": 34800,
+      "c": 1244214,
+      "d": 19411001
+     }
+    },
+    "neurological": {
+     "chi2_yates": 523.796,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 1.902,
+     "prr_ci95": [
+      1.799,
+      2.011
+     ],
+     "ror": 1.932,
+     "ror_ci95": [
+      1.824,
+      2.046
+     ],
+     "ror_signal": true,
+     "signal": false,
+     "table": {
+      "a": 1210,
+      "b": 36265,
+      "c": 350646,
+      "d": 20304569
+     }
+    },
+    "renal": {
+     "chi2_yates": 1504.45,
+     "estimable": true,
+     "haldane_correction_applied": false,
+     "prr": 2.024,
+     "prr_ci95": [
+      1.953,
+      2.098
+     ],
+     "ror": 2.107,
+     "ror_ci95": [
+      2.028,
+      2.19
+     ],
+     "ror_signal": true,
+     "signal": true,
+     "table": {
+      "a": 2807,
+      "b": 34668,
+      "c": 764256,
+      "d": 19890959
+     }
+    }
+   },
+   "n_drug_reports": 37475,
+   "name_queried": "TEMAZEPAM"
+  },
+  "CHEMBL969": {
+   "available": false,
+   "name_queried": "PRAZEPAM",
+   "reason": "openFDA has no reports under this generic name"
+  },
+  "CHEMBL970": {
+   "available": false,
+   "name_queried": "HALAZEPAM",
+   "reason": "openFDA has no reports under this generic name"
+  }
+ },
+ "faers_total_reports": 20692690,
+ "group_definition": {
+  "group_total_reports": {
+   "cardiac": 886865,
+   "haematological": 613859,
+   "hepatic": 615442,
+   "hypersensitivity": 1246889,
+   "neurological": 351856,
+   "renal": 767063
+  },
+  "method": "union of MedDRA PTs matching the toxicity.GROUPS regex among the top 999 PTs of FAERS and of each drug",
+  "pt_count": {
+   "cardiac": 120,
+   "haematological": 39,
+   "hepatic": 111,
+   "hypersensitivity": 51,
+   "neurological": 58,
+   "renal": 104
+  }
+ },
+ "signal_rule": {
+  "a_min": 3,
+  "chi2": "Yates-corrected",
+  "chi2_min": 4.0,
+  "prr_min": 2.0
+ },
+ "source": "openFDA drug/event (FAERS, CC0)"
+}

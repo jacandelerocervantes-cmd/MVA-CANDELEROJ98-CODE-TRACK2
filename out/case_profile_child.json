@@ -1,0 +1,216 @@
+{
+ "age_band": "unknown",
+ "findings": {
+  "growth": "present",
+  "neurological": "unknown",
+  "renal": "present"
+ },
+ "genomic_findings": [
+  {
+   "computational_evidence_strength": "discordant across predictors",
+   "consequence_classes": [
+    "loss of function",
+    "missense"
+   ],
+   "gene_symbol": "BUB1B",
+   "genotype_pattern": "compound heterozygous",
+   "mechanism_class": "spindle-assembly checkpoint",
+   "phase_status": "unresolved",
+   "predictor_strengths": [
+    {
+     "predictor": "AlphaMissense",
+     "strength": "moderate"
+    },
+    {
+     "predictor": "PolyPhen-2",
+     "strength": "supporting"
+    },
+    {
+     "predictor": "REVEL",
+     "strength": "none"
+    },
+    {
+     "predictor": "CADD",
+     "strength": "none"
+    },
+    {
+     "predictor": "SIFT",
+     "strength": "none"
+    }
+   ],
+   "variant_mechanism_statements": [
+    "loss of function by predicted nonsense-mediated decay; any truncated product lacks the kinase domain",
+    "missense at a conserved, buried position of the kinase domain"
+   ]
+  },
+  {
+   "computational_evidence_strength": "unknown",
+   "consequence_classes": [
+    "structural call not overlapping coding sequence"
+   ],
+   "gene_symbol": "CENPE",
+   "genotype_pattern": "structural unpaired",
+   "mechanism_class": "unknown",
+   "phase_status": "unknown"
+  },
+  {
+   "computational_evidence_strength": "unknown",
+   "consequence_classes": [
+    "missense"
+   ],
+   "gene_symbol": "DNAH10",
+   "genotype_pattern": "compound heterozygous",
+   "mechanism_class": "unknown",
+   "phase_status": "unknown"
+  },
+  {
+   "computational_evidence_strength": "unknown",
+   "consequence_classes": [
+    "missense"
+   ],
+   "gene_symbol": "IGBP1",
+   "genotype_pattern": "hemizygous",
+   "mechanism_class": "unknown",
+   "phase_status": "unknown"
+  },
+  {
+   "computational_evidence_strength": "unknown",
+   "consequence_classes": [
+    "in-frame",
+    "missense"
+   ],
+   "gene_symbol": "IZUMO4",
+   "genotype_pattern": "compound heterozygous",
+   "mechanism_class": "unknown",
+   "phase_status": "unknown"
+  },
+  {
+   "computational_evidence_strength": "unknown",
+   "consequence_classes": [
+    "structural call not overlapping coding sequence"
+   ],
+   "gene_symbol": "MAD1L1",
+   "genotype_pattern": "structural unpaired",
+   "mechanism_class": "spindle-assembly checkpoint",
+   "phase_status": "unknown"
+  },
+  {
+   "computational_evidence_strength": "unknown",
+   "consequence_classes": [
+    "missense"
+   ],
+   "gene_symbol": "ZNF418",
+   "genotype_pattern": "homozygous",
+   "mechanism_class": "unknown",
+   "phase_status": "unknown"
+  }
+ ],
+ "phenotypic_features": [
+  {
+   "hpo_id": "HP:0000077",
+   "status": "unknown"
+  },
+  {
+   "hpo_id": "HP:0000121",
+   "status": "present"
+  },
+  {
+   "hpo_id": "HP:0000252",
+   "status": "unknown"
+  },
+  {
+   "hpo_id": "HP:0000478",
+   "status": "unknown"
+  },
+  {
+   "hpo_id": "HP:0000518",
+   "status": "unknown"
+  },
+  {
+   "hpo_id": "HP:0000568",
+   "status": "unknown"
+  },
+  {
+   "hpo_id": "HP:0001250",
+   "status": "unknown"
+  },
+  {
+   "hpo_id": "HP:0001263",
+   "status": "unknown"
+  },
+  {
+   "hpo_id": "HP:0001305",
+   "status": "unknown"
+  },
+  {
+   "hpo_id": "HP:0001508",
+   "status": "present"
+  },
+  {
+   "hpo_id": "HP:0001510",
+   "status": "unknown"
+  },
+  {
+   "hpo_id": "HP:0001511",
+   "status": "unknown"
+  },
+  {
+   "hpo_id": "HP:0001518",
+   "status": "present"
+  },
+  {
+   "hpo_id": "HP:0001622",
+   "status": "present"
+  },
+  {
+   "hpo_id": "HP:0001909",
+   "status": "unknown"
+  },
+  {
+   "hpo_id": "HP:0002664",
+   "status": "unknown"
+  },
+  {
+   "hpo_id": "HP:0002667",
+   "status": "unknown"
+  },
+  {
+   "hpo_id": "HP:0002859",
+   "status": "present"
+  },
+  {
+   "hpo_id": "HP:0003202",
+   "status": "present"
+  },
+  {
+   "hpo_id": "HP:0004322",
+   "status": "present"
+  },
+  {
+   "hpo_id": "HP:0012443",
+   "status": "unknown"
+  },
+  {
+   "hpo_id": "HP:0200067",
+   "status": "present"
+  }
+ ],
+ "profile_id": "child_proband",
+ "provenance": {
+  "date": "2026-10-15",
+  "source_files": [
+   "config/patient.json",
+   "out/differential_diagnosis.json",
+   "out/variant_consequence_classes.json",
+   "out/mva_landscape.json",
+   "out/empirical/variant_calibration.json",
+   "out/variant_mechanism.json"
+  ]
+ },
+ "schema_version": "case_profile/1.0",
+ "sex": "unknown",
+ "tumour": {
+  "current_status": "unknown",
+  "history": "yes"
+ }
+}

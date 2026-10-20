@@ -1,0 +1,307 @@
+{
+ "disease": "mosaic variegated aneuploidy type 1 (BUB1B)",
+ "genotype": {
+  "child": {
+   "consequence_classes": [
+    "loss of function",
+    "missense"
+   ],
+   "genotype_pattern": "compound heterozygous",
+   "phase_status": "unresolved"
+  },
+  "gene": "BUB1B",
+  "not_reported": {
+   "counts of truncating plus missense versus two truncating": "not reported in the sources",
+   "two truncating variants (frequency)": "not reported in the sources"
+  },
+  "published": [
+   {
+    "pattern": "biallelic with one truncating and one missense variant",
+    "pmid": "20516114",
+    "sentence": "In patients with biallelic mutations, a missense mutation pairs with a truncating mutation."
+   },
+   {
+    "pattern": "missense variants lie in or near the kinase domain (protein level)",
+    "pmid": "20516114",
+    "sentence": "In this group of missense mutants, the amino acid change consistently occurs in or near the BUBR1 kinase domain."
+   },
+   {
+    "pattern": "homozygous or compound heterozygous",
+    "pmid": "35804254",
+    "sentence": "MVA1 type 1 (OMIM 257,300) is caused by homozygous or compound heterozygous mutations in the BUB1B gene (OMIM 602,860) located in chromosome 15q1 and is clinically characterized by microcephaly, developmental delay/intellectual disability (DD/ID), epileptic seizures, generalized hypotonia, intrauterine growth restriction (IUGR), and postnatal growth retardation."
+   },
+   {
+    "pattern": "protein domain organisation (N-terminal kinetochore-binding region, BUB3/CDC20-binding region, C-terminal kinase domain)",
+    "pmid": "35804254",
+    "sentence": "In the protein structure can be identified an N-terminal region required for BUB1B binding, an intermediate region containing the BUB3 and CDC20 binding domains, and a catalytic serine/threonine kinase domain in the C-terminal region."
+   }
+  ],
+  "reading": "child: biallelic (compound heterozygous) with one loss-of-function and one missense class; published: biallelic patients carry a missense variant paired with a truncating one (PMID 20516114): pattern class matches (loss-of-function class compared with 'truncating' at class level only); phase not resolved, so trans configuration is not confirmed; domain of the missense variant is not stored in the profile (categorical level), so the kinase-domain location reported in PMID 20516114 is not assessed"
+ },
+ "limits": "Published frequencies come from reviews of case reports (selection bias); the contrast lists what to check, not a diagnosis.",
+ "profile_id": "child_proband",
+ "reference_retrieved": "2026-10-15",
+ "rows": [
+  {
+   "child": "unknown",
+   "feature": "microcephaly",
+   "hpo_ids": [
+    "HP:0000252"
+   ],
+   "published_frequency": [
+    {
+     "pmid": "35804254",
+     "population": "published MVA cases in the systematic review (text: 'the group of 30 MVA patients'; percentages as published)",
+     "sentence": "In the group of 30 MVA patients, pre-postnatal growth retardation, microcephaly, ID/DD, and epileptic seizures occurred in 93.5%, 87%, 77.4%, and 45.1% of the cases, respectively.",
+     "value": "87%"
+    }
+   ],
+   "reading": "not recorded in the child although reported in a majority of cases (87% of published cases, PMID 35804254): check clinically"
+  },
+  {
+   "child": "present",
+   "feature": "pre- or postnatal growth restriction",
+   "hpo_ids": [
+    "HP:0001510",
+    "HP:0004322",
+    "HP:0001508",
+    "HP:0001518",
+    "HP:0001511"
+   ],
+   "published_frequency": [
+    {
+     "pmid": "35804254",
+     "population": "published MVA cases in the systematic review (text: 'the group of 30 MVA patients'; percentages as published)",
+     "sentence": "In the group of 30 MVA patients, pre-postnatal growth retardation, microcephaly, ID/DD, and epileptic seizures occurred in 93.5%, 87%, 77.4%, and 45.1% of the cases, respectively.",
+     "value": "93.5%"
+    }
+   ],
+   "reading": "present in the child and reported in 93.5% of published cases, PMID 35804254"
+  },
+  {
+   "child": "unknown",
+   "feature": "intrauterine growth restriction (separately)",
+   "hpo_ids": [
+    "HP:0001511"
+   ],
+   "published_frequency": [
+    {
+     "pmid": "35804254",
+     "population": "named as a characteristic feature without a separate frequency",
+     "sentence": "MVA1 is clinically characterized by intrauterine growth restriction, post-natal growth retardation, and severe neurologic impairment including microcephaly, developmental delay/intellectual disability, epileptic seizures, and generalized hypotonia.",
+     "value": null
+    }
+   ],
+   "reading": "not recorded in the child; named without a frequency in PMID 35804254"
+  },
+  {
+   "child": "unknown",
+   "feature": "developmental delay / intellectual disability",
+   "hpo_ids": [
+    "HP:0001263"
+   ],
+   "published_frequency": [
+    {
+     "pmid": "35804254",
+     "population": "published MVA cases in the systematic review (text: 'the group of 30 MVA patients'; percentages as published)",
+     "sentence": "In the group of 30 MVA patients, pre-postnatal growth retardation, microcephaly, ID/DD, and epileptic seizures occurred in 93.5%, 87%, 77.4%, and 45.1% of the cases, respectively.",
+     "value": "77.4%"
+    }
+   ],
+   "reading": "not recorded in the child although reported in a majority of cases (77.4% of published cases, PMID 35804254): check clinically"
+  },
+  {
+   "child": "unknown",
+   "feature": "epileptic seizures",
+   "hpo_ids": [
+    "HP:0001250"
+   ],
+   "published_frequency": [
+    {
+     "pmid": "35804254",
+     "population": "published MVA cases in the systematic review (text: 'the group of 30 MVA patients'; percentages as published)",
+     "sentence": "In the group of 30 MVA patients, pre-postnatal growth retardation, microcephaly, ID/DD, and epileptic seizures occurred in 93.5%, 87%, 77.4%, and 45.1% of the cases, respectively.",
+     "value": "45.1%"
+    }
+   ],
+   "reading": "not recorded in the child; reported in a minority of cases (45.1% of published cases, PMID 35804254)"
+  },
+  {
+   "child": "unknown",
+   "feature": "Dandy-Walker malformation",
+   "hpo_ids": [
+    "HP:0001305"
+   ],
+   "published_frequency": [
+    {
+     "pmid": "35804254",
+     "population": "published MVA cases in the systematic review (text: 'the group of 30 MVA patients'; percentages as published)",
+     "sentence": "Furthermore, DWM was present in 25.8% of the cases and other cerebral anomalies including the corpus callosum hypo-aplasia (CAA) were reported in 32.2% of the cases.",
+     "value": "25.8%"
+    },
+    {
+     "pmid": "18548531",
+     "population": "patients with BUB1B mutations screened in the 2008 review (denominator as published)",
+     "sentence": "Patients with monoallelic BUB1B mutations were severely affected with Dandy-Walker complex (7/8), cataracts (6/6), and Wilms' tumor (7/8); premature chromatid separation (PCS) was observed in 8/8 propositi and 7/7 carrier parents.",
+     "value": "7/8"
+    }
+   ],
+   "reading": "not recorded in the child; reported in a minority of cases (25.8% of published cases, PMID 35804254)"
+  },
+  {
+   "child": "unknown",
+   "feature": "other brain malformations (incl. corpus callosum hypo-aplasia)",
+   "hpo_ids": [
+    "HP:0012443"
+   ],
+   "published_frequency": [
+    {
+     "pmid": "35804254",
+     "population": "published MVA cases in the systematic review (text: 'the group of 30 MVA patients'; percentages as published)",
+     "sentence": "Furthermore, DWM was present in 25.8% of the cases and other cerebral anomalies including the corpus callosum hypo-aplasia (CAA) were reported in 32.2% of the cases.",
+     "value": "32.2%"
+    }
+   ],
+   "reading": "not recorded in the child; reported in a minority of cases (32.2% of published cases, PMID 35804254)"
+  },
+  {
+   "child": "present",
+   "feature": "any malignancy",
+   "hpo_ids": [
+    "HP:0002664"
+   ],
+   "published_frequency": [
+    {
+     "pmid": "35804254",
+     "population": "published MVA cases in the systematic review (text: 'the group of 30 MVA patients'; percentages as published)",
+     "sentence": "Malignancies had noticeably a high incidence (38.7%) with Wilms tumor, rhabdomyosarcoma and leukemia being the most frequently reported and recently polycystic ovary syndrome",
+     "value": "38.7%"
+    }
+   ],
+   "reading": "present in the child and reported in 38.7% of published cases, PMID 35804254"
+  },
+  {
+   "child": "present",
+   "feature": "rhabdomyosarcoma",
+   "hpo_ids": [
+    "HP:0002859"
+   ],
+   "published_frequency": [
+    {
+     "pmid": "35804254",
+     "population": "named among the most frequently reported malignancies; no individual frequency",
+     "sentence": "Malignancies had noticeably a high incidence (38.7%) with Wilms tumor, rhabdomyosarcoma and leukemia being the most frequently reported and recently polycystic ovary syndrome",
+     "value": null
+    }
+   ],
+   "reading": "present in the child; named without a frequency in PMID 35804254"
+  },
+  {
+   "child": "unknown",
+   "feature": "Wilms tumour",
+   "hpo_ids": [
+    "HP:0002667"
+   ],
+   "published_frequency": [
+    {
+     "pmid": "35804254",
+     "population": "named among the most frequently reported malignancies; no individual frequency",
+     "sentence": "Malignancies had noticeably a high incidence (38.7%) with Wilms tumor, rhabdomyosarcoma and leukemia being the most frequently reported and recently polycystic ovary syndrome",
+     "value": null
+    },
+    {
+     "pmid": "18548531",
+     "population": "patients with BUB1B mutations screened in the 2008 review (denominator as published)",
+     "sentence": "Patients with monoallelic BUB1B mutations were severely affected with Dandy-Walker complex (7/8), cataracts (6/6), and Wilms' tumor (7/8); premature chromatid separation (PCS) was observed in 8/8 propositi and 7/7 carrier parents.",
+     "value": "7/8"
+    }
+   ],
+   "reading": "not recorded in the child although reported in a majority of cases (7/8 published cases with BUB1B mutations, PMID 18548531): check clinically"
+  },
+  {
+   "child": "unknown",
+   "feature": "leukaemia",
+   "hpo_ids": [
+    "HP:0001909"
+   ],
+   "published_frequency": [
+    {
+     "pmid": "35804254",
+     "population": "named among the most frequently reported malignancies; no individual frequency",
+     "sentence": "Malignancies had noticeably a high incidence (38.7%) with Wilms tumor, rhabdomyosarcoma and leukemia being the most frequently reported and recently polycystic ovary syndrome",
+     "value": null
+    }
+   ],
+   "reading": "not recorded in the child; named without a frequency in PMID 35804254"
+  },
+  {
+   "child": "unknown",
+   "feature": "renal dysfunction",
+   "hpo_ids": [
+    "HP:0000077"
+   ],
+   "published_frequency": [
+    {
+     "pmid": "35804254",
+     "population": "published MVA cases in the systematic review (text: 'the group of 30 MVA patients'; percentages as published)",
+     "sentence": "Less frequent but serious presentations include genital anomalies (12.9%), renal dysfunction (12.9%), and endocrine dysfunction (12.9%).",
+     "value": "12.9%"
+    }
+   ],
+   "reading": "not recorded in the child; reported in a minority of cases (12.9% of published cases, PMID 35804254)"
+  },
+  {
+   "child": "present",
+   "feature": "nephrocalcinosis",
+   "hpo_ids": [
+    "HP:0000121"
+   ],
+   "published_frequency": "not reported in the sources",
+   "reading": "present in the child but not reported in published cases"
+  },
+  {
+   "child": "unknown",
+   "feature": "cataract",
+   "hpo_ids": [
+    "HP:0000518"
+   ],
+   "published_frequency": [
+    {
+     "pmid": "18548531",
+     "population": "patients with BUB1B mutations screened in the 2008 review (denominator as published)",
+     "sentence": "Patients with monoallelic BUB1B mutations were severely affected with Dandy-Walker complex (7/8), cataracts (6/6), and Wilms' tumor (7/8); premature chromatid separation (PCS) was observed in 8/8 propositi and 7/7 carrier parents.",
+     "value": "6/6"
+    },
+    {
+     "pmid": "35804254",
+     "population": "named among less frequent features; no frequency",
+     "sentence": "As suggested by this study, less frequent features included minor facial features, bilateral cataracts, microphthalmia, cleft palate, ambiguous genitalia in males, skin abnormalities, and malignancies.",
+     "value": null
+    }
+   ],
+   "reading": "not recorded in the child although reported in a majority of cases (6/6 published cases with BUB1B mutations, PMID 18548531): check clinically"
+  },
+  {
+   "child": "unknown",
+   "feature": "microphthalmia",
+   "hpo_ids": [
+    "HP:0000568"
+   ],
+   "published_frequency": [
+    {
+     "pmid": "35804254",
+     "population": "named among less frequent features; no frequency",
+     "sentence": "As suggested by this study, less frequent features included minor facial features, bilateral cataracts, microphthalmia, cleft palate, ambiguous genitalia in males, skin abnormalities, and malignancies.",
+     "value": null
+    }
+   ],
+   "reading": "not recorded in the child; named without a frequency in PMID 35804254"
+  }
+ ],
+ "rules": [
+  "present in the child and reported in X of published cases",
+  "not recorded in the child although reported in a majority of cases: check clinically (majority: primary frequency above 50%)",
+  "present in the child but not reported in published cases",
+  "other combinations are stated literally (absent, minority, named without frequency, not reported)"
+ ]
+}

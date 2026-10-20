@@ -1,0 +1,266 @@
+{
+ "items": [
+  {
+   "disease": "X-linked adrenoleukodystrophy",
+   "drug": "betaine",
+   "id": "dev-07600",
+   "pmid": "30362618",
+   "sentence": "Cotreatments of diosmetin and betaine showed the most robust additive effects, as confirmed by three independent functional assays in primary PEX1-G843D patient cells, but neither agent was active alone or in combination in patient cells homozygous for the PEX1 c.2097_2098insT null allele."
+  },
+  {
+   "disease": "homozygous familial hypercholesterolemia",
+   "drug": "ezetimibe",
+   "id": "dev-07601",
+   "pmid": "26844336",
+   "sentence": "Treatment should initially be statin-based, but most patients require adjunctive medications such as ezetimibe and PCSK9 blocking monoclonal antibodies."
+  },
+  {
+   "disease": "adult-onset citrullinemia type I",
+   "drug": "cisplatin",
+   "id": "dev-07602",
+   "pmid": "PPR:PPR575167",
+   "sentence": "Targeting IGF1R signaling enhances the sensitivity of cisplatin by inhibiting proline and arginine metabolism in oesophageal squamous cell carcinoma under hypoxia condition"
+  },
+  {
+   "disease": "Duchenne muscular dystrophy",
+   "drug": "golodirsen",
+   "id": "dev-07603",
+   "pmid": "38265797",
+   "sentence": "Design, setting, and participants This cross-sectional study collected data on patients who initiated 1 of 4 novel DMD treatments (eteplirsen, golodirsen, viltolarsen, and casimersen) using national claims databases of commercially insured (Merative MarketScan and Optum's Clinformatics Data Mart Database [CDM]) and Medicaid patients between September 19, 2016, and March 31, 2022."
+  },
+  {
+   "disease": "thrombocythemia",
+   "drug": "venetoclax",
+   "id": "dev-07604",
+   "pmid": "38890297",
+   "sentence": "In this elderly cohort (median age 68.2 years) with 74.0% receiving frontline non-intensive regimens (hypomethylating agents +/- venetoclax), the overall cohort CR1 rate was 25.6% (50/195)."
+  },
+  {
+   "disease": "small cell lung carcinoma",
+   "drug": "tyrosine",
+   "id": "dev-07605",
+   "pmid": "35626421",
+   "sentence": "EGFR tyrosine kinase inhibitors (EGFR-TKIs) have revolutionized the treatment of non-small cell lung cancer (NSCLC) patients with activating EGFR mutations."
+  },
+  {
+   "disease": "multiple endocrine neoplasia",
+   "drug": "pralsetinib",
+   "id": "dev-07606",
+   "pmid": "39342195",
+   "sentence": "Recently, new generation TKIs, including Selpercatinib and Pralsetinib, have demonstrated highly selective efficacy against RET and more favorable side effect profiles, and gained approval as second-line treatment options."
+  },
+  {
+   "disease": "hemophagocytic lymphohistiocytosis",
+   "drug": "tocilizumab",
+   "id": "dev-07607",
+   "pmid": "38034538",
+   "sentence": "Initial treatment before canakinumab consisted of non-biologic therapies: non-steroidal anti-inflammatory drugs (NSAID) (91%), corticosteroids (88%), methotrexate (38%), intravenous immunoglobulin (IVIG) (34%), cyclosporine A (25%), colchicine (6%) cyclophosphamide (6%), sulfasalazine (3%), mycophenolate mofetil (3%), hydroxychloroquine (3%), and biologic drugs: tocilizumab (62%), sarilumab, etanercept, adalimumab, rituximab, and infliximab (all 3%)."
+  },
+  {
+   "disease": "postural orthostatic tachycardia syndrome",
+   "drug": "atomoxetine",
+   "id": "dev-07608",
+   "pmid": "30692908",
+   "sentence": "Based on previous reports of lower NE levels in ADHD children and the inverted-U shape effect of NE on cognitive functions, we propose that rs28386840 (-3081) T-allele, which is associated with lower NET expression (and potentially higher synaptic NE level) would support attention processes among ADHD patients (similarly as atomoxetine increases NE levels), whereas it would hinder cortical functions in healthy children."
+  },
+  {
+   "disease": "adult-onset citrullinemia type I",
+   "drug": "cisplatin",
+   "id": "dev-07609",
+   "pmid": "34382365",
+   "sentence": "Phase 1, pharmacogenomic, dose-expansion study of pegargiminase plus pemetrexed and cisplatin in patients with ASS1-deficient non-squamous non-small cell lung cancer."
+  },
+  {
+   "disease": "severe congenital neutropenia",
+   "drug": "botulinum toxin type a",
+   "id": "dev-07610",
+   "pmid": "38065687",
+   "sentence": "Botulinum toxin type A ameliorates rat dorsal root ganglia neuron pyroptosis in postherpetic neuralgia by upregulating cathelicidin antimicrobial peptide to inhibit neutrophil elastase."
+  },
+  {
+   "disease": "familial glucocorticoid deficiency",
+   "drug": "cysteine",
+   "id": "dev-07611",
+   "pmid": "PPR:PPR854893",
+   "sentence": "Given that cysteine is also required for coenzyme A (CoA) biosynthesis, here we show that CoA supplementation specifically prevents ferroptosis induced by xCT inhibitors but not GPX4 inhibitors."
+  },
+  {
+   "disease": "thrombocythemia",
+   "drug": "nilotinib",
+   "id": "dev-07612",
+   "pmid": "36703773",
+   "sentence": "Insights from a rare myeloproliferative neoplasm with coexisting BCR-ABL1 fusion gene, CALR, and TET2 mutations treated with nilotinib and ruxolitinib."
+  },
+  {
+   "disease": "juvenile Huntington disease",
+   "drug": "carbamazepine",
+   "id": "dev-07613",
+   "pmid": "20301482",
+   "sentence": "Lamotrigine and carbamazepine for mood stabilization."
+  },
+  {
+   "disease": "juvenile Huntington disease",
+   "drug": "calcium chloride",
+   "id": "dev-07614",
+   "pmid": "37687533",
+   "sentence": "This study suggests that HTT technology can be utilized to convert organochlorines in R-PVC to calcium chloride, achieving the simultaneous dechlorination of R-PVC and utilization of products."
+  },
+  {
+   "disease": "inherited acute myeloid leukemia",
+   "drug": "tyrosine",
+   "id": "dev-07615",
+   "pmid": "34970478",
+   "sentence": "CEBPA mutations affected the efficacy of EGFR -tyrosine kinase inhibitors."
+  },
+  {
+   "disease": "postural orthostatic tachycardia syndrome",
+   "drug": "dopamine",
+   "id": "dev-07616",
+   "pmid": "21680027",
+   "sentence": "Variation in genes implicated in the synthesis and signal transduction of catecholamines (norepinephrine and dopamine) may interact with environmental factors to affect the outcome of antidepressant treatment."
+  },
+  {
+   "disease": "multiple endocrine neoplasia",
+   "drug": "selpercatinib",
+   "id": "dev-07617",
+   "pmid": "39316846",
+   "sentence": "Discovery of 7-(1-methyl-1H-pyrazol-4-yl)-1,6-naphthyridine derivatives as potent inhibitors of rearranged during transfection (RET) and RET solvent-front mutants for overcoming selpercatinib resistance."
+  },
+  {
+   "disease": "juvenile Huntington disease",
+   "drug": "biotin",
+   "id": "dev-07618",
+   "pmid": "PPR:PPR574975",
+   "sentence": "We report biotin-tagged variants of these subdomains, as well as full-length HTT, that permit immobilisation of each protein for quantitative biophysical assays without impacting protein quality."
+  },
+  {
+   "disease": "hyperammonemia due to N-acetylglutamate synthase deficiency",
+   "drug": "valproic acid",
+   "id": "dev-07619",
+   "pmid": "24888247",
+   "sentence": "Valproic acid, which is widely used to treat various types of epilepsy, may cause severe hyperammonemia."
+  },
+  {
+   "disease": "familial glucocorticoid deficiency",
+   "drug": "hydrocortisone",
+   "id": "dev-07620",
+   "pmid": "38367989",
+   "sentence": "He responded well to hydrocortisone therapy with resolution of symptoms and normalisation of lab parameters."
+  },
+  {
+   "disease": "testicular germ cell tumor",
+   "drug": "testosterone",
+   "id": "dev-07621",
+   "pmid": "39313103",
+   "sentence": "SPRY4 knockdown normalized the estrous cycle, reduced serum levels of testosterone, anti-Müllerian hormone, and luteinizing hormone/follicle-stimulating hormone ratio, and improved ovarian morphology."
+  },
+  {
+   "disease": "familial isolated deficiency of vitamin E",
+   "drug": "thiotepa",
+   "id": "dev-07622",
+   "pmid": "2505269",
+   "sentence": "Intravesical therapy comparing BCG, adriamycin, and thiotepa in 200 patients with superficial bladder cancer: a randomized prospective study."
+  },
+  {
+   "disease": "pulmonary venoocclusive disease",
+   "drug": "progesterone",
+   "id": "dev-07623",
+   "pmid": "PPR:PPR649283",
+   "sentence": "Progesterone is an Inducement of Heritable Pulmonary Arterial Hypertension with BMPR2 Mutation"
+  },
+  {
+   "disease": "hereditary hypophosphatemic rickets",
+   "drug": "amino acids",
+   "id": "dev-07624",
+   "pmid": "31821448",
+   "sentence": "The mutation is located 1 bp downstream of a highly conserved adenosine branch point, resulted in exon 13 skipping and in-frame deletion of 29 amino acids, which is part of the protein kinase domain and contains a Thr-320 phosphorylation site that is required for its activation."
+  },
+  {
+   "disease": "absence epilepsy",
+   "drug": "perampanel",
+   "id": "dev-07625",
+   "pmid": "35520951",
+   "sentence": "The introduction of perampanel therapy led to overall reduction of the focal and generalized myoclonic seizures and complete clinical control of the light-triggered seizures."
+  },
+  {
+   "disease": "hypogonadotropic hypogonadism with or without anosmia",
+   "drug": "testosterone",
+   "id": "dev-07626",
+   "pmid": "35669683",
+   "sentence": "In total, 65 patients completed the hCG prolongation test after undergoing the standard hCG test, and the testosterone levels of 24 patients (22.9%) were still lower than 100 ng/dL."
+  },
+  {
+   "disease": "Becker muscular dystrophy",
+   "drug": "viltolarsen",
+   "id": "dev-07627",
+   "pmid": "38265797",
+   "sentence": "Design, setting, and participants This cross-sectional study collected data on patients who initiated 1 of 4 novel DMD treatments (eteplirsen, golodirsen, viltolarsen, and casimersen) using national claims databases of commercially insured (Merative MarketScan and Optum's Clinformatics Data Mart Database [CDM]) and Medicaid patients between September 19, 2016, and March 31, 2022."
+  },
+  {
+   "disease": "Diamond-Blackfan anemia",
+   "drug": "chloroquine",
+   "id": "dev-07628",
+   "pmid": "PPR:PPR583291",
+   "sentence": "Usage of an autophagy inhibitor chloroquine (CQ) partially reverse the promotion of RPL11 on NSCLC cells proliferation."
+  },
+  {
+   "disease": "pulmonary venoocclusive disease",
+   "drug": "deferoxamine",
+   "id": "dev-07629",
+   "pmid": "36343841",
+   "sentence": "Meanwhile, iron chelator deferoxamine triggered oxidative stress and apoptosis in HPAECs, and treatment with antioxidant alleviated iron-deficiency-induced apoptosis by reducing reactive oxygen species production."
+  },
+  {
+   "disease": "prolactin producing pituitary gland tumor",
+   "drug": "prednisolone",
+   "id": "dev-07630",
+   "pmid": "33638626",
+   "sentence": "Induction of remission by prednisolone (PSL) for type 1 AIP/IgG4-RD led to a marked improvement of CRS."
+  },
+  {
+   "disease": "Bartter disease",
+   "drug": "celecoxib",
+   "id": "dev-07631",
+   "pmid": "29036958",
+   "sentence": "Further studies are needed to verify the effect of celecoxib in BS patients."
+  },
+  {
+   "disease": "gastrointestinal stromal tumor",
+   "drug": "tyrosine",
+   "id": "dev-07632",
+   "pmid": "37108337",
+   "sentence": "Gastrointestinal stromal tumor (GIST), the most common sarcoma, is mainly caused by an oncogenic mutation in the KIT receptor tyrosine kinase."
+  },
+  {
+   "disease": "familial thrombocytosis",
+   "drug": "tyrosine",
+   "id": "dev-07633",
+   "pmid": "34865702",
+   "sentence": "The myeloproliferative neoplasms (MPN), polycythemia vera (PV), essential thrombocytosis and primary myelofibrosis, are an unusual group of myeloid neoplasms, which arise in a pluripotent hematopoietic stem cell (HSC) due to gain of function driver mutations in the JAK2, CALR and MPL genes that constitutively activate JAK2, the cognate tyrosine kinase of the type 1 hematopoietic growth factor (HGF) receptors."
+  },
+  {
+   "disease": "acute intermittent porphyria",
+   "drug": "acetylcholine",
+   "id": "dev-07634",
+   "pmid": "PPR:PPR386323",
+   "sentence": "Acetylcholine esterase and Dipeptidyl peptidase-IV activity were used to arrive at their functional purity."
+  },
+  {
+   "disease": "acute neonatal citrullinemia type I",
+   "drug": "choline",
+   "id": "dev-07635",
+   "pmid": "PMC:PMC4200987",
+   "sentence": "We have also identified a significant decrease in choline levels, not previously been linked to arginine deprivation."
+  },
+  {
+   "disease": "thyroid gland carcinoma",
+   "drug": "pemetrexed",
+   "id": "dev-07636",
+   "pmid": "38911906",
+   "sentence": "Subsequently, he was treated with a combination of cisplatin, pemetrexed, and bevacizumab resulting in a partial response."
+  }
+ ],
+ "n_items": 37,
+ "shard": 77,
+ "split": "dev"
+}

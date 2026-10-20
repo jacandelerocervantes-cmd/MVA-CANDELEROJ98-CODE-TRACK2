@@ -1,0 +1,4 @@
+# Store every file byte for byte: the SHA-256 records in out/checksums.sha256 and in the pre-registration files must hold after a clone on any system
+* -text
+*.xlsx binary
+*.pdf binary

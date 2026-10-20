@@ -1,0 +1,386 @@
+{
+ "by_direction_status": {
+  "both_directional": {
+   "sonnet_no__opus_no": 389,
+   "sonnet_no__opus_unclear": 49,
+   "sonnet_no__opus_yes": 3,
+   "sonnet_unclear__opus_no": 17,
+   "sonnet_unclear__opus_unclear": 37,
+   "sonnet_yes__opus_no": 12,
+   "sonnet_yes__opus_unclear": 211,
+   "sonnet_yes__opus_yes": 125
+  },
+  "neither_directional": {
+   "sonnet_no__opus_no": 1968,
+   "sonnet_no__opus_unclear": 33,
+   "sonnet_unclear__opus_no": 27,
+   "sonnet_unclear__opus_unclear": 62,
+   "sonnet_unclear__opus_yes": 2,
+   "sonnet_yes__opus_no": 16,
+   "sonnet_yes__opus_unclear": 132,
+   "sonnet_yes__opus_yes": 91
+  },
+  "one_directional": {
+   "sonnet_no__opus_no": 147,
+   "sonnet_no__opus_unclear": 8,
+   "sonnet_unclear__opus_no": 5,
+   "sonnet_unclear__opus_unclear": 7,
+   "sonnet_yes__opus_no": 3,
+   "sonnet_yes__opus_unclear": 34,
+   "sonnet_yes__opus_yes": 18
+  }
+ },
+ "by_sentence_feature": {
+  "background_language": {
+   "absent": {
+    "Sno_Ono": 2121,
+    "Sno_Ounclear": 84,
+    "Sno_Oyes": 3,
+    "Sunclear_Ono": 42,
+    "Sunclear_Ounclear": 86,
+    "Sunclear_Oyes": 2,
+    "Syes_Ono": 30,
+    "Syes_Ounclear": 315,
+    "Syes_Oyes": 182,
+    "n": 2865
+   },
+   "present": {
+    "Sno_Ono": 383,
+    "Sno_Ounclear": 6,
+    "Sno_Oyes": 0,
+    "Sunclear_Ono": 7,
+    "Sunclear_Ounclear": 20,
+    "Sunclear_Oyes": 0,
+    "Syes_Ono": 1,
+    "Syes_Ounclear": 62,
+    "Syes_Oyes": 52,
+    "n": 531
+   }
+  },
+  "drug_list": {
+   "absent": {
+    "Sno_Ono": 1914,
+    "Sno_Ounclear": 68,
+    "Sno_Oyes": 1,
+    "Sunclear_Ono": 36,
+    "Sunclear_Ounclear": 81,
+    "Sunclear_Oyes": 2,
+    "Syes_Ono": 23,
+    "Syes_Ounclear": 298,
+    "Syes_Oyes": 183,
+    "n": 2606
+   },
+   "present": {
+    "Sno_Ono": 590,
+    "Sno_Ounclear": 22,
+    "Sno_Oyes": 2,
+    "Sunclear_Ono": 13,
+    "Sunclear_Ounclear": 25,
+    "Sunclear_Oyes": 0,
+    "Syes_Ono": 8,
+    "Syes_Ounclear": 79,
+    "Syes_Oyes": 51,
+    "n": 790
+   }
+  },
+  "mechanism_language": {
+   "absent": {
+    "Sno_Ono": 1335,
+    "Sno_Ounclear": 71,
+    "Sno_Oyes": 3,
+    "Sunclear_Ono": 35,
+    "Sunclear_Ounclear": 95,
+    "Sunclear_Oyes": 2,
+    "Syes_Ono": 23,
+    "Syes_Ounclear": 310,
+    "Syes_Oyes": 185,
+    "n": 2059
+   },
+   "present": {
+    "Sno_Ono": 1169,
+    "Sno_Ounclear": 19,
+    "Sno_Oyes": 0,
+    "Sunclear_Ono": 14,
+    "Sunclear_Ounclear": 11,
+    "Sunclear_Oyes": 0,
+    "Syes_Ono": 8,
+    "Syes_Ounclear": 67,
+    "Syes_Oyes": 49,
+    "n": 1337
+   }
+  },
+  "mentions_drug_class_or_group": {
+   "absent": {
+    "Sno_Ono": 2221,
+    "Sno_Ounclear": 73,
+    "Sno_Oyes": 3,
+    "Sunclear_Ono": 42,
+    "Sunclear_Ounclear": 86,
+    "Sunclear_Oyes": 2,
+    "Syes_Ono": 27,
+    "Syes_Ounclear": 321,
+    "Syes_Oyes": 202,
+    "n": 2977
+   },
+   "present": {
+    "Sno_Ono": 283,
+    "Sno_Ounclear": 17,
+    "Sno_Oyes": 0,
+    "Sunclear_Ono": 7,
+    "Sunclear_Ounclear": 20,
+    "Sunclear_Oyes": 0,
+    "Syes_Ono": 4,
+    "Syes_Ounclear": 56,
+    "Syes_Oyes": 32,
+    "n": 419
+   }
+  },
+  "methods_reagent": {
+   "absent": {
+    "Sno_Ono": 2399,
+    "Sno_Ounclear": 89,
+    "Sno_Oyes": 3,
+    "Sunclear_Ono": 48,
+    "Sunclear_Ounclear": 102,
+    "Sunclear_Oyes": 2,
+    "Syes_Ono": 31,
+    "Syes_Ounclear": 366,
+    "Syes_Oyes": 226,
+    "n": 3266
+   },
+   "present": {
+    "Sno_Ono": 105,
+    "Sno_Ounclear": 1,
+    "Sno_Oyes": 0,
+    "Sunclear_Ono": 1,
+    "Sunclear_Ounclear": 4,
+    "Sunclear_Oyes": 0,
+    "Syes_Ono": 0,
+    "Syes_Ounclear": 11,
+    "Syes_Oyes": 8,
+    "n": 130
+   }
+  },
+  "no_disease_name": {
+   "absent": {
+    "Sno_Ono": 255,
+    "Sno_Ounclear": 7,
+    "Sno_Oyes": 3,
+    "Sunclear_Ono": 6,
+    "Sunclear_Ounclear": 2,
+    "Sunclear_Oyes": 2,
+    "Syes_Ono": 6,
+    "Syes_Ounclear": 22,
+    "Syes_Oyes": 121,
+    "n": 424
+   },
+   "present": {
+    "Sno_Ono": 2249,
+    "Sno_Ounclear": 83,
+    "Sno_Oyes": 0,
+    "Sunclear_Ono": 43,
+    "Sunclear_Ounclear": 104,
+    "Sunclear_Oyes": 0,
+    "Syes_Ono": 25,
+    "Syes_Ounclear": 355,
+    "Syes_Oyes": 113,
+    "n": 2972
+   }
+  },
+  "patient_population": {
+   "absent": {
+    "Sno_Ono": 2154,
+    "Sno_Ounclear": 63,
+    "Sno_Oyes": 2,
+    "Sunclear_Ono": 39,
+    "Sunclear_Ounclear": 78,
+    "Sunclear_Oyes": 1,
+    "Syes_Ono": 15,
+    "Syes_Ounclear": 261,
+    "Syes_Oyes": 154,
+    "n": 2767
+   },
+   "present": {
+    "Sno_Ono": 350,
+    "Sno_Ounclear": 27,
+    "Sno_Oyes": 1,
+    "Sunclear_Ono": 10,
+    "Sunclear_Ounclear": 28,
+    "Sunclear_Oyes": 1,
+    "Syes_Ono": 16,
+    "Syes_Ounclear": 116,
+    "Syes_Oyes": 80,
+    "n": 629
+   }
+  },
+  "preclinical_model": {
+   "absent": {
+    "Sno_Ono": 1953,
+    "Sno_Ounclear": 84,
+    "Sno_Oyes": 3,
+    "Sunclear_Ono": 42,
+    "Sunclear_Ounclear": 99,
+    "Sunclear_Oyes": 2,
+    "Syes_Ono": 27,
+    "Syes_Ounclear": 358,
+    "Syes_Oyes": 200,
+    "n": 2768
+   },
+   "present": {
+    "Sno_Ono": 551,
+    "Sno_Ounclear": 6,
+    "Sno_Oyes": 0,
+    "Sunclear_Ono": 7,
+    "Sunclear_Ounclear": 7,
+    "Sunclear_Oyes": 0,
+    "Syes_Ono": 4,
+    "Syes_Ounclear": 19,
+    "Syes_Oyes": 34,
+    "n": 628
+   }
+  },
+  "therapeutic_language": {
+   "absent": {
+    "Sno_Ono": 1753,
+    "Sno_Ounclear": 37,
+    "Sno_Oyes": 3,
+    "Sunclear_Ono": 27,
+    "Sunclear_Ounclear": 52,
+    "Sunclear_Oyes": 2,
+    "Syes_Ono": 10,
+    "Syes_Ounclear": 125,
+    "Syes_Oyes": 72,
+    "n": 2081
+   },
+   "present": {
+    "Sno_Ono": 751,
+    "Sno_Ounclear": 53,
+    "Sno_Oyes": 0,
+    "Sunclear_Ono": 22,
+    "Sunclear_Ounclear": 54,
+    "Sunclear_Oyes": 0,
+    "Syes_Ono": 21,
+    "Syes_Ounclear": 252,
+    "Syes_Oyes": 162,
+    "n": 1315
+   }
+  },
+  "title_like_short": {
+   "absent": {
+    "Sno_Ono": 1761,
+    "Sno_Ounclear": 32,
+    "Sno_Oyes": 3,
+    "Sunclear_Ono": 35,
+    "Sunclear_Ounclear": 49,
+    "Sunclear_Oyes": 1,
+    "Syes_Ono": 22,
+    "Syes_Ounclear": 211,
+    "Syes_Oyes": 163,
+    "n": 2277
+   },
+   "present": {
+    "Sno_Ono": 743,
+    "Sno_Ounclear": 58,
+    "Sno_Oyes": 0,
+    "Sunclear_Ono": 14,
+    "Sunclear_Ounclear": 57,
+    "Sunclear_Oyes": 1,
+    "Syes_Ono": 9,
+    "Syes_Ounclear": 166,
+    "Syes_Oyes": 71,
+    "n": 1119
+   }
+  },
+  "trial_design": {
+   "absent": {
+    "Sno_Ono": 2319,
+    "Sno_Ounclear": 77,
+    "Sno_Oyes": 3,
+    "Sunclear_Ono": 42,
+    "Sunclear_Ounclear": 92,
+    "Sunclear_Oyes": 2,
+    "Syes_Ono": 26,
+    "Syes_Ounclear": 328,
+    "Syes_Oyes": 202,
+    "n": 3091
+   },
+   "present": {
+    "Sno_Ono": 185,
+    "Sno_Ounclear": 13,
+    "Sno_Oyes": 0,
+    "Sunclear_Ono": 7,
+    "Sunclear_Ounclear": 14,
+    "Sunclear_Oyes": 0,
+    "Syes_Ono": 5,
+    "Syes_Ounclear": 49,
+    "Syes_Oyes": 32,
+    "n": 305
+   }
+  }
+ },
+ "conf_in_sonnet_yes_opus_unclear": {
+  "SY_OU_conf_opus_1": 10,
+  "SY_OU_conf_opus_2": 367,
+  "SY_OU_conf_sonnet_1": 2,
+  "SY_OU_conf_sonnet_2": 198,
+  "SY_OU_conf_sonnet_3": 177
+ },
+ "crosstab_sonnet_rows_opus_cols": {
+  "no": {
+   "no": 2504,
+   "unclear": 90,
+   "yes": 3
+  },
+  "unclear": {
+   "no": 49,
+   "unclear": 106,
+   "yes": 2
+  },
+  "yes": {
+   "no": 31,
+   "unclear": 377,
+   "yes": 234
+  }
+ },
+ "direction_crosstab_sonnet__opus": {
+  "benefit__benefit": 601,
+  "benefit__unclear": 110,
+  "harm__benefit": 1,
+  "harm__harm": 158,
+  "harm__no_effect": 1,
+  "harm__unclear": 16,
+  "no_effect__harm": 1,
+  "no_effect__no_effect": 81,
+  "no_effect__unclear": 20,
+  "unclear__benefit": 36,
+  "unclear__harm": 33,
+  "unclear__no_effect": 7,
+  "unclear__unclear": 2331
+ },
+ "disagreement_cells": {
+  "sonnet_no__opus_unclear": 90,
+  "sonnet_no__opus_yes": 3,
+  "sonnet_unclear__opus_no": 49,
+  "sonnet_unclear__opus_yes": 2,
+  "sonnet_yes__opus_no": 31,
+  "sonnet_yes__opus_unclear": 377
+ },
+ "feature_definitions": {
+  "background_language": "\\b(is a|are a|is an|is the|have been|has been|can be|may be|known|commonly|widely|first-line|standard of care|approved|currently|recommended|guideline)\\b",
+  "drug_list": "(,[^,]{2,60},[^,]{2,60}(,| and | or ))|( and /?or )",
+  "mechanism_language": "\\b(inhibit\\w*|activat\\w*|pathway|signal\\w*|receptor|expression|binding|phosphorylat\\w*|mechanism|induc\\w*|suppress\\w*|apoptosis|kinase)\\b",
+  "mentions_drug_class_or_group": "drugs|agents|inhibitors|therapies|treatments|compounds|medications",
+  "methods_reagent": "\\b(cultured|incubated|stained|staining|assay|inhibitor of|antibody|reagent|were purchased|western blot|dose of|\u03bcM|\u00b5M|nM|mg/kg)\\b",
+  "no_disease_name": "no disease-name token (>3 chars) in sentence",
+  "patient_population": "\\b(patients?|children|infants|adults|individuals|subjects|participants|cohort|women|men|boys|girls|probands?|carriers)\\b",
+  "preclinical_model": "\\b(mice|mouse|murine|rats?|zebrafish|xenograft|in vivo|knockout|knock-out|cell lines?|cells|in vitro|organoids?|fibroblasts|drosophila|model)\\b",
+  "therapeutic_language": "\\b(treat\\w*|therap\\w*|management|prevent\\w*|rescue\\w*|ameliorat\\w*|improv\\w*|alleviat\\w*|reduc\\w*|attenuat\\w*|restor\\w*)\\b",
+  "title_like_short": "len<140 chars and <20 spaces",
+  "trial_design": "\\b(randomi[sz]ed|placebo|double-blind|open-label|phase\\s*(I{1,3}|[1-3]|IV)\\b|clinical trial|trial|crossover|case series|case report|retrospective|prospective|cohort study|meta-analysis|efficacy|were treated|was treated|treated with)\\b"
+ },
+ "n_agree": 2844,
+ "n_disagree": 552,
+ "n_items": 3396,
+ "note": "Regex features are crude heuristics, computed on held-out sentences only; aggregate counts only. No engine score, gold or benchmark file read.",
+ "split": "heldout"
+}

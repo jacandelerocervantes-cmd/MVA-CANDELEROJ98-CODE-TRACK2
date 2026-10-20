@@ -1,0 +1,634 @@
+{
+ "genes": [
+  {
+   "association_evidence": {
+    "evidence": "verified",
+    "n_hits": 25,
+    "pmid": "35044816",
+    "query": "(\"BUB1\" OR \"BUB1A\" OR \"hBUB1\") AND (\"mosaic variegated aneuploidy\" OR \"premature chromatid separation\")",
+    "sentence": "In conclusion, BUB1 mutations cause a neurodevelopmental disorder, with clinical and cellular phenotypes that partially resemble previously described syndromes, including autosomal recessive primary microcephaly, mosaic variegated aneuploidy, and cohesinopathies.",
+    "source_text": "abstract",
+    "title": "Biallelic BUB1 mutations cause microcephaly, developmental delay, and variable effects on cohesion and chromosome segregation.",
+    "year": "2022"
+   },
+   "disease_subtype": "not assigned in sources",
+   "diseases": [
+    {
+     "id": "ORPHA:1052",
+     "inheritance": "not annotated",
+     "name": "Mosaic variegated aneuploidy syndrome",
+     "source": "HPO",
+     "subtype": null
+    },
+    {
+     "association_status": "Assessed",
+     "association_type": "Disease-causing germline mutation(s) in",
+     "id": "ORPHA:1052",
+     "inheritance": "Autosomal dominant; Autosomal recessive",
+     "name": "Mosaic variegated aneuploidy syndrome",
+     "orphanet_pmids": [
+      "23747338"
+     ],
+     "source": "Orphanet",
+     "subtype": null
+    }
+   ],
+   "hgnc_id": "HGNC:1148",
+   "in_track1_output": false,
+   "inheritance_as_annotated": [
+    "Autosomal dominant; Autosomal recessive",
+    "not annotated"
+   ],
+   "mechanism_basis": {
+    "matched_terms": [
+     "mitotic spindle assembly checkpoint signaling"
+    ],
+    "uniprot_accession": "O43683"
+   },
+   "mechanism_class": "spindle-assembly checkpoint",
+   "n_sources": 2,
+   "sources": [
+    "HPO (genes_to_phenotype.txt + phenotype.hpoa)",
+    "Orphanet (Orphadata en_product6 + en_product9_ages)"
+   ],
+   "symbol": "BUB1",
+   "tier": "curated"
+  },
+  {
+   "association_evidence": {
+    "evidence": "verified",
+    "n_hits": 25,
+    "pmid": "42434306",
+    "query": "(\"BUB1B\" OR \"BUBR1\" OR \"Bub1A\" OR \"MAD3L\" OR \"SSK1\") AND (\"mosaic variegated aneuploidy\" OR \"premature chromatid separation\")",
+    "sentence": "While biallelic BUB1B mutations cause mosaic variegated aneuploidy syndrome, the contribution of heterozygous variants to RPL remains uncertain.",
+    "source_text": "abstract",
+    "title": "Functional and clinical evidence for two novel heterozygous BUB1B variants and their value in precision genetic counseling for recurrent pregnancy loss.",
+    "year": "2026"
+   },
+   "disease_subtype": "type 1",
+   "diseases": [
+    {
+     "id": "OMIM:176430",
+     "inheritance": "Autosomal dominant inheritance",
+     "name": "Premature chromatid separation trait",
+     "source": "HPO",
+     "subtype": null
+    },
+    {
+     "id": "OMIM:257300",
+     "inheritance": "Autosomal recessive inheritance",
+     "name": "Mosaic variegated aneuploidy syndrome 1",
+     "source": "HPO",
+     "subtype": "type 1"
+    },
+    {
+     "id": "ORPHA:1052",
+     "inheritance": "not annotated",
+     "name": "Mosaic variegated aneuploidy syndrome",
+     "source": "HPO",
+     "subtype": null
+    },
+    {
+     "association_status": "Assessed",
+     "association_type": "Disease-causing germline mutation(s) in",
+     "id": "ORPHA:1052",
+     "inheritance": "Autosomal dominant; Autosomal recessive",
+     "name": "Mosaic variegated aneuploidy syndrome",
+     "orphanet_pmids": [
+      "15475955"
+     ],
+     "source": "Orphanet",
+     "subtype": null
+    }
+   ],
+   "hgnc_id": "HGNC:1149",
+   "in_track1_output": true,
+   "inheritance_as_annotated": [
+    "Autosomal dominant inheritance",
+    "Autosomal dominant; Autosomal recessive",
+    "Autosomal recessive inheritance",
+    "not annotated"
+   ],
+   "mechanism_basis": {
+    "matched_terms": [
+     "mitotic checkpoint complex",
+     "mitotic spindle assembly checkpoint signaling"
+    ],
+    "uniprot_accession": "O60566"
+   },
+   "mechanism_class": "spindle-assembly checkpoint",
+   "n_sources": 2,
+   "sources": [
+    "HPO (genes_to_phenotype.txt + phenotype.hpoa)",
+    "Orphanet (Orphadata en_product6 + en_product9_ages)"
+   ],
+   "symbol": "BUB1B",
+   "tier": "curated"
+  },
+  {
+   "association_evidence": {
+    "evidence": "verified",
+    "n_hits": 25,
+    "pmid": "29448935",
+    "query": "(\"BUB3\" OR \"BUB3L\") AND (\"mosaic variegated aneuploidy\" OR \"premature chromatid separation\")",
+    "sentence": "Germline mutations in BUB1 and BUB3 have been reported to increase the risk of developing colorectal cancer (CRC) at young age, in presence of variegated aneuploidy and reminiscent dysmorphic traits of mosaic variegated aneuploidy syndrome.",
+    "source_text": "abstract",
+    "title": "Germline mutations in the spindle assembly checkpoint genes BUB1 and BUB3 are infrequent in familial colorectal cancer and polyposis.",
+    "year": "2018"
+   },
+   "disease_subtype": "not assigned in sources",
+   "diseases": [
+    {
+     "id": "ORPHA:1052",
+     "inheritance": "not annotated",
+     "name": "Mosaic variegated aneuploidy syndrome",
+     "source": "HPO",
+     "subtype": null
+    },
+    {
+     "association_status": "Assessed",
+     "association_type": "Disease-causing germline mutation(s) in",
+     "id": "ORPHA:1052",
+     "inheritance": "Autosomal dominant; Autosomal recessive",
+     "name": "Mosaic variegated aneuploidy syndrome",
+     "orphanet_pmids": [
+      "23747338"
+     ],
+     "source": "Orphanet",
+     "subtype": null
+    }
+   ],
+   "hgnc_id": "HGNC:1151",
+   "in_track1_output": false,
+   "inheritance_as_annotated": [
+    "Autosomal dominant; Autosomal recessive",
+    "not annotated"
+   ],
+   "mechanism_basis": {
+    "matched_terms": [
+     "mitotic checkpoint complex",
+     "mitotic spindle assembly checkpoint signaling"
+    ],
+    "uniprot_accession": "O43684"
+   },
+   "mechanism_class": "spindle-assembly checkpoint",
+   "n_sources": 2,
+   "sources": [
+    "HPO (genes_to_phenotype.txt + phenotype.hpoa)",
+    "Orphanet (Orphadata en_product6 + en_product9_ages)"
+   ],
+   "symbol": "BUB3",
+   "tier": "curated"
+  },
+  {
+   "association_evidence": {
+    "evidence": "verified",
+    "n_hits": 7,
+    "pmid": "34009673",
+    "query": "(\"CENATAC\") AND (\"mosaic variegated aneuploidy\" OR \"premature chromatid separation\")",
+    "sentence": "Results Biallelic truncating mutations in CENATAC ( CCDC84 ) cause MVA To search for additional causes of MVA, we performed exome sequencing and variant analyses on MVA patients and family members, as previously described (Yost et␣al, 2017 ).",
+    "source_text": "PMC full text PMC8280824",
+    "title": "Chromosomal instability by mutations in the novel minor spliceosome component CENATAC.",
+    "year": "2021"
+   },
+   "disease_subtype": "type 4",
+   "diseases": [
+    {
+     "id": "OMIM:620153",
+     "inheritance": "Autosomal recessive inheritance",
+     "name": "Mosaic variegated aneuploidy syndrome 4",
+     "source": "HPO",
+     "subtype": "type 4"
+    }
+   ],
+   "hgnc_id": null,
+   "in_track1_output": false,
+   "inheritance_as_annotated": [
+    "Autosomal recessive inheritance"
+   ],
+   "mechanism_basis": {
+    "matched_terms": [
+     "centrosome",
+     "negative regulation of centrosome duplication"
+    ],
+    "uniprot_accession": "Q86UT8"
+   },
+   "mechanism_class": "centrosome/centriole",
+   "n_sources": 1,
+   "sources": [
+    "HPO (genes_to_phenotype.txt + phenotype.hpoa)"
+   ],
+   "symbol": "CENATAC",
+   "tier": "curated"
+  },
+  {
+   "association_evidence": {
+    "evidence": "verified",
+    "pmid": "37981762",
+    "sentence": "Accordingly, we present mutant CEP192, which is a link for the MVA syndrome with tetraploidy and the predisposition to male infertility.",
+    "sentence_basis": "gene and disease term in the same sentence",
+    "source_text": "abstract",
+    "title": "Mosaic variegated aneuploidy syndrome with tetraploid, and predisposition to male infertility triggered by mutant CEP192.",
+    "year": "2024"
+   },
+   "disease_subtype": "not assigned in sources",
+   "diseases": [
+    {
+     "id": null,
+     "inheritance": "not annotated",
+     "name": "mosaic variegated aneuploidy / premature chromatid separation syndrome (proposed association)",
+     "source": "Europe PMC",
+     "subtype": null
+    }
+   ],
+   "hgnc_id": null,
+   "in_track1_output": false,
+   "inheritance_as_annotated": [
+    "not annotated"
+   ],
+   "mechanism_basis": {
+    "matched_terms": [
+     "centriole",
+     "centriole replication",
+     "centrosome",
+     "centrosome cycle",
+     "centrosome-templated microtubule nucleation",
+     "procentriole",
+     "procentriole replication complex",
+     "protein localization to centrosome"
+    ],
+    "uniprot_accession": "Q8TEP8"
+   },
+   "mechanism_class": "centrosome/centriole",
+   "n_independent_papers": 1,
+   "n_sources": 1,
+   "proposing_pmids": [
+    "37981762"
+   ],
+   "sources": [
+    "Europe PMC literature (title/abstract search)"
+   ],
+   "symbol": "CEP192",
+   "tier": "proposed, not curated"
+  },
+  {
+   "association_evidence": {
+    "evidence": "verified",
+    "n_hits": 25,
+    "pmid": "41700350",
+    "query": "(\"CEP57\" OR \"KIAA0092\" OR \"TSP57\" OR \"Translokin\") AND (\"mosaic variegated aneuploidy\" OR \"premature chromatid separation\")",
+    "sentence": "Objectives Mosaic variegated aneuploidy syndrome 2 (MVA2) is an uncommon autosomal recessive genetic condition caused by mutations in the CEP57 gene.",
+    "source_text": "abstract",
+    "title": "A novel CEP57 gene mutation in mosaic variegated aneuploidy syndrome 2: case report.",
+    "year": "2026"
+   },
+   "disease_subtype": "type 2",
+   "diseases": [
+    {
+     "id": "OMIM:614114",
+     "inheritance": "Autosomal recessive inheritance",
+     "name": "Mosaic variegated aneuploidy syndrome 2",
+     "source": "HPO",
+     "subtype": "type 2"
+    },
+    {
+     "id": "ORPHA:1052",
+     "inheritance": "not annotated",
+     "name": "Mosaic variegated aneuploidy syndrome",
+     "source": "HPO",
+     "subtype": null
+    },
+    {
+     "association_status": "Assessed",
+     "association_type": "Disease-causing germline mutation(s) in",
+     "id": "ORPHA:1052",
+     "inheritance": "Autosomal dominant; Autosomal recessive",
+     "name": "Mosaic variegated aneuploidy syndrome",
+     "orphanet_pmids": [
+      "21552266",
+      "24259107"
+     ],
+     "source": "Orphanet",
+     "subtype": null
+    }
+   ],
+   "hgnc_id": "HGNC:30794",
+   "in_track1_output": false,
+   "inheritance_as_annotated": [
+    "Autosomal dominant; Autosomal recessive",
+    "Autosomal recessive inheritance",
+    "not annotated"
+   ],
+   "mechanism_basis": {
+    "matched_terms": [
+     "centrosome"
+    ],
+    "uniprot_accession": "Q86XR8"
+   },
+   "mechanism_class": "centrosome/centriole",
+   "n_sources": 2,
+   "sources": [
+    "HPO (genes_to_phenotype.txt + phenotype.hpoa)",
+    "Orphanet (Orphadata en_product6 + en_product9_ages)"
+   ],
+   "symbol": "CEP57",
+   "tier": "curated"
+  },
+  {
+   "association_evidence": {
+    "evidence": "verified",
+    "n_hits": 20,
+    "pmid": "36322655",
+    "query": "(\"MAD1L1\") AND (\"mosaic variegated aneuploidy\" OR \"premature chromatid separation\")",
+    "sentence": "These data point to MAD1L1 mutations as the cause of a new variant of mosaic variegated aneuploidy with systemic inflammation and unprecedented tumor susceptibility.",
+    "source_text": "abstract",
+    "title": "Biallelic germline mutations in MAD1L1 induce a syndrome of aneuploidy with high tumor susceptibility.",
+    "year": "2022"
+   },
+   "disease_subtype": "type 7",
+   "diseases": [
+    {
+     "id": "OMIM:620189",
+     "inheritance": "Autosomal recessive inheritance",
+     "name": "Mosaic variegated aneuploidy syndrome 7 with inflammation and tumor predisposition",
+     "source": "HPO",
+     "subtype": "type 7"
+    }
+   ],
+   "hgnc_id": null,
+   "in_track1_output": true,
+   "inheritance_as_annotated": [
+    "Autosomal recessive inheritance"
+   ],
+   "mechanism_basis": {
+    "matched_terms": [
+     "deactivation of mitotic spindle assembly checkpoint",
+     "mitotic spindle assembly checkpoint MAD1-MAD2 complex",
+     "mitotic spindle assembly checkpoint signaling",
+     "positive regulation of mitotic cell cycle spindle assembly checkpoint"
+    ],
+    "uniprot_accession": "Q9Y6D9"
+   },
+   "mechanism_class": "spindle-assembly checkpoint",
+   "n_sources": 1,
+   "sources": [
+    "HPO (genes_to_phenotype.txt + phenotype.hpoa)"
+   ],
+   "symbol": "MAD1L1",
+   "tier": "curated"
+  },
+  {
+   "association_evidence": {
+    "evidence": "verified",
+    "pmid": "37796616",
+    "sentence": "We identified a homozygous MAD2L1BP nonsense variant, R253*, in 2 siblings with microcephaly, epileptic encephalopathy, and juvenile granulosa cell tumors of ovary and testis.",
+    "sentence_basis": "gene and variant type in the sentence; disease term elsewhere in the same abstract",
+    "source_text": "abstract",
+    "title": "Biallelic MAD2L1BP (p31comet) mutation is associated with mosaic aneuploidy and juvenile granulosa cell tumors.",
+    "year": "2023"
+   },
+   "disease_subtype": "not assigned in sources",
+   "diseases": [
+    {
+     "id": null,
+     "inheritance": "not annotated",
+     "name": "mosaic variegated aneuploidy / premature chromatid separation syndrome (proposed association)",
+     "source": "Europe PMC",
+     "subtype": null
+    }
+   ],
+   "hgnc_id": null,
+   "in_track1_output": false,
+   "inheritance_as_annotated": [
+    "not annotated"
+   ],
+   "mechanism_basis": {
+    "matched_terms": [
+     "deactivation of mitotic spindle assembly checkpoint"
+    ],
+    "uniprot_accession": "Q15013"
+   },
+   "mechanism_class": "spindle-assembly checkpoint",
+   "n_independent_papers": 1,
+   "n_sources": 1,
+   "proposing_pmids": [
+    "37796616"
+   ],
+   "sources": [
+    "Europe PMC literature (title/abstract search)"
+   ],
+   "symbol": "MAD2L1BP",
+   "tier": "proposed, not curated"
+  },
+  {
+   "association_evidence": {
+    "evidence": "verified",
+    "pmid": "41374403",
+    "sentence": "Conclusions: This report expands the genotypic and phenotypic spectrum of SMC5-related disorders, confirming its association with MVA/near-tetraploidy and describing a novel attenuated clinical presentation.",
+    "sentence_basis": "gene and disease term in the same sentence",
+    "source_text": "abstract",
+    "title": "Recessive SMC5 Variants in a Family with Near-Tetraploidy/Mosaic Variegated Aneuploidy.",
+    "year": "2025"
+   },
+   "disease_subtype": "not assigned in sources",
+   "diseases": [
+    {
+     "id": null,
+     "inheritance": "not annotated",
+     "name": "mosaic variegated aneuploidy / premature chromatid separation syndrome (proposed association)",
+     "source": "Europe PMC",
+     "subtype": null
+    }
+   ],
+   "hgnc_id": null,
+   "in_track1_output": false,
+   "inheritance_as_annotated": [
+    "not annotated"
+   ],
+   "mechanism_basis": {
+    "matched_terms": [
+     "DNA repair",
+     "double-strand break repair via homologous recombination"
+    ],
+    "uniprot_accession": "Q8IY18"
+   },
+   "mechanism_class": "DNA repair/replication",
+   "n_independent_papers": 1,
+   "n_sources": 1,
+   "proposing_pmids": [
+    "41374403"
+   ],
+   "sources": [
+    "Europe PMC literature (title/abstract search)"
+   ],
+   "symbol": "SMC5",
+   "tier": "proposed, not curated"
+  },
+  {
+   "association_evidence": {
+    "evidence": "verified",
+    "n_hits": 25,
+    "pmid": "42595739",
+    "query": "(\"16E1BP\" OR \"TRIP13\" OR \"thyroid receptor interacting protein 13\") AND (\"mosaic variegated aneuploidy\" OR \"premature chromatid separation\")",
+    "sentence": "Whole-exome sequencing identified a likely pathogenic null variant in the TRIP13 (c.998_999delCT, p.Ser333Leufs *30) gene, suggesting a diagnosis of mosaic variegated aneuploidy syndrome 3.",
+    "source_text": "abstract",
+    "title": "Sequential presentation of Wilms' tumor and orbital rhabdomyosarcoma in a child with mosaic variegated aneuploidy syndrome 3.",
+    "year": "2026"
+   },
+   "disease_subtype": "type 3",
+   "diseases": [
+    {
+     "id": "OMIM:617598",
+     "inheritance": "Autosomal recessive inheritance",
+     "name": "Mosaic variegated aneuploidy syndrome 3",
+     "source": "HPO",
+     "subtype": "type 3"
+    },
+    {
+     "id": "ORPHA:1052",
+     "inheritance": "not annotated",
+     "name": "Mosaic variegated aneuploidy syndrome",
+     "source": "HPO",
+     "subtype": null
+    },
+    {
+     "association_status": "Assessed",
+     "association_type": "Disease-causing germline mutation(s) in",
+     "id": "ORPHA:1052",
+     "inheritance": "Autosomal dominant; Autosomal recessive",
+     "name": "Mosaic variegated aneuploidy syndrome",
+     "orphanet_pmids": [
+      "28553959"
+     ],
+     "source": "Orphanet",
+     "subtype": null
+    }
+   ],
+   "hgnc_id": "HGNC:12307",
+   "in_track1_output": false,
+   "inheritance_as_annotated": [
+    "Autosomal dominant; Autosomal recessive",
+    "Autosomal recessive inheritance",
+    "not annotated"
+   ],
+   "mechanism_basis": {
+    "matched_terms": [
+     "mitotic spindle assembly checkpoint signaling"
+    ],
+    "uniprot_accession": "Q15645"
+   },
+   "mechanism_class": "spindle-assembly checkpoint",
+   "n_sources": 2,
+   "sources": [
+    "HPO (genes_to_phenotype.txt + phenotype.hpoa)",
+    "Orphanet (Orphadata en_product6 + en_product9_ages)"
+   ],
+   "symbol": "TRIP13",
+   "tier": "curated"
+  }
+ ],
+ "header": {
+  "access_date": "2026-10-15",
+  "disease": "mosaic variegated aneuploidy / premature chromatid separation syndrome",
+  "hpo_diseases_matched": {
+   "OMIM:176430": "Premature chromatid separation trait",
+   "OMIM:257300": "Mosaic variegated aneuploidy syndrome 1",
+   "OMIM:614114": "Mosaic variegated aneuploidy syndrome 2",
+   "OMIM:617598": "Mosaic variegated aneuploidy syndrome 3",
+   "OMIM:620153": "Mosaic variegated aneuploidy syndrome 4",
+   "OMIM:620189": "Mosaic variegated aneuploidy syndrome 7 with inflammation and tumor predisposition",
+   "ORPHA:1052": "Mosaic variegated aneuploidy syndrome"
+  },
+  "identifiers": [],
+  "mechanism_rule": [
+   [
+    "DNA interstrand-crosslink repair",
+    "interstrand cross-?link repair"
+   ],
+   [
+    "spindle-assembly checkpoint",
+    "spindle assembly checkpoint|spindle checkpoint|mitotic checkpoint"
+   ],
+   [
+    "DNA repair/replication",
+    "DNA repair|DNA replication|double-strand break repair|homologous recombination"
+   ],
+   [
+    "kinetochore/microtubule attachment",
+    "kinetochore|attachment of spindle microtubules"
+   ],
+   [
+    "centrosome/centriole",
+    "centrosom|centriole"
+   ],
+   [
+    "sister-chromatid cohesion",
+    "sister chromatid cohesion|cohesin"
+   ],
+   [
+    "DNA repair/replication",
+    "DNA damage"
+   ],
+   [
+    "other",
+    "no rule matched"
+   ]
+  ],
+  "orphanet_disorders_matched": [
+   "ORPHA:1052 Mosaic variegated aneuploidy syndrome"
+  ],
+  "search_terms": [
+   "mosaic variegated aneuploidy",
+   "premature chromatid separation"
+  ],
+  "sources": {
+   "Europe PMC": "https://www.ebi.ac.uk/europepmc/webservices/rest",
+   "HPO": {
+    "files": [
+     "phenotype.hpoa",
+     "genes_to_phenotype.txt",
+     "hp.obo"
+    ],
+    "hpo-version": "http://purl.obolibrary.org/obo/hp/releases/2026-09-01/hp.json",
+    "version": "2026-09-02"
+   },
+   "Orphanet": {
+    "error": null,
+    "urls": {
+     "gene_disease": "https://www.orphadata.com/data/xml/en_product6.xml",
+     "inheritance": "https://www.orphadata.com/data/xml/en_product9_ages.xml"
+    }
+   },
+   "UniProt": "https://rest.uniprot.org/uniprotkb/search"
+  },
+  "statement": "derived by code from public sources; association evidence is that of the cited sources"
+ },
+ "n_genes": 10,
+ "n_genes_by_mechanism_class": {
+  "DNA repair/replication": 1,
+  "centrosome/centriole": 3,
+  "spindle-assembly checkpoint": 6
+ },
+ "n_genes_by_tier": {
+  "curated": 7,
+  "proposed, not curated": 3
+ },
+ "n_genes_with_verified_sentence": 10,
+ "track1": {
+  "genes_in_track1_output": [
+   "BUB1B",
+   "MAD1L1"
+  ],
+  "genes_not_in_track1_output": [
+   "BUB1",
+   "BUB3",
+   "CENATAC",
+   "CEP192",
+   "CEP57",
+   "MAD2L1BP",
+   "SMC5",
+   "TRIP13"
+  ],
+  "note": "gene symbols only, from out/submission_genes.json"
+ }
+}

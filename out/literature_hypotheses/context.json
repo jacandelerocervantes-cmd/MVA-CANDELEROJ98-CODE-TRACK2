@@ -1,0 +1,44 @@
+{
+ "topic": "context",
+ "searched_on": "2026-10-08",
+ "queries": [],
+ "findings": [],
+ "background_evidence": [
+  {
+   "drug": null,
+   "approved": false,
+   "consequence": "proteotoxic_energy",
+   "system": "Drosophila larval neural stem cells (SAC gene depletion)",
+   "direction": "unclear",
+   "sentence": "Interestingly, boosting autophagy (by overexpressing Atg1 or depleting the activity of Tor through Rheb depletion or the use of Tor mutants in heterozygosis) led to a significant rescue of the number of aneuploid NBs in mature CIN brains, without causing any major effect in otherwise control brains",
+   "pmid": "41820377",
+   "pmcid": "PMC13121444",
+   "doi": "",
+   "year": 2026,
+   "source_section": "full_text",
+   "verified": false,
+   "evidence_level": 1,
+   "caveats": "context for the rapamycin sentence of the same paper; written by the report author, checked by track2.verify_literature"
+  },
+  {
+   "drug": null,
+   "approved": false,
+   "consequence": "proteotoxic_energy",
+   "system": "Drosophila larval neural stem cells (SAC gene depletion)",
+   "direction": "unclear",
+   "sentence": "However, we noticed that none of the genetic interventions aimed at increasing autophagy was able to rescue the number of Pros+ cells or the size of the larval brain",
+   "pmid": "41820377",
+   "pmcid": "PMC13121444",
+   "doi": "",
+   "year": 2026,
+   "source_section": "full_text",
+   "verified": false,
+   "evidence_level": 1,
+   "caveats": "the genetic interventions, not rapamycin, are the ones named; context for the against sentence"
+  }
+ ],
+ "not_approved": [],
+ "no_evidence": [],
+ "against_or_risk": [],
+ "note": "context sentences added after reading the full text; they carry verified=false until track2.verify_literature re-checks them"
+}

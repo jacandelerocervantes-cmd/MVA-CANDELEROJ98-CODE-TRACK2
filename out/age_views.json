@@ -1,0 +1,143 @@
+{
+ "note": "Label support per age band, from the openFDA / DailyMed label (heuristic extraction, replaced by the hand-read verdicts of config/pediatric_label_review.json where present). Not dosing advice. The patient's age is not documented, so all bands are shown.",
+ "register": {
+  "adolescent": {
+   "labelled_use": [
+    "BRENTUXIMAB VEDOTIN",
+    "COLCHICINE"
+   ],
+   "no_labelled_use": [
+    "BORTEZOMIB",
+    "CABAZITAXEL",
+    "CARFILZOMIB",
+    "DOCETAXEL ANHYDROUS",
+    "ENFORTUMAB VEDOTIN",
+    "FOSTAMATINIB",
+    "IXABEPILONE",
+    "IXAZOMIB CITRATE",
+    "MIRVETUXIMAB SORAVTANSINE",
+    "NATALIZUMAB",
+    "PACLITAXEL",
+    "POLATUZUMAB VEDOTIN",
+    "SELINEXOR",
+    "TISOTUMAB VEDOTIN",
+    "TRASTUZUMAB EMTANSINE"
+   ],
+   "unknown_or_verify": [
+    "EVEROLIMUS",
+    "SIROLIMUS",
+    "TEMSIROLIMUS"
+   ]
+  },
+  "adult": {
+   "labelled_use": [
+    "BORTEZOMIB",
+    "BRENTUXIMAB VEDOTIN",
+    "CABAZITAXEL",
+    "CARFILZOMIB",
+    "COLCHICINE",
+    "DOCETAXEL ANHYDROUS",
+    "ENFORTUMAB VEDOTIN",
+    "FOSTAMATINIB",
+    "IXABEPILONE",
+    "IXAZOMIB CITRATE",
+    "MIRVETUXIMAB SORAVTANSINE",
+    "NATALIZUMAB",
+    "PACLITAXEL",
+    "POLATUZUMAB VEDOTIN",
+    "SELINEXOR",
+    "TISOTUMAB VEDOTIN",
+    "TRASTUZUMAB EMTANSINE"
+   ],
+   "no_labelled_use": [],
+   "unknown_or_verify": [
+    "EVEROLIMUS",
+    "SIROLIMUS",
+    "TEMSIROLIMUS"
+   ]
+  },
+  "child": {
+   "labelled_use": [
+    "BRENTUXIMAB VEDOTIN",
+    "COLCHICINE"
+   ],
+   "no_labelled_use": [
+    "BORTEZOMIB",
+    "CABAZITAXEL",
+    "CARFILZOMIB",
+    "DOCETAXEL ANHYDROUS",
+    "ENFORTUMAB VEDOTIN",
+    "FOSTAMATINIB",
+    "IXABEPILONE",
+    "IXAZOMIB CITRATE",
+    "MIRVETUXIMAB SORAVTANSINE",
+    "NATALIZUMAB",
+    "PACLITAXEL",
+    "POLATUZUMAB VEDOTIN",
+    "SELINEXOR",
+    "TISOTUMAB VEDOTIN",
+    "TRASTUZUMAB EMTANSINE"
+   ],
+   "unknown_or_verify": [
+    "EVEROLIMUS",
+    "SIROLIMUS",
+    "TEMSIROLIMUS"
+   ]
+  },
+  "infant": {
+   "labelled_use": [],
+   "no_labelled_use": [
+    "BORTEZOMIB",
+    "BRENTUXIMAB VEDOTIN",
+    "CABAZITAXEL",
+    "CARFILZOMIB",
+    "COLCHICINE",
+    "DOCETAXEL ANHYDROUS",
+    "ENFORTUMAB VEDOTIN",
+    "FOSTAMATINIB",
+    "IXABEPILONE",
+    "IXAZOMIB CITRATE",
+    "MIRVETUXIMAB SORAVTANSINE",
+    "NATALIZUMAB",
+    "PACLITAXEL",
+    "POLATUZUMAB VEDOTIN",
+    "SELINEXOR",
+    "TISOTUMAB VEDOTIN",
+    "TRASTUZUMAB EMTANSINE"
+   ],
+   "unknown_or_verify": [
+    "EVEROLIMUS",
+    "SIROLIMUS",
+    "TEMSIROLIMUS"
+   ]
+  },
+  "neonate": {
+   "labelled_use": [],
+   "no_labelled_use": [
+    "BORTEZOMIB",
+    "BRENTUXIMAB VEDOTIN",
+    "CABAZITAXEL",
+    "CARFILZOMIB",
+    "COLCHICINE",
+    "DOCETAXEL ANHYDROUS",
+    "ENFORTUMAB VEDOTIN",
+    "FOSTAMATINIB",
+    "IXABEPILONE",
+    "IXAZOMIB CITRATE",
+    "MIRVETUXIMAB SORAVTANSINE",
+    "NATALIZUMAB",
+    "PACLITAXEL",
+    "POLATUZUMAB VEDOTIN",
+    "SELINEXOR",
+    "TISOTUMAB VEDOTIN",
+    "TRASTUZUMAB EMTANSINE"
+   ],
+   "unknown_or_verify": [
+    "EVEROLIMUS",
+    "SIROLIMUS",
+    "TEMSIROLIMUS"
+   ]
+  }
+ },
+ "selected_band": null
+}

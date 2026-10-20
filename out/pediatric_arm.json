@@ -1,0 +1,4483 @@
+{
+ "drugs": [
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 11.4857,
+   "drug_id": "CHEMBL92",
+   "excipient_alerts": [
+    "ALCOHOL",
+    "POLYSORBATE 80"
+   ],
+   "final_label_status": "not_established_reviewed",
+   "headline": false,
+   "literature_context": [
+    {
+     "class": "microtubule_targeting",
+     "direction_hint": "unknown_possibly_unfavourable_in_weak_checkpoint_context",
+     "pmids": [
+      "17234259",
+      "19458043",
+      "24670687"
+     ]
+    }
+   ],
+   "meaningful_proximity": true,
+   "mechanism_of_action": [
+    "Tubulin stabiliser"
+   ],
+   "median_rank": 5,
+   "min_age_years": null,
+   "min_z_700": -9.28,
+   "n_configs_rank_le_100": 9,
+   "name": "DOCETAXEL ANHYDROUS",
+   "pediatric_excerpt": "8.4 Pediatric Use The alcohol content of docetaxel injection should be taken into account when given to pediatric patients [see Warnings and Precautions (5.13)]. The efficacy of docetaxel in pediatric patients as monotherapy or in combination has not been established. The overall safety profile of docetaxel in pediatric patients receiving monotherapy or TCF was consistent with the known safety pro",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 5,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 4,
+    "400|W2_equal": 4,
+    "400|W3_pathogenic_gene_only": 4,
+    "700|W1_epcr": 5,
+    "700|W2_equal": 4,
+    "700|W3_pathogenic_gene_only": 5,
+    "900|W1_epcr": 6,
+    "900|W2_equal": 7,
+    "900|W3_pathogenic_gene_only": 7
+   },
+   "review": {
+    "name": "DOCETAXEL ANHYDROUS",
+    "route": "parenteral",
+    "scope": "label states paediatric efficacy has not been established (safety profile described only)",
+    "verdict": "not_established"
+   },
+   "risk_flags": [
+    "BOXED_WARNING",
+    "MICROTUBULE_OR_PROTEIN_STABILISER"
+   ],
+   "stability": "stable",
+   "z_700_by_module": {
+    "sub_BUB1B": -9.13,
+    "sub_CENPE": -8.51,
+    "sub_IGBP1": -0.18,
+    "sub_MAD1L1": -9.28
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 10.8466,
+   "drug_id": "CHEMBL1201748",
+   "excipient_alerts": [
+    "ALCOHOL",
+    "POLYSORBATE 80"
+   ],
+   "final_label_status": "not_established_reviewed",
+   "headline": false,
+   "literature_context": [
+    {
+     "class": "microtubule_targeting",
+     "direction_hint": "unknown_possibly_unfavourable_in_weak_checkpoint_context",
+     "pmids": [
+      "17234259",
+      "19458043",
+      "24670687"
+     ]
+    },
+    {
+     "class": "mva_tumour_case_reports",
+     "direction_hint": "reported_not_recommended",
+     "pmids": [
+      "31184400",
+      "31081598",
+      "31053147"
+     ]
+    }
+   ],
+   "meaningful_proximity": true,
+   "mechanism_of_action": [
+    "Tubulin inhibitor"
+   ],
+   "median_rank": 9,
+   "min_age_years": null,
+   "min_z_700": -9.17,
+   "n_configs_rank_le_100": 9,
+   "name": "CABAZITAXEL",
+   "pediatric_excerpt": "8.4 Pediatric Use The safety and effectiveness of JEVTANA in pediatric patients have not been established. JEVTANA was evaluated in 39 pediatric patients (ages 3 to 18 years) receiving prophylactic G-CSF. The maximum tolerated dose (MTD) was 30 mg/m2 intravenously over 1 hour on Day 1 of a 21 day cycle in pediatric patients with solid tumors based on the dose-limiting toxicity (DLT) of febrile neu",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 12,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 9,
+    "400|W2_equal": 9,
+    "400|W3_pathogenic_gene_only": 8,
+    "700|W1_epcr": 12,
+    "700|W2_equal": 10,
+    "700|W3_pathogenic_gene_only": 12,
+    "900|W1_epcr": 4,
+    "900|W2_equal": 5,
+    "900|W3_pathogenic_gene_only": 4
+   },
+   "review": {
+    "name": "CABAZITAXEL",
+    "route": "parenteral",
+    "scope": "label states safety and effectiveness in paediatric patients have not been established (a dose-finding study is described)",
+    "verdict": "not_established"
+   },
+   "risk_flags": [
+    "ANTINEOPLASTIC_AGENT",
+    "BOXED_WARNING",
+    "INHIBITS_MODULE_COMPONENT"
+   ],
+   "stability": "stable",
+   "z_700_by_module": {
+    "sub_BUB1B": -8.54,
+    "sub_CENPE": -8.21,
+    "sub_IGBP1": -0.19,
+    "sub_MAD1L1": -9.17
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 10.3898,
+   "drug_id": "CHEMBL1742994",
+   "excipient_alerts": [
+    "POLYSORBATE 80"
+   ],
+   "final_label_status": "established_reviewed",
+   "headline": true,
+   "literature_context": [
+    {
+     "class": "microtubule_targeting",
+     "direction_hint": "unknown_possibly_unfavourable_in_weak_checkpoint_context",
+     "pmids": [
+      "17234259",
+      "19458043",
+      "24670687"
+     ]
+    },
+    {
+     "class": "mva_tumour_case_reports",
+     "direction_hint": "reported_not_recommended",
+     "pmids": [
+      "31184400",
+      "31081598",
+      "31053147"
+     ]
+    }
+   ],
+   "meaningful_proximity": true,
+   "mechanism_of_action": [
+    "Tubulin inhibitor",
+    "Tumor necrosis factor receptor superfamily member 8 binding agent"
+   ],
+   "median_rank": 14,
+   "min_age_years": 2.0,
+   "min_z_700": -8.35,
+   "n_configs_rank_le_100": 9,
+   "name": "BRENTUXIMAB VEDOTIN",
+   "pediatric_excerpt": "8.4 Pediatric Use The safety and effectiveness of ADCETRIS have been established in pediatric patients age 2 years and older with previously untreated high risk classical Hodgkin lymphoma in combination with doxorubicin, vincristine, etoposide, prednisone, and cyclophosphamide. The safety and effectiveness of ADCETRIS have not been established for all other indications [see Indications and Usage (",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 13,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 14,
+    "400|W2_equal": 15,
+    "400|W3_pathogenic_gene_only": 14,
+    "700|W1_epcr": 13,
+    "700|W2_equal": 14,
+    "700|W3_pathogenic_gene_only": 13,
+    "900|W1_epcr": 14,
+    "900|W2_equal": 14,
+    "900|W3_pathogenic_gene_only": 14
+   },
+   "review": {
+    "min_age_years": 2.0,
+    "name": "BRENTUXIMAB VEDOTIN",
+    "route": "parenteral",
+    "scope": "previously untreated high-risk classical Hodgkin lymphoma in combination with chemotherapy; not established for other indications",
+    "verdict": "established"
+   },
+   "risk_flags": [
+    "ANTINEOPLASTIC_AGENT",
+    "BOXED_WARNING",
+    "INHIBITS_MODULE_COMPONENT"
+   ],
+   "stability": "stable",
+   "z_700_by_module": {
+    "sub_BUB1B": -8.35,
+    "sub_CENPE": -7.28,
+    "sub_IGBP1": -0.21,
+    "sub_MAD1L1": -8.05
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 2.9011,
+   "drug_id": "CHEMBL601719",
+   "excipient_alerts": [
+    "GELATIN, UNSPECIFIED",
+    "PROPYLENE GLYCOL"
+   ],
+   "final_label_status": "established_reviewed",
+   "headline": true,
+   "literature_context": [
+    {
+     "class": "mva_tumour_case_reports",
+     "direction_hint": "reported_not_recommended",
+     "pmids": [
+      "31184400",
+      "31081598",
+      "31053147"
+     ]
+    }
+   ],
+   "meaningful_proximity": true,
+   "mechanism_of_action": [
+    "ALK tyrosine kinase receptor inhibitor",
+    "EML4-ALK inhibitor",
+    "Hepatocyte growth factor receptor inhibitor",
+    "Macrophage-stimulating protein receptor inhibitor",
+    "NPM/ALK (Nucleophosmin/ALK tyrosine kinase receptor) inhibitor",
+    "Proto-oncogene tyrosine-protein kinase ROS inhibitor"
+   ],
+   "median_rank": 20,
+   "min_age_years": 1.0,
+   "min_z_700": -2.34,
+   "n_configs_rank_le_100": 9,
+   "name": "CRIZOTINIB",
+   "pediatric_excerpt": "8.4 Pediatric Use The safety and effectiveness of XALKORI have been established in pediatric patients 1 year of age and older with relapsed or refractory, systemic ALK-positive ALCL or with unresectable, recurrent, or refractory ALK-positive IMT [see Adverse Reactions (6.1), Clinical Studies (14.2, 14.3)]. The safety and effectiveness have not been established in pediatric patients younger than 1 ",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 20,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 57,
+    "400|W2_equal": 63,
+    "400|W3_pathogenic_gene_only": 54,
+    "700|W1_epcr": 20,
+    "700|W2_equal": 20,
+    "700|W3_pathogenic_gene_only": 20,
+    "900|W1_epcr": 18,
+    "900|W2_equal": 18,
+    "900|W3_pathogenic_gene_only": 18
+   },
+   "review": {
+    "min_age_years": 1.0,
+    "name": "CRIZOTINIB",
+    "route": "oral",
+    "scope": "relapsed or refractory systemic ALK-positive anaplastic large cell lymphoma, and ALK-positive inflammatory myofibroblastic tumour; not established elsewhere",
+    "verdict": "established"
+   },
+   "risk_flags": [
+    "ANTINEOPLASTIC_AGENT",
+    "INHIBITS_MODULE_COMPONENT"
+   ],
+   "stability": "stable",
+   "z_700_by_module": {
+    "sub_BUB1B": -2.34,
+    "sub_CENPE": -1.91,
+    "sub_IGBP1": 0.42,
+    "sub_MAD1L1": -2.33
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 2.4243,
+   "drug_id": "CHEMBL1201607",
+   "excipient_alerts": [
+    "POLYSORBATE 80"
+   ],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Integrin alpha-4/beta-1 inhibitor",
+    "Integrin alpha-4/beta-7 inhibitor"
+   ],
+   "median_rank": 21,
+   "min_age_years": null,
+   "min_z_700": -1.93,
+   "n_configs_rank_le_100": 9,
+   "name": "NATALIZUMAB",
+   "pediatric_excerpt": "8.4 Pediatric Use Safety and effectiveness in pediatric patients with multiple sclerosis or Crohn's disease below the age of 18 years have not been established. TYRUKO is not indicated for use in pediatric patients.",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 21,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 26,
+    "400|W2_equal": 30,
+    "400|W3_pathogenic_gene_only": 26,
+    "700|W1_epcr": 21,
+    "700|W2_equal": 21,
+    "700|W3_pathogenic_gene_only": 21,
+    "900|W1_epcr": 21,
+    "900|W2_equal": 21,
+    "900|W3_pathogenic_gene_only": 21
+   },
+   "review": null,
+   "risk_flags": [
+    "BOXED_WARNING",
+    "INHIBITS_MODULE_COMPONENT"
+   ],
+   "stability": "stable",
+   "z_700_by_module": {
+    "sub_BUB1B": -1.93,
+    "sub_CENPE": -1.82,
+    "sub_IGBP1": 1.94,
+    "sub_MAD1L1": -1.91
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "combined_700_W1": 1.9432,
+   "drug_id": "CHEMBL2095212",
+   "excipient_alerts": [],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Beta-3 adrenergic receptor agonist"
+   ],
+   "median_rank": 26,
+   "min_age_years": 3.0,
+   "min_z_700": -1.59,
+   "n_configs_rank_le_100": 6,
+   "name": "MIRABEGRON",
+   "pediatric_excerpt": "8.4 Pediatric Use The safety and effectiveness have been established only for the following pediatric indications: Mirabegron: Treatment of neurogenic detrusor overactivity (NDO) in pediatric patients 3years of age and older and weighing 35 kg or more. The safety and effectiveness of mirabegron in pediatric patients aged 3 years and older have been established for the treatment of neurogenic detru",
+   "pediatric_label_status": "ESTABLISHED",
+   "rank_700_W1": 25,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 24,
+    "400|W2_equal": 28,
+    "400|W3_pathogenic_gene_only": 22,
+    "700|W1_epcr": 25,
+    "700|W2_equal": 24,
+    "700|W3_pathogenic_gene_only": 26,
+    "900|W1_epcr": 338,
+    "900|W2_equal": 297,
+    "900|W3_pathogenic_gene_only": 540
+   },
+   "review": null,
+   "risk_flags": [],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -1.49,
+    "sub_CENPE": -1.37,
+    "sub_IGBP1": -0.65,
+    "sub_MAD1L1": -1.59
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 1.7618,
+   "drug_id": "CHEMBL2005186",
+   "excipient_alerts": [],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Rho-associated protein kinase 2 inhibitor"
+   ],
+   "median_rank": 31,
+   "min_age_years": 12.0,
+   "min_z_700": -1.4,
+   "n_configs_rank_le_100": 9,
+   "name": "BELUMOSUDIL",
+   "pediatric_excerpt": "8.4 Pediatric Use The safety and effectiveness of REZUROCK have been established in pediatric patients 12 years and older. Use of REZUROCK in this age group is supported by evidence from adequate and well-controlled studies of REZUROCK in adults with additional population pharmacokinetic data demonstrating that age and body weight had no clinically meaningful effect on the pharmacokinetics of drug",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 31,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 48,
+    "400|W2_equal": 57,
+    "400|W3_pathogenic_gene_only": 47,
+    "700|W1_epcr": 31,
+    "700|W2_equal": 35,
+    "700|W3_pathogenic_gene_only": 31,
+    "900|W1_epcr": 22,
+    "900|W2_equal": 24,
+    "900|W3_pathogenic_gene_only": 22
+   },
+   "review": null,
+   "risk_flags": [],
+   "stability": "stable",
+   "z_700_by_module": {
+    "sub_BUB1B": -1.4,
+    "sub_CENPE": -1.17,
+    "sub_IGBP1": -0.34,
+    "sub_MAD1L1": -1.34
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "combined_700_W1": 1.7979,
+   "drug_id": "CHEMBL1201439",
+   "excipient_alerts": [],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Interleukin-2 receptor inhibitor"
+   ],
+   "median_rank": 41,
+   "min_age_years": 11.0,
+   "min_z_700": -1.5,
+   "n_configs_rank_le_100": 9,
+   "name": "BASILIXIMAB",
+   "pediatric_excerpt": "Pediatric Use No randomized, placebo-controlled studies have been completed in pediatric patients. In a safety and pharmacokinetic study, 41 pediatric patients (1-11 years of age [n = 27], 12-16 years of age [n = 14], median age 8.1 years) were treated with Simulect via intravenous bolus injection in addition to standard immunosuppressive agents, including cyclosporine, USP (MODIFIED), corticoster",
+   "pediatric_label_status": "ESTABLISHED",
+   "rank_700_W1": 28,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 74,
+    "400|W2_equal": 88,
+    "400|W3_pathogenic_gene_only": 72,
+    "700|W1_epcr": 28,
+    "700|W2_equal": 41,
+    "700|W3_pathogenic_gene_only": 27,
+    "900|W1_epcr": 23,
+    "900|W2_equal": 56,
+    "900|W3_pathogenic_gene_only": 23
+   },
+   "review": null,
+   "risk_flags": [
+    "BOXED_WARNING"
+   ],
+   "stability": "stable",
+   "z_700_by_module": {
+    "sub_BUB1B": -1.46,
+    "sub_CENPE": -1.07,
+    "sub_IGBP1": 2.09,
+    "sub_MAD1L1": -1.5
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 1.4048,
+   "drug_id": "CHEMBL259571",
+   "excipient_alerts": [
+    "POLYSORBATE 80",
+    "PROPYLENE GLYCOL"
+   ],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Aryl hydrocarbon receptor agonist"
+   ],
+   "median_rank": 46,
+   "min_age_years": 2.0,
+   "min_z_700": -1.14,
+   "n_configs_rank_le_100": 9,
+   "name": "TAPINAROF",
+   "pediatric_excerpt": "8.4 Pediatric Use Plaque Psoriasis The safety and efficacy of VTAMA cream for the topical treatment of plaque psoriasis have not been established in pediatric patients. Atopic Dermatitis The safety and efficacy of VTAMA cream for the topical treatment of atopic dermatitis have been established in pediatric patients 2 years of age and older. Use of VTAMA cream for this indication is supported by ev",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 44,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 84,
+    "400|W2_equal": 96,
+    "400|W3_pathogenic_gene_only": 82,
+    "700|W1_epcr": 44,
+    "700|W2_equal": 46,
+    "700|W3_pathogenic_gene_only": 44,
+    "900|W1_epcr": 26,
+    "900|W2_equal": 67,
+    "900|W3_pathogenic_gene_only": 26
+   },
+   "review": null,
+   "risk_flags": [],
+   "stability": "stable",
+   "z_700_by_module": {
+    "sub_BUB1B": -1.14,
+    "sub_CENPE": -0.82,
+    "sub_IGBP1": -0.23,
+    "sub_MAD1L1": -1.06
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 1.7429,
+   "drug_id": "CHEMBL1095097",
+   "excipient_alerts": [
+    "LACTOSE MONOHYDRATE",
+    "POLYSORBATE 80"
+   ],
+   "final_label_status": "not_established_reviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Mineralocorticoid receptor antagonist"
+   ],
+   "median_rank": 55,
+   "min_age_years": 4.0,
+   "min_z_700": -1.38,
+   "n_configs_rank_le_100": 6,
+   "name": "EPLERENONE",
+   "pediatric_excerpt": "8.4 Pediatric Use The safety and effectiveness of eplerenone for treatment of hypertension have not been established in pediatric patients. In a 10-week study of 304 hypertensive pediatric patients ages 4 to 16 years treated with eplerenone up to 100 mg per day, doses that produced exposure similar to that in adults, eplerenone did not lower blood pressure effectively. In this study and in a 1-yea",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 34,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 55,
+    "400|W2_equal": 64,
+    "400|W3_pathogenic_gene_only": 53,
+    "700|W1_epcr": 34,
+    "700|W2_equal": 33,
+    "700|W3_pathogenic_gene_only": 32,
+    "900|W1_epcr": 438,
+    "900|W2_equal": 433,
+    "900|W3_pathogenic_gene_only": 333
+   },
+   "review": {
+    "name": "EPLERENONE",
+    "route": "oral",
+    "scope": "not established for hypertension in paediatric patients",
+    "verdict": "not_established"
+   },
+   "risk_flags": [],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -1.38,
+    "sub_CENPE": -1.19,
+    "sub_IGBP1": -0.4,
+    "sub_MAD1L1": -1.3
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "combined_700_W1": 1.7568,
+   "drug_id": "CHEMBL1509",
+   "excipient_alerts": [
+    "ANHYDROUS LACTOSE",
+    "POLYSORBATE 80"
+   ],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Mineralocorticoid receptor antagonist",
+    "Progesterone receptor agonist"
+   ],
+   "median_rank": 61,
+   "min_age_years": 12.0,
+   "min_z_700": -1.45,
+   "n_configs_rank_le_100": 6,
+   "name": "DROSPIRENONE",
+   "pediatric_excerpt": "8.4 Pediatric Use Safety and efficacy of SLYND have been established in females of reproductive age. Safety and efficacy are expected to be the same for postpubertal adolescents under the age of 16 and users 16 years and older. Study CF111/304 evaluated the bleeding associated with SLYND in females \u226512 years of age. Bleeding data were generally consistent with those from Study CF111/303 in adult f",
+   "pediatric_label_status": "ESTABLISHED",
+   "rank_700_W1": 32,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 61,
+    "400|W2_equal": 67,
+    "400|W3_pathogenic_gene_only": 56,
+    "700|W1_epcr": 32,
+    "700|W2_equal": 43,
+    "700|W3_pathogenic_gene_only": 28,
+    "900|W1_epcr": 201,
+    "900|W2_equal": 282,
+    "900|W3_pathogenic_gene_only": 166
+   },
+   "review": null,
+   "risk_flags": [],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -1.45,
+    "sub_CENPE": -1.04,
+    "sub_IGBP1": 0.04,
+    "sub_MAD1L1": -1.33
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 1.2054,
+   "drug_id": "CHEMBL4559134",
+   "excipient_alerts": [
+    "ALCOHOL",
+    "GELATIN, UNSPECIFIED",
+    "PROPYLENE GLYCOL"
+   ],
+   "final_label_status": "established_reviewed",
+   "headline": true,
+   "literature_context": [
+    {
+     "class": "mva_tumour_case_reports",
+     "direction_hint": "reported_not_recommended",
+     "pmids": [
+      "31184400",
+      "31081598",
+      "31053147"
+     ]
+    }
+   ],
+   "meaningful_proximity": true,
+   "mechanism_of_action": [
+    "Coiled-coil domain-containing protein 6/Tyrosine-protein kinase receptor RET inhibitor",
+    "Kinesin-1 heavy chain/ Tyrosine-protein kinase receptor RET inhibitor",
+    "Tyrosine-protein kinase receptor RET inhibitor"
+   ],
+   "median_rank": 66,
+   "min_age_years": 2.0,
+   "min_z_700": -2.21,
+   "n_configs_rank_le_100": 6,
+   "name": "SELPERCATINIB",
+   "pediatric_excerpt": "8.4 Pediatric Use The safety and effectiveness of RETEVMO have been established in pediatric patients aged 2 years and older for the treatment of: advanced or metastatic medullary thyroid cancer (MTC) with a RET mutation who require systemic therapy advanced or metastatic thyroid cancer with a RET gene fusion who require systemic therapy and are radioactive iodine-refractory (if radioactive iodine",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 49,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 53,
+    "400|W2_equal": 26,
+    "400|W3_pathogenic_gene_only": 77,
+    "700|W1_epcr": 49,
+    "700|W2_equal": 26,
+    "700|W3_pathogenic_gene_only": 66,
+    "900|W1_epcr": 278,
+    "900|W2_equal": 115,
+    "900|W3_pathogenic_gene_only": 796
+   },
+   "review": {
+    "min_age_years": 2.0,
+    "name": "SELPERCATINIB",
+    "route": "oral",
+    "scope": "RET-mutant medullary thyroid cancer and RET fusion-positive thyroid cancer needing systemic therapy",
+    "verdict": "established"
+   },
+   "risk_flags": [
+    "ANTINEOPLASTIC_AGENT",
+    "INHIBITS_MODULE_COMPONENT"
+   ],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.73,
+    "sub_CENPE": -1.23,
+    "sub_IGBP1": -2.21,
+    "sub_MAD1L1": -0.7
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 1.3847,
+   "drug_id": "CHEMBL2348780",
+   "excipient_alerts": [],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Glucocorticoid receptor agonist",
+    "Mineralocorticoid receptor antagonist"
+   ],
+   "median_rank": 67,
+   "min_age_years": 2.0,
+   "min_z_700": -1.13,
+   "n_configs_rank_le_100": 6,
+   "name": "VAMOROLONE",
+   "pediatric_excerpt": "8.4 Pediatric Use The safety and effectiveness of AGAMREE for the treatment of DMD have been established in patients 2 years of age and older. Use of AGAMREE in pediatric patients is supported by a multicenter, randomized, double-blind, placebo- and active-controlled study in 121 males 4 to less than 7 years of age [see Clinical Studies ( 14)]. Use of AGAMREE in patients 2 years to less than 4 yea",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 47,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 67,
+    "400|W2_equal": 77,
+    "400|W3_pathogenic_gene_only": 60,
+    "700|W1_epcr": 47,
+    "700|W2_equal": 48,
+    "700|W3_pathogenic_gene_only": 47,
+    "900|W1_epcr": 247,
+    "900|W2_equal": 307,
+    "900|W3_pathogenic_gene_only": 210
+   },
+   "review": null,
+   "risk_flags": [],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -1.11,
+    "sub_CENPE": -0.96,
+    "sub_IGBP1": 0.36,
+    "sub_MAD1L1": -1.13
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 1.183,
+   "drug_id": "CHEMBL4582651",
+   "excipient_alerts": [],
+   "final_label_status": "established_reviewed",
+   "headline": true,
+   "literature_context": [
+    {
+     "class": "mva_tumour_case_reports",
+     "direction_hint": "reported_not_recommended",
+     "pmids": [
+      "31184400",
+      "31081598",
+      "31053147"
+     ]
+    }
+   ],
+   "meaningful_proximity": true,
+   "mechanism_of_action": [
+    "Coiled-coil domain-containing protein 6/Tyrosine-protein kinase receptor RET inhibitor",
+    "Kinesin-1 heavy chain/ Tyrosine-protein kinase receptor RET inhibitor",
+    "Tyrosine-protein kinase receptor RET inhibitor"
+   ],
+   "median_rank": 69,
+   "min_age_years": 12.0,
+   "min_z_700": -2.4,
+   "n_configs_rank_le_100": 6,
+   "name": "PRALSETINIB",
+   "pediatric_excerpt": "8.4 Pediatric Use The safety and effectiveness of GAVRETO have been established in pediatric patients aged 12 years and older for RET fusion-positive thyroid cancer. Use of GAVRETO in this age group is supported by evidence from an adequate and well-controlled study of GAVRETO in adults with additional population pharmacokinetic data demonstrating that age and body weight had no clinically meaning",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 50,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 47,
+    "400|W2_equal": 24,
+    "400|W3_pathogenic_gene_only": 73,
+    "700|W1_epcr": 50,
+    "700|W2_equal": 25,
+    "700|W3_pathogenic_gene_only": 69,
+    "900|W1_epcr": 276,
+    "900|W2_equal": 113,
+    "900|W3_pathogenic_gene_only": 798
+   },
+   "review": {
+    "min_age_years": 12.0,
+    "name": "PRALSETINIB",
+    "route": "oral",
+    "scope": "RET fusion-positive thyroid cancer",
+    "verdict": "established"
+   },
+   "risk_flags": [
+    "ANTINEOPLASTIC_AGENT",
+    "INHIBITS_MODULE_COMPONENT"
+   ],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.69,
+    "sub_CENPE": -1.18,
+    "sub_IGBP1": -2.4,
+    "sub_MAD1L1": -0.73
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 0.6144,
+   "drug_id": "CHEMBL193240",
+   "excipient_alerts": [],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Phosphodiesterase 4 inhibitor"
+   ],
+   "median_rank": 73,
+   "min_age_years": 9.0,
+   "min_z_700": -1.69,
+   "n_configs_rank_le_100": 7,
+   "name": "ROFLUMILAST",
+   "pediatric_excerpt": "8.4 Pediatric Use Seborrheic Dermatitis The safety and effectiveness of ZORYVE topical foam, 0.3%, for the treatment of seborrheic dermatitis have been established in pediatric patients 9 years of age and older. Use of ZORYVE foam, 0.3%, in this age group is supported by data from two 8-week, vehicle-controlled trials which included 32 subjects 9 to 17 years of age, of whom 17 received ZORYVE foam",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 124,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 73,
+    "400|W2_equal": 86,
+    "400|W3_pathogenic_gene_only": 71,
+    "700|W1_epcr": 124,
+    "700|W2_equal": 96,
+    "700|W3_pathogenic_gene_only": 139,
+    "900|W1_epcr": 64,
+    "900|W2_equal": 63,
+    "900|W3_pathogenic_gene_only": 73
+   },
+   "review": null,
+   "risk_flags": [],
+   "stability": "stable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.39,
+    "sub_CENPE": -0.06,
+    "sub_IGBP1": -1.69,
+    "sub_MAD1L1": -0.37
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "LABELLED_USE",
+    "infant": "LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "combined_700_W1": 1.1363,
+   "drug_id": "CHEMBL1421",
+   "excipient_alerts": [
+    "LACTOSE MONOHYDRATE"
+   ],
+   "final_label_status": "established_reviewed",
+   "headline": false,
+   "literature_context": [
+    {
+     "class": "mva_tumour_case_reports",
+     "direction_hint": "reported_not_recommended",
+     "pmids": [
+      "31184400",
+      "31081598",
+      "31053147"
+     ]
+    }
+   ],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Bcr/Abl fusion protein inhibitor",
+    "Ephrin type-A receptor 2 inhibitor",
+    "Platelet-derived growth factor receptor beta inhibitor",
+    "SRC inhibitor",
+    "Stem cell growth factor receptor inhibitor",
+    "Tyrosine-protein kinase ABL inhibitor"
+   ],
+   "median_rank": 74,
+   "min_age_years": 1.0,
+   "min_z_700": -0.99,
+   "n_configs_rank_le_100": 6,
+   "name": "DASATINIB ANHYDROUS",
+   "pediatric_excerpt": "8.4 Pediatric Use Ph+ CML in Chronic Phase The safety and effectiveness of SPRYCEL monotherapy have been demonstrated in pediatric patients with newly diagnosed chronic phase CML [see Clinical Studies (14.3)]. There are no data in children under 1 year of age. Adverse reactions associated with bone growth and development were reported in 5 (5.2%) of patients [see Warnings and Precautions (5.10)]. ",
+   "pediatric_label_status": "ESTABLISHED",
+   "rank_700_W1": 51,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 81,
+    "400|W2_equal": 115,
+    "400|W3_pathogenic_gene_only": 74,
+    "700|W1_epcr": 51,
+    "700|W2_equal": 106,
+    "700|W3_pathogenic_gene_only": 49,
+    "900|W1_epcr": 70,
+    "900|W2_equal": 116,
+    "900|W3_pathogenic_gene_only": 60
+   },
+   "review": {
+    "min_age_years": 1.0,
+    "name": "DASATINIB ANHYDROUS",
+    "route": "oral",
+    "scope": "Ph+ chronic-phase CML (newly diagnosed) in paediatric patients; other indications not read",
+    "verdict": "established"
+   },
+   "risk_flags": [
+    "ANTINEOPLASTIC_AGENT",
+    "INHIBITS_MODULE_COMPONENT"
+   ],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.99,
+    "sub_CENPE": -0.27,
+    "sub_IGBP1": 1.94,
+    "sub_MAD1L1": -0.9
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 0.5926,
+   "drug_id": "CHEMBL484785",
+   "excipient_alerts": [
+    "PROPYLENE GLYCOL"
+   ],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Phosphodiesterase 4 inhibitor"
+   ],
+   "median_rank": 75,
+   "min_age_years": 0.25,
+   "min_z_700": -1.79,
+   "n_configs_rank_le_100": 7,
+   "name": "CRISABOROLE",
+   "pediatric_excerpt": "8.4 Pediatric Use The safety and effectiveness of EUCRISA have been established in pediatric patients ages 3 months and older for topical treatment of mild to moderate atopic dermatitis. Use of EUCRISA administered twice daily in this age group is supported by data from two 28-day adequate, vehicle-controlled safety and efficacy trials (1,313 pediatric subjects ages 2 years to 17 years of whom 874",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 129,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 75,
+    "400|W2_equal": 87,
+    "400|W3_pathogenic_gene_only": 75,
+    "700|W1_epcr": 129,
+    "700|W2_equal": 98,
+    "700|W3_pathogenic_gene_only": 147,
+    "900|W1_epcr": 59,
+    "900|W2_equal": 52,
+    "900|W3_pathogenic_gene_only": 70
+   },
+   "review": null,
+   "risk_flags": [],
+   "stability": "stable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.37,
+    "sub_CENPE": 0.0,
+    "sub_IGBP1": -1.79,
+    "sub_MAD1L1": -0.33
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 0.546,
+   "drug_id": "CHEMBL514800",
+   "excipient_alerts": [
+    "LACTOSE MONOHYDRATE"
+   ],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Phosphodiesterase 4 inhibitor"
+   ],
+   "median_rank": 82,
+   "min_age_years": 6.0,
+   "min_z_700": -1.65,
+   "n_configs_rank_le_100": 6,
+   "name": "APREMILAST",
+   "pediatric_excerpt": "8.4 Pediatric Use OTEZLA Plaque Psoriasis The safety and effectiveness of OTEZLA have been established in pediatric patients 6 years of age and older and weighing at least 20 kg with moderate to severe plaque psoriasis who are candidates for phototherapy or systemic therapy. Use of OTEZLA in these patients is supported by evidence from a 52-week adequate and well-controlled clinical trial (PSOR-6)",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 137,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 82,
+    "400|W2_equal": 92,
+    "400|W3_pathogenic_gene_only": 79,
+    "700|W1_epcr": 137,
+    "700|W2_equal": 101,
+    "700|W3_pathogenic_gene_only": 168,
+    "900|W1_epcr": 62,
+    "900|W2_equal": 51,
+    "900|W3_pathogenic_gene_only": 72
+   },
+   "review": null,
+   "risk_flags": [],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.34,
+    "sub_CENPE": 0.03,
+    "sub_IGBP1": -1.65,
+    "sub_MAD1L1": -0.35
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 0.764,
+   "drug_id": "CHEMBL5314934",
+   "excipient_alerts": [],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Cystic fibrosis transmembrane conductance regulator positive modulator"
+   ],
+   "median_rank": 87,
+   "min_age_years": 6.0,
+   "min_z_700": -0.66,
+   "n_configs_rank_le_100": 5,
+   "name": "VANZACAFTOR",
+   "pediatric_excerpt": "8.4 Pediatric Use The safety and effectiveness of ALYFTREK for the treatment of CF have been established in pediatric patients aged 6 years and older who have a clinical diagnosis of CF and who have at least one variant in the CFTR gene that is either responsive based on clinical and/or in vitro data or results in production of CFTR protein. Use of ALYFTREK for this indication was supported by evi",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 87,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 1068,
+    "400|W2_equal": 1068,
+    "400|W3_pathogenic_gene_only": 1012,
+    "700|W1_epcr": 87,
+    "700|W2_equal": 153,
+    "700|W3_pathogenic_gene_only": 81,
+    "900|W1_epcr": 31,
+    "900|W2_equal": 83,
+    "900|W3_pathogenic_gene_only": 31
+   },
+   "review": null,
+   "risk_flags": [],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.63,
+    "sub_CENPE": -0.4,
+    "sub_IGBP1": 0.59,
+    "sub_MAD1L1": -0.66
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 0.7546,
+   "drug_id": "CHEMBL3544914",
+   "excipient_alerts": [],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Cystic fibrosis transmembrane conductance regulator positive modulator"
+   ],
+   "median_rank": 90,
+   "min_age_years": 6.0,
+   "min_z_700": -0.64,
+   "n_configs_rank_le_100": 5,
+   "name": "TEZACAFTOR",
+   "pediatric_excerpt": "8.4 Pediatric Use The safety and effectiveness of ALYFTREK for the treatment of CF have been established in pediatric patients aged 6 years and older who have a clinical diagnosis of CF and who have at least one variant in the CFTR gene that is either responsive based on clinical and/or in vitro data or results in production of CFTR protein. Use of ALYFTREK for this indication was supported by evi",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 90,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 920,
+    "400|W2_equal": 920,
+    "400|W3_pathogenic_gene_only": 794,
+    "700|W1_epcr": 90,
+    "700|W2_equal": 159,
+    "700|W3_pathogenic_gene_only": 83,
+    "900|W1_epcr": 32,
+    "900|W2_equal": 84,
+    "900|W3_pathogenic_gene_only": 32
+   },
+   "review": null,
+   "risk_flags": [],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.62,
+    "sub_CENPE": -0.4,
+    "sub_IGBP1": 0.55,
+    "sub_MAD1L1": -0.64
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 0.7493,
+   "drug_id": "CHEMBL3301574",
+   "excipient_alerts": [],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [
+    {
+     "class": "mva_tumour_case_reports",
+     "direction_hint": "reported_not_recommended",
+     "pmids": [
+      "31184400",
+      "31081598",
+      "31053147"
+     ]
+    }
+   ],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "B-lymphocyte antigen CD19 binding agent"
+   ],
+   "median_rank": 91,
+   "min_age_years": 2.0,
+   "min_z_700": -0.61,
+   "n_configs_rank_le_100": 5,
+   "name": "TISAGENLECLEUCEL",
+   "pediatric_excerpt": "8.4 Pediatric Use The safety and efficacy of KYMRIAH have been established in pediatric patients with r/r B-cell ALL. Use of KYMRIAH is supported by a single-arm trial [see Clinical Studies (14.1)] that included 61 pediatric patients with r/r B-cell precursor ALL in the following age groups: 40 children (ages 2 years to less than 12 years) and 21 adolescents (ages 12 years to less than 17 years). ",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 91,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 173,
+    "400|W2_equal": 348,
+    "400|W3_pathogenic_gene_only": 157,
+    "700|W1_epcr": 91,
+    "700|W2_equal": 162,
+    "700|W3_pathogenic_gene_only": 87,
+    "900|W1_epcr": 38,
+    "900|W2_equal": 85,
+    "900|W3_pathogenic_gene_only": 37
+   },
+   "review": null,
+   "risk_flags": [
+    "ANTINEOPLASTIC_AGENT",
+    "BOXED_WARNING"
+   ],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.61,
+    "sub_CENPE": -0.43,
+    "sub_IGBP1": 0.57,
+    "sub_MAD1L1": -0.61
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "combined_700_W1": 0.7301,
+   "drug_id": "CHEMBL1533",
+   "excipient_alerts": [
+    "FD&C YELLOW NO. 5",
+    "LACTOSE MONOHYDRATE",
+    "POLYSORBATE 80"
+   ],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Progesterone receptor agonist"
+   ],
+   "median_rank": 94,
+   "min_age_years": 16.0,
+   "min_z_700": -0.62,
+   "n_configs_rank_le_100": 5,
+   "name": "DESOGESTREL",
+   "pediatric_excerpt": "13. Pediatric Use Safety and efficacy of desogestrel and ethinyl estradiol tablets have been established in women of reproductive age. Safety and efficacy are expected to be the same for postpubertal adolescents under the age of 16 and for users 16 years and older. Use of this product before menarche is not indicated.",
+   "pediatric_label_status": "ESTABLISHED",
+   "rank_700_W1": 94,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 193,
+    "400|W2_equal": 241,
+    "400|W3_pathogenic_gene_only": 191,
+    "700|W1_epcr": 94,
+    "700|W2_equal": 197,
+    "700|W3_pathogenic_gene_only": 85,
+    "900|W1_epcr": 43,
+    "900|W2_equal": 81,
+    "900|W3_pathogenic_gene_only": 46
+   },
+   "review": null,
+   "risk_flags": [],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.62,
+    "sub_CENPE": -0.25,
+    "sub_IGBP1": 0.5,
+    "sub_MAD1L1": -0.62
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 0.7363,
+   "drug_id": "CHEMBL4298128",
+   "excipient_alerts": [
+    "LACTOSE MONOHYDRATE",
+    "PROPYLENE GLYCOL"
+   ],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Cystic fibrosis transmembrane conductance regulator positive modulator"
+   ],
+   "median_rank": 96,
+   "min_age_years": 2.0,
+   "min_z_700": -0.61,
+   "n_configs_rank_le_100": 5,
+   "name": "ELEXACAFTOR",
+   "pediatric_excerpt": "8.4 Pediatric Use The safety and effectiveness of TRIKAFTA for the treatment of CF have been established in pediatric patients aged 2 years and older who have a clinical diagnosis of CF and who have at least one variant in the CFTR gene that is either responsive based on clinical and/or in vitro data or results in production of CFTR protein. Use of TRIKAFTA for this indication for pediatric patien",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 92,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 1017,
+    "400|W2_equal": 1017,
+    "400|W3_pathogenic_gene_only": 934,
+    "700|W1_epcr": 92,
+    "700|W2_equal": 169,
+    "700|W3_pathogenic_gene_only": 89,
+    "900|W1_epcr": 46,
+    "900|W2_equal": 96,
+    "900|W3_pathogenic_gene_only": 44
+   },
+   "review": null,
+   "risk_flags": [],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.6,
+    "sub_CENPE": -0.41,
+    "sub_IGBP1": 0.57,
+    "sub_MAD1L1": -0.61
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "combined_700_W1": 0.7209,
+   "drug_id": "CHEMBL1200807",
+   "excipient_alerts": [
+    "DIPROPYLENE GLYCOL"
+   ],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Progesterone receptor agonist"
+   ],
+   "median_rank": 99,
+   "min_age_years": 17.0,
+   "min_z_700": -0.62,
+   "n_configs_rank_le_100": 5,
+   "name": "NORELGESTROMIN",
+   "pediatric_excerpt": "8.4 Pediatric Use The safety and effectiveness of GWYN LO have been established in females of reproductive potential with a BMI < 30 kg/m2 to prevent pregnancy. Efficacy is expected to be the same for postmenarcheal females younger than 17 years of age as for those 17 years of age and older. Use of GWYN LO before menarche is not indicated.",
+   "pediatric_label_status": "ESTABLISHED",
+   "rank_700_W1": 99,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 218,
+    "400|W2_equal": 312,
+    "400|W3_pathogenic_gene_only": 212,
+    "700|W1_epcr": 99,
+    "700|W2_equal": 210,
+    "700|W3_pathogenic_gene_only": 84,
+    "900|W1_epcr": 34,
+    "900|W2_equal": 78,
+    "900|W3_pathogenic_gene_only": 33
+   },
+   "review": null,
+   "risk_flags": [],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.62,
+    "sub_CENPE": -0.22,
+    "sub_IGBP1": 0.43,
+    "sub_MAD1L1": -0.58
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "combined_700_W1": 0.6795,
+   "drug_id": "CHEMBL2010601",
+   "excipient_alerts": [
+    "LACTOSE MONOHYDRATE",
+    "PROPYLENE GLYCOL"
+   ],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Cystic fibrosis transmembrane conductance regulator positive modulator"
+   ],
+   "median_rank": 106,
+   "min_age_years": 6.0,
+   "min_z_700": -0.6,
+   "n_configs_rank_le_100": 3,
+   "name": "IVACAFTOR",
+   "pediatric_excerpt": "8.4 Pediatric Use The safety and effectiveness of SYMDEKO for the treatment of CF have been established in pediatric patients aged 6 to less than 18 years who are homozygous for the F508del mutation or who have at least one mutation in the CFTR gene that is responsive to tezacaftor/ivacaftor based on in vitro data and/or clinical evidence [see Clinical Pharmacology (12.1) and Clinical Studies (14)",
+   "pediatric_label_status": "ESTABLISHED",
+   "rank_700_W1": 105,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 804,
+    "400|W2_equal": 804,
+    "400|W3_pathogenic_gene_only": 617,
+    "700|W1_epcr": 105,
+    "700|W2_equal": 187,
+    "700|W3_pathogenic_gene_only": 106,
+    "900|W1_epcr": 58,
+    "900|W2_equal": 92,
+    "900|W3_pathogenic_gene_only": 56
+   },
+   "review": null,
+   "risk_flags": [],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.55,
+    "sub_CENPE": -0.38,
+    "sub_IGBP1": 0.56,
+    "sub_MAD1L1": -0.6
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "combined_700_W1": 0.6695,
+   "drug_id": "CHEMBL1201146",
+   "excipient_alerts": [
+    "ALCOHOL",
+    "GELATIN",
+    "LECITHIN, SOYBEAN",
+    "SOYBEAN OIL"
+   ],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Progesterone receptor agonist"
+   ],
+   "median_rank": 107,
+   "min_age_years": 18.0,
+   "min_z_700": -0.57,
+   "n_configs_rank_le_100": 3,
+   "name": "NORETHINDRONE ACETATE",
+   "pediatric_excerpt": "8.4 Pediatric Use Safety and efficacy of norethindrone acetate and ethinyl estradiol capsules and ferrous fumarate capsules have been established in women of reproductive age. Efficacy is expected to be the same in postpubertal adolescents under the age of 18 years as for users 18 years and older. Use of this product before menarche is not indicated.",
+   "pediatric_label_status": "ESTABLISHED",
+   "rank_700_W1": 107,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 179,
+    "400|W2_equal": 256,
+    "400|W3_pathogenic_gene_only": 177,
+    "700|W1_epcr": 107,
+    "700|W2_equal": 236,
+    "700|W3_pathogenic_gene_only": 103,
+    "900|W1_epcr": 36,
+    "900|W2_equal": 80,
+    "900|W3_pathogenic_gene_only": 34
+   },
+   "review": null,
+   "risk_flags": [],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.57,
+    "sub_CENPE": -0.19,
+    "sub_IGBP1": 0.5,
+    "sub_MAD1L1": -0.57
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 1.1187,
+   "drug_id": "CHEMBL4303525",
+   "excipient_alerts": [],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Nuclear factor erythroid 2-related factor 2 activator"
+   ],
+   "median_rank": 109,
+   "min_age_years": 16.0,
+   "min_z_700": -0.94,
+   "n_configs_rank_le_100": 3,
+   "name": "OMAVELOXOLONE",
+   "pediatric_excerpt": "8.4 Pediatric Use The safety and effectiveness of SKYCLARYS for the treatment of Friedreich's ataxia have been established in pediatric patients aged 16 years and older. Use of SKYCLARYS for this indication is supported by evidence from one adequate and well-controlled study (Study 1) in adults and in pediatric patients aged 16 years and older [see Clinical Studies (14)]. Safety and effectiveness ",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 53,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 109,
+    "400|W2_equal": 101,
+    "400|W3_pathogenic_gene_only": 110,
+    "700|W1_epcr": 53,
+    "700|W2_equal": 89,
+    "700|W3_pathogenic_gene_only": 53,
+    "900|W1_epcr": 324,
+    "900|W2_equal": 419,
+    "900|W3_pathogenic_gene_only": 278
+   },
+   "review": null,
+   "risk_flags": [],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.89,
+    "sub_CENPE": -0.72,
+    "sub_IGBP1": -0.07,
+    "sub_MAD1L1": -0.94
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "LABELLED_AGE_NOT_PARSED",
+    "adult": "LABELLED",
+    "child": "LABELLED_AGE_NOT_PARSED",
+    "infant": "LABELLED_AGE_NOT_PARSED",
+    "neonate": "LABELLED_AGE_NOT_PARSED"
+   },
+   "combined_700_W1": 0.6601,
+   "drug_id": "CHEMBL2103846",
+   "excipient_alerts": [
+    "LACTOSE MONOHYDRATE"
+   ],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Progesterone receptor modulator"
+   ],
+   "median_rank": 110,
+   "min_age_years": null,
+   "min_z_700": -0.58,
+   "n_configs_rank_le_100": 3,
+   "name": "ULIPRISTAL",
+   "pediatric_excerpt": "8.4 Pediatric Use There is no relevant use of ulipristal acetate for children of prepubertal age in the indication emergency contraception. Adolescents: Safety and efficacy of ella have been established in women of reproductive age. The clinical trials of ella enrolled 41 females under age 18, and a post-marketing observational study evaluating effectiveness and safety of ella in adolescents enrol",
+   "pediatric_label_status": "ESTABLISHED",
+   "rank_700_W1": 110,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 205,
+    "400|W2_equal": 270,
+    "400|W3_pathogenic_gene_only": 201,
+    "700|W1_epcr": 110,
+    "700|W2_equal": 215,
+    "700|W3_pathogenic_gene_only": 107,
+    "900|W1_epcr": 41,
+    "900|W2_equal": 79,
+    "900|W3_pathogenic_gene_only": 41
+   },
+   "review": null,
+   "risk_flags": [],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.55,
+    "sub_CENPE": -0.27,
+    "sub_IGBP1": 0.4,
+    "sub_MAD1L1": -0.58
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "LABELLED_AGE_NOT_PARSED",
+    "adult": "LABELLED",
+    "child": "LABELLED_AGE_NOT_PARSED",
+    "infant": "LABELLED_AGE_NOT_PARSED",
+    "neonate": "LABELLED_AGE_NOT_PARSED"
+   },
+   "combined_700_W1": 0.645,
+   "drug_id": "CHEMBL103",
+   "excipient_alerts": [
+    "ALCOHOL",
+    "GELATIN TYPE B BOVINE (200 BLOOM)",
+    "GELATIN, UNSPECIFIED",
+    "PROPYLENE GLYCOL",
+    "SOYBEAN LECITHIN"
+   ],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Progesterone receptor agonist"
+   ],
+   "median_rank": 116,
+   "min_age_years": null,
+   "min_z_700": -0.59,
+   "n_configs_rank_le_100": 3,
+   "name": "PROGESTERONE",
+   "pediatric_excerpt": "8.4 Pediatric Use BIJUVA is not indicated for use in pediatric patients. Clinical studies have not been conducted in the pediatric population.",
+   "pediatric_label_status": "ESTABLISHED",
+   "rank_700_W1": 116,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 185,
+    "400|W2_equal": 218,
+    "400|W3_pathogenic_gene_only": 182,
+    "700|W1_epcr": 116,
+    "700|W2_equal": 244,
+    "700|W3_pathogenic_gene_only": 110,
+    "900|W1_epcr": 30,
+    "900|W2_equal": 75,
+    "900|W3_pathogenic_gene_only": 30
+   },
+   "review": null,
+   "risk_flags": [
+    "BOXED_WARNING"
+   ],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.55,
+    "sub_CENPE": -0.18,
+    "sub_IGBP1": 0.47,
+    "sub_MAD1L1": -0.59
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "combined_700_W1": 0.6436,
+   "drug_id": "CHEMBL3707377",
+   "excipient_alerts": [],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Progesterone receptor agonist"
+   ],
+   "median_rank": 118,
+   "min_age_years": 18.0,
+   "min_z_700": -0.56,
+   "n_configs_rank_le_100": 3,
+   "name": "SEGESTERONE ACETATE",
+   "pediatric_excerpt": "8.4 Pediatric Use Safety and efficacy of ANNOVERA have been established in women of reproductive age. Efficacy is expected to be the same for post pubertal adolescents under the age of 18 as for users 18 years and older. Use of ANNOVERA before menarche is not indicated.",
+   "pediatric_label_status": "ESTABLISHED",
+   "rank_700_W1": 118,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 198,
+    "400|W2_equal": 285,
+    "400|W3_pathogenic_gene_only": 195,
+    "700|W1_epcr": 118,
+    "700|W2_equal": 222,
+    "700|W3_pathogenic_gene_only": 116,
+    "900|W1_epcr": 47,
+    "900|W2_equal": 88,
+    "900|W3_pathogenic_gene_only": 47
+   },
+   "review": null,
+   "risk_flags": [],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.53,
+    "sub_CENPE": -0.29,
+    "sub_IGBP1": 0.49,
+    "sub_MAD1L1": -0.56
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 0.6285,
+   "drug_id": "CHEMBL2103870",
+   "excipient_alerts": [
+    "PROPYLENE GLYCOL"
+   ],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Cystic fibrosis transmembrane conductance regulator stabiliser"
+   ],
+   "median_rank": 121,
+   "min_age_years": 1.0,
+   "min_z_700": -0.54,
+   "n_configs_rank_le_100": 3,
+   "name": "LUMACAFTOR",
+   "pediatric_excerpt": "8.4 Pediatric Use The safety and effectiveness of ORKAMBI in pediatric patients aged one year and older have been established. Use of ORKAMBI in these age groups is supported by evidence from adequate and well-controlled studies of ORKAMBI in patients aged 12 years and older [see Clinical Studies (14) and Adverse Reactions (6.1) ] with additional data as follows: Extrapolation of efficacy in patie",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 120,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 812,
+    "400|W2_equal": 812,
+    "400|W3_pathogenic_gene_only": 631,
+    "700|W1_epcr": 120,
+    "700|W2_equal": 211,
+    "700|W3_pathogenic_gene_only": 121,
+    "900|W1_epcr": 37,
+    "900|W2_equal": 77,
+    "900|W3_pathogenic_gene_only": 36
+   },
+   "review": null,
+   "risk_flags": [
+    "MICROTUBULE_OR_PROTEIN_STABILISER"
+   ],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.51,
+    "sub_CENPE": -0.36,
+    "sub_IGBP1": 0.58,
+    "sub_MAD1L1": -0.54
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 0.1655,
+   "drug_id": "CHEMBL291657",
+   "excipient_alerts": [
+    "GELATIN",
+    "PROPYLENE GLYCOL DICAPRYLATE/DICAPRATE"
+   ],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Corticotropin releasing factor receptor 1 antagonist"
+   ],
+   "median_rank": 124.0,
+   "min_age_years": 4.0,
+   "min_z_700": -1.68,
+   "n_configs_rank_le_100": 3,
+   "name": "CRINECERFONT",
+   "pediatric_excerpt": "8.4 Pediatric Use The safety and effectiveness of CRENESSITY as adjunctive treatment to glucocorticoid replacement to control androgens have been established in pediatric patients 4 years of age and older with classic CAH. Use of CRENESSITY for this indication is supported by evidence from an adequate and well-controlled study of 103 pediatric subjects (Study 2), evidence from an adequate and well",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 284,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 79,
+    "400|W2_equal": 61,
+    "400|W3_pathogenic_gene_only": 93,
+    "700|W1_epcr": 284,
+    "700|W2_equal": 155,
+    "700|W3_pathogenic_gene_only": 719,
+    "900|W1_epcr": null,
+    "900|W2_equal": null,
+    "900|W3_pathogenic_gene_only": null
+   },
+   "review": null,
+   "risk_flags": [],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": 0.17,
+    "sub_CENPE": 0.33,
+    "sub_IGBP1": -1.68,
+    "sub_MAD1L1": 0.16
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "combined_700_W1": 0.6041,
+   "drug_id": "CHEMBL1200934",
+   "excipient_alerts": [
+    "LACTOSE MONOHYDRATE",
+    "LECITHIN, SOYBEAN",
+    "STARCH, PREGELATINIZED CORN"
+   ],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Progesterone receptor agonist"
+   ],
+   "median_rank": 127,
+   "min_age_years": 18.0,
+   "min_z_700": -0.51,
+   "n_configs_rank_le_100": 3,
+   "name": "NORGESTIMATE",
+   "pediatric_excerpt": "8.4 Pediatric Use Safety and efficacy of Mono-Linyah Tablets have been established in women of reproductive age. Efficacy is expected to be the same for post-pubertal adolescents under the age of 18 and for users 18 years and older. Use of this product before menarche is not indicated.",
+   "pediatric_label_status": "ESTABLISHED",
+   "rank_700_W1": 127,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 186,
+    "400|W2_equal": 212,
+    "400|W3_pathogenic_gene_only": 187,
+    "700|W1_epcr": 127,
+    "700|W2_equal": 248,
+    "700|W3_pathogenic_gene_only": 120,
+    "900|W1_epcr": 48,
+    "900|W2_equal": 94,
+    "900|W3_pathogenic_gene_only": 48
+   },
+   "review": null,
+   "risk_flags": [],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.51,
+    "sub_CENPE": -0.22,
+    "sub_IGBP1": 0.49,
+    "sub_MAD1L1": -0.51
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "combined_700_W1": 0.595,
+   "drug_id": "CHEMBL1389",
+   "excipient_alerts": [
+    "ANHYDROUS LACTOSE",
+    "POLYSORBATE 80"
+   ],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Progesterone receptor agonist"
+   ],
+   "median_rank": 128,
+   "min_age_years": 18.0,
+   "min_z_700": -0.57,
+   "n_configs_rank_le_100": 3,
+   "name": "LEVONORGESTREL",
+   "pediatric_excerpt": "8.4 Pediatric Use Safety and efficacy of Daysee have been established in women of reproductive age. Safety and efficacy are expected to be the same for postpubertal adolescents under the age of 18 as for users 18 years and older. Use of Daysee before menarche is not indicated.",
+   "pediatric_label_status": "ESTABLISHED",
+   "rank_700_W1": 128,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 209,
+    "400|W2_equal": 297,
+    "400|W3_pathogenic_gene_only": 207,
+    "700|W1_epcr": 128,
+    "700|W2_equal": 238,
+    "700|W3_pathogenic_gene_only": 125,
+    "900|W1_epcr": 51,
+    "900|W2_equal": 89,
+    "900|W3_pathogenic_gene_only": 50
+   },
+   "review": null,
+   "risk_flags": [],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.49,
+    "sub_CENPE": -0.28,
+    "sub_IGBP1": 0.47,
+    "sub_MAD1L1": -0.57
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 1.78,
+   "drug_id": "CHEMBL178",
+   "excipient_alerts": [],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [
+    {
+     "class": "mva_tumour_case_reports",
+     "direction_hint": "reported_not_recommended",
+     "pmids": [
+      "31184400",
+      "31081598",
+      "31053147"
+     ]
+    }
+   ],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "DNA inhibitor",
+    "DNA topoisomerase II alpha inhibitor"
+   ],
+   "median_rank": 129.0,
+   "min_age_years": 1.0,
+   "min_z_700": -1.4,
+   "n_configs_rank_le_100": 3,
+   "name": "DAUNORUBICIN",
+   "pediatric_excerpt": "8.4 Pediatric Use Newly Diagnosed t-AML or AML-MRC The safety and effectiveness of VYXEOS have been established in pediatric patients 1 year and older with newly diagnosed t-AML or AML-MRC. The use of VYXEOS for this indication is supported by evidence of effectiveness from an adequate and well-controlled study in adults with data on safety from two single-arm trials, which included patients in th",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 29,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 235,
+    "400|W2_equal": 310,
+    "400|W3_pathogenic_gene_only": 227,
+    "700|W1_epcr": 29,
+    "700|W2_equal": 31,
+    "700|W3_pathogenic_gene_only": 30,
+    "900|W1_epcr": null,
+    "900|W2_equal": null,
+    "900|W3_pathogenic_gene_only": null
+   },
+   "review": null,
+   "risk_flags": [
+    "ANTINEOPLASTIC_AGENT",
+    "BOXED_WARNING"
+   ],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -1.4,
+    "sub_CENPE": -1.22,
+    "sub_IGBP1": -0.38,
+    "sub_MAD1L1": -1.35
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 0.5798,
+   "drug_id": "CHEMBL499",
+   "excipient_alerts": [],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Beta-1 adrenergic receptor antagonist",
+    "Beta-2 adrenergic receptor antagonist"
+   ],
+   "median_rank": 131,
+   "min_age_years": 2.0,
+   "min_z_700": -1.73,
+   "n_configs_rank_le_100": 4,
+   "name": "TIMOLOL",
+   "pediatric_excerpt": "8.4 Pediatric Use Brimonidine tartrate/timolol maleate ophthalmic solution is contraindicated in pediatric patients younger than 2 years old [see Contraindications (4.3)]. During post-marketing surveillance, apnea, bradycardia, coma, hypotension, hypothermia, hypotonia, lethargy, pallor, respiratory depression, and somnolence have been reported in infants receiving brimonidine. The safety and effe",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 131,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 58,
+    "400|W2_equal": 44,
+    "400|W3_pathogenic_gene_only": 68,
+    "700|W1_epcr": 131,
+    "700|W2_equal": 90,
+    "700|W3_pathogenic_gene_only": 169,
+    "900|W1_epcr": 249,
+    "900|W2_equal": 186,
+    "900|W3_pathogenic_gene_only": 243
+   },
+   "review": null,
+   "risk_flags": [],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.34,
+    "sub_CENPE": -0.16,
+    "sub_IGBP1": -1.73,
+    "sub_MAD1L1": -0.39
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "combined_700_W1": 0.5646,
+   "drug_id": "CHEMBL1162",
+   "excipient_alerts": [
+    "LACTOSE, UNSPECIFIED FORM"
+   ],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Progesterone receptor agonist"
+   ],
+   "median_rank": 133,
+   "min_age_years": 16.0,
+   "min_z_700": -0.54,
+   "n_configs_rank_le_100": 3,
+   "name": "NORETHINDRONE",
+   "pediatric_excerpt": "12. Pediatric use. Safety and efficacy of Nora-BE have been established in women of reproductive age. Safety and efficacy are expected to be the same for postpubertal adolescents under the age of 16 and for users 16 years and older. Use of this product before menarche is not indicated.",
+   "pediatric_label_status": "ESTABLISHED",
+   "rank_700_W1": 133,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 211,
+    "400|W2_equal": 284,
+    "400|W3_pathogenic_gene_only": 209,
+    "700|W1_epcr": 133,
+    "700|W2_equal": 250,
+    "700|W3_pathogenic_gene_only": 127,
+    "900|W1_epcr": 44,
+    "900|W2_equal": 91,
+    "900|W3_pathogenic_gene_only": 42
+   },
+   "review": null,
+   "risk_flags": [
+    "BOXED_WARNING"
+   ],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.47,
+    "sub_CENPE": -0.2,
+    "sub_IGBP1": 0.47,
+    "sub_MAD1L1": -0.54
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 0.9533,
+   "drug_id": "CHEMBL237500",
+   "excipient_alerts": [],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Dipeptidyl peptidase IV inhibitor"
+   ],
+   "median_rank": 134,
+   "min_age_years": null,
+   "min_z_700": -0.8,
+   "n_configs_rank_le_100": 2,
+   "name": "LINAGLIPTIN",
+   "pediatric_excerpt": "8.4 Pediatric Use Safety and effectiveness of JENTADUETO XR have not been established in pediatric patients. Effectiveness of linagliptin was not demonstrated in a 26-week randomized, double-blind, placebo-controlled trial (NCT03429543) in 157 pediatric patients aged 10 to 17 years with inadequately controlled type 2 diabetes mellitus.",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 61,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 165,
+    "400|W2_equal": 328,
+    "400|W3_pathogenic_gene_only": 154,
+    "700|W1_epcr": 61,
+    "700|W2_equal": 113,
+    "700|W3_pathogenic_gene_only": 59,
+    "900|W1_epcr": 134,
+    "900|W2_equal": 184,
+    "900|W3_pathogenic_gene_only": 131
+   },
+   "review": null,
+   "risk_flags": [],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.78,
+    "sub_CENPE": -0.51,
+    "sub_IGBP1": 0.3,
+    "sub_MAD1L1": -0.8
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 0.5386,
+   "drug_id": "CHEMBL622",
+   "excipient_alerts": [],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Cyclooxygenase-2 inhibitor"
+   ],
+   "median_rank": 162.5,
+   "min_age_years": null,
+   "min_z_700": -0.71,
+   "n_configs_rank_le_100": 0,
+   "name": "ETODOLAC",
+   "pediatric_excerpt": "Pediatric Use Safety and effectiveness in pediatric patients below the age of 18 years have not been established.",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 141,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 296,
+    "400|W2_equal": 167,
+    "400|W3_pathogenic_gene_only": 1050,
+    "700|W1_epcr": 141,
+    "700|W2_equal": 158,
+    "700|W3_pathogenic_gene_only": 138,
+    "900|W1_epcr": null,
+    "900|W2_equal": null,
+    "900|W3_pathogenic_gene_only": null
+   },
+   "review": null,
+   "risk_flags": [
+    "BOXED_WARNING"
+   ],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.4,
+    "sub_CENPE": -0.21,
+    "sub_IGBP1": -0.71,
+    "sub_MAD1L1": -0.36
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 0.1648,
+   "drug_id": "CHEMBL1471",
+   "excipient_alerts": [
+    "GELATIN",
+    "PROPYLENE GLYCOL"
+   ],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Neurokinin 1 receptor antagonist"
+   ],
+   "median_rank": 197,
+   "min_age_years": 0.5,
+   "min_z_700": -1.67,
+   "n_configs_rank_le_100": 0,
+   "name": "APREPITANT",
+   "pediatric_excerpt": "8.4 Pediatric Use Prevention of Nausea and Vomiting Associated with HEC or MEC The safety and effectiveness of aprepitant capsules in pediatric patients 12 years of age and older for the prevention of acute and delayed nausea and vomiting associated with initial and repeat courses of HEC, including high-dose cisplatin, and MEC. Use of aprepitant in these age groups is supported by evidence from 30",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 285,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 112,
+    "400|W2_equal": 113,
+    "400|W3_pathogenic_gene_only": 116,
+    "700|W1_epcr": 285,
+    "700|W2_equal": 156,
+    "700|W3_pathogenic_gene_only": 510,
+    "900|W1_epcr": 265,
+    "900|W2_equal": 197,
+    "900|W3_pathogenic_gene_only": 273
+   },
+   "review": null,
+   "risk_flags": [],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": 0.15,
+    "sub_CENPE": 0.39,
+    "sub_IGBP1": -1.67,
+    "sub_MAD1L1": 0.2
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "combined_700_W1": 0.3564,
+   "drug_id": "CHEMBL1742466",
+   "excipient_alerts": [],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Beta-1 adrenergic receptor antagonist"
+   ],
+   "median_rank": 198,
+   "min_age_years": 18.0,
+   "min_z_700": -1.67,
+   "n_configs_rank_le_100": 3,
+   "name": "LANDIOLOL",
+   "pediatric_excerpt": "8.4 Pediatric Use The safety and effectiveness of RAPIBLYK for the short-term reduction of ventricular rate in supraventricular tachycardia have been established in pediatric patients. Use of RAPIBLYK is supported by evidence from adequate and well-controlled studies in adults, with additional pharmacokinetic, pharmacodynamic and safety data from a descriptive single-arm, unblinded study that enro",
+   "pediatric_label_status": "ESTABLISHED",
+   "rank_700_W1": 213,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 40,
+    "400|W2_equal": 31,
+    "400|W3_pathogenic_gene_only": 43,
+    "700|W1_epcr": 213,
+    "700|W2_equal": 117,
+    "700|W3_pathogenic_gene_only": 210,
+    "900|W1_epcr": 238,
+    "900|W2_equal": 198,
+    "900|W3_pathogenic_gene_only": 206
+   },
+   "review": null,
+   "risk_flags": [],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.16,
+    "sub_CENPE": -0.05,
+    "sub_IGBP1": -1.67,
+    "sub_MAD1L1": -0.18
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 0.4256,
+   "drug_id": "CHEMBL1568698",
+   "excipient_alerts": [],
+   "final_label_status": "established_reviewed",
+   "headline": true,
+   "literature_context": [],
+   "meaningful_proximity": true,
+   "mechanism_of_action": [
+    "GABA-A receptor; anion channel positive allosteric modulator"
+   ],
+   "median_rank": 219,
+   "min_age_years": 2.0,
+   "min_z_700": -3.09,
+   "n_configs_rank_le_100": 2,
+   "name": "GANAXOLONE",
+   "pediatric_excerpt": "8.4 Pediatric Use The safety and effectiveness of ZTALMY for the treatment of seizures associated with CDD have been established in pediatric patients 2 years of age and older. The use of ZTALMY for the treatment of seizures associated with CDD in patients 2 years of age and older is supported by a randomized, double-blind, placebo-controlled trial that included 99 pediatric patients 2 to less tha",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 187,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 279,
+    "400|W2_equal": 219,
+    "400|W3_pathogenic_gene_only": 539,
+    "700|W1_epcr": 187,
+    "700|W2_equal": 63,
+    "700|W3_pathogenic_gene_only": 524,
+    "900|W1_epcr": 204,
+    "900|W2_equal": 43,
+    "900|W3_pathogenic_gene_only": 267
+   },
+   "review": {
+    "min_age_years": 2.0,
+    "name": "GANAXOLONE",
+    "route": "oral",
+    "scope": "seizures associated with CDKL5 deficiency disorder",
+    "verdict": "established"
+   },
+   "risk_flags": [],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": 1.61,
+    "sub_CENPE": -3.09,
+    "sub_IGBP1": 4.63,
+    "sub_MAD1L1": 1.59
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 0.4166,
+   "drug_id": "CHEMBL451",
+   "excipient_alerts": [
+    "ANHYDROUS LACTOSE",
+    "GELATIN, UNSPECIFIED",
+    "PROPYLENE GLYCOL"
+   ],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": true,
+   "mechanism_of_action": [
+    "GABA-A receptor; anion channel positive allosteric modulator"
+   ],
+   "median_rank": 223,
+   "min_age_years": 6.0,
+   "min_z_700": -3.03,
+   "n_configs_rank_le_100": 2,
+   "name": "CHLORDIAZEPOXIDE",
+   "pediatric_excerpt": "Pediatric Use Because of the varied response of pediatric patients to CNS-acting drugs, therapy should be initiated with the lowest dose and increased as required (see DOSAGE AND ADMINISTRATION). Since clinical experience with chlordiazepoxide HCl in pediatric patients under 6 years of age is limited, use in this age group is not recommended. Hyperactive aggressive pediatric patients should be mon",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 195,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 281,
+    "400|W2_equal": 223,
+    "400|W3_pathogenic_gene_only": 948,
+    "700|W1_epcr": 195,
+    "700|W2_equal": 71,
+    "700|W3_pathogenic_gene_only": 885,
+    "900|W1_epcr": 189,
+    "900|W2_equal": 35,
+    "900|W3_pathogenic_gene_only": 262
+   },
+   "review": {
+    "name": "CHLORDIAZEPOXIDE",
+    "route": "oral",
+    "scope": "use under 6 years not recommended; limited experience",
+    "verdict": "verify"
+   },
+   "risk_flags": [
+    "BOXED_WARNING"
+   ],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": 1.7,
+    "sub_CENPE": -3.03,
+    "sub_IGBP1": 4.88,
+    "sub_MAD1L1": 1.65
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 0.2892,
+   "drug_id": "CHEMBL3990044",
+   "excipient_alerts": [
+    "POLYSORBATE 80"
+   ],
+   "final_label_status": "established_reviewed",
+   "headline": true,
+   "literature_context": [],
+   "meaningful_proximity": true,
+   "mechanism_of_action": [
+    "Lymphocyte activation gene 3 protein inhibitor"
+   ],
+   "median_rank": 225,
+   "min_age_years": 12.0,
+   "min_z_700": -2.1,
+   "n_configs_rank_le_100": 1,
+   "name": "RELATLIMAB",
+   "pediatric_excerpt": "8.4 Pediatric Use The safety and effectiveness of OPDUALAG for the treatment of unresectable or metastatic melanoma have been established in pediatric patients 12 years of age or older who weigh at least 40 kg. Use of OPDUALAG for this indication is supported by evidence from an adequate and well-controlled study in adults and additional data analyses that suggest that nivolumab and relatlimab exp",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 225,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 187,
+    "400|W2_equal": 84,
+    "400|W3_pathogenic_gene_only": 863,
+    "700|W1_epcr": 225,
+    "700|W2_equal": 112,
+    "700|W3_pathogenic_gene_only": 808,
+    "900|W1_epcr": 273,
+    "900|W2_equal": 192,
+    "900|W3_pathogenic_gene_only": 728
+   },
+   "review": {
+    "min_age_years": 12.0,
+    "name": "RELATLIMAB",
+    "route": "parenteral",
+    "scope": "unresectable or metastatic melanoma, patients 12 years or older weighing at least 40 kg (fixed combination with nivolumab)",
+    "verdict": "established"
+   },
+   "risk_flags": [
+    "INHIBITS_MODULE_COMPONENT"
+   ],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": 0.7,
+    "sub_CENPE": -2.1,
+    "sub_IGBP1": 1.69,
+    "sub_MAD1L1": 0.65
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 0.4112,
+   "drug_id": "CHEMBL526",
+   "excipient_alerts": [
+    "SOYBEAN OIL"
+   ],
+   "final_label_status": "established_reviewed",
+   "headline": true,
+   "literature_context": [],
+   "meaningful_proximity": true,
+   "mechanism_of_action": [
+    "GABA-A receptor; anion channel positive allosteric modulator"
+   ],
+   "median_rank": 226,
+   "min_age_years": 0.16666666666666666,
+   "min_z_700": -2.99,
+   "n_configs_rank_le_100": 2,
+   "name": "PROPOFOL",
+   "pediatric_excerpt": "8.4 Pediatric Use The safety and effectiveness of propofol injectable emulsion have been established for induction of anesthesia in pediatric patients aged 3 years and older and for the maintenance of anesthesia aged 2 months and older. In pediatric patients, administration of fentanyl concomitantly with propofol injectable emulsion may result in serious bradycardia [ see Warnings and Precautions ",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 199,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 283,
+    "400|W2_equal": 226,
+    "400|W3_pathogenic_gene_only": 1006,
+    "700|W1_epcr": 199,
+    "700|W2_equal": 76,
+    "700|W3_pathogenic_gene_only": 938,
+    "900|W1_epcr": 197,
+    "900|W2_equal": 41,
+    "900|W3_pathogenic_gene_only": 259
+   },
+   "review": {
+    "min_age_years": 0.17,
+    "name": "PROPOFOL",
+    "route": "parenteral",
+    "scope": "induction of anaesthesia from 3 years and maintenance from 2 months",
+    "verdict": "established"
+   },
+   "risk_flags": [],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": 1.72,
+    "sub_CENPE": -2.99,
+    "sub_IGBP1": 4.77,
+    "sub_MAD1L1": 1.61
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "combined_700_W1": 0.427,
+   "drug_id": "CHEMBL655",
+   "excipient_alerts": [],
+   "final_label_status": "established_reviewed",
+   "headline": true,
+   "literature_context": [],
+   "meaningful_proximity": true,
+   "mechanism_of_action": [
+    "GABA-A receptor; anion channel positive allosteric modulator"
+   ],
+   "median_rank": 227,
+   "min_age_years": 3.0,
+   "min_z_700": -3.1,
+   "n_configs_rank_le_100": 2,
+   "name": "MIDAZOLAM",
+   "pediatric_excerpt": "8.4 Pediatric Use The safety and efficacy of midazolam for sedation/anxiolysis/amnesia following continuous infusion have been established in pediatric and neonatal patients. UNLIKE ADULT PATIENTS, PEDIATRIC PATIENTS GENERALLY RECEIVE INCREMENTS OF MIDAZOLAM ON A MG/KG BASIS. As a group, pediatric patients generally require higher dosages of midazolam (mg/kg) than do adults. Younger (less than six",
+   "pediatric_label_status": "ESTABLISHED",
+   "rank_700_W1": 182,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 271,
+    "400|W2_equal": 208,
+    "400|W3_pathogenic_gene_only": 1057,
+    "700|W1_epcr": 182,
+    "700|W2_equal": 60,
+    "700|W3_pathogenic_gene_only": 979,
+    "900|W1_epcr": 227,
+    "900|W2_equal": 54,
+    "900|W3_pathogenic_gene_only": 280
+   },
+   "review": {
+    "min_age_years": 0.0,
+    "name": "MIDAZOLAM",
+    "route": "parenteral",
+    "scope": "sedation, anxiolysis and amnesia by continuous infusion in paediatric and neonatal patients",
+    "verdict": "established"
+   },
+   "risk_flags": [
+    "BOXED_WARNING"
+   ],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": 1.61,
+    "sub_CENPE": -3.1,
+    "sub_IGBP1": 4.85,
+    "sub_MAD1L1": 1.59
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 0.2185,
+   "drug_id": "CHEMBL2103875",
+   "excipient_alerts": [
+    "BETADEX SULFOBUTYL ETHER SODIUM",
+    "POLYSORBATE 80"
+   ],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [
+    {
+     "class": "mva_tumour_case_reports",
+     "direction_hint": "reported_not_recommended",
+     "pmids": [
+      "31184400",
+      "31081598",
+      "31053147"
+     ]
+    }
+   ],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Dual specificity mitogen-activated protein kinase kinase; MEK1/2 inhibitor"
+   ],
+   "median_rank": 230,
+   "min_age_years": 1.0,
+   "min_z_700": -1.9,
+   "n_configs_rank_le_100": 0,
+   "name": "TRAMETINIB",
+   "pediatric_excerpt": "8.4 Pediatric Use BRAF V600E Mutation-Positive Unresectable or Metastatic Solid Tumors and LGG The safety and effectiveness of MEKINIST in combination with dabrafenib have been established in pediatric patients 1 year of age and older with unresectable or metastatic solid tumors with BRAF V600E mutation who have progressed following prior treatment and have no satisfactory alternative treatment op",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 245,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 228,
+    "400|W2_equal": 185,
+    "400|W3_pathogenic_gene_only": 230,
+    "700|W1_epcr": 245,
+    "700|W2_equal": 125,
+    "700|W3_pathogenic_gene_only": 300,
+    "900|W1_epcr": 289,
+    "900|W2_equal": 181,
+    "900|W3_pathogenic_gene_only": 547
+   },
+   "review": null,
+   "risk_flags": [
+    "ANTINEOPLASTIC_AGENT"
+   ],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.03,
+    "sub_CENPE": 0.34,
+    "sub_IGBP1": -1.9,
+    "sub_MAD1L1": 0.03
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "LABELLED_AGE_NOT_PARSED",
+    "adult": "LABELLED",
+    "child": "LABELLED_AGE_NOT_PARSED",
+    "infant": "LABELLED_AGE_NOT_PARSED",
+    "neonate": "LABELLED_AGE_NOT_PARSED"
+   },
+   "combined_700_W1": 0.8742,
+   "drug_id": "CHEMBL2105395",
+   "excipient_alerts": [
+    "LACTOSE MONOHYDRATE"
+   ],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Estrogen receptor modulator"
+   ],
+   "median_rank": 234,
+   "min_age_years": null,
+   "min_z_700": -0.98,
+   "n_configs_rank_le_100": 3,
+   "name": "OSPEMIFENE",
+   "pediatric_excerpt": "8.4 Pediatric Use OSPHENA is not indicated in pediatric patients. Clinical studies have not been conducted in the pediatric population.",
+   "pediatric_label_status": "ESTABLISHED",
+   "rank_700_W1": 70,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 477,
+    "400|W2_equal": 458,
+    "400|W3_pathogenic_gene_only": 635,
+    "700|W1_epcr": 70,
+    "700|W2_equal": 93,
+    "700|W3_pathogenic_gene_only": 73,
+    "900|W1_epcr": 234,
+    "900|W2_equal": 249,
+    "900|W3_pathogenic_gene_only": 201
+   },
+   "review": null,
+   "risk_flags": [
+    "BOXED_WARNING"
+   ],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.65,
+    "sub_CENPE": -0.4,
+    "sub_IGBP1": -0.98,
+    "sub_MAD1L1": -0.58
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 0.2144,
+   "drug_id": "CHEMBL2146883",
+   "excipient_alerts": [
+    "LACTOSE MONOHYDRATE"
+   ],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [
+    {
+     "class": "mva_tumour_case_reports",
+     "direction_hint": "reported_not_recommended",
+     "pmids": [
+      "31184400",
+      "31081598",
+      "31053147"
+     ]
+    }
+   ],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Dual specificity mitogen-activated protein kinase kinase 1 inhibitor",
+    "Dual specificity mitogen-activated protein kinase kinase 2 inhibitor"
+   ],
+   "median_rank": 239,
+   "min_age_years": null,
+   "min_z_700": -1.8,
+   "n_configs_rank_le_100": 0,
+   "name": "COBIMETINIB",
+   "pediatric_excerpt": "8.4 Pediatric Use The safety and effectiveness of COTELLIC have not been established in pediatric patients. The safety and effectiveness of COTELLIC were assessed, but not established, in a multi-center, open-label, dose-escalation study in 55 pediatric patients aged 2 to 17 years with solid tumors [NCT02639546]. No new safety events were observed in pediatric patients in this trial. Exposure in p",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 247,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 239,
+    "400|W2_equal": 198,
+    "400|W3_pathogenic_gene_only": 237,
+    "700|W1_epcr": 247,
+    "700|W2_equal": 135,
+    "700|W3_pathogenic_gene_only": 292,
+    "900|W1_epcr": 290,
+    "900|W2_equal": 183,
+    "900|W3_pathogenic_gene_only": 613
+   },
+   "review": null,
+   "risk_flags": [
+    "ANTINEOPLASTIC_AGENT"
+   ],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.04,
+    "sub_CENPE": 0.34,
+    "sub_IGBP1": -1.8,
+    "sub_MAD1L1": 0.04
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 0.4141,
+   "drug_id": "CHEMBL12",
+   "excipient_alerts": [],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": true,
+   "mechanism_of_action": [
+    "GABA-A receptor; anion channel positive allosteric modulator"
+   ],
+   "median_rank": 247,
+   "min_age_years": null,
+   "min_z_700": -3.01,
+   "n_configs_rank_le_100": 2,
+   "name": "DIAZEPAM",
+   "pediatric_excerpt": "Pediatric Use Safety and effectiveness in pediatric patients below the age of 6 months have not been established.",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 197,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 297,
+    "400|W2_equal": 247,
+    "400|W3_pathogenic_gene_only": 325,
+    "700|W1_epcr": 197,
+    "700|W2_equal": 74,
+    "700|W3_pathogenic_gene_only": 371,
+    "900|W1_epcr": 206,
+    "900|W2_equal": 55,
+    "900|W3_pathogenic_gene_only": 268
+   },
+   "review": {
+    "name": "DIAZEPAM",
+    "route": "oral",
+    "scope": "one-line excerpt says safety and effectiveness below 6 months are not established; the rest was not read",
+    "verdict": "verify"
+   },
+   "risk_flags": [
+    "BOXED_WARNING"
+   ],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": 1.81,
+    "sub_CENPE": -3.01,
+    "sub_IGBP1": 4.94,
+    "sub_MAD1L1": 1.71
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 0.4272,
+   "drug_id": "CHEMBL568",
+   "excipient_alerts": [
+    "BENZYL ALCOHOL",
+    "GELATIN, UNSPECIFIED",
+    "LACTOSE MONOHYDRATE",
+    "PROPYLENE GLYCOL"
+   ],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": true,
+   "mechanism_of_action": [
+    "GABA-A receptor; anion channel positive allosteric modulator"
+   ],
+   "median_rank": 248,
+   "min_age_years": 6.0,
+   "min_z_700": -3.1,
+   "n_configs_rank_le_100": 2,
+   "name": "OXAZEPAM",
+   "pediatric_excerpt": "Pediatric Use Safety and effectiveness in pediatric patients under 6 years of age have not been established. Absolute dosage for pediatric patients 6 to 12 years of age is not established.",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 181,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 298,
+    "400|W2_equal": 248,
+    "400|W3_pathogenic_gene_only": 1030,
+    "700|W1_epcr": 181,
+    "700|W2_equal": 59,
+    "700|W3_pathogenic_gene_only": 960,
+    "900|W1_epcr": 185,
+    "900|W2_equal": 46,
+    "900|W3_pathogenic_gene_only": 251
+   },
+   "review": {
+    "name": "OXAZEPAM",
+    "route": "oral",
+    "scope": "not established under 6 years; dosage for 6 to 12 years not established",
+    "verdict": "verify"
+   },
+   "risk_flags": [
+    "BOXED_WARNING"
+   ],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": 1.77,
+    "sub_CENPE": -3.1,
+    "sub_IGBP1": 4.93,
+    "sub_MAD1L1": 1.74
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 0.4195,
+   "drug_id": "CHEMBL1522",
+   "excipient_alerts": [
+    "LACTOSE MONOHYDRATE"
+   ],
+   "final_label_status": "not_established_reviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": true,
+   "mechanism_of_action": [
+    "GABA-A receptor; anion channel positive allosteric modulator"
+   ],
+   "median_rank": 258,
+   "min_age_years": null,
+   "min_z_700": -3.05,
+   "n_configs_rank_le_100": 2,
+   "name": "ESZOPICLONE",
+   "pediatric_excerpt": "8.4 Pediatric Use Safety and effectiveness of eszopiclone have not been established in pediatric patients. Eszopiclone failed to demonstrate efficacy in controlled clinical studies of pediatric patients with Attention-Deficit/Hyperactivity (ADHD) associated insomnia. In a 12-week controlled study, 483 pediatric patients (aged 6 to 17 years) with insomnia associated with ADHD (with 65% of the patie",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 192,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 302,
+    "400|W2_equal": 258,
+    "400|W3_pathogenic_gene_only": 532,
+    "700|W1_epcr": 192,
+    "700|W2_equal": 67,
+    "700|W3_pathogenic_gene_only": 519,
+    "900|W1_epcr": 207,
+    "900|W2_equal": 58,
+    "900|W3_pathogenic_gene_only": 265
+   },
+   "review": {
+    "name": "ESZOPICLONE",
+    "route": "oral",
+    "scope": "not established in paediatric patients; failed to show efficacy in ADHD-associated insomnia",
+    "verdict": "not_established"
+   },
+   "risk_flags": [
+    "BOXED_WARNING"
+   ],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": 1.68,
+    "sub_CENPE": -3.05,
+    "sub_IGBP1": 4.93,
+    "sub_MAD1L1": 1.68
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "combined_700_W1": 0.426,
+   "drug_id": "CHEMBL4650241",
+   "excipient_alerts": [],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Dystrophin exogenous gene"
+   ],
+   "median_rank": 279,
+   "min_age_years": 4.0,
+   "min_z_700": -0.37,
+   "n_configs_rank_le_100": 0,
+   "name": "DELANDISTROGENE MOXEPARVOVEC",
+   "pediatric_excerpt": "8.4 Pediatric Use The safety and effectiveness of ELEVIDYS for the treatment of Duchenne muscular dystrophy has been established in pediatric patients at least 4 years of age with a confirmed mutation in the DMD gene. The use of ELEVIDYS in pediatric patients was supported by evidence from three adequate and well controlled clinical studies which included 144 pediatric patients aged 4 years of age",
+   "pediatric_label_status": "ESTABLISHED",
+   "rank_700_W1": 185,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 1045,
+    "400|W2_equal": 1045,
+    "400|W3_pathogenic_gene_only": 975,
+    "700|W1_epcr": 185,
+    "700|W2_equal": 279,
+    "700|W3_pathogenic_gene_only": 160,
+    "900|W1_epcr": 225,
+    "900|W2_equal": 284,
+    "900|W3_pathogenic_gene_only": 189
+   },
+   "review": null,
+   "risk_flags": [],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.35,
+    "sub_CENPE": -0.22,
+    "sub_IGBP1": 0.83,
+    "sub_MAD1L1": -0.37
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 0.564,
+   "drug_id": "CHEMBL189963",
+   "excipient_alerts": [],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [
+    {
+     "class": "mva_tumour_case_reports",
+     "direction_hint": "reported_not_recommended",
+     "pmids": [
+      "31184400",
+      "31081598",
+      "31053147"
+     ]
+    }
+   ],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "CDK6/cyclin D1 inhibitor",
+    "Cyclin-dependent kinase 4/cyclin D1 inhibitor"
+   ],
+   "median_rank": 292,
+   "min_age_years": 17.0,
+   "min_z_700": -0.56,
+   "n_configs_rank_le_100": 2,
+   "name": "PALBOCICLIB",
+   "pediatric_excerpt": "8.4 Pediatric Use The safety and effectiveness of IBRANCE in pediatric patients have not been established. The safety and effectiveness of IBRANCE were assessed but not established in three trials: one open-label trial [A5481092, (NCT03709680)] that included 98 pediatric patients 2 to <17 years of age who received IBRANCE in combination with chemotherapy for recurrent or refractory solid tumors an",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 134,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 796,
+    "400|W2_equal": 796,
+    "400|W3_pathogenic_gene_only": 603,
+    "700|W1_epcr": 134,
+    "700|W2_equal": 334,
+    "700|W3_pathogenic_gene_only": 105,
+    "900|W1_epcr": 80,
+    "900|W2_equal": 292,
+    "900|W3_pathogenic_gene_only": 59
+   },
+   "review": null,
+   "risk_flags": [
+    "ANTINEOPLASTIC_AGENT"
+   ],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.56,
+    "sub_CENPE": 1.07,
+    "sub_IGBP1": 1.61,
+    "sub_MAD1L1": 0.72
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "LABELLED_USE",
+    "infant": "LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "combined_700_W1": 0.1467,
+   "drug_id": "CHEMBL131",
+   "excipient_alerts": [],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Glucocorticoid receptor agonist"
+   ],
+   "median_rank": 297,
+   "min_age_years": 0.08333333333333333,
+   "min_z_700": -0.13,
+   "n_configs_rank_le_100": 2,
+   "name": "PREDNISOLONE",
+   "pediatric_excerpt": "PEDIATRIC USE The efficacy and safety of prednisolone in the pediatric population are based on the well-established course of effect of corticosteroids which is similar in pediatric and adult populations. Published studies provide evidence of efficacy and safety in pediatric patients for the treatment of nephrotic syndrome (>2 years of age), and aggressive lymphomas and leukemias (>1 month of age)",
+   "pediatric_label_status": "ESTABLISHED",
+   "rank_700_W1": 297,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 720,
+    "400|W2_equal": 720,
+    "400|W3_pathogenic_gene_only": 494,
+    "700|W1_epcr": 297,
+    "700|W2_equal": 497,
+    "700|W3_pathogenic_gene_only": 227,
+    "900|W1_epcr": 95,
+    "900|W2_equal": 133,
+    "900|W3_pathogenic_gene_only": 92
+   },
+   "review": null,
+   "risk_flags": [],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.13,
+    "sub_CENPE": 0.03,
+    "sub_IGBP1": 1.24,
+    "sub_MAD1L1": -0.1
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 0.7019,
+   "drug_id": "CHEMBL3545191",
+   "excipient_alerts": [
+    "POLYSORBATE 80"
+   ],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Angiopoietin-related protein 3 inhibitor"
+   ],
+   "median_rank": 319.0,
+   "min_age_years": 1.0,
+   "min_z_700": -0.57,
+   "n_configs_rank_le_100": 1,
+   "name": "EVINACUMAB",
+   "pediatric_excerpt": "8.4 Pediatric Use The safety and effectiveness of EVKEEZA as an adjunct to other LDL-C-lowering therapies for the treatment of HoFH have been established in pediatric patients aged 1 year and older. Use of EVKEEZA for this indication is supported by evidence from adequate and well-controlled trials in adults with additional pharmacokinetic, efficacy, and safety data in pediatric patients aged 1 ye",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 102,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 473,
+    "400|W2_equal": 454,
+    "400|W3_pathogenic_gene_only": 800,
+    "700|W1_epcr": 102,
+    "700|W2_equal": 184,
+    "700|W3_pathogenic_gene_only": 100,
+    "900|W1_epcr": null,
+    "900|W2_equal": null,
+    "900|W3_pathogenic_gene_only": null
+   },
+   "review": null,
+   "risk_flags": [],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.57,
+    "sub_CENPE": -0.42,
+    "sub_IGBP1": 1.19,
+    "sub_MAD1L1": -0.55
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 0.5886,
+   "drug_id": "CHEMBL714",
+   "excipient_alerts": [
+    "ALCOHOL"
+   ],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Beta-2 adrenergic receptor agonist"
+   ],
+   "median_rank": 320,
+   "min_age_years": 11.0,
+   "min_z_700": -0.9,
+   "n_configs_rank_le_100": 0,
+   "name": "ALBUTEROL",
+   "pediatric_excerpt": "8.4 Pediatric Use The safety and effectiveness of albuterol sulfate inhalation aerosol are for the treatment or prevention of bronchospasm in children 12 years of age and older with reversible obstructive airway disease is based on one 6-week clinical trial in 116 patients 12 years of age and older with asthma comparing doses of 180 mcg four times daily with placebo, and one single-dose crossover ",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 130,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 446,
+    "400|W2_equal": 426,
+    "400|W3_pathogenic_gene_only": 1075,
+    "700|W1_epcr": 130,
+    "700|W2_equal": 126,
+    "700|W3_pathogenic_gene_only": 134,
+    "900|W1_epcr": 320,
+    "900|W2_equal": 269,
+    "900|W3_pathogenic_gene_only": 875
+   },
+   "review": null,
+   "risk_flags": [
+    "BOXED_WARNING"
+   ],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.42,
+    "sub_CENPE": -0.22,
+    "sub_IGBP1": -0.9,
+    "sub_MAD1L1": -0.39
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "LABELLED_AGE_NOT_PARSED",
+    "adult": "LABELLED",
+    "child": "LABELLED_AGE_NOT_PARSED",
+    "infant": "LABELLED_AGE_NOT_PARSED",
+    "neonate": "LABELLED_AGE_NOT_PARSED"
+   },
+   "combined_700_W1": 0.3175,
+   "drug_id": "CHEMBL4594584",
+   "excipient_alerts": [],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Coagulation factor VIII exogenous protein"
+   ],
+   "median_rank": 321,
+   "min_age_years": null,
+   "min_z_700": -0.26,
+   "n_configs_rank_le_100": 0,
+   "name": "ANTIHEMOPHILIC FACTOR, PEGYLATED (MW 20000) HUMAN SEQUENCE RECOMBINANT",
+   "pediatric_excerpt": "8.4 Pediatric Use Hemophilia A The safety and efficacy of ALPHANATE have been established in pediatric patients with Hemophilia A. There were 21 patients aged 7 to 16 years enrolled in a single clinical trial who received ALPHANATE weekly for prophylaxis or anytime for suspected bleeds. They were successfully treated for 1499 bleeding episodes or as prophylaxis to prevent them (e.g. pain in the jo",
+   "pediatric_label_status": "ESTABLISHED",
+   "rank_700_W1": 219,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 1039,
+    "400|W2_equal": 1039,
+    "400|W3_pathogenic_gene_only": 967,
+    "700|W1_epcr": 219,
+    "700|W2_equal": 321,
+    "700|W3_pathogenic_gene_only": 188,
+    "900|W1_epcr": 269,
+    "900|W2_equal": 342,
+    "900|W3_pathogenic_gene_only": 228
+   },
+   "review": null,
+   "risk_flags": [],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.26,
+    "sub_CENPE": -0.15,
+    "sub_IGBP1": 0.59,
+    "sub_MAD1L1": -0.25
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 0.3007,
+   "drug_id": "CHEMBL3545110",
+   "excipient_alerts": [
+    "LECITHIN, SOYBEAN"
+   ],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Cyclin-dependent kinase 4 inhibitor",
+    "Cyclin-dependent kinase 6 inhibitor"
+   ],
+   "median_rank": 323,
+   "min_age_years": null,
+   "min_z_700": -0.3,
+   "n_configs_rank_le_100": 0,
+   "name": "RIBOCICLIB",
+   "pediatric_excerpt": "8.4 Pediatric Use The safety and effectiveness of KISQALI in pediatric patients have not been established. The safety and efficacy of KISQALI in combination with chemotherapy was assessed but not established in an open-label, dose-finding multicenter study (Study CLEE011Q12101; NCT05429502) in 12 patients, including 9 pediatric patients aged 4 to <17 years with relapsed or refractory neuroblastoma",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 223,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 922,
+    "400|W2_equal": 922,
+    "400|W3_pathogenic_gene_only": 796,
+    "700|W1_epcr": 223,
+    "700|W2_equal": 471,
+    "700|W3_pathogenic_gene_only": 184,
+    "900|W1_epcr": 191,
+    "900|W2_equal": 323,
+    "900|W3_pathogenic_gene_only": 145
+   },
+   "review": null,
+   "risk_flags": [],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.3,
+    "sub_CENPE": 1.41,
+    "sub_IGBP1": 1.43,
+    "sub_MAD1L1": 1.18
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 0.3594,
+   "drug_id": "CHEMBL3301610",
+   "excipient_alerts": [
+    "LACTOSE MONOHYDRATE"
+   ],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [
+    {
+     "class": "mva_tumour_case_reports",
+     "direction_hint": "reported_not_recommended",
+     "pmids": [
+      "31184400",
+      "31081598",
+      "31053147"
+     ]
+    }
+   ],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Cyclin-dependent kinase 4 inhibitor",
+    "Cyclin-dependent kinase 6 inhibitor"
+   ],
+   "median_rank": 324,
+   "min_age_years": null,
+   "min_z_700": -0.36,
+   "n_configs_rank_le_100": 0,
+   "name": "ABEMACICLIB",
+   "pediatric_excerpt": "8.4 Pediatric Use The safety and effectiveness of VERZENIO have not been established in pediatric patients. The safety and effectiveness of VERZENIO in combination with chemotherapy was assessed but not established in an open label, dose-finding trial (NCT04238819) in 43 pediatric patients aged 1 to < 17 years with relapsed/refractory solid tumors. No new safety signals were observed in pediatric ",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 212,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 913,
+    "400|W2_equal": 913,
+    "400|W3_pathogenic_gene_only": 781,
+    "700|W1_epcr": 212,
+    "700|W2_equal": 434,
+    "700|W3_pathogenic_gene_only": 156,
+    "900|W1_epcr": 194,
+    "900|W2_equal": 324,
+    "900|W3_pathogenic_gene_only": 146
+   },
+   "review": null,
+   "risk_flags": [
+    "ANTINEOPLASTIC_AGENT"
+   ],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.36,
+    "sub_CENPE": 1.46,
+    "sub_IGBP1": 1.45,
+    "sub_MAD1L1": 1.13
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "LABELLED_USE",
+    "infant": "LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "combined_700_W1": 0.1665,
+   "drug_id": "CHEMBL1014",
+   "excipient_alerts": [
+    "LACTOSE MONOHYDRATE"
+   ],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Type-1 angiotensin II receptor antagonist"
+   ],
+   "median_rank": 327,
+   "min_age_years": 1.0,
+   "min_z_700": -1.69,
+   "n_configs_rank_le_100": 0,
+   "name": "CANDESARTAN CILEXETIL",
+   "pediatric_excerpt": "8.4 Pediatric Use The antihypertensive effects of candesartan cilexetil were evaluated in hypertensive children 1 to < 17 years of age in randomized, double-blind clinical studies [see Clinical Studies (14.1)]. The pharmacokinetics of candesartan cilexetil have been evaluated in pediatric patients 1 to < 17 years of age [see Clinical Pharmacology (12.3)]. Children < 1 year of age must not receive ",
+   "pediatric_label_status": "ESTABLISHED",
+   "rank_700_W1": 282,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 415,
+    "400|W2_equal": 376,
+    "400|W3_pathogenic_gene_only": 270,
+    "700|W1_epcr": 282,
+    "700|W2_equal": 152,
+    "700|W3_pathogenic_gene_only": 327,
+    "900|W1_epcr": 504,
+    "900|W2_equal": 504,
+    "900|W3_pathogenic_gene_only": 317
+   },
+   "review": null,
+   "risk_flags": [
+    "BOXED_WARNING"
+   ],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": 0.47,
+    "sub_CENPE": 0.63,
+    "sub_IGBP1": -1.69,
+    "sub_MAD1L1": 0.47
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "combined_700_W1": 0.2191,
+   "drug_id": "CHEMBL1200430",
+   "excipient_alerts": [],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Estrogen receptor alpha agonist"
+   ],
+   "median_rank": 353,
+   "min_age_years": 18.0,
+   "min_z_700": -0.3,
+   "n_configs_rank_le_100": 0,
+   "name": "ESTRADIOL ACETATE",
+   "pediatric_excerpt": "8.4 Pediatric Use Safety and efficacy of ANNOVERA have been established in women of reproductive age. Efficacy is expected to be the same for post pubertal adolescents under the age of 18 as for users 18 years and older. Use of ANNOVERA before menarche is not indicated.",
+   "pediatric_label_status": "ESTABLISHED",
+   "rank_700_W1": 244,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 608,
+    "400|W2_equal": 608,
+    "400|W3_pathogenic_gene_only": 333,
+    "700|W1_epcr": 244,
+    "700|W2_equal": 306,
+    "700|W3_pathogenic_gene_only": 213,
+    "900|W1_epcr": 409,
+    "900|W2_equal": 390,
+    "900|W3_pathogenic_gene_only": 353
+   },
+   "review": null,
+   "risk_flags": [
+    "BOXED_WARNING"
+   ],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.15,
+    "sub_CENPE": -0.09,
+    "sub_IGBP1": -0.3,
+    "sub_MAD1L1": -0.18
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "combined_700_W1": 0.204,
+   "drug_id": "CHEMBL135",
+   "excipient_alerts": [
+    "ANHYDROUS LACTOSE",
+    "POLYSORBATE 80"
+   ],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Estrogen receptor alpha agonist"
+   ],
+   "median_rank": 386,
+   "min_age_years": 18.0,
+   "min_z_700": -0.31,
+   "n_configs_rank_le_100": 0,
+   "name": "ESTRADIOL",
+   "pediatric_excerpt": "8.4 Pediatric Use Safety and efficacy of Daysee have been established in women of reproductive age. Safety and efficacy are expected to be the same for postpubertal adolescents under the age of 18 as for users 18 years and older. Use of Daysee before menarche is not indicated.",
+   "pediatric_label_status": "ESTABLISHED",
+   "rank_700_W1": 254,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 723,
+    "400|W2_equal": 723,
+    "400|W3_pathogenic_gene_only": 498,
+    "700|W1_epcr": 254,
+    "700|W2_equal": 300,
+    "700|W3_pathogenic_gene_only": 230,
+    "900|W1_epcr": 386,
+    "900|W2_equal": 366,
+    "900|W3_pathogenic_gene_only": 465
+   },
+   "review": null,
+   "risk_flags": [
+    "BOXED_WARNING"
+   ],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.13,
+    "sub_CENPE": -0.18,
+    "sub_IGBP1": -0.31,
+    "sub_MAD1L1": -0.15
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 0.2228,
+   "drug_id": "CHEMBL1358",
+   "excipient_alerts": [],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Estrogen receptor alpha antagonist",
+    "Estrogen receptor degrader"
+   ],
+   "median_rank": 387,
+   "min_age_years": null,
+   "min_z_700": -0.33,
+   "n_configs_rank_le_100": 0,
+   "name": "FULVESTRANT",
+   "pediatric_excerpt": "8.4 Pediatric Use Safety and effectiveness in pediatric patients have not been established. A multi-center, single-arm, open-label, study of fulvestrant was conducted in 30 girls with McCune-Albright Syndrome (MAS) associated with Progressive Precocious Puberty (PPP). The median age at informed consent was 6 years old (range: 1 to 8). The first 10 patients initially received fulvestrant 2 mg/kg. B",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 240,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 724,
+    "400|W2_equal": 724,
+    "400|W3_pathogenic_gene_only": 499,
+    "700|W1_epcr": 240,
+    "700|W2_equal": 297,
+    "700|W3_pathogenic_gene_only": 216,
+    "900|W1_epcr": 387,
+    "900|W2_equal": 367,
+    "900|W3_pathogenic_gene_only": 466
+   },
+   "review": null,
+   "risk_flags": [],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.15,
+    "sub_CENPE": -0.16,
+    "sub_IGBP1": -0.33,
+    "sub_MAD1L1": -0.14
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "combined_700_W1": 0.2058,
+   "drug_id": "CHEMBL691",
+   "excipient_alerts": [
+    "ANHYDROUS LACTOSE",
+    "POLYSORBATE 80"
+   ],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Estrogen receptor alpha agonist"
+   ],
+   "median_rank": 389,
+   "min_age_years": 18.0,
+   "min_z_700": -0.33,
+   "n_configs_rank_le_100": 0,
+   "name": "ETHINYL ESTRADIOL",
+   "pediatric_excerpt": "8.4 Pediatric Use Safety and efficacy of Daysee have been established in women of reproductive age. Safety and efficacy are expected to be the same for postpubertal adolescents under the age of 18 as for users 18 years and older. Use of Daysee before menarche is not indicated.",
+   "pediatric_label_status": "ESTABLISHED",
+   "rank_700_W1": 253,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 1098,
+    "400|W2_equal": 1098,
+    "400|W3_pathogenic_gene_only": 1064,
+    "700|W1_epcr": 253,
+    "700|W2_equal": 299,
+    "700|W3_pathogenic_gene_only": 229,
+    "900|W1_epcr": 389,
+    "900|W2_equal": 369,
+    "900|W3_pathogenic_gene_only": 869
+   },
+   "review": null,
+   "risk_flags": [],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.13,
+    "sub_CENPE": -0.17,
+    "sub_IGBP1": -0.33,
+    "sub_MAD1L1": -0.15
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 0.1455,
+   "drug_id": "CHEMBL19019",
+   "excipient_alerts": [
+    "ANHYDROUS LACTOSE"
+   ],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Opioid receptors; mu/kappa/delta antagonist"
+   ],
+   "median_rank": 396,
+   "min_age_years": null,
+   "min_z_700": -1.48,
+   "n_configs_rank_le_100": 0,
+   "name": "NALTREXONE",
+   "pediatric_excerpt": "Pediatric Use The safe use of naltrexone hydrochloride in pediatric patients younger than 18 years old has not been established.",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 300,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 428,
+    "400|W2_equal": 396,
+    "400|W3_pathogenic_gene_only": 605,
+    "700|W1_epcr": 300,
+    "700|W2_equal": 204,
+    "700|W3_pathogenic_gene_only": 583,
+    "900|W1_epcr": 305,
+    "900|W2_equal": 212,
+    "900|W3_pathogenic_gene_only": 529
+   },
+   "review": null,
+   "risk_flags": [
+    "BOXED_WARNING"
+   ],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": 1.13,
+    "sub_CENPE": 1.39,
+    "sub_IGBP1": -1.48,
+    "sub_MAD1L1": 1.07
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 0.8593,
+   "drug_id": "CHEMBL238804",
+   "excipient_alerts": [
+    "PROPYLENE GLYCOL"
+   ],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Prostanoid IP receptor agonist"
+   ],
+   "median_rank": 425.0,
+   "min_age_years": 2.0,
+   "min_z_700": -0.69,
+   "n_configs_rank_le_100": 2,
+   "name": "SELEXIPAG",
+   "pediatric_excerpt": "8.4 Pediatric Use The safety and effectiveness of selexipag have not been established in pediatric patients younger than 2 years. Due to nonclinical studies demonstrating a risk of intussusception in juvenile dogs and known susceptibility to gastrointestinal intussusception in young children, treatment with selexipag in pediatric patients younger than 2 years of age was not studied. Juvenile Anima",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 73,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 876,
+    "400|W2_equal": 876,
+    "400|W3_pathogenic_gene_only": 727,
+    "700|W1_epcr": 73,
+    "700|W2_equal": 123,
+    "700|W3_pathogenic_gene_only": 68,
+    "900|W1_epcr": null,
+    "900|W2_equal": null,
+    "900|W3_pathogenic_gene_only": null
+   },
+   "review": null,
+   "risk_flags": [],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.69,
+    "sub_CENPE": -0.58,
+    "sub_IGBP1": 0.12,
+    "sub_MAD1L1": -0.67
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 0.2071,
+   "drug_id": "CHEMBL1201572",
+   "excipient_alerts": [
+    "BENZYL ALCOHOL"
+   ],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "TNF-alpha inhibitor"
+   ],
+   "median_rank": 428,
+   "min_age_years": 2.0,
+   "min_z_700": -0.23,
+   "n_configs_rank_le_100": 0,
+   "name": "ETANERCEPT",
+   "pediatric_excerpt": "8.4 Pediatric Use Polyarticular Juvenile Idiopathic Arthritis The safety and effectiveness of Enbrel have been established in pediatric patients 2 years of age and older with pJIA. Enbrel has been studied in 69 children with moderately to severely active polyarticular JIA 2 to 17 years of age. The safety and effectiveness of Enbrel in pediatric patients less than 2 years of age with pJIA have not ",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 251,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 677,
+    "400|W2_equal": 677,
+    "400|W3_pathogenic_gene_only": 428,
+    "700|W1_epcr": 251,
+    "700|W2_equal": 339,
+    "700|W3_pathogenic_gene_only": 211,
+    "900|W1_epcr": 570,
+    "900|W2_equal": 570,
+    "900|W3_pathogenic_gene_only": 409
+   },
+   "review": null,
+   "risk_flags": [
+    "BOXED_WARNING"
+   ],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.16,
+    "sub_CENPE": -0.16,
+    "sub_IGBP1": 1.94,
+    "sub_MAD1L1": -0.23
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 0.2759,
+   "drug_id": "CHEMBL1743007",
+   "excipient_alerts": [],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [
+    {
+     "class": "mva_tumour_case_reports",
+     "direction_hint": "reported_not_recommended",
+     "pmids": [
+      "31184400",
+      "31081598",
+      "31053147"
+     ]
+    }
+   ],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Lymphocyte differentiation antigen CD38 inhibitor"
+   ],
+   "median_rank": 428,
+   "min_age_years": 17.0,
+   "min_z_700": -0.47,
+   "n_configs_rank_le_100": 0,
+   "name": "DARATUMUMAB",
+   "pediatric_excerpt": "8.4 Pediatric Use Safety and effectiveness of DARZALEX in pediatric patients have not been established. The safety and effectiveness of DARZALEX in combination with chemotherapy were assessed but not established in a single open-label trial (DELPHINUS; NCT03384654) in 34 pediatric patients (2 to <17 years of age) with relapsed/refractory acute lymphoblastic leukemia or lymphoblastic lymphoma. No n",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 227,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 772,
+    "400|W2_equal": 772,
+    "400|W3_pathogenic_gene_only": 566,
+    "700|W1_epcr": 227,
+    "700|W2_equal": 281,
+    "700|W3_pathogenic_gene_only": 202,
+    "900|W1_epcr": 425,
+    "900|W2_equal": 428,
+    "900|W3_pathogenic_gene_only": 502
+   },
+   "review": null,
+   "risk_flags": [
+    "ANTINEOPLASTIC_AGENT"
+   ],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.2,
+    "sub_CENPE": -0.07,
+    "sub_IGBP1": -0.47,
+    "sub_MAD1L1": -0.17
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 0.1993,
+   "drug_id": "CHEMBL256907",
+   "excipient_alerts": [
+    "SOYBEAN LECITHIN"
+   ],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "C-C chemokine receptor type 5 antagonist"
+   ],
+   "median_rank": 431,
+   "min_age_years": null,
+   "min_z_700": -0.25,
+   "n_configs_rank_le_100": 0,
+   "name": "MARAVIROC",
+   "pediatric_excerpt": "8.4 Pediatric Use The safety and efficacy of maraviroc have been established in pediatric patients aged from aged 2 to less than 18 years. The use of maraviroc in pediatric patients was supported by pharmacokinetic and safety data described below and by previous demonstration of efficacy in adult patients [see Indications and Usage (1)], Dosage and Administration (2.4)]. HIV-1-Infected Pediatric P",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 257,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 431,
+    "400|W2_equal": 400,
+    "400|W3_pathogenic_gene_only": 743,
+    "700|W1_epcr": 257,
+    "700|W2_equal": 320,
+    "700|W3_pathogenic_gene_only": 223,
+    "900|W1_epcr": 727,
+    "900|W2_equal": 727,
+    "900|W3_pathogenic_gene_only": 641
+   },
+   "review": null,
+   "risk_flags": [
+    "BOXED_WARNING"
+   ],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.14,
+    "sub_CENPE": -0.12,
+    "sub_IGBP1": -0.25,
+    "sub_MAD1L1": -0.17
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 0.1858,
+   "drug_id": "CHEMBL1201580",
+   "excipient_alerts": [
+    "POLYSORBATE 80"
+   ],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "TNF-alpha inhibitor"
+   ],
+   "median_rank": 433,
+   "min_age_years": 2.0,
+   "min_z_700": -0.15,
+   "n_configs_rank_le_100": 0,
+   "name": "ADALIMUMAB",
+   "pediatric_excerpt": "8.4 Pediatric Use The safety and effectiveness of YUSIMRY have not been established in pediatric patients with psoriatic arthritis, ankylosing spondylitis, or plaque psoriasis. The safety and effectiveness of YUSIMRY have been established for: reducing signs and symptoms of moderately to severely active polyarticular JIA in pediatric patients 2 years of age and older. the treatment of moderately t",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 263,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 681,
+    "400|W2_equal": 681,
+    "400|W3_pathogenic_gene_only": 433,
+    "700|W1_epcr": 263,
+    "700|W2_equal": 384,
+    "700|W3_pathogenic_gene_only": 215,
+    "900|W1_epcr": 572,
+    "900|W2_equal": 572,
+    "900|W3_pathogenic_gene_only": 413
+   },
+   "review": null,
+   "risk_flags": [
+    "BOXED_WARNING"
+   ],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.15,
+    "sub_CENPE": -0.11,
+    "sub_IGBP1": 2.05,
+    "sub_MAD1L1": -0.14
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 0.2242,
+   "drug_id": "CHEMBL1201581",
+   "excipient_alerts": [
+    "POLYSORBATE 80"
+   ],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "TNF-alpha inhibitor"
+   ],
+   "median_rank": 434,
+   "min_age_years": 6.0,
+   "min_z_700": -0.19,
+   "n_configs_rank_le_100": 0,
+   "name": "INFLIXIMAB",
+   "pediatric_excerpt": "8.4 Pediatric Use The safety and effectiveness of RENFLEXIS have been established in pediatric patients 6 to 17 years of age for induction and maintenance treatment of CD and UC [see Dosage and Administration (2.2, 2.4) and Adverse Reactions (6.1)]. However, the safety and effectiveness of RENFLEXIS in pediatric patients <6 years of age with CD or UC have not been established. The safety and effec",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 238,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 682,
+    "400|W2_equal": 682,
+    "400|W3_pathogenic_gene_only": 434,
+    "700|W1_epcr": 238,
+    "700|W2_equal": 358,
+    "700|W3_pathogenic_gene_only": 203,
+    "900|W1_epcr": 573,
+    "900|W2_equal": 573,
+    "900|W3_pathogenic_gene_only": 414
+   },
+   "review": null,
+   "risk_flags": [
+    "BOXED_WARNING"
+   ],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.18,
+    "sub_CENPE": -0.12,
+    "sub_IGBP1": 2.07,
+    "sub_MAD1L1": -0.19
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 0.4701,
+   "drug_id": "CHEMBL1201747",
+   "excipient_alerts": [],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Histamine H1 receptor antagonist"
+   ],
+   "median_rank": 450,
+   "min_age_years": null,
+   "min_z_700": -0.67,
+   "n_configs_rank_le_100": 0,
+   "name": "ALCAFTADINE",
+   "pediatric_excerpt": "8.4 Pediatric Use Safety and effectiveness in pediatric patients below the age of 2 years have not been established.",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 159,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 497,
+    "400|W2_equal": 478,
+    "400|W3_pathogenic_gene_only": 457,
+    "700|W1_epcr": 159,
+    "700|W2_equal": 188,
+    "700|W3_pathogenic_gene_only": 170,
+    "900|W1_epcr": 454,
+    "900|W2_equal": 450,
+    "900|W3_pathogenic_gene_only": 439
+   },
+   "review": null,
+   "risk_flags": [],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.34,
+    "sub_CENPE": -0.17,
+    "sub_IGBP1": -0.67,
+    "sub_MAD1L1": -0.34
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 0.6444,
+   "drug_id": "CHEMBL1201832",
+   "excipient_alerts": [],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Thrombopoietin receptor agonist"
+   ],
+   "median_rank": 452,
+   "min_age_years": 1.0,
+   "min_z_700": -0.57,
+   "n_configs_rank_le_100": 0,
+   "name": "ROMIPLOSTIM",
+   "pediatric_excerpt": "8.4 Pediatric Use Safety and effectiveness of Nplate have been established in pediatric patients age 1 year and older with ITP for at least 6 months evaluated in two randomized, placebo-controlled studies. Long-term safety in the same population using Nplate for a median duration of 3 years was also evaluated in a single arm, open-label study [ see Adverse Reactions ( 6.1 ), Clinical Studies ( 14.",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 117,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 702,
+    "400|W2_equal": 702,
+    "400|W3_pathogenic_gene_only": 464,
+    "700|W1_epcr": 117,
+    "700|W2_equal": 194,
+    "700|W3_pathogenic_gene_only": 119,
+    "900|W1_epcr": 455,
+    "900|W2_equal": 452,
+    "900|W3_pathogenic_gene_only": 446
+   },
+   "review": null,
+   "risk_flags": [],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.52,
+    "sub_CENPE": -0.41,
+    "sub_IGBP1": 0.16,
+    "sub_MAD1L1": -0.57
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 0.5082,
+   "drug_id": "CHEMBL1224",
+   "excipient_alerts": [],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Histamine H1 receptor antagonist"
+   ],
+   "median_rank": 457,
+   "min_age_years": null,
+   "min_z_700": -0.67,
+   "n_configs_rank_le_100": 0,
+   "name": "ACRIVASTINE",
+   "pediatric_excerpt": "Pediatric Use Safety and effectiveness of SEMPREX-D Capsules in pediatric patients under the age of 12 years have not been established.",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 148,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 476,
+    "400|W2_equal": 457,
+    "400|W3_pathogenic_gene_only": 475,
+    "700|W1_epcr": 148,
+    "700|W2_equal": 165,
+    "700|W3_pathogenic_gene_only": 152,
+    "900|W1_epcr": 466,
+    "900|W2_equal": 461,
+    "900|W3_pathogenic_gene_only": 453
+   },
+   "review": null,
+   "risk_flags": [],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.36,
+    "sub_CENPE": -0.23,
+    "sub_IGBP1": -0.67,
+    "sub_MAD1L1": -0.39
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 0.1636,
+   "drug_id": "CHEMBL1201831",
+   "excipient_alerts": [],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "TNF-alpha inhibitor"
+   ],
+   "median_rank": 463,
+   "min_age_years": 2.0,
+   "min_z_700": -0.14,
+   "n_configs_rank_le_100": 0,
+   "name": "CERTOLIZUMAB PEGOL",
+   "pediatric_excerpt": "8.4 Pediatric Use The safety and effectiveness of CIMZIA for active polyarticular juvenile idiopathic arthritis has been established in pediatric patients 2 years of age and older. The use of CIMZIA in this age group is supported by evidence from adequate and well-controlled studies of CIMZIA in adults with RA, pharmacokinetic data from adults with RA and pediatric patients with JIA with active po",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 288,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 701,
+    "400|W2_equal": 701,
+    "400|W3_pathogenic_gene_only": 463,
+    "700|W1_epcr": 288,
+    "700|W2_equal": 443,
+    "700|W3_pathogenic_gene_only": 225,
+    "900|W1_epcr": 601,
+    "900|W2_equal": 601,
+    "900|W3_pathogenic_gene_only": 445
+   },
+   "review": null,
+   "risk_flags": [
+    "BOXED_WARNING"
+   ],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.14,
+    "sub_CENPE": -0.08,
+    "sub_IGBP1": 1.91,
+    "sub_MAD1L1": -0.13
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 0.4387,
+   "drug_id": "CHEMBL5095474",
+   "excipient_alerts": [],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "B-cell lymphoma/leukemia 11A gene editing negative modulator"
+   ],
+   "median_rank": 464,
+   "min_age_years": 2.0,
+   "min_z_700": -0.4,
+   "n_configs_rank_le_100": 0,
+   "name": "EXAGAMGLOGENE AUTOTEMCEL",
+   "pediatric_excerpt": "8.4 Pediatric Use Sickle Cell Disease The safety and effectiveness of CASGEVY have been established in pediatric patients with SCD aged 5 years and older and are supported by 2 adequate and well-controlled clinical studies (Trials 1 and 4). Trial 1 included 12 patients aged 12 years to less than 18 years and Trial 4 included 11 patients aged 5 years to less than 12 years. The primary efficacy outc",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 170,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 464,
+    "400|W2_equal": 446,
+    "400|W3_pathogenic_gene_only": 997,
+    "700|W1_epcr": 170,
+    "700|W2_equal": 271,
+    "700|W3_pathogenic_gene_only": 155,
+    "900|W1_epcr": 854,
+    "900|W2_equal": 854,
+    "900|W3_pathogenic_gene_only": 828
+   },
+   "review": null,
+   "risk_flags": [],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.36,
+    "sub_CENPE": -0.2,
+    "sub_IGBP1": 0.87,
+    "sub_MAD1L1": -0.4
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 0.2133,
+   "drug_id": "CHEMBL1201833",
+   "excipient_alerts": [
+    "POLYSORBATE 80"
+   ],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "TNF-alpha inhibitor"
+   ],
+   "median_rank": 465,
+   "min_age_years": 17.0,
+   "min_z_700": -0.18,
+   "n_configs_rank_le_100": 0,
+   "name": "GOLIMUMAB",
+   "pediatric_excerpt": "8.4 Pediatric Use Ulcerative Colitis The safety and effectiveness of SIMPONI for the treatment of moderately to severely active ulcerative colitis have been established in pediatric patients weighing at least 15 kg. Use of SIMPONI for this indication is supported by evidence from adequate and well-controlled studies in adults with additional safety and efficacy data from an open-label, study in 69",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 248,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 703,
+    "400|W2_equal": 703,
+    "400|W3_pathogenic_gene_only": 465,
+    "700|W1_epcr": 248,
+    "700|W2_equal": 380,
+    "700|W3_pathogenic_gene_only": 204,
+    "900|W1_epcr": 602,
+    "900|W2_equal": 602,
+    "900|W3_pathogenic_gene_only": 447
+   },
+   "review": null,
+   "risk_flags": [
+    "BOXED_WARNING"
+   ],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.18,
+    "sub_CENPE": -0.07,
+    "sub_IGBP1": 1.93,
+    "sub_MAD1L1": -0.17
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 0.7827,
+   "drug_id": "CHEMBL4585668",
+   "excipient_alerts": [],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [
+    {
+     "class": "mva_tumour_case_reports",
+     "direction_hint": "reported_not_recommended",
+     "pmids": [
+      "31184400",
+      "31081598",
+      "31053147"
+     ]
+    }
+   ],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Endothelial PAS domain-containing protein 1 inhibitor"
+   ],
+   "median_rank": 479,
+   "min_age_years": 12.0,
+   "min_z_700": -0.65,
+   "n_configs_rank_le_100": 2,
+   "name": "BELZUTIFAN",
+   "pediatric_excerpt": "8.4 Pediatric Use The safety and effectiveness of WELIREG have been established in pediatric patients aged 12 years and older for the treatment of locally advanced, unresectable, or metastatic pheochromocytoma or paraganglioma. Use of WELIREG in pediatric patients aged 12 years and older is supported by evidence from an adequate and well-controlled study of WELIREG in adults with additional pharma",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 86,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 1028,
+    "400|W2_equal": 1028,
+    "400|W3_pathogenic_gene_only": 955,
+    "700|W1_epcr": 86,
+    "700|W2_equal": 142,
+    "700|W3_pathogenic_gene_only": 77,
+    "900|W1_epcr": 479,
+    "900|W2_equal": 476,
+    "900|W3_pathogenic_gene_only": 799
+   },
+   "review": null,
+   "risk_flags": [
+    "ANTINEOPLASTIC_AGENT",
+    "BOXED_WARNING"
+   ],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.63,
+    "sub_CENPE": -0.5,
+    "sub_IGBP1": 0.53,
+    "sub_MAD1L1": -0.65
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "LABELLED_AGE_NOT_PARSED",
+    "adult": "LABELLED",
+    "child": "LABELLED_AGE_NOT_PARSED",
+    "infant": "LABELLED_AGE_NOT_PARSED",
+    "neonate": "LABELLED_AGE_NOT_PARSED"
+   },
+   "combined_700_W1": 0.1666,
+   "drug_id": "CHEMBL1513",
+   "excipient_alerts": [
+    "LACTOSE MONOHYDRATE"
+   ],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Type-1 angiotensin II receptor antagonist"
+   ],
+   "median_rank": 481,
+   "min_age_years": null,
+   "min_z_700": -1.69,
+   "n_configs_rank_le_100": 0,
+   "name": "IRBESARTAN",
+   "pediatric_excerpt": "8.4 Pediatric Use Irbesartan, in a study at a dose of up to 4.5 mg/kg/day, once daily, did not appear to lower blood pressure effectively in pediatric patients ages 6 to 16 years. Irbesartan tablets has not been studied in pediatric patients less than 6 years old.",
+   "pediatric_label_status": "ESTABLISHED",
+   "rank_700_W1": 281,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 418,
+    "400|W2_equal": 380,
+    "400|W3_pathogenic_gene_only": 529,
+    "700|W1_epcr": 281,
+    "700|W2_equal": 151,
+    "700|W3_pathogenic_gene_only": 517,
+    "900|W1_epcr": 619,
+    "900|W2_equal": 619,
+    "900|W3_pathogenic_gene_only": 481
+   },
+   "review": null,
+   "risk_flags": [
+    "BOXED_WARNING"
+   ],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": 0.43,
+    "sub_CENPE": 0.66,
+    "sub_IGBP1": -1.69,
+    "sub_MAD1L1": 0.44
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 0.8244,
+   "drug_id": "CHEMBL4802254",
+   "excipient_alerts": [],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Melanoma-associated antigen 4 binding agent"
+   ],
+   "median_rank": 559.0,
+   "min_age_years": 12.0,
+   "min_z_700": -0.69,
+   "n_configs_rank_le_100": 2,
+   "name": "AFAMITRESGENE AUTOLEUCEL",
+   "pediatric_excerpt": "8.4 Pediatric Use The safety and effectiveness of TECELRA have been established in pediatric patients 12 years and older. Use of TECELRA is supported by a single arm trial of TECELRA (SPEARHEAD-1) in adults and pediatric patients 12 years and older, which enrolled 6 pediatric patients aged 13 years to less than 17 years. TECELRA exposure in pediatric patients 12 years and older is comparable to th",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 80,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 1056,
+    "400|W2_equal": 1056,
+    "400|W3_pathogenic_gene_only": 989,
+    "700|W1_epcr": 80,
+    "700|W2_equal": 129,
+    "700|W3_pathogenic_gene_only": 71,
+    "900|W1_epcr": null,
+    "900|W2_equal": null,
+    "900|W3_pathogenic_gene_only": null
+   },
+   "review": null,
+   "risk_flags": [
+    "BOXED_WARNING"
+   ],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.66,
+    "sub_CENPE": -0.53,
+    "sub_IGBP1": 0.13,
+    "sub_MAD1L1": -0.69
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "LABELLED_USE",
+    "infant": "LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "combined_700_W1": 0.6628,
+   "drug_id": "CHEMBL2103883",
+   "excipient_alerts": [
+    "LACTOSE MONOHYDRATE"
+   ],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Thrombopoietin receptor agonist"
+   ],
+   "median_rank": 633,
+   "min_age_years": 1.0,
+   "min_z_700": -0.55,
+   "n_configs_rank_le_100": 0,
+   "name": "AVATROMBOPAG",
+   "pediatric_excerpt": "8.4 Pediatric Use The safety and effectiveness of DOPTELET tablet for the treatment of persistent or chronic ITP have been established in pediatric patients aged 6 years and older. The safety and effectiveness of DOPTELET SPRINKLE for the treatment of persistent or chronic ITP have been established in pediatric patients aged 1 to <6 years. Use of DOPTELET tablet and DOPTELET SPRINKLE for their res",
+   "pediatric_label_status": "ESTABLISHED",
+   "rank_700_W1": 109,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 814,
+    "400|W2_equal": 814,
+    "400|W3_pathogenic_gene_only": 633,
+    "700|W1_epcr": 109,
+    "700|W2_equal": 207,
+    "700|W3_pathogenic_gene_only": 113,
+    "900|W1_epcr": 663,
+    "900|W2_equal": 663,
+    "900|W3_pathogenic_gene_only": 548
+   },
+   "review": null,
+   "risk_flags": [],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.54,
+    "sub_CENPE": -0.36,
+    "sub_IGBP1": 0.23,
+    "sub_MAD1L1": -0.55
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 0.4457,
+   "drug_id": "CHEMBL3990039",
+   "excipient_alerts": [
+    "POLYSORBATE 80"
+   ],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Tissue factor pathway inhibitor inhibitor"
+   ],
+   "median_rank": 786,
+   "min_age_years": 6.0,
+   "min_z_700": -0.38,
+   "n_configs_rank_le_100": 0,
+   "name": "MARSTACIMAB",
+   "pediatric_excerpt": "8.4 Pediatric Use The safety and effectiveness of HYMPAVZI to prevent or reduce the frequency of bleeding episodes in hemophilia A or B with and without inhibitors have been established in pediatric patients 6 years of age and older [see Clinical Studies (14.1, 14.2, 14.3)]. Use of HYMPAVZI in pediatric patients for this indication is supported by evidence from two open\u2011label, multi\u2011center studies",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 165,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 972,
+    "400|W2_equal": 972,
+    "400|W3_pathogenic_gene_only": 862,
+    "700|W1_epcr": 165,
+    "700|W2_equal": 282,
+    "700|W3_pathogenic_gene_only": 144,
+    "900|W1_epcr": 786,
+    "900|W2_equal": 786,
+    "900|W3_pathogenic_gene_only": 727
+   },
+   "review": null,
+   "risk_flags": [],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.38,
+    "sub_CENPE": -0.15,
+    "sub_IGBP1": 1.54,
+    "sub_MAD1L1": -0.37
+   }
+  },
+  {
+   "age_bands": {
+    "adolescent": "VERIFY_MANUALLY",
+    "adult": "LABELLED",
+    "child": "VERIFY_MANUALLY",
+    "infant": "VERIFY_MANUALLY",
+    "neonate": "VERIFY_MANUALLY"
+   },
+   "combined_700_W1": 0.4566,
+   "drug_id": "CHEMBL4297730",
+   "excipient_alerts": [
+    "POLYSORBATE 80"
+   ],
+   "final_label_status": "heuristic_unreviewed",
+   "headline": false,
+   "literature_context": [],
+   "meaningful_proximity": false,
+   "mechanism_of_action": [
+    "Tissue factor pathway inhibitor inhibitor"
+   ],
+   "median_rank": 801,
+   "min_age_years": 12.0,
+   "min_z_700": -0.4,
+   "n_configs_rank_le_100": 0,
+   "name": "CONCIZUMAB",
+   "pediatric_excerpt": "8.4 Pediatric Use The safety and effectiveness of Alhemo for hemophilia A and B with and without inhibitors have been established in pediatric patients aged 12 years and older. Use of Alhemo for this indication is supported by evidence from adequate and well-controlled studies in adult and pediatric patients aged 12 years and older [see Adverse Reactions ( 6.1) and Clinical Studies (14)]. The safe",
+   "pediatric_label_status": "MIXED",
+   "rank_700_W1": 162,
+   "ranks_by_configuration": {
+    "400|W1_epcr": 996,
+    "400|W2_equal": 996,
+    "400|W3_pathogenic_gene_only": 903,
+    "700|W1_epcr": 162,
+    "700|W2_equal": 267,
+    "700|W3_pathogenic_gene_only": 143,
+    "900|W1_epcr": 801,
+    "900|W2_equal": 801,
+    "900|W3_pathogenic_gene_only": 756
+   },
+   "review": null,
+   "risk_flags": [],
+   "stability": "unstable",
+   "z_700_by_module": {
+    "sub_BUB1B": -0.38,
+    "sub_CENPE": -0.2,
+    "sub_IGBP1": 1.59,
+    "sub_MAD1L1": -0.4
+   }
+  }
+ ],
+ "headline": [
+  "BRENTUXIMAB VEDOTIN",
+  "CRIZOTINIB",
+  "SELPERCATINIB",
+  "PRALSETINIB",
+  "GANAXOLONE",
+  "RELATLIMAB",
+  "PROPOFOL",
+  "MIDAZOLAM"
+ ],
+ "n_headline": 8,
+ "n_paediatric": 84,
+ "n_stable": 10,
+ "n_with_label": 230,
+ "pool_size": 300,
+ "rule": {
+  "pool": 300,
+  "stable_min_configs": 7,
+  "stable_rank": 100
+ }
+}

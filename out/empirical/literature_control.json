@@ -1,0 +1,1345 @@
+{
+ "aggregate_all_gold": {
+  "auc_macro": {
+   "hi": 0.8400787111258761,
+   "lo": 0.6753439351667355,
+   "mean": 0.7541270540136953,
+   "n": 26
+  },
+  "frac_diseases_auc_gt_0.5": {
+   "hi": 0.8461538461538461,
+   "lo": 0.5,
+   "mean": 0.6923076923076923,
+   "n": 26
+  },
+  "frac_diseases_null_p_le_0.05": {
+   "hi": 0.8461538461538461,
+   "lo": 0.5,
+   "mean": 0.6923076923076923,
+   "n": 26
+  },
+  "gold_hit_rate_pooled": {
+   "hi": 0.5181953862871275,
+   "k": 29,
+   "lo": 0.2972093520095331,
+   "n": 72,
+   "rate": 0.4027777777777778
+  },
+  "n_diseases": 26,
+  "negative_control_frac_random_sets9_with_any_pass": {
+   "hi": 0.014653846153846158,
+   "lo": 0.008807692307692308,
+   "mean": 0.011730769230769236,
+   "n": 26
+  },
+  "negative_control_pass_rate_random_drug": {
+   "hi": 0.0014483350707202658,
+   "k": 82,
+   "lo": 0.0009404665345026749,
+   "n": 70258,
+   "rate": 0.0011671268752312903,
+   "threshold": "score >= 1 benefit sentence (proxy of R2)"
+  },
+  "pooled_enrichment_hits": {
+   "hi": 375.0,
+   "lo": 191.1111111111111,
+   "value": 254.38596491228066
+  },
+  "precision_at_10_macro": {
+   "hi": 0.15810497921002592,
+   "lo": 0.06983957622022904,
+   "mean": 0.1119581933719567,
+   "n": 26
+  }
+ },
+ "aggregate_small_molecule_gold": {
+  "auc_macro": {
+   "hi": 0.8146801082638998,
+   "lo": 0.6331090615045728,
+   "mean": 0.7229967248945056,
+   "n": 22
+  },
+  "frac_diseases_auc_gt_0.5": {
+   "hi": 0.7272727272727273,
+   "lo": 0.36363636363636365,
+   "mean": 0.5454545454545454,
+   "n": 22
+  },
+  "frac_diseases_null_p_le_0.05": {
+   "hi": 0.7272727272727273,
+   "lo": 0.36363636363636365,
+   "mean": 0.5454545454545454,
+   "n": 22
+  },
+  "gold_hit_rate_pooled": {
+   "hi": 0.6143081317826119,
+   "k": 18,
+   "lo": 0.3156664723404835,
+   "n": 39,
+   "rate": 0.46153846153846156
+  },
+  "n_diseases": 22,
+  "negative_control_frac_random_sets9_with_any_pass": {
+   "hi": 0.014136363636363641,
+   "lo": 0.008227272727272729,
+   "mean": 0.011136363636363639,
+   "n": 22
+  },
+  "negative_control_pass_rate_random_drug": {
+   "hi": 0.001673728923056528,
+   "k": 80,
+   "lo": 0.0010810762280344503,
+   "n": 59471,
+   "rate": 0.0013451934556338383,
+   "threshold": "score >= 1 benefit sentence (proxy of R2)"
+  },
+  "pooled_enrichment_hits": {
+   "hi": 354.1666666666666,
+   "lo": 187.5,
+   "value": 257.14285714285705
+  },
+  "precision_at_10_macro": {
+   "hi": 0.1274763825192362,
+   "lo": 0.04120341606819954,
+   "mean": 0.08201165381081403,
+   "n": 22
+  }
+ },
+ "benefit_stems": [
+  "improv",
+  "rescu",
+  "restor",
+  "ameliorat",
+  "allevi",
+  "attenuat",
+  "protect",
+  "prevent",
+  "benefit",
+  "efficac",
+  "effective",
+  "reliev",
+  "normali",
+  "reduc",
+  "suppress",
+  "reverse",
+  "stabili",
+  "enhanc",
+  "increas",
+  "correct",
+  "lower",
+  "decreas",
+  "inhibit",
+  "ameliora"
+ ],
+ "gold_standard": "PrimeKG `indication` edges restricted to data/universe.json drugs (data/universe.json has no per-disease indications)",
+ "limitations": [
+  "Counts co-mention only; no AI/human reading, direction or evidence level; rules R1,R3,R4 not modelled.",
+  "Gold standard incomplete: unlisted drugs may be true repurposing successes (false positives over-counted).",
+  "Many gold drugs were developed against the disease mechanism itself, so recovery is easier than for repurposing.",
+  "Drug names only (no synonyms/brands): recall underestimated.",
+  "Random-drug pass rate measures this proxy's volume-of-literature bias, not that of the real procedure.",
+  "Abstracts only (max 200 by Europe PMC relevance); full texts not used."
+ ],
+ "max_abstracts": 200,
+ "method": "mention-based deterministic proxy; see module docstring",
+ "n_bootstrap": 2000,
+ "n_random_sets": 1000,
+ "n_universe_drugs": 2705,
+ "per_disease": {
+  "Berardinelli-Seip congenital lipodystrophy": {
+   "auc": 1.0,
+   "enrichment_hits": 500.0,
+   "frac_sets9_with_pass": 0.012,
+   "gold_drugs": [
+    "metreleptin"
+   ],
+   "gold_hits": 1,
+   "gold_scores": {
+    "metreleptin": 10
+   },
+   "n_abstracts": 200,
+   "n_gold": 1,
+   "n_nongold": 2704,
+   "nongold_pass": 3,
+   "null_mean_hits": 0.002,
+   "null_p_ge_observed": 0.002997002997002997,
+   "precision_at_10": 0.1,
+   "query_terms": [
+    "AGPAT2",
+    "BSCL2",
+    "leptin"
+   ],
+   "top10_by_score": [
+    [
+     "metreleptin",
+     10
+    ],
+    [
+     "alcohol",
+     2
+    ],
+    [
+     "citric acid",
+     2
+    ],
+    [
+     "glycine",
+     2
+    ]
+   ]
+  },
+  "Dravet syndrome": {
+   "auc": 0.7487051424343322,
+   "enrichment_hits": 333.3333333333333,
+   "frac_sets9_with_pass": 0.022,
+   "gold_drugs": [
+    "cannabidiol",
+    "stiripentol"
+   ],
+   "gold_hits": 1,
+   "gold_scores": {
+    "cannabidiol": 2,
+    "stiripentol": 0
+   },
+   "n_abstracts": 200,
+   "n_gold": 2,
+   "n_nongold": 2703,
+   "nongold_pass": 6,
+   "null_mean_hits": 0.003,
+   "null_p_ge_observed": 0.003996003996003996,
+   "precision_at_10": 0.10011119347664936,
+   "query_terms": [
+    "SCN1A",
+    "sodium channel"
+   ],
+   "top10_by_score": [
+    [
+     "carbamazepine",
+     6
+    ],
+    [
+     "clobazam",
+     4
+    ],
+    [
+     "alprazolam",
+     2
+    ],
+    [
+     "cannabidiol",
+     2
+    ],
+    [
+     "lamotrigine",
+     2
+    ],
+    [
+     "paclitaxel",
+     2
+    ],
+    [
+     "perampanel",
+     2
+    ]
+   ]
+  },
+  "Duchenne muscular dystrophy": {
+   "auc": 0.8740281377267679,
+   "enrichment_hits": 272.72727272727275,
+   "frac_sets9_with_pass": 0.015,
+   "gold_drugs": [
+    "ataluren",
+    "deflazacort",
+    "eteplirsen",
+    "golodirsen"
+   ],
+   "gold_hits": 3,
+   "gold_scores": {
+    "ataluren": 2,
+    "deflazacort": 0,
+    "eteplirsen": 4,
+    "golodirsen": 4
+   },
+   "n_abstracts": 200,
+   "n_gold": 4,
+   "n_nongold": 2701,
+   "nongold_pass": 5,
+   "null_mean_hits": 0.011,
+   "null_p_ge_observed": 0.000999000999000999,
+   "precision_at_10": 0.300074156470152,
+   "query_terms": [
+    "dystrophin",
+    "exon skipping"
+   ],
+   "top10_by_score": [
+    [
+     "givinostat",
+     6
+    ],
+    [
+     "casimersen",
+     4
+    ],
+    [
+     "eteplirsen",
+     4
+    ],
+    [
+     "golodirsen",
+     4
+    ],
+    [
+     "viltolarsen",
+     4
+    ],
+    [
+     "adenosine",
+     2
+    ],
+    [
+     "ataluren",
+     2
+    ],
+    [
+     "vamorolone",
+     2
+    ]
+   ]
+  },
+  "Gaucher disease": {
+   "auc": 0.642301175473896,
+   "enrichment_hits": 200.0,
+   "frac_sets9_with_pass": 0.015,
+   "gold_drugs": [
+    "alglucerase",
+    "eliglustat",
+    "imiglucerase",
+    "miglustat",
+    "taliglucerase alfa",
+    "velaglucerase alfa",
+    "voglibose"
+   ],
+   "gold_hits": 2,
+   "gold_scores": {
+    "alglucerase": 0,
+    "eliglustat": 2,
+    "imiglucerase": 0,
+    "miglustat": 2,
+    "taliglucerase alfa": 0,
+    "velaglucerase alfa": 0,
+    "voglibose": 0
+   },
+   "n_abstracts": 200,
+   "n_gold": 7,
+   "n_nongold": 2698,
+   "nongold_pass": 3,
+   "null_mean_hits": 0.01,
+   "null_p_ge_observed": 0.000999000999000999,
+   "precision_at_10": 0.2009259259259259,
+   "query_terms": [
+    "GBA",
+    "glucocerebrosidase",
+    "glucosylceramide"
+   ],
+   "top10_by_score": [
+    [
+     "dopamine",
+     2
+    ],
+    [
+     "eliglustat",
+     2
+    ],
+    [
+     "levodopa",
+     2
+    ],
+    [
+     "miglustat",
+     2
+    ],
+    [
+     "oxygen",
+     2
+    ]
+   ]
+  },
+  "Marfan syndrome": {
+   "auc": 0.4992603550295858,
+   "enrichment_hits": 0.0,
+   "frac_sets9_with_pass": 0.018,
+   "gold_drugs": [
+    "everolimus"
+   ],
+   "gold_hits": 0,
+   "gold_scores": {
+    "everolimus": 0
+   },
+   "n_abstracts": 200,
+   "n_gold": 1,
+   "n_nongold": 2704,
+   "nongold_pass": 4,
+   "null_mean_hits": 0.001,
+   "null_p_ge_observed": 1.0,
+   "precision_at_10": 0.00022213994816734544,
+   "query_terms": [
+    "FBN1",
+    "TGF-beta"
+   ],
+   "top10_by_score": [
+    [
+     "cysteine",
+     2
+    ],
+    [
+     "erlotinib",
+     2
+    ],
+    [
+     "fingolimod",
+     2
+    ],
+    [
+     "norepinephrine",
+     2
+    ]
+   ]
+  },
+  "Niemann-Pick disease": {
+   "auc": 0.9985207100591716,
+   "enrichment_hits": 1000.0,
+   "frac_sets9_with_pass": 0.023,
+   "gold_drugs": [
+    "miglustat"
+   ],
+   "gold_hits": 1,
+   "gold_scores": {
+    "miglustat": 2
+   },
+   "n_abstracts": 200,
+   "n_gold": 1,
+   "n_nongold": 2704,
+   "nongold_pass": 6,
+   "null_mean_hits": 0.001,
+   "null_p_ge_observed": 0.001998001998001998,
+   "precision_at_10": 0.1,
+   "query_terms": [
+    "NPC1",
+    "cholesterol trafficking"
+   ],
+   "top10_by_score": [
+    [
+     "itraconazole",
+     6
+    ],
+    [
+     "posaconazole",
+     4
+    ],
+    [
+     "calcium",
+     2
+    ],
+    [
+     "fingolimod",
+     2
+    ],
+    [
+     "levacetylleucine",
+     2
+    ],
+    [
+     "miglustat",
+     2
+    ],
+    [
+     "sertraline",
+     2
+    ]
+   ]
+  },
+  "Prader-Willi syndrome": {
+   "auc": 0.5,
+   "enrichment_hits": null,
+   "frac_sets9_with_pass": 0.0,
+   "gold_drugs": [
+    "carbetocin",
+    "fluoxymesterone"
+   ],
+   "gold_hits": 0,
+   "gold_scores": {
+    "carbetocin": 0,
+    "fluoxymesterone": 0
+   },
+   "n_abstracts": 200,
+   "n_gold": 2,
+   "n_nongold": 2703,
+   "nongold_pass": 0,
+   "null_mean_hits": 0.0,
+   "null_p_ge_observed": 1.0,
+   "precision_at_10": 0.0007393715341959334,
+   "query_terms": [
+    "SNRPN",
+    "MAGEL2",
+    "imprinting"
+   ],
+   "top10_by_score": []
+  },
+  "Wilson disease": {
+   "auc": 0.9990754437869822,
+   "enrichment_hits": null,
+   "frac_sets9_with_pass": 0.025,
+   "gold_drugs": [
+    "penicillamine"
+   ],
+   "gold_hits": 1,
+   "gold_scores": {
+    "penicillamine": 6
+   },
+   "n_abstracts": 200,
+   "n_gold": 1,
+   "n_nongold": 2704,
+   "nongold_pass": 6,
+   "null_mean_hits": 0.0,
+   "null_p_ge_observed": 0.000999000999000999,
+   "precision_at_10": 0.1,
+   "query_terms": [
+    "ATP7B",
+    "copper"
+   ],
+   "top10_by_score": [
+    [
+     "copper",
+     168
+    ],
+    [
+     "oxygen",
+     12
+    ],
+    [
+     "melatonin",
+     6
+    ],
+    [
+     "penicillamine",
+     6
+    ],
+    [
+     "cisplatin",
+     2
+    ],
+    [
+     "disulfiram",
+     2
+    ],
+    [
+     "trientine",
+     2
+    ]
+   ]
+  },
+  "acute intermittent porphyria": {
+   "auc": 0.499260081391047,
+   "enrichment_hits": 0.0,
+   "frac_sets9_with_pass": 0.011,
+   "gold_drugs": [
+    "chlorpromazine",
+    "promazine"
+   ],
+   "gold_hits": 0,
+   "gold_scores": {
+    "chlorpromazine": 0,
+    "promazine": 0
+   },
+   "n_abstracts": 200,
+   "n_gold": 2,
+   "n_nongold": 2703,
+   "nongold_pass": 4,
+   "null_mean_hits": 0.004,
+   "null_p_ge_observed": 1.0,
+   "precision_at_10": 0.0004442798963346909,
+   "query_terms": [
+    "HMBS",
+    "ALAS1"
+   ],
+   "top10_by_score": [
+    [
+     "aminolevulinic acid",
+     6
+    ],
+    [
+     "doxorubicin",
+     4
+    ],
+    [
+     "efavirenz",
+     2
+    ],
+    [
+     "tyrosine",
+     2
+    ]
+   ]
+  },
+  "cystic fibrosis": {
+   "auc": 0.7495133481646273,
+   "enrichment_hits": 133.33333333333334,
+   "frac_sets9_with_pass": 0.019,
+   "gold_drugs": [
+    "acetylcysteine",
+    "cysteine",
+    "dornase alfa",
+    "elexacaftor",
+    "ivacaftor",
+    "lumacaftor",
+    "mannitol",
+    "tezacaftor"
+   ],
+   "gold_hits": 4,
+   "gold_scores": {
+    "acetylcysteine": 0,
+    "cysteine": 0,
+    "dornase alfa": 0,
+    "elexacaftor": 28,
+    "ivacaftor": 30,
+    "lumacaftor": 2,
+    "mannitol": 0,
+    "tezacaftor": 34
+   },
+   "n_abstracts": 200,
+   "n_gold": 8,
+   "n_nongold": 2697,
+   "nongold_pass": 4,
+   "null_mean_hits": 0.03,
+   "null_p_ge_observed": 0.000999000999000999,
+   "precision_at_10": 0.4002966258806081,
+   "query_terms": [
+    "CFTR",
+    "chloride channel"
+   ],
+   "top10_by_score": [
+    [
+     "tezacaftor",
+     34
+    ],
+    [
+     "ivacaftor",
+     30
+    ],
+    [
+     "elexacaftor",
+     28
+    ],
+    [
+     "vanzacaftor",
+     8
+    ],
+    [
+     "adenosine",
+     2
+    ],
+    [
+     "calcium",
+     2
+    ],
+    [
+     "colistin",
+     2
+    ],
+    [
+     "lumacaftor",
+     2
+    ]
+   ]
+  },
+  "cystinosis": {
+   "auc": 1.0,
+   "enrichment_hits": null,
+   "frac_sets9_with_pass": 0.007,
+   "gold_drugs": [
+    "cysteamine"
+   ],
+   "gold_hits": 1,
+   "gold_scores": {
+    "cysteamine": 6
+   },
+   "n_abstracts": 200,
+   "n_gold": 1,
+   "n_nongold": 2704,
+   "nongold_pass": 3,
+   "null_mean_hits": 0.0,
+   "null_p_ge_observed": 0.000999000999000999,
+   "precision_at_10": 0.1,
+   "query_terms": [
+    "CTNS",
+    "lysosomal cystine"
+   ],
+   "top10_by_score": [
+    [
+     "cysteamine",
+     6
+    ],
+    [
+     "cysteine",
+     4
+    ],
+    [
+     "choline",
+     2
+    ],
+    [
+     "oxygen",
+     2
+    ]
+   ]
+  },
+  "cystinuria": {
+   "auc": 0.49981502034776176,
+   "enrichment_hits": 0.0,
+   "frac_sets9_with_pass": 0.006,
+   "gold_drugs": [
+    "penicillamine",
+    "tiopronin"
+   ],
+   "gold_hits": 0,
+   "gold_scores": {
+    "penicillamine": 0,
+    "tiopronin": 0
+   },
+   "n_abstracts": 200,
+   "n_gold": 2,
+   "n_nongold": 2703,
+   "nongold_pass": 1,
+   "null_mean_hits": 0.001,
+   "null_p_ge_observed": 1.0,
+   "precision_at_10": 0.0006656804733727811,
+   "query_terms": [
+    "SLC3A1",
+    "SLC7A9"
+   ],
+   "top10_by_score": [
+    [
+     "cysteine",
+     4
+    ]
+   ]
+  },
+  "glycogen storage disease": {
+   "auc": 0.6663582531458179,
+   "enrichment_hits": 125.0,
+   "frac_sets9_with_pass": 0.01,
+   "gold_drugs": [
+    "alglucosidase alfa",
+    "penicillamine",
+    "tiopronin"
+   ],
+   "gold_hits": 1,
+   "gold_scores": {
+    "alglucosidase alfa": 4,
+    "penicillamine": 0,
+    "tiopronin": 0
+   },
+   "n_abstracts": 200,
+   "n_gold": 3,
+   "n_nongold": 2702,
+   "nongold_pass": 2,
+   "null_mean_hits": 0.008,
+   "null_p_ge_observed": 0.008991008991008992,
+   "precision_at_10": 0.10051813471502591,
+   "query_terms": [
+    "GAA",
+    "glycogen",
+    "acid alpha-glucosidase"
+   ],
+   "top10_by_score": [
+    [
+     "alglucosidase alfa",
+     4
+    ],
+    [
+     "methotrexate",
+     4
+    ],
+    [
+     "metformin",
+     2
+    ]
+   ]
+  },
+  "hemophilia": {
+   "auc": 0.5,
+   "enrichment_hits": null,
+   "frac_sets9_with_pass": 0.0,
+   "gold_drugs": [
+    "albutrepenonacog alfa",
+    "coagulation factor ix human",
+    "desmopressin",
+    "efmoroctocog alfa",
+    "eftrenonacog alfa",
+    "emicizumab",
+    "lonoctocog alfa",
+    "moroctocog alfa",
+    "simoctocog alfa",
+    "turoctocog alfa",
+    "turoctocog alfa pegol"
+   ],
+   "gold_hits": 0,
+   "gold_scores": {
+    "albutrepenonacog alfa": 0,
+    "coagulation factor ix human": 0,
+    "desmopressin": 0,
+    "efmoroctocog alfa": 0,
+    "eftrenonacog alfa": 0,
+    "emicizumab": 0,
+    "lonoctocog alfa": 0,
+    "moroctocog alfa": 0,
+    "simoctocog alfa": 0,
+    "turoctocog alfa": 0,
+    "turoctocog alfa pegol": 0
+   },
+   "n_abstracts": 200,
+   "n_gold": 11,
+   "n_nongold": 2694,
+   "nongold_pass": 0,
+   "null_mean_hits": 0.0,
+   "null_p_ge_observed": 1.0,
+   "precision_at_10": 0.004066543438077634,
+   "query_terms": [
+    "F8",
+    "F9",
+    "coagulation factor"
+   ],
+   "top10_by_score": []
+  },
+  "hereditary angioedema with C1Inh deficiency": {
+   "auc": 0.7494446501295816,
+   "enrichment_hits": 200.0,
+   "frac_sets9_with_pass": 0.021,
+   "gold_drugs": [
+    "ecallantide",
+    "icatibant",
+    "lanadelumab",
+    "stanozolol"
+   ],
+   "gold_hits": 2,
+   "gold_scores": {
+    "ecallantide": 0,
+    "icatibant": 8,
+    "lanadelumab": 6,
+    "stanozolol": 0
+   },
+   "n_abstracts": 200,
+   "n_gold": 4,
+   "n_nongold": 2701,
+   "nongold_pass": 6,
+   "null_mean_hits": 0.01,
+   "null_p_ge_observed": 0.000999000999000999,
+   "precision_at_10": 0.20014831294030405,
+   "query_terms": [
+    "SERPING1",
+    "C1 inhibitor",
+    "bradykinin"
+   ],
+   "top10_by_score": [
+    [
+     "icatibant",
+     8
+    ],
+    [
+     "lanadelumab",
+     6
+    ],
+    [
+     "alcohol",
+     2
+    ],
+    [
+     "berotralstat",
+     2
+    ],
+    [
+     "dapsone",
+     2
+    ],
+    [
+     "doxorubicin",
+     2
+    ],
+    [
+     "emicizumab",
+     2
+    ],
+    [
+     "histamine",
+     2
+    ]
+   ]
+  },
+  "hereditary hemochromatosis": {
+   "auc": 0.4996301775147929,
+   "enrichment_hits": null,
+   "frac_sets9_with_pass": 0.006,
+   "gold_drugs": [
+    "penicillamine"
+   ],
+   "gold_hits": 0,
+   "gold_scores": {
+    "penicillamine": 0
+   },
+   "n_abstracts": 200,
+   "n_gold": 1,
+   "n_nongold": 2704,
+   "nongold_pass": 2,
+   "null_mean_hits": 0.0,
+   "null_p_ge_observed": 1.0,
+   "precision_at_10": 0.00029596744358120606,
+   "query_terms": [
+    "HFE",
+    "hepcidin"
+   ],
+   "top10_by_score": [
+    [
+     "oxygen",
+     4
+    ],
+    [
+     "lactic acid",
+     2
+    ]
+   ]
+  },
+  "hereditary hypophosphatemic rickets": {
+   "auc": 0.7497225305216426,
+   "enrichment_hits": 333.3333333333333,
+   "frac_sets9_with_pass": 0.01,
+   "gold_drugs": [
+    "burosumab",
+    "ergocalciferol"
+   ],
+   "gold_hits": 1,
+   "gold_scores": {
+    "burosumab": 34,
+    "ergocalciferol": 0
+   },
+   "n_abstracts": 200,
+   "n_gold": 2,
+   "n_nongold": 2703,
+   "nongold_pass": 3,
+   "null_mean_hits": 0.003,
+   "null_p_ge_observed": 0.003996003996003996,
+   "precision_at_10": 0.10022213994816735,
+   "query_terms": [
+    "PHEX",
+    "FGF23"
+   ],
+   "top10_by_score": [
+    [
+     "burosumab",
+     34
+    ],
+    [
+     "calcium",
+     6
+    ],
+    [
+     "calcitriol",
+     4
+    ],
+    [
+     "parathyroid hormone",
+     4
+    ]
+   ]
+  },
+  "homozygous familial hypercholesterolemia": {
+   "auc": 0.8329628257379277,
+   "enrichment_hits": 307.6923076923077,
+   "frac_sets9_with_pass": 0.012,
+   "gold_drugs": [
+    "atorvastatin",
+    "evolocumab",
+    "ezetimibe",
+    "lomitapide",
+    "rosuvastatin",
+    "simvastatin"
+   ],
+   "gold_hits": 4,
+   "gold_scores": {
+    "atorvastatin": 2,
+    "evolocumab": 8,
+    "ezetimibe": 4,
+    "lomitapide": 0,
+    "rosuvastatin": 2,
+    "simvastatin": 0
+   },
+   "n_abstracts": 200,
+   "n_gold": 6,
+   "n_nongold": 2699,
+   "nongold_pass": 3,
+   "null_mean_hits": 0.013,
+   "null_p_ge_observed": 0.000999000999000999,
+   "precision_at_10": 0.40022238695329876,
+   "query_terms": [
+    "LDLR",
+    "PCSK9"
+   ],
+   "top10_by_score": [
+    [
+     "evolocumab",
+     8
+    ],
+    [
+     "ezetimibe",
+     4
+    ],
+    [
+     "alirocumab",
+     2
+    ],
+    [
+     "angiotensin ii",
+     2
+    ],
+    [
+     "atorvastatin",
+     2
+    ],
+    [
+     "rosuvastatin",
+     2
+    ],
+    [
+     "water",
+     2
+    ]
+   ]
+  },
+  "mucopolysaccharidosis": {
+   "auc": 0.6,
+   "enrichment_hits": 500.0,
+   "frac_sets9_with_pass": 0.0,
+   "gold_drugs": [
+    "elosulfase alfa",
+    "galsulfase",
+    "idursulfase",
+    "laronidase",
+    "vestronidase alfa"
+   ],
+   "gold_hits": 1,
+   "gold_scores": {
+    "elosulfase alfa": 0,
+    "galsulfase": 0,
+    "idursulfase": 0,
+    "laronidase": 2,
+    "vestronidase alfa": 0
+   },
+   "n_abstracts": 200,
+   "n_gold": 5,
+   "n_nongold": 2700,
+   "nongold_pass": 0,
+   "null_mean_hits": 0.002,
+   "null_p_ge_observed": 0.002997002997002997,
+   "precision_at_10": 0.10133136094674555,
+   "query_terms": [
+    "glycosaminoglycan",
+    "lysosomal storage",
+    "iduronidase"
+   ],
+   "top10_by_score": [
+    [
+     "laronidase",
+     2
+    ]
+   ]
+  },
+  "neurofibromatosis": {
+   "auc": 1.0,
+   "enrichment_hits": 1000.0,
+   "frac_sets9_with_pass": 0.0,
+   "gold_drugs": [
+    "selumetinib"
+   ],
+   "gold_hits": 1,
+   "gold_scores": {
+    "selumetinib": 2
+   },
+   "n_abstracts": 200,
+   "n_gold": 1,
+   "n_nongold": 2704,
+   "nongold_pass": 0,
+   "null_mean_hits": 0.001,
+   "null_p_ge_observed": 0.001998001998001998,
+   "precision_at_10": 0.1,
+   "query_terms": [
+    "NF1",
+    "RAS",
+    "MAPK"
+   ],
+   "top10_by_score": [
+    [
+     "selumetinib",
+     2
+    ]
+   ]
+  },
+  "paroxysmal nocturnal hemoglobinuria": {
+   "auc": 0.9998150203477617,
+   "enrichment_hits": 1000.0,
+   "frac_sets9_with_pass": 0.02,
+   "gold_drugs": [
+    "eculizumab",
+    "ravulizumab"
+   ],
+   "gold_hits": 2,
+   "gold_scores": {
+    "eculizumab": 18,
+    "ravulizumab": 10
+   },
+   "n_abstracts": 200,
+   "n_gold": 2,
+   "n_nongold": 2703,
+   "nongold_pass": 6,
+   "null_mean_hits": 0.002,
+   "null_p_ge_observed": 0.000999000999000999,
+   "precision_at_10": 0.2,
+   "query_terms": [
+    "PIGA",
+    "complement"
+   ],
+   "top10_by_score": [
+    [
+     "eculizumab",
+     18
+    ],
+    [
+     "danicopan",
+     12
+    ],
+    [
+     "ravulizumab",
+     10
+    ],
+    [
+     "iptacopan",
+     6
+    ],
+    [
+     "pegcetacoplan",
+     6
+    ],
+    [
+     "crovalimab",
+     4
+    ],
+    [
+     "dopamine",
+     4
+    ],
+    [
+     "nitrous oxide",
+     2
+    ]
+   ]
+  },
+  "phenylketonuria": {
+   "auc": 0.9998150887573964,
+   "enrichment_hits": 500.0,
+   "frac_sets9_with_pass": 0.012,
+   "gold_drugs": [
+    "sapropterin"
+   ],
+   "gold_hits": 1,
+   "gold_scores": {
+    "sapropterin": 8
+   },
+   "n_abstracts": 200,
+   "n_gold": 1,
+   "n_nongold": 2704,
+   "nongold_pass": 3,
+   "null_mean_hits": 0.002,
+   "null_p_ge_observed": 0.002997002997002997,
+   "precision_at_10": 0.1,
+   "query_terms": [
+    "PAH",
+    "phenylalanine hydroxylase"
+   ],
+   "top10_by_score": [
+    [
+     "sapropterin",
+     8
+    ],
+    [
+     "tyrosine",
+     8
+    ],
+    [
+     "glycine",
+     2
+    ],
+    [
+     "pegvaliase",
+     2
+    ]
+   ]
+  },
+  "polycystic kidney disease": {
+   "auc": 0.49981508875739644,
+   "enrichment_hits": null,
+   "frac_sets9_with_pass": 0.003,
+   "gold_drugs": [
+    "tolvaptan"
+   ],
+   "gold_hits": 0,
+   "gold_scores": {
+    "tolvaptan": 0
+   },
+   "n_abstracts": 200,
+   "n_gold": 1,
+   "n_nongold": 2704,
+   "nongold_pass": 1,
+   "null_mean_hits": 0.0,
+   "null_p_ge_observed": 1.0,
+   "precision_at_10": 0.00033284023668639053,
+   "query_terms": [
+    "PKD1",
+    "PKD2"
+   ],
+   "top10_by_score": [
+    [
+     "nitric oxide",
+     4
+    ]
+   ]
+  },
+  "sickle cell anemia": {
+   "auc": 0.4996301775147929,
+   "enrichment_hits": null,
+   "frac_sets9_with_pass": 0.004,
+   "gold_drugs": [
+    "hydroxyurea"
+   ],
+   "gold_hits": 0,
+   "gold_scores": {
+    "hydroxyurea": 0
+   },
+   "n_abstracts": 200,
+   "n_gold": 1,
+   "n_nongold": 2704,
+   "nongold_pass": 2,
+   "null_mean_hits": 0.0,
+   "null_p_ge_observed": 1.0,
+   "precision_at_10": 0.00029596744358120606,
+   "query_terms": [
+    "HBB",
+    "hemoglobin S",
+    "polymerization"
+   ],
+   "top10_by_score": [
+    [
+     "oxygen",
+     8
+    ],
+    [
+     "acetylcysteine",
+     2
+    ]
+   ]
+  },
+  "tuberous sclerosis": {
+   "auc": 1.0,
+   "enrichment_hits": 166.66666666666666,
+   "frac_sets9_with_pass": 0.023,
+   "gold_drugs": [
+    "everolimus"
+   ],
+   "gold_hits": 1,
+   "gold_scores": {
+    "everolimus": 10
+   },
+   "n_abstracts": 200,
+   "n_gold": 1,
+   "n_nongold": 2704,
+   "nongold_pass": 5,
+   "null_mean_hits": 0.006,
+   "null_p_ge_observed": 0.006993006993006993,
+   "precision_at_10": 0.1,
+   "query_terms": [
+    "TSC1",
+    "TSC2",
+    "mTOR"
+   ],
+   "top10_by_score": [
+    [
+     "everolimus",
+     10
+    ],
+    [
+     "sirolimus",
+     4
+    ],
+    [
+     "thrombin",
+     4
+    ],
+    [
+     "adenosine",
+     2
+    ],
+    [
+     "alpelisib",
+     2
+    ],
+    [
+     "cisplatin",
+     2
+    ]
+   ]
+  },
+  "tyrosinemia": {
+   "auc": 0.9996301775147929,
+   "enrichment_hits": 250.0,
+   "frac_sets9_with_pass": 0.011,
+   "gold_drugs": [
+    "nitisinone"
+   ],
+   "gold_hits": 1,
+   "gold_scores": {
+    "nitisinone": 4
+   },
+   "n_abstracts": 200,
+   "n_gold": 1,
+   "n_nongold": 2704,
+   "nongold_pass": 4,
+   "null_mean_hits": 0.004,
+   "null_p_ge_observed": 0.004995004995004995,
+   "precision_at_10": 0.1,
+   "query_terms": [
+    "FAH",
+    "tyrosine catabolism"
+   ],
+   "top10_by_score": [
+    [
+     "tyrosine",
+     8
+    ],
+    [
+     "nitisinone",
+     4
+    ],
+    [
+     "copper",
+     2
+    ],
+    [
+     "letrozole",
+     2
+    ],
+    [
+     "phenylephrine",
+     2
+    ]
+   ]
+  }
+ },
+ "seed": 20260514
+}

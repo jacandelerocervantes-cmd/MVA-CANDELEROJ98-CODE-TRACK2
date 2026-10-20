@@ -1,0 +1,1008 @@
+{
+ "caution": [
+  {
+   "drug": "CARBOPLATIN",
+   "evidence": [
+    {
+     "caveats": "Association in ovarian cancer only. In a child with a genome-instability syndrome, platinum genotoxicity is itself a safety concern (39264246, 33209710), so this is NOT a candidate for the patient.",
+     "consequence": "aneuploidy_tumour",
+     "direction": "unclear",
+     "level": 1,
+     "pmid": "19458043",
+     "sentence": "In the OV01 ovarian cancer clinical trial, a high level of CIN was associated with taxane resistance but carboplatin sensitivity, indicating that CIN may determine MTS response in vivo.",
+     "system": "human tumours with chromosomal instability (OV01 ovarian trial)",
+     "year": 2009
+    }
+   ],
+   "level": 1
+  },
+  {
+   "drug": "DACTINOMYCIN",
+   "evidence": [
+    {
+     "caveats": "Single case; the abstract does not describe the reaction; unknown whether it generalises to other drugs.",
+     "consequence": "aneuploidy_tumour",
+     "direction": "may_harm",
+     "level": 3,
+     "pmid": "31081598",
+     "sentence": "After right nephrectomy, dactinomycin monotherapy was administered for the left Wilms tumor; however, severe adverse reaction prevented the patient from receiving further chemotherapy.",
+     "system": "patient with PCS/MVA with biallelic BUB1B mutations and bilateral Wilms tumour (case report)",
+     "year": 2019
+    }
+   ],
+   "level": 3
+  },
+  {
+   "drug": "DASATINIB ANHYDROUS",
+   "evidence": [
+    {
+     "caveats": "In vitro co-culture; relevant to the tumour-predisposition concern. Quercetin component is not an approved drug.",
+     "consequence": "senescence_p53",
+     "direction": "may_harm",
+     "level": 0,
+     "pmid": "38612842",
+     "sentence": "Our results demonstrate that some senolytics may have side effects unrelated to their senolytic activity and may promote tumorigenesis.",
+     "system": "Cancer-associated fibroblasts in vitro (MC38 colorectal co-culture)",
+     "year": 2024
+    },
+    {
+     "caveats": "Revision narrativa pediatrica oncologica (dosis oncologicas, LMC). Dasatinib no se probo en BubR1 ni como senolitico en estos hallazgos; solo se registra el riesgo de clase.",
+     "consequence": "growth_muscle",
+     "direction": "may_harm",
+     "level": 0,
+     "pmid": "42041544",
+     "sentence": "growth impairment and bone-mineral alterations are most consistently reported with tyrosine kinase inhibitors",
+     "system": "revision de efectos endocrinos de terapias dirigidas en ninos",
+     "year": 2026
+    }
+   ],
+   "level": 0
+  },
+  {
+   "drug": "ETOPOSIDE",
+   "evidence": [
+    {
+     "caveats": "Antagonism of etoposide with PLK1 inhibition (volasertib not approved); preclinical only.",
+     "consequence": "tumour",
+     "direction": "may_harm",
+     "level": 1,
+     "pmid": "26851014",
+     "sentence": "Volasertib showed synergistic activity with vincristine but antagonistic effects with etoposide.",
+     "system": "pediatric tumour cell lines and xenografts, 2016",
+     "year": 2016
+    },
+    {
+     "caveats": "Induced aneuploidy in culture; does not address constitutional SAC deficiency, whole-body toxicity or second cancers.",
+     "consequence": "aneuploidy_tumour",
+     "direction": "no_effect",
+     "level": 1,
+     "pmid": "39251587",
+     "sentence": "To validate these results, we treated aneuploid clones with two clinically relevant chemotherapies—the DSB-inducing etoposide and the SSB-inducing topotecan—and with the PARP inhibitor olaparib. The highly-aneuploid clones were significantly more resistant to these drugs compared to pseudo-diploid clones",
+     "system": "human RPE1 aneuploid clones and reversine-aneuploidized lines",
+     "year": 2024
+    }
+   ],
+   "level": 1
+  },
+  {
+   "drug": "FUROSEMIDE",
+   "evidence": [
+    {
+     "caveats": "Furosemide exposure is the strongest risk factor for neonatal nephrocalcinosis; relevant to premature birth history.",
+     "consequence": "other_context",
+     "direction": "may_harm",
+     "level": 0,
+     "pmid": "19460127",
+     "sentence": "We suggest that in preterm infants, furosemide should be prescribed with caution and close monitoring of calcium excretions is advisable.",
+     "system": "55 preterm neonates, cohort, 2010",
+     "year": 2010
+    }
+   ],
+   "level": 0
+  },
+  {
+   "drug": "MECASERMIN",
+   "evidence": [
+    {
+     "caveats": "Poblacion SPIGFD. Sin datos MVA.",
+     "consequence": "growth_muscle",
+     "direction": "may_harm",
+     "level": 0,
+     "pmid": "33434161",
+     "sentence": "Treatment-emergent AEs were experienced by 65.3% of patients; hypoglycaemia was most common.",
+     "system": "ninos con deficiencia de IGF-1 (registro)",
+     "year": 2021
+    }
+   ],
+   "level": 0
+  },
+  {
+   "drug": "NIACINAMIDE",
+   "evidence": [
+    {
+     "caveats": "NIACINAMIDE (= nicotinamide, NAM) is the universe.json name. Pancreatic cancer, not RMS or MVA; shows that raising NAD+ is not neutral in a tumour-prone child. BubR1 benefit data come from NMN (not approved).",
+     "consequence": "senescence_p53",
+     "direction": "may_harm",
+     "level": 0,
+     "pmid": "41724424",
+     "sentence": "In murine models, both immunocompetent and immunodeficient, supplementation with NAM and NMN similarly conferred resistance to standard chemotherapy and supported cancer growth.",
+     "system": "Pancreatic cancer cells and mouse models (NAD+ precursors NAM, NR, NMN)",
+     "year": 2026
+    }
+   ],
+   "level": 0
+  },
+  {
+   "drug": "OLAPARIB",
+   "evidence": [
+    {
+     "caveats": "No paper was found showing PARP-inhibitor synthetic lethality with BUBR1 loss or a weak SAC. Aneuploidy here was induced, not SAC-defective.",
+     "consequence": "aneuploidy_tumour",
+     "direction": "unclear",
+     "level": 1,
+     "pmid": "39251587",
+     "sentence": "Moreover, resistance of cancer patients to olaparib is associated with high levels of RAF/MEK/ERK signaling, specifically in highly-aneuploid tumors.",
+     "system": "human aneuploid RPE1 clones and patient data",
+     "year": 2024
+    },
+    {
+     "caveats": "Evidence AGAINST an aneuploidy-selective PARP-inhibitor or topoisomerase-poison vulnerability, in an induced-aneuploidy cell model.",
+     "consequence": "aneuploidy_tumour",
+     "direction": "no_effect",
+     "level": 1,
+     "pmid": "39251587",
+     "sentence": "To validate these results, we treated aneuploid clones with two clinically relevant chemotherapies—the DSB-inducing etoposide and the SSB-inducing topotecan—and with the PARP inhibitor olaparib. The highly-aneuploid clones were significantly more resistant to these drugs compared to pseudo-diploid clones",
+     "system": "human RPE1 aneuploid clones (olaparib, etoposide, topotecan tested)",
+     "year": 2024
+    },
+    {
+     "caveats": "Adults with ovarian cancer; class-level statement (\"no significant differences ... between the various PARPi\"); not MVA. For a child with MDS/leukaemia predisposition it is an indirect (L0) warning.",
+     "consequence": "aneuploidy_tumour",
+     "direction": "may_harm",
+     "level": 0,
+     "pmid": "40794554",
+     "sentence": "Our study indicates that PARPi may increase the risk of MDS or AML after first-line maintenance treatment.",
+     "system": "adult ovarian cancer patients (real-world TriNetX cohort)",
+     "year": 2025
+    },
+    {
+     "caveats": "Conflicts with 40794554; adult trials with short follow-up.",
+     "consequence": "aneuploidy_tumour",
+     "direction": "no_effect",
+     "level": 0,
+     "pmid": "40804462",
+     "sentence": "PARPis did not increase the risk of AML/MDS (p = 0.86).",
+     "system": "meta-analysis of randomised trials of PARP inhibitors in solid tumours",
+     "year": 2025
+    }
+   ],
+   "level": 1
+  },
+  {
+   "drug": "PACLITAXEL",
+   "evidence": [
+    {
+     "caveats": "One cancer line; knockdown, not a patient mutation; tumour efficacy only. Same direction as 17234259 (less sensitive).",
+     "consequence": "aneuploidy_tumour",
+     "direction": "unclear",
+     "level": 2,
+     "pmid": "38987356",
+     "sentence": "Knockdown of these SAC genes (BUB1B, BUB3, and TTK) attenuates paclitaxel-induced cell death.",
+     "system": "human pancreatic cancer cell line PANC-1 (CRISPRi/KO screen)",
+     "year": 2024
+    },
+    {
+     "caveats": "Monoallelic variants from prostate-cancer families, not biallelic MVA; the abstract does not detail which experiment tested taxane response (gene-editing and ex vivo material are listed).",
+     "consequence": "aneuploidy_tumour",
+     "direction": "unclear",
+     "level": 2,
+     "pmid": "39014450",
+     "sentence": "BUB1B variants lead to decreased BubR1 expression and/or stability, which promotes increased premature chromatid separation and, consequently, triggers CIN, driving resistance to Taxol-based therapies.",
+     "system": "human cells and tumour material carrying germline BUB1B variants (prostate cancer predisposition study)",
+     "year": 2024
+    },
+    {
+     "caveats": "Monoallelic germline BUB1B variants (prostate cancer), not biallelic MVA1; resistance means loss of efficacy of microtubule poisons (also relevant to vincristine in rhabdomyosarcoma, not tested).",
+     "consequence": "other_context",
+     "direction": "may_harm",
+     "level": 2,
+     "pmid": "39014450",
+     "sentence": "We further show that BUB1B variants lead to decreased BubR1 expression and/or stability, which promotes increased premature chromatid separation and, consequently, triggers CIN, driving resistance to Taxol-based therapies.",
+     "system": "human cells and carriers lymphocytes with BUB1B variants, 2024",
+     "year": 2024
+    },
+    {
+     "caveats": "Association in one derived cancer line; no BUB1B mutation; says nothing about toxicity in normal tissue. For the child: if a tumour arises with low BUBR1, taxane efficacy could be lower (hypothesis).",
+     "consequence": "aneuploidy_tumour",
+     "direction": "unclear",
+     "level": 1,
+     "pmid": "17234259",
+     "sentence": "This study demonstrates that weakened spindle checkpoint with reduced expression of BubR1, but not Mad2, is associated with acquired paclitaxel resistance in ovarian carcinoma cells.",
+     "system": "human ovarian carcinoma cell line (paclitaxel-resistant SKOV3-TR30 vs parental SKOV3)",
+     "year": 2007
+    }
+   ],
+   "level": 2
+  },
+  {
+   "drug": "SOMATROPIN",
+   "evidence": [
+    {
+     "caveats": "Mostly childhood-cancer survivors; caution for a child with rhabdomyosarcoma and cancer-predisposition syndrome; GH contraindicated with active malignancy.",
+     "consequence": "growth_muscle",
+     "direction": "may_harm",
+     "level": 0,
+     "pmid": "35529328",
+     "sentence": "Our findings indicate that the rhGH therapy is not related to all-cause mortality and cancer mortality and cancer incidence, yet it seems to trigger a second tumor risk.",
+     "system": "meta-analysis of 24 articles, 254,776 persons, 2022",
+     "year": 2022
+    },
+    {
+     "caveats": "OTRO sindrome (Noonan, via RAS-MAPK); la propia revision dice que la informacion de dosis/tiempo es heterogenea. Analogia de prudencia para predisposicion oncologica, no evidencia en MVA. El nino ya tiene rabdomiosarcoma.",
+     "consequence": "growth_muscle",
+     "direction": "may_harm",
+     "level": 0,
+     "pmid": "39974721",
+     "sentence": "Among patients on growth hormone, cancer development was reported in seven patients with genetically confirmed NS, and five patients with clinically diagnosed NS.",
+     "system": "humanos con sindrome de Noonan (otro sindrome de predisposicion)",
+     "year": 2025
+    },
+    {
+     "caveats": "Subtipo especifico (MYOD1 L122R), ultra raro; IGF2 no es lo mismo que GH/IGF-1 sistemico. Inferencia de prudencia (L0). El subtipo del nino no esta establecido en mis datos.",
+     "consequence": "growth_muscle",
+     "direction": "may_harm",
+     "level": 0,
+     "pmid": "41758938",
+     "sentence": "Ligand-receptor analysis uncovered paracrine insulin-like growth factor 2 (IGF2)-IGF1 receptor (IGF1R)-phosphatidylinositol 3-kinase (PI3K) signaling from progenitor to transition/differentiated states",
+     "system": "rabdomiosarcoma de celulas fusiformes MYOD1-mutante, tumores humanos y PDX",
+     "year": 2026
+    }
+   ],
+   "level": 0
+  },
+  {
+   "drug": "TEMOZOLOMIDE",
+   "evidence": [
+    {
+     "caveats": "Grade>=3 adverse events (mainly hematologic) increased with temozolomide; relevant for a child with possible chemotherapy intolerance (see dactinomycin in BUB1B MVA).",
+     "consequence": "tumour",
+     "direction": "may_harm",
+     "level": 0,
+     "pmid": "34343032",
+     "sentence": "Overall, patients experienced adverse events ≥ grade 3 more frequently with VIT than VI (98% v 78%, respectively; P = .009), including a significant excess of hematologic toxicity (81% v 61%; P = .025).ConclusionThe addition of temozolomide to VI improved chemotherapy efficacy for patients with relapsed RMS, with manageable increase in toxicity.",
+     "system": "relapsed RMS patients, randomized phase II, 2021",
+     "year": 2021
+    }
+   ],
+   "level": 0
+  },
+  {
+   "drug": "TREOSULFAN",
+   "evidence": [
+    {
+     "caveats": "Single case; cause of rejection unclear; the conditioning regimen is only one component (the abstract states \"using a treosulfan-based reduced intensity conditioning (RIC) regimen\").",
+     "consequence": "aneuploidy_tumour",
+     "direction": "unclear",
+     "level": 3,
+     "pmid": "31053147",
+     "sentence": "The engraftment occurred, and no severe toxicity was observed soon after the HSCT, but on day + 47, graft rejection was detected.",
+     "system": "11-year-old boy with MVA1 (BUB1B), MDS with monosomy 7, HSCT (case report)",
+     "year": 2019
+    },
+    {
+     "caveats": "Single patient with advanced MDS; causality of death cannot be assigned to one agent.",
+     "consequence": "other_context",
+     "direction": "may_harm",
+     "level": 3,
+     "pmid": "31053147",
+     "sentence": "It was followed by prolonged pancytopenia and sepsis with multi-organ Enterococcus faecium infection, which led to the patient's death on day + 156 after HSCT.",
+     "system": "11-year-old boy, MVA1 (BUB1B), 2019",
+     "year": 2019
+    }
+   ],
+   "level": 3
+  },
+  {
+   "drug": "VINCRISTINE",
+   "evidence": [
+    {
+     "caveats": "The SAC defect is DESI1 knockdown (FoxM1/Aurora B), not BUBR1; supports only the mitotic-slippage direction for vinca alkaloids in cells with a weak SAC.",
+     "consequence": "aneuploidy_tumour",
+     "direction": "unclear",
+     "level": 1,
+     "pmid": "39698932",
+     "sentence": "Importantly, we found that DESI1 knockdown reduced sensitivity to vincristine by inducing mitotic slippage.",
+     "system": "human cancer cell line (DESI1 knockdown lowers SAC activity)",
+     "year": 2024
+    }
+   ],
+   "level": 1
+  }
+ ],
+ "considered_not_proposed": [
+  {
+   "drug": "CHLOROTHIAZIDE",
+   "levels": [
+    0
+   ],
+   "why_not": "no verified finding that meets the rules (only level 0, unclear or no-effect findings)"
+  },
+  {
+   "drug": "CORTICOTROPIN",
+   "levels": [
+    3
+   ],
+   "why_not": "no verified finding that meets the rules (only level 0, unclear or no-effect findings)"
+  },
+  {
+   "drug": "DASATINIB ANHYDROUS",
+   "levels": [
+    0
+   ],
+   "why_not": "no verified finding that meets the rules (only level 0, unclear or no-effect findings)"
+  },
+  {
+   "drug": "DENOSUMAB",
+   "levels": [
+    1
+   ],
+   "why_not": "editorial exclusion: only a murine anti-RANKL antibody in progeroid (Zmpste24) mice, with a bone and muscle readout; no link to the spindle checkpoint or to a feature of the child"
+  },
+  {
+   "drug": "ERIBULIN",
+   "levels": [
+    1
+   ],
+   "why_not": "editorial exclusion: a tubulin binder: BUB1B variants and a weak checkpoint are linked to reduced sensitivity to taxanes (level 2) and cells from MVA infants do not arrest in mitosis with spindle poisons"
+  },
+  {
+   "drug": "FUROSEMIDE",
+   "levels": [
+    0
+   ],
+   "why_not": "no verified finding that meets the rules (only level 0, unclear or no-effect findings)"
+  },
+  {
+   "drug": "HYDROCHLOROTHIAZIDE",
+   "levels": [
+    0
+   ],
+   "why_not": "no verified finding that meets the rules (only level 0, unclear or no-effect findings)"
+  },
+  {
+   "drug": "HYDROXYCHLOROQUINE",
+   "levels": [
+    0
+   ],
+   "why_not": "no verified finding that meets the rules (only level 0, unclear or no-effect findings)"
+  },
+  {
+   "drug": "MECASERMIN",
+   "levels": [
+    0,
+    1,
+    3
+   ],
+   "why_not": "editorial exclusion: IGF-1 axis with the same tumour concern as growth hormone; the evidence is single cases in other syndromes, one of them with IGF-1 resistance"
+  },
+  {
+   "drug": "NIACINAMIDE",
+   "levels": [
+    0,
+    1
+   ],
+   "why_not": "editorial exclusion: no approved systemic drug label (it is sold as a vitamin or supplement); the one level-1 finding is a Drosophila model, and a mouse study found that nicotinamide supplementation conferred resistance to chemotherapy in tumours"
+  },
+  {
+   "drug": "RUXOLITINIB",
+   "levels": [
+    1
+   ],
+   "why_not": "no verified finding that meets the rules (only level 0, unclear or no-effect findings)"
+  },
+  {
+   "drug": "SELINEXOR",
+   "levels": [
+    1
+   ],
+   "why_not": "editorial exclusion: one computational line (B2) plus a literature finding, which E9 never accepts as a candidate; the finding is in Wilms tumour and not rhabdomyosarcoma, it ranks 1795 of 2128 in line A, and its label has no paediatric use"
+  },
+  {
+   "drug": "SODIUM CITRATE",
+   "levels": [
+    0
+   ],
+   "why_not": "no verified finding that meets the rules (only level 0, unclear or no-effect findings)"
+  },
+  {
+   "drug": "SOMATROPIN",
+   "levels": [
+    0,
+    1,
+    3
+   ],
+   "why_not": "editorial exclusion: growth hormone: the label contraindicates active malignancy and the child has had rhabdomyosarcoma; the evidence is case reports in other syndromes (Meier-Gorlin, Seckel) and one unsatisfactory response in MVA type 2; a meta-analysis points to a second-tumour risk"
+  },
+  {
+   "drug": "TEMOZOLOMIDE",
+   "levels": [
+    0
+   ],
+   "why_not": "no verified finding that meets the rules (only level 0, unclear or no-effect findings)"
+  },
+  {
+   "drug": "TEMSIROLIMUS",
+   "levels": [
+    0
+   ],
+   "why_not": "no verified finding that meets the rules (only level 0, unclear or no-effect findings)"
+  },
+  {
+   "drug": "VENETOCLAX",
+   "levels": [
+    0
+   ],
+   "why_not": "no verified finding that meets the rules (only level 0, unclear or no-effect findings)"
+  }
+ ],
+ "n_drugs_with_verified_entries": 33,
+ "proposed": [
+  {
+   "against_or_risk": [
+    {
+     "caveats": "Supraphysiological concentrations (mM) in cancer lines; the direction of the BUBR1 change is not stated in the abstract; effect depended on low glucose. The same paper reports genotoxicity in non-cancer cells. No senescence/p53 readout; no BubR1-defective system. Classified L1 only because a SAC/CIN-related effect was measured.",
+     "consequence": "senescence_p53",
+     "direction": "may_harm",
+     "level": 1,
+     "pmid": "35568294",
+     "sentence": "Metformin deregulated the expression of BUBR1 and MAD2, two core genes of spindle assembly checkpoint (SAC) that surveillances chromosome segregation.",
+     "system": "Human cancer cell lines (HeLa, A375, A549, QGY) at 1-16 mM",
+     "year": 2022
+    },
+    {
+     "caveats": "Dosis en dieta de raton, no extrapolable; se cita solo como evidencia de ventana terapeutica estrecha en ese modelo.",
+     "consequence": "growth_muscle",
+     "direction": "may_harm",
+     "level": 0,
+     "pmid": "23900241",
+     "sentence": "long-term treatment with metformin (0.1% w/w in diet) starting at middle age extends healthspan and lifespan in male mice, while a higher dose (1% w/w) was toxic.",
+     "system": "ratones, dieta con metformina",
+     "year": 2013
+    },
+    {
+     "caveats": "Adultos con DM2, no ninos ni MVA. Indica que no hay base clinica para esperar ganancia de masa muscular. No hay datos de crecimiento pediatrico en las busquedas.",
+     "consequence": "growth_muscle",
+     "direction": "no_effect",
+     "level": 0,
+     "pmid": "40870444",
+     "sentence": "Metformin was widely found to be weight-neutral with minimal effects on muscle mass.",
+     "system": "revision narrativa, adultos con diabetes tipo 2",
+     "year": 2025
+    }
+   ],
+   "best_level": 1,
+   "drug": "METFORMIN",
+   "experiment": "The same readouts, plus AMPK activity and oxidative damage. It is refuted if BUBR1 or MAD2 fall further or if aneuploidy rises.",
+   "group": "constitutional",
+   "hazard_for_constitutional_mosaic": false,
+   "label": {
+    "also_read": null,
+    "min_age_years": 10.0,
+    "quote": "The safety and effectiveness of metformin hydrochloride for the treatment of type 2 diabetes mellitus have been established in pediatric patients 10 to 16 years old.",
+    "route": "oral",
+    "scope": "type 2 diabetes mellitus in patients 10 to 16 years old (not established below 10 years); label read: a repackager's metformin hydrochloride tablets",
+    "source": "DailyMed setid=23aa50c5-28fe-4322-b5c6-1f1c48409b16, label effective 20260921, read 2026-10-08",
+    "verdict": "established"
+   },
+   "link": "Consequence 2 (aneuploidy-related stress): it lowered oxidative damage in cell lines with constitutional trisomy 21; other work reports that it changes BUBR1 and MAD2 expression in tumour cells, so the direction is mixed.",
+   "mixed_evidence": true,
+   "sibling_of": null,
+   "signals": {
+    "has_curated_target": false,
+    "in_B2_robust_set": false,
+    "in_line_C_hits": false,
+    "line_A_rank": 463,
+    "line_A_scored_drugs": 2128,
+    "line_D_note_exploratory": "unclear",
+    "random_query_fraction_in_top50": null
+   },
+   "supporting": [
+    {
+     "caveats": "Constitutional trisomy 21, not MVA or BUB1B. Only oxidative stress and AMPK-NF-kB markers were measured; no proteotoxic, growth or viability readout. Single in vitro study. An opposite signal exists: AMPK activation (AICAR) kills aneuploid cells in other systems.",
+     "consequence": "proteotoxic_energy",
+     "direction": "may_help",
+     "level": 1,
+     "pmid": "40552127",
+     "sentence": "Our results demonstrate that metformin treatment significantly reduced total oxidative capacity (TOC) and levels of oxidative DNA/RNA damage products in T21 cell lines (CCL-84 and CCL-54).",
+     "system": "human trisomy 21 fibroblasts (CCL-54, CCL-84) vs normal fibroblasts, in vitro",
+     "year": 2025
+    }
+   ]
+  },
+  {
+   "against_or_risk": [],
+   "best_level": 1,
+   "drug": "PHENYLBUTANOIC ACID",
+   "experiment": "In patient-derived BUB1B-hypomorphic or MVA fibroblasts against a euploid control: senescence (SA-beta-gal, p21), protein aggregation and aneuploidy, with the compound against vehicle. It is refuted if senescence or aneuploidy rise, or if no readout improves.",
+   "group": "constitutional",
+   "hazard_for_constitutional_mosaic": false,
+   "label": {
+    "also_read": null,
+    "min_age_years": null,
+    "quote": "It is indicated in all patients with neonatal-onset deficiency (complete enzymatic deficiency, presenting within the first 28 days of life).",
+    "route": "oral",
+    "scope": "adjunctive therapy of urea cycle disorders, including neonatal-onset disease (presenting within the first 28 days of life); tablets are not recommended for neonates, infants and children up to 20 kg; label read: Buphenyl (sodium phenylbutyrate, Horizon)",
+    "source": "DailyMed setid=463a36fa-3eb2-4326-8bd0-c8c7a11bca3a, label effective 20241030, read 2026-10-08",
+    "verdict": "established"
+   },
+   "link": "Consequences 2 and 3 (proteotoxic stress and senescence): the chemical chaperone 4-phenylbutyrate prevented premature senescence in fibroblasts from trisomies 21, 18 and 13 and reduced protein aggregates and apoptosis in trisomic neurons; these are whole-chromosome trisomies, not mosaic aneuploidy.",
+   "mixed_evidence": false,
+   "sibling_of": null,
+   "signals": {
+    "has_curated_target": false,
+    "in_B2_robust_set": false,
+    "in_line_C_hits": false,
+    "line_A_rank": null,
+    "line_A_scored_drugs": 2128,
+    "line_D_note_exploratory": "unclear",
+    "random_query_fraction_in_top50": null
+   },
+   "supporting": [
+    {
+     "caveats": "Aneuploidy-associated proteotoxic stress in whole-chromosome trisomy, not BUB1B-mosaic aneuploidy; in vitro only; 4-PBA approved for urea cycle disorders; high doses in vitro; relevance to the child growth/muscle phenotype unproven.",
+     "consequence": "senescence_p53",
+     "direction": "may_help",
+     "level": 1,
+     "pmid": "31356639",
+     "sentence": "Notably, 4-PBA treatment successfully prevented the progression of premature senescence in secondary fibroblasts derived from trisomy 21 iPSCs.",
+     "system": "human trisomy 21/18/13 fibroblasts and T21 iPSC-derived fibroblasts, 2019",
+     "year": 2019
+    },
+    {
+     "caveats": "Neurons (not muscle/kidney); trisomy not mosaic aneuploidy; in vitro.",
+     "consequence": "proteotoxic_energy",
+     "direction": "may_help",
+     "level": 1,
+     "pmid": "32820178",
+     "sentence": "Intriguingly, treatment with sodium 4-phenylbutyrate, a chemical chaperone, successfully decreased the formation of protein aggregates and prevented the progression of cell apoptosis in trisomic neurons.",
+     "system": "human trisomy 21 and 13 iPSC-derived neurons, 2020",
+     "year": 2020
+    }
+   ]
+  },
+  {
+   "against_or_risk": [
+    {
+     "caveats": "Chromosome instability was measured in yeast. TORC1 inactivation is not shown here to be the same as treatment with sirolimus at clinical exposure.",
+     "consequence": "aneuploidy_tumour",
+     "direction": "may_harm",
+     "level": 1,
+     "pmid": "35141499",
+     "sentence": "This mitotic slippage caused chromosome instability.",
+     "system": "budding yeast",
+     "year": 2022
+    },
+    {
+     "caveats": "Mitotic slippage is not chromosome instability; the abstract reports instability only for yeast.",
+     "consequence": "aneuploidy_tumour",
+     "direction": "may_harm",
+     "level": 1,
+     "pmid": "35141499",
+     "sentence": "In human cells, mammalian TORC1 (mTORC1) inactivation also invoked mitotic slippage, indicating that TORC1 inactivation-induced mitotic slippage is conserved from yeast to mammalian cells.",
+     "system": "human cells",
+     "year": 2022
+    },
+    {
+     "caveats": "Authors' interpretation; the rapamycin result itself is reported in Supplementary Fig. 6C, not read here.",
+     "consequence": "proteotoxic_energy",
+     "direction": "may_harm",
+     "level": 1,
+     "pmid": "41820377",
+     "sentence": "These results suggest that TOR inhibition or non-physiological levels of autophagy might have a negative impact on the proliferative capacity of highly aneuploid NBs.",
+     "system": "Drosophila neuroblasts with spindle-checkpoint genes depleted",
+     "year": 2026
+    },
+    {
+     "caveats": "Observational, in children with a kidney transplant and other treatments; not MVA.",
+     "consequence": "growth_muscle",
+     "direction": "may_harm",
+     "level": 0,
+     "pmid": "21380626",
+     "sentence": "SRL exerted an adverse effect on growth as demonstrated by significantly lower (p < 0.05) growth velocity (cm/year) and smaller change in height SD in the SRL group after 6 (4.08 vs. 6.56 and -0.05 vs. 0.14), 12 (4.44 vs. 6.11 and -0.03 vs. 0.28) and 24 (4.53 vs. 6.03 and -0.04 vs. 0.53) months of treatment.",
+     "system": "kidney-transplanted children, sirolimus against matched controls (34 and 34)",
+     "year": 2011
+    }
+   ],
+   "best_level": 1,
+   "drug": "SIROLIMUS",
+   "experiment": "In BUB1B-hypomorphic human cells (patient-derived fibroblasts or myoblasts if they exist, otherwise a hypomorphic BUB1B allele made in a myoblast or fibroblast line): phospho-S6 as a measure of mTORC1, aneuploidy by single-cell sequencing or chromosome spreads, senescence (SA-beta-gal, p21), proteotoxic markers and myotube differentiation, with the mTOR inhibitor against vehicle and a second mTOR inhibitor as a control. It is refuted if aneuploidy or senescence rise, or if no readout improves.",
+   "group": "constitutional",
+   "hazard_for_constitutional_mosaic": false,
+   "label": {
+    "also_read": null,
+    "min_age_years": 13.0,
+    "quote": "The safety and efficacy of sirolimus oral solution and sirolimus tablets have been established for prophylaxis of organ rejection in renal transplantation in children ≥13 years judged to be at low- to moderate-immunologic risk.",
+    "route": "oral",
+    "scope": "prophylaxis of organ rejection in renal transplantation in children 13 years and older at low to moderate immunologic risk (not established below 13 years); label read: a repackager's sirolimus tablets",
+    "source": "DailyMed setid=9970e495-29c4-47b8-a3e9-c9b365abe400, label effective 20260911, read 2026-10-08",
+    "verdict": "established"
+   },
+   "link": "Consequence 4 (growth restriction and muscle atrophy) and consequence 2 (aneuploidy-related stress): mTORC1 hyperactivity correlates with sarcopenia in mice with BubR1 alleles, and mTOR inhibition rescued the aneuploid neuroblasts of a Drosophila model of spindle-checkpoint chromosomal instability.",
+   "mixed_evidence": true,
+   "sibling_of": null,
+   "signals": {
+    "has_curated_target": true,
+    "in_B2_robust_set": false,
+    "in_line_C_hits": false,
+    "line_A_rank": 433,
+    "line_A_scored_drugs": 2128,
+    "line_D_note_exploratory": "strengthens_checkpoint",
+    "random_query_fraction_in_top50": null
+   },
+   "supporting": [
+    {
+     "caveats": "Lamin A progeria cells in vitro; rapamycin is immunosuppressive and growth-inhibiting in a growth-failure child.",
+     "consequence": "growth_muscle",
+     "direction": "may_help",
+     "level": 1,
+     "pmid": "31312666",
+     "sentence": "Interestingly, we observed that mTORC1 inhibition with rapamycin improved myogenic and chondrogenic differentiation and reduced levels of apoptosis and senescence in Zmpste24 -/- MDSPCs.",
+     "system": "Zmpste24-/- progeroid mouse muscle-derived stem/progenitor cells, 2019",
+     "year": 2019
+    },
+    {
+     "caveats": "Fly; SAC genes bub3/rod, not BUBR1. \"Similar result\" refers to rescue of neuroblast number by autophagy-boosting interventions. Rescue did NOT extend to Pros+ cell number or larval brain size, and the authors warn TOR inhibition might be detrimental to highly aneuploid neuroblasts (see against_or_risk).",
+     "consequence": "proteotoxic_energy",
+     "direction": "may_help",
+     "level": 1,
+     "pmid": "41820377",
+     "sentence": "A similar result was obtained by feeding larvae with the TOR inhibitor Rapamycin",
+     "system": "Drosophila larval brain, neural-stem-cell depletion of SAC genes bub3 or rod (CIN/MVA-like microcephaly model); rapamycin = SIROLIMUS in universe",
+     "year": 2026
+    }
+   ]
+  },
+  {
+   "against_or_risk": [],
+   "best_level": 0,
+   "drug": "EVEROLIMUS",
+   "experiment": "In BUB1B-hypomorphic human cells (patient-derived fibroblasts or myoblasts if they exist, otherwise a hypomorphic BUB1B allele made in a myoblast or fibroblast line): phospho-S6 as a measure of mTORC1, aneuploidy by single-cell sequencing or chromosome spreads, senescence (SA-beta-gal, p21), proteotoxic markers and myotube differentiation, with the mTOR inhibitor against vehicle and a second mTOR inhibitor as a control. It is refuted if aneuploidy or senescence rise, or if no readout improves.",
+   "group": "class_sibling",
+   "hazard_for_constitutional_mosaic": false,
+   "label": {
+    "also_read": [
+     {
+      "product": "Zortress",
+      "setid": "e082a024-7850-400b-a5c2-2a140612562a"
+     }
+    ],
+    "min_age_years": 1.0,
+    "quote": "The safety and effectiveness of AFINITOR/AFINITOR DISPERZ have been established in pediatric patients age 1 year and older with TSC-associated SEGA that requires therapeutic intervention but cannot be curatively resected.",
+    "route": "oral",
+    "scope": "label read: AFINITOR and AFINITOR DISPERZ; TSC-associated subependymal giant cell astrocytoma from 1 year (not established below 1 year); the ZORTRESS label (transplantation) says paediatric use below 18 years is not established",
+    "source": "DailyMed setid=2150f73a-179b-4afc-b8ce-67c85cc72f04, label effective 20260601, read 2026-10-08",
+    "verdict": "established"
+   },
+   "link": "Consequence 4 (growth restriction and muscle atrophy) and consequence 2 (aneuploidy-related stress): mTORC1 hyperactivity correlates with sarcopenia in mice with BubR1 alleles, and mTOR inhibition rescued the aneuploid neuroblasts of a Drosophila model of spindle-checkpoint chromosomal instability.",
+   "mixed_evidence": false,
+   "sibling_of": "SIROLIMUS",
+   "signals": {
+    "has_curated_target": true,
+    "in_B2_robust_set": false,
+    "in_line_C_hits": false,
+    "line_A_rank": 448,
+    "line_A_scored_drugs": 2128,
+    "line_D_note_exploratory": "strengthens_checkpoint",
+    "random_query_fraction_in_top50": null
+   },
+   "supporting": [
+    {
+     "caveats": "El resumen dice solo 'rapalog'; el texto completo nombra 'RAD001'. La equivalencia RAD001 = everolimus NO esta verificada en el texto citado (sinonimo conocido, marcado como no verificado). Rata vieja, no BubR1, no nino. Solo en 'select muscle groups'.",
+     "consequence": "growth_muscle",
+     "direction": "may_help",
+     "level": 0,
+     "pmid": "31308131",
+     "sentence": "Furthermore, partial inhibition of the mTORC1 pathway counteracted sarcopenia, as determined by observing an increase in muscle mass and fiber type cross-sectional area in select muscle groups",
+     "system": "ratas envejecidas (sarcopenia), rapalog de dosis baja (RAD001 en el texto completo)",
+     "year": 2019
+    },
+    {
+     "caveats": "Tema colateral (consecuencia tumoral). Combinacion con lenvatinib; RMS recurrente/refractario, no MVA. Respuestas escasas; el estudio no alcanzo el objetivo de eficacia ('Despite unmet efficacy endpoints').",
+     "consequence": "growth_muscle",
+     "direction": "may_help",
+     "level": 0,
+     "pmid": "40313040",
+     "sentence": "Two patients with RMS experienced partial response by Week 16.",
+     "system": "ninos/adultos jovenes con tumores solidos recurrentes (fase 1/2, lenvatinib + everolimus), incluye rabdomiosarcoma",
+     "year": 2025
+    }
+   ]
+  },
+  {
+   "against_or_risk": [],
+   "best_level": 0,
+   "drug": "SELUMETINIB",
+   "experiment": "In tumour cells of the child, if available, or in rhabdomyosarcoma lines with graded aneuploidy and spindle-checkpoint strength: sensitivity against aneuploidy score, and the viability of the patient's non-tumour cells in parallel. It is refuted if sensitivity does not track aneuploidy or if non-tumour cells are as sensitive.",
+   "group": "class_sibling",
+   "hazard_for_constitutional_mosaic": false,
+   "label": {
+    "also_read": null,
+    "min_age_years": 1.0,
+    "quote": "The safety and effectiveness have been established in pediatric patients 1 year of age and older with NF1 who have inoperable PN",
+    "route": "oral",
+    "scope": "neurofibromatosis type 1 with symptomatic, inoperable plexiform neurofibromas, from 1 year (not established below 1 year); growth plate dysplasia in young rats",
+    "source": "DailyMed setid=7d042c61-f28f-4ab5-ab10-d7558c0d49ff, label effective 20260526, read 2026-10-08",
+    "verdict": "established"
+   },
+   "link": "Consequence 5 (tumour predisposition), tumour context only: highly aneuploid, non-transformed human clones were more sensitive to the MEK inhibitor trametinib; the same property is a hazard for normal aneuploid cells.",
+   "mixed_evidence": false,
+   "sibling_of": "TRAMETINIB",
+   "signals": {
+    "has_curated_target": false,
+    "in_B2_robust_set": false,
+    "in_line_C_hits": false,
+    "line_A_rank": 517,
+    "line_A_scored_drugs": 2128,
+    "line_D_note_exploratory": "unclear",
+    "random_query_fraction_in_top50": null
+   },
+   "supporting": []
+  },
+  {
+   "against_or_risk": [],
+   "best_level": 1,
+   "drug": "BORTEZOMIB",
+   "experiment": "Not a treatment hypothesis for the constitutional state. As a hazard check: its toxicity on the patient's non-tumour fibroblasts against a euploid control; as a tumour hypothesis: sensitivity of tumour lines against aneuploidy score.",
+   "group": "tumour_context",
+   "hazard_for_constitutional_mosaic": true,
+   "label": {
+    "also_read": null,
+    "min_age_years": null,
+    "quote": "Safety and effectiveness have not been established in pediatric patients.",
+    "route": "parenteral",
+    "scope": "not established; studied with chemotherapy in paediatric and young adult lymphoid malignancies",
+    "source": "DailyMed setid=b605b541-4bfd-db3e-9710-11c27f6dee6c, label effective 20260909, read 2026-10-08",
+    "verdict": "not_established"
+   },
+   "link": "Consequence 2 (proteotoxic stress), tumour context only: aneuploid human cells were more sensitive to the proteasome inhibitor, which is the same property that makes it a hazard for constitutionally aneuploid normal cells.",
+   "mixed_evidence": false,
+   "sibling_of": null,
+   "signals": {
+    "has_curated_target": true,
+    "in_B2_robust_set": false,
+    "in_line_C_hits": false,
+    "line_A_rank": 280,
+    "line_A_scored_drugs": 2128,
+    "line_D_note_exploratory": "strengthens_checkpoint",
+    "random_query_fraction_in_top50": null
+   },
+   "supporting": [
+    {
+     "caveats": "Directly relevant to the harm side: non-cancer aneuploid cells were more sensitive, so bortezomib would be expected to be more toxic to aneuploid cells, not protective (inference). Aneuploidy induced by reversine (an MPS1 inhibitor), not by BUB1B loss.",
+     "consequence": "proteotoxic_energy",
+     "direction": "selectively_kills_aneuploid_cells",
+     "level": 1,
+     "pmid": "39247952",
+     "sentence": "Reversine-induced aneuploidization of two near-diploid non-transformed cell lines (BJ-hTERT and IMR90) and three near-diploid cancer cell lines (CAL51, SW48 and HCT116) rendered four of the five cell lines more sensitive to bortezomib",
+     "system": "reversine-induced aneuploid non-transformed human fibroblasts (BJ-hTERT, IMR90) and cancer lines (Cancer Discov 2024)",
+     "year": 2024
+    },
+    {
+     "caveats": "RPE1 is a non-transformed hTERT epithelial line; clones were derived by inducing missegregation. Sensitivity was measured with bortezomib and MG132. Clinical translation to a child with mosaic aneuploidy is not assessed.",
+     "consequence": "proteotoxic_energy",
+     "direction": "selectively_kills_aneuploid_cells",
+     "level": 1,
+     "pmid": "39247952",
+     "sentence": "The highly-aneuploid clones were significantly more sensitive to proteasome inhibition than their pseudo-diploid counterparts",
+     "system": "isogenic RPE1 clones with different aneuploidy levels (Cancer Discov 2024)",
+     "year": 2024
+    },
+    {
+     "caveats": "Class-level statement; oncology context.",
+     "consequence": "proteotoxic_energy",
+     "direction": "selectively_kills_aneuploid_cells",
+     "level": 1,
+     "pmid": "39247952",
+     "sentence": "At the protein level, aneuploid cells mitigate proteotoxic stress by reducing protein translation and increasing protein degradation, rendering them more sensitive to proteasome inhibition.",
+     "system": "cell-line panels and multiple myeloma patients (abstract, Cancer Discov 2024)",
+     "year": 2024
+    }
+   ]
+  },
+  {
+   "against_or_risk": [],
+   "best_level": 1,
+   "drug": "BOSUTINIB",
+   "experiment": "Not a treatment hypothesis for the constitutional state. As a hazard check: its toxicity on the patient's non-tumour fibroblasts against a euploid control; as a tumour hypothesis: sensitivity of tumour lines against checkpoint strength.",
+   "group": "tumour_context",
+   "hazard_for_constitutional_mosaic": true,
+   "label": {
+    "also_read": null,
+    "min_age_years": 1.0,
+    "quote": "The safety and effectiveness of BOSULIF have been established in pediatric patients 1 year of age and older with newly-diagnosed CP Ph+ CML and CP Ph+ CML that is resistant or intolerant to prior therapy.",
+    "route": "oral",
+    "scope": "chronic-phase Philadelphia-chromosome-positive chronic myelogenous leukaemia (newly diagnosed, or resistant or intolerant) from 1 year; no other paediatric indication; label read: Bosulif (Pfizer)",
+    "source": "DailyMed setid=adc84ad5-a04d-4fee-9ba8-91f7abd928e3, label effective 20260310, read 2026-10-08",
+    "verdict": "established"
+   },
+   "link": "Consequence 5 (tumour predisposition), tumour context and a hazard: cells with an ongoing chromosomal instability caused by weakening the spindle checkpoint were more sensitive to the Src inhibitor SKI606 (the code name of bosutinib; the abstract uses the code name, and a separate paper, PMID 39924517, states \"bosutinib (SKI-606)\"), the same selectivity that would threaten normal aneuploid cells.",
+   "mixed_evidence": false,
+   "sibling_of": null,
+   "signals": {
+    "has_curated_target": true,
+    "in_B2_robust_set": false,
+    "in_line_C_hits": false,
+    "line_A_rank": 461,
+    "line_A_scored_drugs": 2128,
+    "line_D_note_exploratory": "weakens_checkpoint",
+    "random_query_fraction_in_top50": null
+   },
+   "supporting": [
+    {
+     "caveats": "SKI606 is the research name of bosutinib (not named in abstract; verify). In vitro CIN induced by SAC alleviation (not BUB1B mutation); toxic to dividing cells with weak SAC, so could be harmful to MVA tissues or useful against a tumour; no dose/PK data; bosutinib is approved for CML only.",
+     "consequence": "other_context",
+     "direction": "selectively_kills_aneuploid_cells",
+     "level": 1,
+     "pmid": "31980556",
+     "sentence": "Furthermore, cells with an ongoing CIN phenotype, induced by spindle assembly checkpoint (SAC) alleviation, are significantly more sensitive to the Src kinase inhibitor SKI606.",
+     "system": "human cell lines with spindle checkpoint alleviation (compound screen), 2020",
+     "year": 2020
+    }
+   ]
+  },
+  {
+   "against_or_risk": [
+    {
+     "caveats": "Selective toxicity to trisomic cells; the MVA patient is mosaic aneuploid, so such agents may be harmful; no BubR1 data.",
+     "consequence": "tumour",
+     "direction": "may_harm",
+     "level": 1,
+     "pmid": "21315436",
+     "sentence": "We have identified the energy stress-inducing agent AICAR, the protein folding inhibitor 17-AAG, and the autophagy inhibitor chloroquine as exhibiting this property.",
+     "system": "aneuploid MEFs and human cancer cell lines, 2011",
+     "year": 2011
+    },
+    {
+     "caveats": "Constitutional trisomic lines; conflicts with the flux defect reported in RPE-1 after induced missegregation (Santaguida 2015).",
+     "consequence": "proteotoxic_energy",
+     "direction": "unclear",
+     "level": 1,
+     "pmid": "34215848",
+     "sentence": "This analysis showed that autophagic flux was generally unaffected in aneuploid cells, with LC3-II increasing to a similar level or more after bafilomycin treatment than in the parental diploid control",
+     "system": "human constitutional trisomic cell lines",
+     "year": 2021
+    },
+    {
+     "caveats": "The authors cite their own unpublished data; weak evidence.",
+     "consequence": "proteotoxic_energy",
+     "direction": "unclear",
+     "level": 0,
+     "pmid": "26404941",
+     "sentence": "Our initial efforts to address this question led to the remarkable finding that many cancer cell lines do not experience LC3-II clearance defects following chromosome missegregation",
+     "system": "cancer cell lines (comment inside Santaguida 2015)",
+     "year": 2015
+    },
+    {
+     "caveats": "The risk reading is an inference (L0 for the child); the underlying mouse observation is L1.",
+     "consequence": "proteotoxic_energy",
+     "direction": "may_harm",
+     "level": 0,
+     "pmid": "34215848",
+     "sentence": "Moreover, murine aneuploid cells were selectively sensitive to treatment with chloroquine, a drug that impairs lysosomal function and thus blocks autophagic degradation",
+     "system": "trisomic MEFs and aneuploid cell models",
+     "year": 2021
+    }
+   ],
+   "best_level": 1,
+   "drug": "CHLOROQUINE",
+   "experiment": "Not a treatment hypothesis for the constitutional state. As a hazard check: its toxicity on the patient's non-tumour fibroblasts against a euploid control; as a tumour hypothesis: sensitivity of tumour lines against aneuploidy score.",
+   "group": "tumour_context",
+   "hazard_for_constitutional_mosaic": true,
+   "label": {
+    "also_read": null,
+    "min_age_years": null,
+    "quote": "Pediatric Use See WARNINGS and DOSAGE AND ADMINISTRATION",
+    "route": "oral",
+    "scope": "the paediatric section only refers to the warnings and the dosage section (paediatric dosing for malaria); no statement of established use and no minimum age (implicit paediatric labelling)",
+    "source": "DailyMed setid=eb02c52d-907c-43fb-aa8f-2f378a9087e7, label effective 20260929, read 2026-10-08",
+    "verdict": "established"
+   },
+   "link": "Consequence 2 (proteotoxic and autophagic stress), tumour context only: it was lethal to trisomic mouse fibroblasts and not to euploid ones, which is also a hazard for normal aneuploid cells of the mosaic.",
+   "mixed_evidence": false,
+   "sibling_of": null,
+   "signals": {
+    "has_curated_target": false,
+    "in_B2_robust_set": false,
+    "in_line_C_hits": false,
+    "line_A_rank": 102,
+    "line_A_scored_drugs": 2128,
+    "line_D_note_exploratory": "unclear",
+    "random_query_fraction_in_top50": null
+   },
+   "supporting": [
+    {
+     "caveats": "Abstract does not state in which system chloroquine selectivity was measured (abstract details only AICAR in trisomic MEFs and AICAR+17-AAG in human cancer lines); full text not retrievable (Europe PMC HTTP 500; NCBI record is abstract-only). Direction is tumour-oriented: for a child with constitutional mosaic aneuploidy this is a TOXICITY signal, not a benefit (inference).",
+     "consequence": "proteotoxic_energy",
+     "direction": "selectively_kills_aneuploid_cells",
+     "level": 1,
+     "pmid": "21315436",
+     "sentence": "Compounds that cause lethality in aneuploid, but not euploid, cells could therefore provide new cancer therapies. We have identified the energy stress-inducing agent AICAR, the protein folding inhibitor 17-AAG, and the autophagy inhibitor chloroquine as exhibiting this property.",
+     "system": "trisomic mouse embryonic fibroblasts (MEFs); autophagy inhibitor; original screen (Tang 2011)",
+     "year": 2011
+    },
+    {
+     "caveats": "Aneuploidy-selective lethality in vitro; not tested in MVA/BUB1B or RMS; chloroquine approved as antimalarial, off-label here.",
+     "consequence": "tumour",
+     "direction": "may_help",
+     "level": 1,
+     "pmid": "21315436",
+     "sentence": "We have identified the energy stress-inducing agent AICAR, the protein folding inhibitor 17-AAG, and the autophagy inhibitor chloroquine as exhibiting this property.",
+     "system": "aneuploid vs euploid MEFs and human cancer cell lines, 2011",
+     "year": 2011
+    },
+    {
+     "caveats": "Sentence cites Tang et al. 2011; it is not new data. The same paper shows aneuploid RPE-1 cells (also after Mad2 or Bub1 knockdown) have reduced LC3-II flux and a lysosomal stress response, the proposed mechanism for the sensitivity (not tested directly with chloroquine killing here).",
+     "consequence": "proteotoxic_energy",
+     "direction": "selectively_kills_aneuploid_cells",
+     "level": 1,
+     "pmid": "26404941",
+     "sentence": "MEFs trisomic for either chromosome 1, 13, 16, or 19 exhibit a higher degree of sensitivity to the lysosome inhibitor chloroquine than euploid cells",
+     "system": "trisomic MEFs (secondary citation of Tang 2011 inside Santaguida 2015; human RPE-1 data in same paper)",
+     "year": 2015
+    },
+    {
+     "caveats": "Secondary citation (mouse). In the same paper human trisomic lines had autophagic flux generally unaffected (see against_or_risk), so the vulnerability may not transfer to every human trisomic line. No chloroquine experiment was done in that paper.",
+     "consequence": "proteotoxic_energy",
+     "direction": "selectively_kills_aneuploid_cells",
+     "level": 1,
+     "pmid": "34215848",
+     "sentence": "Moreover, murine aneuploid cells were selectively sensitive to treatment with chloroquine, a drug that impairs lysosomal function and thus blocks autophagic degradation",
+     "system": "murine aneuploid cells (restated in a human constitutional-trisomy paper, 2021)",
+     "year": 2021
+    }
+   ]
+  },
+  {
+   "against_or_risk": [],
+   "best_level": 1,
+   "drug": "TRAMETINIB",
+   "experiment": "In tumour cells of the child, if available, or in rhabdomyosarcoma lines with graded aneuploidy and spindle-checkpoint strength: sensitivity against aneuploidy score, and the viability of the patient's non-tumour cells in parallel. It is refuted if sensitivity does not track aneuploidy or if non-tumour cells are as sensitive.",
+   "group": "tumour_context",
+   "hazard_for_constitutional_mosaic": false,
+   "label": {
+    "also_read": null,
+    "min_age_years": 1.0,
+    "quote": "The safety and effectiveness of MEKINIST as a single agent in pediatric patients have not been established.",
+    "route": "oral",
+    "scope": "in combination with dabrafenib, BRAF V600E-positive solid tumours and low-grade glioma from 1 year; not established as a single agent in paediatric patients",
+    "source": "DailyMed setid=0002ad27-779d-42ab-83b5-bc65453412a1, label effective 20260507, read 2026-10-08",
+    "verdict": "established"
+   },
+   "link": "Consequence 5 (tumour predisposition), tumour context only: highly aneuploid, non-transformed human clones were more sensitive to the MEK inhibitor trametinib; the same property is a hazard for normal aneuploid cells.",
+   "mixed_evidence": false,
+   "sibling_of": null,
+   "signals": {
+    "has_curated_target": true,
+    "in_B2_robust_set": false,
+    "in_line_C_hits": false,
+    "line_A_rank": 745,
+    "line_A_scored_drugs": 2128,
+    "line_D_note_exploratory": "strengthens_checkpoint",
+    "random_query_fraction_in_top50": null
+   },
+   "supporting": [
+    {
+     "caveats": "Aneuploidy was induced (reversine) in RPE1, not BUB1B-deficient. The same paper says CRAF inhibition is \"mostly cytostatic, rather than cytotoxic\". An anti-proliferative effect on aneuploid cells would also reach the patient's normal mosaic aneuploid tissue. Hypothesis only.",
+     "consequence": "aneuploidy_tumour",
+     "direction": "may_help",
+     "level": 1,
+     "pmid": "39251587",
+     "sentence": "The highly-aneuploid clones were significantly more sensitive to the clinically-approved MEK inhibitor, trametinib (Fig. 5e ), and tended to be more sensitive to selumetinib as well (Supplementary Fig. 9e ).",
+     "system": "non-transformed human RPE1 clones with chemically induced aneuploidy (and cancer lines)",
+     "year": 2024
+    }
+   ]
+  }
+ ],
+ "rules": "Mechanism-guided proposals from the verified literature search (addendum 11, E16: selection rules declared after the results of the lines were known).\n\n    python -m track2.literature_summary [--out out]\n\nInput: the four searches `out/literature_hypotheses/*.json` and their independent re-check `verification.json` (`track2.verify_literature`). Only sentences that the re-check confirmed are used. Rules:\n\nR1 The drug is approved (it is in `data/universe.json`, ChEMBL max_phase 4).\nR2 *Constitutional hypothesis*: at least one verified finding with direction `may_help` and evidence level >= 1 on a feature of the child (growth and muscle, proteotoxic or energy stress, senescence), and no verified level-3\n   harm. *Tumour-context hypothesis*: a verified finding at level >= 1 with direction `may_help` or `selectively_kills_aneuploid_cells` in an aneuploidy or tumour system; for a drug that kills aneuploid cells selectively\n   the same property is recorded as a hazard for the constitutional mosaic. A drug with a verified `may_harm` at level >= 1 is marked as having mixed evidence.\nR3 A *class sibling* is listed with its class representative, never alone, and keeps its own (lower) level.\nR4 *Caution*: a verified harm at level 3 (a case in MVA or BUB1B), a verified `may_harm`, or a finding flagged `use=caution`, whatever the level.\nNo drug reaches level 2 or 3 as a candidate in the literature found. Levels: L0 inferred or indirect; L1 tested in a related system; L2 tested in BUB1B/BUBR1-deficient or MVA-derived human cells or a hypomorphic model with rescue; L3 clinical observation in MVA or BUB1B.\nWrites `out/proposals_review2.json`. The experiments are designs proposed here for each hypothesis, not results.\n"
+}

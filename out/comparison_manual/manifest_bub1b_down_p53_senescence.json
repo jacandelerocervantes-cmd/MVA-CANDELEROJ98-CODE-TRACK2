@@ -1,0 +1,59 @@
+{
+ "chembl_version": "ChEMBL_37",
+ "iterations": 1000,
+ "mechanism": "bub1b_down_p53_senescence",
+ "n_approved_drugs": 2705,
+ "reactome_version": "97",
+ "sensitivity": {
+  "400": {
+   "n_pass": 13,
+   "n_scored": 1128,
+   "top10": [
+    "IXAZOMIB CITRATE",
+    "BORTEZOMIB",
+    "CARFILZOMIB",
+    "RIBOCICLIB",
+    "ABEMACICLIB",
+    "TRILACICLIB",
+    "PALBOCICLIB",
+    "SILTUXIMAB",
+    "GALLIUM NITRATE",
+    "HYDROXYUREA"
+   ]
+  },
+  "700": {
+   "n_pass": 8,
+   "n_scored": 1040,
+   "top10": [
+    "IXAZOMIB CITRATE",
+    "BORTEZOMIB",
+    "CARFILZOMIB",
+    "TRILACICLIB",
+    "RIBOCICLIB",
+    "ABEMACICLIB",
+    "PALBOCICLIB",
+    "SILTUXIMAB",
+    "BELINOSTAT",
+    "ROMIDEPSIN"
+   ]
+  },
+  "900": {
+   "n_pass": 10,
+   "n_scored": 905,
+   "top10": [
+    "BORTEZOMIB",
+    "IXAZOMIB CITRATE",
+    "CARFILZOMIB",
+    "TRILACICLIB",
+    "RIBOCICLIB",
+    "PALBOCICLIB",
+    "ABEMACICLIB",
+    "SILTUXIMAB",
+    "ROMIDEPSIN",
+    "BELINOSTAT"
+   ]
+  }
+ },
+ "string_version": "v12.0",
+ "universe_sha256": "c4df43ba87d3146b117faec7a9050fde3f87ad757004f3b852bcbe01ebbea29c"
+}

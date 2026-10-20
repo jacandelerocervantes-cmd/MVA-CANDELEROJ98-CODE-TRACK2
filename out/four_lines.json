@@ -1,0 +1,928 @@
+{
+ "candidates": [
+  {
+   "B_modules": [
+    "B_mitosis_module_without_generic_complexes"
+   ],
+   "D_direction_exploratory": "strengthens_checkpoint",
+   "candidate": true,
+   "drug_id": "CHEMBL2103830",
+   "evidence": "two_or_more_lines",
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "list": "constitutional_defect",
+   "n_lines": 2,
+   "name": "FOSTAMATINIB",
+   "supported_by": [
+    "A",
+    "B"
+   ],
+   "tier": "B"
+  }
+ ],
+ "lines": {
+  "A": {
+   "evidence": "mean AUC 0.802, 95% interval 0.782-0.821, 200 diseases",
+   "usable": true
+  },
+  "B": {
+   "evidence": "mean AUC 0.717, 95% interval 0.617-0.807, 19 diseases",
+   "usable": true
+  },
+  "C": {
+   "evidence": "observed 22 hits, null 95th percentile 23.0",
+   "usable": false
+  },
+  "D": {
+   "evidence": "4 of 6 textbook perturbations recovered",
+   "usable": false
+  }
+ },
+ "n_usable_lines": 2,
+ "negative_result": false,
+ "not_eligible": [
+  "ASENAPINE",
+  "KETAMINE",
+  "PENBUTOLOL",
+  "TIRBANIBULIN"
+ ],
+ "overlap_vs_chance": {
+  "A_and_B": {
+   "overlap": 1,
+   "p_hypergeometric": 0.09928518849129059,
+   "size_first": 44,
+   "size_second": 5,
+   "universe": 2128
+  },
+  "A_and_C": {
+   "overlap": 0,
+   "p_hypergeometric": 1.0,
+   "size_first": 44,
+   "size_second": 3,
+   "universe": 2128
+  },
+  "B_and_C": {
+   "overlap": 0,
+   "p_hypergeometric": 1.0,
+   "size_first": 5,
+   "size_second": 3,
+   "universe": 2128
+  }
+ },
+ "support_set_sizes": {
+  "A": 44,
+  "B": 6,
+  "B_mitosis_module_without_generic_complexes": 5,
+  "B_phenotype_module": 1,
+  "C": 3
+ },
+ "tier_c_one_line": [
+  {
+   "B_modules": [],
+   "D_direction_exploratory": "unclear",
+   "candidate": false,
+   "drug_id": "CHEMBL629",
+   "evidence": "one_line",
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "list": "constitutional_defect",
+   "n_lines": 1,
+   "name": "AMITRIPTYLINE",
+   "supported_by": [
+    "A"
+   ],
+   "tier": "C"
+  },
+  {
+   "B_modules": [],
+   "D_direction_exploratory": "unclear",
+   "candidate": false,
+   "drug_id": "CHEMBL1113",
+   "evidence": "one_line",
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "list": "constitutional_defect",
+   "n_lines": 1,
+   "name": "AMOXAPINE",
+   "supported_by": [
+    "A"
+   ],
+   "tier": "C"
+  },
+  {
+   "B_modules": [],
+   "D_direction_exploratory": "unclear",
+   "candidate": false,
+   "drug_id": "CHEMBL53",
+   "evidence": "one_line",
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "list": "constitutional_defect",
+   "n_lines": 1,
+   "name": "APOMORPHINE",
+   "supported_by": [
+    "A"
+   ],
+   "tier": "C"
+  },
+  {
+   "B_modules": [],
+   "D_direction_exploratory": "strengthens_checkpoint",
+   "candidate": false,
+   "drug_id": "CHEMBL1112",
+   "evidence": "one_line",
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "list": "constitutional_defect",
+   "n_lines": 1,
+   "name": "ARIPIPRAZOLE",
+   "supported_by": [
+    "A"
+   ],
+   "tier": "C"
+  },
+  {
+   "B_modules": [],
+   "D_direction_exploratory": "strengthens_checkpoint",
+   "candidate": false,
+   "drug_id": "CHEMBL2219425",
+   "evidence": "one_line",
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "list": "constitutional_defect",
+   "n_lines": 1,
+   "name": "ARIPIPRAZOLE LAUROXIL",
+   "supported_by": [
+    "A"
+   ],
+   "tier": "C"
+  },
+  {
+   "B_modules": [
+    "B_mitosis_module_without_generic_complexes"
+   ],
+   "D_direction_exploratory": "strengthens_checkpoint",
+   "candidate": false,
+   "drug_id": "CHEMBL3545311",
+   "evidence": "one_line",
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "list": "tumour_context",
+   "n_lines": 1,
+   "name": "BRIGATINIB",
+   "supported_by": [
+    "B"
+   ],
+   "tier": "C"
+  },
+  {
+   "B_modules": [],
+   "D_direction_exploratory": "unclear",
+   "candidate": false,
+   "drug_id": "CHEMBL493",
+   "evidence": "one_line",
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "list": "constitutional_defect",
+   "n_lines": 1,
+   "name": "BROMOCRIPTINE",
+   "supported_by": [
+    "A"
+   ],
+   "tier": "C"
+  },
+  {
+   "B_modules": [],
+   "D_direction_exploratory": "unclear",
+   "candidate": false,
+   "drug_id": "CHEMBL1201087",
+   "evidence": "one_line",
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "list": "constitutional_defect",
+   "n_lines": 1,
+   "name": "CABERGOLINE",
+   "supported_by": [
+    "A"
+   ],
+   "tier": "C"
+  },
+  {
+   "B_modules": [],
+   "D_direction_exploratory": "strengthens_checkpoint",
+   "candidate": false,
+   "drug_id": "CHEMBL190461",
+   "evidence": "one_line",
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "list": "constitutional_defect",
+   "n_lines": 1,
+   "name": "CANNABIDIOL",
+   "supported_by": [
+    "A"
+   ],
+   "tier": "C"
+  },
+  {
+   "B_modules": [],
+   "D_direction_exploratory": "unclear",
+   "candidate": false,
+   "drug_id": "CHEMBL108",
+   "evidence": "one_line",
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "list": "constitutional_defect",
+   "n_lines": 1,
+   "name": "CARBAMAZEPINE",
+   "supported_by": [
+    "A"
+   ],
+   "tier": "C"
+  },
+  {
+   "B_modules": [],
+   "D_direction_exploratory": "strengthens_checkpoint",
+   "candidate": false,
+   "drug_id": "CHEMBL71",
+   "evidence": "one_line",
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "list": "constitutional_defect",
+   "n_lines": 1,
+   "name": "CHLORPROMAZINE",
+   "supported_by": [
+    "A"
+   ],
+   "tier": "C"
+  },
+  {
+   "B_modules": [],
+   "D_direction_exploratory": "unclear",
+   "candidate": false,
+   "drug_id": "CHEMBL11359",
+   "evidence": "one_line",
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "list": "tumour_context",
+   "n_lines": 1,
+   "name": "CISPLATIN",
+   "supported_by": [
+    "A"
+   ],
+   "tier": "C"
+  },
+  {
+   "B_modules": [],
+   "D_direction_exploratory": "strengthens_checkpoint",
+   "candidate": false,
+   "drug_id": "CHEMBL42",
+   "evidence": "one_line",
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "list": "constitutional_defect",
+   "n_lines": 1,
+   "name": "CLOZAPINE",
+   "supported_by": [
+    "A"
+   ],
+   "tier": "C"
+  },
+  {
+   "B_modules": [
+    "B_phenotype_module"
+   ],
+   "D_direction_exploratory": "strengthens_checkpoint",
+   "candidate": false,
+   "drug_id": "CHEMBL2146883",
+   "evidence": "one_line",
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "list": "tumour_context",
+   "n_lines": 1,
+   "name": "COBIMETINIB",
+   "supported_by": [
+    "B"
+   ],
+   "tier": "C"
+  },
+  {
+   "B_modules": [],
+   "D_direction_exploratory": "unclear",
+   "candidate": false,
+   "drug_id": "CHEMBL4302413",
+   "evidence": "one_line",
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "list": "constitutional_defect",
+   "n_lines": 1,
+   "name": "COPPER OXODOTREOTIDE",
+   "supported_by": [
+    "A"
+   ],
+   "tier": "C"
+  },
+  {
+   "B_modules": [],
+   "D_direction_exploratory": "unclear",
+   "candidate": false,
+   "drug_id": "CHEMBL72",
+   "evidence": "one_line",
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "list": "constitutional_defect",
+   "n_lines": 1,
+   "name": "DESIPRAMINE",
+   "supported_by": [
+    "A"
+   ],
+   "tier": "C"
+  },
+  {
+   "B_modules": [],
+   "D_direction_exploratory": "unclear",
+   "candidate": false,
+   "drug_id": "CHEMBL59",
+   "evidence": "one_line",
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "list": "constitutional_defect",
+   "n_lines": 1,
+   "name": "DOPAMINE",
+   "supported_by": [
+    "A"
+   ],
+   "tier": "C"
+  },
+  {
+   "B_modules": [],
+   "D_direction_exploratory": "strengthens_checkpoint",
+   "candidate": false,
+   "drug_id": "CHEMBL1628227",
+   "evidence": "one_line",
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "list": "constitutional_defect",
+   "n_lines": 1,
+   "name": "DOXEPIN",
+   "supported_by": [
+    "A"
+   ],
+   "tier": "C"
+  },
+  {
+   "B_modules": [],
+   "D_direction_exploratory": "unclear",
+   "candidate": false,
+   "drug_id": "CHEMBL1508",
+   "evidence": "one_line",
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "list": "constitutional_defect",
+   "n_lines": 1,
+   "name": "ESCITALOPRAM",
+   "supported_by": [
+    "A"
+   ],
+   "tier": "C"
+  },
+  {
+   "B_modules": [],
+   "D_direction_exploratory": "strengthens_checkpoint",
+   "candidate": false,
+   "drug_id": "CHEMBL1200986",
+   "evidence": "one_line",
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "list": "constitutional_defect",
+   "n_lines": 1,
+   "name": "HALOPERIDOL DECANOATE",
+   "supported_by": [
+    "A"
+   ],
+   "tier": "C"
+  },
+  {
+   "B_modules": [],
+   "D_direction_exploratory": "strengthens_checkpoint",
+   "candidate": false,
+   "drug_id": "CHEMBL14376",
+   "evidence": "one_line",
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "list": "constitutional_defect",
+   "n_lines": 1,
+   "name": "ILOPERIDONE",
+   "supported_by": [
+    "A"
+   ],
+   "tier": "C"
+  },
+  {
+   "B_modules": [],
+   "D_direction_exploratory": "weakens_checkpoint",
+   "candidate": false,
+   "drug_id": "CHEMBL6",
+   "evidence": "one_line",
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "list": "constitutional_defect",
+   "n_lines": 1,
+   "name": "INDOMETHACIN",
+   "supported_by": [
+    "A"
+   ],
+   "tier": "C"
+  },
+  {
+   "B_modules": [],
+   "D_direction_exploratory": "unclear",
+   "candidate": false,
+   "drug_id": "CHEMBL741",
+   "evidence": "one_line",
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "list": "constitutional_defect",
+   "n_lines": 1,
+   "name": "LAMOTRIGINE",
+   "supported_by": [
+    "A"
+   ],
+   "tier": "C"
+  },
+  {
+   "B_modules": [],
+   "D_direction_exploratory": "unclear",
+   "candidate": false,
+   "drug_id": "CHEMBL17860",
+   "evidence": "one_line",
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "list": "constitutional_defect",
+   "n_lines": 1,
+   "name": "LOFEXIDINE",
+   "supported_by": [
+    "A"
+   ],
+   "tier": "C"
+  },
+  {
+   "B_modules": [
+    "B_mitosis_module_without_generic_complexes"
+   ],
+   "D_direction_exploratory": "strengthens_checkpoint",
+   "candidate": false,
+   "drug_id": "CHEMBL608533",
+   "evidence": "one_line",
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "list": "tumour_context",
+   "n_lines": 1,
+   "name": "MIDOSTAURIN",
+   "supported_by": [
+    "B"
+   ],
+   "tier": "C"
+  },
+  {
+   "B_modules": [],
+   "D_direction_exploratory": "unclear",
+   "candidate": false,
+   "drug_id": "CHEMBL445",
+   "evidence": "one_line",
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "list": "constitutional_defect",
+   "n_lines": 1,
+   "name": "NORTRIPTYLINE",
+   "supported_by": [
+    "A"
+   ],
+   "tier": "C"
+  },
+  {
+   "B_modules": [],
+   "D_direction_exploratory": "strengthens_checkpoint",
+   "candidate": false,
+   "drug_id": "CHEMBL715",
+   "evidence": "one_line",
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "list": "constitutional_defect",
+   "n_lines": 1,
+   "name": "OLANZAPINE",
+   "supported_by": [
+    "A"
+   ],
+   "tier": "C"
+  },
+  {
+   "B_modules": [],
+   "D_direction_exploratory": "strengthens_checkpoint",
+   "candidate": false,
+   "drug_id": "CHEMBL1621",
+   "evidence": "one_line",
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "list": "constitutional_defect",
+   "n_lines": 1,
+   "name": "PALIPERIDONE",
+   "supported_by": [
+    "A"
+   ],
+   "tier": "C"
+  },
+  {
+   "B_modules": [],
+   "D_direction_exploratory": "unclear",
+   "candidate": false,
+   "drug_id": "CHEMBL490",
+   "evidence": "one_line",
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "list": "constitutional_defect",
+   "n_lines": 1,
+   "name": "PAROXETINE",
+   "supported_by": [
+    "A"
+   ],
+   "tier": "C"
+  },
+  {
+   "B_modules": [],
+   "D_direction_exploratory": "unclear",
+   "candidate": false,
+   "drug_id": "CHEMBL16",
+   "evidence": "one_line",
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "list": "constitutional_defect",
+   "n_lines": 1,
+   "name": "PHENYTOIN",
+   "supported_by": [
+    "A"
+   ],
+   "tier": "C"
+  },
+  {
+   "B_modules": [],
+   "D_direction_exploratory": "strengthens_checkpoint",
+   "candidate": false,
+   "drug_id": "CHEMBL500",
+   "evidence": "one_line",
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "list": "constitutional_defect",
+   "n_lines": 1,
+   "name": "PINDOLOL",
+   "supported_by": [
+    "A"
+   ],
+   "tier": "C"
+  },
+  {
+   "B_modules": [],
+   "D_direction_exploratory": "unclear",
+   "candidate": false,
+   "drug_id": "CHEMBL643",
+   "evidence": "one_line",
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "list": "constitutional_defect",
+   "n_lines": 1,
+   "name": "PROMETHAZINE",
+   "supported_by": [
+    "A"
+   ],
+   "tier": "C"
+  },
+  {
+   "B_modules": [],
+   "D_direction_exploratory": "unclear",
+   "candidate": false,
+   "drug_id": "CHEMBL27",
+   "evidence": "one_line",
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "list": "constitutional_defect",
+   "n_lines": 1,
+   "name": "PROPRANOLOL",
+   "supported_by": [
+    "A"
+   ],
+   "tier": "C"
+  },
+  {
+   "B_modules": [],
+   "D_direction_exploratory": "unclear",
+   "candidate": false,
+   "drug_id": "CHEMBL716",
+   "evidence": "one_line",
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "list": "constitutional_defect",
+   "n_lines": 1,
+   "name": "QUETIAPINE",
+   "supported_by": [
+    "A"
+   ],
+   "tier": "C"
+  },
+  {
+   "B_modules": [],
+   "D_direction_exploratory": "strengthens_checkpoint",
+   "candidate": false,
+   "drug_id": "CHEMBL85",
+   "evidence": "one_line",
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "list": "constitutional_defect",
+   "n_lines": 1,
+   "name": "RISPERIDONE",
+   "supported_by": [
+    "A"
+   ],
+   "tier": "C"
+  },
+  {
+   "B_modules": [
+    "B_mitosis_module_without_generic_complexes"
+   ],
+   "D_direction_exploratory": "strengthens_checkpoint",
+   "candidate": false,
+   "drug_id": "CHEMBL3545185",
+   "evidence": "one_line",
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "list": "tumour_context",
+   "n_lines": 1,
+   "name": "SELINEXOR",
+   "supported_by": [
+    "B"
+   ],
+   "tier": "C"
+  },
+  {
+   "B_modules": [],
+   "D_direction_exploratory": "strengthens_checkpoint",
+   "candidate": false,
+   "drug_id": "CHEMBL1393",
+   "evidence": "one_line",
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "list": "constitutional_defect",
+   "n_lines": 1,
+   "name": "SPIRONOLACTONE",
+   "supported_by": [
+    "A"
+   ],
+   "tier": "C"
+  },
+  {
+   "B_modules": [],
+   "D_direction_exploratory": "unclear",
+   "candidate": false,
+   "drug_id": "CHEMBL128",
+   "evidence": "one_line",
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "list": "constitutional_defect",
+   "n_lines": 1,
+   "name": "SUMATRIPTAN",
+   "supported_by": [
+    "A"
+   ],
+   "tier": "C"
+  },
+  {
+   "B_modules": [],
+   "D_direction_exploratory": "unclear",
+   "candidate": false,
+   "drug_id": "CHEMBL621",
+   "evidence": "one_line",
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "list": "constitutional_defect",
+   "n_lines": 1,
+   "name": "TRAZODONE",
+   "supported_by": [
+    "A"
+   ],
+   "tier": "C"
+  },
+  {
+   "B_modules": [],
+   "D_direction_exploratory": "unclear",
+   "candidate": false,
+   "drug_id": "CHEMBL644",
+   "evidence": "one_line",
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "list": "constitutional_defect",
+   "n_lines": 1,
+   "name": "TRIMIPRAMINE",
+   "supported_by": [
+    "A"
+   ],
+   "tier": "C"
+  },
+  {
+   "B_modules": [],
+   "D_direction_exploratory": "unclear",
+   "candidate": false,
+   "drug_id": "CHEMBL109",
+   "evidence": "one_line",
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "list": "constitutional_defect",
+   "n_lines": 1,
+   "name": "VALPROIC ACID",
+   "supported_by": [
+    "A"
+   ],
+   "tier": "C"
+  },
+  {
+   "B_modules": [],
+   "D_direction_exploratory": "unclear",
+   "candidate": false,
+   "drug_id": "CHEMBL2104993",
+   "evidence": "one_line",
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "list": "constitutional_defect",
+   "n_lines": 1,
+   "name": "VORTIOXETINE",
+   "supported_by": [
+    "A"
+   ],
+   "tier": "C"
+  },
+  {
+   "B_modules": [],
+   "D_direction_exploratory": "unclear",
+   "candidate": false,
+   "drug_id": "CHEMBL708",
+   "evidence": "one_line",
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "list": "constitutional_defect",
+   "n_lines": 1,
+   "name": "ZIPRASIDONE",
+   "supported_by": [
+    "A"
+   ],
+   "tier": "C"
+  },
+  {
+   "B_modules": [],
+   "D_direction_exploratory": "unclear",
+   "candidate": false,
+   "drug_id": "CHEMBL750",
+   "evidence": "one_line",
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "list": "constitutional_defect",
+   "n_lines": 1,
+   "name": "ZONISAMIDE",
+   "supported_by": [
+    "A"
+   ],
+   "tier": "C"
+  }
+ ]
+}

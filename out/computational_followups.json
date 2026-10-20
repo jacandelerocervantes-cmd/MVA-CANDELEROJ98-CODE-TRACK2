@@ -1,0 +1,1952 @@
+{
+ "candidate_status": [
+  {
+   "candidate": "Sirolimus",
+   "checks": {
+    "CF8": "refuted"
+   },
+   "lines": [
+    "LIT"
+   ],
+   "next_step": "laboratory X1",
+   "plan_next_step": "Lab X1; computational CF8",
+   "status": "unchanged (no per-drug computational check applies to this row); IGBP1 rationale dropped (CF8, affects the rationale only)"
+  },
+  {
+   "candidate": "Everolimus",
+   "checks": {
+    "CF8": "refuted"
+   },
+   "lines": [
+    "LIT"
+   ],
+   "next_step": "laboratory X1",
+   "plan_next_step": "Lab X1",
+   "status": "unchanged (no per-drug computational check applies to this row); IGBP1 rationale dropped (CF8, affects the rationale only)"
+  },
+  {
+   "candidate": "Metformin",
+   "checks": {
+    "CF8": "refuted"
+   },
+   "lines": [
+    "LIT"
+   ],
+   "next_step": "laboratory X1",
+   "plan_next_step": "Lab X1; computational CF8",
+   "status": "unchanged (no per-drug computational check applies to this row); IGBP1 rationale dropped (CF8, affects the rationale only)"
+  },
+  {
+   "candidate": "Phenylbutanoic Acid",
+   "checks": {},
+   "lines": [
+    "LIT"
+   ],
+   "next_step": "laboratory X2",
+   "plan_next_step": "Lab X2",
+   "status": "unchanged (no per-drug computational check applies to this row)"
+  },
+  {
+   "candidate": "Trametinib",
+   "checks": {},
+   "lines": [
+    "LIT",
+    "C"
+   ],
+   "next_step": "laboratory X3",
+   "plan_next_step": "Lab X3 (tumour lines)",
+   "status": "unchanged (no per-drug computational check applies to this row)"
+  },
+  {
+   "candidate": "Lazertinib",
+   "checks": {
+    "CF1": "survives",
+    "CF9": "not runnable"
+   },
+   "lines": [
+    "C"
+   ],
+   "next_step": "laboratory X4",
+   "plan_next_step": "CF1, then Lab X4",
+   "status": "still a hypothesis; passed CF1 (CF9 not runnable)"
+  },
+  {
+   "candidate": "Neratinib",
+   "checks": {
+    "CF1": "survives",
+    "CF7": "refuted",
+    "CF9": "not runnable"
+   },
+   "lines": [
+    "C",
+    "EP"
+   ],
+   "next_step": "closed or flagged hazard (CF7 rule)",
+   "plan_next_step": "CF1, CF7, then Lab X4",
+   "status": "closed as a computational candidate (refuted by CF7); note: CF1 passed, and the refuted check concerns only the other line's support (plan rule: row closed; reopening is a user decision)"
+  },
+  {
+   "candidate": "Prednisolone",
+   "checks": {},
+   "lines": [
+    "C"
+   ],
+   "next_step": "none",
+   "plan_next_step": "Closed; no lab",
+   "status": "closed (earlier adjusted analysis; not part of the CF set)"
+  },
+  {
+   "candidate": "Cobimetinib",
+   "checks": {},
+   "lines": [
+    "C"
+   ],
+   "next_step": "none",
+   "plan_next_step": "Closed; no lab",
+   "status": "closed (earlier adjusted analysis; not part of the CF set)"
+  },
+  {
+   "candidate": "Ceritinib",
+   "checks": {
+    "CF5": "survives"
+   },
+   "lines": [
+    "B2"
+   ],
+   "next_step": "laboratory X5",
+   "plan_next_step": "CF5, then Lab X5",
+   "status": "still a hypothesis; passed CF5"
+  },
+  {
+   "candidate": "Selinexor",
+   "checks": {
+    "CF5": "survives"
+   },
+   "lines": [
+    "B2"
+   ],
+   "next_step": "laboratory X5",
+   "plan_next_step": "CF5, then Lab X5",
+   "status": "still a hypothesis; passed CF5"
+  },
+  {
+   "candidate": "Tirbanibulin",
+   "checks": {
+    "CF5": "survives"
+   },
+   "lines": [
+    "B2"
+   ],
+   "next_step": "laboratory X5",
+   "plan_next_step": "CF5, then Lab X5",
+   "status": "still a hypothesis; passed CF5"
+  },
+  {
+   "candidate": "Pomalidomide",
+   "checks": {
+    "CF4": "survives"
+   },
+   "lines": [
+    "A"
+   ],
+   "next_step": "needs a laboratory design (none in the plan yet)",
+   "plan_next_step": "CF4",
+   "status": "still a hypothesis; passed CF4"
+  },
+  {
+   "candidate": "Disopyramide",
+   "checks": {
+    "CF4": "survives"
+   },
+   "lines": [
+    "A"
+   ],
+   "next_step": "needs a laboratory design (none in the plan yet)",
+   "plan_next_step": "CF4",
+   "status": "still a hypothesis; passed CF4"
+  },
+  {
+   "candidate": "Olaparib",
+   "checks": {
+    "CF3": "refuted"
+   },
+   "lines": [
+    "ENG"
+   ],
+   "next_step": "closed",
+   "plan_next_step": "CF3",
+   "status": "closed as a computational candidate (refuted by CF3)"
+  },
+  {
+   "candidate": "Tyrosine",
+   "checks": {
+    "CF3": "refuted"
+   },
+   "lines": [
+    "ENG"
+   ],
+   "next_step": "closed",
+   "plan_next_step": "CF3",
+   "status": "closed as a computational candidate (refuted by CF3)"
+  },
+  {
+   "candidate": "Progesterone",
+   "checks": {
+    "CF3": "refuted"
+   },
+   "lines": [
+    "ENG"
+   ],
+   "next_step": "closed",
+   "plan_next_step": "CF3",
+   "status": "closed as a computational candidate (refuted by CF3)"
+  },
+  {
+   "candidate": "Zinc Chloride",
+   "checks": {
+    "CF3": "refuted"
+   },
+   "lines": [
+    "ENG"
+   ],
+   "next_step": "closed",
+   "plan_next_step": "CF3",
+   "status": "closed as a computational candidate (refuted by CF3)"
+  },
+  {
+   "candidate": "Vorinostat",
+   "checks": {
+    "CF3": "refuted"
+   },
+   "lines": [
+    "ENG"
+   ],
+   "next_step": "closed",
+   "plan_next_step": "CF3",
+   "status": "closed as a computational candidate (refuted by CF3)"
+  },
+  {
+   "candidate": "Regorafenib",
+   "checks": {
+    "CF6": "refuted"
+   },
+   "lines": [
+    "D"
+   ],
+   "next_step": "closed",
+   "plan_next_step": "CF6",
+   "status": "closed as a computational candidate (refuted by CF6)"
+  },
+  {
+   "candidate": "Sunitinib",
+   "checks": {
+    "CF6": "refuted"
+   },
+   "lines": [
+    "D"
+   ],
+   "next_step": "closed",
+   "plan_next_step": "CF6",
+   "status": "closed as a computational candidate (refuted by CF6)"
+  },
+  {
+   "candidate": "Nirogacestat",
+   "checks": {
+    "CF6": "survives"
+   },
+   "lines": [
+    "D"
+   ],
+   "next_step": "needs a laboratory design (none in the plan yet)",
+   "plan_next_step": "CF6",
+   "status": "still a hypothesis; passed CF6"
+  },
+  {
+   "candidate": "Ritlecitinib",
+   "checks": {
+    "CF6": "refuted"
+   },
+   "lines": [
+    "D"
+   ],
+   "next_step": "closed",
+   "plan_next_step": "CF6",
+   "status": "closed as a computational candidate (refuted by CF6)"
+  },
+  {
+   "candidate": "Erdafitinib",
+   "checks": {
+    "CF6": "refuted"
+   },
+   "lines": [
+    "D"
+   ],
+   "next_step": "closed",
+   "plan_next_step": "CF6",
+   "status": "closed as a computational candidate (refuted by CF6)"
+  },
+  {
+   "candidate": "Amphotericin B",
+   "checks": {
+    "CF7": "refuted"
+   },
+   "lines": [
+    "EP"
+   ],
+   "next_step": "closed or flagged hazard (CF7 rule)",
+   "plan_next_step": "CF7",
+   "status": "closed as a computational candidate (refuted by CF7)"
+  },
+  {
+   "candidate": "Auranofin",
+   "checks": {
+    "CF7": "refuted"
+   },
+   "lines": [
+    "EP"
+   ],
+   "next_step": "closed or flagged hazard (CF7 rule)",
+   "plan_next_step": "CF7",
+   "status": "closed as a computational candidate (refuted by CF7)"
+  },
+  {
+   "candidate": "Fluvastatin",
+   "checks": {
+    "CF7": "refuted"
+   },
+   "lines": [
+    "EP"
+   ],
+   "next_step": "closed or flagged hazard (CF7 rule)",
+   "plan_next_step": "CF7",
+   "status": "closed as a computational candidate (refuted by CF7)"
+  },
+  {
+   "candidate": "Nelfinavir",
+   "checks": {
+    "CF7": "refuted"
+   },
+   "lines": [
+    "EP"
+   ],
+   "next_step": "closed or flagged hazard (CF7 rule)",
+   "plan_next_step": "CF7",
+   "status": "closed as a computational candidate (refuted by CF7)"
+  },
+  {
+   "candidate": "Colchicine",
+   "checks": {
+    "CF2": "refuted",
+    "CF9": "not runnable"
+   },
+   "lines": [
+    "C"
+   ],
+   "next_step": "laboratory H1 (toxicity readouts only); never a benefit candidate",
+   "plan_next_step": "Lab H1 (toxicity); CF2",
+   "status": "hazard class; CF2 refuted"
+  },
+  {
+   "candidate": "Eribulin",
+   "checks": {
+    "CF2": "refuted",
+    "CF9": "not runnable"
+   },
+   "lines": [
+    "C"
+   ],
+   "next_step": "laboratory H1 (toxicity readouts only); never a benefit candidate",
+   "plan_next_step": "Lab H1 (toxicity); CF2",
+   "status": "hazard class; CF2 refuted"
+  },
+  {
+   "candidate": "Paclitaxel",
+   "checks": {
+    "CF2": "refuted",
+    "CF9": "not runnable"
+   },
+   "lines": [
+    "C"
+   ],
+   "next_step": "laboratory H1 (toxicity readouts only); never a benefit candidate",
+   "plan_next_step": "Lab H1 (toxicity); CF2",
+   "status": "hazard class; CF2 refuted"
+  },
+  {
+   "candidate": "Vincristine",
+   "checks": {
+    "CF2": "refuted",
+    "CF9": "not runnable"
+   },
+   "lines": [
+    "C"
+   ],
+   "next_step": "laboratory H1 (toxicity readouts only); never a benefit candidate",
+   "plan_next_step": "Lab H1 (toxicity); CF2",
+   "status": "hazard class; CF2 refuted"
+  }
+ ],
+ "cf": {
+  "CF1": {
+   "concerns_display": [
+    "Lazertinib",
+    "Neratinib"
+   ],
+   "name": "Line C sign audit",
+   "per_candidate_verdict": {
+    "LAZERTINIB": "survives",
+    "NERATINIB": "survives"
+   },
+   "plan_definition": "State what the sign of rho means and recompute with an orientation-explicit sensitivity metric",
+   "plan_refutation": "Lazertinib and Neratinib dropped as vulnerabilities if positive rho means higher viability (resistance) at a high checkpoint score",
+   "reading": "rho > 0 means lower viability in weak-checkpoint lines, i.e. sensitivity; Lazertinib and Neratinib are not dropped on sign grounds",
+   "result_line": "Lazertinib: delta -0.375, adjusted rho 0.14; Neratinib: delta -0.459, adjusted rho 0.187; orientation sanity median LFC Bortezomib -4.17, Colchicine -1.8, Paclitaxel -2.23, Vincristine -1.81",
+   "test": "positive rho: viability against the checkpoint score; orientation-explicit quartile delta",
+   "verdict": "survives",
+   "verdict_summary": "survives (resolved by documentation)"
+  },
+  "CF2": {
+   "concerns_display": [
+    "Colchicine",
+    "Eribulin",
+    "Paclitaxel",
+    "Vincristine"
+   ],
+   "name": "Tubulin-class enrichment among line C survivors",
+   "per_candidate_verdict": null,
+   "plan_definition": "Hypergeometric test of the four tubulin-class survivors among the 190 estimable drugs",
+   "plan_refutation": "If enriched, the score is treated as a mitotic-dependency control, not a source of candidates",
+   "reading": "enriched: the score behaves as a mitotic-dependency control and the four stay hazard-class",
+   "result_line": "4 of 6 survivors are tubulin-class; 5 of 190 estimable drugs are; expected 0.158; hypergeometric p 1.41e-06",
+   "test": "hypergeometric test among estimable drugs",
+   "verdict": "refuted",
+   "verdict_summary": "refuted"
+  },
+  "CF3": {
+   "concerns_display": [
+    "Olaparib",
+    "Progesterone",
+    "Tyrosine",
+    "Vorinostat",
+    "Zinc Chloride"
+   ],
+   "name": "Engine specificity",
+   "per_candidate_verdict": {
+    "OLAPARIB": "refuted",
+    "PROGESTERONE": "refuted",
+    "TYROSINE": "refuted",
+    "VORINOSTAT": "refuted",
+    "ZINC CHLORIDE": "refuted"
+   },
+   "plan_definition": "Rank of each drug for BUB1B against degree-matched random genes",
+   "plan_refutation": "Drug not above the null: close the row",
+   "reading": "title/abstract co-mention of the drug with BUB1B is not above 99 degree-matched genes; only the co-mention leg is tested and aliases such as BubR1 are not searched",
+   "result_line": "Olaparib 0 vs null median 0 (p 1); Progesterone 4 vs null median 0 (p 0.17); Tyrosine 6 vs null median 1 (p 0.23); Vorinostat 1 vs null median 0 (p 0.14); Zinc Chloride 0 vs null median 0 (p 1)",
+   "test": "BUB1B co-mention count against 99 degree-matched random genes (Europe PMC)",
+   "verdict": "mixed",
+   "verdict_summary": "Olaparib refuted, Progesterone refuted, Tyrosine refuted, Vorinostat refuted, Zinc Chloride refuted"
+  },
+  "CF4": {
+   "concerns_display": [
+    "Pomalidomide",
+    "Disopyramide"
+   ],
+   "name": "Graph path audit (line A)",
+   "per_candidate_verdict": {
+    "DISOPYRAMIDE": "survives",
+    "POMALIDOMIDE": "survives"
+   },
+   "plan_definition": "List drug-to-disease paths; check each edge for a source and for generic hub nodes",
+   "plan_refutation": "All paths pass through hubs or lack a primary source: close",
+   "reading": "hub-free paths of at most 4 edges exist, so line A is not refuted; this is a permissive check (most drugs with targets have such paths) and edge sources are not recorded per edge in PrimeKG",
+   "result_line": "Disopyramide: hub-free query nodes reached 7; Pomalidomide: hub-free query nodes reached 7",
+   "test": "hub-free paths of length <= 4 from drug to the query nodes in PrimeKG",
+   "verdict": "mixed",
+   "verdict_summary": "Disopyramide survives, Pomalidomide survives"
+  },
+  "CF5": {
+   "concerns_display": [
+    "Ceritinib",
+    "Selinexor",
+    "Tirbanibulin"
+   ],
+   "name": "B2 scheme sensitivity",
+   "per_candidate_verdict": {
+    "CERITINIB": "survives",
+    "SELINEXOR": "survives",
+    "TIRBANIBULIN": "survives"
+   },
+   "plan_definition": "Recompute support under the other weighting schemes and against random genes",
+   "plan_refutation": "Not in the top set under any other scheme: close",
+   "reading": "support is not specific to scheme W3 if the drug is in the top set under W1 or W2 and above random modules",
+   "result_line": "Ceritinib: top set W1 True, W2 True, random-module p 0.0099; Selinexor: top set W1 True, W2 True, random-module p 0.0099; Tirbanibulin: top set W1 True, W2 True, random-module p 0.0198",
+   "test": "top set under W1/W2 from stored scores; rank against 100 random degree-matched modules",
+   "verdict": "mixed",
+   "verdict_summary": "Ceritinib survives, Selinexor survives, Tirbanibulin survives"
+  },
+  "CF6": {
+   "concerns_display": [
+    "Regorafenib",
+    "Sunitinib",
+    "Nirogacestat",
+    "Ritlecitinib",
+    "Erdafitinib"
+   ],
+   "name": "Line D sign permutation",
+   "per_candidate_verdict": {
+    "ERDAFITINIB": "refuted",
+    "NIROGACESTAT": "survives",
+    "REGORAFENIB": "refuted",
+    "RITLECITINIB": "refuted",
+    "SUNITINIB": "refuted"
+   },
+   "plan_definition": "Sign-permutation null and re-check of the control drugs",
+   "plan_refutation": "Net signed effect inside the null range: close",
+   "reading": "signed-path nets are compared with sign-shuffled networks of the same topology; controls not above chance",
+   "result_line": "Erdafitinib: net 34, null range [-10, 39], p 0.0709; Nirogacestat: net 49, null range [-29, 41], p 0.003; Regorafenib: net 94, null range [6.98, 118], p 0.121; Ritlecitinib: net 39, null range [-10, 41], p 0.047; Sunitinib: net 57, null range [-5.02, 69], p 0.105; controls recovered 4/6 (null p 0.0539)",
+   "test": "net signed effect against 1,000 sign-shuffled networks; control re-check",
+   "verdict": "mixed",
+   "verdict_summary": "Erdafitinib refuted, Nirogacestat survives, Regorafenib refuted, Ritlecitinib refuted, Sunitinib refuted"
+  },
+  "CF7": {
+   "concerns_display": [
+    "Neratinib",
+    "Amphotericin B",
+    "Auranofin",
+    "Fluvastatin",
+    "Nelfinavir"
+   ],
+   "name": "Line E-P leave-one-array-out",
+   "per_candidate_verdict": {
+    "AMPHOTERICIN B": "refuted",
+    "AURANOFIN": "refuted",
+    "FLUVASTATIN": "refuted",
+    "NELFINAVIR": "refuted",
+    "NERATINIB": "refuted"
+   },
+   "plan_definition": "Leave-one-array-out on the 2 case versus 4 control arrays; reversal in the BUB1B and Track 1 signatures",
+   "plan_refutation": "Reversal q at or above 0.10 in any leave-out, or concordance with the disease signature: close or flag hazard (DESIGN CHOICE threshold)",
+   "reading": "reversal must hold with q < 0.10 in all six leave-outs and the drug must not mimic the BUB1B or Track 1 signature",
+   "result_line": "Amphotericin B: max q 0.184, failed leave-outs 3, concordant False; Auranofin: max q 0.391, failed leave-outs 5, concordant False; Fluvastatin: max q 0.153, failed leave-outs 4, concordant False; Nelfinavir: max q 0.222, failed leave-outs 4, concordant False; Neratinib: max q 0.153, failed leave-outs 3, concordant False",
+   "test": "six leave-outs of the 2 case vs 4 control arrays; concordance with BUB1B/Track 1 signatures",
+   "verdict": "mixed",
+   "verdict_summary": "Amphotericin B refuted, Auranofin refuted, Fluvastatin refuted, Nelfinavir refuted, Neratinib refuted"
+  },
+  "CF8": {
+   "concerns_display": [
+    "Sirolimus",
+    "Everolimus",
+    "Metformin"
+   ],
+   "name": "IGBP1 axis network distance",
+   "per_candidate_verdict": null,
+   "plan_definition": "Network distance IGBP1 to MTOR/AMPK nodes against degree-matched random pairs",
+   "plan_refutation": "Distance not shorter than null: drop the IGBP1 rationale from X1 (not the drugs)",
+   "reading": "the IGBP1 rationale is dropped from X1; the drugs are not affected",
+   "result_line": "mean distance IGBP1 to MTOR/PRKAA1/PRKAA2 4.67 vs null mean 4.72; p 0.619",
+   "test": "STRING distance IGBP1 to MTOR/PRKAA1/PRKAA2 against degree-matched random pairs",
+   "verdict": "refuted",
+   "verdict_summary": "refuted"
+  },
+  "CF9": {
+   "concerns_display": [
+    "Lazertinib",
+    "Neratinib",
+    "Colchicine",
+    "Eribulin",
+    "Paclitaxel",
+    "Vincristine"
+   ],
+   "name": "Second sensitivity screen for line C survivors",
+   "per_candidate_verdict": null,
+   "plan_definition": "Only if a second screen is already on disk; otherwise not performed",
+   "plan_refutation": "No same-sign association: close",
+   "reading": "needs: an independent drug-sensitivity screen covering the same drugs and cell lines (GDSC, CTRP or PRISM secondary/MTS data), which would have to be downloaded",
+   "result_line": "each line C survivor has exactly one row in the PRISM compound list (one screen), and no GDSC, CTRP or PRISM secondary file is on disk; the DepMap CRISPR matrix is a different assay",
+   "test": "second independent screen of the same drugs on disk",
+   "verdict": "not runnable",
+   "verdict_summary": "not runnable"
+  }
+ },
+ "label": "exploratory, post hoc; cannot prove efficacy; a candidate that survives stays a hypothesis; a refuted one is closed as a computational candidate",
+ "not_runnable": {
+  "CF9": "each line C survivor has exactly one row in the PRISM compound list (one screen), and no GDSC, CTRP or PRISM secondary file is on disk; the DepMap CRISPR matrix is a different assay. Needed: an independent drug-sensitivity screen covering the same drugs and cell lines (GDSC, CTRP or PRISM secondary/MTS data), which would have to be downloaded"
+ },
+ "protocol": "protocol/addendum_computational_followups.md",
+ "results": {
+  "CF1": {
+   "concerns": [
+    "LAZERTINIB",
+    "NERATINIB"
+   ],
+   "documentation": {
+    "definition_strings": {
+     "src/track2/line_c_adjusted.py:76-93": "partial_perm: rho_adj is the partial rank correlation of the viability rank with the score rank (same orientation as the unadjusted rho)",
+     "src/track2/multi_evidence_completion.py:214": "score = mean over cell lines of the z-scored expression of BUB1B, BUB1, BUB3, MAD1L1, MAD2L1, TTK; low = weak checkpoint; statistic = Spearman rho between PRISM viability (log fold change) and the score; rho > 0 = more lethal when the checkpoint is weak",
+     "src/track2/prism_l4.py:43-60": "sac_scores: mean_all = mean of per-gene z-scores of log2(TPM+1) of BUB1B, BUB1, BUB3, MAD1L1, MAD2L1, TTK per cell line (high = strong checkpoint)",
+     "src/track2/prism_l4.py:5-6": "difference in mean viability (log fold change) between weak-SAC and strong-SAC groups (negative = the drug kills weak-SAC cells more)",
+     "src/track2/vulnerability_core.py:4": "diff = mean of the weak-score quartile minus mean of the strong-score quartile (negative = the row is lower, i.e. more lethal, when the score is weak)"
+    },
+    "reading": "viability is a log fold change (negative = fewer cells); score low = weak checkpoint; therefore rho > 0 means low-score (weak-checkpoint) lines have lower viability = more sensitive; positive rho is sensitivity, not resistance"
+   },
+   "orientation_sanity_median_lfc": {
+    "BORTEZOMIB": -4.17042744636,
+    "COLCHICINE": -1.799726665955,
+    "PACLITAXEL": -2.229462198315,
+    "VINCRISTINE": -1.81273272722
+   },
+   "orientation_sanity_pass": true,
+   "per_drug": {
+    "LAZERTINIB": {
+     "adjusted_partial_rho": 0.14001546782298827,
+     "delta_weak_minus_strong": -0.37492218974780844,
+     "mean_strong_quartile": -0.3506091846856636,
+     "mean_weak_quartile": -0.725531374433472,
+     "n_lines": 872,
+     "spearman_rho_unadjusted": 0.2089046035672969,
+     "verdict": "survives"
+    },
+    "NERATINIB": {
+     "adjusted_partial_rho": 0.18744509905585288,
+     "delta_weak_minus_strong": -0.4585135391954787,
+     "mean_strong_quartile": -0.07561928576886841,
+     "mean_weak_quartile": -0.5341328249643471,
+     "n_lines": 531,
+     "spearman_rho_unadjusted": 0.19442017259329966,
+     "verdict": "survives"
+    }
+   },
+   "resolved_by_documentation": true,
+   "seconds": 42.5,
+   "tubulin_class_information": {
+    "COLCHICINE": {
+     "adjusted_partial_rho": -0.15906142555663588,
+     "delta_weak_minus_strong": 0.7244676328220194,
+     "mean_strong_quartile": -2.2808633854873603,
+     "mean_weak_quartile": -1.556395752665341,
+     "n_lines": 546,
+     "spearman_rho_unadjusted": -0.14972513188637837
+    },
+    "ERIBULIN": {
+     "adjusted_partial_rho": -0.11489988609508327,
+     "delta_weak_minus_strong": 1.2702287475132787,
+     "mean_strong_quartile": -4.971413494800406,
+     "mean_weak_quartile": -3.7011847472871273,
+     "n_lines": 872,
+     "spearman_rho_unadjusted": -0.1993595163962941
+    },
+    "PACLITAXEL": {
+     "adjusted_partial_rho": -0.14114084305478744,
+     "delta_weak_minus_strong": 0.5718680538223491,
+     "mean_strong_quartile": -2.512974575323015,
+     "mean_weak_quartile": -1.9411065215006658,
+     "n_lines": 546,
+     "spearman_rho_unadjusted": -0.13102676469162555
+    },
+    "VINCRISTINE": {
+     "adjusted_partial_rho": -0.15777916438160458,
+     "delta_weak_minus_strong": 0.7660072950604164,
+     "mean_strong_quartile": -2.327371817625248,
+     "mean_weak_quartile": -1.5613645225648314,
+     "n_lines": 546,
+     "spearman_rho_unadjusted": -0.16426638956535136
+    }
+   },
+   "verdict": "survives"
+  },
+  "CF2": {
+   "K_tubulin_class_in_estimable": 5,
+   "M_estimable": 190,
+   "concerns": [
+    "COLCHICINE",
+    "ERIBULIN",
+    "PACLITAXEL",
+    "VINCRISTINE"
+   ],
+   "n_original_hits_estimable": 23,
+   "primary": {
+    "expected": 0.15789473684210525,
+    "n_draws": 6,
+    "p_hypergeometric_ge": 1.4135319089941908e-06,
+    "x_tubulin_among_draws": 4
+   },
+   "seconds": 0.0,
+   "sensitivity_all_adjusted_q_below_0_10": {
+    "expected": 0.18421052631578946,
+    "n_draws": 7,
+    "p_hypergeometric_ge": 3.283932048878045e-06,
+    "x_tubulin_among_draws": 4
+   },
+   "survivors": [
+    "COLCHICINE",
+    "ERIBULIN",
+    "LAZERTINIB",
+    "NERATINIB",
+    "PACLITAXEL",
+    "VINCRISTINE"
+   ],
+   "tubulin_class_in_estimable": [
+    "CABAZITAXEL",
+    "COLCHICINE",
+    "ERIBULIN",
+    "PACLITAXEL",
+    "VINCRISTINE"
+   ],
+   "tubulin_class_source": "out/caution_list.json class a_tubulina (9 listed drugs)",
+   "verdict": "refuted"
+  },
+  "CF3": {
+   "bub1b_papers_up_to_2024": 503,
+   "europepmc_requests_to_network_this_run": 501,
+   "limitation": "only the literature co-mention leg of the engine is tested; the engine prior is not re-scored for random genes",
+   "null_genes": {
+    "genes": [
+     "AATF",
+     "ALYREF",
+     "ANAPC2",
+     "ANAPC4",
+     "AP2B1",
+     "AP2M1",
+     "ARID1A",
+     "ARID2",
+     "ASH2L",
+     "BCAS2",
+     "BCL2",
+     "BECN1",
+     "BMS1",
+     "BRCA2",
+     "BTF3",
+     "CALM1",
+     "CAV1",
+     "CBX7",
+     "CCNT1",
+     "CCR2",
+     "CCR5",
+     "CDC16",
+     "CDK1",
+     "CDK9",
+     "COX6A2",
+     "CUL3",
+     "DDX5",
+     "EIF3I",
+     "EIF3M",
+     "GNAQ",
+     "GNL2",
+     "GTPBP4",
+     "GTPBP6",
+     "H2BC17",
+     "HEATR1",
+     "IGLL5",
+     "IMP3",
+     "ITGB2",
+     "KAT2A",
+     "MAGOH",
+     "MALSU1",
+     "MCM2",
+     "MDM2",
+     "MORF4L1",
+     "MTERF4",
+     "MTG1",
+     "MTREX",
+     "NACA2",
+     "NAT10",
+     "NCLN",
+     "NDUFA11",
+     "NDUFA6",
+     "NDUFA7",
+     "NDUFB11",
+     "NDUFB4",
+     "NDUFB6",
+     "NDUFB7",
+     "NDUFC1",
+     "NDUFC2",
+     "NDUFS2",
+     "NDUFS7",
+     "NELFA",
+     "NME7",
+     "NOL11",
+     "NOL6",
+     "NOL7",
+     "NOP14",
+     "PABPC1",
+     "PCGF6",
+     "PCNA",
+     "PELO",
+     "POLD1",
+     "PPIL2",
+     "PPP2R1A",
+     "PSMA5",
+     "PSMA6",
+     "PSMB3",
+     "PSMB5",
+     "PSMC5",
+     "PSMD4",
+     "PWP2",
+     "RBMX2",
+     "RELA",
+     "SECISBP2",
+     "SMARCD1",
+     "SNRPA",
+     "SNRPN",
+     "SSRP1",
+     "SUZ12",
+     "TBL3",
+     "TCERG1",
+     "TLR4",
+     "TUBB",
+     "UQCRFS1",
+     "UTP15",
+     "VAMP2",
+     "WASL",
+     "XRCC6",
+     "YWHAZ"
+    ],
+    "pool_size": 389,
+    "target_degree": 65,
+    "tolerance": 0.25
+   },
+   "per_drug": {
+    "OLAPARIB": {
+     "n_null_ge_observed": 99,
+     "null_max": 531,
+     "null_median": 0.0,
+     "null_n_genes": 99,
+     "observed_hit_count_bub1b": 0,
+     "p_empirical": 1.0,
+     "q_bh": 1.0,
+     "verdict": "refuted"
+    },
+    "PROGESTERONE": {
+     "n_null_ge_observed": 16,
+     "null_max": 380,
+     "null_median": 0.0,
+     "null_n_genes": 99,
+     "observed_hit_count_bub1b": 4,
+     "p_empirical": 0.17,
+     "q_bh": 0.38333333333333336,
+     "verdict": "refuted"
+    },
+    "TYROSINE": {
+     "n_null_ge_observed": 22,
+     "null_max": 456,
+     "null_median": 1.0,
+     "null_n_genes": 99,
+     "observed_hit_count_bub1b": 6,
+     "p_empirical": 0.23,
+     "q_bh": 0.38333333333333336,
+     "verdict": "refuted"
+    },
+    "VORINOSTAT": {
+     "n_null_ge_observed": 13,
+     "null_max": 16,
+     "null_median": 0.0,
+     "null_n_genes": 99,
+     "observed_hit_count_bub1b": 1,
+     "p_empirical": 0.14,
+     "q_bh": 0.38333333333333336,
+     "verdict": "refuted"
+    },
+    "ZINC CHLORIDE": {
+     "n_null_ge_observed": 99,
+     "null_max": 2,
+     "null_median": 0.0,
+     "null_n_genes": 99,
+     "observed_hit_count_bub1b": 0,
+     "p_empirical": 1.0,
+     "q_bh": 1.0,
+     "verdict": "refuted"
+    }
+   },
+   "query_template": "(TITLE:\"DRUG\" OR ABSTRACT:\"DRUG\") AND (TITLE:\"GENE\" OR ABSTRACT:\"GENE\") AND PUB_YEAR:[1900 TO 2024]",
+   "seconds": 688.8
+  },
+  "CF4": {
+   "concerns": [
+    "POMALIDOMIDE",
+    "DISOPYRAMIDE"
+   ],
+   "hub_degree_threshold": 960.0,
+   "hub_percentile": 99.0,
+   "max_len": 4,
+   "n_hubs": 1295,
+   "per_drug": {
+    "DISOPYRAMIDE": {
+     "drug_nodes": [
+      14538
+     ],
+     "example_paths": [
+      {
+       "edges": [
+        "drug_protein",
+        "phenotype_protein"
+       ],
+       "intermediate_degrees": [
+        234
+       ],
+       "nodes": [
+        "Disopyramide [drug]",
+        "KCNH2 [gene/protein]",
+        "Skeletal muscle atrophy [effect/phenotype]"
+       ]
+      },
+      {
+       "edges": [
+        "drug_protein",
+        "phenotype_protein",
+        "disease_phenotype_positive"
+       ],
+       "intermediate_degrees": [
+        282,
+        103
+       ],
+       "nodes": [
+        "Disopyramide [drug]",
+        "CHRM3 [gene/protein]",
+        "Ascites [effect/phenotype]",
+        "mosaic variegated aneuploidy syndrome [disease]"
+       ]
+      },
+      {
+       "edges": [
+        "drug_protein",
+        "disease_protein",
+        "disease_phenotype_positive"
+       ],
+       "intermediate_degrees": [
+        177,
+        419
+       ],
+       "nodes": [
+        "Disopyramide [drug]",
+        "KCND3 [gene/protein]",
+        "spinocerebellar ataxia [disease]",
+        "Failure to thrive [effect/phenotype]"
+       ]
+      },
+      {
+       "edges": [
+        "drug_protein",
+        "disease_protein",
+        "disease_phenotype_positive"
+       ],
+       "intermediate_degrees": [
+        182,
+        924
+       ],
+       "nodes": [
+        "Disopyramide [drug]",
+        "CHRM1 [gene/protein]",
+        "schizophrenia [disease]",
+        "Short stature [effect/phenotype]"
+       ]
+      },
+      {
+       "edges": [
+        "drug_drug",
+        "drug_protein",
+        "phenotype_protein"
+       ],
+       "intermediate_degrees": [
+        575,
+        312
+       ],
+       "nodes": [
+        "Disopyramide [drug]",
+        "Zinc [drug]",
+        "MMP9 [gene/protein]",
+        "Premature birth [effect/phenotype]"
+       ]
+      }
+     ],
+     "n_query_nodes_reached_hub_free": 7,
+     "shortest_length_hub_free": {
+      "HP:0000121 Nephrocalcinosis": 4,
+      "HP:0001508 Failure to thrive": 3,
+      "HP:0001518 Small for gestational age": 4,
+      "HP:0001622 Premature birth": 3,
+      "HP:0003202 Skeletal muscle atrophy": 2,
+      "HP:0004322 Short stature": 3,
+      "MVA disease node: mosaic variegated aneuploidy syndrome": 3
+     },
+     "shortest_length_hubs_allowed": {
+      "HP:0000121 Nephrocalcinosis": 4,
+      "HP:0001508 Failure to thrive": 3,
+      "HP:0001518 Small for gestational age": 4,
+      "HP:0001622 Premature birth": 3,
+      "HP:0003202 Skeletal muscle atrophy": 2,
+      "HP:0004322 Short stature": 3,
+      "MVA disease node: mosaic variegated aneuploidy syndrome": 3
+     },
+     "verdict": "survives"
+    },
+    "POMALIDOMIDE": {
+     "drug_nodes": [
+      15367
+     ],
+     "example_paths": [
+      {
+       "edges": [
+        "drug_protein",
+        "phenotype_protein"
+       ],
+       "intermediate_degrees": [
+        666
+       ],
+       "nodes": [
+        "Pomalidomide [drug]",
+        "TNF [gene/protein]",
+        "Skeletal muscle atrophy [effect/phenotype]"
+       ]
+      },
+      {
+       "edges": [
+        "drug_protein",
+        "phenotype_protein"
+       ],
+       "intermediate_degrees": [
+        666
+       ],
+       "nodes": [
+        "Pomalidomide [drug]",
+        "TNF [gene/protein]",
+        "Premature birth [effect/phenotype]"
+       ]
+      },
+      {
+       "edges": [
+        "drug_protein",
+        "disease_protein",
+        "disease_phenotype_positive"
+       ],
+       "intermediate_degrees": [
+        666,
+        306
+       ],
+       "nodes": [
+        "Pomalidomide [drug]",
+        "TNF [gene/protein]",
+        "thyroid gland carcinoma [disease]",
+        "Nephrocalcinosis [effect/phenotype]"
+       ]
+      },
+      {
+       "edges": [
+        "drug_protein",
+        "disease_protein",
+        "disease_phenotype_positive"
+       ],
+       "intermediate_degrees": [
+        666,
+        134
+       ],
+       "nodes": [
+        "Pomalidomide [drug]",
+        "TNF [gene/protein]",
+        "familial intrahepatic cholestasis [disease]",
+        "Failure to thrive [effect/phenotype]"
+       ]
+      },
+      {
+       "edges": [
+        "drug_protein",
+        "disease_protein",
+        "disease_phenotype_positive"
+       ],
+       "intermediate_degrees": [
+        197,
+        201
+       ],
+       "nodes": [
+        "Pomalidomide [drug]",
+        "CRBN [gene/protein]",
+        "intellectual disability, autosomal recessive [disease]",
+        "Short stature [effect/phenotype]"
+       ]
+      }
+     ],
+     "n_query_nodes_reached_hub_free": 7,
+     "shortest_length_hub_free": {
+      "HP:0000121 Nephrocalcinosis": 3,
+      "HP:0001508 Failure to thrive": 3,
+      "HP:0001518 Small for gestational age": 3,
+      "HP:0001622 Premature birth": 2,
+      "HP:0003202 Skeletal muscle atrophy": 2,
+      "HP:0004322 Short stature": 3,
+      "MVA disease node: mosaic variegated aneuploidy syndrome": 4
+     },
+     "shortest_length_hubs_allowed": {
+      "HP:0000121 Nephrocalcinosis": 3,
+      "HP:0001508 Failure to thrive": 3,
+      "HP:0001518 Small for gestational age": 3,
+      "HP:0001622 Premature birth": 2,
+      "HP:0003202 Skeletal muscle atrophy": 2,
+      "HP:0004322 Short stature": 3,
+      "MVA disease node: mosaic variegated aneuploidy syndrome": 3
+     },
+     "verdict": "survives"
+    }
+   },
+   "query_nodes": {
+    "22488": "HP:0004322 Short stature",
+    "22788": "HP:0001508 Failure to thrive",
+    "23531": "HP:0003202 Skeletal muscle atrophy",
+    "23908": "HP:0001622 Premature birth",
+    "24516": "HP:0000121 Nephrocalcinosis",
+    "28004": "MVA disease node: mosaic variegated aneuploidy syndrome",
+    "84903": "HP:0001518 Small for gestational age"
+   },
+   "seconds": 35.3,
+   "source_note": "PrimeKG's on-disk edge table has no per-edge primary-source field (relation, display_relation, x_index, y_index only); the relation type of each edge is listed; the 'lacks a primary source' branch is not assessable per edge and was not used to refute"
+  },
+  "CF5": {
+   "module_size": 227,
+   "n_random_modules": 100,
+   "null_z_iterations": 300,
+   "per_drug": {
+    "CERITINIB": {
+     "criterion_in_top_set_under_other_scheme": true,
+     "in_top_set_by_scheme": {
+      "W1_epcr": true,
+      "W2_equal": true,
+      "W3_pathogenic_gene_only": true
+     },
+     "n_null_modules": 100,
+     "null_median_rank": 587.5,
+     "p_random_module": 0.009900990099009901,
+     "q_bh": 0.01485148514851485,
+     "random_module_control_passed": true,
+     "rank_real_module": 4,
+     "ranks_by_scheme_threshold": {
+      "W1_epcr": {
+       "400": 14,
+       "700": 3,
+       "900": 3
+      },
+      "W2_equal": {
+       "400": 20,
+       "700": 3,
+       "900": 3
+      },
+      "W3_pathogenic_gene_only": {
+       "400": 14,
+       "700": 3,
+       "900": 3
+      }
+     },
+     "verdict": "survives"
+    },
+    "SELINEXOR": {
+     "criterion_in_top_set_under_other_scheme": true,
+     "in_top_set_by_scheme": {
+      "W1_epcr": true,
+      "W2_equal": true,
+      "W3_pathogenic_gene_only": true
+     },
+     "n_null_modules": 100,
+     "null_median_rank": 448.0,
+     "p_random_module": 0.009900990099009901,
+     "q_bh": 0.01485148514851485,
+     "random_module_control_passed": true,
+     "rank_real_module": 2,
+     "ranks_by_scheme_threshold": {
+      "W1_epcr": {
+       "400": 3,
+       "700": 2,
+       "900": 4
+      },
+      "W2_equal": {
+       "400": 3,
+       "700": 2,
+       "900": 5
+      },
+      "W3_pathogenic_gene_only": {
+       "400": 3,
+       "700": 2,
+       "900": 4
+      }
+     },
+     "verdict": "survives"
+    },
+    "TIRBANIBULIN": {
+     "criterion_in_top_set_under_other_scheme": true,
+     "in_top_set_by_scheme": {
+      "W1_epcr": true,
+      "W2_equal": true,
+      "W3_pathogenic_gene_only": true
+     },
+     "n_null_modules": 100,
+     "null_median_rank": 767.5,
+     "p_random_module": 0.019801980198019802,
+     "q_bh": 0.019801980198019802,
+     "random_module_control_passed": true,
+     "rank_real_module": 1,
+     "ranks_by_scheme_threshold": {
+      "W1_epcr": {
+       "400": 1,
+       "700": 1,
+       "900": 1
+      },
+      "W2_equal": {
+       "400": 1,
+       "700": 1,
+       "900": 1
+      },
+      "W3_pathogenic_gene_only": {
+       "400": 1,
+       "700": 1,
+       "900": 1
+      }
+     },
+     "verdict": "survives"
+    }
+   },
+   "scored_drugs_real_module": 1309,
+   "seconds": 239.2,
+   "top_set_by_scheme": {
+    "W1_epcr": [
+     "CHEMBL1201607",
+     "CHEMBL2403108",
+     "CHEMBL3545185",
+     "CHEMBL571546"
+    ],
+    "W2_equal": [
+     "CHEMBL2403108",
+     "CHEMBL3545185",
+     "CHEMBL571546"
+    ],
+    "W3_pathogenic_gene_only": [
+     "CHEMBL1201607",
+     "CHEMBL2403108",
+     "CHEMBL3545185",
+     "CHEMBL571546"
+    ]
+   },
+   "top_set_names": {
+    "W1_epcr": [
+     "CERITINIB",
+     "NATALIZUMAB",
+     "SELINEXOR",
+     "TIRBANIBULIN"
+    ],
+    "W2_equal": [
+     "CERITINIB",
+     "SELINEXOR",
+     "TIRBANIBULIN"
+    ],
+    "W3_pathogenic_gene_only": [
+     "CERITINIB",
+     "NATALIZUMAB",
+     "SELINEXOR",
+     "TIRBANIBULIN"
+    ]
+   }
+  },
+  "CF6": {
+   "concerns": [
+    "REGORAFENIB",
+    "SUNITINIB",
+    "NIROGACESTAT",
+    "RITLECITINIB",
+    "ERDAFITINIB"
+   ],
+   "controls": {
+    "controls_above_chance": false,
+    "non_readout_of": 4,
+    "non_readout_recovered_observed": 2,
+    "null_mean_recovered": 1.98,
+    "of": 6,
+    "p_non_readout_null_ge_observed": 0.23476523476523475,
+    "p_null_ge_observed": 0.053946053946053944,
+    "per_control": [
+     {
+      "gene": "TTK",
+      "recovered": true
+     },
+     {
+      "gene": "BUB1",
+      "recovered": true
+     },
+     {
+      "gene": "AURKB",
+      "recovered": false
+     },
+     {
+      "gene": "CDC20",
+      "recovered": true
+     },
+     {
+      "gene": "MAD2L1",
+      "recovered": true
+     },
+     {
+      "gene": "TRIP13",
+      "recovered": false
+     }
+    ],
+    "recovered_observed": 4
+   },
+   "n_perm": 1000,
+   "network": {
+    "n_negative": 12838,
+    "n_positive": 43407,
+    "nodes": 8297,
+    "signed_edges": 56245
+   },
+   "per_drug": {
+    "ERDAFITINIB": {
+     "null_mean": 15.528,
+     "null_range_2_5_97_5": [
+      -10.0,
+      39.0
+     ],
+     "observed_net": 34.0,
+     "p_two_sided": 0.07092907092907093,
+     "q_bh": 0.11821511821511821,
+     "reproduces_stored": true,
+     "stored_net": 34.0,
+     "verdict": "refuted"
+    },
+    "NIROGACESTAT": {
+     "null_mean": 10.104,
+     "null_range_2_5_97_5": [
+      -29.0,
+      41.0
+     ],
+     "observed_net": 49.0,
+     "p_two_sided": 0.002997002997002997,
+     "q_bh": 0.014985014985014984,
+     "reproduces_stored": true,
+     "stored_net": 49.0,
+     "verdict": "survives"
+    },
+    "REGORAFENIB": {
+     "null_mean": 60.791,
+     "null_range_2_5_97_5": [
+      6.975000000000001,
+      118.0
+     ],
+     "observed_net": 94.0,
+     "p_two_sided": 0.12087912087912088,
+     "q_bh": 0.12087912087912087,
+     "reproduces_stored": true,
+     "stored_net": 94.0,
+     "verdict": "refuted"
+    },
+    "RITLECITINIB": {
+     "null_mean": 17.797,
+     "null_range_2_5_97_5": [
+      -10.0,
+      41.0
+     ],
+     "observed_net": 39.0,
+     "p_two_sided": 0.04695304695304695,
+     "q_bh": 0.11738261738261738,
+     "reproduces_stored": true,
+     "stored_net": 39.0,
+     "verdict": "refuted"
+    },
+    "SUNITINIB": {
+     "null_mean": 32.501,
+     "null_range_2_5_97_5": [
+      -5.024999999999999,
+      69.02499999999998
+     ],
+     "observed_net": 57.0,
+     "p_two_sided": 0.1048951048951049,
+     "q_bh": 0.12087912087912087,
+     "reproduces_stored": true,
+     "stored_net": 57.0,
+     "verdict": "refuted"
+    }
+   },
+   "seconds": 25.6,
+   "seed": 20261018
+  },
+  "CF7": {
+   "array_titles": [
+    "LCL-proband-1",
+    "LCL-proband-2",
+    "Fibro-proband-1",
+    "Fibro-proband-2",
+    "LCL-control1-1",
+    "LCL-control1-2",
+    "Fibro-control2-1",
+    "Fibro-control2-2",
+    "LCL-control3-1",
+    "LCL-control3-2",
+    "LCL-relative1-1",
+    "LCL-relative1-2",
+    "LCL-relative2-1",
+    "LCL-relative2-2"
+   ],
+   "concerns": [
+    "NERATINIB",
+    "AMPHOTERICIN B",
+    "AURANOFIN",
+    "FLUVASTATIN",
+    "NELFINAVIR"
+   ],
+   "full_six_arrays": {
+    "AMPHOTERICIN B": {
+     "R": 10.0,
+     "n_case": 2,
+     "n_control": 4,
+     "n_down": 100,
+     "n_up": 100,
+     "p_rev": 0.000999000999000999,
+     "q_rev": 0.05932955932955933
+    },
+    "AURANOFIN": {
+     "R": 8.0,
+     "n_case": 2,
+     "n_control": 4,
+     "n_down": 100,
+     "n_up": 100,
+     "p_rev": 0.000999000999000999,
+     "q_rev": 0.05932955932955933
+    },
+    "FLUVASTATIN": {
+     "R": 8.0,
+     "n_case": 2,
+     "n_control": 4,
+     "n_down": 100,
+     "n_up": 100,
+     "p_rev": 0.000999000999000999,
+     "q_rev": 0.05932955932955933
+    },
+    "NELFINAVIR": {
+     "R": 8.0,
+     "n_case": 2,
+     "n_control": 4,
+     "n_down": 100,
+     "n_up": 100,
+     "p_rev": 0.000999000999000999,
+     "q_rev": 0.05932955932955933
+    },
+    "NERATINIB": {
+     "R": 12.0,
+     "n_case": 2,
+     "n_control": 4,
+     "n_down": 100,
+     "n_up": 100,
+     "p_rev": 0.000999000999000999,
+     "q_rev": 0.05932955932955933
+    }
+   },
+   "per_drug": {
+    "AMPHOTERICIN B": {
+     "action_if_refuted": "close",
+     "concordance": {
+      "bub1b_R": 10,
+      "bub1b_q_rev": 0.7492553005081479,
+      "concordant_with_disease_signature": false,
+      "hazard_flag_by_signature": {
+       "bub1b": false,
+       "track1_combined": false
+      },
+      "track1_combined_R": 15,
+      "track1_combined_q_rev": 0.7031806221947067
+     },
+     "leave_out": {
+      "leave_out_LCL-control1-1": {
+       "R": 12.0,
+       "n_case": 2,
+       "n_control": 3,
+       "n_down": 100,
+       "n_up": 100,
+       "p_rev": 0.000999000999000999,
+       "q_rev": 0.0762808619951477
+      },
+      "leave_out_LCL-control1-2": {
+       "R": 6.0,
+       "n_case": 2,
+       "n_control": 3,
+       "n_down": 100,
+       "n_up": 100,
+       "p_rev": 0.004995004995004995,
+       "q_rev": 0.1841262186089772
+      },
+      "leave_out_LCL-control3-1": {
+       "R": 9.0,
+       "n_case": 2,
+       "n_control": 3,
+       "n_down": 100,
+       "n_up": 100,
+       "p_rev": 0.000999000999000999,
+       "q_rev": 0.0762808619951477
+      },
+      "leave_out_LCL-control3-2": {
+       "R": 9.0,
+       "n_case": 2,
+       "n_control": 3,
+       "n_down": 100,
+       "n_up": 100,
+       "p_rev": 0.000999000999000999,
+       "q_rev": 0.08214862061015907
+      },
+      "leave_out_LCL-proband-1": {
+       "R": 7.0,
+       "n_case": 1,
+       "n_control": 4,
+       "n_down": 100,
+       "n_up": 100,
+       "p_rev": 0.001998001998001998,
+       "q_rev": 0.1525617239902954
+      },
+      "leave_out_LCL-proband-2": {
+       "R": 7.0,
+       "n_case": 1,
+       "n_control": 4,
+       "n_down": 100,
+       "n_up": 100,
+       "p_rev": 0.001998001998001998,
+       "q_rev": 0.14239094239094238
+      }
+     },
+     "leave_outs_failed": [
+      "leave_out_LCL-control1-2",
+      "leave_out_LCL-proband-1",
+      "leave_out_LCL-proband-2"
+     ],
+     "max_q_rev": 0.1841262186089772,
+     "verdict": "refuted"
+    },
+    "AURANOFIN": {
+     "action_if_refuted": "close",
+     "concordance": {
+      "bub1b_R": -10,
+      "bub1b_q_rev": 0.9062930806145838,
+      "concordant_with_disease_signature": false,
+      "hazard_flag_by_signature": {
+       "bub1b": false,
+       "track1_combined": false
+      },
+      "track1_combined_R": -5,
+      "track1_combined_q_rev": 0.8422786253294728
+     },
+     "leave_out": {
+      "leave_out_LCL-control1-1": {
+       "R": 5.0,
+       "n_case": 2,
+       "n_control": 3,
+       "n_down": 100,
+       "n_up": 100,
+       "p_rev": 0.014985014985014986,
+       "q_rev": 0.39070685412148826
+      },
+      "leave_out_LCL-control1-2": {
+       "R": 8.0,
+       "n_case": 2,
+       "n_control": 3,
+       "n_down": 100,
+       "n_up": 100,
+       "p_rev": 0.000999000999000999,
+       "q_rev": 0.11865911865911866
+      },
+      "leave_out_LCL-control3-1": {
+       "R": 8.0,
+       "n_case": 2,
+       "n_control": 3,
+       "n_down": 100,
+       "n_up": 100,
+       "p_rev": 0.000999000999000999,
+       "q_rev": 0.0762808619951477
+      },
+      "leave_out_LCL-control3-2": {
+       "R": 7.0,
+       "n_case": 2,
+       "n_control": 3,
+       "n_down": 100,
+       "n_up": 100,
+       "p_rev": 0.002997002997002997,
+       "q_rev": 0.12815184815184816
+      },
+      "leave_out_LCL-proband-1": {
+       "R": 6.0,
+       "n_case": 1,
+       "n_control": 4,
+       "n_down": 100,
+       "n_up": 100,
+       "p_rev": 0.005994005994005994,
+       "q_rev": 0.18845860022330613
+      },
+      "leave_out_LCL-proband-2": {
+       "R": 7.0,
+       "n_case": 1,
+       "n_control": 4,
+       "n_down": 100,
+       "n_up": 100,
+       "p_rev": 0.001998001998001998,
+       "q_rev": 0.14239094239094238
+      }
+     },
+     "leave_outs_failed": [
+      "leave_out_LCL-control1-1",
+      "leave_out_LCL-control1-2",
+      "leave_out_LCL-control3-2",
+      "leave_out_LCL-proband-1",
+      "leave_out_LCL-proband-2"
+     ],
+     "max_q_rev": 0.39070685412148826,
+     "verdict": "refuted"
+    },
+    "FLUVASTATIN": {
+     "action_if_refuted": "close",
+     "concordance": {
+      "bub1b_R": -6,
+      "bub1b_q_rev": 0.8976008251978871,
+      "concordant_with_disease_signature": false,
+      "hazard_flag_by_signature": {
+       "bub1b": false,
+       "track1_combined": false
+      },
+      "track1_combined_R": -6,
+      "track1_combined_q_rev": 0.8875154226675737
+     },
+     "leave_out": {
+      "leave_out_LCL-control1-1": {
+       "R": 8.0,
+       "n_case": 2,
+       "n_control": 3,
+       "n_down": 100,
+       "n_up": 100,
+       "p_rev": 0.000999000999000999,
+       "q_rev": 0.0762808619951477
+      },
+      "leave_out_LCL-control1-2": {
+       "R": 8.0,
+       "n_case": 2,
+       "n_control": 3,
+       "n_down": 100,
+       "n_up": 100,
+       "p_rev": 0.001998001998001998,
+       "q_rev": 0.14239094239094238
+      },
+      "leave_out_LCL-control3-1": {
+       "R": 8.0,
+       "n_case": 2,
+       "n_control": 3,
+       "n_down": 100,
+       "n_up": 100,
+       "p_rev": 0.001998001998001998,
+       "q_rev": 0.10679320679320678
+      },
+      "leave_out_LCL-control3-2": {
+       "R": 7.0,
+       "n_case": 2,
+       "n_control": 3,
+       "n_down": 100,
+       "n_up": 100,
+       "p_rev": 0.001998001998001998,
+       "q_rev": 0.10170781599353027
+      },
+      "leave_out_LCL-proband-1": {
+       "R": 6.0,
+       "n_case": 1,
+       "n_control": 4,
+       "n_down": 100,
+       "n_up": 100,
+       "p_rev": 0.003996003996003996,
+       "q_rev": 0.1525617239902954
+      },
+      "leave_out_LCL-proband-2": {
+       "R": 8.0,
+       "n_case": 1,
+       "n_control": 4,
+       "n_down": 100,
+       "n_up": 100,
+       "p_rev": 0.000999000999000999,
+       "q_rev": 0.0970847334483698
+      }
+     },
+     "leave_outs_failed": [
+      "leave_out_LCL-control1-2",
+      "leave_out_LCL-control3-1",
+      "leave_out_LCL-control3-2",
+      "leave_out_LCL-proband-1"
+     ],
+     "max_q_rev": 0.1525617239902954,
+     "verdict": "refuted"
+    },
+    "NELFINAVIR": {
+     "action_if_refuted": "close",
+     "concordance": {
+      "bub1b_R": -9,
+      "bub1b_q_rev": 0.8721245009209014,
+      "concordant_with_disease_signature": false,
+      "hazard_flag_by_signature": {
+       "bub1b": false,
+       "track1_combined": false
+      },
+      "track1_combined_R": -7,
+      "track1_combined_q_rev": 0.8557601339058293
+     },
+     "leave_out": {
+      "leave_out_LCL-control1-1": {
+       "R": 6.0,
+       "n_case": 2,
+       "n_control": 3,
+       "n_down": 100,
+       "n_up": 100,
+       "p_rev": 0.004995004995004995,
+       "q_rev": 0.22248584748584746
+      },
+      "leave_out_LCL-control1-2": {
+       "R": 9.0,
+       "n_case": 2,
+       "n_control": 3,
+       "n_down": 100,
+       "n_up": 100,
+       "p_rev": 0.000999000999000999,
+       "q_rev": 0.11865911865911866
+      },
+      "leave_out_LCL-control3-1": {
+       "R": 7.0,
+       "n_case": 2,
+       "n_control": 3,
+       "n_down": 100,
+       "n_up": 100,
+       "p_rev": 0.000999000999000999,
+       "q_rev": 0.0762808619951477
+      },
+      "leave_out_LCL-control3-2": {
+       "R": 7.0,
+       "n_case": 2,
+       "n_control": 3,
+       "n_down": 100,
+       "n_up": 100,
+       "p_rev": 0.001998001998001998,
+       "q_rev": 0.10170781599353027
+      },
+      "leave_out_LCL-proband-1": {
+       "R": 7.0,
+       "n_case": 1,
+       "n_control": 4,
+       "n_down": 100,
+       "n_up": 100,
+       "p_rev": 0.001998001998001998,
+       "q_rev": 0.1525617239902954
+      },
+      "leave_out_LCL-proband-2": {
+       "R": 7.0,
+       "n_case": 1,
+       "n_control": 4,
+       "n_down": 100,
+       "n_up": 100,
+       "p_rev": 0.000999000999000999,
+       "q_rev": 0.0970847334483698
+      }
+     },
+     "leave_outs_failed": [
+      "leave_out_LCL-control1-1",
+      "leave_out_LCL-control1-2",
+      "leave_out_LCL-control3-2",
+      "leave_out_LCL-proband-1"
+     ],
+     "max_q_rev": 0.22248584748584746,
+     "verdict": "refuted"
+    },
+    "NERATINIB": {
+     "action_if_refuted": "close",
+     "concordance": {
+      "bub1b_R": 1,
+      "bub1b_q_rev": 0.8088949740735455,
+      "concordant_with_disease_signature": false,
+      "hazard_flag_by_signature": {
+       "bub1b": false,
+       "track1_combined": false
+      },
+      "track1_combined_R": -2,
+      "track1_combined_q_rev": 0.8325410088751156
+     },
+     "leave_out": {
+      "leave_out_LCL-control1-1": {
+       "R": 9.0,
+       "n_case": 2,
+       "n_control": 3,
+       "n_down": 100,
+       "n_up": 100,
+       "p_rev": 0.000999000999000999,
+       "q_rev": 0.0762808619951477
+      },
+      "leave_out_LCL-control1-2": {
+       "R": 12.0,
+       "n_case": 2,
+       "n_control": 3,
+       "n_down": 100,
+       "n_up": 100,
+       "p_rev": 0.000999000999000999,
+       "q_rev": 0.11865911865911866
+      },
+      "leave_out_LCL-control3-1": {
+       "R": 10.0,
+       "n_case": 2,
+       "n_control": 3,
+       "n_down": 100,
+       "n_up": 100,
+       "p_rev": 0.000999000999000999,
+       "q_rev": 0.0762808619951477
+      },
+      "leave_out_LCL-control3-2": {
+       "R": 8.0,
+       "n_case": 2,
+       "n_control": 3,
+       "n_down": 100,
+       "n_up": 100,
+       "p_rev": 0.001998001998001998,
+       "q_rev": 0.10170781599353027
+      },
+      "leave_out_LCL-proband-1": {
+       "R": 12.0,
+       "n_case": 1,
+       "n_control": 4,
+       "n_down": 100,
+       "n_up": 100,
+       "p_rev": 0.000999000999000999,
+       "q_rev": 0.1525617239902954
+      },
+      "leave_out_LCL-proband-2": {
+       "R": 10.0,
+       "n_case": 1,
+       "n_control": 4,
+       "n_down": 100,
+       "n_up": 100,
+       "p_rev": 0.000999000999000999,
+       "q_rev": 0.0970847334483698
+      }
+     },
+     "leave_outs_failed": [
+      "leave_out_LCL-control1-2",
+      "leave_out_LCL-control3-2",
+      "leave_out_LCL-proband-1"
+     ],
+     "max_q_rev": 0.1525617239902954,
+     "verdict": "refuted"
+    }
+   },
+   "seconds": 7.5,
+   "self_check": {
+    "AMPHOTERICIN B_R_q_equal_stored": true,
+    "AURANOFIN_R_q_equal_stored": true,
+    "FLUVASTATIN_R_q_equal_stored": true,
+    "NELFINAVIR_R_q_equal_stored": true,
+    "NERATINIB_R_q_equal_stored": true,
+    "up_equals_stored_signature": true
+   }
+  },
+  "CF8": {
+   "applies_to": "the IGBP1 rationale of X1, not the drugs",
+   "concerns": [
+    "SIROLIMUS",
+    "EVEROLIMUS",
+    "METFORMIN"
+   ],
+   "degrees": {
+    "IGBP1": 4,
+    "MTOR": 43,
+    "PRKAA1": 7,
+    "PRKAA2": 7
+   },
+   "null_mean_of_means": 4.7228,
+   "null_median": 4.666666666666667,
+   "null_n_draws": 5000,
+   "observed_distance_each": {
+    "MTOR": 4.0,
+    "PRKAA1": 5.0,
+    "PRKAA2": 5.0
+   },
+   "observed_mean_distance": 4.666666666666667,
+   "p_each_target": {
+    "MTOR": 0.652869426114777,
+    "PRKAA1": 0.73125374925015,
+    "PRKAA2": 0.7306538692261547
+   },
+   "p_null_le_observed": 0.618876224755049,
+   "primary_threshold": 700,
+   "seconds": 107.4,
+   "sensitivity_thresholds": {
+    "400": {
+     "observed_mean_distance": 2.6666666666666665,
+     "p_null_le_observed": 0.13997200559888023,
+     "verdict": "refuted"
+    },
+    "900": {
+     "observed_mean_distance": 4.0,
+     "p_null_le_observed": 0.1925614877024595,
+     "verdict": "refuted"
+    }
+   },
+   "targets_found": [
+    "MTOR",
+    "PRKAA1",
+    "PRKAA2"
+   ],
+   "verdict": "refuted"
+  },
+  "CF9": {
+   "concerns": [
+    "LAZERTINIB",
+    "NERATINIB",
+    "COLCHICINE",
+    "ERIBULIN",
+    "PACLITAXEL",
+    "VINCRISTINE"
+   ],
+   "needed": "an independent drug-sensitivity screen covering the same drugs and cell lines (GDSC, CTRP or PRISM secondary/MTS data), which would have to be downloaded",
+   "other_resources_found": [],
+   "per_drug": {
+    "COLCHICINE": {
+     "has_second_independent_screen": false,
+     "n_rows": 1,
+     "screens": [
+      "REP.PRIMARY"
+     ]
+    },
+    "ERIBULIN": {
+     "has_second_independent_screen": false,
+     "n_rows": 1,
+     "screens": [
+      "REP.1M"
+     ]
+    },
+    "LAZERTINIB": {
+     "has_second_independent_screen": false,
+     "n_rows": 1,
+     "screens": [
+      "REP.1M"
+     ]
+    },
+    "NERATINIB": {
+     "has_second_independent_screen": false,
+     "n_rows": 1,
+     "screens": [
+      "REP.PRIMARY"
+     ]
+    },
+    "PACLITAXEL": {
+     "has_second_independent_screen": false,
+     "n_rows": 1,
+     "screens": [
+      "REP.PRIMARY"
+     ]
+    },
+    "VINCRISTINE": {
+     "has_second_independent_screen": false,
+     "n_rows": 1,
+     "screens": [
+      "REP.PRIMARY"
+     ]
+    }
+   },
+   "reason": "each line C survivor has exactly one row in the PRISM compound list (one screen), and no GDSC, CTRP or PRISM secondary file is on disk; the DepMap CRISPR matrix is a different assay",
+   "screens_present_in_compound_list": [
+    "REP.1M",
+    "REP.300",
+    "REP.PRIMARY"
+   ],
+   "seconds": 1.0,
+   "verdict": "not runnable"
+  }
+ },
+ "seed": 20261018
+}

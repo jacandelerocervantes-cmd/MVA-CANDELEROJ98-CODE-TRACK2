@@ -1,0 +1,216 @@
+{
+ "cases": {
+  "fanconi_anemia": {
+   "byte_identical_between_repeats": true,
+   "counts": {
+    "drugs_scored_per_module": {
+     "sub_ATR": {
+      "n_pass": {
+       "400": 18,
+       "700": 11,
+       "900": 9
+      },
+      "n_scored": {
+       "400": 1128,
+       "700": 1040,
+       "900": 905
+      }
+     },
+     "sub_FANCA": {
+      "n_pass": {
+       "400": 41,
+       "700": 45,
+       "900": 14
+      },
+      "n_scored": {
+       "400": 1128,
+       "700": 1040,
+       "900": 905
+      }
+     }
+    },
+    "module_size_in_network": {
+     "ATR": 15,
+     "FANCA": 95
+    },
+    "modules": [
+     "sub_ATR",
+     "sub_FANCA"
+    ],
+    "n_drugs_in_consensus": 27,
+    "n_genes": 2,
+    "n_modellable_modules": 2
+   },
+   "description": "Fanconi anaemia (public knowledge: FANCA, ATR); synthetic positions",
+   "differing_files": [],
+   "input_csv": "data/empirical_cases/fanconi_anemia.csv",
+   "input_sha256": "f3e3c3e25d86d726a30a2e8a518e2660a1d05d70d4d40a4126a4f02c99b936e7",
+   "n_output_files": 11,
+   "runs_machine_dependent": [
+    {
+     "stage1_from_submission": {
+      "output_tail": [
+       "FANCA 0.91 reactome_pathways_of_the_gene 95",
+       "ATR 0.62 string_physical_neighbours 15",
+       "modellable genes: 2 of 2"
+      ],
+      "peak_rss_mb": 253.6,
+      "returncode": 0,
+      "wall_seconds": 82.991
+     },
+     "stage8_consensus": {
+      "output_tail": [
+       "   \"jaccard_top20\": 0.6,",
+       "   \"spearman\": 0.6336104447140742",
+       "  }",
+       " }",
+       "}"
+      ],
+      "peak_rss_mb": 118.3,
+      "returncode": 0,
+      "wall_seconds": 4.752
+     }
+    },
+    {
+     "stage1_from_submission": {
+      "output_tail": [
+       "FANCA 0.91 reactome_pathways_of_the_gene 95",
+       "ATR 0.62 string_physical_neighbours 15",
+       "modellable genes: 2 of 2"
+      ],
+      "peak_rss_mb": 232.6,
+      "returncode": 0,
+      "wall_seconds": 99.699
+     },
+     "stage8_consensus": {
+      "output_tail": [
+       "   \"jaccard_top20\": 0.6,",
+       "   \"spearman\": 0.6336104447140742",
+       "  }",
+       " }",
+       "}"
+      ],
+      "peak_rss_mb": 115.0,
+      "returncode": 0,
+      "wall_seconds": 1.385
+     }
+    }
+   ]
+  },
+  "mva_cep57_trip13": {
+   "byte_identical_between_repeats": true,
+   "counts": {
+    "drugs_scored_per_module": {
+     "sub_CEP57": {
+      "n_pass": {
+       "400": 20,
+       "700": 15,
+       "900": 12
+      },
+      "n_scored": {
+       "400": 1128,
+       "700": 1040,
+       "900": 905
+      }
+     },
+     "sub_TRIP13": {
+      "n_pass": {
+       "400": 18,
+       "700": 3,
+       "900": 3
+      },
+      "n_scored": {
+       "400": 1128,
+       "700": 1040,
+       "900": 905
+      }
+     }
+    },
+    "module_size_in_network": {
+     "CEP57": 130,
+     "TRIP13": 86
+    },
+    "modules": [
+     "sub_CEP57",
+     "sub_TRIP13"
+    ],
+    "n_drugs_in_consensus": 35,
+    "n_genes": 2,
+    "n_modellable_modules": 2
+   },
+   "description": "Mosaic variegated aneuploidy-type gene set (CEP57, TRIP13); synthetic positions",
+   "differing_files": [],
+   "input_csv": "data/empirical_cases/mva_cep57_trip13.csv",
+   "input_sha256": "adb6030e573e5aed2dd16e17f907569b74f6257c743cff8df4414d606b2a4461",
+   "n_output_files": 11,
+   "runs_machine_dependent": [
+    {
+     "stage1_from_submission": {
+      "output_tail": [
+       "CEP57 0.88 reactome_pathways_of_the_gene 130",
+       "TRIP13 0.57 string_physical_neighbours_2nd_order 86",
+       "modellable genes: 2 of 2"
+      ],
+      "peak_rss_mb": 261.9,
+      "returncode": 0,
+      "wall_seconds": 82.975
+     },
+     "stage8_consensus": {
+      "output_tail": [
+       "   \"jaccard_top20\": 0.6,",
+       "   \"spearman\": 0.5504219138092811",
+       "  }",
+       " }",
+       "}"
+      ],
+      "peak_rss_mb": 120.0,
+      "returncode": 0,
+      "wall_seconds": 1.353
+     }
+    },
+    {
+     "stage1_from_submission": {
+      "output_tail": [
+       "CEP57 0.88 reactome_pathways_of_the_gene 130",
+       "TRIP13 0.57 string_physical_neighbours_2nd_order 86",
+       "modellable genes: 2 of 2"
+      ],
+      "peak_rss_mb": 227.6,
+      "returncode": 0,
+      "wall_seconds": 76.965
+     },
+     "stage8_consensus": {
+      "output_tail": [
+       "   \"jaccard_top20\": 0.6,",
+       "   \"spearman\": 0.5504219138092811",
+       "  }",
+       " }",
+       "}"
+      ],
+      "peak_rss_mb": 118.1,
+      "returncode": 0,
+      "wall_seconds": 1.373
+     }
+    }
+   ]
+  }
+ },
+ "determinism_note": "ITERATIONS and the permutation seed are fixed inside track2.run_pipeline; the repeat run uses the same code, so it tests determinism",
+ "machine": {
+  "cpu_count": 8,
+  "platform": "Windows-10-10.0.26200-SP0",
+  "psutil": "7.2.2",
+  "python": "3.10.11"
+ },
+ "machine_dependent_fields": [
+  "runs_machine_dependent.*.wall_seconds",
+  "runs_machine_dependent.*.peak_rss_mb",
+  "machine"
+ ],
+ "not_run_stages": {
+  "18-21": "rewrite the real case's outputs; never run here",
+  "4": "validate_submission_modules: 30-90 min per module",
+  "5": "build_candidates reads config/patient.json (patient-specific gates): needs a manual patient file"
+ },
+ "real_case_out_config_unchanged": true
+}

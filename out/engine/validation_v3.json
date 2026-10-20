@@ -1,0 +1,2165 @@
+{
+  "dev_ablation": {
+    "add_one_from_grid": {
+      "F1": {
+        "mean_auc": 0.7456330279837705,
+        "minus_base": {
+          "ci95": [
+            0.004376,
+            0.080991
+          ],
+          "estimate": 0.040638,
+          "n_diseases": 31,
+          "p_boot_le_0": 0.0135
+        }
+      },
+      "F2": {
+        "mean_auc": 0.7078026564465861,
+        "minus_base": {
+          "ci95": [
+            -0.00641,
+            0.013242
+          ],
+          "estimate": 0.002807,
+          "n_diseases": 31,
+          "p_boot_le_0": 0.3145
+        }
+      },
+      "F3": {
+        "mean_auc": 0.810690183494907,
+        "minus_base": {
+          "ci95": [
+            0.052562,
+            0.159538
+          ],
+          "estimate": 0.105695,
+          "n_diseases": 31,
+          "p_boot_le_0": 0.0
+        }
+      },
+      "base": {
+        "mean_auc": 0.7049954405887817,
+        "minus_base": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "estimate": 0.0,
+          "n_diseases": 31,
+          "p_boot_le_0": 1.0
+        }
+      }
+    },
+    "drop_one_and_fixed_C": {
+      "drop_F3": {
+        "C_chosen_per_outer_fold": [
+          0.01,
+          0.03,
+          0.01,
+          0.01,
+          0.01
+        ],
+        "features": [
+          "log1p_n_papers",
+          "log1p_n_benefit",
+          "log1p_n_human",
+          "log1p_n_harm",
+          "log_popularity",
+          "excess_over_popularity",
+          "prior_direct_targets",
+          "prior_ppi_targets"
+        ],
+        "mean_auc": 0.7049954405887817,
+        "selected_minus_this": {
+          "ci95": [
+            0.052562,
+            0.159538
+          ],
+          "estimate": 0.105695,
+          "n_diseases": 31,
+          "p_boot_le_0": 0.0
+        }
+      },
+      "fixed_C_1": {
+        "C_chosen_per_outer_fold": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "features": [
+          "log1p_n_papers",
+          "log1p_n_benefit",
+          "log1p_n_human",
+          "log1p_n_harm",
+          "log_popularity",
+          "excess_over_popularity",
+          "prior_direct_targets",
+          "prior_ppi_targets",
+          "f3_atc_class_rate"
+        ],
+        "mean_auc": 0.8008079795615981,
+        "selected_minus_this": {
+          "ci95": [
+            -0.011594,
+            0.040485
+          ],
+          "estimate": 0.009882,
+          "n_diseases": 31,
+          "p_boot_le_0": 0.261
+        }
+      }
+    },
+    "selected": "F3",
+    "selected_mean_auc": 0.810690183494907
+  },
+  "dev_cv_candidates": {
+    "F1": {
+      "C_chosen_per_outer_fold": [
+        0.01,
+        0.01,
+        0.01,
+        0.01,
+        0.01
+      ],
+      "auc_ci95": [
+        0.660183,
+        0.820973
+      ],
+      "complexity": [
+        1,
+        12
+      ],
+      "config": [
+        "F1"
+      ],
+      "features": [
+        "log1p_n_papers",
+        "log1p_n_benefit",
+        "log1p_n_human",
+        "log1p_n_harm",
+        "log_popularity",
+        "excess_over_popularity",
+        "prior_direct_targets",
+        "prior_ppi_targets",
+        "f1_tfidf_papers",
+        "f1_tfidf_benefit",
+        "f1_tfidf_human",
+        "f1_pmi_benefit"
+      ],
+      "mean_auc": 0.7456330279837705,
+      "per_disease_auc": {
+        "Diamond-Blackfan anemia": 0.777819,
+        "Dravet syndrome": 0.984277,
+        "Duchenne muscular dystrophy": 0.997964,
+        "Laron syndrome": 0.191454,
+        "Lennox-Gastaut syndrome": 0.884778,
+        "Noonan syndrome": 0.66343,
+        "X-linked adrenoleukodystrophy": 0.432437,
+        "absence epilepsy": 0.566333,
+        "atypical juvenile parkinsonism": 0.669652,
+        "autoimmune thrombocytopenic": 0.566815,
+        "beta thalassemia": 0.997533,
+        "cystinuria": 0.999445,
+        "diffuse gastric adenocarcinoma": 0.863064,
+        "familial glucocorticoid deficiency": 0.295838,
+        "gastrointestinal stromal tumor": 0.999815,
+        "hemophilia": 0.330448,
+        "hereditary angioedema": 0.587858,
+        "hereditary breast ovarian cancer syndrome": 0.851887,
+        "hereditary hypophosphatemic rickets": 0.99667,
+        "homozygous familial hypercholesterolemia": 0.99895,
+        "hypogonadotropic hypogonadism with or without anosmia": 0.777654,
+        "inherited acute myeloid leukemia": 0.74948,
+        "juvenile Paget disease": 0.496926,
+        "kidney Wilms tumor": 0.857143,
+        "ovarian cancer": 0.623743,
+        "paroxysmal nocturnal hemoglobinuria": 1.0,
+        "patent ductus arteriosus": 0.68313,
+        "small cell lung carcinoma": 0.936467,
+        "squamous cell carcinoma": 0.743984,
+        "temporal arteritis": 0.82001,
+        "testicular germ cell tumor": 0.769622
+      },
+      "se": 0.04106830094242827
+    },
+    "F1+F2": {
+      "C_chosen_per_outer_fold": [
+        0.01,
+        0.01,
+        0.01,
+        0.01,
+        0.01
+      ],
+      "auc_ci95": [
+        0.651289,
+        0.813591
+      ],
+      "complexity": [
+        2,
+        15
+      ],
+      "config": [
+        "F1",
+        "F2"
+      ],
+      "features": [
+        "log1p_n_papers",
+        "log1p_n_benefit",
+        "log1p_n_human",
+        "log1p_n_harm",
+        "log_popularity",
+        "excess_over_popularity",
+        "prior_direct_targets",
+        "prior_ppi_targets",
+        "f1_tfidf_papers",
+        "f1_tfidf_benefit",
+        "f1_tfidf_human",
+        "f1_pmi_benefit",
+        "f2_class_gene_papers",
+        "f2_class_gene_pmi",
+        "f2_class_keyword_papers"
+      ],
+      "mean_auc": 0.7368033227346243,
+      "per_disease_auc": {
+        "Diamond-Blackfan anemia": 0.735493,
+        "Dravet syndrome": 0.986866,
+        "Duchenne muscular dystrophy": 0.997223,
+        "Laron syndrome": 0.170551,
+        "Lennox-Gastaut syndrome": 0.884069,
+        "Noonan syndrome": 0.659545,
+        "X-linked adrenoleukodystrophy": 0.441809,
+        "absence epilepsy": 0.563159,
+        "atypical juvenile parkinsonism": 0.671494,
+        "autoimmune thrombocytopenic": 0.571877,
+        "beta thalassemia": 0.998026,
+        "cystinuria": 0.999815,
+        "diffuse gastric adenocarcinoma": 0.869233,
+        "familial glucocorticoid deficiency": 0.303254,
+        "gastrointestinal stromal tumor": 0.999815,
+        "hemophilia": 0.323092,
+        "hereditary angioedema": 0.579165,
+        "hereditary breast ovarian cancer syndrome": 0.855019,
+        "hereditary hypophosphatemic rickets": 0.99741,
+        "homozygous familial hypercholesterolemia": 0.998888,
+        "hypogonadotropic hypogonadism with or without anosmia": 0.739734,
+        "inherited acute myeloid leukemia": 0.737485,
+        "juvenile Paget disease": 0.497889,
+        "kidney Wilms tumor": 0.838885,
+        "ovarian cancer": 0.620857,
+        "paroxysmal nocturnal hemoglobinuria": 1.0,
+        "patent ductus arteriosus": 0.578246,
+        "small cell lung carcinoma": 0.933259,
+        "squamous cell carcinoma": 0.746113,
+        "temporal arteritis": 0.765976,
+        "testicular germ cell tumor": 0.776657
+      },
+      "se": 0.041509860907640084
+    },
+    "F1+F2+F3": {
+      "C_chosen_per_outer_fold": [
+        0.01,
+        0.01,
+        0.01,
+        0.01,
+        0.01
+      ],
+      "auc_ci95": [
+        0.729648,
+        0.892686
+      ],
+      "complexity": [
+        3,
+        16
+      ],
+      "config": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "features": [
+        "log1p_n_papers",
+        "log1p_n_benefit",
+        "log1p_n_human",
+        "log1p_n_harm",
+        "log_popularity",
+        "excess_over_popularity",
+        "prior_direct_targets",
+        "prior_ppi_targets",
+        "f1_tfidf_papers",
+        "f1_tfidf_benefit",
+        "f1_tfidf_human",
+        "f1_pmi_benefit",
+        "f2_class_gene_papers",
+        "f2_class_gene_pmi",
+        "f2_class_keyword_papers",
+        "f3_atc_class_rate"
+      ],
+      "mean_auc": 0.8183928272735755,
+      "per_disease_auc": {
+        "Diamond-Blackfan anemia": 0.862924,
+        "Dravet syndrome": 0.991676,
+        "Duchenne muscular dystrophy": 0.997038,
+        "Laron syndrome": 0.080096,
+        "Lennox-Gastaut syndrome": 0.967706,
+        "Noonan syndrome": 0.874769,
+        "X-linked adrenoleukodystrophy": 0.234565,
+        "absence epilepsy": 0.833168,
+        "atypical juvenile parkinsonism": 0.466963,
+        "autoimmune thrombocytopenic": 0.87899,
+        "beta thalassemia": 0.997903,
+        "cystinuria": 1.0,
+        "diffuse gastric adenocarcinoma": 0.948927,
+        "familial glucocorticoid deficiency": 0.535132,
+        "gastrointestinal stromal tumor": 0.999815,
+        "hemophilia": 0.419198,
+        "hereditary angioedema": 0.752115,
+        "hereditary breast ovarian cancer syndrome": 0.953045,
+        "hereditary hypophosphatemic rickets": 0.997225,
+        "homozygous familial hypercholesterolemia": 0.997962,
+        "hypogonadotropic hypogonadism with or without anosmia": 0.81391,
+        "inherited acute myeloid leukemia": 0.859009,
+        "juvenile Paget disease": 0.790444,
+        "kidney Wilms tumor": 0.976931,
+        "ovarian cancer": 0.750314,
+        "paroxysmal nocturnal hemoglobinuria": 1.0,
+        "patent ductus arteriosus": 0.650573,
+        "small cell lung carcinoma": 0.983469,
+        "squamous cell carcinoma": 0.837097,
+        "temporal arteritis": 0.959289,
+        "testicular germ cell tumor": 0.959922
+      },
+      "se": 0.042818386285325916
+    },
+    "F1+F3": {
+      "C_chosen_per_outer_fold": [
+        0.01,
+        0.01,
+        0.01,
+        0.01,
+        0.01
+      ],
+      "auc_ci95": [
+        0.727694,
+        0.892711
+      ],
+      "complexity": [
+        2,
+        13
+      ],
+      "config": [
+        "F1",
+        "F3"
+      ],
+      "features": [
+        "log1p_n_papers",
+        "log1p_n_benefit",
+        "log1p_n_human",
+        "log1p_n_harm",
+        "log_popularity",
+        "excess_over_popularity",
+        "prior_direct_targets",
+        "prior_ppi_targets",
+        "f1_tfidf_papers",
+        "f1_tfidf_benefit",
+        "f1_tfidf_human",
+        "f1_pmi_benefit",
+        "f3_atc_class_rate"
+      ],
+      "mean_auc": 0.8185547784691601,
+      "per_disease_auc": {
+        "Diamond-Blackfan anemia": 0.872774,
+        "Dravet syndrome": 0.985387,
+        "Duchenne muscular dystrophy": 0.997686,
+        "Laron syndrome": 0.084166,
+        "Lennox-Gastaut syndrome": 0.96801,
+        "Noonan syndrome": 0.869034,
+        "X-linked adrenoleukodystrophy": 0.225617,
+        "absence epilepsy": 0.829459,
+        "atypical juvenile parkinsonism": 0.445703,
+        "autoimmune thrombocytopenic": 0.875751,
+        "beta thalassemia": 0.997533,
+        "cystinuria": 0.999445,
+        "diffuse gastric adenocarcinoma": 0.944239,
+        "familial glucocorticoid deficiency": 0.503244,
+        "gastrointestinal stromal tumor": 0.999722,
+        "hemophilia": 0.415182,
+        "hereditary angioedema": 0.770826,
+        "hereditary breast ovarian cancer syndrome": 0.948081,
+        "hereditary hypophosphatemic rickets": 0.99667,
+        "homozygous familial hypercholesterolemia": 0.997592,
+        "hypogonadotropic hypogonadism with or without anosmia": 0.824269,
+        "inherited acute myeloid leukemia": 0.854449,
+        "juvenile Paget disease": 0.796,
+        "kidney Wilms tumor": 0.977794,
+        "ovarian cancer": 0.785747,
+        "paroxysmal nocturnal hemoglobinuria": 1.0,
+        "patent ductus arteriosus": 0.675731,
+        "small cell lung carcinoma": 0.983962,
+        "squamous cell carcinoma": 0.834876,
+        "temporal arteritis": 0.9604,
+        "testicular germ cell tumor": 0.95585
+      },
+      "se": 0.043099969303228826
+    },
+    "F2": {
+      "C_chosen_per_outer_fold": [
+        0.01,
+        0.01,
+        0.01,
+        0.01,
+        0.01
+      ],
+      "auc_ci95": [
+        0.621408,
+        0.785801
+      ],
+      "complexity": [
+        1,
+        11
+      ],
+      "config": [
+        "F2"
+      ],
+      "features": [
+        "log1p_n_papers",
+        "log1p_n_benefit",
+        "log1p_n_human",
+        "log1p_n_harm",
+        "log_popularity",
+        "excess_over_popularity",
+        "prior_direct_targets",
+        "prior_ppi_targets",
+        "f2_class_gene_papers",
+        "f2_class_gene_pmi",
+        "f2_class_keyword_papers"
+      ],
+      "mean_auc": 0.7078026564465861,
+      "per_disease_auc": {
+        "Diamond-Blackfan anemia": 0.457921,
+        "Dravet syndrome": 0.986866,
+        "Duchenne muscular dystrophy": 0.997223,
+        "Laron syndrome": 0.169626,
+        "Lennox-Gastaut syndrome": 0.888861,
+        "Noonan syndrome": 0.684702,
+        "X-linked adrenoleukodystrophy": 0.415281,
+        "absence epilepsy": 0.657085,
+        "atypical juvenile parkinsonism": 0.679919,
+        "autoimmune thrombocytopenic": 0.384187,
+        "beta thalassemia": 0.997903,
+        "cystinuria": 0.99852,
+        "diffuse gastric adenocarcinoma": 0.541698,
+        "familial glucocorticoid deficiency": 0.269744,
+        "gastrointestinal stromal tumor": 0.999722,
+        "hemophilia": 0.612253,
+        "hereditary angioedema": 0.569705,
+        "hereditary breast ovarian cancer syndrome": 0.825184,
+        "hereditary hypophosphatemic rickets": 0.9963,
+        "homozygous familial hypercholesterolemia": 0.998827,
+        "hypogonadotropic hypogonadism with or without anosmia": 0.731964,
+        "inherited acute myeloid leukemia": 0.79575,
+        "juvenile Paget disease": 0.514556,
+        "kidney Wilms tumor": 0.798421,
+        "ovarian cancer": 0.61517,
+        "paroxysmal nocturnal hemoglobinuria": 1.0,
+        "patent ductus arteriosus": 0.517758,
+        "small cell lung carcinoma": 0.708858,
+        "squamous cell carcinoma": 0.72612,
+        "temporal arteritis": 0.688132,
+        "testicular germ cell tumor": 0.713625
+      },
+      "se": 0.0415902810238575
+    },
+    "F2+F3": {
+      "C_chosen_per_outer_fold": [
+        0.01,
+        0.01,
+        0.01,
+        0.01,
+        0.01
+      ],
+      "auc_ci95": [
+        0.717752,
+        0.883583
+      ],
+      "complexity": [
+        2,
+        12
+      ],
+      "config": [
+        "F2",
+        "F3"
+      ],
+      "features": [
+        "log1p_n_papers",
+        "log1p_n_benefit",
+        "log1p_n_human",
+        "log1p_n_harm",
+        "log_popularity",
+        "excess_over_popularity",
+        "prior_direct_targets",
+        "prior_ppi_targets",
+        "f2_class_gene_papers",
+        "f2_class_gene_pmi",
+        "f2_class_keyword_papers",
+        "f3_atc_class_rate"
+      ],
+      "mean_auc": 0.808423325402204,
+      "per_disease_auc": {
+        "Diamond-Blackfan anemia": 0.693867,
+        "Dravet syndrome": 0.987421,
+        "Duchenne muscular dystrophy": 0.996946,
+        "Laron syndrome": 0.082501,
+        "Lennox-Gastaut syndrome": 0.970372,
+        "Noonan syndrome": 0.893822,
+        "X-linked adrenoleukodystrophy": 0.232712,
+        "absence epilepsy": 0.863254,
+        "atypical juvenile parkinsonism": 0.468433,
+        "autoimmune thrombocytopenic": 0.824965,
+        "beta thalassemia": 0.997656,
+        "cystinuria": 0.998335,
+        "diffuse gastric adenocarcinoma": 0.887367,
+        "familial glucocorticoid deficiency": 0.485308,
+        "gastrointestinal stromal tumor": 0.999815,
+        "hemophilia": 0.744027,
+        "hereditary angioedema": 0.61826,
+        "hereditary breast ovarian cancer syndrome": 0.947656,
+        "hereditary hypophosphatemic rickets": 0.99704,
+        "homozygous familial hypercholesterolemia": 0.997283,
+        "hypogonadotropic hypogonadism with or without anosmia": 0.829819,
+        "inherited acute myeloid leukemia": 0.836828,
+        "juvenile Paget disease": 0.815704,
+        "kidney Wilms tumor": 0.973106,
+        "ovarian cancer": 0.713339,
+        "paroxysmal nocturnal hemoglobinuria": 1.0,
+        "patent ductus arteriosus": 0.517018,
+        "small cell lung carcinoma": 0.96262,
+        "squamous cell carcinoma": 0.826638,
+        "temporal arteritis": 0.93733,
+        "testicular germ cell tumor": 0.961681
+      },
+      "se": 0.04231089612789992
+    },
+    "F3": {
+      "C_chosen_per_outer_fold": [
+        0.01,
+        0.01,
+        0.01,
+        0.01,
+        0.01
+      ],
+      "auc_ci95": [
+        0.722493,
+        0.88341
+      ],
+      "complexity": [
+        1,
+        9
+      ],
+      "config": [
+        "F3"
+      ],
+      "features": [
+        "log1p_n_papers",
+        "log1p_n_benefit",
+        "log1p_n_human",
+        "log1p_n_harm",
+        "log_popularity",
+        "excess_over_popularity",
+        "prior_direct_targets",
+        "prior_ppi_targets",
+        "f3_atc_class_rate"
+      ],
+      "mean_auc": 0.810690183494907,
+      "per_disease_auc": {
+        "Diamond-Blackfan anemia": 0.734586,
+        "Dravet syndrome": 0.984092,
+        "Duchenne muscular dystrophy": 0.997779,
+        "Laron syndrome": 0.108768,
+        "Lennox-Gastaut syndrome": 0.970507,
+        "Noonan syndrome": 0.885498,
+        "X-linked adrenoleukodystrophy": 0.242031,
+        "absence epilepsy": 0.860204,
+        "atypical juvenile parkinsonism": 0.468119,
+        "autoimmune thrombocytopenic": 0.807552,
+        "beta thalassemia": 0.996299,
+        "cystinuria": 0.99815,
+        "diffuse gastric adenocarcinoma": 0.883543,
+        "familial glucocorticoid deficiency": 0.459863,
+        "gastrointestinal stromal tumor": 1.0,
+        "hemophilia": 0.790292,
+        "hereditary angioedema": 0.646802,
+        "hereditary breast ovarian cancer syndrome": 0.945533,
+        "hereditary hypophosphatemic rickets": 0.99593,
+        "homozygous familial hypercholesterolemia": 0.993331,
+        "hypogonadotropic hypogonadism with or without anosmia": 0.839623,
+        "inherited acute myeloid leukemia": 0.831995,
+        "juvenile Paget disease": 0.816,
+        "kidney Wilms tumor": 0.971503,
+        "ovarian cancer": 0.70228,
+        "paroxysmal nocturnal hemoglobinuria": 1.0,
+        "patent ductus arteriosus": 0.520163,
+        "small cell lung carcinoma": 0.95966,
+        "squamous cell carcinoma": 0.819974,
+        "temporal arteritis": 0.950654,
+        "testicular germ cell tumor": 0.950666
+      },
+      "se": 0.041548894135850965
+    },
+    "base": {
+      "C_chosen_per_outer_fold": [
+        0.01,
+        0.03,
+        0.01,
+        0.01,
+        0.01
+      ],
+      "auc_ci95": [
+        0.618329,
+        0.785362
+      ],
+      "complexity": [
+        0,
+        8
+      ],
+      "config": [],
+      "features": [
+        "log1p_n_papers",
+        "log1p_n_benefit",
+        "log1p_n_human",
+        "log1p_n_harm",
+        "log_popularity",
+        "excess_over_popularity",
+        "prior_direct_targets",
+        "prior_ppi_targets"
+      ],
+      "mean_auc": 0.7049954405887817,
+      "per_disease_auc": {
+        "Diamond-Blackfan anemia": 0.460765,
+        "Dravet syndrome": 0.983907,
+        "Duchenne muscular dystrophy": 0.998056,
+        "Laron syndrome": 0.187569,
+        "Lennox-Gastaut syndrome": 0.889974,
+        "Noonan syndrome": 0.682667,
+        "X-linked adrenoleukodystrophy": 0.428042,
+        "absence epilepsy": 0.656219,
+        "atypical juvenile parkinsonism": 0.66877,
+        "autoimmune thrombocytopenic": 0.366167,
+        "beta thalassemia": 0.996669,
+        "cystinuria": 0.998335,
+        "diffuse gastric adenocarcinoma": 0.541451,
+        "familial glucocorticoid deficiency": 0.249397,
+        "gastrointestinal stromal tumor": 0.999815,
+        "hemophilia": 0.516451,
+        "hereditary angioedema": 0.572401,
+        "hereditary breast ovarian cancer syndrome": 0.832112,
+        "hereditary hypophosphatemic rickets": 0.995006,
+        "homozygous familial hypercholesterolemia": 0.998641,
+        "hypogonadotropic hypogonadism with or without anosmia": 0.769885,
+        "inherited acute myeloid leukemia": 0.840805,
+        "juvenile Paget disease": 0.52137,
+        "kidney Wilms tumor": 0.788675,
+        "ovarian cancer": 0.614342,
+        "paroxysmal nocturnal hemoglobinuria": 1.0,
+        "patent ductus arteriosus": 0.516648,
+        "small cell lung carcinoma": 0.753639,
+        "squamous cell carcinoma": 0.702703,
+        "temporal arteritis": 0.697755,
+        "testicular germ cell tumor": 0.62662
+      },
+      "se": 0.04219274177231176
+    }
+  },
+  "dev_evaluation_selected_vs_v1": {
+    "baselines": {
+      "popularity": {
+        "auc": {
+          "ci95": [
+            0.626437,
+            0.769239
+          ],
+          "estimate": 0.698063,
+          "n_diseases": 31
+        },
+        "precision_at_10": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "estimate": 0.0,
+          "n_diseases": 31
+        },
+        "recall_at_20": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "estimate": 0.0,
+          "n_diseases": 31
+        }
+      },
+      "proxy": {
+        "auc": {
+          "ci95": [
+            0.535427,
+            0.635105
+          ],
+          "estimate": 0.581474,
+          "n_diseases": 31
+        },
+        "precision_at_10": {
+          "ci95": [
+            0.03116,
+            0.116222
+          ],
+          "estimate": 0.07062,
+          "n_diseases": 31
+        },
+        "recall_at_20": {
+          "ci95": [
+            0.077728,
+            0.276431
+          ],
+          "estimate": 0.169415,
+          "n_diseases": 31
+        }
+      },
+      "random": {
+        "auc": {
+          "ci95": [
+            0.5,
+            0.5
+          ],
+          "estimate": 0.5,
+          "n_diseases": 31
+        },
+        "precision_at_10": {
+          "ci95": [
+            0.001789,
+            0.003041
+          ],
+          "estimate": 0.002397,
+          "n_diseases": 31
+        },
+        "recall_at_20": {
+          "ci95": [
+            0.007394,
+            0.007394
+          ],
+          "estimate": 0.007394,
+          "n_diseases": 31
+        }
+      }
+    },
+    "best_baseline_by_precision_at_10": "proxy",
+    "diseases": [
+      "Diamond-Blackfan anemia",
+      "Dravet syndrome",
+      "Duchenne muscular dystrophy",
+      "Laron syndrome",
+      "Lennox-Gastaut syndrome",
+      "Noonan syndrome",
+      "X-linked adrenoleukodystrophy",
+      "absence epilepsy",
+      "atypical juvenile parkinsonism",
+      "autoimmune thrombocytopenic",
+      "beta thalassemia",
+      "cystinuria",
+      "diffuse gastric adenocarcinoma",
+      "familial glucocorticoid deficiency",
+      "gastrointestinal stromal tumor",
+      "hemophilia",
+      "hereditary angioedema",
+      "hereditary breast ovarian cancer syndrome",
+      "hereditary hypophosphatemic rickets",
+      "homozygous familial hypercholesterolemia",
+      "hypogonadotropic hypogonadism with or without anosmia",
+      "inherited acute myeloid leukemia",
+      "juvenile Paget disease",
+      "kidney Wilms tumor",
+      "ovarian cancer",
+      "paroxysmal nocturnal hemoglobinuria",
+      "patent ductus arteriosus",
+      "small cell lung carcinoma",
+      "squamous cell carcinoma",
+      "temporal arteritis",
+      "testicular germ cell tumor"
+    ],
+    "models": {
+      "v1_weights_C1": {
+        "auc": {
+          "ci95": [
+            0.625421,
+            0.789574
+          ],
+          "estimate": 0.710177,
+          "n_diseases": 31
+        },
+        "auc_minus_popularity": {
+          "ci95": [
+            -0.087679,
+            0.107404
+          ],
+          "estimate": 0.012114,
+          "n_diseases": 31,
+          "p_boot_le_0": 0.401
+        },
+        "auc_minus_proxy": {
+          "ci95": [
+            0.060886,
+            0.195584
+          ],
+          "estimate": 0.128703,
+          "n_diseases": 31,
+          "p_boot_le_0": 0.0
+        },
+        "auc_minus_random": {
+          "ci95": [
+            0.125421,
+            0.289574
+          ],
+          "estimate": 0.210177,
+          "n_diseases": 31,
+          "p_boot_le_0": 0.0
+        },
+        "calibration_platt": {
+          "brier": {
+            "ci95": [
+              0.001725,
+              0.002984
+            ],
+            "estimate": 0.002332
+          },
+          "brier_constant_prevalence": {
+            "ci95": [
+              0.001786,
+              0.003034
+            ],
+            "estimate": 0.002392
+          },
+          "calibration_slope": {
+            "ci95": [
+              0.807799,
+              1.295613
+            ],
+            "estimate": 1.035169
+          },
+          "n_pairs": 83855,
+          "n_positive_pairs": 201
+        },
+        "decision": {
+          "criterion_1_auc_minus_popularity_ge_0.05_and_ci_lower_gt_0": {
+            "ci95": [
+              -0.087679,
+              0.107404
+            ],
+            "estimate": 0.012114,
+            "met": false
+          },
+          "criterion_2_calibration_slope_in_0.8_1.2": {
+            "estimate": 1.035169,
+            "met": true
+          },
+          "criterion_3_precision_at_10_above_best_baseline": {
+            "difference_estimate": 0.058413,
+            "met": true
+          },
+          "verdict": "not supported (ranking stays exploratory)"
+        },
+        "per_disease_auc": {
+          "Diamond-Blackfan anemia": 0.456685,
+          "Dravet syndrome": 0.987606,
+          "Duchenne muscular dystrophy": 0.998056,
+          "Laron syndrome": 0.165002,
+          "Lennox-Gastaut syndrome": 0.894699,
+          "Noonan syndrome": 0.669349,
+          "X-linked adrenoleukodystrophy": 0.44398,
+          "absence epilepsy": 0.655807,
+          "atypical juvenile parkinsonism": 0.686895,
+          "autoimmune thrombocytopenic": 0.438888,
+          "beta thalassemia": 0.998396,
+          "cystinuria": 0.99815,
+          "diffuse gastric adenocarcinoma": 0.669504,
+          "familial glucocorticoid deficiency": 0.312755,
+          "gastrointestinal stromal tumor": 1.0,
+          "hemophilia": 0.36831,
+          "hereditary angioedema": 0.539327,
+          "hereditary breast ovarian cancer syndrome": 0.833174,
+          "hereditary hypophosphatemic rickets": 0.995006,
+          "homozygous familial hypercholesterolemia": 0.99895,
+          "hypogonadotropic hypogonadism with or without anosmia": 0.72475,
+          "inherited acute myeloid leukemia": 0.745093,
+          "juvenile Paget disease": 0.508852,
+          "kidney Wilms tumor": 0.832346,
+          "ovarian cancer": 0.626429,
+          "paroxysmal nocturnal hemoglobinuria": 1.0,
+          "patent ductus arteriosus": 0.554754,
+          "small cell lung carcinoma": 0.762522,
+          "squamous cell carcinoma": 0.736394,
+          "temporal arteritis": 0.700099,
+          "testicular germ cell tumor": 0.713717
+        },
+        "precision_at_10": {
+          "ci95": [
+            0.08379,
+            0.180645
+          ],
+          "estimate": 0.129032,
+          "n_diseases": 31
+        },
+        "precision_at_10_minus_best_baseline": {
+          "ci95": [
+            0.028414,
+            0.094446
+          ],
+          "estimate": 0.058413,
+          "n_diseases": 31,
+          "p_boot_le_0": 0.0
+        },
+        "recall_at_20": {
+          "ci95": [
+            0.219882,
+            0.495987
+          ],
+          "estimate": 0.354747,
+          "n_diseases": 31
+        }
+      },
+      "v3_selected": {
+        "auc": {
+          "ci95": [
+            0.722493,
+            0.88341
+          ],
+          "estimate": 0.81069,
+          "n_diseases": 31
+        },
+        "auc_minus_popularity": {
+          "ci95": [
+            0.013241,
+            0.205087
+          ],
+          "estimate": 0.112627,
+          "n_diseases": 31,
+          "p_boot_le_0": 0.013
+        },
+        "auc_minus_proxy": {
+          "ci95": [
+            0.146123,
+            0.304091
+          ],
+          "estimate": 0.229216,
+          "n_diseases": 31,
+          "p_boot_le_0": 0.0
+        },
+        "auc_minus_random": {
+          "ci95": [
+            0.222493,
+            0.38341
+          ],
+          "estimate": 0.31069,
+          "n_diseases": 31,
+          "p_boot_le_0": 0.0
+        },
+        "auc_minus_v1_weights_C1": {
+          "ci95": [
+            0.049926,
+            0.153111
+          ],
+          "estimate": 0.100513,
+          "n_diseases": 31,
+          "p_boot_le_0": 0.0
+        },
+        "calibration_platt": {
+          "brier": {
+            "ci95": [
+              0.001742,
+              0.00298
+            ],
+            "estimate": 0.002347
+          },
+          "brier_constant_prevalence": {
+            "ci95": [
+              0.001786,
+              0.003034
+            ],
+            "estimate": 0.002392
+          },
+          "calibration_slope": {
+            "ci95": [
+              0.830267,
+              1.303384
+            ],
+            "estimate": 1.050142
+          },
+          "n_pairs": 83855,
+          "n_positive_pairs": 201
+        },
+        "decision": {
+          "criterion_1_auc_minus_popularity_ge_0.05_and_ci_lower_gt_0": {
+            "ci95": [
+              0.013241,
+              0.205087
+            ],
+            "estimate": 0.112627,
+            "met": true
+          },
+          "criterion_2_calibration_slope_in_0.8_1.2": {
+            "estimate": 1.050142,
+            "met": true
+          },
+          "criterion_3_precision_at_10_above_best_baseline": {
+            "difference_estimate": 0.064864,
+            "met": true
+          },
+          "verdict": "supported"
+        },
+        "per_disease_auc": {
+          "Diamond-Blackfan anemia": 0.734586,
+          "Dravet syndrome": 0.984092,
+          "Duchenne muscular dystrophy": 0.997779,
+          "Laron syndrome": 0.108768,
+          "Lennox-Gastaut syndrome": 0.970507,
+          "Noonan syndrome": 0.885498,
+          "X-linked adrenoleukodystrophy": 0.242031,
+          "absence epilepsy": 0.860204,
+          "atypical juvenile parkinsonism": 0.468119,
+          "autoimmune thrombocytopenic": 0.807552,
+          "beta thalassemia": 0.996299,
+          "cystinuria": 0.99815,
+          "diffuse gastric adenocarcinoma": 0.883543,
+          "familial glucocorticoid deficiency": 0.459863,
+          "gastrointestinal stromal tumor": 1.0,
+          "hemophilia": 0.790292,
+          "hereditary angioedema": 0.646802,
+          "hereditary breast ovarian cancer syndrome": 0.945533,
+          "hereditary hypophosphatemic rickets": 0.99593,
+          "homozygous familial hypercholesterolemia": 0.993331,
+          "hypogonadotropic hypogonadism with or without anosmia": 0.839623,
+          "inherited acute myeloid leukemia": 0.831995,
+          "juvenile Paget disease": 0.816,
+          "kidney Wilms tumor": 0.971503,
+          "ovarian cancer": 0.70228,
+          "paroxysmal nocturnal hemoglobinuria": 1.0,
+          "patent ductus arteriosus": 0.520163,
+          "small cell lung carcinoma": 0.95966,
+          "squamous cell carcinoma": 0.819974,
+          "temporal arteritis": 0.950654,
+          "testicular germ cell tumor": 0.950666
+        },
+        "precision_at_10": {
+          "ci95": [
+            0.087097,
+            0.190323
+          ],
+          "estimate": 0.135484,
+          "n_diseases": 31
+        },
+        "precision_at_10_minus_best_baseline": {
+          "ci95": [
+            0.030896,
+            0.108117
+          ],
+          "estimate": 0.064864,
+          "n_diseases": 31,
+          "p_boot_le_0": 0.0
+        },
+        "precision_at_10_minus_v1_weights_C1": {
+          "ci95": [
+            -0.009677,
+            0.025806
+          ],
+          "estimate": 0.006452,
+          "n_diseases": 31,
+          "p_boot_le_0": 0.2705
+        },
+        "recall_at_20": {
+          "ci95": [
+            0.256077,
+            0.518359
+          ],
+          "estimate": 0.383817,
+          "n_diseases": 31
+        }
+      }
+    },
+    "n_diseases": 31
+  },
+  "dev_selection": {
+    "best_by_mean": "F1+F3",
+    "eligible": [
+      "F1+F2+F3",
+      "F1+F3",
+      "F2+F3",
+      "F3"
+    ],
+    "selected": "F3",
+    "threshold": 0.7754548091659313
+  },
+  "disease_info_dev": {
+    "Diamond-Blackfan anemia": {
+      "mechanism_class": "rna_processing_translation",
+      "n_class_gene_papers": 197,
+      "n_class_genes": 25,
+      "n_gold1": 9
+    },
+    "Dravet syndrome": {
+      "mechanism_class": "ion_channel_transporter",
+      "n_class_gene_papers": 252,
+      "n_class_genes": 6,
+      "n_gold1": 2
+    },
+    "Duchenne muscular dystrophy": {
+      "mechanism_class": "extracellular_secreted",
+      "n_class_gene_papers": 26,
+      "n_class_genes": 1,
+      "n_gold1": 4
+    },
+    "Laron syndrome": {
+      "mechanism_class": "extracellular_secreted",
+      "n_class_gene_papers": 175,
+      "n_class_genes": 1,
+      "n_gold1": 2
+    },
+    "Lennox-Gastaut syndrome": {
+      "mechanism_class": "ion_channel_transporter",
+      "n_class_gene_papers": 193,
+      "n_class_genes": 3,
+      "n_gold1": 11
+    },
+    "Noonan syndrome": {
+      "mechanism_class": "receptor_signalling",
+      "n_class_gene_papers": 295,
+      "n_class_genes": 16,
+      "n_gold1": 2
+    },
+    "X-linked adrenoleukodystrophy": {
+      "mechanism_class": "lysosomal_vesicular_trafficking",
+      "n_class_gene_papers": 127,
+      "n_class_genes": 7,
+      "n_gold1": 7
+    },
+    "absence epilepsy": {
+      "mechanism_class": "ion_channel_transporter",
+      "n_class_gene_papers": 234,
+      "n_class_genes": 4,
+      "n_gold1": 9
+    },
+    "atypical juvenile parkinsonism": {
+      "mechanism_class": "lysosomal_vesicular_trafficking",
+      "n_class_gene_papers": 143,
+      "n_class_genes": 2,
+      "n_gold1": 19
+    },
+    "autoimmune thrombocytopenic": {
+      "mechanism_class": "extracellular_secreted",
+      "n_class_gene_papers": 52,
+      "n_class_genes": 1,
+      "n_gold1": 11
+    },
+    "beta thalassemia": {
+      "mechanism_class": "metabolic_enzyme",
+      "n_class_gene_papers": 200,
+      "n_class_genes": 6,
+      "n_gold1": 3
+    },
+    "cystinuria": {
+      "mechanism_class": "ion_channel_transporter",
+      "n_class_gene_papers": 221,
+      "n_class_genes": 2,
+      "n_gold1": 2
+    },
+    "diffuse gastric adenocarcinoma": {
+      "mechanism_class": "lysosomal_vesicular_trafficking",
+      "n_class_gene_papers": 249,
+      "n_class_genes": 1,
+      "n_gold1": 3
+    },
+    "familial glucocorticoid deficiency": {
+      "mechanism_class": "receptor_signalling",
+      "n_class_gene_papers": 81,
+      "n_class_genes": 3,
+      "n_gold1": 8
+    },
+    "gastrointestinal stromal tumor": {
+      "mechanism_class": "mitochondrial",
+      "n_class_gene_papers": 171,
+      "n_class_genes": 3,
+      "n_gold1": 4
+    },
+    "hemophilia": {
+      "mechanism_class": "extracellular_secreted",
+      "n_class_gene_papers": 296,
+      "n_class_genes": 2,
+      "n_gold1": 11
+    },
+    "hereditary angioedema": {
+      "mechanism_class": "extracellular_secreted",
+      "n_class_gene_papers": 230,
+      "n_class_genes": 5,
+      "n_gold1": 16
+    },
+    "hereditary breast ovarian cancer syndrome": {
+      "mechanism_class": "dna_repair_replication",
+      "n_class_gene_papers": 297,
+      "n_class_genes": 14,
+      "n_gold1": 14
+    },
+    "hereditary hypophosphatemic rickets": {
+      "mechanism_class": "ion_channel_transporter",
+      "n_class_gene_papers": 206,
+      "n_class_genes": 2,
+      "n_gold1": 2
+    },
+    "homozygous familial hypercholesterolemia": {
+      "mechanism_class": "lysosomal_vesicular_trafficking",
+      "n_class_gene_papers": 266,
+      "n_class_genes": 4,
+      "n_gold1": 6
+    },
+    "hypogonadotropic hypogonadism with or without anosmia": {
+      "mechanism_class": "receptor_signalling",
+      "n_class_gene_papers": 153,
+      "n_class_genes": 13,
+      "n_gold1": 2
+    },
+    "inherited acute myeloid leukemia": {
+      "mechanism_class": "dna_repair_replication",
+      "n_class_gene_papers": 18,
+      "n_class_genes": 1,
+      "n_gold1": 15
+    },
+    "juvenile Paget disease": {
+      "mechanism_class": "extracellular_secreted",
+      "n_class_gene_papers": 147,
+      "n_class_genes": 1,
+      "n_gold1": 5
+    },
+    "kidney Wilms tumor": {
+      "mechanism_class": "transcription_chromatin_regulation",
+      "n_class_gene_papers": 75,
+      "n_class_genes": 5,
+      "n_gold1": 3
+    },
+    "ovarian cancer": {
+      "mechanism_class": "dna_repair_replication",
+      "n_class_gene_papers": 297,
+      "n_class_genes": 14,
+      "n_gold1": 13
+    },
+    "paroxysmal nocturnal hemoglobinuria": {
+      "mechanism_class": "metabolic_enzyme",
+      "n_class_gene_papers": 226,
+      "n_class_genes": 2,
+      "n_gold1": 2
+    },
+    "patent ductus arteriosus": {
+      "mechanism_class": "transcription_chromatin_regulation",
+      "n_class_gene_papers": 214,
+      "n_class_genes": 2,
+      "n_gold1": 2
+    },
+    "small cell lung carcinoma": {
+      "mechanism_class": "cell_cycle_mitotic_checkpoint",
+      "n_class_gene_papers": 169,
+      "n_class_genes": 1,
+      "n_gold1": 3
+    },
+    "squamous cell carcinoma": {
+      "mechanism_class": "transcription_chromatin_regulation",
+      "n_class_gene_papers": 69,
+      "n_class_genes": 3,
+      "n_gold1": 4
+    },
+    "temporal arteritis": {
+      "mechanism_class": "lysosomal_vesicular_trafficking",
+      "n_class_gene_papers": 274,
+      "n_class_genes": 2,
+      "n_gold1": 3
+    },
+    "testicular germ cell tumor": {
+      "mechanism_class": "receptor_signalling",
+      "n_class_gene_papers": 46,
+      "n_class_genes": 2,
+      "n_gold1": 4
+    }
+  },
+  "feature_cache_check": {
+    "all_identical": true,
+    "case_study_cache_available": true,
+    "n_compared": 31
+  },
+  "frozen": {
+    "dry_run_on_dev_finite": true,
+    "engine_v1_weights_sha256": "b4c63900b0f1e57d8df7f07607199b72eef4a0e4b9035868ee15a8ce40a7d65e",
+    "engine_v3_sha256": "cc0a54e6afb8c3fbf540ac93963d4cc821cea68cfc96d7276a8ed9568adb579a",
+    "files": [
+      "out/engine/engine_v3_frozen.json",
+      "out/engine/engine_v1_weights_frozen.json"
+    ]
+  },
+  "heldout": {
+    "criteria_v1_weights": {
+      "criterion_1_auc_minus_popularity_ge_0.05_and_ci_lower_gt_0": {
+        "ci95": [
+          0.090971,
+          0.220935
+        ],
+        "estimate": 0.1531,
+        "met": true
+      },
+      "criterion_2_calibration_slope_in_0.8_1.2": {
+        "estimate": 1.096612,
+        "met": true
+      },
+      "criterion_3_precision_at_10_above_best_baseline": {
+        "difference_estimate": 0.045873,
+        "met": true
+      },
+      "verdict": "supported"
+    },
+    "criteria_v3": {
+      "criterion_1_auc_minus_popularity_ge_0.05_and_ci_lower_gt_0": {
+        "ci95": [
+          0.04781,
+          0.292733
+        ],
+        "estimate": 0.175687,
+        "met": true
+      },
+      "criterion_2_calibration_slope_in_0.8_1.2": {
+        "estimate": 0.988122,
+        "met": true
+      },
+      "criterion_3_precision_at_10_above_best_baseline": {
+        "difference_estimate": 0.03873,
+        "met": true
+      },
+      "verdict": "supported"
+    },
+    "disease_info": {
+      "Alzheimer disease": {
+        "mechanism_class": "lysosomal_vesicular_trafficking",
+        "n_class_gene_papers": 249,
+        "n_class_genes": 4,
+        "n_gold1": 4
+      },
+      "Parkinson disease": {
+        "mechanism_class": "mitochondrial",
+        "n_class_gene_papers": 261,
+        "n_class_genes": 12,
+        "n_gold1": 20
+      },
+      "familial thyroid carcinoma": {
+        "mechanism_class": "receptor_signalling",
+        "n_class_gene_papers": 202,
+        "n_class_genes": 4,
+        "n_gold1": 3
+      },
+      "hyperparathyroidism": {
+        "mechanism_class": "transcription_chromatin_regulation",
+        "n_class_gene_papers": 160,
+        "n_class_genes": 3,
+        "n_gold1": 2
+      },
+      "hypoalphalipoproteinemia": {
+        "mechanism_class": "extracellular_secreted",
+        "n_class_gene_papers": 53,
+        "n_class_genes": 1,
+        "n_gold1": 4
+      },
+      "hypoparathyroidism": {
+        "mechanism_class": "transcription_chromatin_regulation",
+        "n_class_gene_papers": 116,
+        "n_class_genes": 3,
+        "n_gold1": 5
+      },
+      "multiple endocrine neoplasia": {
+        "mechanism_class": "cell_cycle_mitotic_checkpoint",
+        "n_class_gene_papers": 78,
+        "n_class_genes": 2,
+        "n_gold1": 3
+      },
+      "myelomonocytic leukemia": {
+        "mechanism_class": "receptor_signalling",
+        "n_class_gene_papers": 256,
+        "n_class_genes": 6,
+        "n_gold1": 2
+      },
+      "narcolepsy": {
+        "mechanism_class": "receptor_signalling",
+        "n_class_gene_papers": 11,
+        "n_class_genes": 4,
+        "n_gold1": 8
+      },
+      "orthostatic hypotension": {
+        "mechanism_class": "metabolic_enzyme",
+        "n_class_gene_papers": 261,
+        "n_class_genes": 2,
+        "n_gold1": 2
+      },
+      "prolactin producing pituitary gland tumor": {
+        "mechanism_class": "mitochondrial",
+        "n_class_gene_papers": 205,
+        "n_class_genes": 1,
+        "n_gold1": 2
+      },
+      "systemic lupus erythematosus (disease)": {
+        "mechanism_class": "receptor_signalling",
+        "n_class_gene_papers": 109,
+        "n_class_genes": 12,
+        "n_gold1": 12
+      },
+      "thyroid gland carcinoma": {
+        "mechanism_class": "transcription_chromatin_regulation",
+        "n_class_gene_papers": 74,
+        "n_class_genes": 9,
+        "n_gold1": 3
+      },
+      "von Willebrand disease": {
+        "mechanism_class": "extracellular_secreted",
+        "n_class_gene_papers": 226,
+        "n_class_genes": 2,
+        "n_gold1": 3
+      }
+    },
+    "diseases": [
+      "Alzheimer disease",
+      "Parkinson disease",
+      "familial thyroid carcinoma",
+      "hyperparathyroidism",
+      "hypoalphalipoproteinemia",
+      "hypoparathyroidism",
+      "multiple endocrine neoplasia",
+      "myelomonocytic leukemia",
+      "narcolepsy",
+      "orthostatic hypotension",
+      "prolactin producing pituitary gland tumor",
+      "systemic lupus erythematosus (disease)",
+      "thyroid gland carcinoma",
+      "von Willebrand disease"
+    ],
+    "evaluation": {
+      "baselines": {
+        "popularity": {
+          "auc": {
+            "ci95": [
+              0.606168,
+              0.768245
+            ],
+            "estimate": 0.691946,
+            "n_diseases": 14
+          },
+          "precision_at_10": {
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "estimate": 0.0,
+            "n_diseases": 14
+          },
+          "recall_at_20": {
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "estimate": 0.0,
+            "n_diseases": 14
+          }
+        },
+        "proxy": {
+          "auc": {
+            "ci95": [
+              0.520584,
+              0.61734
+            ],
+            "estimate": 0.564005,
+            "n_diseases": 14
+          },
+          "precision_at_10": {
+            "ci95": [
+              0.001815,
+              0.039
+            ],
+            "estimate": 0.018413,
+            "n_diseases": 14
+          },
+          "recall_at_20": {
+            "ci95": [
+              0.044009,
+              0.239557
+            ],
+            "estimate": 0.132377,
+            "n_diseases": 14
+          }
+        },
+        "random": {
+          "auc": {
+            "ci95": [
+              0.5,
+              0.5
+            ],
+            "estimate": 0.5,
+            "n_diseases": 14
+          },
+          "precision_at_10": {
+            "ci95": [
+              0.001109,
+              0.002985
+            ],
+            "estimate": 0.001928,
+            "n_diseases": 14
+          },
+          "recall_at_20": {
+            "ci95": [
+              0.007394,
+              0.007394
+            ],
+            "estimate": 0.007394,
+            "n_diseases": 14
+          }
+        }
+      },
+      "best_baseline_by_precision_at_10": "proxy",
+      "diseases": [
+        "Alzheimer disease",
+        "Parkinson disease",
+        "familial thyroid carcinoma",
+        "hyperparathyroidism",
+        "hypoalphalipoproteinemia",
+        "hypoparathyroidism",
+        "multiple endocrine neoplasia",
+        "myelomonocytic leukemia",
+        "narcolepsy",
+        "orthostatic hypotension",
+        "prolactin producing pituitary gland tumor",
+        "systemic lupus erythematosus (disease)",
+        "thyroid gland carcinoma",
+        "von Willebrand disease"
+      ],
+      "models": {
+        "v1_weights": {
+          "auc": {
+            "ci95": [
+              0.78446,
+              0.905376
+            ],
+            "estimate": 0.845045,
+            "n_diseases": 14
+          },
+          "auc_minus_popularity": {
+            "ci95": [
+              0.090971,
+              0.220935
+            ],
+            "estimate": 0.1531,
+            "n_diseases": 14,
+            "p_boot_le_0": 0.0
+          },
+          "auc_minus_proxy": {
+            "ci95": [
+              0.200935,
+              0.358072
+            ],
+            "estimate": 0.28104,
+            "n_diseases": 14,
+            "p_boot_le_0": 0.0
+          },
+          "auc_minus_random": {
+            "ci95": [
+              0.28446,
+              0.405376
+            ],
+            "estimate": 0.345045,
+            "n_diseases": 14,
+            "p_boot_le_0": 0.0
+          },
+          "calibration_platt": {
+            "brier": {
+              "ci95": [
+                0.001147,
+                0.002939
+              ],
+              "estimate": 0.001924
+            },
+            "brier_constant_prevalence": {
+              "ci95": [
+                0.001109,
+                0.002976
+              ],
+              "estimate": 0.001924
+            },
+            "calibration_slope": {
+              "ci95": [
+                0.989534,
+                1.214726
+              ],
+              "estimate": 1.096612
+            },
+            "n_pairs": 37870,
+            "n_positive_pairs": 73
+          },
+          "decision": {
+            "criterion_1_auc_minus_popularity_ge_0.05_and_ci_lower_gt_0": {
+              "ci95": [
+                0.090971,
+                0.220935
+              ],
+              "estimate": 0.1531,
+              "met": true
+            },
+            "criterion_2_calibration_slope_in_0.8_1.2": {
+              "estimate": 1.096612,
+              "met": true
+            },
+            "criterion_3_precision_at_10_above_best_baseline": {
+              "difference_estimate": 0.045873,
+              "met": true
+            },
+            "verdict": "supported"
+          },
+          "per_disease_auc": {
+            "Alzheimer disease": 0.887819,
+            "Parkinson disease": 0.733222,
+            "familial thyroid carcinoma": 0.903405,
+            "hyperparathyroidism": 0.690714,
+            "hypoalphalipoproteinemia": 0.771242,
+            "hypoparathyroidism": 0.87837,
+            "multiple endocrine neoplasia": 0.830249,
+            "myelomonocytic leukemia": 0.993156,
+            "narcolepsy": 0.612417,
+            "orthostatic hypotension": 0.993526,
+            "prolactin producing pituitary gland tumor": 0.940437,
+            "systemic lupus erythematosus (disease)": 0.890178,
+            "thyroid gland carcinoma": 0.990748,
+            "von Willebrand disease": 0.715149
+          },
+          "precision_at_10": {
+            "ci95": [
+              0.021429,
+              0.114286
+            ],
+            "estimate": 0.064286,
+            "n_diseases": 14
+          },
+          "precision_at_10_minus_best_baseline": {
+            "ci95": [
+              0.010058,
+              0.092869
+            ],
+            "estimate": 0.045873,
+            "n_diseases": 14,
+            "p_boot_le_0": 0.002
+          },
+          "recall_at_20": {
+            "ci95": [
+              0.155952,
+              0.405952
+            ],
+            "estimate": 0.280952,
+            "n_diseases": 14
+          }
+        },
+        "v3": {
+          "auc": {
+            "ci95": [
+              0.772733,
+              0.939636
+            ],
+            "estimate": 0.867632,
+            "n_diseases": 14
+          },
+          "auc_minus_popularity": {
+            "ci95": [
+              0.04781,
+              0.292733
+            ],
+            "estimate": 0.175687,
+            "n_diseases": 14,
+            "p_boot_le_0": 0.005
+          },
+          "auc_minus_proxy": {
+            "ci95": [
+              0.209058,
+              0.378406
+            ],
+            "estimate": 0.303628,
+            "n_diseases": 14,
+            "p_boot_le_0": 0.0
+          },
+          "auc_minus_random": {
+            "ci95": [
+              0.272733,
+              0.439636
+            ],
+            "estimate": 0.367632,
+            "n_diseases": 14,
+            "p_boot_le_0": 0.0
+          },
+          "auc_minus_v1_weights": {
+            "ci95": [
+              -0.074324,
+              0.097392
+            ],
+            "estimate": 0.022587,
+            "n_diseases": 14,
+            "p_boot_le_0": 0.276
+          },
+          "calibration_platt": {
+            "brier": {
+              "ci95": [
+                0.001265,
+                0.002982
+              ],
+              "estimate": 0.002007
+            },
+            "brier_constant_prevalence": {
+              "ci95": [
+                0.001109,
+                0.002976
+              ],
+              "estimate": 0.001924
+            },
+            "calibration_slope": {
+              "ci95": [
+                0.851724,
+                1.130581
+              ],
+              "estimate": 0.988122
+            },
+            "n_pairs": 37870,
+            "n_positive_pairs": 73
+          },
+          "decision": {
+            "criterion_1_auc_minus_popularity_ge_0.05_and_ci_lower_gt_0": {
+              "ci95": [
+                0.04781,
+                0.292733
+              ],
+              "estimate": 0.175687,
+              "met": true
+            },
+            "criterion_2_calibration_slope_in_0.8_1.2": {
+              "estimate": 0.988122,
+              "met": true
+            },
+            "criterion_3_precision_at_10_above_best_baseline": {
+              "difference_estimate": 0.03873,
+              "met": true
+            },
+            "verdict": "supported"
+          },
+          "per_disease_auc": {
+            "Alzheimer disease": 0.707886,
+            "Parkinson disease": 0.927709,
+            "familial thyroid carcinoma": 0.933136,
+            "hyperparathyroidism": 0.805216,
+            "hypoalphalipoproteinemia": 0.854221,
+            "hypoparathyroidism": 0.952296,
+            "multiple endocrine neoplasia": 0.37281,
+            "myelomonocytic leukemia": 0.994451,
+            "narcolepsy": 0.807657,
+            "orthostatic hypotension": 0.995376,
+            "prolactin producing pituitary gland tumor": 0.938587,
+            "systemic lupus erythematosus (disease)": 0.924867,
+            "thyroid gland carcinoma": 0.989884,
+            "von Willebrand disease": 0.942758
+          },
+          "precision_at_10": {
+            "ci95": [
+              0.014286,
+              0.107143
+            ],
+            "estimate": 0.057143,
+            "n_diseases": 14
+          },
+          "precision_at_10_minus_best_baseline": {
+            "ci95": [
+              0.003397,
+              0.087069
+            ],
+            "estimate": 0.03873,
+            "n_diseases": 14,
+            "p_boot_le_0": 0.013
+          },
+          "precision_at_10_minus_v1_weights": {
+            "ci95": [
+              -0.021429,
+              0.0
+            ],
+            "estimate": -0.007143,
+            "n_diseases": 14,
+            "p_boot_le_0": 1.0
+          },
+          "recall_at_20": {
+            "ci95": [
+              0.127976,
+              0.460729
+            ],
+            "estimate": 0.283929,
+            "n_diseases": 14
+          }
+        }
+      },
+      "n_diseases": 14
+    },
+    "frozen_v1_weights_sha256": "b4c63900b0f1e57d8df7f07607199b72eef4a0e4b9035868ee15a8ce40a7d65e",
+    "frozen_v3_sha256": "cc0a54e6afb8c3fbf540ac93963d4cc821cea68cfc96d7276a8ed9568adb579a",
+    "improvement_demonstrated": false,
+    "improvement_rule": "v3 improved over v1-weights only if the 95 % interval of the paired AUC difference (v3 minus v1-weights) lies above 0",
+    "label": "post hoc development (engine v3), not a pre-registered primary result; HELD-OUT scored once",
+    "n_diseases": 14,
+    "paired_auc_v3_minus_v1_weights": {
+      "ci95": [
+        -0.074324,
+        0.097392
+      ],
+      "estimate": 0.022587,
+      "n_diseases": 14,
+      "p_boot_le_0": 0.276
+    }
+  },
+  "label": "post hoc development (engine v3), not a pre-registered primary result",
+  "protocol": "protocol/addendum_engine_v3.md",
+  "protocol_sha256_at_dev_run": "519079ea6eacfe649bef8691811f6c43fd5764141e5f8208d122bd8cd965f2e2",
+  "selected_configuration": {
+    "C": 0.01,
+    "coefficients": {
+      "excess_over_popularity": 0.15431855488252275,
+      "f3_atc_class_rate": 0.5181814066952894,
+      "log1p_n_benefit": 0.023892839417226808,
+      "log1p_n_harm": -0.10092217175826222,
+      "log1p_n_human": 0.07458896964101917,
+      "log1p_n_papers": 0.13577107537356195,
+      "log_popularity": 0.36217229116976235,
+      "prior_direct_targets": 0.058219446482144215,
+      "prior_ppi_targets": 0.1627549264364314
+    },
+    "features": [
+      "log1p_n_papers",
+      "log1p_n_benefit",
+      "log1p_n_human",
+      "log1p_n_harm",
+      "log_popularity",
+      "excess_over_popularity",
+      "prior_direct_targets",
+      "prior_ppi_targets",
+      "f3_atc_class_rate"
+    ],
+    "final_C_selection": {
+      "best_C": 0.03,
+      "mean_auc_by_C": {
+        "0.01": 0.8229115770505658,
+        "0.03": 0.8309198224568413,
+        "0.1": 0.8276404151073334,
+        "0.3": 0.8210302240530115,
+        "1.0": 0.8184698763580336
+      },
+      "se_of_best": 0.03522959982971348
+    },
+    "intercept": -6.479407591690983,
+    "name": "F3",
+    "platt": {
+      "a": -0.06322955864181241,
+      "b": 0.9526783371052946
+    }
+  },
+  "settings": {
+    "C_grid": [
+      0.01,
+      0.03,
+      0.1,
+      0.3,
+      1.0
+    ],
+    "alpha_f3": 20.0,
+    "class_keywords": {
+      "cell_cycle_mitotic_checkpoint": [
+        "cell cycle",
+        "mitosis",
+        "mitotic",
+        "checkpoint",
+        "proliferat",
+        "apoptosis"
+      ],
+      "dna_repair_replication": [
+        "DNA repair",
+        "DNA damage",
+        "replication",
+        "genotoxic",
+        "crosslink",
+        "PARP"
+      ],
+      "extracellular_secreted": [
+        "secreted",
+        "extracellular",
+        "matrix",
+        "cytokine",
+        "complement",
+        "growth factor",
+        "hormone"
+      ],
+      "ion_channel_transporter": [
+        "channel",
+        "transporter",
+        "sodium",
+        "potassium",
+        "calcium",
+        "chloride",
+        "electrolyte"
+      ],
+      "lysosomal_vesicular_trafficking": [
+        "lysosom",
+        "vesicl",
+        "endosom",
+        "autophag",
+        "traffick",
+        "storage",
+        "exocyt",
+        "endocyt"
+      ],
+      "metabolic_enzyme": [
+        "enzyme",
+        "metabol",
+        "substrate",
+        "synthase",
+        "dehydrogenase",
+        "hydroxylase",
+        "cofactor"
+      ],
+      "mitochondrial": [
+        "mitochond",
+        "oxidative phosphorylation",
+        "respiratory chain",
+        "oxidative stress"
+      ],
+      "receptor_signalling": [
+        "receptor",
+        "signalling",
+        "signaling",
+        "kinase",
+        "agonist",
+        "antagonist",
+        "inhibitor",
+        "pathway"
+      ],
+      "rna_processing_translation": [
+        "RNA",
+        "splic",
+        "translation",
+        "ribosom"
+      ],
+      "structural_cytoskeletal": [
+        "collagen",
+        "cytoskelet",
+        "actin",
+        "myosin",
+        "muscle",
+        "fibrosis",
+        "cardiomyopath"
+      ],
+      "transcription_chromatin_regulation": [
+        "transcription",
+        "chromatin",
+        "histone",
+        "methylat",
+        "epigenet",
+        "gene expression"
+      ]
+    },
+    "feature_names": [
+      "log1p_n_papers",
+      "log1p_n_benefit",
+      "log1p_n_human",
+      "log1p_n_harm",
+      "log_popularity",
+      "excess_over_popularity",
+      "prior_direct_targets",
+      "prior_ppi_targets",
+      "f1_tfidf_papers",
+      "f1_tfidf_benefit",
+      "f1_tfidf_human",
+      "f1_pmi_benefit",
+      "f2_class_gene_papers",
+      "f2_class_gene_pmi",
+      "f2_class_keyword_papers",
+      "f3_atc_class_rate"
+    ],
+    "final_seed": 20261017,
+    "inner_seed": 20261016,
+    "n_bootstrap": 2000,
+    "n_dev": 31,
+    "n_heldout": 14,
+    "new_network_requests": 0,
+    "seed": 20261015,
+    "thresholds": {
+      "auc_diff_min": 0.05,
+      "calibration_slope": [
+        0.8,
+        1.2
+      ]
+    }
+  },
+  "split": {
+    "dev": [
+      "Diamond-Blackfan anemia",
+      "Dravet syndrome",
+      "Duchenne muscular dystrophy",
+      "Laron syndrome",
+      "Lennox-Gastaut syndrome",
+      "Noonan syndrome",
+      "X-linked adrenoleukodystrophy",
+      "absence epilepsy",
+      "atypical juvenile parkinsonism",
+      "autoimmune thrombocytopenic",
+      "beta thalassemia",
+      "cystinuria",
+      "diffuse gastric adenocarcinoma",
+      "familial glucocorticoid deficiency",
+      "gastrointestinal stromal tumor",
+      "hemophilia",
+      "hereditary angioedema",
+      "hereditary breast ovarian cancer syndrome",
+      "hereditary hypophosphatemic rickets",
+      "homozygous familial hypercholesterolemia",
+      "hypogonadotropic hypogonadism with or without anosmia",
+      "inherited acute myeloid leukemia",
+      "juvenile Paget disease",
+      "kidney Wilms tumor",
+      "ovarian cancer",
+      "paroxysmal nocturnal hemoglobinuria",
+      "patent ductus arteriosus",
+      "small cell lung carcinoma",
+      "squamous cell carcinoma",
+      "temporal arteritis",
+      "testicular germ cell tumor"
+    ],
+    "heldout": [
+      "Alzheimer disease",
+      "Parkinson disease",
+      "familial thyroid carcinoma",
+      "hyperparathyroidism",
+      "hypoalphalipoproteinemia",
+      "hypoparathyroidism",
+      "multiple endocrine neoplasia",
+      "myelomonocytic leukemia",
+      "narcolepsy",
+      "orthostatic hypotension",
+      "prolactin producing pituitary gland tumor",
+      "systemic lupus erythematosus (disease)",
+      "thyroid gland carcinoma",
+      "von Willebrand disease"
+    ]
+  },
+  "status": "v1 (supported, 17 diseases) and v2 results are unchanged; this is post hoc development. HELD-OUT scored once (see 'heldout').",
+  "wilms_diagnostic": {
+    "auc_v1_features_C1": 0.818776,
+    "auc_v3": 0.965211,
+    "case_wilms_json_sha256": "1550e27619aa40da464c2d4b3c13bf560af63b59551f358c1af045224e7cdce5",
+    "gold1": [
+      "dactinomycin",
+      "doxorubicin",
+      "vincristine"
+    ],
+    "label": "diagnostic, not evidence (Wilms is a DEV disease inspected before the protocol)",
+    "n_universe_drugs": 2705,
+    "ranks_v1_features_C1": {
+      "dactinomycin": {
+        "rank": 449,
+        "score": -5.83948
+      },
+      "danazol": {
+        "rank": 3,
+        "score": -3.2467
+      },
+      "doxorubicin": {
+        "rank": 26,
+        "score": -4.859961
+      },
+      "progesterone": {
+        "rank": 2,
+        "score": -2.253258
+      },
+      "tamoxifen": {
+        "rank": 1,
+        "score": -1.33712
+      },
+      "vincristine": {
+        "rank": 1000,
+        "score": -6.106721
+      }
+    },
+    "ranks_v3": {
+      "dactinomycin": {
+        "rank": 110,
+        "score": -5.170827
+      },
+      "danazol": {
+        "rank": 14,
+        "score": -4.177873
+      },
+      "doxorubicin": {
+        "rank": 13,
+        "score": -4.11283
+      },
+      "progesterone": {
+        "rank": 2,
+        "score": -2.711391
+      },
+      "tamoxifen": {
+        "rank": 1,
+        "score": -2.403241
+      },
+      "vincristine": {
+        "rank": 165,
+        "score": -5.309899
+      }
+    },
+    "top20_v1": [
+      "tamoxifen",
+      "progesterone",
+      "danazol",
+      "cytarabine",
+      "lenvatinib",
+      "sevoflurane",
+      "azacitidine",
+      "rituximab",
+      "testosterone",
+      "carboplatin",
+      "paclitaxel",
+      "gemcitabine",
+      "cocaine",
+      "palbociclib",
+      "cisplatin",
+      "heparin",
+      "zinc chloride",
+      "tyrosine",
+      "topiramate",
+      "diethylstilbestrol"
+    ],
+    "top20_v3": [
+      "tamoxifen",
+      "progesterone",
+      "cytarabine",
+      "paclitaxel",
+      "azacitidine",
+      "testosterone",
+      "lenvatinib",
+      "rituximab",
+      "gemcitabine",
+      "carboplatin",
+      "cisplatin",
+      "tyrosine",
+      "doxorubicin",
+      "danazol",
+      "minocycline",
+      "topiramate",
+      "palbociclib",
+      "cannabidiol",
+      "fostamatinib",
+      "testosterone undecanoate"
+    ],
+    "training_diseases": 30
+  }
+}

@@ -1,0 +1,66 @@
+rank,drug_id,name,combined_score,pubmed_aneuploidy,pubmed_tumour,trials_rhabdomyosarcoma,trials_wilms,trials_mva,faers_signal_groups,cpic_genes,checkpoint_direction,reversal_direction,reversal_ko_control_p,molecule_type,mw,alogp,psa,ro5_violations,best_measured_pactivity,n_adme_types,routes,robustness_count,robustness_class
+1,CHEMBL3545432,IXAZOMIB CITRATE,12.1499,0,0,0,0,0,haematological;neurological,,no_checkpoint_annotation,none,1.0,Small molecule,517.13,,,,,0,oral,9,robust
+2,CHEMBL451887,CARFILZOMIB,11.8448,1,1,0,0,0,haematological;neurological;renal,,no_checkpoint_annotation,none,0.2381,Protein,719.92,2.58,158.47,1,8.07,2,parenteral,9,robust
+3,CHEMBL325041,BORTEZOMIB,11.7946,18,22,1,2,0,haematological;neurological,,no_checkpoint_annotation,none,1.0,Small molecule,384.25,,,,8.15,3,,9,robust
+4,CHEMBL107,COLCHICINE,11.5227,179,11,0,0,0,cardiac;haematological;hepatic;renal,,no_checkpoint_annotation,none,0.2381,Small molecule,399.44,2.87,83.09,0,5.58,6,oral,9,robust
+5,CHEMBL92,DOCETAXEL ANHYDROUS,11.4857,26,28,4,3,0,haematological;neurological,,no_checkpoint_annotation,none,1.0,Small molecule,807.89,3.26,224.45,2,6.7,1,parenteral,9,robust
+6,CHEMBL428647,PACLITAXEL,11.3859,180,62,8,3,0,haematological;hepatic;neurological,,no_checkpoint_annotation,reverses,0.1905,Small molecule,853.92,3.74,221.29,2,6.71,8,parenteral,9,robust
+7,CHEMBL1743082,TRASTUZUMAB EMTANSINE,11.3276,2,0,1,1,0,,,no_checkpoint_annotation,,,Antibody drug conjugate,,,,,,0,parenteral,9,robust
+8,CHEMBL3545132,MIRVETUXIMAB SORAVTANSINE,11.1867,0,0,0,0,0,neurological,,no_checkpoint_annotation,,,Antibody drug conjugate,,,,,,0,parenteral,9,robust
+9,CHEMBL2110725,VINFLUNINE,11.1703,0,0,0,0,0,,,no_checkpoint_annotation,,,Small molecule,816.94,5.08,133.87,3,,0,,9,robust
+10,CHEMBL1201752,IXABEPILONE,11.0504,1,3,2,2,0,haematological;neurological,,no_checkpoint_annotation,none,0.381,Small molecule,506.71,4.05,112.05,1,,1,parenteral,9,robust
+11,CHEMBL3301589,ENFORTUMAB VEDOTIN,10.9652,0,0,0,0,0,haematological;hepatic;hypersensitivity;neurological;renal,,no_checkpoint_annotation,,,Antibody drug conjugate,,,,,,0,parenteral,9,robust
+12,CHEMBL1201748,CABAZITAXEL,10.8466,3,1,0,0,0,haematological;neurological,,no_checkpoint_annotation,none,1.0,Small molecule,835.94,4.57,202.45,2,,1,parenteral,9,robust
+13,CHEMBL1742994,BRENTUXIMAB VEDOTIN,10.3898,0,1,0,0,0,haematological;hepatic;neurological,,no_checkpoint_annotation,,,Antibody drug conjugate,,,,,,0,parenteral,9,robust
+14,CHEMBL3301582,POLATUZUMAB VEDOTIN,10.286,1,0,0,0,0,haematological;neurological,,no_checkpoint_annotation,,,Antibody drug conjugate,,,,,,0,parenteral,9,robust
+15,CHEMBL4297841,TISOTUMAB VEDOTIN,9.9939,0,0,0,0,0,haematological;neurological,,no_checkpoint_annotation,,,Antibody drug conjugate,,,,,,0,parenteral,9,robust
+16,CHEMBL571546,TIRBANIBULIN,7.7277,2,0,0,0,0,,,no_checkpoint_annotation,,,Small molecule,431.54,3.32,63.69,0,7.7,2,topical,9,robust
+17,CHEMBL3286830,LORLATINIB,3.3896,1,2,0,0,0,neurological,,no_checkpoint_annotation,,,Small molecule,406.42,2.80,110.06,0,8.26,4,oral,9,robust
+18,CHEMBL3545185,SELINEXOR,3.2716,0,5,1,1,0,haematological,,no_checkpoint_annotation,,,Small molecule,443.31,3.39,97.62,0,7.6,0,oral,9,robust
+19,CHEMBL2403108,CERITINIB,3.127,0,5,1,0,0,hepatic,,no_checkpoint_annotation,mimics,1.0,Small molecule,558.15,6.36,105.24,2,8.12,3,oral,6,intermediate
+20,CHEMBL601719,CRIZOTINIB,2.9011,3,12,1,0,0,hepatic,,no_checkpoint_annotation,none,1.0,Small molecule,450.35,5.04,77.99,1,8.19,4,oral,6,intermediate
+21,CHEMBL723,CARVEDILOL,1.8469,0,1,0,0,0,cardiac;renal,ADRA2C;ADRB1;ADRB2;CYP2D6;GRK4;GRK5,no_checkpoint_annotation,none,1.0,Small molecule,406.48,3.74,75.74,0,,3,oral,0,not_in_top20_of_any_configuration
+22,CHEMBL4559134,SELPERCATINIB,1.2054,0,1,2,2,0,,,no_checkpoint_annotation,,,Small molecule,525.61,3.28,112.04,1,8.15,0,oral,0,not_in_top20_of_any_configuration
+23,CHEMBL4582651,PRALSETINIB,1.183,0,0,0,0,0,haematological;hepatic,,no_checkpoint_annotation,,,Small molecule,533.61,4.20,135.53,1,9.4,1,oral,0,not_in_top20_of_any_configuration
+24,CHEMBL5314379,VOCLOSPORIN,0.7872,0,0,0,0,0,renal,,no_checkpoint_annotation,,,Protein,1214.65,,,,,0,oral,0,not_in_top20_of_any_configuration
+25,CHEMBL500,PINDOLOL,0.6583,0,0,0,0,0,,ADRA2C;ADRB1;ADRB2;GRK4;GRK5,no_checkpoint_annotation,reverses,0.1905,Small molecule,248.33,1.91,57.28,0,9.27,6,oral,0,not_in_top20_of_any_configuration
+26,CHEMBL521606,NADOLOL,0.6245,0,0,0,0,0,cardiac;haematological;hepatic;neurological,ADRA2C;ADRB1;ADRB2;GRK4;GRK5,no_checkpoint_annotation,reverses,0.1429,Small molecule,309.41,0.63,81.95,0,8.02,7,oral,0,not_in_top20_of_any_configuration
+27,CHEMBL1096,AMLEXANOX,0.5755,0,0,0,0,0,,,no_checkpoint_annotation,none,1.0,Small molecule,298.30,2.75,106.42,0,,0,topical,0,not_in_top20_of_any_configuration
+28,CHEMBL315795,CLOMETHIAZOLE,0.4361,0,0,0,0,0,,,no_checkpoint_annotation,none,0.3333,Small molecule,161.66,2.23,12.89,0,,3,,0,not_in_top20_of_any_configuration
+29,CHEMBL454,BUTALBITAL,0.4336,0,0,0,0,0,,,no_checkpoint_annotation,reverses,0.1905,Small molecule,224.26,0.96,75.27,0,,0,oral,0,not_in_top20_of_any_configuration
+30,CHEMBL591,ETHCHLORVYNOL,0.4331,0,0,0,0,0,,,no_checkpoint_annotation,,,Small molecule,144.60,1.51,20.23,0,,0,oral,0,not_in_top20_of_any_configuration
+31,CHEMBL207538,BREXANOLONE,0.4318,0,0,0,0,0,,,no_checkpoint_annotation,,,Small molecule,318.50,4.60,37.30,0,7.66,1,parenteral,0,not_in_top20_of_any_configuration
+32,CHEMBL661,ALPRAZOLAM,0.4318,0,0,0,0,0,cardiac,,no_checkpoint_annotation,mimics,1.0,Small molecule,308.77,3.58,43.07,0,,3,oral,0,not_in_top20_of_any_configuration
+33,CHEMBL1102,GLUTETHIMIDE,0.4314,0,0,0,0,0,,,no_checkpoint_annotation,,,Small molecule,217.27,1.77,46.17,0,,0,oral,0,not_in_top20_of_any_configuration
+34,CHEMBL681,ETOMIDATE,0.4311,0,2,0,0,0,cardiac;neurological;renal,,no_checkpoint_annotation,none,1.0,Small molecule,244.29,2.67,44.12,0,,2,parenteral,0,not_in_top20_of_any_configuration
+35,CHEMBL285674,ESTAZOLAM,0.4287,0,0,0,0,0,cardiac;haematological;hepatic;renal,,no_checkpoint_annotation,,,Small molecule,294.75,3.27,43.07,0,,1,oral,0,not_in_top20_of_any_configuration
+36,CHEMBL568,OXAZEPAM,0.4272,0,0,0,0,0,cardiac;hepatic;renal,UGT2B15,no_checkpoint_annotation,,,Small molecule,286.72,2.45,61.69,0,,6,oral,0,not_in_top20_of_any_configuration
+37,CHEMBL655,MIDAZOLAM,0.427,2,4,0,0,0,cardiac;hepatic;neurological;renal,CYP3A5,no_checkpoint_annotation,none,1.0,Small molecule,325.77,4.32,30.18,0,,5,oral;parenteral;topical,0,not_in_top20_of_any_configuration
+38,CHEMBL70418,CLOBAZAM,0.4267,0,0,0,0,0,neurological,CYP2C19,no_checkpoint_annotation,,,Small molecule,300.75,3.37,40.62,0,,1,oral,0,not_in_top20_of_any_configuration
+39,CHEMBL1200790,METHYPRYLON,0.4262,0,0,0,0,0,,,no_checkpoint_annotation,,,Small molecule,183.25,1.13,46.17,0,,0,oral,0,not_in_top20_of_any_configuration
+40,CHEMBL1568698,GANAXOLONE,0.4256,0,0,0,0,0,,,no_checkpoint_annotation,reverses,0.2381,Small molecule,332.53,4.99,37.30,0,6.74,1,oral,0,not_in_top20_of_any_configuration
+41,CHEMBL450,METHARBITAL,0.4254,0,0,0,0,0,,,no_checkpoint_annotation,reverses,0.0952,Small molecule,198.22,0.50,66.48,0,,0,oral,0,not_in_top20_of_any_configuration
+42,CHEMBL4105630,ZURANOLONE,0.4243,0,0,0,0,0,,,no_checkpoint_annotation,,,Small molecule,409.57,4.34,78.91,0,,2,oral,0,not_in_top20_of_any_configuration
+43,CHEMBL969,PRAZEPAM,0.4209,0,0,0,0,0,,,no_checkpoint_annotation,,,Small molecule,324.81,3.93,32.67,0,,0,oral,0,not_in_top20_of_any_configuration
+44,CHEMBL1522,ESZOPICLONE,0.4195,0,0,0,0,0,,,no_checkpoint_annotation,none,0.5714,Small molecule,388.82,1.57,91.76,0,,2,oral,0,not_in_top20_of_any_configuration
+45,CHEMBL1200472,QUAZEPAM,0.4187,0,0,0,0,0,cardiac;hepatic,,no_checkpoint_annotation,,,Small molecule,386.80,5.03,15.60,1,,0,oral,0,not_in_top20_of_any_configuration
+46,CHEMBL967,TEMAZEPAM,0.4176,0,0,0,0,0,cardiac;renal,,no_checkpoint_annotation,reverses,0.1905,Small molecule,300.75,2.47,52.90,0,1.2,2,oral,0,not_in_top20_of_any_configuration
+47,CHEMBL451,CHLORDIAZEPOXIDE,0.4166,0,0,0,0,0,,,no_checkpoint_annotation,reverses,0.1905,Small molecule,299.76,2.95,50.46,0,,3,oral;parenteral,0,not_in_top20_of_any_configuration
+48,CHEMBL580,LORAZEPAM,0.416,0,0,1,0,0,cardiac;haematological;neurological,,no_checkpoint_annotation,reverses,0.0476,Small molecule,321.16,3.10,61.69,0,,4,oral;parenteral,0,not_in_top20_of_any_configuration
+49,CHEMBL12,DIAZEPAM,0.4141,39,5,0,0,0,cardiac;neurological,CYP2C19,no_checkpoint_annotation,none,0.3333,Small molecule,284.75,3.15,32.67,0,7.92,9,oral;parenteral;topical,0,not_in_top20_of_any_configuration
+50,CHEMBL1200802,TALBUTAL,0.4139,0,0,0,0,0,,,no_checkpoint_annotation,,,Small molecule,224.26,0.96,75.27,0,,0,oral,0,not_in_top20_of_any_configuration
+51,CHEMBL526,PROPOFOL,0.4112,2,6,0,0,0,cardiac;hepatic;hypersensitivity;neurological;renal,,no_checkpoint_annotation,none,0.619,Small molecule,178.27,3.64,20.23,0,,3,parenteral,0,not_in_top20_of_any_configuration
+52,CHEMBL407,FLUMAZENIL,0.4103,1,0,0,0,0,cardiac;hepatic;neurological;renal,,no_checkpoint_annotation,reverses,0.0476,Small molecule,303.29,1.77,64.43,0,9.05,3,parenteral,0,not_in_top20_of_any_configuration
+53,CHEMBL452,CLONAZEPAM,0.409,1,3,0,0,0,neurological,,no_checkpoint_annotation,reverses,0.1429,Small molecule,315.72,3.04,84.60,0,4.66,3,oral,0,not_in_top20_of_any_configuration
+54,CHEMBL970,HALAZEPAM,0.4067,0,0,0,0,0,,,no_checkpoint_annotation,,,Small molecule,352.74,4.09,32.67,0,1.96,0,oral,0,not_in_top20_of_any_configuration
+55,CHEMBL1697737,CLOTIAZEPAM,0.4056,0,0,0,0,0,,,no_checkpoint_annotation,,,Small molecule,318.83,3.78,32.67,0,,0,,0,not_in_top20_of_any_configuration
+56,CHEMBL1770916,NIROGACESTAT,0.38,0,0,0,0,0,hypersensitivity,,no_checkpoint_annotation,,,Small molecule,489.66,4.79,70.98,0,8.21,1,oral,0,not_in_top20_of_any_configuration
+57,CHEMBL3990044,RELATLIMAB,0.2892,0,0,0,0,0,,,no_checkpoint_annotation,,,Antibody,,,,,,0,parenteral,0,not_in_top20_of_any_configuration
+58,CHEMBL3187723,BINIMETINIB,0.223,0,1,0,0,0,hepatic,,no_checkpoint_annotation,,,Small molecule,441.23,3.01,88.41,0,7.63,0,oral,0,not_in_top20_of_any_configuration
+59,CHEMBL2103875,TRAMETINIB,0.2185,3,18,0,0,0,,G6PD,no_checkpoint_annotation,mimics,1.0,Small molecule,615.40,3.94,107.13,1,6.91,2,oral,0,not_in_top20_of_any_configuration
+60,CHEMBL548,DINOPROSTONE,0.2064,4,9,0,0,0,cardiac;hepatic,,no_checkpoint_annotation,none,0.5238,Small molecule,352.47,3.25,94.83,0,,0,parenteral;topical,0,not_in_top20_of_any_configuration
+61,CHEMBL344159,TOLVAPTAN,0.1818,0,0,0,0,0,cardiac;hepatic;renal,,no_checkpoint_annotation,reverses,0.1429,Small molecule,448.95,5.68,69.64,1,8.88,2,oral,0,not_in_top20_of_any_configuration
+62,CHEMBL426084,SAMIDORPHAN,0.179,0,0,0,0,0,,,no_checkpoint_annotation,,,Small molecule,370.45,1.25,103.86,0,10.28,0,oral,0,not_in_top20_of_any_configuration
+63,CHEMBL511142,BUPRENORPHINE,0.1789,0,2,0,0,0,,COMT;OPRM1,no_checkpoint_annotation,,,Small molecule,467.65,4.41,62.16,0,9.35,2,parenteral;topical,0,not_in_top20_of_any_configuration
+64,CHEMBL2105755,NALDEMEDINE,0.1786,0,0,0,0,0,haematological;hepatic,,no_checkpoint_annotation,,,Small molecule,570.65,3.48,141.18,1,8.5,1,oral,0,not_in_top20_of_any_configuration
+65,CHEMBL270190,ALVIMOPAN,0.1777,0,0,0,0,0,renal,,no_checkpoint_annotation,none,0.3333,Small molecule,424.54,3.05,89.87,0,8.94,1,oral,0,not_in_top20_of_any_configuration

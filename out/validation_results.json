@@ -1,0 +1,57 @@
+{
+ "P1_leave_one_out": {
+  "auc": 0.9229267241379311,
+  "auc_ci95": [
+   0.890845150862069,
+   0.9470184267241379
+  ],
+  "decision": "SUPPORTED_AT_PATHWAY_LEVEL",
+  "fraction_seeds_z_le_-2": 0.0,
+  "median_z_negatives": 1.0752495282577288,
+  "median_z_seeds": -0.8388966635639025,
+  "n_seeds": 116
+ },
+ "P2_fanconi_controls": {
+  "CISPLATIN": {
+   "reason": "no protein target with curated mechanism in ChEMBL",
+   "scorable": false
+  },
+  "METFORMIN": {
+   "reason": "no protein target with curated mechanism in ChEMBL",
+   "scorable": false
+  },
+  "MITOMYCIN": {
+   "reason": "no protein target with curated mechanism in ChEMBL",
+   "scorable": false
+  },
+  "OXYMETHOLONE": {
+   "of": 1040,
+   "percentile": 59.03846153846154,
+   "rank": 427,
+   "scorable": true,
+   "z": 0.48621008620130307
+  }
+ },
+ "P3_P4_robustness": {
+  "drop_20pct_seeds": {
+   "max": 1.0,
+   "mean_jaccard_top20": 0.8107062502714676,
+   "min": 0.5384615384615384
+  },
+  "p4_degree_bias_spearman": 0.2764193885288231,
+  "string_thresholds": {
+   "400": {
+    "jaccard_top20": 0.48148148148148145,
+    "n_common": 1040,
+    "spearman_z": 0.4956695940107191
+   },
+   "900": {
+    "jaccard_top20": 0.3793103448275862,
+    "n_common": 905,
+    "spearman_z": 0.5921536299523609
+   }
+  },
+  "verdict": "STABLE"
+ },
+ "protocol": "protocol/frozen_protocol.md"
+}

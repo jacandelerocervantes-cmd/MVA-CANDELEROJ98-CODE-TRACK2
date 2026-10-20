@@ -1,0 +1,23 @@
+{
+ "by_origin": {
+  "age_label_table": {
+   "quotes": 116
+  },
+  "caution_list": {
+   "quotes": 332
+  },
+  "pediatric_label_review": {
+   "quotes": 70
+  },
+  "proposal_safety": {
+   "quotes": 33
+  }
+ },
+ "failures": [],
+ "found": 551,
+ "method": "whitespace ignored on both sides, HTML entities decoded, nothing else normalised",
+ "n_quotes": 551,
+ "not_checkable": 0,
+ "not_found": 0,
+ "unchecked": []
+}

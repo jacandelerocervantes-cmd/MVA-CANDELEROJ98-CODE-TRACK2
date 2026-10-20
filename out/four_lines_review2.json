@@ -1,0 +1,232 @@
+{
+ "addendum": "protocol/addendum_review2.md",
+ "lines": {
+  "A": {
+   "evidence": "mean AUC 0.802 (0.782-0.821), 200 diseases; excess over degree 0.022 (lower bound 0.014)",
+   "usable": true
+  },
+  "B1_phenotype_module": {
+   "evidence": "without causal gene: mean AUC 0.646 (0.539-0.745), 15 diseases; excess over degree 0.095 (lower bound -0.083); excess condition met: False",
+   "usable": false
+  },
+  "B2_mitosis_module": {
+   "check_without_drugs_acting_on_causal_genes": {
+    "excess_lower_bound": -0.003994927786431546,
+    "mean_auc": 0.7279369737284216,
+    "n_evaluable": 11,
+    "test_is_valid": false
+   },
+   "evidence": "module rule: mean AUC 0.777 (0.687-0.859), 15 diseases",
+   "usable": true
+  },
+  "C": {
+   "evidence": "adjusted total 5 against null 95th percentile 17.0 (1000 sets)",
+   "usable": false
+  },
+  "D": {
+   "evidence": "exploratory: 4 of 6 controls recovered, two by construction; no tier assigned",
+   "usable": false
+  }
+ },
+ "n_usable_lines_with_b2_as_prespecified": 2,
+ "n_usable_lines_with_b2_exploratory": 1,
+ "negative_result": true,
+ "overlap_vs_chance_common_universe": {
+  "A_and_B1": {
+   "overlap": 0,
+   "p_hypergeometric": 1.0,
+   "size_first": 2,
+   "size_second": 0,
+   "universe": 1076
+  },
+  "A_and_B2": {
+   "overlap": 0,
+   "p_hypergeometric": 1.0,
+   "size_first": 2,
+   "size_second": 3,
+   "universe": 1076
+  },
+  "A_and_C": {
+   "overlap": 0,
+   "p_hypergeometric": 1.0,
+   "size_first": 2,
+   "size_second": 0,
+   "universe": 1076
+  },
+  "B1_and_B2": {
+   "overlap": 0,
+   "p_hypergeometric": 1.0,
+   "size_first": 0,
+   "size_second": 3,
+   "universe": 1076
+  },
+  "B1_and_C": {
+   "overlap": 0,
+   "p_hypergeometric": 1.0,
+   "size_first": 0,
+   "size_second": 0,
+   "universe": 1076
+  },
+  "B2_and_C": {
+   "overlap": 0,
+   "p_hypergeometric": 1.0,
+   "size_first": 3,
+   "size_second": 0,
+   "universe": 1076
+  }
+ },
+ "readings": {
+  "b2_counted_as_prespecified": {
+   "candidates": [],
+   "n_candidates": 0,
+   "not_eligible": [
+    "TIRBANIBULIN"
+   ],
+   "one_line_only": [
+    "CERITINIB",
+    "CYCLOSPORINE",
+    "DISOPYRAMIDE",
+    "NATALIZUMAB",
+    "POMALIDOMIDE",
+    "SELINEXOR"
+   ],
+   "one_line_plus_literature": []
+  },
+  "b2_held_exploratory": {
+   "candidates": [],
+   "n_candidates": 0,
+   "not_eligible": [],
+   "one_line_only": [
+    "CYCLOSPORINE",
+    "DISOPYRAMIDE",
+    "POMALIDOMIDE"
+   ],
+   "one_line_plus_literature": []
+  }
+ },
+ "scorable_in_both_A_and_B": 1076,
+ "sensitivity_single_record_links_and_original_query": "see out/four_lines.json (addendum 10), kept as sensitivity",
+ "support_detail": {
+  "A_generic_not_counted": [
+   "AMIODARONE",
+   "AMITRIPTYLINE",
+   "AMOXAPINE",
+   "ARIPIPRAZOLE",
+   "BUTABARBITAL",
+   "CANNABIDIOL",
+   "CARBAMAZEPINE",
+   "CARVEDILOL",
+   "CHLORPROMAZINE",
+   "CISPLATIN",
+   "CLOZAPINE",
+   "COPPER OXODOTREOTIDE",
+   "DESIPRAMINE",
+   "DICLOFENAC",
+   "DOXEPIN",
+   "DRONEDARONE",
+   "FOSTAMATINIB",
+   "HALOPERIDOL DECANOATE",
+   "INDOMETHACIN",
+   "LAMOTRIGINE",
+   "METHADONE",
+   "NICARDIPINE",
+   "NIFEDIPINE",
+   "NORTRIPTYLINE",
+   "OLANZAPINE",
+   "PAROXETINE",
+   "PHENYTOIN",
+   "PROMETHAZINE",
+   "QUETIAPINE",
+   "RANOLAZINE",
+   "SORAFENIB",
+   "SPIRONOLACTONE",
+   "TAMOXIFEN",
+   "TOPIRAMATE",
+   "VALPROIC ACID",
+   "VERAPAMIL",
+   "ZIPRASIDONE",
+   "ZONISAMIDE"
+  ],
+  "A_specificity_not_measured_not_counted": [
+   "AMPHETAMINE",
+   "ESTRADIOL CYPIONATE",
+   "ESTRADIOL VALERATE",
+   "FLUVOXAMINE",
+   "KETAMINE",
+   "METHOTREXATE",
+   "PROPOFOL",
+   "QUININE",
+   "TRAMADOL"
+  ],
+  "A_top50_distinct": [
+   "FOSTAMATINIB",
+   "COPPER OXODOTREOTIDE",
+   "PHENYTOIN",
+   "CANNABIDIOL",
+   "LAMOTRIGINE",
+   "CHLORPROMAZINE",
+   "AMITRIPTYLINE",
+   "ZONISAMIDE",
+   "CARBAMAZEPINE",
+   "SPIRONOLACTONE",
+   "VALPROIC ACID",
+   "CLOZAPINE",
+   "HALOPERIDOL DECANOATE",
+   "INDOMETHACIN",
+   "ARIPIPRAZOLE",
+   "PROMETHAZINE",
+   "RANOLAZINE",
+   "TOPIRAMATE",
+   "DOXEPIN",
+   "CISPLATIN",
+   "TAMOXIFEN",
+   "VERAPAMIL",
+   "AMIODARONE",
+   "DRONEDARONE",
+   "SORAFENIB",
+   "DESIPRAMINE",
+   "METHADONE",
+   "QUETIAPINE",
+   "NIFEDIPINE",
+   "AMOXAPINE",
+   "ZIPRASIDONE",
+   "DICLOFENAC",
+   "CARVEDILOL",
+   "NORTRIPTYLINE",
+   "OLANZAPINE",
+   "POMALIDOMIDE",
+   "PAROXETINE",
+   "CYCLOSPORINE",
+   "BUTABARBITAL",
+   "NICARDIPINE",
+   "DISOPYRAMIDE",
+   "KETAMINE",
+   "ESTRADIOL CYPIONATE",
+   "ESTRADIOL VALERATE",
+   "TRAMADOL",
+   "PROPOFOL",
+   "METHOTREXATE",
+   "QUININE",
+   "AMPHETAMINE",
+   "FLUVOXAMINE"
+  ],
+  "B1_robust": [],
+  "B2_W3_two_record": [
+   "CERITINIB",
+   "NATALIZUMAB",
+   "SELINEXOR",
+   "TIRBANIBULIN"
+  ],
+  "random_query_fraction_of_A_specific": {
+   "CYCLOSPORINE": 0.038,
+   "DISOPYRAMIDE": 0.036,
+   "POMALIDOMIDE": 0.006
+  }
+ },
+ "support_set_sizes": {
+  "A": 3,
+  "B1": 0,
+  "B2": 4,
+  "C": 0
+ }
+}

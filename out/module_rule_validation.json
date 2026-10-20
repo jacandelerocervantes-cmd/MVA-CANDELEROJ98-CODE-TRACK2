@@ -1,0 +1,325 @@
+{
+ "causal_genes_modelled": {
+  "MONDO_0005090": [
+   "CHI3L1",
+   "DRD3",
+   "HTR2A",
+   "RTN4R",
+   "SYN2"
+  ],
+  "MONDO_0005147": [
+   "HNF1A",
+   "IL6"
+  ],
+  "MONDO_0005260": [
+   "NLGN3",
+   "NLGN4X",
+   "SNRPN"
+  ],
+  "MONDO_0005575": [
+   "AKT1",
+   "APC",
+   "AURKA",
+   "AXIN2",
+   "BAX",
+   "BRAF",
+   "BUB1",
+   "BUB1B",
+   "CCND1",
+   "CTNNB1",
+   "DCC",
+   "DLC1",
+   "EP300",
+   "FGFR3",
+   "FLCN",
+   "MLH3",
+   "NRAS",
+   "PIK3CA",
+   "PLA2G2A",
+   "PTPN12",
+   "PTPRJ",
+   "RAD54B",
+   "SRC",
+   "TLR2",
+   "TP53"
+  ],
+  "MONDO_0007661": [
+   "SLITRK1"
+  ],
+  "MONDO_0007915": [
+   "FCGR2A",
+   "FCGR2B",
+   "TREX1"
+  ],
+  "MONDO_0008383": [
+   "CD244",
+   "CIITA",
+   "IL10"
+  ],
+  "MONDO_0008728": [
+   "CYP21A2"
+  ],
+  "MONDO_0009061": [
+   "CFTR",
+   "FCGR2A",
+   "TGFB1"
+  ],
+  "MONDO_0009891": [
+   "JAK2"
+  ],
+  "MONDO_0010602": [
+   "F8"
+  ],
+  "MONDO_0010604": [
+   "F9"
+  ],
+  "MONDO_0010679": [
+   "DMD"
+  ],
+  "MONDO_0011382": [
+   "HBB"
+  ],
+  "MONDO_0011719": [
+   "KIT",
+   "SDHB",
+   "SDHC"
+  ]
+ },
+ "diseases_without_causal_gene_module": [
+  "MONDO_0004980",
+  "MONDO_0007147",
+  "MONDO_0009688",
+  "MONDO_0009691"
+ ],
+ "evaluation": {
+  "excess_condition_met": true,
+  "excess_over_degree": {
+   "ci95_high": 0.33603780518699544,
+   "ci95_low": 0.06287293357055936,
+   "mean_excess_over_degree": 0.199728487167573
+  },
+  "n_evaluable": 15,
+  "per_disease": {
+   "MONDO_0005090": {
+    "auc": 0.9226,
+    "auc_degree_only": 0.5051,
+    "n_known": 26,
+    "n_scorable": 1040
+   },
+   "MONDO_0005147": {
+    "auc": 0.4271,
+    "auc_degree_only": 0.3619,
+    "n_known": 6,
+    "n_scorable": 1040
+   },
+   "MONDO_0005260": {
+    "auc": 0.6612,
+    "auc_degree_only": 0.4073,
+    "n_known": 3,
+    "n_scorable": 1040
+   },
+   "MONDO_0005575": {
+    "auc": 0.8401,
+    "auc_degree_only": 0.8303,
+    "n_known": 6,
+    "n_scorable": 1040
+   },
+   "MONDO_0007661": {
+    "auc": 0.5886,
+    "auc_degree_only": 0.4359,
+    "n_known": 3,
+    "n_scorable": 1040
+   },
+   "MONDO_0007915": {
+    "auc": 0.6589,
+    "auc_degree_only": 0.7826,
+    "n_known": 6,
+    "n_scorable": 1040
+   },
+   "MONDO_0008383": {
+    "auc": 0.7165,
+    "auc_degree_only": 0.4736,
+    "n_known": 40,
+    "n_scorable": 1040
+   },
+   "MONDO_0008728": {
+    "auc": 0.909,
+    "auc_degree_only": 0.8576,
+    "n_known": 4,
+    "n_scorable": 1040
+   },
+   "MONDO_0009061": {
+    "auc": 0.804,
+    "auc_degree_only": 0.6356,
+    "n_known": 6,
+    "n_scorable": 1040
+   },
+   "MONDO_0009891": {
+    "auc": 0.9415,
+    "auc_degree_only": 0.7858,
+    "n_known": 3,
+    "n_scorable": 1040
+   },
+   "MONDO_0010602": {
+    "auc": 0.9388,
+    "auc_degree_only": 0.2466,
+    "n_known": 18,
+    "n_scorable": 1040
+   },
+   "MONDO_0010604": {
+    "auc": 0.9673,
+    "auc_degree_only": 0.3073,
+    "n_known": 11,
+    "n_scorable": 1040
+   },
+   "MONDO_0010679": {
+    "auc": 0.4857,
+    "auc_degree_only": 0.8599,
+    "n_known": 3,
+    "n_scorable": 1040
+   },
+   "MONDO_0011382": {
+    "auc": 0.846,
+    "auc_degree_only": 0.4674,
+    "n_known": 3,
+    "n_scorable": 1040
+   },
+   "MONDO_0011719": {
+    "auc": 0.9415,
+    "auc_degree_only": 0.6962,
+    "n_known": 3,
+    "n_scorable": 1040
+   }
+  },
+  "summary": {
+   "ci95_high": 0.8587752676892962,
+   "ci95_low": 0.6865696310509227,
+   "mean_auc": 0.7765840617893105,
+   "median_auc": 0.8401031592520954,
+   "n_auc_above_0_5": 13,
+   "n_diseases": 15,
+   "permutation": {
+    "null_mean": 0.5645923482128451,
+    "null_sd": 0.030621360045658297,
+    "observed_mean_auc": 0.7765840617893105,
+    "p_one_sided": 0.000999000999000999,
+    "permutations": 1000
+   }
+  },
+  "test_is_valid": true,
+  "validated": true
+ },
+ "evaluation_without_drugs_acting_on_causal_genes": {
+  "excess_condition_met": false,
+  "excess_over_degree": {
+   "ci95_high": 0.3532544276428257,
+   "ci95_low": -0.003994927786431546,
+   "mean_excess_over_degree": 0.16733686584309612
+  },
+  "n_evaluable": 11,
+  "per_disease": {
+   "MONDO_0005090": {
+    "auc": 0.8136,
+    "auc_degree_only": 0.575,
+    "n_known": 9,
+    "n_scorable": 1016
+   },
+   "MONDO_0005147": {
+    "auc": 0.427,
+    "auc_degree_only": 0.3622,
+    "n_known": 6,
+    "n_scorable": 1039
+   },
+   "MONDO_0005260": {
+    "auc": 0.6612,
+    "auc_degree_only": 0.4073,
+    "n_known": 3,
+    "n_scorable": 1040
+   },
+   "MONDO_0005575": {
+    "auc": 0.8208,
+    "auc_degree_only": 0.8495,
+    "n_known": 5,
+    "n_scorable": 1023
+   },
+   "MONDO_0007661": {
+    "auc": 0.5886,
+    "auc_degree_only": 0.4359,
+    "n_known": 3,
+    "n_scorable": 1040
+   },
+   "MONDO_0007915": {
+    "auc": 0.6589,
+    "auc_degree_only": 0.7826,
+    "n_known": 6,
+    "n_scorable": 1040
+   },
+   "MONDO_0008383": {
+    "auc": 0.7165,
+    "auc_degree_only": 0.4736,
+    "n_known": 40,
+    "n_scorable": 1040
+   },
+   "MONDO_0008728": {
+    "auc": 0.909,
+    "auc_degree_only": 0.8576,
+    "n_known": 4,
+    "n_scorable": 1040
+   },
+   "MONDO_0010602": {
+    "auc": 0.9382,
+    "auc_degree_only": 0.357,
+    "n_known": 7,
+    "n_scorable": 1028
+   },
+   "MONDO_0010604": {
+    "auc": 0.9873,
+    "auc_degree_only": 0.2059,
+    "n_known": 4,
+    "n_scorable": 1031
+   },
+   "MONDO_0010679": {
+    "auc": 0.4862,
+    "auc_degree_only": 0.86,
+    "n_known": 3,
+    "n_scorable": 1039
+   }
+  },
+  "summary": {
+   "ci95_high": 0.8292515761759202,
+   "ci95_low": 0.6231568413613423,
+   "mean_auc": 0.7279369737284216,
+   "median_auc": 0.716475,
+   "n_auc_above_0_5": 9,
+   "n_diseases": 11,
+   "permutation": {
+    "null_mean": 0.55093081347686,
+    "null_sd": 0.036579125443006774,
+    "observed_mean_auc": 0.7279369737284216,
+    "p_one_sided": 0.000999000999000999,
+    "permutations": 1000
+   }
+  },
+  "test_is_valid": false,
+  "validated": false
+ },
+ "n_diseases": 19,
+ "n_drugs_excluded_per_disease": {
+  "MONDO_0005090": 24,
+  "MONDO_0005147": 1,
+  "MONDO_0005260": 0,
+  "MONDO_0005575": 17,
+  "MONDO_0007661": 0,
+  "MONDO_0007915": 0,
+  "MONDO_0008383": 0,
+  "MONDO_0008728": 0,
+  "MONDO_0009061": 7,
+  "MONDO_0009891": 6,
+  "MONDO_0010602": 12,
+  "MONDO_0010604": 9,
+  "MONDO_0010679": 1,
+  "MONDO_0011382": 2,
+  "MONDO_0011719": 8
+ },
+ "n_with_modellable_causal_gene": 15
+}

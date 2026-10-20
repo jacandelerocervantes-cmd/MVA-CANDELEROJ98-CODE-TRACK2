@@ -1,0 +1,19 @@
+{
+  "description": "Genes of the expression scores used by track2.prism_l4 (protocol/addendum_prism.md). Change them to score another mechanism; the proliferation genes must not overlap with the score genes.",
+  "score_genes": [
+    "BUB1B",
+    "BUB1",
+    "BUB3",
+    "MAD1L1",
+    "MAD2L1",
+    "TTK"
+  ],
+  "proliferation_genes": [
+    "MKI67",
+    "TOP2A",
+    "PCNA",
+    "MCM2",
+    "MCM6",
+    "RRM2"
+  ]
+}

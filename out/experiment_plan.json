@@ -1,0 +1,667 @@
+{
+ "computational_done": [
+  {
+   "result": "6 of 23 original hits survive adjustment: Lazertinib, Neratinib, Colchicine, Eribulin, Paclitaxel, Vincristine; Prednisolone, Trametinib and Cobimetinib do not (adjusted q 0.3227, 0.3872, 0.5892)",
+   "source": "out/line_c_adjusted.md",
+   "what": "Line C adjusted for lineage and proliferation"
+  }
+ ],
+ "computational_followups": [
+  {
+   "id": "CF1",
+   "name": "Line C sign audit",
+   "refutation": "Lazertinib and Neratinib dropped as vulnerabilities if positive rho means higher viability (resistance) at a high checkpoint score",
+   "run": false,
+   "test": "State what the sign of rho means and recompute with an orientation-explicit sensitivity metric"
+  },
+  {
+   "id": "CF2",
+   "name": "Tubulin-class enrichment among line C survivors",
+   "refutation": "If enriched, the score is treated as a mitotic-dependency control, not a source of candidates",
+   "run": false,
+   "test": "Hypergeometric test of the four tubulin-class survivors among the 190 estimable drugs"
+  },
+  {
+   "id": "CF3",
+   "name": "Engine specificity",
+   "refutation": "Drug not above the null: close the row",
+   "run": false,
+   "test": "Rank of each drug for BUB1B against degree-matched random genes"
+  },
+  {
+   "id": "CF4",
+   "name": "Graph path audit (line A)",
+   "refutation": "All paths pass through hubs or lack a primary source: close",
+   "run": false,
+   "test": "List drug-to-disease paths; check each edge for a source and for generic hub nodes"
+  },
+  {
+   "id": "CF5",
+   "name": "B2 scheme sensitivity",
+   "refutation": "Not in the top set under any other scheme: close",
+   "run": false,
+   "test": "Recompute support under the other weighting schemes and against random genes"
+  },
+  {
+   "id": "CF6",
+   "name": "Line D sign permutation",
+   "refutation": "Net signed effect inside the null range: close",
+   "run": false,
+   "test": "Sign-permutation null and re-check of the control drugs"
+  },
+  {
+   "id": "CF7",
+   "name": "Line E-P leave-one-array-out",
+   "refutation": "Reversal q at or above 0.10 in any leave-out, or concordance with the disease signature: close or flag hazard (DESIGN CHOICE threshold)",
+   "run": false,
+   "test": "Leave-one-array-out on the 2 case versus 4 control arrays; reversal in the BUB1B and Track 1 signatures"
+  },
+  {
+   "id": "CF8",
+   "name": "IGBP1 axis network distance",
+   "refutation": "Distance not shorter than null: drop the IGBP1 rationale from X1 (not the drugs)",
+   "run": false,
+   "test": "Network distance IGBP1 to MTOR/AMPK nodes against degree-matched random pairs"
+  },
+  {
+   "id": "CF9",
+   "name": "Second sensitivity screen for line C survivors",
+   "refutation": "No same-sign association: close",
+   "run": false,
+   "test": "Only if a second screen is already on disk; otherwise not performed"
+  }
+ ],
+ "counts": {
+  "closed": 2,
+  "comp_first": 16,
+  "hazard_class": 4,
+  "lab_design_benefit": 10,
+  "triage_rows": 32
+ },
+ "experiments": [
+  {
+   "candidates": [
+    "Step 0 diagnostic"
+   ],
+   "controls": "laboratory control range for karyotype and single-cell copy number",
+   "id": "E0",
+   "order": 1,
+   "readouts": [
+    "karyotype",
+    "single-cell sequencing",
+    "megabase events of Track 1",
+    "missense function test (BubR1 level, turnover, kinetochore localisation, checkpoint arrest)"
+   ],
+   "refuted_if": "Stop rule S0: no excess aneuploidy in every tissue and missense behaves as wild type or lies in cis",
+   "replicates": "clinical-diagnostic standard",
+   "setting": "clinical-diagnostic, with consent"
+  },
+  {
+   "candidates": [
+    "patient-derived cells if consented",
+    "isogenic partial-BUB1B-reduction line (two clones)",
+    "euploid controls",
+    "rescue line"
+   ],
+   "controls": "euploid parental line, rescue",
+   "id": "M1",
+   "order": 2,
+   "readouts": [
+    "residual BubR1",
+    "baseline aneuploid fraction",
+    "micronuclei"
+   ],
+   "refuted_if": "No baseline phenotype beyond euploid, or rescue does not reverse it",
+   "replicates": "two independent clones",
+   "setting": "cell models"
+  },
+  {
+   "candidates": [
+    "Sirolimus",
+    "Everolimus",
+    "Metformin"
+   ],
+   "concentration": "0.1, 0.3, 1, 3, 10 times label or published reference exposure (DESIGN CHOICE; in vitro only)",
+   "controls": "positive: pS6 loss, second mTOR inhibitor; negative: vehicle, euploid, rescue",
+   "hypothesis": "mTOR/AKT modulation lowers growth and senescence burden without raising aneuploidy (IGBP1 axis hypothesis-grade)",
+   "id": "X1",
+   "order": 3,
+   "readouts": [
+    "pS6",
+    "pAKT",
+    "p-4E-BP1",
+    "AMPK phosphorylation (metformin)",
+    "aneuploid fraction",
+    "micronuclei",
+    "gamma-H2AX",
+    "SA-beta-gal",
+    "growth"
+   ],
+   "refuted_if": "Aneuploid fraction or senescence rises (relative 25 percent or more), rapalogues discordant, or no readout improves",
+   "replicates": "from power_analysis.json, chosen by Step 0 baseline (12 percent baseline, 25 percent reduction: 1632 cells, 113 to 513 cultures; 25 percent baseline, 50 percent reduction: 150 cells, 11 to 48 cultures)"
+  },
+  {
+   "candidates": [
+    "Bortezomib",
+    "Chloroquine",
+    "Bosutinib",
+    "Colchicine",
+    "Eribulin",
+    "Paclitaxel",
+    "Vincristine"
+   ],
+   "concentration": "0.1, 0.3, 1, 3, 10 times reference exposure; antimitotics also 0.01 and 0.03 (DESIGN CHOICE; in vitro only)",
+   "controls": "positive: known aneuploidy-selective cytotoxic; negative: vehicle",
+   "hypothesis": "Harm to constitutional aneuploid cells",
+   "id": "H1",
+   "order": 4,
+   "readouts": [
+    "viability",
+    "apoptosis",
+    "mitotic arrest and slippage",
+    "aggregates",
+    "LC3 and p62 (chloroquine)",
+    "micronuclei",
+    "hypomorph versus euploid"
+   ],
+   "refuted_if": "Harm if viability is lower in the hypomorph than in euploid at an equal multiple (a toxicity result, not a benefit)",
+   "replicates": "at least 3 independent experiments in triplicate (DESIGN CHOICE; not sized by the project)"
+  },
+  {
+   "candidates": [
+    "Lazertinib",
+    "Neratinib"
+   ],
+   "concentration": "0.1, 0.3, 1, 3, 10 times reference exposure (DESIGN CHOICE; in vitro only)",
+   "controls": "resistant line; vehicle",
+   "hypothesis": "Differential sensitivity tracks BUB1B reduction beyond proliferation",
+   "id": "X4",
+   "order": 5,
+   "readouts": [
+    "viability against checkpoint strength",
+    "EGFR/HER2 pathway marker",
+    "proliferation-matched comparison"
+   ],
+   "refuted_if": "No difference after matching proliferation, or hypomorph non-tumour cells equally affected; also dropped by CF1 if sign means resistance",
+   "replicates": "at least 3 independent experiments in triplicate (DESIGN CHOICE; not sized by the project)"
+  },
+  {
+   "candidates": [
+    "Phenylbutanoic Acid"
+   ],
+   "concentration": "0.1, 0.3, 1, 3, 10 times reference exposure (DESIGN CHOICE; in vitro only)",
+   "controls": "unrelated chaperone; equal-osmolarity inert salt",
+   "hypothesis": "Lowers aggregation and senescence markers",
+   "id": "X2",
+   "order": 6,
+   "readouts": [
+    "aggresome dye",
+    "UPR markers",
+    "p21",
+    "SA-beta-gal",
+    "aneuploid fraction"
+   ],
+   "refuted_if": "Senescence or aneuploidy rises, or no readout improves",
+   "replicates": "aneuploid fraction from power_analysis.json; other readouts at least 3 independent experiments in triplicate (DESIGN CHOICE)"
+  },
+  {
+   "candidates": [
+    "Ceritinib",
+    "Selinexor",
+    "Tirbanibulin"
+   ],
+   "concentration": "0.1, 0.3, 1, 3, 10 times reference exposure (DESIGN CHOICE; in vitro only)",
+   "controls": "vehicle; resistant line",
+   "hypothesis": "Selective effect on cells with BUB1B loss",
+   "id": "X5",
+   "order": 7,
+   "readouts": [
+    "target engagement",
+    "mitotic fidelity",
+    "viability hypomorph versus euploid"
+   ],
+   "refuted_if": "Selectivity absent; run only if CF5 does not close the row",
+   "replicates": "at least 3 independent experiments in triplicate (DESIGN CHOICE; not sized by the project)"
+  },
+  {
+   "candidates": [
+    "Trametinib"
+   ],
+   "concentration": "0.1, 0.3, 1, 3, 10 times reference exposure (DESIGN CHOICE; in vitro only)",
+   "controls": "pERK loss; resistant line; vehicle",
+   "hypothesis": "Aneuploid tumour cells are more sensitive (tumour context only)",
+   "id": "X3",
+   "order": 8,
+   "readouts": [
+    "pERK",
+    "viability against aneuploidy score",
+    "non-tumour hypomorph comparison"
+   ],
+   "refuted_if": "Sensitivity does not track aneuploidy, or non-tumour hypomorph cells are as sensitive",
+   "replicates": "at least 3 independent experiments in triplicate (DESIGN CHOICE; not sized by the project)"
+  }
+ ],
+ "inconsistencies": [
+  "Age bands: old file uses 0-<3, 3-<12, 12+; v2 outputs use 0-4, 5-11, 12-17",
+  "Old file states no drug has two independent lines; Neratinib now has two (C and EP)",
+  "Line C correlates viability with the checkpoint score, so positive rho (Lazertinib, Neratinib) may mean resistance; unresolved (CF1)",
+  "Old nine-drug list includes Selumetinib, now in no line"
+ ],
+ "label": "exploratory; hypotheses for follow-up; in vitro design only; no dose, schedule or treatment recommendation",
+ "stop_go": [
+  {
+   "go": "Aneuploidy confirmed or missense impaired",
+   "stage": "E0",
+   "stop": "Rule S0"
+  },
+  {
+   "go": "Hypomorph phenotype reversed by rescue",
+   "stage": "M1",
+   "stop": "No phenotype: revise model, do not test drugs"
+  },
+  {
+   "go": "Row survives its criterion",
+   "stage": "CF1-CF9",
+   "stop": "Criterion met: close row"
+  },
+  {
+   "go": "No refutation criterion met, reproduced in two clones",
+   "stage": "X1-X5",
+   "stop": "Any criterion met: recorded dead end"
+  },
+  {
+   "go": "Harm closes the drug",
+   "stage": "H1",
+   "stop": "Harm is itself the result"
+  }
+ ],
+ "triage": [
+  {
+   "age_bands": "N/N/P",
+   "candidate": "Sirolimus",
+   "computational_status": "not estimable (E: R -6, q 0.925); literature level 1",
+   "deciding_uncertainty": "net literature balance -0.5; boxed warning; IGBP1 link untested",
+   "experiment_id": "X1",
+   "lines": [
+    "LIT"
+   ],
+   "next_step": "Lab X1; computational CF8",
+   "next_step_type": "lab"
+  },
+  {
+   "age_bands": "P/L/L",
+   "candidate": "Everolimus",
+   "computational_status": "not estimable (E: R -3, q 0.854); level 0",
+   "deciding_uncertainty": "class sibling at level 0; must move with sirolimus",
+   "experiment_id": "X1",
+   "lines": [
+    "LIT"
+   ],
+   "next_step": "Lab X1",
+   "next_step_type": "lab"
+  },
+  {
+   "age_bands": "N/P/L",
+   "candidate": "Metformin",
+   "computational_status": "not estimable (E: R 26, q 0.674); level 1",
+   "deciding_uncertainty": "contradictory papers (1 help, 2 harm); AMPK versus mTOR attribution",
+   "experiment_id": "X1",
+   "lines": [
+    "LIT"
+   ],
+   "next_step": "Lab X1; computational CF8",
+   "next_step_type": "lab"
+  },
+  {
+   "age_bands": "L/L/L",
+   "candidate": "Phenylbutanoic Acid",
+   "computational_status": "not estimable (E: R 5, q 0.777); level 1",
+   "deciding_uncertainty": "rat-pup neurotoxicity statement on label",
+   "experiment_id": "X2",
+   "lines": [
+    "LIT"
+   ],
+   "next_step": "Lab X2",
+   "next_step_type": "lab"
+  },
+  {
+   "age_bands": "P/L/L",
+   "candidate": "Trametinib",
+   "computational_status": "unsupported in C (adjusted q 0.3872); LIT level 1",
+   "deciding_uncertainty": "tumour context only; failed adjustment",
+   "experiment_id": "X3",
+   "lines": [
+    "LIT",
+    "C"
+   ],
+   "next_step": "Lab X3 (tumour lines)",
+   "next_step_type": "lab"
+  },
+  {
+   "age_bands": "N/N/N",
+   "candidate": "Lazertinib",
+   "computational_status": "supported by C (adjusted rho 0.140, q 0.0316)",
+   "deciding_uncertainty": "sign of rho and mechanism unclear; no literature",
+   "experiment_id": "X4",
+   "lines": [
+    "C"
+   ],
+   "next_step": "CF1, then Lab X4",
+   "next_step_type": "lab"
+  },
+  {
+   "age_bands": "N/N/N",
+   "candidate": "Neratinib",
+   "computational_status": "supported by C (adjusted rho 0.187, q 0.0316) and EP (q 0.059)",
+   "deciding_uncertainty": "EP from one adult line, 2 case vs 4 control arrays; sign of C rho",
+   "experiment_id": "X4",
+   "lines": [
+    "C",
+    "EP"
+   ],
+   "next_step": "CF1, CF7, then Lab X4",
+   "next_step_type": "lab"
+  },
+  {
+   "age_bands": "P/L/L",
+   "candidate": "Prednisolone",
+   "computational_status": "unsupported (adjusted q 0.3227)",
+   "deciding_uncertainty": "lymphoid suspicion not testable (0 haematopoietic or lymphoid lines in its data)",
+   "experiment_id": null,
+   "lines": [
+    "C"
+   ],
+   "next_step": "Closed; no lab",
+   "next_step_type": "closed"
+  },
+  {
+   "age_bands": "V/V/V",
+   "candidate": "Cobimetinib",
+   "computational_status": "unsupported (adjusted q 0.5892)",
+   "deciding_uncertainty": "failed adjustment",
+   "experiment_id": null,
+   "lines": [
+    "C"
+   ],
+   "next_step": "Closed; no lab",
+   "next_step_type": "closed"
+  },
+  {
+   "age_bands": "N/N/N",
+   "candidate": "Ceritinib",
+   "computational_status": "supported by B2 (scheme W3 only)",
+   "deciding_uncertainty": "robust in one scheme; support set of a few drugs",
+   "experiment_id": "X5",
+   "lines": [
+    "B2"
+   ],
+   "next_step": "CF5, then Lab X5",
+   "next_step_type": "lab"
+  },
+  {
+   "age_bands": "N/N/N",
+   "candidate": "Selinexor",
+   "computational_status": "supported by B2 (scheme W3 only); level 1",
+   "deciding_uncertainty": "thrombocytopenia warning; one scheme",
+   "experiment_id": "X5",
+   "lines": [
+    "B2"
+   ],
+   "next_step": "CF5, then Lab X5",
+   "next_step_type": "lab"
+  },
+  {
+   "age_bands": "N/N/N",
+   "candidate": "Tirbanibulin",
+   "computational_status": "supported by B2 (scheme W3 only)",
+   "deciding_uncertainty": "topical label; one scheme",
+   "experiment_id": "X5",
+   "lines": [
+    "B2"
+   ],
+   "next_step": "CF5, then Lab X5",
+   "next_step_type": "lab"
+  },
+  {
+   "age_bands": "N/N/N",
+   "candidate": "Pomalidomide",
+   "computational_status": "supported by A, weak (rank 43; 0.006 of random queries)",
+   "deciding_uncertainty": "weak line discrimination (excess over degree baseline 0.022); boxed warning",
+   "experiment_id": null,
+   "lines": [
+    "A"
+   ],
+   "next_step": "CF4",
+   "next_step_type": "comp"
+  },
+  {
+   "age_bands": "N/N/N",
+   "candidate": "Disopyramide",
+   "computational_status": "supported by A, weak (rank 49; 0.036 of random queries)",
+   "deciding_uncertainty": "weak discrimination; growth wording in label",
+   "experiment_id": null,
+   "lines": [
+    "A"
+   ],
+   "next_step": "CF4",
+   "next_step_type": "comp"
+  },
+  {
+   "age_bands": "N/N/N",
+   "candidate": "Olaparib",
+   "computational_status": "not estimable (engine prior; 1 harm paper)",
+   "deciding_uncertainty": "co-mention link unverified",
+   "experiment_id": null,
+   "lines": [
+    "ENG"
+   ],
+   "next_step": "CF3",
+   "next_step_type": "comp"
+  },
+  {
+   "age_bands": "V/V/V",
+   "candidate": "Tyrosine",
+   "computational_status": "not estimable (no verified entry)",
+   "deciding_uncertainty": "co-mention only",
+   "experiment_id": null,
+   "lines": [
+    "ENG"
+   ],
+   "next_step": "CF3",
+   "next_step_type": "comp"
+  },
+  {
+   "age_bands": "V/V/V",
+   "candidate": "Progesterone",
+   "computational_status": "not estimable (no verified entry)",
+   "deciding_uncertainty": "co-mention only; boxed warning",
+   "experiment_id": null,
+   "lines": [
+    "ENG"
+   ],
+   "next_step": "CF3",
+   "next_step_type": "comp"
+  },
+  {
+   "age_bands": "V/V/V",
+   "candidate": "Zinc Chloride",
+   "computational_status": "not estimable (no verified entry)",
+   "deciding_uncertainty": "co-mention only",
+   "experiment_id": null,
+   "lines": [
+    "ENG"
+   ],
+   "next_step": "CF3",
+   "next_step_type": "comp"
+  },
+  {
+   "age_bands": "N/N/N",
+   "candidate": "Vorinostat",
+   "computational_status": "not estimable (no verified entry)",
+   "deciding_uncertainty": "co-mention only",
+   "experiment_id": null,
+   "lines": [
+    "ENG"
+   ],
+   "next_step": "CF3",
+   "next_step_type": "comp"
+  },
+  {
+   "age_bands": "N/N/N",
+   "candidate": "Regorafenib",
+   "computational_status": "supported by D, exploratory (net 94)",
+   "deciding_uncertainty": "sign calls; 4 of 6 controls recovered, two by construction",
+   "experiment_id": null,
+   "lines": [
+    "D"
+   ],
+   "next_step": "CF6",
+   "next_step_type": "comp"
+  },
+  {
+   "age_bands": "N/N/N",
+   "candidate": "Sunitinib",
+   "computational_status": "supported by D, exploratory (net 57)",
+   "deciding_uncertainty": "same",
+   "experiment_id": null,
+   "lines": [
+    "D"
+   ],
+   "next_step": "CF6",
+   "next_step_type": "comp"
+  },
+  {
+   "age_bands": "N/N/N",
+   "candidate": "Nirogacestat",
+   "computational_status": "supported by D, exploratory (net 49)",
+   "deciding_uncertainty": "same",
+   "experiment_id": null,
+   "lines": [
+    "D"
+   ],
+   "next_step": "CF6",
+   "next_step_type": "comp"
+  },
+  {
+   "age_bands": "V/V/V",
+   "candidate": "Ritlecitinib",
+   "computational_status": "supported by D, exploratory (net 39)",
+   "deciding_uncertainty": "same; mixed label",
+   "experiment_id": null,
+   "lines": [
+    "D"
+   ],
+   "next_step": "CF6",
+   "next_step_type": "comp"
+  },
+  {
+   "age_bands": "V/V/V",
+   "candidate": "Erdafitinib",
+   "computational_status": "supported by D (net 34); original C hit did not survive (adjusted q 0.8509)",
+   "deciding_uncertainty": "same; contradictory C signal",
+   "experiment_id": null,
+   "lines": [
+    "D"
+   ],
+   "next_step": "CF6",
+   "next_step_type": "comp"
+  },
+  {
+   "age_bands": "V/V/V",
+   "candidate": "Amphotericin B",
+   "computational_status": "supported by EP (q 0.059; R 10)",
+   "deciding_uncertainty": "one adult line, 2 case vs 4 control arrays; boxed warning",
+   "experiment_id": null,
+   "lines": [
+    "EP"
+   ],
+   "next_step": "CF7",
+   "next_step_type": "comp"
+  },
+  {
+   "age_bands": "N/N/N",
+   "candidate": "Auranofin",
+   "computational_status": "supported by EP (R 8)",
+   "deciding_uncertainty": "same",
+   "experiment_id": null,
+   "lines": [
+    "EP"
+   ],
+   "next_step": "CF7",
+   "next_step_type": "comp"
+  },
+  {
+   "age_bands": "V/V/V",
+   "candidate": "Fluvastatin",
+   "computational_status": "supported by EP (R 8); original C hit did not survive (adjusted q 0.1553)",
+   "deciding_uncertainty": "same; contradictory C signal",
+   "experiment_id": null,
+   "lines": [
+    "EP"
+   ],
+   "next_step": "CF7",
+   "next_step_type": "comp"
+  },
+  {
+   "age_bands": "P/L/L",
+   "candidate": "Nelfinavir",
+   "computational_status": "supported by EP (R 8)",
+   "deciding_uncertainty": "same",
+   "experiment_id": null,
+   "lines": [
+    "EP"
+   ],
+   "next_step": "CF7",
+   "next_step_type": "comp"
+  },
+  {
+   "age_bands": "not read",
+   "candidate": "Colchicine",
+   "computational_status": "hazard-class; survives line C (adjusted rho -0.159, q 0.0316)",
+   "deciding_uncertainty": "score may track mitotic dependency, not selective vulnerability",
+   "experiment_id": "H1",
+   "lines": [
+    "C"
+   ],
+   "next_step": "Lab H1 (toxicity); CF2",
+   "next_step_type": "hazard"
+  },
+  {
+   "age_bands": "not read",
+   "candidate": "Eribulin",
+   "computational_status": "hazard-class; survives line C (adjusted rho -0.115, q 0.0316)",
+   "deciding_uncertainty": "same",
+   "experiment_id": "H1",
+   "lines": [
+    "C"
+   ],
+   "next_step": "Lab H1 (toxicity); CF2",
+   "next_step_type": "hazard"
+  },
+  {
+   "age_bands": "not read",
+   "candidate": "Paclitaxel",
+   "computational_status": "hazard-class; survives line C (adjusted rho -0.141, q 0.0542)",
+   "deciding_uncertainty": "same; also an engine context hazard",
+   "experiment_id": "H1",
+   "lines": [
+    "C"
+   ],
+   "next_step": "Lab H1 (toxicity); CF2",
+   "next_step_type": "hazard"
+  },
+  {
+   "age_bands": "not read",
+   "candidate": "Vincristine",
+   "computational_status": "hazard-class; survives line C (adjusted rho -0.158, q 0.0316)",
+   "deciding_uncertainty": "same",
+   "experiment_id": "H1",
+   "lines": [
+    "C"
+   ],
+   "next_step": "Lab H1 (toxicity); CF2",
+   "next_step_type": "hazard"
+  }
+ ],
+ "version": 2
+}

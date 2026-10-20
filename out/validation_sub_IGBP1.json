@@ -1,0 +1,38 @@
+{
+ "P1_leave_one_out": {
+  "auc": 0.9525327102803738,
+  "auc_ci95": [
+   0.9395408878504673,
+   0.9649560747663551
+  ],
+  "decision": "SUPPORTED_AT_PATHWAY_LEVEL",
+  "fraction_seeds_z_le_-2": 0.018691588785046728,
+  "median_z_negatives": 1.1334585086984803,
+  "median_z_seeds": -0.9043883784202451,
+  "n_seeds": 107,
+  "n_seeds_tested": 107
+ },
+ "P3_P4_robustness": {
+  "drop_20pct_seeds": {
+   "max": 0.6666666666666666,
+   "mean_jaccard_top20": 0.5660595343353964,
+   "min": 0.3793103448275862
+  },
+  "p4_degree_bias_spearman": 0.2624784725189497,
+  "string_thresholds": {
+   "400": {
+    "jaccard_top20": 0.1111111111111111,
+    "n_common": 1040,
+    "spearman_z": 0.6409282914862099
+   },
+   "900": {
+    "jaccard_top20": 0.2903225806451613,
+    "n_common": 905,
+    "spearman_z": 0.6590932727721505
+   }
+  },
+  "verdict": "STABLE"
+ },
+ "mechanism": "sub_IGBP1",
+ "protocol": "protocol/frozen_protocol.md + protocol/addendum_robustness.md (analysis A)"
+}

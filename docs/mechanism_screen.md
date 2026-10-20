@@ -1,0 +1,3 @@
+# Screening of candidate mechanisms (Track 1 → Track 2)
+
+The readable table is in `config/mechanism_screen.json` and is summarised in the report. Explicit criterion for repurposing: (i) pathogenic or likely pathogenic variant, (ii) a defined disease mechanism that matches the 8-trait constellation, (iii) a published pharmacological rationale in that pathway. Only BUB1B meets all three reasonably; the other genes are processed in the screen but reported as "insufficient evidence" or "pathway context only". The OMIM numbers and the PMIDs from the research could not be read directly in OMIM/PubMed and are revalidated before publication.

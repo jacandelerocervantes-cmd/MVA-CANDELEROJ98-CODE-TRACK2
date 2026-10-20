@@ -1,0 +1,420 @@
+{
+ "comparison": {
+  "n_robust_n2_no_E2": 4,
+  "n_robust_original": 5,
+  "originally_robust": [
+   {
+    "count_n2_no_E2": 0,
+    "count_original": 9,
+    "drug_id": "CHEMBL2103830",
+    "name": "FOSTAMATINIB",
+    "robust_n2_no_E2": false,
+    "robust_original": true
+   },
+   {
+    "count_n2_no_E2": 9,
+    "count_original": 9,
+    "drug_id": "CHEMBL3545185",
+    "name": "SELINEXOR",
+    "robust_n2_no_E2": true,
+    "robust_original": true
+   },
+   {
+    "count_n2_no_E2": 9,
+    "count_original": 9,
+    "drug_id": "CHEMBL571546",
+    "name": "TIRBANIBULIN",
+    "robust_n2_no_E2": true,
+    "robust_original": true
+   },
+   {
+    "count_n2_no_E2": 0,
+    "count_original": 8,
+    "drug_id": "CHEMBL3545311",
+    "name": "BRIGATINIB",
+    "robust_n2_no_E2": false,
+    "robust_original": true
+   },
+   {
+    "count_n2_no_E2": 1,
+    "count_original": 7,
+    "drug_id": "CHEMBL608533",
+    "name": "MIDOSTAURIN",
+    "robust_n2_no_E2": false,
+    "robust_original": true
+   }
+  ],
+  "robust_in_strict_run": [
+   "CERITINIB",
+   "SELINEXOR",
+   "TIRBANIBULIN",
+   "NATALIZUMAB"
+  ]
+ },
+ "min_records": 2,
+ "n_drugs_with_links": 673,
+ "strict": {
+  "drugs": [
+   {
+    "L1_core": true,
+    "drug_id": "CHEMBL2403108",
+    "name": "CERITINIB",
+    "robustness_count_core": 9
+   },
+   {
+    "L1_core": true,
+    "drug_id": "CHEMBL3545185",
+    "name": "SELINEXOR",
+    "robustness_count_core": 9
+   },
+   {
+    "L1_core": true,
+    "drug_id": "CHEMBL571546",
+    "name": "TIRBANIBULIN",
+    "robustness_count_core": 9
+   },
+   {
+    "L1_core": true,
+    "drug_id": "CHEMBL1201607",
+    "name": "NATALIZUMAB",
+    "robustness_count_core": 8
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL2005186",
+    "name": "BELUMOSUDIL",
+    "robustness_count_core": 6
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL3286830",
+    "name": "LORLATINIB",
+    "robustness_count_core": 6
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL2095212",
+    "name": "MIRABEGRON",
+    "robustness_count_core": 6
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL4594250",
+    "name": "NETARSUDIL",
+    "robustness_count_core": 6
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL499",
+    "name": "TIMOLOL",
+    "robustness_count_core": 6
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL2107826",
+    "name": "VIBEGRON",
+    "robustness_count_core": 6
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL1201439",
+    "name": "BASILIXIMAB",
+    "robustness_count_core": 5
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL2325741",
+    "name": "CAPIVASERTIB",
+    "robustness_count_core": 5
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL1201550",
+    "name": "DENILEUKIN DIFTITOX",
+    "robustness_count_core": 5
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL1200862",
+    "name": "METYROSINE",
+    "robustness_count_core": 5
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL1201438",
+    "name": "ALDESLEUKIN",
+    "robustness_count_core": 4
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL1201237",
+    "name": "LEVOBUNOLOL",
+    "robustness_count_core": 4
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL4299940",
+    "name": "MITAPIVAT",
+    "robustness_count_core": 4
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL43",
+    "name": "AMSACRINE",
+    "robustness_count_core": 3
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL1399",
+    "name": "ANASTROZOLE",
+    "robustness_count_core": 3
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL1289926",
+    "name": "AXITINIB",
+    "robustness_count_core": 3
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL288441",
+    "name": "BOSUTINIB",
+    "robustness_count_core": 3
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL2110732",
+    "name": "DACOMITINIB ANHYDROUS",
+    "robustness_count_core": 3
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL1200374",
+    "name": "EXEMESTANE",
+    "robustness_count_core": 3
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL1444",
+    "name": "LETROZOLE",
+    "robustness_count_core": 3
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL477772",
+    "name": "PAZOPANIB",
+    "robustness_count_core": 3
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL1472",
+    "name": "PROTIRELIN",
+    "robustness_count_core": 3
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL535",
+    "name": "SUNITINIB",
+    "robustness_count_core": 3
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL1571",
+    "name": "TESTOLACTONE",
+    "robustness_count_core": 3
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL1229517",
+    "name": "VEMURAFENIB",
+    "robustness_count_core": 3
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL2108282",
+    "name": "CATRIDECACOG",
+    "robustness_count_core": 2
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL1479",
+    "name": "DANAZOL",
+    "robustness_count_core": 2
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL1509",
+    "name": "DROSPIRENONE",
+    "robustness_count_core": 2
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL1201139",
+    "name": "MEGESTROL ACETATE",
+    "robustness_count_core": 2
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL502835",
+    "name": "NINTEDANIB",
+    "robustness_count_core": 2
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL1162",
+    "name": "NORETHINDRONE",
+    "robustness_count_core": 2
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL2107797",
+    "name": "NORGESTREL",
+    "robustness_count_core": 2
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL189963",
+    "name": "PALBOCICLIB",
+    "robustness_count_core": 2
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL4582651",
+    "name": "PRALSETINIB",
+    "robustness_count_core": 2
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL4559134",
+    "name": "SELPERCATINIB",
+    "robustness_count_core": 2
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL259571",
+    "name": "TAPINAROF",
+    "robustness_count_core": 2
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL3301610",
+    "name": "ABEMACICLIB",
+    "robustness_count_core": 1
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL661",
+    "name": "ALPRAZOLAM",
+    "robustness_count_core": 1
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL423",
+    "name": "BETAXOLOL",
+    "robustness_count_core": 1
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL1697737",
+    "name": "CLOTIAZEPAM",
+    "robustness_count_core": 1
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL473",
+    "name": "DOFETILIDE",
+    "robustness_count_core": 1
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL1983268",
+    "name": "ENTRECTINIB",
+    "robustness_count_core": 1
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL1522",
+    "name": "ESZOPICLONE",
+    "robustness_count_core": 1
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL407",
+    "name": "FLUMAZENIL",
+    "robustness_count_core": 1
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL4594379",
+    "name": "FOSLEVODOPA",
+    "robustness_count_core": 1
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL1568698",
+    "name": "GANAXOLONE",
+    "robustness_count_core": 1
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL1102",
+    "name": "GLUTETHIMIDE",
+    "robustness_count_core": 1
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL608533",
+    "name": "MIDOSTAURIN",
+    "robustness_count_core": 1
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL568",
+    "name": "OXAZEPAM",
+    "robustness_count_core": 1
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL526",
+    "name": "PROPOFOL",
+    "robustness_count_core": 1
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL27",
+    "name": "PROPRANOLOL",
+    "robustness_count_core": 1
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL413",
+    "name": "SIROLIMUS",
+    "robustness_count_core": 1
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL1200802",
+    "name": "TALBUTAL",
+    "robustness_count_core": 1
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL2105695",
+    "name": "TELOTRISTAT ETHYL",
+    "robustness_count_core": 1
+   },
+   {
+    "L1_core": false,
+    "drug_id": "CHEMBL4105630",
+    "name": "ZURANOLONE",
+    "robustness_count_core": 1
+   }
+  ],
+  "n_robust_core": 4,
+  "rule": {
+   "configurations": 9,
+   "exclude_regex": "^(PSM[ABCDG][0-9]+|ADRM1|POMP|TUBA\\w+|TUBB\\w*|TUBG[12])$",
+   "robust_min": 7
+  }
+ }
+}

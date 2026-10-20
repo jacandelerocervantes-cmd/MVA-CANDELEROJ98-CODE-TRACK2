@@ -1,0 +1,1988 @@
+{
+  "caveats": [
+    "The arcsine size is approximate and optimistic for these small proportions: the exact Fisher test reaches only about 70-88 percent power at the arcsine n for a 0.8-0.9 target (see exact_fisher_power_at_arcsine_n); where exact_fisher_min_n is given it is about 5-20 percent larger. Use the larger of the two when planning.",
+    "Baselines come from patient lymphocytes/PBMCs (mostly non-BUB1B MVA genes) and single cases; fibroblast or myoblast cultures may differ, and cultured cells may lose aneuploid clones.",
+    "Each scenario is a published point estimate from one patient or family, not a population mean; variability between patients is not estimable from these sources.",
+    "Relative reductions are the effects to detect; whether a drug could plausibly lower aneuploidy that much is not assessed. For the report's refutation logic the failure case is a rise in aneuploidy, which this two-sided test also detects."
+  ],
+  "inputs": {
+    "alpha": 0.05,
+    "assumptions": [
+      "ICC 0.05-0.3 (not sourced)",
+      "the same baseline fraction applies to BUB1B-hypomorphic fibroblasts/myoblasts as to the lymphocyte/PBMC patient values quoted (not established)",
+      "no loss of cells or cultures; no multiplicity correction for several readouts or several drugs"
+    ],
+    "baseline_scenarios": [
+      {
+        "key": "S_low_BUB1B",
+        "p0": 0.12,
+        "role": "only BUB1B-specific patient value found (12 of 100 cells); conservative (small effect sizes need more cells)",
+        "sources": [
+          "BUB1B_MVA1_patient"
+        ]
+      },
+      {
+        "key": "S_threshold",
+        "p0": 0.25,
+        "role": "lower bound of the usual MVA range (>=25 percent of cells); non-BUB1B and BUB1B patients combined",
+        "sources": [
+          "MVA_definition_threshold"
+        ]
+      },
+      {
+        "key": "S_high",
+        "p0": 0.39,
+        "role": "upper end of published MVA lymphocyte values (39 percent, 38 percent); non-BUB1B genes",
+        "sources": [
+          "MAD1L1_PBMC_metaphases",
+          "SMC5_MVA_lymphocytes"
+        ]
+      }
+    ],
+    "powers": [
+      0.8,
+      0.9
+    ],
+    "relative_reductions": [
+      0.25,
+      0.5,
+      0.75
+    ]
+  },
+  "markdown_summary": "Planning numbers, not results. Two-sided alpha 0.05, arcsine sample size per arm; clustering with 50 cells per culture, ICC 0.05-0.3 (assumed). Independent cells = no clustering. Cultures = independent cultures per arm (minimum 3).\n\n| Baseline aneuploid fraction | Relative reduction (drug arm) | Power | Independent cells per arm | Cultures per arm (ICC 0.05 / 0.3) | Cells per arm (ICC 0.05 / 0.3) |\n|---|---|---|---|---|---|\n| 0.12 | 25% (0.0900) | 0.8 | 1632 | 113 / 513 | 5650 / 25650 |\n| 0.12 | 25% (0.0900) | 0.9 | 2184 | 151 / 686 | 7550 / 34300 |\n| 0.12 | 50% (0.0600) | 0.8 | 348 | 25 / 110 | 1250 / 5500 |\n| 0.12 | 50% (0.0600) | 0.9 | 466 | 33 / 147 | 1650 / 7350 |\n| 0.12 | 75% (0.0300) | 0.8 | 122 | 9 / 39 | 450 / 1950 |\n| 0.12 | 75% (0.0300) | 0.9 | 163 | 12 / 52 | 600 / 2600 |\n| 0.25 | 25% (0.1875) | 0.8 | 684 | 48 / 215 | 2400 / 10750 |\n| 0.25 | 25% (0.1875) | 0.9 | 916 | 64 / 288 | 3200 / 14400 |\n| 0.25 | 50% (0.1250) | 0.8 | 150 | 11 / 48 | 550 / 2400 |\n| 0.25 | 50% (0.1250) | 0.9 | 200 | 14 / 63 | 700 / 3150 |\n| 0.25 | 75% (0.0625) | 0.8 | 54 | 4 / 17 | 200 / 850 |\n| 0.25 | 75% (0.0625) | 0.9 | 72 | 5 / 23 | 250 / 1150 |\n| 0.39 | 25% (0.2925) | 0.8 | 370 | 26 / 117 | 1300 / 5850 |\n| 0.39 | 25% (0.2925) | 0.9 | 495 | 35 / 156 | 1750 / 7800 |\n| 0.39 | 50% (0.1950) | 0.8 | 84 | 6 / 27 | 300 / 1350 |\n| 0.39 | 50% (0.1950) | 0.9 | 112 | 8 / 36 | 400 / 1800 |\n| 0.39 | 75% (0.0975) | 0.8 | 31 | 3 / 10 | 150 / 500 |\n| 0.39 | 75% (0.0975) | 0.9 | 42 | 3 / 14 | 150 / 700 |",
+  "methods": {
+    "cells_per_culture_values": [
+      50,
+      100,
+      200
+    ],
+    "clustering": "design effect DE = 1 + (m - 1) * ICC; cultures per arm k = max(3, ceil(n * DE / m)); cells per arm = k * m",
+    "effect": "relative reduction r of the baseline fraction p0: p1 = p0 * (1 - r), r in 25, 50, 75 percent",
+    "exact_check": "two-sided Fisher exact test power by full enumeration of the two binomials (exact_fisher_power_at_arcsine_n; exact_fisher_min_n = first n reaching the target, only computed when the arcsine n <= 400)",
+    "icc_range_assumed": [
+      0.05,
+      0.3
+    ],
+    "icc_values": [
+      0.05,
+      0.1,
+      0.2,
+      0.3
+    ],
+    "powers": [
+      0.8,
+      0.9
+    ],
+    "primary_size": "arcsine (Cohen's h): n = 2 * ((z_{1-alpha/2} + z_power) / h)^2 per arm",
+    "test": "two independent proportions, two-sided, alpha 0.05"
+  },
+  "not_sourced": [
+    "Aneuploid fraction in euploid control human fibroblasts or lymphocytes (background rate): no numeric value was found in the sources searched; the MAD1L1 paper only states aneuploidy was 'not in controls'. The drug-vs-vehicle design does not need it, but a patient-vs-control comparison would.",
+    "Between-culture variability and intraclass correlation of aneuploid fractions in MVA/BUB1B cells: not found. ICC 0.05-0.3 is an assumption.",
+    "Aneuploid fraction in BUB1B-hypomorphic fibroblasts or myoblasts specifically: Hanks 2004 (PMID 15475955), Matsuura 2006 (PMID 16411201) and Suijkerbuijk 2010 (PMID 20516114) abstracts, or full texts when available, gave no usable fraction.",
+    "Baselines and variances for senescence (SA-beta-gal, p21), phospho-S6 and myotube differentiation readouts: not sourced, not sized here. Size them from pilot data (continuous outcomes need a standardised effect size and a between-culture variance)."
+  ],
+  "scope": "Aneuploidy readout (chromosome spreads or single-cell sequencing) only; drug vs vehicle in BUB1B-hypomorphic human fibroblasts or myoblasts. Report section S4 'Experiment that would refute it'.",
+  "sources": [
+    {
+      "cell_type": "cultured patient cells (karyotype of one BUB1B MVA1 patient)",
+      "id": "BUB1B_MVA1_patient",
+      "pmcid": "PMC9616775",
+      "pmid": "35804254",
+      "quote": "Cytogenetic analysis revealed a normal karyotype in 88 cells (46, XX) and various aneuploidies in 12 cells.",
+      "value": {
+        "aneuploid": 12,
+        "total": 100
+      },
+      "verified": true,
+      "verified_against": "PMC full text"
+    },
+    {
+      "cell_type": "peripheral blood mononuclear cells, metaphase spreads (biallelic MAD1L1, not BUB1B)",
+      "id": "MAD1L1_PBMC_metaphases",
+      "pmcid": "PMC9629740",
+      "pmid": "36322655",
+      "quote": "identified 39% of aneuploid metaphases in the proband",
+      "value": {
+        "fraction": 0.39
+      },
+      "verified": true,
+      "verified_against": "PMC full text"
+    },
+    {
+      "cell_type": "peripheral blood cells, shallow single-cell sequencing (biallelic MAD1L1, not BUB1B)",
+      "id": "MAD1L1_single_cell_seq",
+      "pmcid": "PMC9629740",
+      "pmid": "36322655",
+      "quote": "identified whole chromosome aneuploidies in 10 of 23 (43.5%) proband cells but not in controls",
+      "value": {
+        "aneuploid": 10,
+        "total": 23
+      },
+      "verified": true,
+      "verified_against": "PMC full text"
+    },
+    {
+      "cell_type": "lymphocyte karyotype (biallelic SMC5, not BUB1B)",
+      "id": "SMC5_MVA_lymphocytes",
+      "pmcid": "PMC12691382",
+      "pmid": "41374403",
+      "quote": "Karyotyping of 71 metaphase cells revealed abnormal ploidy in 36 cells (50.7%), specifically, 9 cells (12.7%) showed near-tetraploidy and 27 cells (38.0%) exhibited MVA",
+      "value": {
+        "aneuploid": 27,
+        "total": 71
+      },
+      "verified": true,
+      "verified_against": "PMC full text"
+    },
+    {
+      "cell_type": "lymphocytes, GTG-banding, two siblings (biallelic CEP192, not BUB1B)",
+      "id": "CEP192_MVA_lymphocytes",
+      "pmcid": "PMC10716027",
+      "pmid": "37981762",
+      "quote": "GTG-banding in III-1 and III-2 revealed that 15.52%–24.14% of lymphocytes were tetraploidy cells, 26.44%–27.27% were MVA cells",
+      "value": {
+        "fraction_range": [
+          0.2644,
+          0.2727
+        ]
+      },
+      "verified": true,
+      "verified_against": "PMC full text"
+    },
+    {
+      "cell_type": "metaphases from archived slides (biallelic MAD2L1BP, not BUB1B); low-level mosaic example",
+      "id": "MAD2L1BP_low_level",
+      "pmcid": "PMC10721328",
+      "pmid": "37796616",
+      "quote": "Reanalysis of 200 metaphases from 3 preserved slides archived 8 years ago revealed moderate mosaic aneuploidy, with 10% of cells showing chromosome (mostly) losses and gains",
+      "value": {
+        "aneuploid": 20,
+        "total": 200
+      },
+      "verified": true,
+      "verified_against": "PMC full text"
+    },
+    {
+      "cell_type": "definition of MVA",
+      "id": "MVA_definition_threshold",
+      "pmcid": "PMC10721328",
+      "pmid": "37796616",
+      "quote": "constitutional mosaicism for aneuploidy (chromosome gains and losses of variable proportion, but usually affecting ≥25% of cells)",
+      "value": {
+        "fraction_lower_bound": 0.25
+      },
+      "verified": true,
+      "verified_against": "PMC full text"
+    },
+    {
+      "cell_type": "cultured lymphocytes of two MVA sibs without BUB1B mutation",
+      "id": "MVA_lymphocytes_about_half",
+      "pmcid": null,
+      "pmid": "18548531",
+      "quote": "Around one half of the cultured lymphocytes from our patients had aneuploidies ranging from nullisomies to heptasomies",
+      "value": {
+        "fraction": 0.5
+      },
+      "verified": true,
+      "verified_against": "PubMed abstract (Europe PMC)"
+    },
+    {
+      "cell_type": "control children, tetraploid cells only (not aneuploidy); background example",
+      "id": "tetraploid_background_children",
+      "pmcid": "PMC12691382",
+      "pmid": "41374403",
+      "quote": "we analyzed 100 metaphase cells from each of 10 children with congenital structural abnormalities. Tetraploid cells were rare—observed in only one cell from a single individual (0.1% per sample, on average)",
+      "value": {
+        "tetraploid_fraction": 0.001
+      },
+      "verified": true,
+      "verified_against": "PMC full text"
+    }
+  ],
+  "status": "PLANNING NUMBERS, NOT RESULTS. No experiment was run; these figures size a future refutation experiment from published patient-cell baselines and an assumed intraclass correlation.",
+  "table": [
+    {
+      "alpha_two_sided": 0.05,
+      "arcsine_power_at_n": 0.8002,
+      "baseline_fraction": 0.12,
+      "clustered": [
+        {
+          "cells_per_arm": 5650,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 113,
+          "design_effect": 3.45,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 9650,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 193,
+          "design_effect": 5.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 17650,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 353,
+          "design_effect": 10.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 25650,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 513,
+          "design_effect": 15.7,
+          "icc": 0.3
+        },
+        {
+          "cells_per_arm": 9800,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 98,
+          "design_effect": 5.95,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 17800,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 178,
+          "design_effect": 10.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 34000,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 340,
+          "design_effect": 20.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 50200,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 502,
+          "design_effect": 30.7,
+          "icc": 0.3
+        },
+        {
+          "cells_per_arm": 18000,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 90,
+          "design_effect": 10.95,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 34200,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 171,
+          "design_effect": 20.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 66600,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 333,
+          "design_effect": 40.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 99200,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 496,
+          "design_effect": 60.7,
+          "icc": 0.3
+        }
+      ],
+      "cohens_h": 0.0981,
+      "drug_arm_fraction": 0.09,
+      "exact_fisher_min_n": null,
+      "exact_fisher_power_at_arcsine_n": 0.7841,
+      "n_cells_per_arm_independent": 1632,
+      "power_target": 0.8,
+      "relative_reduction": 0.25,
+      "scenario": "S_low_BUB1B"
+    },
+    {
+      "alpha_two_sided": 0.05,
+      "arcsine_power_at_n": 0.9,
+      "baseline_fraction": 0.12,
+      "clustered": [
+        {
+          "cells_per_arm": 7550,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 151,
+          "design_effect": 3.45,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 12900,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 258,
+          "design_effect": 5.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 23600,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 472,
+          "design_effect": 10.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 34300,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 686,
+          "design_effect": 15.7,
+          "icc": 0.3
+        },
+        {
+          "cells_per_arm": 13000,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 130,
+          "design_effect": 5.95,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 23900,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 239,
+          "design_effect": 10.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 45500,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 455,
+          "design_effect": 20.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 67100,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 671,
+          "design_effect": 30.7,
+          "icc": 0.3
+        },
+        {
+          "cells_per_arm": 24000,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 120,
+          "design_effect": 10.95,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 45800,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 229,
+          "design_effect": 20.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 89200,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 446,
+          "design_effect": 40.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 132600,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 663,
+          "design_effect": 60.7,
+          "icc": 0.3
+        }
+      ],
+      "cohens_h": 0.0981,
+      "drug_arm_fraction": 0.09,
+      "exact_fisher_min_n": null,
+      "exact_fisher_power_at_arcsine_n": 0.891,
+      "n_cells_per_arm_independent": 2184,
+      "power_target": 0.9,
+      "relative_reduction": 0.25,
+      "scenario": "S_low_BUB1B"
+    },
+    {
+      "alpha_two_sided": 0.05,
+      "arcsine_power_at_n": 0.8006,
+      "baseline_fraction": 0.12,
+      "clustered": [
+        {
+          "cells_per_arm": 1250,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 25,
+          "design_effect": 3.45,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 2100,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 42,
+          "design_effect": 5.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 3800,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 76,
+          "design_effect": 10.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 5500,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 110,
+          "design_effect": 15.7,
+          "icc": 0.3
+        },
+        {
+          "cells_per_arm": 2100,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 21,
+          "design_effect": 5.95,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 3800,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 38,
+          "design_effect": 10.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 7300,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 73,
+          "design_effect": 20.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 10700,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 107,
+          "design_effect": 30.7,
+          "icc": 0.3
+        },
+        {
+          "cells_per_arm": 4000,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 20,
+          "design_effect": 10.95,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 7400,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 37,
+          "design_effect": 20.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 14200,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 71,
+          "design_effect": 40.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 21200,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 106,
+          "design_effect": 60.7,
+          "icc": 0.3
+        }
+      ],
+      "cohens_h": 0.21255,
+      "drug_arm_fraction": 0.06,
+      "exact_fisher_min_n": 380,
+      "exact_fisher_power_at_arcsine_n": 0.7609,
+      "n_cells_per_arm_independent": 348,
+      "power_target": 0.8,
+      "relative_reduction": 0.5,
+      "scenario": "S_low_BUB1B"
+    },
+    {
+      "alpha_two_sided": 0.05,
+      "arcsine_power_at_n": 0.9005,
+      "baseline_fraction": 0.12,
+      "clustered": [
+        {
+          "cells_per_arm": 1650,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 33,
+          "design_effect": 3.45,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 2750,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 55,
+          "design_effect": 5.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 5050,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 101,
+          "design_effect": 10.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 7350,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 147,
+          "design_effect": 15.7,
+          "icc": 0.3
+        },
+        {
+          "cells_per_arm": 2800,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 28,
+          "design_effect": 5.95,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 5100,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 51,
+          "design_effect": 10.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 9700,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 97,
+          "design_effect": 20.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 14400,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 144,
+          "design_effect": 30.7,
+          "icc": 0.3
+        },
+        {
+          "cells_per_arm": 5200,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 26,
+          "design_effect": 10.95,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 9800,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 49,
+          "design_effect": 20.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 19200,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 96,
+          "design_effect": 40.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 28400,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 142,
+          "design_effect": 60.7,
+          "icc": 0.3
+        }
+      ],
+      "cohens_h": 0.21255,
+      "drug_arm_fraction": 0.06,
+      "exact_fisher_min_n": null,
+      "exact_fisher_power_at_arcsine_n": 0.8782,
+      "n_cells_per_arm_independent": 466,
+      "power_target": 0.9,
+      "relative_reduction": 0.5,
+      "scenario": "S_low_BUB1B"
+    },
+    {
+      "alpha_two_sided": 0.05,
+      "arcsine_power_at_n": 0.8013,
+      "baseline_fraction": 0.12,
+      "clustered": [
+        {
+          "cells_per_arm": 450,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 9,
+          "design_effect": 3.45,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 750,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 15,
+          "design_effect": 5.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 1350,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 27,
+          "design_effect": 10.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 1950,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 39,
+          "design_effect": 15.7,
+          "icc": 0.3
+        },
+        {
+          "cells_per_arm": 800,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 8,
+          "design_effect": 5.95,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 1400,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 14,
+          "design_effect": 10.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 2600,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 26,
+          "design_effect": 20.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 3800,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 38,
+          "design_effect": 30.7,
+          "icc": 0.3
+        },
+        {
+          "cells_per_arm": 1400,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 7,
+          "design_effect": 10.95,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 2600,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 13,
+          "design_effect": 20.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 5000,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 25,
+          "design_effect": 40.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 7600,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 38,
+          "design_effect": 60.7,
+          "icc": 0.3
+        }
+      ],
+      "cohens_h": 0.35932,
+      "drug_arm_fraction": 0.03,
+      "exact_fisher_min_n": 146,
+      "exact_fisher_power_at_arcsine_n": 0.7042,
+      "n_cells_per_arm_independent": 122,
+      "power_target": 0.8,
+      "relative_reduction": 0.75,
+      "scenario": "S_low_BUB1B"
+    },
+    {
+      "alpha_two_sided": 0.05,
+      "arcsine_power_at_n": 0.9004,
+      "baseline_fraction": 0.12,
+      "clustered": [
+        {
+          "cells_per_arm": 600,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 12,
+          "design_effect": 3.45,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 1000,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 20,
+          "design_effect": 5.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 1800,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 36,
+          "design_effect": 10.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 2600,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 52,
+          "design_effect": 15.7,
+          "icc": 0.3
+        },
+        {
+          "cells_per_arm": 1000,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 10,
+          "design_effect": 5.95,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 1800,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 18,
+          "design_effect": 10.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 3400,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 34,
+          "design_effect": 20.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 5100,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 51,
+          "design_effect": 30.7,
+          "icc": 0.3
+        },
+        {
+          "cells_per_arm": 1800,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 9,
+          "design_effect": 10.95,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 3600,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 18,
+          "design_effect": 20.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 6800,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 34,
+          "design_effect": 40.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 10000,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 50,
+          "design_effect": 60.7,
+          "icc": 0.3
+        }
+      ],
+      "cohens_h": 0.35932,
+      "drug_arm_fraction": 0.03,
+      "exact_fisher_min_n": 186,
+      "exact_fisher_power_at_arcsine_n": 0.8513,
+      "n_cells_per_arm_independent": 163,
+      "power_target": 0.9,
+      "relative_reduction": 0.75,
+      "scenario": "S_low_BUB1B"
+    },
+    {
+      "alpha_two_sided": 0.05,
+      "arcsine_power_at_n": 0.8002,
+      "baseline_fraction": 0.25,
+      "clustered": [
+        {
+          "cells_per_arm": 2400,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 48,
+          "design_effect": 3.45,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 4050,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 81,
+          "design_effect": 5.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 7400,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 148,
+          "design_effect": 10.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 10750,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 215,
+          "design_effect": 15.7,
+          "icc": 0.3
+        },
+        {
+          "cells_per_arm": 4100,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 41,
+          "design_effect": 5.95,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 7500,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 75,
+          "design_effect": 10.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 14300,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 143,
+          "design_effect": 20.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 21000,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 210,
+          "design_effect": 30.7,
+          "icc": 0.3
+        },
+        {
+          "cells_per_arm": 7600,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 38,
+          "design_effect": 10.95,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 14400,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 72,
+          "design_effect": 20.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 28000,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 140,
+          "design_effect": 40.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 41600,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 208,
+          "design_effect": 60.7,
+          "icc": 0.3
+        }
+      ],
+      "cohens_h": 0.15153,
+      "drug_arm_fraction": 0.1875,
+      "exact_fisher_min_n": null,
+      "exact_fisher_power_at_arcsine_n": 0.7814,
+      "n_cells_per_arm_independent": 684,
+      "power_target": 0.8,
+      "relative_reduction": 0.25,
+      "scenario": "S_threshold"
+    },
+    {
+      "alpha_two_sided": 0.05,
+      "arcsine_power_at_n": 0.9003,
+      "baseline_fraction": 0.25,
+      "clustered": [
+        {
+          "cells_per_arm": 3200,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 64,
+          "design_effect": 3.45,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 5450,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 109,
+          "design_effect": 5.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 9900,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 198,
+          "design_effect": 10.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 14400,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 288,
+          "design_effect": 15.7,
+          "icc": 0.3
+        },
+        {
+          "cells_per_arm": 5500,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 55,
+          "design_effect": 5.95,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 10000,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 100,
+          "design_effect": 10.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 19100,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 191,
+          "design_effect": 20.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 28200,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 282,
+          "design_effect": 30.7,
+          "icc": 0.3
+        },
+        {
+          "cells_per_arm": 10200,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 51,
+          "design_effect": 10.95,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 19200,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 96,
+          "design_effect": 20.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 37400,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 187,
+          "design_effect": 40.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 55800,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 279,
+          "design_effect": 60.7,
+          "icc": 0.3
+        }
+      ],
+      "cohens_h": 0.15153,
+      "drug_arm_fraction": 0.1875,
+      "exact_fisher_min_n": null,
+      "exact_fisher_power_at_arcsine_n": 0.89,
+      "n_cells_per_arm_independent": 916,
+      "power_target": 0.9,
+      "relative_reduction": 0.25,
+      "scenario": "S_threshold"
+    },
+    {
+      "alpha_two_sided": 0.05,
+      "arcsine_power_at_n": 0.8023,
+      "baseline_fraction": 0.25,
+      "clustered": [
+        {
+          "cells_per_arm": 550,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 11,
+          "design_effect": 3.45,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 900,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 18,
+          "design_effect": 5.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 1650,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 33,
+          "design_effect": 10.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 2400,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 48,
+          "design_effect": 15.7,
+          "icc": 0.3
+        },
+        {
+          "cells_per_arm": 900,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 9,
+          "design_effect": 5.95,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 1700,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 17,
+          "design_effect": 10.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 3200,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 32,
+          "design_effect": 20.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 4700,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 47,
+          "design_effect": 30.7,
+          "icc": 0.3
+        },
+        {
+          "cells_per_arm": 1800,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 9,
+          "design_effect": 10.95,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 3200,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 16,
+          "design_effect": 20.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 6200,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 31,
+          "design_effect": 40.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 9200,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 46,
+          "design_effect": 60.7,
+          "icc": 0.3
+        }
+      ],
+      "cohens_h": 0.32446,
+      "drug_arm_fraction": 0.125,
+      "exact_fisher_min_n": 165,
+      "exact_fisher_power_at_arcsine_n": 0.7559,
+      "n_cells_per_arm_independent": 150,
+      "power_target": 0.8,
+      "relative_reduction": 0.5,
+      "scenario": "S_threshold"
+    },
+    {
+      "alpha_two_sided": 0.05,
+      "arcsine_power_at_n": 0.9005,
+      "baseline_fraction": 0.25,
+      "clustered": [
+        {
+          "cells_per_arm": 700,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 14,
+          "design_effect": 3.45,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 1200,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 24,
+          "design_effect": 5.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 2200,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 44,
+          "design_effect": 10.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 3150,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 63,
+          "design_effect": 15.7,
+          "icc": 0.3
+        },
+        {
+          "cells_per_arm": 1200,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 12,
+          "design_effect": 5.95,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 2200,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 22,
+          "design_effect": 10.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 4200,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 42,
+          "design_effect": 20.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 6200,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 62,
+          "design_effect": 30.7,
+          "icc": 0.3
+        },
+        {
+          "cells_per_arm": 2200,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 11,
+          "design_effect": 10.95,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 4200,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 21,
+          "design_effect": 20.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 8200,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 41,
+          "design_effect": 40.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 12200,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 61,
+          "design_effect": 60.7,
+          "icc": 0.3
+        }
+      ],
+      "cohens_h": 0.32446,
+      "drug_arm_fraction": 0.125,
+      "exact_fisher_min_n": 216,
+      "exact_fisher_power_at_arcsine_n": 0.875,
+      "n_cells_per_arm_independent": 200,
+      "power_target": 0.9,
+      "relative_reduction": 0.5,
+      "scenario": "S_threshold"
+    },
+    {
+      "alpha_two_sided": 0.05,
+      "arcsine_power_at_n": 0.8039,
+      "baseline_fraction": 0.25,
+      "clustered": [
+        {
+          "cells_per_arm": 200,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 4,
+          "design_effect": 3.45,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 350,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 7,
+          "design_effect": 5.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 600,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 12,
+          "design_effect": 10.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 850,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 17,
+          "design_effect": 15.7,
+          "icc": 0.3
+        },
+        {
+          "cells_per_arm": 400,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 4,
+          "design_effect": 5.95,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 600,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 6,
+          "design_effect": 10.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 1200,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 12,
+          "design_effect": 20.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 1700,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 17,
+          "design_effect": 30.7,
+          "icc": 0.3
+        },
+        {
+          "cells_per_arm": 600,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 3,
+          "design_effect": 10.95,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 1200,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 6,
+          "design_effect": 20.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 2400,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 12,
+          "design_effect": 40.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 3400,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 17,
+          "design_effect": 60.7,
+          "icc": 0.3
+        }
+      ],
+      "cohens_h": 0.54184,
+      "drug_arm_fraction": 0.0625,
+      "exact_fisher_min_n": 64,
+      "exact_fisher_power_at_arcsine_n": 0.7049,
+      "n_cells_per_arm_independent": 54,
+      "power_target": 0.8,
+      "relative_reduction": 0.75,
+      "scenario": "S_threshold"
+    },
+    {
+      "alpha_two_sided": 0.05,
+      "arcsine_power_at_n": 0.9017,
+      "baseline_fraction": 0.25,
+      "clustered": [
+        {
+          "cells_per_arm": 250,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 5,
+          "design_effect": 3.45,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 450,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 9,
+          "design_effect": 5.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 800,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 16,
+          "design_effect": 10.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 1150,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 23,
+          "design_effect": 15.7,
+          "icc": 0.3
+        },
+        {
+          "cells_per_arm": 500,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 5,
+          "design_effect": 5.95,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 800,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 8,
+          "design_effect": 10.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 1500,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 15,
+          "design_effect": 20.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 2300,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 23,
+          "design_effect": 30.7,
+          "icc": 0.3
+        },
+        {
+          "cells_per_arm": 800,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 4,
+          "design_effect": 10.95,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 1600,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 8,
+          "design_effect": 20.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 3000,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 15,
+          "design_effect": 40.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 4400,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 22,
+          "design_effect": 60.7,
+          "icc": 0.3
+        }
+      ],
+      "cohens_h": 0.54184,
+      "drug_arm_fraction": 0.0625,
+      "exact_fisher_min_n": 82,
+      "exact_fisher_power_at_arcsine_n": 0.8575,
+      "n_cells_per_arm_independent": 72,
+      "power_target": 0.9,
+      "relative_reduction": 0.75,
+      "scenario": "S_threshold"
+    },
+    {
+      "alpha_two_sided": 0.05,
+      "arcsine_power_at_n": 0.8006,
+      "baseline_fraction": 0.39,
+      "clustered": [
+        {
+          "cells_per_arm": 1300,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 26,
+          "design_effect": 3.45,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 2200,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 44,
+          "design_effect": 5.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 4000,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 80,
+          "design_effect": 10.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 5850,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 117,
+          "design_effect": 15.7,
+          "icc": 0.3
+        },
+        {
+          "cells_per_arm": 2300,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 23,
+          "design_effect": 5.95,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 4100,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 41,
+          "design_effect": 10.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 7700,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 77,
+          "design_effect": 20.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 11400,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 114,
+          "design_effect": 30.7,
+          "icc": 0.3
+        },
+        {
+          "cells_per_arm": 4200,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 21,
+          "design_effect": 10.95,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 7800,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 39,
+          "design_effect": 20.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 15200,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 76,
+          "design_effect": 40.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 22600,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 113,
+          "design_effect": 60.7,
+          "icc": 0.3
+        }
+      ],
+      "cohens_h": 0.20613,
+      "drug_arm_fraction": 0.2925,
+      "exact_fisher_min_n": 389,
+      "exact_fisher_power_at_arcsine_n": 0.7769,
+      "n_cells_per_arm_independent": 370,
+      "power_target": 0.8,
+      "relative_reduction": 0.25,
+      "scenario": "S_high"
+    },
+    {
+      "alpha_two_sided": 0.05,
+      "arcsine_power_at_n": 0.9002,
+      "baseline_fraction": 0.39,
+      "clustered": [
+        {
+          "cells_per_arm": 1750,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 35,
+          "design_effect": 3.45,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 2950,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 59,
+          "design_effect": 5.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 5350,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 107,
+          "design_effect": 10.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 7800,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 156,
+          "design_effect": 15.7,
+          "icc": 0.3
+        },
+        {
+          "cells_per_arm": 3000,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 30,
+          "design_effect": 5.95,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 5400,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 54,
+          "design_effect": 10.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 10300,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 103,
+          "design_effect": 20.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 15200,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 152,
+          "design_effect": 30.7,
+          "icc": 0.3
+        },
+        {
+          "cells_per_arm": 5600,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 28,
+          "design_effect": 10.95,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 10400,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 52,
+          "design_effect": 20.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 20200,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 101,
+          "design_effect": 40.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 30200,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 151,
+          "design_effect": 60.7,
+          "icc": 0.3
+        }
+      ],
+      "cohens_h": 0.20613,
+      "drug_arm_fraction": 0.2925,
+      "exact_fisher_min_n": null,
+      "exact_fisher_power_at_arcsine_n": 0.8875,
+      "n_cells_per_arm_independent": 495,
+      "power_target": 0.9,
+      "relative_reduction": 0.25,
+      "scenario": "S_high"
+    },
+    {
+      "alpha_two_sided": 0.05,
+      "arcsine_power_at_n": 0.8035,
+      "baseline_fraction": 0.39,
+      "clustered": [
+        {
+          "cells_per_arm": 300,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 6,
+          "design_effect": 3.45,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 500,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 10,
+          "design_effect": 5.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 950,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 19,
+          "design_effect": 10.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 1350,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 27,
+          "design_effect": 15.7,
+          "icc": 0.3
+        },
+        {
+          "cells_per_arm": 500,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 5,
+          "design_effect": 5.95,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 1000,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 10,
+          "design_effect": 10.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 1800,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 18,
+          "design_effect": 20.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 2600,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 26,
+          "design_effect": 30.7,
+          "icc": 0.3
+        },
+        {
+          "cells_per_arm": 1000,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 5,
+          "design_effect": 10.95,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 1800,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 9,
+          "design_effect": 20.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 3600,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 18,
+          "design_effect": 40.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 5200,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 26,
+          "design_effect": 60.7,
+          "icc": 0.3
+        }
+      ],
+      "cohens_h": 0.43425,
+      "drug_arm_fraction": 0.195,
+      "exact_fisher_min_n": 94,
+      "exact_fisher_power_at_arcsine_n": 0.7548,
+      "n_cells_per_arm_independent": 84,
+      "power_target": 0.8,
+      "relative_reduction": 0.5,
+      "scenario": "S_high"
+    },
+    {
+      "alpha_two_sided": 0.05,
+      "arcsine_power_at_n": 0.9014,
+      "baseline_fraction": 0.39,
+      "clustered": [
+        {
+          "cells_per_arm": 400,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 8,
+          "design_effect": 3.45,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 700,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 14,
+          "design_effect": 5.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 1250,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 25,
+          "design_effect": 10.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 1800,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 36,
+          "design_effect": 15.7,
+          "icc": 0.3
+        },
+        {
+          "cells_per_arm": 700,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 7,
+          "design_effect": 5.95,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 1300,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 13,
+          "design_effect": 10.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 2400,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 24,
+          "design_effect": 20.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 3500,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 35,
+          "design_effect": 30.7,
+          "icc": 0.3
+        },
+        {
+          "cells_per_arm": 1400,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 7,
+          "design_effect": 10.95,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 2400,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 12,
+          "design_effect": 20.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 4600,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 23,
+          "design_effect": 40.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 6800,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 34,
+          "design_effect": 60.7,
+          "icc": 0.3
+        }
+      ],
+      "cohens_h": 0.43425,
+      "drug_arm_fraction": 0.195,
+      "exact_fisher_min_n": 121,
+      "exact_fisher_power_at_arcsine_n": 0.8748,
+      "n_cells_per_arm_independent": 112,
+      "power_target": 0.9,
+      "relative_reduction": 0.5,
+      "scenario": "S_high"
+    },
+    {
+      "alpha_two_sided": 0.05,
+      "arcsine_power_at_n": 0.8025,
+      "baseline_fraction": 0.39,
+      "clustered": [
+        {
+          "cells_per_arm": 150,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 3,
+          "design_effect": 3.45,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 200,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 4,
+          "design_effect": 5.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 350,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 7,
+          "design_effect": 10.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 500,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 10,
+          "design_effect": 15.7,
+          "icc": 0.3
+        },
+        {
+          "cells_per_arm": 300,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 3,
+          "design_effect": 5.95,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 400,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 4,
+          "design_effect": 10.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 700,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 7,
+          "design_effect": 20.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 1000,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 10,
+          "design_effect": 30.7,
+          "icc": 0.3
+        },
+        {
+          "cells_per_arm": 600,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 3,
+          "design_effect": 10.95,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 800,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 4,
+          "design_effect": 20.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 1400,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 7,
+          "design_effect": 40.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 2000,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 10,
+          "design_effect": 60.7,
+          "icc": 0.3
+        }
+      ],
+      "cohens_h": 0.71386,
+      "drug_arm_fraction": 0.0975,
+      "exact_fisher_min_n": 37,
+      "exact_fisher_power_at_arcsine_n": 0.7091,
+      "n_cells_per_arm_independent": 31,
+      "power_target": 0.8,
+      "relative_reduction": 0.75,
+      "scenario": "S_high"
+    },
+    {
+      "alpha_two_sided": 0.05,
+      "arcsine_power_at_n": 0.9051,
+      "baseline_fraction": 0.39,
+      "clustered": [
+        {
+          "cells_per_arm": 150,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 3,
+          "design_effect": 3.45,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 250,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 5,
+          "design_effect": 5.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 500,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 10,
+          "design_effect": 10.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 700,
+          "cells_per_culture": 50,
+          "cultures_per_arm": 14,
+          "design_effect": 15.7,
+          "icc": 0.3
+        },
+        {
+          "cells_per_arm": 300,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 3,
+          "design_effect": 5.95,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 500,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 5,
+          "design_effect": 10.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 900,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 9,
+          "design_effect": 20.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 1300,
+          "cells_per_culture": 100,
+          "cultures_per_arm": 13,
+          "design_effect": 30.7,
+          "icc": 0.3
+        },
+        {
+          "cells_per_arm": 600,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 3,
+          "design_effect": 10.95,
+          "icc": 0.05
+        },
+        {
+          "cells_per_arm": 1000,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 5,
+          "design_effect": 20.9,
+          "icc": 0.1
+        },
+        {
+          "cells_per_arm": 1800,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 9,
+          "design_effect": 40.8,
+          "icc": 0.2
+        },
+        {
+          "cells_per_arm": 2600,
+          "cells_per_culture": 200,
+          "cultures_per_arm": 13,
+          "design_effect": 60.7,
+          "icc": 0.3
+        }
+      ],
+      "cohens_h": 0.71386,
+      "drug_arm_fraction": 0.0975,
+      "exact_fisher_min_n": 48,
+      "exact_fisher_power_at_arcsine_n": 0.8619,
+      "n_cells_per_arm_independent": 42,
+      "power_target": 0.9,
+      "relative_reduction": 0.75,
+      "scenario": "S_high"
+    }
+  ]
+}

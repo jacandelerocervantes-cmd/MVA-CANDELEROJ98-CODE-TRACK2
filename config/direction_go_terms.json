@@ -1,0 +1,54 @@
+{
+  "note": "Names verified against QuickGO /ontology/go/terms/{id}; none obsolete. Role: positive = component of or promoter of the spindle checkpoint (loss-of-function weakens it); negative = inhibits the checkpoint; neutral = regulation of unspecified direction (no direction assigned). [heuristic] role assignment.",
+  "terms": [
+    {
+      "id": "GO:0007094",
+      "name": "mitotic spindle assembly checkpoint signaling",
+      "name_correction": null,
+      "role": "positive",
+      "verified_on": "2026-10-06"
+    },
+    {
+      "id": "GO:0090266",
+      "name": "regulation of mitotic cell cycle spindle assembly checkpoint",
+      "name_correction": "task wording was 'regulation of mitotic spindle checkpoint (task wording)'; QuickGO name used",
+      "role": "neutral",
+      "verified_on": "2026-10-06"
+    },
+    {
+      "id": "GO:0090267",
+      "name": "positive regulation of mitotic cell cycle spindle assembly checkpoint",
+      "name_correction": "task wording was 'positive regulation of mitotic spindle checkpoint (task wording)'; QuickGO name used",
+      "role": "positive",
+      "verified_on": "2026-10-06"
+    },
+    {
+      "id": "GO:0090232",
+      "name": "positive regulation of spindle checkpoint",
+      "name_correction": null,
+      "role": "positive",
+      "verified_on": "2026-10-06"
+    },
+    {
+      "id": "GO:0090231",
+      "name": "regulation of spindle checkpoint",
+      "name_correction": null,
+      "role": "neutral",
+      "verified_on": "2026-10-06"
+    },
+    {
+      "id": "GO:0090233",
+      "name": "negative regulation of spindle checkpoint",
+      "name_correction": null,
+      "role": "negative",
+      "verified_on": "2026-10-06"
+    },
+    {
+      "id": "GO:0033597",
+      "name": "mitotic checkpoint complex",
+      "name_correction": null,
+      "role": "positive",
+      "verified_on": "2026-10-06"
+    }
+  ]
+}

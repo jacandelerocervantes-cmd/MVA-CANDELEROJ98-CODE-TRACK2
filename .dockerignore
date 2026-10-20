@@ -1,0 +1,16 @@
+﻿.git
+.github
+.venv
+venv
+env
+__pycache__
+*.py[cod]
+.pytest_cache
+.coverage
+# Third-party downloads and patient-derived files must never enter an image
+data
+out/*.log
+submissions
+Dockerfile
+.dockerignore
+.claude

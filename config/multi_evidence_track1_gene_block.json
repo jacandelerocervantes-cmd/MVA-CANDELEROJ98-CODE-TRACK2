@@ -1,0 +1,51 @@
+{
+ "description": "Track 1 gene block for the mechanism-fit criterion of protocol/addendum_multi_evidence.md (section 8). Gene-level facts only: no positions, alleles or sample identifiers. These are hypotheses to test, not findings.",
+ "cap": 0.1,
+ "primary_gene": "BUB1B",
+ "tests": {
+  "IGBP1": "function tests of the variant (PP2A-AKT-mTOR readouts)",
+  "megabase_events": "karyotype or single-cell sequencing",
+  "CENPE_MAD1L1": "pathway context only; no direct test proposed"
+ },
+ "genes": [
+  {"gene": "BUB1B", "role": "recessive candidate, compound heterozygous: stop-gain with predicted decay plus a missense of uncertain significance; primary", "tier": "causal candidate", "tier_weight": 0.0, "bears_on": []},
+  {"gene": "IGBP1", "role": "hemizygous missense, rank 2 genome-wide, phenotype score 0.141; alpha4 regulatory subunit of PP2A; literature links it to the PP2A switch that dephosphorylates AKT (PMID 34998390, 38419089), translation initiation (PMID 18625885) and autophagy (PMID 40600667); variant effect untested; not an MVA gene", "tier": "hypothesis-grade modifier, insufficient evidence", "tier_weight": 1.0,
+   "bears_on": [
+    {"mechanism_regex": "mtor|fkbp|fk506|akt|pi3k", "relevance": 1.0},
+    {"literature_regex": "mtor|ampk|akt|autophag|translation", "relevance": 0.5}
+   ]},
+  {"gene": "CENPE", "role": "structural call not overlapping coding sequence (MCPH13)", "tier": "pathway context only", "tier_weight": 0.5,
+   "bears_on": [
+    {"mechanism_regex": "tubulin|mitotic|kinesin|checkpoint|aurora|plk|ttk|cdc20|centrosom|exportin", "relevance": 1.0},
+    {"literature_tags": ["tumour", "aneuploidy_tumour"], "relevance": 0.5}
+   ]},
+  {"gene": "MAD1L1", "role": "structural call not overlapping coding sequence (MVA7)", "tier": "pathway context only", "tier_weight": 0.5,
+   "bears_on": [
+    {"mechanism_regex": "tubulin|mitotic|kinesin|checkpoint|aurora|plk|ttk|cdc20|centrosom|exportin", "relevance": 1.0},
+    {"literature_tags": ["tumour", "aneuploidy_tumour"], "relevance": 0.5}
+   ]},
+  {"gene": "CDC20", "role": "megabase-scale duplication not analysed in Track 1; real copy-number change or caller artefact, undetermined", "tier": "undetermined", "tier_weight": 0.25,
+   "bears_on": [
+    {"mechanism_regex": "tubulin|mitotic|kinesin|checkpoint|aurora|plk|ttk|cdc20|centrosom|exportin", "relevance": 1.0},
+    {"literature_tags": ["tumour", "aneuploidy_tumour"], "relevance": 0.5}
+   ]},
+  {"gene": "MAD2L1BP", "role": "megabase-scale duplication not analysed in Track 1; undetermined", "tier": "undetermined", "tier_weight": 0.25,
+   "bears_on": [
+    {"mechanism_regex": "tubulin|mitotic|kinesin|checkpoint|aurora|plk|ttk|cdc20|centrosom|exportin", "relevance": 1.0},
+    {"literature_tags": ["tumour", "aneuploidy_tumour"], "relevance": 0.5}
+   ]},
+  {"gene": "TTK", "role": "megabase-scale deletion containing the gene, not analysed in Track 1; undetermined", "tier": "undetermined", "tier_weight": 0.25,
+   "bears_on": [
+    {"mechanism_regex": "tubulin|mitotic|kinesin|checkpoint|aurora|plk|ttk|cdc20|centrosom|exportin", "relevance": 1.0},
+    {"literature_tags": ["tumour", "aneuploidy_tumour"], "relevance": 0.5}
+   ]},
+  {"gene": "CEP192", "role": "megabase-scale deletion overlapping the gene, not analysed in Track 1; undetermined", "tier": "undetermined", "tier_weight": 0.25,
+   "bears_on": [
+    {"mechanism_regex": "tubulin|mitotic|kinesin|checkpoint|aurora|plk|ttk|cdc20|centrosom|exportin", "relevance": 1.0},
+    {"literature_tags": ["tumour", "aneuploidy_tumour"], "relevance": 0.5}
+   ]},
+  {"gene": "DNAH10", "role": "no mechanistic link found in the differential diagnosis", "tier": "none", "tier_weight": 0.0, "bears_on": []},
+  {"gene": "IZUMO4", "role": "no mechanistic link found in the differential diagnosis", "tier": "none", "tier_weight": 0.0, "bears_on": []},
+  {"gene": "ZNF418", "role": "no mechanistic link found in the differential diagnosis", "tier": "none", "tier_weight": 0.0, "bears_on": []}
+ ]
+}

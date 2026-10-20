@@ -1,0 +1,128 @@
+{
+  "genes": {
+    "BUB1B": {
+      "c1": "curated",
+      "c2": "consistent",
+      "c3": "high_impact",
+      "c4": {
+        "has_hpo": true,
+        "phenotype_rank": 14,
+        "phenotype_score": 0.5566
+      },
+      "c5": "P/LP",
+      "finding_types": [
+        "primary",
+        "secondary"
+      ],
+      "genotype_type": "compound_het",
+      "log10_joint_rarity": 9.5,
+      "reason": "curated MVA gene, two rare alleles with recessive annotation, and a high-impact allele or ClinVar P/LP (phase not resolved at gene level)",
+      "verdict": "causal candidate"
+    },
+    "CENPE": {
+      "c1": "none",
+      "c2": "unpaired",
+      "c3": "structural_unpaired",
+      "c4": {
+        "has_hpo": false,
+        "phenotype_rank": null,
+        "phenotype_score": null
+      },
+      "c5": "none",
+      "finding_types": [
+        "secondary"
+      ],
+      "genotype_type": null,
+      "log10_joint_rarity": null,
+      "reason": "not an MVA gene in the landscape",
+      "verdict": "insufficient evidence"
+    },
+    "DNAH10": {
+      "c1": "none",
+      "c2": "biallelic_inheritance_not_recessive",
+      "c3": "non_high_impact",
+      "c4": {
+        "has_hpo": true,
+        "phenotype_rank": 4254,
+        "phenotype_score": 0.0236
+      },
+      "c5": "none",
+      "finding_types": [
+        "secondary"
+      ],
+      "genotype_type": "compound_het",
+      "log10_joint_rarity": 7.42,
+      "reason": "not an MVA gene in the landscape",
+      "verdict": "insufficient evidence"
+    },
+    "IGBP1": {
+      "c1": "none",
+      "c2": "inconsistent",
+      "c3": "non_high_impact",
+      "c4": {
+        "has_hpo": true,
+        "phenotype_rank": 2730,
+        "phenotype_score": 0.1414
+      },
+      "c5": "uncertain",
+      "finding_types": [
+        "secondary"
+      ],
+      "genotype_type": "hemizygous",
+      "log10_joint_rarity": 4.11,
+      "reason": "not an MVA gene in the landscape",
+      "verdict": "insufficient evidence"
+    },
+    "IZUMO4": {
+      "c1": "none",
+      "c2": "biallelic_inheritance_not_recessive",
+      "c3": "non_high_impact",
+      "c4": {
+        "has_hpo": false,
+        "phenotype_rank": null,
+        "phenotype_score": 0.0
+      },
+      "c5": "none",
+      "finding_types": [],
+      "genotype_type": "compound_het",
+      "log10_joint_rarity": 8.22,
+      "reason": "not an MVA gene in the landscape",
+      "verdict": "insufficient evidence"
+    },
+    "MAD1L1": {
+      "c1": "curated",
+      "c2": "unpaired",
+      "c3": "structural_unpaired",
+      "c4": {
+        "has_hpo": true,
+        "phenotype_rank": null,
+        "phenotype_score": null
+      },
+      "c5": "none",
+      "finding_types": [
+        "secondary"
+      ],
+      "genotype_type": null,
+      "log10_joint_rarity": null,
+      "reason": "MVA gene without a qualifying coding genotype (single or unpaired call, or not recessive-consistent)",
+      "verdict": "contextual"
+    },
+    "ZNF418": {
+      "c1": "none",
+      "c2": "biallelic_inheritance_not_recessive",
+      "c3": "non_high_impact",
+      "c4": {
+        "has_hpo": false,
+        "phenotype_rank": null,
+        "phenotype_score": 0.0
+      },
+      "c5": "none",
+      "finding_types": [],
+      "genotype_type": "homozygous",
+      "log10_joint_rarity": 6.32,
+      "reason": "not an MVA gene in the landscape",
+      "verdict": "insufficient evidence"
+    }
+  },
+  "rules": "protocol/addendum_differential.md"
+}

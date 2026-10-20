@@ -1,0 +1,87 @@
+{
+ "evidence_from_submission": {
+  "clinvar": [],
+  "finding_types": [
+   "secondary"
+  ],
+  "rows": [
+   5
+  ]
+ },
+ "gene": "CENPE",
+ "id": "sub_CENPE",
+ "module_rule": "reactome_pathways_of_the_gene",
+ "pathways": [
+  {
+   "id": "R-HSA-141444",
+   "n_participants": 94,
+   "name": "Amplification  of signal from unattached  kinetochores via a MAD2  inhibitory signal"
+  },
+  {
+   "id": "R-HSA-2132295",
+   "n_participants": 128,
+   "name": "MHC class II antigen presentation"
+  },
+  {
+   "id": "R-HSA-2467813",
+   "n_participants": 178,
+   "name": "Separation of Sister Chromatids"
+  },
+  {
+   "id": "R-HSA-2500257",
+   "n_participants": 127,
+   "name": "Resolution of Sister Chromatid Cohesion"
+  },
+  {
+   "id": "R-HSA-5663220",
+   "n_participants": 140,
+   "name": "RHO GTPases Activate Formins"
+  },
+  {
+   "id": "R-HSA-6811434",
+   "n_participants": 103,
+   "name": "COPI-dependent Golgi-to-ER retrograde traffic"
+  },
+  {
+   "id": "R-HSA-68877",
+   "n_participants": 204,
+   "name": "Mitotic Prometaphase"
+  },
+  {
+   "id": "R-HSA-9648025",
+   "n_participants": 117,
+   "name": "EML4 and NUDC in mitotic spindle formation"
+  },
+  {
+   "id": "R-HSA-983189",
+   "n_participants": 64,
+   "name": "Kinesins"
+  },
+  {
+   "id": "R-HSA-9979719",
+   "n_participants": 97,
+   "name": "Processing of antigen in germinal center B cells"
+  }
+ ],
+ "seeds": {
+  "genes": [
+   "CENPE"
+  ],
+  "reactome_pathways": [
+   "R-HSA-141444",
+   "R-HSA-2132295",
+   "R-HSA-2467813",
+   "R-HSA-2500257",
+   "R-HSA-5663220",
+   "R-HSA-6811434",
+   "R-HSA-68877",
+   "R-HSA-9648025",
+   "R-HSA-983189",
+   "R-HSA-9979719"
+  ]
+ },
+ "status": "mechanism_candidate",
+ "uniprot": "Q02224",
+ "weight": 0.1377,
+ "weight_note": "Best epcr of the gene's rows in the Track 1 submission (the submission's own ranking value)."
+}

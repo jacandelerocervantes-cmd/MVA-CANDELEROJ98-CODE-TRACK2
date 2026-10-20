@@ -1,0 +1,145 @@
+{
+ "candidate_file_sha256": "2fa236cd4e6c90caa665a6fe7af339f1298ee156a6c4e97037bff8ade12699f2",
+ "fractions": [
+  0.03,
+  0.01
+ ],
+ "full_protocol_sha256": "1e80678f4f7f54d821496e5db2f0e9897ad308e448ec3820a572fa4ad446e35b",
+ "guideline_sha256": {
+  "direction": "f56abc1ff93ec8e2a06d8eabb062c318e51bba53cd1c0e738a6a6092fea2e45d",
+  "relevance_v2": "5f55313ea0046b795f32e5fd28baa7330b249c8c9b16c8ce3e51d452808be5d9"
+ },
+ "guideline_tokens_per_shard_pass": 3231,
+ "guidelines": {
+  "direction": "protocol/annotation_guideline.md",
+  "relevance": "protocol/relevance_guideline_v2.md"
+ },
+ "item_fields": [
+  "id",
+  "drug",
+  "disease",
+  "sentence",
+  "pmid"
+ ],
+ "items_per_heldout_pair": 0.9488888888888889,
+ "items_per_pair_with_items": 3.858433734939759,
+ "label": "post hoc development (engine v5 ULTRALIGHT), extends the pre-registered v4 programme; not a pre-registered primary result",
+ "n_heldout_diseases": 42,
+ "n_heldout_items_v5": 7027,
+ "n_heldout_pairs": 1350,
+ "n_items_selected": 1281,
+ "n_opus_items": 400,
+ "n_opus_shards": 4,
+ "n_pairs_with_selected_items": 332,
+ "n_replicates": 5,
+ "n_sonnet_shards": 13,
+ "opus_seed": 20261022,
+ "opus_shard_numbers": [
+  5,
+  6,
+  10,
+  11
+ ],
+ "opus_shards": [
+  {
+   "file": "ul_opus_005.json",
+   "n_items": 100,
+   "sha256": "0588db7df3fc6d06dc8e5557e0e7010df5caf5c84544e7ecfc2ad83813c3c6db"
+  },
+  {
+   "file": "ul_opus_006.json",
+   "n_items": 100,
+   "sha256": "42670f7cfa63bd8b66f38b82a9bfab121be374e92e5e687396f49d2dc3cec7d2"
+  },
+  {
+   "file": "ul_opus_010.json",
+   "n_items": 100,
+   "sha256": "6435a24b620e7991a7c8bddf1ecdad526bb4d12c746282bfbe68a1857cf6ee1d"
+  },
+  {
+   "file": "ul_opus_011.json",
+   "n_items": 100,
+   "sha256": "be1582fb1bfc1086f6220cd157cede699c3732041384f7b83a53405246676706"
+  }
+ ],
+ "opus_share": 0.3,
+ "protocol": "protocol\\addendum_engine_v5_ultralight.md",
+ "protocol_sha256": "7bd042ea4e8255117a9de15503b37c54cc4b698e6efb2cdb10e896adb06a777b",
+ "retrieval_file_sha256": "f34c94a36f102396352e72a01c909c0a55e1f5b9bb66accf83b1498ac80f8cc1",
+ "seed": 20261015,
+ "shard_size": 100,
+ "share_of_heldout_items": 0.1822968549879038,
+ "sonnet_shards": [
+  {
+   "file": "ul_sonnet_001.json",
+   "n_items": 100,
+   "sha256": "943fe9c3e0529b7eea59f0988051e23eb4b15b7466795ba4437d3c3e7e5456ab"
+  },
+  {
+   "file": "ul_sonnet_002.json",
+   "n_items": 100,
+   "sha256": "9a932cd883909428e769bc52a1dcc0d76da1d3b4ae710582d0e2b220ac983cb8"
+  },
+  {
+   "file": "ul_sonnet_003.json",
+   "n_items": 100,
+   "sha256": "2304107521f103515953413a82f8c0b62807eb7ab686f6281c515f620a50ec0d"
+  },
+  {
+   "file": "ul_sonnet_004.json",
+   "n_items": 100,
+   "sha256": "b440bfa9491363fd26aa08aa465a266722631685746e89f24636ce9db3f3fe02"
+  },
+  {
+   "file": "ul_sonnet_005.json",
+   "n_items": 100,
+   "sha256": "0588db7df3fc6d06dc8e5557e0e7010df5caf5c84544e7ecfc2ad83813c3c6db"
+  },
+  {
+   "file": "ul_sonnet_006.json",
+   "n_items": 100,
+   "sha256": "42670f7cfa63bd8b66f38b82a9bfab121be374e92e5e687396f49d2dc3cec7d2"
+  },
+  {
+   "file": "ul_sonnet_007.json",
+   "n_items": 100,
+   "sha256": "1f4bb5a079bc9c2c749e2bdcb916467ad3146c375e3de8663663852e1ead3ce4"
+  },
+  {
+   "file": "ul_sonnet_008.json",
+   "n_items": 100,
+   "sha256": "e84161207218c2b1f083ea6356a4c4b02389e5b914eca558cc469aeee494613b"
+  },
+  {
+   "file": "ul_sonnet_009.json",
+   "n_items": 100,
+   "sha256": "d3ef0488ff79651a9ecc7ffd8a2df234e64fc2a0260867ab16b5a5030406f8c3"
+  },
+  {
+   "file": "ul_sonnet_010.json",
+   "n_items": 100,
+   "sha256": "6435a24b620e7991a7c8bddf1ecdad526bb4d12c746282bfbe68a1857cf6ee1d"
+  },
+  {
+   "file": "ul_sonnet_011.json",
+   "n_items": 100,
+   "sha256": "be1582fb1bfc1086f6220cd157cede699c3732041384f7b83a53405246676706"
+  },
+  {
+   "file": "ul_sonnet_012.json",
+   "n_items": 100,
+   "sha256": "8c0128ec32a5d176b420e5dc2b1b3a413f12e5c3d3a443bda592ad7fbf522234"
+  },
+  {
+   "file": "ul_sonnet_013.json",
+   "n_items": 81,
+   "sha256": "31a17aac9230a8c2f4b2a8c2e85850699dae7d177ebf389b9548825c806b1e43"
+  }
+ ],
+ "token_estimate_both": 260555,
+ "token_estimate_both_if_opus_on_all": 397110,
+ "token_estimate_opus": 62000,
+ "token_estimate_sonnet": 198555,
+ "tokens_per_heldout_pair_both": 193.0037037037037,
+ "tokens_per_item": 155
+}

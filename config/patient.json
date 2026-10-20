@@ -1,0 +1,21 @@
+{
+  "description": "Available clinical data of the proband. Source: the challenge's clinical document (confidential; not copied here). A null value means NOT AVAILABLE: requirements that depend on it remain NOT_ASSESSABLE.",
+  "hpo_terms": [
+    {"id": "HP:0002859", "label": "Rhabdomyosarcoma", "group": "cancer_predisposition"},
+    {"id": "HP:0000121", "label": "Nephrocalcinosis", "group": "renal"},
+    {"id": "HP:0004322", "label": "Short stature", "group": "growth_restriction"},
+    {"id": "HP:0001508", "label": "Failure to thrive", "group": "growth_restriction"},
+    {"id": "HP:0003202", "label": "Skeletal muscle atrophy", "group": "growth_restriction"},
+    {"id": "HP:0001622", "label": "Premature birth", "group": "adverse_perinatal"},
+    {"id": "HP:0001518", "label": "Small for gestational age", "group": "growth_restriction"},
+    {"id": "HP:0200067", "label": "Recurrent spontaneous abortion (parental history)", "group": "parental_reproductive_loss"}
+  ],
+  "documented_findings": {"tumour_history": true, "nephrocalcinosis": true},
+  "measurements": {
+    "age_band": null, "age_years": null, "weight_kg": null, "tumour_status": null, "renal_function": null, "hepatic_function": null,
+    "blood_counts": null, "karyotype_aneuploidy_percent": null, "neurological_findings": null,
+    "prior_treatments": null, "current_medications": null, "can_swallow": null,
+    "allergies": null, "known_drug_reactions": null
+  },
+  "genome_derived": {"sex": null, "aneuploidy_signal": null, "pharmacogenes": null}
+}

@@ -1,0 +1,574 @@
+{
+ "items": [
+  {
+   "disease": "erythropoietic protoporphyria",
+   "drug": "aminolevulinic acid",
+   "id": "ho5-06505",
+   "pmid": "31085196",
+   "sentence": "Acute hepatic porphyrias (acute intermittent porphyria, variegate porphyria, hereditary coproporphyria, and aminolevulinic acid dehydratase deficient porphyria) manifest in attacks and are characterized by overproduction of porphyrin precursors, producing often serious abdominal, psychiatric, neurologic, or cardiovascular symptoms."
+  },
+  {
+   "disease": "neurofibromatosis",
+   "drug": "vincristine",
+   "id": "ho5-06513",
+   "pmid": "40075564",
+   "sentence": "Sporadic OPHGs received a higher number of various SATs compared to NF1-associated OPHGs, but the sporadic appearance of OPHGs was not an independent risk factor for progression after combined vincristine and carboplatin, as 'age below one year at the start' was the only factor."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "eribulin",
+   "id": "ho5-06515",
+   "pmid": "42752435",
+   "sentence": "We analyzed eribulin-related AE reports in FAERS (Q1 2011 - Q2 2024)."
+  },
+  {
+   "disease": "classic Hodgkin lymphoma",
+   "drug": "brentuximab vedotin",
+   "id": "ho5-06523",
+   "pmid": "42343091",
+   "sentence": "Efficacy of post-transplant brentuximab vedotin maintenance by pre-transplant disease status in relapsed/refractory classic Hodgkin lymphoma."
+  },
+  {
+   "disease": "epidermodysplasia verruciformis",
+   "drug": "imiquimod",
+   "id": "ho5-06524",
+   "pmid": "42445189",
+   "sentence": "Treatment with topical 5% imiquimod and cryotherapy led to partial regression at 12 weeks, with no new lesions or adverse effects."
+  },
+  {
+   "disease": "erythropoietic protoporphyria",
+   "drug": "aminolevulinic acid",
+   "id": "ho5-06528",
+   "pmid": "38254627",
+   "sentence": "Further, cimetidine did not effectively decrease hepatic ALAS activity or expression or plasma concentrations of the putative neurotoxic porphyrin precursors 5-aminolevulinic acid (ALA) and porphobilinogen (PBG), which were all markedly elevated during an induced acute attack in an AIP mouse model."
+  },
+  {
+   "disease": "Sjogren syndrome",
+   "drug": "cyclosporine",
+   "id": "ho5-06533",
+   "pmid": "29517701",
+   "sentence": "Interventions All patients (3 women, aged 46, 59, and 84 years) had several years of dry-eye disease history and recurrent keratitis despite having used maximal dose topical therapies including artificial tear substitutes, topical vitamin A, and cyclosporine 0.05% emulsion."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "etoposide",
+   "id": "ho5-06537",
+   "pmid": "42760454",
+   "sentence": "In this study, we aimed to evaluate the antiproliferative effects of curcumin and cisplatin combinations on breast cancer cells by analyzing AgNOR staining using machine learning methods."
+  },
+  {
+   "disease": "malignant hyperthermia of anesthesia",
+   "drug": "verapamil",
+   "id": "ho5-06538",
+   "pmid": "1267120",
+   "sentence": "[A further case of malignant hyperpyrexia and its treatment with lidocaine, methylprednisolone and verapamil (iproveratril) (author's transl)]."
+  },
+  {
+   "disease": "CINCA syndrome",
+   "drug": "canakinumab",
+   "id": "ho5-06539",
+   "pmid": "34784874",
+   "sentence": "From the moment of diagnosis to the present day, the patient is treated with the genetically engineered drug canakinumab (Ilaris®) at a dose of 150 mg once every 8 weeks."
+  },
+  {
+   "disease": "tyrosinemia",
+   "drug": "vitamin k",
+   "id": "ho5-06550",
+   "pmid": "31978013",
+   "sentence": "Methods We retrospectively reviewed our database of 524 infants presenting with liver impairment from 2008 to 2018, and identified cases of EILF defined as presence of biochemical pattern of liver disease and INR ≥2 (unresponsive to vitamin K) with onset before 3 months of life."
+  },
+  {
+   "disease": "classic Hodgkin lymphoma",
+   "drug": "brentuximab vedotin",
+   "id": "ho5-06556",
+   "pmid": "41512237",
+   "sentence": "We present a subset analysis on the adolescent cohort of the S1826 randomized phase three trial, comparing nivolumab, doxorubicin, vinblastine, dacarbazine (N-AVD) to brentuximab vedotin-AVD (BV-AVD) in newly diagnosed advanced-stage (AS, stages III and IV) classic Hodgkin lymphoma (cHL)."
+  },
+  {
+   "disease": "Sjogren syndrome",
+   "drug": "heparin",
+   "id": "ho5-06559",
+   "pmid": "33146470",
+   "sentence": "Patients enrolled in special antenatal care program were administered low-dose low-molecular-weight heparin, low-dose salicylic acid and low-dose corticosteroid (prophylaxis protocol) as soon as their pregnancies were confirmed."
+  },
+  {
+   "disease": "neurofibromatosis",
+   "drug": "methylphenidate",
+   "id": "ho5-06580",
+   "pmid": "10913726",
+   "sentence": "Risk factors for shortness of stature in children with neurofibromatosis type 1 (NF-1) include suprasellar lesions, which can lead to growth hormone deficiency (GHD), skeletal deformities, nutritional insufficiency, and methylphenidate use."
+  },
+  {
+   "disease": "nephrogenic syndrome of inappropriate antidiuresis",
+   "drug": "vasopressin",
+   "id": "ho5-06590",
+   "pmid": "36233678",
+   "sentence": "The former is characterized by uncontrolled hypersecretion of arginine vasopressin (AVP), and the latter is produced by intrarenal activation for water reabsorption and characterized by suppressed plasma AVP levels."
+  },
+  {
+   "disease": "tuberous sclerosis",
+   "drug": "testosterone propionate",
+   "id": "ho5-06595",
+   "pmid": "42375473",
+   "sentence": "Cortisol and corticosterone levels increased consistently across all CBD-administered participants, and testosterone levels rose significantly in male subjects."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "dexrazoxane",
+   "id": "ho5-06597",
+   "pmid": "PPR:PPR1052875",
+   "sentence": "Dexrazoxane is one of the main agents used to prevent the cardiotoxic effect of anthracyclines."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "etoposide",
+   "id": "ho5-06603",
+   "pmid": "41567956",
+   "sentence": "Complete Pathological Response to Neoadjuvant Cisplatin, Etoposide, and Pembrolizumab in Small Cell Breast Carcinoma: A Case Report and Review of the Literature."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "paclitaxel",
+   "id": "ho5-06607",
+   "pmid": "42516564",
+   "sentence": "Targeting CDK8 dually enhances paclitaxel antitumor efficacy and alleviates chemotherapy-induced peripheral neuropathy in breast cancer."
+  },
+  {
+   "disease": "hypopituitarism",
+   "drug": "calcium",
+   "id": "ho5-06613",
+   "pmid": "37386483",
+   "sentence": "Management included nasogastric nutritional rehabilitation, cholecalciferol and calcium supplementation and physiotherapy."
+  },
+  {
+   "disease": "classic Hodgkin lymphoma",
+   "drug": "hydrocortisone",
+   "id": "ho5-06615",
+   "pmid": "42578872",
+   "sentence": "The reaction was manifested by hypoxia, shivering, itching, and laryngeal edema.Management & OutcomePatient required immediate interruption of dacarbazine infusion and received 10 mg of intravenous chlorphenamine and 200 mg of intravenous hydrocortisone initially with no improvement."
+  },
+  {
+   "disease": "tuberous sclerosis",
+   "drug": "vigabatrin",
+   "id": "ho5-06621",
+   "pmid": "39641935",
+   "sentence": "We evaluated the association between vigabatrin and predefined brain magnetic resonance imaging (MRI) changes in a large homogenous tuberous sclerosis complex (TSC) cohort and assessed to what extent VABAM-related symptoms were reported in TSC infants."
+  },
+  {
+   "disease": "acquired polycythemia vera",
+   "drug": "imatinib",
+   "id": "ho5-06647",
+   "pmid": "24681942",
+   "sentence": "[Polycythemia vera developed after a major molecular response to imatinib mesylate treatment in a patient with chronic myelogenous leukemia]."
+  },
+  {
+   "disease": "exudative vitreoretinopathy",
+   "drug": "ranibizumab",
+   "id": "ho5-06648",
+   "pmid": "32530348",
+   "sentence": "The baby was treated with bilateral intravitreal ranibizumab injections for retinopathy of prematurity (ROP) with the presence of plus disease."
+  },
+  {
+   "disease": "Stargardt disease",
+   "drug": "fluorescein",
+   "id": "ho5-06651",
+   "pmid": "34008801",
+   "sentence": "Fluorescein angiography and fundus autofluorescence findings were consistent with pattern dystrophy."
+  },
+  {
+   "disease": "polycystic kidney disease",
+   "drug": "calcium",
+   "id": "ho5-06660",
+   "pmid": "40763312",
+   "sentence": "ER-localized PC2 hyperosmotic calcium signals were required for trafficking of the water channel aquaporin (AQP2)."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "niraparib",
+   "id": "ho5-06666",
+   "pmid": "41561735",
+   "sentence": "Literature on Anlotinib combined with hypofractionated radiotherapy (HFRT) for recurrent/metastatic HER2-positive BC is scarce, particularly for Trastuzumab-resistant cases."
+  },
+  {
+   "disease": "situs inversus",
+   "drug": "everolimus",
+   "id": "ho5-06686",
+   "pmid": "41605552",
+   "sentence": "Everolimus was initiated post discharge to manage residual AMLs and lymphangioleiomyomatosis."
+  },
+  {
+   "disease": "exudative vitreoretinopathy",
+   "drug": "bevacizumab",
+   "id": "ho5-06695",
+   "pmid": "39539839",
+   "sentence": "Improvement in Cystoid Macular Edema Secondary to Systemic Bevacizumab in a Patient With Coats Plus Syndrome."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "levonorgestrel",
+   "id": "ho5-06697",
+   "pmid": "40378875",
+   "sentence": "They can be given orally or vaginally, norethisterone acetate can also be given transdermally, and levonorgestrel can be given through the intrauterine route."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "alpelisib",
+   "id": "ho5-06724",
+   "pmid": "42194689",
+   "sentence": "Molecular Profiling and Targeted Therapeutic Strategies in Breast Cancer: Clinical Integration of HER2, CDK4/6, and PI3K Inhibition with Trastuzumab, Abemaciclib and Alpelisib."
+  },
+  {
+   "disease": "nephrogenic syndrome of inappropriate antidiuresis",
+   "drug": "tolvaptan",
+   "id": "ho5-06728",
+   "pmid": "36233678",
+   "sentence": "The resultant AQP2 upregulation was blocked by a V2R antagonist tolvaptan or protein kinase A (PKA) inhibitors, suggestive of the activation of V2R-cAMP-PKA signaling."
+  },
+  {
+   "disease": "tuberous sclerosis",
+   "drug": "etoposide",
+   "id": "ho5-06730",
+   "pmid": "26935540",
+   "sentence": "In this study, we examined whether NQO1 deficiency affects the autophagy process in response to cisplatin-induced nephrotoxicity."
+  },
+  {
+   "disease": "phenylketonuria",
+   "drug": "sapropterin",
+   "id": "ho5-06736",
+   "pmid": "42561615",
+   "sentence": "Sapropterin dihydrochloride, the synthetic form of tetrahydrobiopterin (BH4), is an established pharmacological treatment for a subset of patients with phenylalanine hydroxylase (PAH) deficiency."
+  },
+  {
+   "disease": "nephrogenic syndrome of inappropriate antidiuresis",
+   "drug": "vasopressin",
+   "id": "ho5-06743",
+   "pmid": "31486901",
+   "sentence": "It is characterized by inability to excrete a free water load, hyponatremia, and undetectable vasopressin-circulating levels."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "neratinib",
+   "id": "ho5-06759",
+   "pmid": "40943316",
+   "sentence": "Therefore, we investigated whether adding calcitriol to the combined treatment with antiestrogens and neratinib could further inhibit the proliferation of HER2-positive breast cancer cells, regardless of their ER status."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "levonorgestrel",
+   "id": "ho5-06769",
+   "pmid": "40080821",
+   "sentence": "Objective To investigate the association between the duration of levonorgestrel-releasing intrauterine system (LNG-IUS) use and breast cancer risk in Korean women."
+  },
+  {
+   "disease": "classic Hodgkin lymphoma",
+   "drug": "cisplatin",
+   "id": "ho5-06781",
+   "pmid": "19406729",
+   "sentence": "Because of the inability to safely administer unattenuated doses of anthracycline-based regimens, dexamethasone, high-dose cytarabine, and cisplatin (DHAP) was used at full doses (along with rituximab for the DLBCL patient) until hepatic function normalized (1-5 cycles)."
+  },
+  {
+   "disease": "tyrosinemia",
+   "drug": "tyrosine",
+   "id": "ho5-06783",
+   "pmid": "20301688",
+   "sentence": "Management Targeted therapies: Nitisinone; low-phenylalanine, low-tyrosine diet; liver transplantation for children with severe liver failure at presentation and failure to respond to nitisinone therapy or malignant changes in hepatic tissue."
+  },
+  {
+   "disease": "familial male-limited precocious puberty",
+   "drug": "leuprolide",
+   "id": "ho5-06798",
+   "pmid": "PMC:PMC7208815",
+   "sentence": "Leuprolide and ACTH stimulation tests as well as MRI of the abdomen and pelvis were normal."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "estriol",
+   "id": "ho5-06802",
+   "pmid": "38580683",
+   "sentence": "In analyzes of 288 medications, we identified eight medications positively associated with either overall survival or disease-free survival: rabeprazole, alverine, atenolol, simvastatin, rosuvastatin, estriol (vaginal or transmucosal), nomegestrol, and hypromellose; and eight medications negatively associated with overall survival or disease-free survival: ferrous fumarate, prednisolone, carbimazole, pristinamycin, oxazepam, alprazolam, hydroxyzine, and mianserin."
+  },
+  {
+   "disease": "sitosterolemia",
+   "drug": "cholestyramine",
+   "id": "ho5-06809",
+   "pmid": "24657386",
+   "sentence": "Treatment with cholestyramine or Ezetimibe ± atorvastatin normalized cholesterol levels, although plasma PS concentrations remained elevated."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "denosumab",
+   "id": "ho5-06810",
+   "pmid": "41654156",
+   "sentence": "Atypical femoral fractures (AFFs) are potential complications arising from long-term use of bone modifying agents such as denosumab."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "cisplatin",
+   "id": "ho5-06811",
+   "pmid": "42727991",
+   "sentence": "Nuclear factor-kappa B (NF-κB), a proinflammatory transcription factor, plays a pivotal role in chemotherapeutic resistance and chemotherapy-induced organ injury."
+  },
+  {
+   "disease": "erythropoietic protoporphyria",
+   "drug": "griseofulvin",
+   "id": "ho5-06812",
+   "pmid": "12735108",
+   "sentence": "We modeled this hepatic pathology in C57BL/6J and BALB/c mice using griseofulvin and analyzed 3,127 genes for alteration of expression in the liver before and during the onset of protoporphyria, cholestasis, inflammation, and hepatic fibrosis."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "trastuzumab",
+   "id": "ho5-06813",
+   "pmid": "42734882",
+   "sentence": "Although trastuzumab has transformed HER2+ BC treatment, its efficacy against BrM remains limited by brain-specific resistance mechanisms and heterogeneous blood-brain barrier (BBB) permeability."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "etoposide",
+   "id": "ho5-06815",
+   "pmid": "42760454",
+   "sentence": "A Novel Approach to Evaluating the Synergistic Effect of Curcumin and Cisplatin on Breast Cancer Cells: AgNORs Staining Based on Machine Learning."
+  },
+  {
+   "disease": "hypopituitarism",
+   "drug": "estradiol",
+   "id": "ho5-06818",
+   "pmid": "33524006",
+   "sentence": "Compared to the noninitiation/recovery group, the initiation/recovery group included more males and had shorter delayed diagnosis times, smaller tumor sizes, lower panhypopituitarism rates, thinner pituitary stalk widths, lower visual deficit rates, and higher serum testosterone and estradiol levels."
+  },
+  {
+   "disease": "isolated growth hormone deficiency",
+   "drug": "thyrotropin",
+   "id": "ho5-06821",
+   "pmid": "3578170",
+   "sentence": "Growth hormone, thyrotropin, gonadotropins, cortisol, and prolactin levels were sampled over two hours."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "tilmanocept",
+   "id": "ho5-06833",
+   "pmid": "34962630",
+   "sentence": "Detection of melanoma, breast cancer and head and neck squamous cell cancer sentinel lymph nodes by Tc-99m Tilmanocept (Lymphoseek®)."
+  },
+  {
+   "disease": "neurofibromatosis",
+   "drug": "tyrosine",
+   "id": "ho5-06838",
+   "pmid": "37906356",
+   "sentence": "Some research suggests that alternative Mek inhibitors and other mixed tyrosine kinase inhibitors may have better efficacy in adults."
+  },
+  {
+   "disease": "neurofibromatosis",
+   "drug": "testosterone",
+   "id": "ho5-06840",
+   "pmid": "PMC:PMC7207575",
+   "sentence": "A hormonal workup was normal including 41 ng/dL 17-hydroxyprogesterone (n ≤137 ng/dL), 20 ng/dL androstenedione (n ≤ 45 ng/dl), 42 ng/dL unconjugated DHEA (n ≤ 487 ng/dL), 11 mcg/dL DHEA Sulfate (n ≤ 34 mcg/dL), 3 ng/dL total testosterone (n ≤ 21 ng/dL) and pre-pubertal LH, FSH and estradiol levels."
+  },
+  {
+   "disease": "polycystic kidney disease",
+   "drug": "trimethoprim",
+   "id": "ho5-06846",
+   "pmid": "3123761",
+   "sentence": "To study the efficacy of trimethoprim-sulfamethoxazole in cyst infection, cyst fluid was obtained by percutaneous aspiration or at surgery from eight patients with ADPKD receiving trimethoprim-sulfamethoxazole."
+  },
+  {
+   "disease": "sitosterolemia",
+   "drug": "cholestyramine",
+   "id": "ho5-06850",
+   "pmid": "20521169",
+   "sentence": "Three of these five patients received cholestyramine therapy with a very good response."
+  },
+  {
+   "disease": "neurofibromatosis",
+   "drug": "trametinib",
+   "id": "ho5-06854",
+   "pmid": "39225256",
+   "sentence": "This case demonstrates the potential application of topical trametinib for NF1-associated superficial cutaneous plexiform neurofibroma without the toxicities associated with systemic treatment."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "copper",
+   "id": "ho5-06859",
+   "pmid": "42741866",
+   "sentence": "Tumor microenvironment-responsive micelles for mitochondrial copper depletion to enhance photodynamic therapy."
+  },
+  {
+   "disease": "phenylketonuria",
+   "drug": "sapropterin",
+   "id": "ho5-06861",
+   "pmid": "42561615",
+   "sentence": "Recent European guidance distinguishes potential sapropterin responsiveness from long-term responsiveness, defining the latter by increased natural protein intake and/or improved biochemical control within the recommended therapeutic target range."
+  },
+  {
+   "disease": "nephrogenic syndrome of inappropriate antidiuresis",
+   "drug": "vasopressin",
+   "id": "ho5-06864",
+   "pmid": "32499611",
+   "sentence": "Vasopressin receptor 2 (V2R) mutations causing the nephrogenic syndrome of inappropriate antidiuresis (NSIAD) can generate two constitutively active receptor phenotypes."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "niraparib",
+   "id": "ho5-06870",
+   "pmid": "41930344",
+   "sentence": "This phase II trial evaluated the efficacy and safety of combining niraparib with the PD-1 inhibitor HX008 in patients with metastatic breast cancer who had germline DNA damage response (DDR) mutations."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "niraparib",
+   "id": "ho5-06880",
+   "pmid": "42342669",
+   "sentence": "Anlotinib-containing regimens in HR+ advanced breast cancer after prior CDK4/6 inhibitor progression."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "tilmanocept",
+   "id": "ho5-06883",
+   "pmid": "31064028",
+   "sentence": "Tilmanocept, or mannosyl diethylene-triamine-pentaacetate (DTPA) dextran, has a small molecular size of approximately 7 nm and works via specific binding to the mannose receptor (CD206) 2."
+  },
+  {
+   "disease": "tuberous sclerosis",
+   "drug": "everolimus",
+   "id": "ho5-06889",
+   "pmid": "41605552",
+   "sentence": "Everolimus was initiated post discharge to manage residual AMLs and lymphangioleiomyomatosis."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "tilmanocept",
+   "id": "ho5-06894",
+   "pmid": "29498443",
+   "sentence": "Outcomes of \"one-day\" vs \"two-day\" injection protocols using Tc-99m tilmanocept for sentinel lymph node biopsy in breast cancer."
+  },
+  {
+   "disease": "polycystic kidney disease",
+   "drug": "vasopressin",
+   "id": "ho5-06896",
+   "pmid": "42298327",
+   "sentence": "GLUT9b- and ABCG2-mediated collecting duct urate transport uncovers a vasopressin-independent mechanism of renal water reabsorption."
+  },
+  {
+   "disease": "autosomal dominant familial periodic fever",
+   "drug": "canakinumab",
+   "id": "ho5-06901",
+   "pmid": "41020641",
+   "sentence": "This study aimed to characterize the clinical and genetic features of patients with TRAPS diagnosed and treated in Slovakia, as well as to evaluate their therapeutic response to canakinumab."
+  },
+  {
+   "disease": "cystinosis",
+   "drug": "calcium",
+   "id": "ho5-06903",
+   "pmid": "31177550",
+   "sentence": "Assessment of CMBD involves monitoring growth, leg deformities, blood levels of phosphate, electrolytes, bicarbonate, calcium, and alkaline phosphatase, periodically obtaining bone radiographs, determining levels of critical hormones and vitamins, such as thyroid hormone, parathyroid hormone, 25(OH) vitamin D, and testosterone in males, and surveillance for nonrenal complications of cystinosis such as myopathy."
+  },
+  {
+   "disease": "malignant hyperthermia of anesthesia",
+   "drug": "dantrolene",
+   "id": "ho5-06916",
+   "pmid": "42838934",
+   "sentence": "The precise binding sites and mechanisms of the therapeutic dantrolene and MH triggers have remained unclear."
+  },
+  {
+   "disease": "Fabry disease",
+   "drug": "migalastat",
+   "id": "ho5-06939",
+   "pmid": "41852515",
+   "sentence": "Key considerations for measuring α-galactosidase A activity after long-term migalastat therapy-Avoiding in vitro inhibition effects."
+  },
+  {
+   "disease": "autosomal dominant familial periodic fever",
+   "drug": "etanercept",
+   "id": "ho5-06950",
+   "pmid": "38034538",
+   "sentence": "Initial treatment before canakinumab consisted of non-biologic therapies: non-steroidal anti-inflammatory drugs (NSAID) (91%), corticosteroids (88%), methotrexate (38%), intravenous immunoglobulin (IVIG) (34%), cyclosporine A (25%), colchicine (6%) cyclophosphamide (6%), sulfasalazine (3%), mycophenolate mofetil (3%), hydroxychloroquine (3%), and biologic drugs: tocilizumab (62%), sarilumab, etanercept, adalimumab, rituximab, and infliximab (all 3%)."
+  },
+  {
+   "disease": "situs inversus",
+   "drug": "testosterone",
+   "id": "ho5-06954",
+   "pmid": "3820392",
+   "sentence": "Serum levels of testosterone and pituitary gonadotropins were normal."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "etoposide",
+   "id": "ho5-06956",
+   "pmid": "42794668",
+   "sentence": "This study examined camel milk whey protein (CMP), a bioactive fraction rich in lactoferrin and antioxidant peptides, as a redox-modulating chemosensitizer to boost cisplatin efficacy in MCF-7 cells while simultaneously assessing treatment selectivity in non-tumorigenic MCF-12A mammary epithelial cells."
+  },
+  {
+   "disease": "acquired polycythemia vera",
+   "drug": "hydroxyurea",
+   "id": "ho5-06958",
+   "pmid": "42459356",
+   "sentence": "Hydroxyurea, an antineoplastic agent, is widely used to treat essential thrombocythemia and polycythemia vera."
+  },
+  {
+   "disease": "mevalonic aciduria",
+   "drug": "etanercept",
+   "id": "ho5-06959",
+   "pmid": "20020131",
+   "sentence": "Recently, some patients have demonstrated a good clinical response to either etanercept or anakinra."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "eribulin",
+   "id": "ho5-06974",
+   "pmid": "42016308",
+   "sentence": "Crucially, eribulin-identified through virtual screening of FDA-approved compounds-selectively inhibited NUP62, destabilizing NRF2 and abrogating its nuclear localization."
+  },
+  {
+   "disease": "hypopituitarism",
+   "drug": "estradiol valerate",
+   "id": "ho5-06975",
+   "pmid": "40200626",
+   "sentence": "Hormone levels of serum follicle-stimulating hormone (FSH), luteinizing hormone (LH), 8 am cortisol, thyroid-stimulating hormone (TSH), and estradiol were low while erythrocyte sedimentation rate (ESR), C-reactive protein (CRP), and angiotensin-converting enzyme (ACE) levels were raised."
+  },
+  {
+   "disease": "polycystic kidney disease",
+   "drug": "caffeine",
+   "id": "ho5-06979",
+   "pmid": "20301424",
+   "sentence": "Agents/circumstances to avoid: Long-term administration of nephrotoxic agents, high levels of caffeine, high-salt diet, smoking, and obesity, and in individuals with severe PLD, use of estrogens and possibly progestogens."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "elacestrant",
+   "id": "ho5-06980",
+   "pmid": "42499691",
+   "sentence": "Among these, 20 (43.5%) patients received elacestrant based on the molecular findings."
+  },
+  {
+   "disease": "phenylketonuria",
+   "drug": "sapropterin",
+   "id": "ho5-06983",
+   "pmid": "42616575",
+   "sentence": "Dietary management, sapropterin dihydrochloride, and pegvaliase are the current therapies; however, their limited efficacy and adverse effects highlight the pressing need for pharmacological treatments that restore PAH activity."
+  },
+  {
+   "disease": "nephrogenic syndrome of inappropriate antidiuresis",
+   "drug": "vasopressin",
+   "id": "ho5-06988",
+   "pmid": "32486031",
+   "sentence": "NSIAD is a rare X-linked condition, caused by activating mutations in the AVPR2 gene coding for the vasopressin V2 receptor (V2R) associated with hyponatremia, despite undetectable plasma vasopressin levels."
+  },
+  {
+   "disease": "Sjogren syndrome",
+   "drug": "cyclosporine",
+   "id": "ho5-07004",
+   "pmid": "37506503",
+   "sentence": "Ciclosporin A (CsA) and other medicines contributed to a 76.6% response."
+  },
+  {
+   "disease": "Marfan syndrome",
+   "drug": "chlordiazepoxide",
+   "id": "ho5-07009",
+   "pmid": "38187261",
+   "sentence": "AH metabolomics analysis identified eight differentially expressed metabolites, including 3-hydroxyphenylacetic acid, 4-pyridoxic acid, aminoadipic acid, azelaic acid, chlordiazepoxide, niacinamide, ribose, 1,5-bisphosphate and se-methylselenocysteine, associated with relevant metabolic pathways likely involved in the pathogenesis of ocular symptoms in MFS."
+  }
+ ],
+ "n_items": 81,
+ "shard": 13,
+ "split": "heldout"
+}

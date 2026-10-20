@@ -1,0 +1,6576 @@
+{
+ "Q1_funnel": {
+  "definitions": {
+   "gold_positive": "candidate pair with g1 (gold 1) true in the DEV candidate file",
+   "other": "all other DEV candidate pairs"
+  },
+  "fractions": {
+   "0.01": {
+    "gold_positive": {
+     "loss": {
+      "largest_absolute_loss": {
+       "from": "S0_candidate_pairs",
+       "lost_pairs": 453.2,
+       "retention": 0.025376344086021508,
+       "to": "S1a_drug_named_in_a_kept_paper"
+      },
+      "lowest_retention": {
+       "from": "S0_candidate_pairs",
+       "lost_pairs": 453.2,
+       "retention": 0.025376344086021508,
+       "to": "S1a_drug_named_in_a_kept_paper"
+      },
+      "transitions": [
+       {
+        "from": "S0_candidate_pairs",
+        "lost_pairs": 453.2,
+        "retention": 0.025376344086021508,
+        "to": "S1a_drug_named_in_a_kept_paper"
+       },
+       {
+        "from": "S1a_drug_named_in_a_kept_paper",
+        "lost_pairs": 1.200000000000001,
+        "retention": 0.8983050847457626,
+        "to": "S1b_and_paper_has_disease_gene"
+       },
+       {
+        "from": "S1b_and_paper_has_disease_gene",
+        "lost_pairs": 0.0,
+        "retention": 1.0,
+        "to": "S2_sentence_extracted"
+       },
+       {
+        "from": "S2_sentence_extracted",
+        "lost_pairs": 0.0,
+        "retention": 1.0,
+        "to": "S3_verified_sentence"
+       },
+       {
+        "from": "S3_verified_sentence",
+        "lost_pairs": 1.799999999999999,
+        "retention": 0.8301886792452832,
+        "to": "S4_relevance_yes_either"
+       },
+       {
+        "from": "S4_relevance_yes_either",
+        "lost_pairs": 5.000000000000001,
+        "retention": 0.43181818181818177,
+        "to": "S5_relevance_yes_both"
+       },
+       {
+        "from": "S5_relevance_yes_both",
+        "lost_pairs": 1.9999999999999998,
+        "retention": 0.4736842105263158,
+        "to": "S6_yes_both_and_benefit"
+       }
+      ]
+     },
+     "n_pairs": 465,
+     "stages": {
+      "S0_candidate_pairs": {
+       "max": 465,
+       "mean": 465.0,
+       "min": 465,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 1.0
+      },
+      "S1a_drug_named_in_a_kept_paper": {
+       "max": 16,
+       "mean": 11.8,
+       "min": 10,
+       "retention_vs_previous_stage": 0.025376344086021508,
+       "share_of_S0": 0.025376344086021508
+      },
+      "S1b_and_paper_has_disease_gene": {
+       "max": 12,
+       "mean": 10.6,
+       "min": 10,
+       "retention_vs_previous_stage": 0.8983050847457626,
+       "share_of_S0": 0.022795698924731184
+      },
+      "S2_sentence_extracted": {
+       "max": 12,
+       "mean": 10.6,
+       "min": 10,
+       "retention_vs_previous_stage": 1.0,
+       "share_of_S0": 0.022795698924731184
+      },
+      "S3_verified_sentence": {
+       "max": 12,
+       "mean": 10.6,
+       "min": 10,
+       "retention_vs_previous_stage": 1.0,
+       "share_of_S0": 0.022795698924731184
+      },
+      "S4_relevance_yes_either": {
+       "max": 9,
+       "mean": 8.8,
+       "min": 8,
+       "retention_vs_previous_stage": 0.8301886792452832,
+       "share_of_S0": 0.0189247311827957
+      },
+      "S5_relevance_yes_both": {
+       "max": 5,
+       "mean": 3.8,
+       "min": 2,
+       "retention_vs_previous_stage": 0.43181818181818177,
+       "share_of_S0": 0.008172043010752687
+      },
+      "S6_yes_both_and_benefit": {
+       "max": 3,
+       "mean": 1.8,
+       "min": 0,
+       "retention_vs_previous_stage": 0.4736842105263158,
+       "share_of_S0": 0.003870967741935484
+      },
+      "S6b_yes_either_and_benefit": {
+       "max": 5,
+       "mean": 3.6,
+       "min": 2,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.007741935483870968
+      },
+      "benefit_direction_only": {
+       "max": 5,
+       "mean": 3.6,
+       "min": 2,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.007741935483870968
+      },
+      "opus_yes": {
+       "max": 5,
+       "mean": 3.8,
+       "min": 2,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.008172043010752687
+      },
+      "opus_yes_benefit": {
+       "max": 3,
+       "mean": 1.8,
+       "min": 0,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.003870967741935484
+      },
+      "sonnet_yes": {
+       "max": 9,
+       "mean": 8.8,
+       "min": 8,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.0189247311827957
+      },
+      "sonnet_yes_benefit": {
+       "max": 5,
+       "mean": 3.6,
+       "min": 2,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.007741935483870968
+      }
+     }
+    },
+    "other": {
+     "loss": {
+      "largest_absolute_loss": {
+       "from": "S0_candidate_pairs",
+       "lost_pairs": 3857.4,
+       "retention": 0.03007291928589389,
+       "to": "S1a_drug_named_in_a_kept_paper"
+      },
+      "lowest_retention": {
+       "from": "S0_candidate_pairs",
+       "lost_pairs": 3857.4,
+       "retention": 0.03007291928589389,
+       "to": "S1a_drug_named_in_a_kept_paper"
+      },
+      "transitions": [
+       {
+        "from": "S0_candidate_pairs",
+        "lost_pairs": 3857.4,
+        "retention": 0.03007291928589389,
+        "to": "S1a_drug_named_in_a_kept_paper"
+       },
+       {
+        "from": "S1a_drug_named_in_a_kept_paper",
+        "lost_pairs": 7.0,
+        "retention": 0.9414715719063546,
+        "to": "S1b_and_paper_has_disease_gene"
+       },
+       {
+        "from": "S1b_and_paper_has_disease_gene",
+        "lost_pairs": 0.0,
+        "retention": 1.0,
+        "to": "S2_sentence_extracted"
+       },
+       {
+        "from": "S2_sentence_extracted",
+        "lost_pairs": 0.7999999999999972,
+        "retention": 0.9928952042628775,
+        "to": "S3_verified_sentence"
+       },
+       {
+        "from": "S3_verified_sentence",
+        "lost_pairs": 87.6,
+        "retention": 0.21645796064400716,
+        "to": "S4_relevance_yes_either"
+       },
+       {
+        "from": "S4_relevance_yes_either",
+        "lost_pairs": 19.0,
+        "retention": 0.21487603305785125,
+        "to": "S5_relevance_yes_both"
+       },
+       {
+        "from": "S5_relevance_yes_both",
+        "lost_pairs": 3.2,
+        "retention": 0.3846153846153846,
+        "to": "S6_yes_both_and_benefit"
+       }
+      ]
+     },
+     "n_pairs": 3977,
+     "stages": {
+      "S0_candidate_pairs": {
+       "max": 3977,
+       "mean": 3977.0,
+       "min": 3977,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 1.0
+      },
+      "S1a_drug_named_in_a_kept_paper": {
+       "max": 145,
+       "mean": 119.6,
+       "min": 105,
+       "retention_vs_previous_stage": 0.03007291928589389,
+       "share_of_S0": 0.03007291928589389
+      },
+      "S1b_and_paper_has_disease_gene": {
+       "max": 139,
+       "mean": 112.6,
+       "min": 101,
+       "retention_vs_previous_stage": 0.9414715719063546,
+       "share_of_S0": 0.028312798591903443
+      },
+      "S2_sentence_extracted": {
+       "max": 139,
+       "mean": 112.6,
+       "min": 101,
+       "retention_vs_previous_stage": 1.0,
+       "share_of_S0": 0.028312798591903443
+      },
+      "S3_verified_sentence": {
+       "max": 139,
+       "mean": 111.8,
+       "min": 100,
+       "retention_vs_previous_stage": 0.9928952042628775,
+       "share_of_S0": 0.02811164194116168
+      },
+      "S4_relevance_yes_either": {
+       "max": 34,
+       "mean": 24.2,
+       "min": 11,
+       "retention_vs_previous_stage": 0.21645796064400716,
+       "share_of_S0": 0.0060849886849383954
+      },
+      "S5_relevance_yes_both": {
+       "max": 10,
+       "mean": 5.2,
+       "min": 2,
+       "retention_vs_previous_stage": 0.21487603305785125,
+       "share_of_S0": 0.0013075182298214736
+      },
+      "S6_yes_both_and_benefit": {
+       "max": 5,
+       "mean": 2.0,
+       "min": 0,
+       "retention_vs_previous_stage": 0.3846153846153846,
+       "share_of_S0": 0.0005028916268544129
+      },
+      "S6b_yes_either_and_benefit": {
+       "max": 11,
+       "mean": 8.4,
+       "min": 5,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.002112144832788534
+      },
+      "benefit_direction_only": {
+       "max": 22,
+       "mean": 18.8,
+       "min": 16,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.004727181292431481
+      },
+      "opus_yes": {
+       "max": 10,
+       "mean": 5.2,
+       "min": 2,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.0013075182298214736
+      },
+      "opus_yes_benefit": {
+       "max": 5,
+       "mean": 2.0,
+       "min": 0,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.0005028916268544129
+      },
+      "sonnet_yes": {
+       "max": 34,
+       "mean": 24.2,
+       "min": 11,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.0060849886849383954
+      },
+      "sonnet_yes_benefit": {
+       "max": 11,
+       "mean": 8.4,
+       "min": 5,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.002112144832788534
+      }
+     }
+    }
+   },
+   "0.03": {
+    "gold_positive": {
+     "loss": {
+      "largest_absolute_loss": {
+       "from": "S0_candidate_pairs",
+       "lost_pairs": 447.6,
+       "retention": 0.03741935483870967,
+       "to": "S1a_drug_named_in_a_kept_paper"
+      },
+      "lowest_retention": {
+       "from": "S0_candidate_pairs",
+       "lost_pairs": 447.6,
+       "retention": 0.03741935483870967,
+       "to": "S1a_drug_named_in_a_kept_paper"
+      },
+      "transitions": [
+       {
+        "from": "S0_candidate_pairs",
+        "lost_pairs": 447.6,
+        "retention": 0.03741935483870967,
+        "to": "S1a_drug_named_in_a_kept_paper"
+       },
+       {
+        "from": "S1a_drug_named_in_a_kept_paper",
+        "lost_pairs": 0.5999999999999979,
+        "retention": 0.9655172413793105,
+        "to": "S1b_and_paper_has_disease_gene"
+       },
+       {
+        "from": "S1b_and_paper_has_disease_gene",
+        "lost_pairs": 0.0,
+        "retention": 1.0,
+        "to": "S2_sentence_extracted"
+       },
+       {
+        "from": "S2_sentence_extracted",
+        "lost_pairs": 0.0,
+        "retention": 1.0,
+        "to": "S3_verified_sentence"
+       },
+       {
+        "from": "S3_verified_sentence",
+        "lost_pairs": 3.0,
+        "retention": 0.8214285714285714,
+        "to": "S4_relevance_yes_either"
+       },
+       {
+        "from": "S4_relevance_yes_either",
+        "lost_pairs": 5.4,
+        "retention": 0.6086956521739131,
+        "to": "S5_relevance_yes_both"
+       },
+       {
+        "from": "S5_relevance_yes_both",
+        "lost_pairs": 5.0,
+        "retention": 0.4047619047619047,
+        "to": "S6_yes_both_and_benefit"
+       }
+      ]
+     },
+     "n_pairs": 465,
+     "stages": {
+      "S0_candidate_pairs": {
+       "max": 465,
+       "mean": 465.0,
+       "min": 465,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 1.0
+      },
+      "S1a_drug_named_in_a_kept_paper": {
+       "max": 24,
+       "mean": 17.4,
+       "min": 10,
+       "retention_vs_previous_stage": 0.03741935483870967,
+       "share_of_S0": 0.03741935483870967
+      },
+      "S1b_and_paper_has_disease_gene": {
+       "max": 22,
+       "mean": 16.8,
+       "min": 10,
+       "retention_vs_previous_stage": 0.9655172413793105,
+       "share_of_S0": 0.03612903225806452
+      },
+      "S2_sentence_extracted": {
+       "max": 22,
+       "mean": 16.8,
+       "min": 10,
+       "retention_vs_previous_stage": 1.0,
+       "share_of_S0": 0.03612903225806452
+      },
+      "S3_verified_sentence": {
+       "max": 22,
+       "mean": 16.8,
+       "min": 10,
+       "retention_vs_previous_stage": 1.0,
+       "share_of_S0": 0.03612903225806452
+      },
+      "S4_relevance_yes_either": {
+       "max": 17,
+       "mean": 13.8,
+       "min": 6,
+       "retention_vs_previous_stage": 0.8214285714285714,
+       "share_of_S0": 0.02967741935483871
+      },
+      "S5_relevance_yes_both": {
+       "max": 12,
+       "mean": 8.4,
+       "min": 4,
+       "retention_vs_previous_stage": 0.6086956521739131,
+       "share_of_S0": 0.01806451612903226
+      },
+      "S6_yes_both_and_benefit": {
+       "max": 5,
+       "mean": 3.4,
+       "min": 1,
+       "retention_vs_previous_stage": 0.4047619047619047,
+       "share_of_S0": 0.007311827956989247
+      },
+      "S6b_yes_either_and_benefit": {
+       "max": 9,
+       "mean": 7.0,
+       "min": 2,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.015053763440860216
+      },
+      "benefit_direction_only": {
+       "max": 13,
+       "mean": 8.6,
+       "min": 4,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.018494623655913978
+      },
+      "opus_yes": {
+       "max": 12,
+       "mean": 8.4,
+       "min": 4,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.01806451612903226
+      },
+      "opus_yes_benefit": {
+       "max": 5,
+       "mean": 3.4,
+       "min": 1,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.007311827956989247
+      },
+      "sonnet_yes": {
+       "max": 17,
+       "mean": 13.8,
+       "min": 6,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.02967741935483871
+      },
+      "sonnet_yes_benefit": {
+       "max": 9,
+       "mean": 7.0,
+       "min": 2,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.015053763440860216
+      }
+     }
+    },
+    "other": {
+     "loss": {
+      "largest_absolute_loss": {
+       "from": "S0_candidate_pairs",
+       "lost_pairs": 3804.0,
+       "retention": 0.043500125722906714,
+       "to": "S1a_drug_named_in_a_kept_paper"
+      },
+      "lowest_retention": {
+       "from": "S0_candidate_pairs",
+       "lost_pairs": 3804.0,
+       "retention": 0.043500125722906714,
+       "to": "S1a_drug_named_in_a_kept_paper"
+      },
+      "transitions": [
+       {
+        "from": "S0_candidate_pairs",
+        "lost_pairs": 3804.0,
+        "retention": 0.043500125722906714,
+        "to": "S1a_drug_named_in_a_kept_paper"
+       },
+       {
+        "from": "S1a_drug_named_in_a_kept_paper",
+        "lost_pairs": 9.0,
+        "retention": 0.9479768786127167,
+        "to": "S1b_and_paper_has_disease_gene"
+       },
+       {
+        "from": "S1b_and_paper_has_disease_gene",
+        "lost_pairs": 0.0,
+        "retention": 1.0,
+        "to": "S2_sentence_extracted"
+       },
+       {
+        "from": "S2_sentence_extracted",
+        "lost_pairs": 1.8000000000000114,
+        "retention": 0.9890243902439023,
+        "to": "S3_verified_sentence"
+       },
+       {
+        "from": "S3_verified_sentence",
+        "lost_pairs": 125.79999999999998,
+        "retention": 0.22441430332922319,
+        "to": "S4_relevance_yes_either"
+       },
+       {
+        "from": "S4_relevance_yes_either",
+        "lost_pairs": 26.4,
+        "retention": 0.27472527472527475,
+        "to": "S5_relevance_yes_both"
+       },
+       {
+        "from": "S5_relevance_yes_both",
+        "lost_pairs": 5.8,
+        "retention": 0.42000000000000004,
+        "to": "S6_yes_both_and_benefit"
+       }
+      ]
+     },
+     "n_pairs": 3977,
+     "stages": {
+      "S0_candidate_pairs": {
+       "max": 3977,
+       "mean": 3977.0,
+       "min": 3977,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 1.0
+      },
+      "S1a_drug_named_in_a_kept_paper": {
+       "max": 192,
+       "mean": 173.0,
+       "min": 153,
+       "retention_vs_previous_stage": 0.043500125722906714,
+       "share_of_S0": 0.043500125722906714
+      },
+      "S1b_and_paper_has_disease_gene": {
+       "max": 187,
+       "mean": 164.0,
+       "min": 143,
+       "retention_vs_previous_stage": 0.9479768786127167,
+       "share_of_S0": 0.041237113402061855
+      },
+      "S2_sentence_extracted": {
+       "max": 187,
+       "mean": 164.0,
+       "min": 143,
+       "retention_vs_previous_stage": 1.0,
+       "share_of_S0": 0.041237113402061855
+      },
+      "S3_verified_sentence": {
+       "max": 185,
+       "mean": 162.2,
+       "min": 142,
+       "retention_vs_previous_stage": 0.9890243902439023,
+       "share_of_S0": 0.040784510937892884
+      },
+      "S4_relevance_yes_either": {
+       "max": 46,
+       "mean": 36.4,
+       "min": 30,
+       "retention_vs_previous_stage": 0.22441430332922319,
+       "share_of_S0": 0.009152627608750314
+      },
+      "S5_relevance_yes_both": {
+       "max": 14,
+       "mean": 10.0,
+       "min": 8,
+       "retention_vs_previous_stage": 0.27472527472527475,
+       "share_of_S0": 0.002514458134272064
+      },
+      "S6_yes_both_and_benefit": {
+       "max": 7,
+       "mean": 4.2,
+       "min": 2,
+       "retention_vs_previous_stage": 0.42000000000000004,
+       "share_of_S0": 0.001056072416394267
+      },
+      "S6b_yes_either_and_benefit": {
+       "max": 25,
+       "mean": 16.8,
+       "min": 11,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.004224289665577068
+      },
+      "benefit_direction_only": {
+       "max": 48,
+       "mean": 36.6,
+       "min": 28,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.009202916771435756
+      },
+      "opus_yes": {
+       "max": 14,
+       "mean": 10.2,
+       "min": 8,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.0025647472969575055
+      },
+      "opus_yes_benefit": {
+       "max": 7,
+       "mean": 4.2,
+       "min": 2,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.001056072416394267
+      },
+      "sonnet_yes": {
+       "max": 46,
+       "mean": 36.2,
+       "min": 29,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.009102338446064874
+      },
+      "sonnet_yes_benefit": {
+       "max": 25,
+       "mean": 16.8,
+       "min": 11,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.004224289665577068
+      }
+     }
+    }
+   },
+   "0.1": {
+    "gold_positive": {
+     "loss": {
+      "largest_absolute_loss": {
+       "from": "S0_candidate_pairs",
+       "lost_pairs": 424.8,
+       "retention": 0.08645161290322581,
+       "to": "S1a_drug_named_in_a_kept_paper"
+      },
+      "lowest_retention": {
+       "from": "S0_candidate_pairs",
+       "lost_pairs": 424.8,
+       "retention": 0.08645161290322581,
+       "to": "S1a_drug_named_in_a_kept_paper"
+      },
+      "transitions": [
+       {
+        "from": "S0_candidate_pairs",
+        "lost_pairs": 424.8,
+        "retention": 0.08645161290322581,
+        "to": "S1a_drug_named_in_a_kept_paper"
+       },
+       {
+        "from": "S1a_drug_named_in_a_kept_paper",
+        "lost_pairs": 1.4000000000000057,
+        "retention": 0.9651741293532337,
+        "to": "S1b_and_paper_has_disease_gene"
+       },
+       {
+        "from": "S1b_and_paper_has_disease_gene",
+        "lost_pairs": 0.0,
+        "retention": 1.0,
+        "to": "S2_sentence_extracted"
+       },
+       {
+        "from": "S2_sentence_extracted",
+        "lost_pairs": 0.0,
+        "retention": 1.0,
+        "to": "S3_verified_sentence"
+       },
+       {
+        "from": "S3_verified_sentence",
+        "lost_pairs": 6.599999999999994,
+        "retention": 0.829896907216495,
+        "to": "S4_relevance_yes_either"
+       },
+       {
+        "from": "S4_relevance_yes_either",
+        "lost_pairs": 15.200000000000003,
+        "retention": 0.5279503105590062,
+        "to": "S5_relevance_yes_both"
+       },
+       {
+        "from": "S5_relevance_yes_both",
+        "lost_pairs": 8.8,
+        "retention": 0.48235294117647054,
+        "to": "S6_yes_both_and_benefit"
+       }
+      ]
+     },
+     "n_pairs": 465,
+     "stages": {
+      "S0_candidate_pairs": {
+       "max": 465,
+       "mean": 465.0,
+       "min": 465,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 1.0
+      },
+      "S1a_drug_named_in_a_kept_paper": {
+       "max": 43,
+       "mean": 40.2,
+       "min": 37,
+       "retention_vs_previous_stage": 0.08645161290322581,
+       "share_of_S0": 0.08645161290322581
+      },
+      "S1b_and_paper_has_disease_gene": {
+       "max": 41,
+       "mean": 38.8,
+       "min": 36,
+       "retention_vs_previous_stage": 0.9651741293532337,
+       "share_of_S0": 0.08344086021505376
+      },
+      "S2_sentence_extracted": {
+       "max": 41,
+       "mean": 38.8,
+       "min": 36,
+       "retention_vs_previous_stage": 1.0,
+       "share_of_S0": 0.08344086021505376
+      },
+      "S3_verified_sentence": {
+       "max": 41,
+       "mean": 38.8,
+       "min": 36,
+       "retention_vs_previous_stage": 1.0,
+       "share_of_S0": 0.08344086021505376
+      },
+      "S4_relevance_yes_either": {
+       "max": 35,
+       "mean": 32.2,
+       "min": 30,
+       "retention_vs_previous_stage": 0.829896907216495,
+       "share_of_S0": 0.069247311827957
+      },
+      "S5_relevance_yes_both": {
+       "max": 21,
+       "mean": 17.0,
+       "min": 13,
+       "retention_vs_previous_stage": 0.5279503105590062,
+       "share_of_S0": 0.03655913978494624
+      },
+      "S6_yes_both_and_benefit": {
+       "max": 10,
+       "mean": 8.2,
+       "min": 6,
+       "retention_vs_previous_stage": 0.48235294117647054,
+       "share_of_S0": 0.017634408602150535
+      },
+      "S6b_yes_either_and_benefit": {
+       "max": 18,
+       "mean": 16.0,
+       "min": 11,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.034408602150537634
+      },
+      "benefit_direction_only": {
+       "max": 22,
+       "mean": 18.0,
+       "min": 12,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.03870967741935484
+      },
+      "opus_yes": {
+       "max": 21,
+       "mean": 17.2,
+       "min": 13,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.036989247311827955
+      },
+      "opus_yes_benefit": {
+       "max": 10,
+       "mean": 8.2,
+       "min": 6,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.017634408602150535
+      },
+      "sonnet_yes": {
+       "max": 35,
+       "mean": 32.0,
+       "min": 30,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.06881720430107527
+      },
+      "sonnet_yes_benefit": {
+       "max": 18,
+       "mean": 16.0,
+       "min": 11,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.034408602150537634
+      }
+     }
+    },
+    "other": {
+     "loss": {
+      "largest_absolute_loss": {
+       "from": "S0_candidate_pairs",
+       "lost_pairs": 3549.2,
+       "retention": 0.10756851898415892,
+       "to": "S1a_drug_named_in_a_kept_paper"
+      },
+      "lowest_retention": {
+       "from": "S0_candidate_pairs",
+       "lost_pairs": 3549.2,
+       "retention": 0.10756851898415892,
+       "to": "S1a_drug_named_in_a_kept_paper"
+      },
+      "transitions": [
+       {
+        "from": "S0_candidate_pairs",
+        "lost_pairs": 3549.2,
+        "retention": 0.10756851898415892,
+        "to": "S1a_drug_named_in_a_kept_paper"
+       },
+       {
+        "from": "S1a_drug_named_in_a_kept_paper",
+        "lost_pairs": 21.80000000000001,
+        "retention": 0.949041608228144,
+        "to": "S1b_and_paper_has_disease_gene"
+       },
+       {
+        "from": "S1b_and_paper_has_disease_gene",
+        "lost_pairs": 0.0,
+        "retention": 1.0,
+        "to": "S2_sentence_extracted"
+       },
+       {
+        "from": "S2_sentence_extracted",
+        "lost_pairs": 1.8000000000000114,
+        "retention": 0.9955665024630541,
+        "to": "S3_verified_sentence"
+       },
+       {
+        "from": "S3_verified_sentence",
+        "lost_pairs": 321.4,
+        "retention": 0.2048490846115784,
+        "to": "S4_relevance_yes_either"
+       },
+       {
+        "from": "S4_relevance_yes_either",
+        "lost_pairs": 62.4,
+        "retention": 0.24637681159420288,
+        "to": "S5_relevance_yes_both"
+       },
+       {
+        "from": "S5_relevance_yes_both",
+        "lost_pairs": 12.599999999999998,
+        "retention": 0.3823529411764706,
+        "to": "S6_yes_both_and_benefit"
+       }
+      ]
+     },
+     "n_pairs": 3977,
+     "stages": {
+      "S0_candidate_pairs": {
+       "max": 3977,
+       "mean": 3977.0,
+       "min": 3977,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 1.0
+      },
+      "S1a_drug_named_in_a_kept_paper": {
+       "max": 460,
+       "mean": 427.8,
+       "min": 412,
+       "retention_vs_previous_stage": 0.10756851898415892,
+       "share_of_S0": 0.10756851898415892
+      },
+      "S1b_and_paper_has_disease_gene": {
+       "max": 435,
+       "mean": 406.0,
+       "min": 388,
+       "retention_vs_previous_stage": 0.949041608228144,
+       "share_of_S0": 0.10208700025144582
+      },
+      "S2_sentence_extracted": {
+       "max": 435,
+       "mean": 406.0,
+       "min": 388,
+       "retention_vs_previous_stage": 1.0,
+       "share_of_S0": 0.10208700025144582
+      },
+      "S3_verified_sentence": {
+       "max": 433,
+       "mean": 404.2,
+       "min": 388,
+       "retention_vs_previous_stage": 0.9955665024630541,
+       "share_of_S0": 0.10163439778727684
+      },
+      "S4_relevance_yes_either": {
+       "max": 89,
+       "mean": 82.8,
+       "min": 77,
+       "retention_vs_previous_stage": 0.2048490846115784,
+       "share_of_S0": 0.02081971335177269
+      },
+      "S5_relevance_yes_both": {
+       "max": 25,
+       "mean": 20.4,
+       "min": 17,
+       "retention_vs_previous_stage": 0.24637681159420288,
+       "share_of_S0": 0.005129494593915011
+      },
+      "S6_yes_both_and_benefit": {
+       "max": 12,
+       "mean": 7.8,
+       "min": 5,
+       "retention_vs_previous_stage": 0.3823529411764706,
+       "share_of_S0": 0.00196127734473221
+      },
+      "S6b_yes_either_and_benefit": {
+       "max": 44,
+       "mean": 41.8,
+       "min": 38,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.010510435001257229
+      },
+      "benefit_direction_only": {
+       "max": 100,
+       "mean": 90.0,
+       "min": 80,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.02263012320844858
+      },
+      "opus_yes": {
+       "max": 25,
+       "mean": 21.0,
+       "min": 17,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.005280362081971335
+      },
+      "opus_yes_benefit": {
+       "max": 12,
+       "mean": 8.2,
+       "min": 6,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.0020618556701030924
+      },
+      "sonnet_yes": {
+       "max": 89,
+       "mean": 82.2,
+       "min": 76,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.02066884586371637
+      },
+      "sonnet_yes_benefit": {
+       "max": 44,
+       "mean": 41.4,
+       "min": 38,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.010409856675886345
+      }
+     }
+    }
+   },
+   "0.3": {
+    "gold_positive": {
+     "loss": {
+      "largest_absolute_loss": {
+       "from": "S0_candidate_pairs",
+       "lost_pairs": 379.6,
+       "retention": 0.18365591397849462,
+       "to": "S1a_drug_named_in_a_kept_paper"
+      },
+      "lowest_retention": {
+       "from": "S0_candidate_pairs",
+       "lost_pairs": 379.6,
+       "retention": 0.18365591397849462,
+       "to": "S1a_drug_named_in_a_kept_paper"
+      },
+      "transitions": [
+       {
+        "from": "S0_candidate_pairs",
+        "lost_pairs": 379.6,
+        "retention": 0.18365591397849462,
+        "to": "S1a_drug_named_in_a_kept_paper"
+       },
+       {
+        "from": "S1a_drug_named_in_a_kept_paper",
+        "lost_pairs": 4.400000000000006,
+        "retention": 0.9484777517564402,
+        "to": "S1b_and_paper_has_disease_gene"
+       },
+       {
+        "from": "S1b_and_paper_has_disease_gene",
+        "lost_pairs": 0.0,
+        "retention": 1.0,
+        "to": "S2_sentence_extracted"
+       },
+       {
+        "from": "S2_sentence_extracted",
+        "lost_pairs": 0.0,
+        "retention": 1.0,
+        "to": "S3_verified_sentence"
+       },
+       {
+        "from": "S3_verified_sentence",
+        "lost_pairs": 12.400000000000006,
+        "retention": 0.8469135802469135,
+        "to": "S4_relevance_yes_either"
+       },
+       {
+        "from": "S4_relevance_yes_either",
+        "lost_pairs": 29.599999999999994,
+        "retention": 0.5685131195335278,
+        "to": "S5_relevance_yes_both"
+       },
+       {
+        "from": "S5_relevance_yes_both",
+        "lost_pairs": 22.2,
+        "retention": 0.4307692307692308,
+        "to": "S6_yes_both_and_benefit"
+       }
+      ]
+     },
+     "n_pairs": 465,
+     "stages": {
+      "S0_candidate_pairs": {
+       "max": 465,
+       "mean": 465.0,
+       "min": 465,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 1.0
+      },
+      "S1a_drug_named_in_a_kept_paper": {
+       "max": 96,
+       "mean": 85.4,
+       "min": 77,
+       "retention_vs_previous_stage": 0.18365591397849462,
+       "share_of_S0": 0.18365591397849462
+      },
+      "S1b_and_paper_has_disease_gene": {
+       "max": 91,
+       "mean": 81.0,
+       "min": 71,
+       "retention_vs_previous_stage": 0.9484777517564402,
+       "share_of_S0": 0.17419354838709677
+      },
+      "S2_sentence_extracted": {
+       "max": 91,
+       "mean": 81.0,
+       "min": 71,
+       "retention_vs_previous_stage": 1.0,
+       "share_of_S0": 0.17419354838709677
+      },
+      "S3_verified_sentence": {
+       "max": 91,
+       "mean": 81.0,
+       "min": 71,
+       "retention_vs_previous_stage": 1.0,
+       "share_of_S0": 0.17419354838709677
+      },
+      "S4_relevance_yes_either": {
+       "max": 79,
+       "mean": 68.6,
+       "min": 59,
+       "retention_vs_previous_stage": 0.8469135802469135,
+       "share_of_S0": 0.1475268817204301
+      },
+      "S5_relevance_yes_both": {
+       "max": 42,
+       "mean": 39.0,
+       "min": 35,
+       "retention_vs_previous_stage": 0.5685131195335278,
+       "share_of_S0": 0.08387096774193549
+      },
+      "S6_yes_both_and_benefit": {
+       "max": 18,
+       "mean": 16.8,
+       "min": 13,
+       "retention_vs_previous_stage": 0.4307692307692308,
+       "share_of_S0": 0.03612903225806452
+      },
+      "S6b_yes_either_and_benefit": {
+       "max": 40,
+       "mean": 34.0,
+       "min": 28,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.07311827956989247
+      },
+      "benefit_direction_only": {
+       "max": 44,
+       "mean": 38.8,
+       "min": 33,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.08344086021505376
+      },
+      "opus_yes": {
+       "max": 42,
+       "mean": 39.2,
+       "min": 35,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.08430107526881721
+      },
+      "opus_yes_benefit": {
+       "max": 18,
+       "mean": 16.8,
+       "min": 13,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.03612903225806452
+      },
+      "sonnet_yes": {
+       "max": 79,
+       "mean": 68.6,
+       "min": 59,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.1475268817204301
+      },
+      "sonnet_yes_benefit": {
+       "max": 40,
+       "mean": 34.0,
+       "min": 28,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.07311827956989247
+      }
+     }
+    },
+    "other": {
+     "loss": {
+      "largest_absolute_loss": {
+       "from": "S0_candidate_pairs",
+       "lost_pairs": 2984.6,
+       "retention": 0.24953482524515966,
+       "to": "S1a_drug_named_in_a_kept_paper"
+      },
+      "lowest_retention": {
+       "from": "S3_verified_sentence",
+       "lost_pairs": 744.0,
+       "retention": 0.22805561319775888,
+       "to": "S4_relevance_yes_either"
+      },
+      "transitions": [
+       {
+        "from": "S0_candidate_pairs",
+        "lost_pairs": 2984.6,
+        "retention": 0.24953482524515966,
+        "to": "S1a_drug_named_in_a_kept_paper"
+       },
+       {
+        "from": "S1a_drug_named_in_a_kept_paper",
+        "lost_pairs": 25.600000000000023,
+        "retention": 0.9742039500201531,
+        "to": "S1b_and_paper_has_disease_gene"
+       },
+       {
+        "from": "S1b_and_paper_has_disease_gene",
+        "lost_pairs": 0.0,
+        "retention": 1.0,
+        "to": "S2_sentence_extracted"
+       },
+       {
+        "from": "S2_sentence_extracted",
+        "lost_pairs": 3.0,
+        "retention": 0.9968969797269343,
+        "to": "S3_verified_sentence"
+       },
+       {
+        "from": "S3_verified_sentence",
+        "lost_pairs": 744.0,
+        "retention": 0.22805561319775888,
+        "to": "S4_relevance_yes_either"
+       },
+       {
+        "from": "S4_relevance_yes_either",
+        "lost_pairs": 166.60000000000002,
+        "retention": 0.24203821656050956,
+        "to": "S5_relevance_yes_both"
+       },
+       {
+        "from": "S5_relevance_yes_both",
+        "lost_pairs": 29.6,
+        "retention": 0.44360902255639095,
+        "to": "S6_yes_both_and_benefit"
+       }
+      ]
+     },
+     "n_pairs": 3977,
+     "stages": {
+      "S0_candidate_pairs": {
+       "max": 3977,
+       "mean": 3977.0,
+       "min": 3977,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 1.0
+      },
+      "S1a_drug_named_in_a_kept_paper": {
+       "max": 1019,
+       "mean": 992.4,
+       "min": 947,
+       "retention_vs_previous_stage": 0.24953482524515966,
+       "share_of_S0": 0.24953482524515966
+      },
+      "S1b_and_paper_has_disease_gene": {
+       "max": 988,
+       "mean": 966.8,
+       "min": 926,
+       "retention_vs_previous_stage": 0.9742039500201531,
+       "share_of_S0": 0.24309781242142317
+      },
+      "S2_sentence_extracted": {
+       "max": 988,
+       "mean": 966.8,
+       "min": 926,
+       "retention_vs_previous_stage": 1.0,
+       "share_of_S0": 0.24309781242142317
+      },
+      "S3_verified_sentence": {
+       "max": 987,
+       "mean": 963.8,
+       "min": 921,
+       "retention_vs_previous_stage": 0.9968969797269343,
+       "share_of_S0": 0.24234347498114156
+      },
+      "S4_relevance_yes_either": {
+       "max": 250,
+       "mean": 219.8,
+       "min": 203,
+       "retention_vs_previous_stage": 0.22805561319775888,
+       "share_of_S0": 0.055267789791299975
+      },
+      "S5_relevance_yes_both": {
+       "max": 64,
+       "mean": 53.2,
+       "min": 44,
+       "retention_vs_previous_stage": 0.24203821656050956,
+       "share_of_S0": 0.013376917274327382
+      },
+      "S6_yes_both_and_benefit": {
+       "max": 29,
+       "mean": 23.6,
+       "min": 17,
+       "retention_vs_previous_stage": 0.44360902255639095,
+       "share_of_S0": 0.005934121196882072
+      },
+      "S6b_yes_either_and_benefit": {
+       "max": 122,
+       "mean": 110.0,
+       "min": 91,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.02765903947699271
+      },
+      "benefit_direction_only": {
+       "max": 265,
+       "mean": 250.8,
+       "min": 241,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.06306261000754337
+      },
+      "opus_yes": {
+       "max": 65,
+       "mean": 54.6,
+       "min": 45,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.013728941413125471
+      },
+      "opus_yes_benefit": {
+       "max": 30,
+       "mean": 23.8,
+       "min": 17,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.005984410359567514
+      },
+      "sonnet_yes": {
+       "max": 249,
+       "mean": 218.6,
+       "min": 202,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.05496605481518733
+      },
+      "sonnet_yes_benefit": {
+       "max": 122,
+       "mean": 110.0,
+       "min": 91,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.02765903947699271
+      }
+     }
+    }
+   },
+   "1.0": {
+    "gold_positive": {
+     "loss": {
+      "largest_absolute_loss": {
+       "from": "S0_candidate_pairs",
+       "lost_pairs": 302.0,
+       "retention": 0.35053763440860214,
+       "to": "S1a_drug_named_in_a_kept_paper"
+      },
+      "lowest_retention": {
+       "from": "S0_candidate_pairs",
+       "lost_pairs": 302.0,
+       "retention": 0.35053763440860214,
+       "to": "S1a_drug_named_in_a_kept_paper"
+      },
+      "transitions": [
+       {
+        "from": "S0_candidate_pairs",
+        "lost_pairs": 302.0,
+        "retention": 0.35053763440860214,
+        "to": "S1a_drug_named_in_a_kept_paper"
+       },
+       {
+        "from": "S1a_drug_named_in_a_kept_paper",
+        "lost_pairs": 4.0,
+        "retention": 0.9754601226993865,
+        "to": "S1b_and_paper_has_disease_gene"
+       },
+       {
+        "from": "S1b_and_paper_has_disease_gene",
+        "lost_pairs": 0.0,
+        "retention": 1.0,
+        "to": "S2_sentence_extracted"
+       },
+       {
+        "from": "S2_sentence_extracted",
+        "lost_pairs": 0.0,
+        "retention": 1.0,
+        "to": "S3_verified_sentence"
+       },
+       {
+        "from": "S3_verified_sentence",
+        "lost_pairs": 21.0,
+        "retention": 0.8679245283018868,
+        "to": "S4_relevance_yes_either"
+       },
+       {
+        "from": "S4_relevance_yes_either",
+        "lost_pairs": 61.0,
+        "retention": 0.5579710144927537,
+        "to": "S5_relevance_yes_both"
+       },
+       {
+        "from": "S5_relevance_yes_both",
+        "lost_pairs": 40.0,
+        "retention": 0.4805194805194805,
+        "to": "S6_yes_both_and_benefit"
+       }
+      ]
+     },
+     "n_pairs": 465,
+     "stages": {
+      "S0_candidate_pairs": {
+       "max": 465,
+       "mean": 465.0,
+       "min": 465,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 1.0
+      },
+      "S1a_drug_named_in_a_kept_paper": {
+       "max": 163,
+       "mean": 163.0,
+       "min": 163,
+       "retention_vs_previous_stage": 0.35053763440860214,
+       "share_of_S0": 0.35053763440860214
+      },
+      "S1b_and_paper_has_disease_gene": {
+       "max": 159,
+       "mean": 159.0,
+       "min": 159,
+       "retention_vs_previous_stage": 0.9754601226993865,
+       "share_of_S0": 0.3419354838709677
+      },
+      "S2_sentence_extracted": {
+       "max": 159,
+       "mean": 159.0,
+       "min": 159,
+       "retention_vs_previous_stage": 1.0,
+       "share_of_S0": 0.3419354838709677
+      },
+      "S3_verified_sentence": {
+       "max": 159,
+       "mean": 159.0,
+       "min": 159,
+       "retention_vs_previous_stage": 1.0,
+       "share_of_S0": 0.3419354838709677
+      },
+      "S4_relevance_yes_either": {
+       "max": 138,
+       "mean": 138.0,
+       "min": 138,
+       "retention_vs_previous_stage": 0.8679245283018868,
+       "share_of_S0": 0.2967741935483871
+      },
+      "S5_relevance_yes_both": {
+       "max": 77,
+       "mean": 77.0,
+       "min": 77,
+       "retention_vs_previous_stage": 0.5579710144927537,
+       "share_of_S0": 0.16559139784946236
+      },
+      "S6_yes_both_and_benefit": {
+       "max": 37,
+       "mean": 37.0,
+       "min": 37,
+       "retention_vs_previous_stage": 0.4805194805194805,
+       "share_of_S0": 0.07956989247311828
+      },
+      "S6b_yes_either_and_benefit": {
+       "max": 74,
+       "mean": 74.0,
+       "min": 74,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.15913978494623657
+      },
+      "benefit_direction_only": {
+       "max": 82,
+       "mean": 82.0,
+       "min": 82,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.17634408602150536
+      },
+      "opus_yes": {
+       "max": 78,
+       "mean": 78.0,
+       "min": 78,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.16774193548387098
+      },
+      "opus_yes_benefit": {
+       "max": 37,
+       "mean": 37.0,
+       "min": 37,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.07956989247311828
+      },
+      "sonnet_yes": {
+       "max": 137,
+       "mean": 137.0,
+       "min": 137,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.2946236559139785
+      },
+      "sonnet_yes_benefit": {
+       "max": 74,
+       "mean": 74.0,
+       "min": 74,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.15913978494623657
+      }
+     }
+    },
+    "other": {
+     "loss": {
+      "largest_absolute_loss": {
+       "from": "S3_verified_sentence",
+       "lost_pairs": 1713.0,
+       "retention": 0.24136403897254208,
+       "to": "S4_relevance_yes_either"
+      },
+      "lowest_retention": {
+       "from": "S3_verified_sentence",
+       "lost_pairs": 1713.0,
+       "retention": 0.24136403897254208,
+       "to": "S4_relevance_yes_either"
+      },
+      "transitions": [
+       {
+        "from": "S0_candidate_pairs",
+        "lost_pairs": 1698.0,
+        "retention": 0.5730450088006035,
+        "to": "S1a_drug_named_in_a_kept_paper"
+       },
+       {
+        "from": "S1a_drug_named_in_a_kept_paper",
+        "lost_pairs": 11.0,
+        "retention": 0.9951733216322949,
+        "to": "S1b_and_paper_has_disease_gene"
+       },
+       {
+        "from": "S1b_and_paper_has_disease_gene",
+        "lost_pairs": 0.0,
+        "retention": 1.0,
+        "to": "S2_sentence_extracted"
+       },
+       {
+        "from": "S2_sentence_extracted",
+        "lost_pairs": 10.0,
+        "retention": 0.9955908289241623,
+        "to": "S3_verified_sentence"
+       },
+       {
+        "from": "S3_verified_sentence",
+        "lost_pairs": 1713.0,
+        "retention": 0.24136403897254208,
+        "to": "S4_relevance_yes_either"
+       },
+       {
+        "from": "S4_relevance_yes_either",
+        "lost_pairs": 389.0,
+        "retention": 0.28623853211009176,
+        "to": "S5_relevance_yes_both"
+       },
+       {
+        "from": "S5_relevance_yes_both",
+        "lost_pairs": 78.0,
+        "retention": 0.5,
+        "to": "S6_yes_both_and_benefit"
+       }
+      ]
+     },
+     "n_pairs": 3977,
+     "stages": {
+      "S0_candidate_pairs": {
+       "max": 3977,
+       "mean": 3977.0,
+       "min": 3977,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 1.0
+      },
+      "S1a_drug_named_in_a_kept_paper": {
+       "max": 2279,
+       "mean": 2279.0,
+       "min": 2279,
+       "retention_vs_previous_stage": 0.5730450088006035,
+       "share_of_S0": 0.5730450088006035
+      },
+      "S1b_and_paper_has_disease_gene": {
+       "max": 2268,
+       "mean": 2268.0,
+       "min": 2268,
+       "retention_vs_previous_stage": 0.9951733216322949,
+       "share_of_S0": 0.5702791048529042
+      },
+      "S2_sentence_extracted": {
+       "max": 2268,
+       "mean": 2268.0,
+       "min": 2268,
+       "retention_vs_previous_stage": 1.0,
+       "share_of_S0": 0.5702791048529042
+      },
+      "S3_verified_sentence": {
+       "max": 2258,
+       "mean": 2258.0,
+       "min": 2258,
+       "retention_vs_previous_stage": 0.9955908289241623,
+       "share_of_S0": 0.5677646467186321
+      },
+      "S4_relevance_yes_either": {
+       "max": 545,
+       "mean": 545.0,
+       "min": 545,
+       "retention_vs_previous_stage": 0.24136403897254208,
+       "share_of_S0": 0.1370379683178275
+      },
+      "S5_relevance_yes_both": {
+       "max": 156,
+       "mean": 156.0,
+       "min": 156,
+       "retention_vs_previous_stage": 0.28623853211009176,
+       "share_of_S0": 0.039225546894644206
+      },
+      "S6_yes_both_and_benefit": {
+       "max": 78,
+       "mean": 78.0,
+       "min": 78,
+       "retention_vs_previous_stage": 0.5,
+       "share_of_S0": 0.019612773447322103
+      },
+      "S6b_yes_either_and_benefit": {
+       "max": 282,
+       "mean": 282.0,
+       "min": 282,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.07090771938647221
+      },
+      "benefit_direction_only": {
+       "max": 644,
+       "mean": 644.0,
+       "min": 644,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.16193110384712095
+      },
+      "opus_yes": {
+       "max": 162,
+       "mean": 162.0,
+       "min": 162,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.04073422177520744
+      },
+      "opus_yes_benefit": {
+       "max": 79,
+       "mean": 79.0,
+       "min": 79,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.01986421926074931
+      },
+      "sonnet_yes": {
+       "max": 540,
+       "mean": 540.0,
+       "min": 540,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.13578073925069148
+      },
+      "sonnet_yes_benefit": {
+       "max": 281,
+       "mean": 281.0,
+       "min": 281,
+       "retention_vs_previous_stage": null,
+       "share_of_S0": 0.070656273573045
+      }
+     }
+    }
+   }
+  },
+  "n_candidate_pairs": 4442,
+  "n_gold_positive_pairs": 465,
+  "n_other_pairs": 3977,
+  "n_other_with_gold2_or_gold3": 1199,
+  "n_replicates": {
+   "1.0": 1,
+   "other_fractions": 5
+  }
+ },
+ "Q2_cap": {
+  "diseases": 103,
+  "diseases_with_more_hits_than_300": 89,
+  "gene_query_hits": {
+   "max": 241472.0,
+   "mean": 18771.019417475727,
+   "median": 3464.0,
+   "min": 46.0,
+   "n": 103,
+   "p25": 531.5,
+   "p75": 14101.0
+  },
+  "share_of_gene_query_hits_retrieved": {
+   "max": 1.0,
+   "mean": 0.2914906706787906,
+   "median": 0.08660508083140878,
+   "min": 0.0012423800689106812,
+   "n": 103,
+   "p25": 0.021372502684597623,
+   "p75": 0.5645007116001444
+  }
+ },
+ "Q2_design": {
+  "manifest_dev": {
+   "n_candidate_pairs": 4442,
+   "n_items": 7637,
+   "n_items_before_verification": 7704,
+   "n_pairs_with_sentences": 2427,
+   "n_papers": 3383
+  },
+  "paper_retrieval": {
+   "diseases_at_cap": 89,
+   "function": "engine_score.fetch_papers / build_gene_query (called by engine_v4_llm._pair_job, cache only)",
+   "mean_papers_kept_by_fraction": {
+    "0.01": 5.0,
+    "0.03": 8.62135922330097,
+    "0.1": 28.25242718446602,
+    "0.3": 84.59223300970874,
+    "1.0": 281.77669902912623
+   },
+   "n_retrieved_per_dev_disease": {
+    "max": 300.0,
+    "mean": 281.77669902912623,
+    "median": 300.0,
+    "min": 46.0,
+    "n": 103,
+    "p25": 300.0,
+    "p75": 300.0
+   },
+   "ordering": "Europe PMC default order (no sort parameter), cursorMark paging, first 300 records with an abstract",
+   "query_form": "(TITLE_ABS:\"ABCA7\" OR TITLE_ABS:\"APOE\" OR TITLE_ABS:\"APP\") AND PUB_YEAR:[1800 TO 2024] AND HAS_ABSTRACT:y   (example: first 3 gene symbols of one DEV disease)",
+   "query_uses": "HGNC gene symbols of the disease only, TITLE_ABS phrase, OR-pooled; year <= 2024; abstract present; NO disease term, NO drug term, NO language filter",
+   "record_cap": 300,
+   "share_of_retrieved_papers_naming_any_candidate_drug": {
+    "max": 0.7966666666666666,
+    "mean": 0.18963184548445772,
+    "median": 0.14,
+    "min": 0.03,
+    "n": 103,
+    "p25": 0.095,
+    "p75": 0.21778195488721802
+   },
+   "share_of_retrieved_papers_with_a_gene_symbol_in_text": {
+    "max": 1.0,
+    "mean": 0.8682737742969255,
+    "median": 0.9,
+    "min": 0.2633333333333333,
+    "n": 103,
+    "p25": 0.82,
+    "p75": 0.9616666666666667
+   },
+   "text_used": "title + '. ' + abstract (no full text)"
+  },
+  "sentence_selection": {
+   "caps": {
+    "papers_per_pair": 3,
+    "sentences_per_paper": 2
+   },
+   "drug_rule": "elc.drug_regex over all 2705 universe names: exact whole-word, case-insensitive match of the single project name (ChEMBL preferred name); names under 4 characters are never matched; longest alternative wins; no synonyms, brand names, salts, plurals or abbreviations; title+abstract sentences only",
+   "function": "engine_v4_llm.paper_drug_sentences / pair_papers / union_pair_papers",
+   "name_gate": "sentence must contain the first word of some drug name (speed only)",
+   "pair_universe": "top-30 B0 drugs union gold of the disease (candidate set P_d)",
+   "paper_gate": "paper must contain a disease gene symbol (v1 gate)",
+   "relevance_rule_for_features": "both annotators yes; direction 2-of-3 of Opus, Sonnet, rule",
+   "verification": "sentence must be a verbatim substring of the Europe PMC title+abstract after one join-period repair; 67 DEV items dropped"
+  }
+ },
+ "Q2_drug_naming": {
+  "distinct_gold_positive_drugs": 202,
+  "drugs_with_at_least_one_project_synonym": 104,
+  "drugs_with_at_least_one_synonym_only_sentence": 16,
+  "drugs_with_non_plain_project_name": 2,
+  "gold_positive_pairs": 465,
+  "reading": "lower bound: only synonyms present in the project tables (ClinicalTrials.gov other names, partial ChEMBL records, salt stripping)",
+  "retrieved_300_sentences_naming_drug_by_project_name": 1228,
+  "retrieved_300_sentences_naming_drug_only_by_synonym": 297,
+  "share_drugs_with_non_plain_project_name": 0.009900990099009901,
+  "share_drugs_with_synonym": 0.5148514851485149,
+  "share_of_drug_sentences_only_by_synonym": 0.19475409836065574,
+  "share_of_gold_drugs_with_synonym_only_sentence": 0.07920792079207921,
+  "synonym_terms_by_source_over_gold_drugs": {
+   "chembl_synonyms": 119,
+   "ctgov_other_names": 678,
+   "hyphen_space": 28,
+   "salt_stripped": 2
+  }
+ },
+ "Q2_language_retrieved": {
+  "diseases": [
+   "Bartter disease",
+   "Cushing disease due to pituitary adenoma",
+   "Dravet syndrome",
+   "Huntington disease",
+   "Huntington disease-like",
+   "absence epilepsy",
+   "acute intermittent porphyria",
+   "acute neonatal citrullinemia type I",
+   "argininosuccinic aciduria",
+   "autoimmune thrombocytopenic",
+   "benign recurrent intrahepatic cholestasis",
+   "cerebrotendinous xanthomatosis",
+   "familial hyperprolactinemia",
+   "galactosemia",
+   "hemophilia",
+   "hereditary angioedema with C1Inh deficiency",
+   "hyperammonemia due to N-acetylglutamate synthase deficiency",
+   "hyperparathyroidism",
+   "hypoparathyroidism",
+   "juvenile Huntington disease",
+   "low phospholipid associated cholelithiasis",
+   "narcolepsy",
+   "orotic aciduria",
+   "orthostatic hypotension",
+   "parkinsonian-pyramidal syndrome",
+   "patent ductus arteriosus",
+   "postural orthostatic tachycardia syndrome",
+   "prolactin producing pituitary gland tumor",
+   "pulmonary venoocclusive disease",
+   "sickle cell anemia"
+  ],
+  "gene_query_hits_not_english_share": {
+   "max": 0.11748013620885357,
+   "mean": 0.0766014000541677,
+   "median": 0.07502222047770035,
+   "min": 0.04975124378109453,
+   "n": 30,
+   "p25": 0.06347857860601078,
+   "p75": 0.08763328026245959
+  },
+  "non_english_share_of_retrieved_by_disease": {
+   "max": 0.23,
+   "mean": 0.12115099387007751,
+   "median": 0.11,
+   "min": 0.04975124378109453,
+   "n": 30,
+   "p25": 0.08416666666666667,
+   "p75": 0.13833333333333334
+  },
+  "pooled_retrieved_records_language": {
+   "counts": {
+    "chi": 76,
+    "dut": 1,
+    "eng": 7370,
+    "fre": 5,
+    "ger": 6,
+    "heb": 1,
+    "hun": 1,
+    "ita": 4,
+    "jpn": 2,
+    "pol": 1,
+    "por": 1,
+    "rus": 11,
+    "spa": 7,
+    "unknown": 937
+   },
+   "n": 8423,
+   "non_english": 1053,
+   "non_english_share": 0.12501484031817642
+  },
+  "rows": [
+   {
+    "disease": "Bartter disease",
+    "gene_query_hits": 500,
+    "hits_english": 468,
+    "hits_not_english": 32,
+    "n_cached": 300,
+    "n_fresh": 300,
+    "non_english_share_of_retrieved": 0.07666666666666666,
+    "retrieved_languages": {
+     "chi": 8,
+     "eng": 277,
+     "ita": 1,
+     "unknown": 14
+    },
+    "same_ids_as_cache_share": 0.9966666666666667
+   },
+   {
+    "disease": "Cushing disease due to pituitary adenoma",
+    "gene_query_hits": 55297,
+    "hits_english": 51064,
+    "hits_not_english": 4233,
+    "n_cached": 300,
+    "n_fresh": 300,
+    "non_english_share_of_retrieved": 0.14,
+    "retrieved_languages": {
+     "chi": 4,
+     "eng": 258,
+     "unknown": 38
+    },
+    "same_ids_as_cache_share": 0.9966666666666667
+   },
+   {
+    "disease": "Dravet syndrome",
+    "gene_query_hits": 3339,
+    "hits_english": 3011,
+    "hits_not_english": 328,
+    "n_cached": 300,
+    "n_fresh": 300,
+    "non_english_share_of_retrieved": 0.19333333333333333,
+    "retrieved_languages": {
+     "chi": 2,
+     "eng": 242,
+     "rus": 2,
+     "unknown": 54
+    },
+    "same_ids_as_cache_share": 0.9933333333333333
+   },
+   {
+    "disease": "Huntington disease",
+    "gene_query_hits": 9647,
+    "hits_english": 8878,
+    "hits_not_english": 769,
+    "n_cached": 300,
+    "n_fresh": 300,
+    "non_english_share_of_retrieved": 0.18666666666666668,
+    "retrieved_languages": {
+     "eng": 244,
+     "unknown": 56
+    },
+    "same_ids_as_cache_share": 0.9966666666666667
+   },
+   {
+    "disease": "Huntington disease-like",
+    "gene_query_hits": 4606,
+    "hits_english": 4211,
+    "hits_not_english": 395,
+    "n_cached": 300,
+    "n_fresh": 300,
+    "non_english_share_of_retrieved": 0.16666666666666666,
+    "retrieved_languages": {
+     "eng": 250,
+     "rus": 1,
+     "unknown": 49
+    },
+    "same_ids_as_cache_share": 0.9966666666666667
+   },
+   {
+    "disease": "absence epilepsy",
+    "gene_query_hits": 1256,
+    "hits_english": 1162,
+    "hits_not_english": 94,
+    "n_cached": 300,
+    "n_fresh": 300,
+    "non_english_share_of_retrieved": 0.13333333333333333,
+    "retrieved_languages": {
+     "chi": 2,
+     "eng": 260,
+     "unknown": 38
+    },
+    "same_ids_as_cache_share": 1.0
+   },
+   {
+    "disease": "acute intermittent porphyria",
+    "gene_query_hits": 410,
+    "hits_english": 384,
+    "hits_not_english": 26,
+    "n_cached": 300,
+    "n_fresh": 300,
+    "non_english_share_of_retrieved": 0.08,
+    "retrieved_languages": {
+     "chi": 2,
+     "eng": 276,
+     "por": 1,
+     "spa": 1,
+     "unknown": 20
+    },
+    "same_ids_as_cache_share": 1.0
+   },
+   {
+    "disease": "acute neonatal citrullinemia type I",
+    "gene_query_hits": 448,
+    "hits_english": 408,
+    "hits_not_english": 40,
+    "n_cached": 300,
+    "n_fresh": 300,
+    "non_english_share_of_retrieved": 0.10666666666666667,
+    "retrieved_languages": {
+     "chi": 8,
+     "eng": 268,
+     "spa": 1,
+     "unknown": 23
+    },
+    "same_ids_as_cache_share": 0.9966666666666667
+   },
+   {
+    "disease": "argininosuccinic aciduria",
+    "gene_query_hits": 5965,
+    "hits_english": 5384,
+    "hits_not_english": 581,
+    "n_cached": 300,
+    "n_fresh": 300,
+    "non_english_share_of_retrieved": 0.10666666666666667,
+    "retrieved_languages": {
+     "eng": 268,
+     "ita": 2,
+     "unknown": 30
+    },
+    "same_ids_as_cache_share": 1.0
+   },
+   {
+    "disease": "autoimmune thrombocytopenic",
+    "gene_query_hits": 116,
+    "hits_english": 108,
+    "hits_not_english": 8,
+    "n_cached": 116,
+    "n_fresh": 116,
+    "non_english_share_of_retrieved": 0.06896551724137931,
+    "retrieved_languages": {
+     "eng": 108,
+     "unknown": 8
+    },
+    "same_ids_as_cache_share": 1.0
+   },
+   {
+    "disease": "benign recurrent intrahepatic cholestasis",
+    "gene_query_hits": 801,
+    "hits_english": 750,
+    "hits_not_english": 51,
+    "n_cached": 300,
+    "n_fresh": 300,
+    "non_english_share_of_retrieved": 0.12333333333333334,
+    "retrieved_languages": {
+     "chi": 5,
+     "dut": 1,
+     "eng": 263,
+     "fre": 1,
+     "rus": 1,
+     "unknown": 29
+    },
+    "same_ids_as_cache_share": 0.9966666666666667
+   },
+   {
+    "disease": "cerebrotendinous xanthomatosis",
+    "gene_query_hits": 839,
+    "hits_english": 790,
+    "hits_not_english": 49,
+    "n_cached": 300,
+    "n_fresh": 300,
+    "non_english_share_of_retrieved": 0.06333333333333334,
+    "retrieved_languages": {
+     "chi": 3,
+     "eng": 281,
+     "rus": 1,
+     "unknown": 15
+    },
+    "same_ids_as_cache_share": 0.9966666666666667
+   },
+   {
+    "disease": "familial hyperprolactinemia",
+    "gene_query_hits": 1164,
+    "hits_english": 1093,
+    "hits_not_english": 71,
+    "n_cached": 300,
+    "n_fresh": 300,
+    "non_english_share_of_retrieved": 0.12333333333333334,
+    "retrieved_languages": {
+     "chi": 1,
+     "eng": 263,
+     "fre": 1,
+     "rus": 1,
+     "unknown": 34
+    },
+    "same_ids_as_cache_share": 0.9966666666666667
+   },
+   {
+    "disease": "galactosemia",
+    "gene_query_hits": 2237,
+    "hits_english": 2114,
+    "hits_not_english": 123,
+    "n_cached": 300,
+    "n_fresh": 300,
+    "non_english_share_of_retrieved": 0.10333333333333333,
+    "retrieved_languages": {
+     "chi": 1,
+     "eng": 269,
+     "hun": 1,
+     "unknown": 29
+    },
+    "same_ids_as_cache_share": 0.9933333333333333
+   },
+   {
+    "disease": "hemophilia",
+    "gene_query_hits": 4995,
+    "hits_english": 4733,
+    "hits_not_english": 262,
+    "n_cached": 300,
+    "n_fresh": 300,
+    "non_english_share_of_retrieved": 0.09666666666666666,
+    "retrieved_languages": {
+     "chi": 5,
+     "eng": 271,
+     "ger": 1,
+     "unknown": 23
+    },
+    "same_ids_as_cache_share": 0.9966666666666667
+   },
+   {
+    "disease": "hereditary angioedema with C1Inh deficiency",
+    "gene_query_hits": 370,
+    "hits_english": 336,
+    "hits_not_english": 34,
+    "n_cached": 300,
+    "n_fresh": 300,
+    "non_english_share_of_retrieved": 0.10333333333333333,
+    "retrieved_languages": {
+     "chi": 4,
+     "eng": 269,
+     "fre": 1,
+     "spa": 1,
+     "unknown": 25
+    },
+    "same_ids_as_cache_share": 1.0
+   },
+   {
+    "disease": "hyperammonemia due to N-acetylglutamate synthase deficiency",
+    "gene_query_hits": 211,
+    "hits_english": 198,
+    "hits_not_english": 13,
+    "n_cached": 211,
+    "n_fresh": 211,
+    "non_english_share_of_retrieved": 0.061611374407582936,
+    "retrieved_languages": {
+     "chi": 1,
+     "eng": 198,
+     "jpn": 1,
+     "spa": 2,
+     "unknown": 9
+    },
+    "same_ids_as_cache_share": 1.0
+   },
+   {
+    "disease": "hyperparathyroidism",
+    "gene_query_hits": 5747,
+    "hits_english": 5369,
+    "hits_not_english": 378,
+    "n_cached": 300,
+    "n_fresh": 300,
+    "non_english_share_of_retrieved": 0.12333333333333334,
+    "retrieved_languages": {
+     "chi": 1,
+     "eng": 263,
+     "ger": 1,
+     "ita": 1,
+     "rus": 2,
+     "spa": 1,
+     "unknown": 31
+    },
+    "same_ids_as_cache_share": 0.9966666666666667
+   },
+   {
+    "disease": "hypoparathyroidism",
+    "gene_query_hits": 34786,
+    "hits_english": 31887,
+    "hits_not_english": 2899,
+    "n_cached": 300,
+    "n_fresh": 300,
+    "non_english_share_of_retrieved": 0.1,
+    "retrieved_languages": {
+     "chi": 4,
+     "eng": 270,
+     "unknown": 26
+    },
+    "same_ids_as_cache_share": 0.9966666666666667
+   },
+   {
+    "disease": "juvenile Huntington disease",
+    "gene_query_hits": 4787,
+    "hits_english": 4427,
+    "hits_not_english": 360,
+    "n_cached": 300,
+    "n_fresh": 300,
+    "non_english_share_of_retrieved": 0.22333333333333333,
+    "retrieved_languages": {
+     "eng": 233,
+     "heb": 1,
+     "unknown": 66
+    },
+    "same_ids_as_cache_share": 0.9966666666666667
+   },
+   {
+    "disease": "low phospholipid associated cholelithiasis",
+    "gene_query_hits": 640,
+    "hits_english": 595,
+    "hits_not_english": 45,
+    "n_cached": 300,
+    "n_fresh": 300,
+    "non_english_share_of_retrieved": 0.11,
+    "retrieved_languages": {
+     "chi": 7,
+     "eng": 267,
+     "ger": 1,
+     "jpn": 1,
+     "pol": 1,
+     "unknown": 23
+    },
+    "same_ids_as_cache_share": 1.0
+   },
+   {
+    "disease": "narcolepsy",
+    "gene_query_hits": 19189,
+    "hits_english": 17924,
+    "hits_not_english": 1265,
+    "n_cached": 300,
+    "n_fresh": 300,
+    "non_english_share_of_retrieved": 0.08,
+    "retrieved_languages": {
+     "chi": 4,
+     "eng": 276,
+     "unknown": 20
+    },
+    "same_ids_as_cache_share": 0.9933333333333333
+   },
+   {
+    "disease": "orotic aciduria",
+    "gene_query_hits": 140,
+    "hits_english": 132,
+    "hits_not_english": 8,
+    "n_cached": 140,
+    "n_fresh": 140,
+    "non_english_share_of_retrieved": 0.05714285714285714,
+    "retrieved_languages": {
+     "eng": 132,
+     "fre": 1,
+     "unknown": 7
+    },
+    "same_ids_as_cache_share": 1.0
+   },
+   {
+    "disease": "orthostatic hypotension",
+    "gene_query_hits": 5286,
+    "hits_english": 4665,
+    "hits_not_english": 621,
+    "n_cached": 300,
+    "n_fresh": 300,
+    "non_english_share_of_retrieved": 0.23,
+    "retrieved_languages": {
+     "chi": 4,
+     "eng": 231,
+     "ger": 1,
+     "unknown": 64
+    },
+    "same_ids_as_cache_share": 1.0
+   },
+   {
+    "disease": "parkinsonian-pyramidal syndrome",
+    "gene_query_hits": 1949,
+    "hits_english": 1734,
+    "hits_not_english": 215,
+    "n_cached": 300,
+    "n_fresh": 300,
+    "non_english_share_of_retrieved": 0.21666666666666667,
+    "retrieved_languages": {
+     "eng": 235,
+     "unknown": 65
+    },
+    "same_ids_as_cache_share": 0.9966666666666667
+   },
+   {
+    "disease": "patent ductus arteriosus",
+    "gene_query_hits": 255,
+    "hits_english": 226,
+    "hits_not_english": 29,
+    "n_cached": 255,
+    "n_fresh": 255,
+    "non_english_share_of_retrieved": 0.11372549019607843,
+    "retrieved_languages": {
+     "chi": 2,
+     "eng": 226,
+     "unknown": 27
+    },
+    "same_ids_as_cache_share": 1.0
+   },
+   {
+    "disease": "postural orthostatic tachycardia syndrome",
+    "gene_query_hits": 201,
+    "hits_english": 191,
+    "hits_not_english": 10,
+    "n_cached": 201,
+    "n_fresh": 201,
+    "non_english_share_of_retrieved": 0.04975124378109453,
+    "retrieved_languages": {
+     "chi": 2,
+     "eng": 191,
+     "rus": 1,
+     "unknown": 7
+    },
+    "same_ids_as_cache_share": 1.0
+   },
+   {
+    "disease": "prolactin producing pituitary gland tumor",
+    "gene_query_hits": 7507,
+    "hits_english": 6899,
+    "hits_not_english": 608,
+    "n_cached": 300,
+    "n_fresh": 300,
+    "non_english_share_of_retrieved": 0.11,
+    "retrieved_languages": {
+     "eng": 267,
+     "ger": 1,
+     "rus": 2,
+     "spa": 1,
+     "unknown": 29
+    },
+    "same_ids_as_cache_share": 0.9933333333333333
+   },
+   {
+    "disease": "pulmonary venoocclusive disease",
+    "gene_query_hits": 1269,
+    "hits_english": 1157,
+    "hits_not_english": 112,
+    "n_cached": 300,
+    "n_fresh": 300,
+    "non_english_share_of_retrieved": 0.15333333333333332,
+    "retrieved_languages": {
+     "chi": 2,
+     "eng": 254,
+     "fre": 1,
+     "ger": 1,
+     "unknown": 42
+    },
+    "same_ids_as_cache_share": 0.9966666666666667
+   },
+   {
+    "disease": "sickle cell anemia",
+    "gene_query_hits": 3464,
+    "hits_english": 3195,
+    "hits_not_english": 269,
+    "n_cached": 300,
+    "n_fresh": 300,
+    "non_english_share_of_retrieved": 0.13333333333333333,
+    "retrieved_languages": {
+     "chi": 4,
+     "eng": 260,
+     "unknown": 36
+    },
+    "same_ids_as_cache_share": 0.9966666666666667
+   }
+  ]
+ },
+ "Q2_relaxation": {
+  "R0_reproduces_stored_pair_index": {
+   "pairs": 150,
+   "same_paper_list": 150,
+   "same_sentence_count": 150
+  },
+  "language_direct_query": {
+   "direct_query_hits_english": 27513,
+   "direct_query_hits_not_english": 2358,
+   "direct_query_hits_total": 29871,
+   "direct_query_not_english_share_of_hits": 0.07893943959023803,
+   "first20_records_language": {
+    "counts": {
+     "chi": 11,
+     "dan": 1,
+     "dut": 1,
+     "eng": 1335,
+     "fre": 11,
+     "ger": 4,
+     "ita": 2,
+     "jpn": 13,
+     "por": 1,
+     "rus": 2,
+     "spa": 7,
+     "unknown": 42
+    },
+    "n": 1430,
+    "non_english": 95,
+    "non_english_share": 0.06643356643356643
+   }
+  },
+  "recall": {
+   "hit_count_distribution": {
+    "max": 4177.0,
+    "mean": 199.14,
+    "median": 6.5,
+    "min": 0.0,
+    "n": 150,
+    "p25": 0.0,
+    "p75": 138.25
+   },
+   "hits_total": 29871,
+   "hits_with_gene_clause_total": 3352,
+   "pairs": 150,
+   "pairs_with_recall_one": 1,
+   "pairs_with_recall_zero": 67,
+   "pairs_with_zero_direct_hits": 57,
+   "reading": "recall = share of the first 20 direct-query records that are among the 300 retrieved; the gene-clause share bounds what ANY gene-based retrieval can reach",
+   "recall_first10_INN": {
+    "max": 1.0,
+    "mean": 0.04454685099846391,
+    "median": 0.0,
+    "min": 0.0,
+    "n": 93,
+    "p25": 0.0,
+    "p75": 0.0
+   },
+   "recall_first20_synonym_query": {
+    "max": 1.0,
+    "mean": 0.04173621338569792,
+    "median": 0.0,
+    "min": 0.0,
+    "n": 97,
+    "p25": 0.0,
+    "p75": 0.05
+   },
+   "recall_of_first20_records_in_the_300_retrieved_INN": {
+    "max": 1.0,
+    "mean": 0.0376524803469775,
+    "median": 0.0,
+    "min": 0.0,
+    "n": 93,
+    "p25": 0.0,
+    "p75": 0.05
+   },
+   "rows": [
+    {
+     "disease": "Alzheimer disease",
+     "drug": "donepezil",
+     "hits": 2911,
+     "hits_with_gene_clause": 172,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "Becker muscular dystrophy",
+     "drug": "ataluren",
+     "hits": 6,
+     "hits_with_gene_clause": 3,
+     "n_first": 6,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "Becker muscular dystrophy",
+     "drug": "deflazacort",
+     "hits": 7,
+     "hits_with_gene_clause": 3,
+     "n_first": 7,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.14285714285714285,
+     "recall_first20_INN": 0.14285714285714285,
+     "recall_first20_synonyms": 0.14285714285714285
+    },
+    {
+     "disease": "Cushing disease due to pituitary adenoma",
+     "drug": "osilodrostat",
+     "hits": 60,
+     "hits_with_gene_clause": 0,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "Diamond-Blackfan anemia",
+     "drug": "betamethasone",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 300,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "Diamond-Blackfan anemia",
+     "drug": "dexamethasone",
+     "hits": 8,
+     "hits_with_gene_clause": 3,
+     "n_first": 8,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "Diamond-Blackfan anemia",
+     "drug": "oxymetholone",
+     "hits": 2,
+     "hits_with_gene_clause": 0,
+     "n_first": 2,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "Diamond-Blackfan anemia",
+     "drug": "prednisolone",
+     "hits": 12,
+     "hits_with_gene_clause": 3,
+     "n_first": 12,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.1
+    },
+    {
+     "disease": "Diamond-Blackfan anemia",
+     "drug": "prednisone",
+     "hits": 20,
+     "hits_with_gene_clause": 6,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.1,
+     "recall_first20_INN": 0.05,
+     "recall_first20_synonyms": 0.05
+    },
+    {
+     "disease": "Dravet syndrome",
+     "drug": "cannabidiol",
+     "hits": 242,
+     "hits_with_gene_clause": 34,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "Dravet syndrome",
+     "drug": "stiripentol",
+     "hits": 178,
+     "hits_with_gene_clause": 38,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.1,
+     "recall_first20_synonyms": 0.1
+    },
+    {
+     "disease": "Duchenne muscular dystrophy",
+     "drug": "eteplirsen",
+     "hits": 97,
+     "hits_with_gene_clause": 73,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.1,
+     "recall_first20_INN": 0.1,
+     "recall_first20_synonyms": 0.15
+    },
+    {
+     "disease": "Duchenne muscular dystrophy",
+     "drug": "golodirsen",
+     "hits": 26,
+     "hits_with_gene_clause": 22,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.1,
+     "recall_first20_INN": 0.05,
+     "recall_first20_synonyms": 0.05
+    },
+    {
+     "disease": "Laron syndrome",
+     "drug": "mecasermin rinfabate",
+     "hits": 7,
+     "hits_with_gene_clause": 0,
+     "n_first": 7,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "Lennox-Gastaut syndrome",
+     "drug": "cannabidiol",
+     "hits": 150,
+     "hits_with_gene_clause": 3,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "Lennox-Gastaut syndrome",
+     "drug": "clonazepam",
+     "hits": 26,
+     "hits_with_gene_clause": 0,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "Lennox-Gastaut syndrome",
+     "drug": "felbamate",
+     "hits": 84,
+     "hits_with_gene_clause": 1,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "Lennox-Gastaut syndrome",
+     "drug": "topiramate",
+     "hits": 108,
+     "hits_with_gene_clause": 2,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "Noonan syndrome",
+     "drug": "carbetocin",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 300,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "Parkinson disease",
+     "drug": "apomorphine",
+     "hits": 1758,
+     "hits_with_gene_clause": 10,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.1,
+     "recall_first20_INN": 0.05,
+     "recall_first20_synonyms": 0.05
+    },
+    {
+     "disease": "Parkinson disease",
+     "drug": "cycrimine",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 300,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "Parkinson disease",
+     "drug": "orphenadrine",
+     "hits": 18,
+     "hits_with_gene_clause": 0,
+     "n_first": 18,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "Parkinson disease",
+     "drug": "pimavanserin",
+     "hits": 185,
+     "hits_with_gene_clause": 2,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.1,
+     "recall_first20_INN": 0.05,
+     "recall_first20_synonyms": 0.05
+    },
+    {
+     "disease": "Parkinson disease",
+     "drug": "pramipexole",
+     "hits": 786,
+     "hits_with_gene_clause": 9,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "Parkinson disease",
+     "drug": "procyclidine",
+     "hits": 5,
+     "hits_with_gene_clause": 0,
+     "n_first": 5,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "Parkinson disease",
+     "drug": "rasagiline",
+     "hits": 466,
+     "hits_with_gene_clause": 3,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "Parkinson disease",
+     "drug": "safinamide",
+     "hits": 227,
+     "hits_with_gene_clause": 0,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "West syndrome",
+     "drug": "vigabatrin",
+     "hits": 469,
+     "hits_with_gene_clause": 3,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "X-linked adrenal hypoplasia congenita",
+     "drug": "prednisolone",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 300,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "X-linked parkinsonism-spasticity syndrome",
+     "drug": "amantadine",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 133,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "X-linked parkinsonism-spasticity syndrome",
+     "drug": "droxidopa",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 133,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "X-linked parkinsonism-spasticity syndrome",
+     "drug": "istradefylline",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 133,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "X-linked parkinsonism-spasticity syndrome",
+     "drug": "levodopa",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 133,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "X-linked parkinsonism-spasticity syndrome",
+     "drug": "opicapone",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 133,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "X-linked parkinsonism-spasticity syndrome",
+     "drug": "pimavanserin",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 133,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "X-linked parkinsonism-spasticity syndrome",
+     "drug": "procyclidine",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 133,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "X-linked parkinsonism-spasticity syndrome",
+     "drug": "rasagiline",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 133,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "X-linked parkinsonism-spasticity syndrome",
+     "drug": "ropinirole",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 133,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "X-linked parkinsonism-spasticity syndrome",
+     "drug": "safinamide",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 133,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "absence epilepsy",
+     "drug": "acetazolamide",
+     "hits": 4,
+     "hits_with_gene_clause": 0,
+     "n_first": 4,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "absence epilepsy",
+     "drug": "clonazepam",
+     "hits": 16,
+     "hits_with_gene_clause": 0,
+     "n_first": 16,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "absence epilepsy",
+     "drug": "methsuximide",
+     "hits": 2,
+     "hits_with_gene_clause": 0,
+     "n_first": 2,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "atypical juvenile parkinsonism",
+     "drug": "apomorphine",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 300,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "atypical juvenile parkinsonism",
+     "drug": "bromocriptine",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 300,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "atypical juvenile parkinsonism",
+     "drug": "cycrimine",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 300,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "atypical juvenile parkinsonism",
+     "drug": "istradefylline",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 300,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "atypical juvenile parkinsonism",
+     "drug": "levodopa",
+     "hits": 1,
+     "hits_with_gene_clause": 0,
+     "n_first": 1,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "atypical juvenile parkinsonism",
+     "drug": "trihexyphenidyl",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 300,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "autoimmune thrombocytopenic",
+     "drug": "cortisone acetate",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 116,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "autoimmune thrombocytopenic",
+     "drug": "dexamethasone",
+     "hits": 217,
+     "hits_with_gene_clause": 0,
+     "n_first": 20,
+     "n_retrieved": 116,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "beta thalassemia",
+     "drug": "deferiprone",
+     "hits": 119,
+     "hits_with_gene_clause": 2,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.1,
+     "recall_first20_INN": 0.05,
+     "recall_first20_synonyms": 0.05
+    },
+    {
+     "disease": "beta thalassemia",
+     "drug": "luspatercept",
+     "hits": 17,
+     "hits_with_gene_clause": 1,
+     "n_first": 17,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.1,
+     "recall_first20_INN": 0.058823529411764705,
+     "recall_first20_synonyms": 0.05555555555555555
+    },
+    {
+     "disease": "beta-thalassemia intermedia",
+     "drug": "deferasirox",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 300,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "beta-thalassemia intermedia",
+     "drug": "luspatercept",
+     "hits": 2,
+     "hits_with_gene_clause": 0,
+     "n_first": 2,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "cerebrotendinous xanthomatosis",
+     "drug": "cholic acid",
+     "hits": 44,
+     "hits_with_gene_clause": 7,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.3,
+     "recall_first20_INN": 0.15,
+     "recall_first20_synonyms": 0.15
+    },
+    {
+     "disease": "cystinuria",
+     "drug": "penicillamine",
+     "hits": 106,
+     "hits_with_gene_clause": 6,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.1,
+     "recall_first20_INN": 0.1,
+     "recall_first20_synonyms": 0.1
+    },
+    {
+     "disease": "early-onset parkinsonism-intellectual disability syndrome",
+     "drug": "apomorphine",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 74,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "early-onset parkinsonism-intellectual disability syndrome",
+     "drug": "cycrimine",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 74,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "early-onset parkinsonism-intellectual disability syndrome",
+     "drug": "droxidopa",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 74,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "early-onset parkinsonism-intellectual disability syndrome",
+     "drug": "rotigotine",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 74,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "familial Mediterranean fever",
+     "drug": "canakinumab",
+     "hits": 123,
+     "hits_with_gene_clause": 35,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.3,
+     "recall_first20_INN": 0.35,
+     "recall_first20_synonyms": 0.35
+    },
+    {
+     "disease": "familial glucocorticoid deficiency",
+     "drug": "cortisone acetate",
+     "hits": 1,
+     "hits_with_gene_clause": 0,
+     "n_first": 1,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "familial glucocorticoid deficiency",
+     "drug": "methylprednisolone",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 300,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "familial glucocorticoid deficiency",
+     "drug": "prednisolone",
+     "hits": 1,
+     "hits_with_gene_clause": 0,
+     "n_first": 1,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "familial glucocorticoid deficiency",
+     "drug": "prednisone",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 300,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "familial hyperprolactinemia",
+     "drug": "cabergoline",
+     "hits": 339,
+     "hits_with_gene_clause": 0,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "familial thyroid carcinoma",
+     "drug": "liothyronine",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 300,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "galactosemia",
+     "drug": "tiopronin",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 300,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "gastrointestinal stromal tumor",
+     "drug": "imatinib",
+     "hits": 3000,
+     "hits_with_gene_clause": 1438,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.15,
+     "recall_first20_synonyms": 0.1
+    },
+    {
+     "disease": "gastrointestinal stromal tumor",
+     "drug": "regorafenib",
+     "hits": 207,
+     "hits_with_gene_clause": 95,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.1,
+     "recall_first20_INN": 0.1,
+     "recall_first20_synonyms": 0.1
+    },
+    {
+     "disease": "hemophilia",
+     "drug": "eftrenonacog alfa",
+     "hits": 11,
+     "hits_with_gene_clause": 0,
+     "n_first": 11,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "hemophilia",
+     "drug": "emicizumab",
+     "hits": 354,
+     "hits_with_gene_clause": 1,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.1,
+     "recall_first20_INN": 0.05,
+     "recall_first20_synonyms": 0.05
+    },
+    {
+     "disease": "hemophilia",
+     "drug": "moroctocog alfa",
+     "hits": 8,
+     "hits_with_gene_clause": 0,
+     "n_first": 8,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "hereditary angioedema",
+     "drug": "betamethasone",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 300,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "hereditary angioedema",
+     "drug": "hydrocortisone acetate",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 300,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "hereditary angioedema",
+     "drug": "icatibant",
+     "hits": 238,
+     "hits_with_gene_clause": 9,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "hereditary angioedema",
+     "drug": "methylprednisolone",
+     "hits": 8,
+     "hits_with_gene_clause": 0,
+     "n_first": 8,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "hereditary angioedema",
+     "drug": "prednisolone",
+     "hits": 6,
+     "hits_with_gene_clause": 0,
+     "n_first": 6,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "hereditary angioedema",
+     "drug": "stanozolol",
+     "hits": 37,
+     "hits_with_gene_clause": 1,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "hereditary breast ovarian cancer syndrome",
+     "drug": "carboplatin",
+     "hits": 5,
+     "hits_with_gene_clause": 4,
+     "n_first": 5,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.2,
+     "recall_first20_INN": 0.2,
+     "recall_first20_synonyms": 0.2
+    },
+    {
+     "disease": "hereditary breast ovarian cancer syndrome",
+     "drug": "doxorubicin",
+     "hits": 1,
+     "hits_with_gene_clause": 1,
+     "n_first": 1,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "hereditary breast ovarian cancer syndrome",
+     "drug": "olaparib",
+     "hits": 30,
+     "hits_with_gene_clause": 27,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "hereditary breast ovarian cancer syndrome",
+     "drug": "thiotepa",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 300,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "hereditary late onset Parkinson disease",
+     "drug": "amantadine",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 300,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "hereditary late onset Parkinson disease",
+     "drug": "droxidopa",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 300,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "hereditary late onset Parkinson disease",
+     "drug": "istradefylline",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 300,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "hereditary late onset Parkinson disease",
+     "drug": "ropinirole",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 300,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "hereditary late onset Parkinson disease",
+     "drug": "safinamide",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 300,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "hereditary late onset Parkinson disease",
+     "drug": "selegiline",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 300,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "homozygous familial hypercholesterolemia",
+     "drug": "atorvastatin",
+     "hits": 39,
+     "hits_with_gene_clause": 7,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.2
+    },
+    {
+     "disease": "homozygous familial hypercholesterolemia",
+     "drug": "evolocumab",
+     "hits": 28,
+     "hits_with_gene_clause": 23,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.1,
+     "recall_first20_INN": 0.05,
+     "recall_first20_synonyms": 0.05
+    },
+    {
+     "disease": "hyperammonemia due to N-acetylglutamate synthase deficiency",
+     "drug": "glycerol phenylbutyrate",
+     "hits": 1,
+     "hits_with_gene_clause": 1,
+     "n_first": 1,
+     "n_retrieved": 211,
+     "recall_first10_INN": 1.0,
+     "recall_first20_INN": 1.0,
+     "recall_first20_synonyms": 1.0
+    },
+    {
+     "disease": "hyperargininemia",
+     "drug": "glycerol phenylbutyrate",
+     "hits": 2,
+     "hits_with_gene_clause": 0,
+     "n_first": 2,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "hyperparathyroidism",
+     "drug": "alfacalcidol",
+     "hits": 140,
+     "hits_with_gene_clause": 4,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "hypoalphalipoproteinemia",
+     "drug": "fenofibrate",
+     "hits": 2,
+     "hits_with_gene_clause": 0,
+     "n_first": 2,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "hypogonadotropic hypogonadism with or without anosmia",
+     "drug": "testosterone",
+     "hits": 19,
+     "hits_with_gene_clause": 1,
+     "n_first": 19,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "hypoparathyroidism",
+     "drug": "ergocalciferol",
+     "hits": 22,
+     "hits_with_gene_clause": 14,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.2,
+     "recall_first20_INN": 0.1,
+     "recall_first20_synonyms": 0.1
+    },
+    {
+     "disease": "inherited acute myeloid leukemia",
+     "drug": "daunorubicin",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 300,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "inherited acute myeloid leukemia",
+     "drug": "decitabine",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 300,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "inherited acute myeloid leukemia",
+     "drug": "gilteritinib",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 300,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "inherited acute myeloid leukemia",
+     "drug": "midostaurin",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 300,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "inherited acute myeloid leukemia",
+     "drug": "quizartinib",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 300,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "inherited isolated adrenal insufficiency due to partial CYP11A1 deficiency",
+     "drug": "prednisone",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 300,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "juvenile Paget disease",
+     "drug": "alendronic acid",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 300,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "juvenile Paget disease",
+     "drug": "etidronic acid",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 300,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "juvenile Paget disease",
+     "drug": "tiludronic acid",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 300,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "kidney Wilms tumor",
+     "drug": "dactinomycin",
+     "hits": 97,
+     "hits_with_gene_clause": 1,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "kidney Wilms tumor",
+     "drug": "doxorubicin",
+     "hits": 158,
+     "hits_with_gene_clause": 13,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "myeloid leukemia",
+     "drug": "azacitidine",
+     "hits": 1033,
+     "hits_with_gene_clause": 160,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "myeloid leukemia",
+     "drug": "enasidenib",
+     "hits": 142,
+     "hits_with_gene_clause": 39,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.1,
+     "recall_first20_INN": 0.05,
+     "recall_first20_synonyms": 0.05
+    },
+    {
+     "disease": "myeloid leukemia",
+     "drug": "gilteritinib",
+     "hits": 287,
+     "hits_with_gene_clause": 262,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "myeloid leukemia",
+     "drug": "ivosidenib",
+     "hits": 133,
+     "hits_with_gene_clause": 28,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.05,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "myeloid leukemia",
+     "drug": "mitoxantrone",
+     "hits": 599,
+     "hits_with_gene_clause": 41,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.1,
+     "recall_first20_INN": 0.05,
+     "recall_first20_synonyms": 0.05
+    },
+    {
+     "disease": "myelomonocytic leukemia",
+     "drug": "arsenic trioxide",
+     "hits": 3,
+     "hits_with_gene_clause": 0,
+     "n_first": 3,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "narcolepsy",
+     "drug": "armodafinil",
+     "hits": 59,
+     "hits_with_gene_clause": 3,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "narcolepsy",
+     "drug": "methylphenidate",
+     "hits": 207,
+     "hits_with_gene_clause": 10,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "narcolepsy",
+     "drug": "solriamfetol",
+     "hits": 65,
+     "hits_with_gene_clause": 1,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "orthostatic hypotension",
+     "drug": "midodrine",
+     "hits": 206,
+     "hits_with_gene_clause": 1,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.1,
+     "recall_first20_INN": 0.05,
+     "recall_first20_synonyms": 0.05
+    },
+    {
+     "disease": "ovarian cancer",
+     "drug": "doxorubicin",
+     "hits": 1482,
+     "hits_with_gene_clause": 53,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "ovarian cancer",
+     "drug": "melphalan",
+     "hits": 173,
+     "hits_with_gene_clause": 7,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "ovarian cancer",
+     "drug": "paclitaxel",
+     "hits": 4177,
+     "hits_with_gene_clause": 179,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.1,
+     "recall_first20_INN": 0.05,
+     "recall_first20_synonyms": 0.05
+    },
+    {
+     "disease": "parkinsonian-pyramidal syndrome",
+     "drug": "amantadine",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 300,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "parkinsonian-pyramidal syndrome",
+     "drug": "biperiden",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 300,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "parkinsonian-pyramidal syndrome",
+     "drug": "droxidopa",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 300,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "parkinsonian-pyramidal syndrome",
+     "drug": "safinamide",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 300,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "parkinsonian-pyramidal syndrome",
+     "drug": "trihexyphenidyl",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 300,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "patent ductus arteriosus",
+     "drug": "indomethacin",
+     "hits": 818,
+     "hits_with_gene_clause": 1,
+     "n_first": 20,
+     "n_retrieved": 255,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "primary intraosseous venous malformation",
+     "drug": "propranolol",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 46,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "pulmonary venoocclusive disease",
+     "drug": "propranolol",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 300,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "severe congenital neutropenia",
+     "drug": "filgrastim",
+     "hits": 12,
+     "hits_with_gene_clause": 3,
+     "n_first": 12,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.3
+    },
+    {
+     "disease": "small cell lung carcinoma",
+     "drug": "doxorubicin",
+     "hits": 1009,
+     "hits_with_gene_clause": 3,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "small cell lung carcinoma",
+     "drug": "topotecan",
+     "hits": 556,
+     "hits_with_gene_clause": 2,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "squamous cell carcinoma",
+     "drug": "cemiplimab",
+     "hits": 216,
+     "hits_with_gene_clause": 0,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "squamous cell carcinoma",
+     "drug": "temoporfin",
+     "hits": 11,
+     "hits_with_gene_clause": 0,
+     "n_first": 11,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "symptomatic form of hemophilia in female carriers",
+     "drug": "efmoroctocog alfa",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 300,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "symptomatic form of hemophilia in female carriers",
+     "drug": "turoctocog alfa",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 300,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "symptomatic form of hemophilia in female carriers",
+     "drug": "turoctocog alfa pegol",
+     "hits": 0,
+     "hits_with_gene_clause": 0,
+     "n_first": 0,
+     "n_retrieved": 300,
+     "recall_first10_INN": null,
+     "recall_first20_INN": null,
+     "recall_first20_synonyms": null
+    },
+    {
+     "disease": "systemic lupus erythematosus (disease)",
+     "drug": "betamethasone",
+     "hits": 40,
+     "hits_with_gene_clause": 0,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "systemic lupus erythematosus (disease)",
+     "drug": "cortisone acetate",
+     "hits": 1,
+     "hits_with_gene_clause": 0,
+     "n_first": 1,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "systemic lupus erythematosus (disease)",
+     "drug": "hydrocortisone",
+     "hits": 58,
+     "hits_with_gene_clause": 0,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "systemic lupus erythematosus (disease)",
+     "drug": "hydroxychloroquine",
+     "hits": 2071,
+     "hits_with_gene_clause": 19,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "systemic lupus erythematosus (disease)",
+     "drug": "prednisone",
+     "hits": 1875,
+     "hits_with_gene_clause": 10,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "systemic lupus erythematosus (disease)",
+     "drug": "triamcinolone",
+     "hits": 39,
+     "hits_with_gene_clause": 0,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "temporal arteritis",
+     "drug": "tocilizumab",
+     "hits": 332,
+     "hits_with_gene_clause": 1,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "temporal arteritis",
+     "drug": "triamcinolone",
+     "hits": 2,
+     "hits_with_gene_clause": 0,
+     "n_first": 2,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "testicular germ cell tumor",
+     "drug": "vinblastine",
+     "hits": 9,
+     "hits_with_gene_clause": 0,
+     "n_first": 9,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "thrombocythemia",
+     "drug": "anagrelide",
+     "hits": 254,
+     "hits_with_gene_clause": 48,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "thyroid gland carcinoma",
+     "drug": "lenvatinib",
+     "hits": 171,
+     "hits_with_gene_clause": 47,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.1,
+     "recall_first20_INN": 0.05,
+     "recall_first20_synonyms": 0.05
+    },
+    {
+     "disease": "thyroid gland carcinoma",
+     "drug": "vandetanib",
+     "hits": 148,
+     "hits_with_gene_clause": 83,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.0,
+     "recall_first20_INN": 0.0,
+     "recall_first20_synonyms": 0.0
+    },
+    {
+     "disease": "von Willebrand disease",
+     "drug": "desmopressin",
+     "hits": 420,
+     "hits_with_gene_clause": 270,
+     "n_first": 20,
+     "n_retrieved": 300,
+     "recall_first10_INN": 0.4,
+     "recall_first20_INN": 0.3,
+     "recall_first20_synonyms": 0.3
+    }
+   ],
+   "share_of_direct_hits_that_also_match_the_gene_clause": {
+    "max": 1.0,
+    "mean": 0.15970051220631737,
+    "median": 0.015384615384615385,
+    "min": 0.0,
+    "n": 93,
+    "p25": 0.0,
+    "p75": 0.21052631578947367
+   }
+  },
+  "synonym_coverage": {
+   "n_pairs": 150,
+   "pairs_with_at_least_one_synonym": 84,
+   "synonym_terms_by_source": {
+    "chembl_synonyms": 89,
+    "ctgov_other_names": 639,
+    "hyphen_space": 17,
+    "salt_stripped": 4
+   }
+  },
+  "variants": {
+   "R0_baseline": {
+    "n_pairs": 150,
+    "papers_drug": {
+     "mean": 0.6333333333333333,
+     "median": 0.0,
+     "pairs_with_ge1": 53,
+     "share_pairs_with_ge1": 0.35333333333333333,
+     "total": 95
+    },
+    "papers_drug_and_disease": {
+     "mean": 0.3466666666666667,
+     "median": 0.0,
+     "pairs_with_ge1": 31,
+     "share_pairs_with_ge1": 0.20666666666666667,
+     "total": 52
+    },
+    "sent_drug": {
+     "mean": 0.8466666666666667,
+     "median": 0.0,
+     "pairs_with_ge1": 53,
+     "share_pairs_with_ge1": 0.35333333333333333,
+     "total": 127
+    },
+    "sent_drug_disease_evaluative_rule": {
+     "mean": 0.02666666666666667,
+     "median": 0.0,
+     "pairs_with_ge1": 4,
+     "share_pairs_with_ge1": 0.02666666666666667,
+     "total": 4
+    },
+    "sent_drug_disease_name": {
+     "mean": 0.11333333333333333,
+     "median": 0.0,
+     "pairs_with_ge1": 11,
+     "share_pairs_with_ge1": 0.07333333333333333,
+     "total": 17
+    },
+    "sent_drug_disease_set": {
+     "mean": 0.11333333333333333,
+     "median": 0.0,
+     "pairs_with_ge1": 11,
+     "share_pairs_with_ge1": 0.07333333333333333,
+     "total": 17
+    }
+   },
+   "R1_sentence_cap_lifted": {
+    "gain_vs_R0": {
+     "major_artefact_rule": false,
+     "mean_sent_drug_disease_set_difference": 0.0,
+     "mean_sent_drug_disease_set_ratio": 1.0,
+     "share_pairs_ge1_difference_points": 0.0
+    },
+    "n_pairs": 150,
+    "papers_drug": {
+     "mean": 0.6333333333333333,
+     "median": 0.0,
+     "pairs_with_ge1": 53,
+     "share_pairs_with_ge1": 0.35333333333333333,
+     "total": 95
+    },
+    "papers_drug_and_disease": {
+     "mean": 0.3466666666666667,
+     "median": 0.0,
+     "pairs_with_ge1": 31,
+     "share_pairs_with_ge1": 0.20666666666666667,
+     "total": 52
+    },
+    "sent_drug": {
+     "mean": 1.0133333333333334,
+     "median": 0.0,
+     "pairs_with_ge1": 53,
+     "share_pairs_with_ge1": 0.35333333333333333,
+     "total": 152
+    },
+    "sent_drug_disease_evaluative_rule": {
+     "mean": 0.02666666666666667,
+     "median": 0.0,
+     "pairs_with_ge1": 4,
+     "share_pairs_with_ge1": 0.02666666666666667,
+     "total": 4
+    },
+    "sent_drug_disease_name": {
+     "mean": 0.11333333333333333,
+     "median": 0.0,
+     "pairs_with_ge1": 11,
+     "share_pairs_with_ge1": 0.07333333333333333,
+     "total": 17
+    },
+    "sent_drug_disease_set": {
+     "mean": 0.11333333333333333,
+     "median": 0.0,
+     "pairs_with_ge1": 11,
+     "share_pairs_with_ge1": 0.07333333333333333,
+     "total": 17
+    }
+   },
+   "R2_paper_cap_lifted": {
+    "gain_vs_R0": {
+     "major_artefact_rule": true,
+     "mean_sent_drug_disease_set_difference": 0.13333333333333336,
+     "mean_sent_drug_disease_set_ratio": 2.1764705882352944,
+     "share_pairs_ge1_difference_points": 3.333333333333334
+    },
+    "n_pairs": 150,
+    "papers_drug": {
+     "mean": 1.3533333333333333,
+     "median": 0.0,
+     "pairs_with_ge1": 53,
+     "share_pairs_with_ge1": 0.35333333333333333,
+     "total": 203
+    },
+    "papers_drug_and_disease": {
+     "mean": 0.78,
+     "median": 0.0,
+     "pairs_with_ge1": 32,
+     "share_pairs_with_ge1": 0.21333333333333335,
+     "total": 117
+    },
+    "sent_drug": {
+     "mean": 1.9333333333333333,
+     "median": 0.0,
+     "pairs_with_ge1": 53,
+     "share_pairs_with_ge1": 0.35333333333333333,
+     "total": 290
+    },
+    "sent_drug_disease_evaluative_rule": {
+     "mean": 0.06,
+     "median": 0.0,
+     "pairs_with_ge1": 5,
+     "share_pairs_with_ge1": 0.03333333333333333,
+     "total": 9
+    },
+    "sent_drug_disease_name": {
+     "mean": 0.18,
+     "median": 0.0,
+     "pairs_with_ge1": 16,
+     "share_pairs_with_ge1": 0.10666666666666667,
+     "total": 27
+    },
+    "sent_drug_disease_set": {
+     "mean": 0.24666666666666667,
+     "median": 0.0,
+     "pairs_with_ge1": 16,
+     "share_pairs_with_ge1": 0.10666666666666667,
+     "total": 37
+    }
+   },
+   "R3_both_caps_lifted": {
+    "gain_vs_R0": {
+     "major_artefact_rule": true,
+     "mean_sent_drug_disease_set_difference": 0.13333333333333336,
+     "mean_sent_drug_disease_set_ratio": 2.1764705882352944,
+     "share_pairs_ge1_difference_points": 3.333333333333334
+    },
+    "n_pairs": 150,
+    "papers_drug": {
+     "mean": 1.3533333333333333,
+     "median": 0.0,
+     "pairs_with_ge1": 53,
+     "share_pairs_with_ge1": 0.35333333333333333,
+     "total": 203
+    },
+    "papers_drug_and_disease": {
+     "mean": 0.78,
+     "median": 0.0,
+     "pairs_with_ge1": 32,
+     "share_pairs_with_ge1": 0.21333333333333335,
+     "total": 117
+    },
+    "sent_drug": {
+     "mean": 2.54,
+     "median": 0.0,
+     "pairs_with_ge1": 53,
+     "share_pairs_with_ge1": 0.35333333333333333,
+     "total": 381
+    },
+    "sent_drug_disease_evaluative_rule": {
+     "mean": 0.06,
+     "median": 0.0,
+     "pairs_with_ge1": 5,
+     "share_pairs_with_ge1": 0.03333333333333333,
+     "total": 9
+    },
+    "sent_drug_disease_name": {
+     "mean": 0.18,
+     "median": 0.0,
+     "pairs_with_ge1": 16,
+     "share_pairs_with_ge1": 0.10666666666666667,
+     "total": 27
+    },
+    "sent_drug_disease_set": {
+     "mean": 0.24666666666666667,
+     "median": 0.0,
+     "pairs_with_ge1": 16,
+     "share_pairs_with_ge1": 0.10666666666666667,
+     "total": 37
+    }
+   },
+   "R4_R3_no_gene_gate": {
+    "gain_vs_R0": {
+     "major_artefact_rule": true,
+     "mean_sent_drug_disease_set_difference": 0.13333333333333336,
+     "mean_sent_drug_disease_set_ratio": 2.1764705882352944,
+     "share_pairs_ge1_difference_points": 3.333333333333334
+    },
+    "n_pairs": 150,
+    "papers_drug": {
+     "mean": 1.48,
+     "median": 0.0,
+     "pairs_with_ge1": 55,
+     "share_pairs_with_ge1": 0.36666666666666664,
+     "total": 222
+    },
+    "papers_drug_and_disease": {
+     "mean": 0.7933333333333333,
+     "median": 0.0,
+     "pairs_with_ge1": 32,
+     "share_pairs_with_ge1": 0.21333333333333335,
+     "total": 119
+    },
+    "sent_drug": {
+     "mean": 2.7466666666666666,
+     "median": 0.0,
+     "pairs_with_ge1": 55,
+     "share_pairs_with_ge1": 0.36666666666666664,
+     "total": 412
+    },
+    "sent_drug_disease_evaluative_rule": {
+     "mean": 0.06,
+     "median": 0.0,
+     "pairs_with_ge1": 5,
+     "share_pairs_with_ge1": 0.03333333333333333,
+     "total": 9
+    },
+    "sent_drug_disease_name": {
+     "mean": 0.18,
+     "median": 0.0,
+     "pairs_with_ge1": 16,
+     "share_pairs_with_ge1": 0.10666666666666667,
+     "total": 27
+    },
+    "sent_drug_disease_set": {
+     "mean": 0.24666666666666667,
+     "median": 0.0,
+     "pairs_with_ge1": 16,
+     "share_pairs_with_ge1": 0.10666666666666667,
+     "total": 37
+    }
+   },
+   "R5_R3_drug_synonyms": {
+    "gain_vs_R0": {
+     "major_artefact_rule": true,
+     "mean_sent_drug_disease_set_difference": 0.13333333333333336,
+     "mean_sent_drug_disease_set_ratio": 2.1764705882352944,
+     "share_pairs_ge1_difference_points": 3.333333333333334
+    },
+    "n_pairs": 150,
+    "papers_drug": {
+     "mean": 1.7533333333333334,
+     "median": 0.0,
+     "pairs_with_ge1": 57,
+     "share_pairs_with_ge1": 0.38,
+     "total": 263
+    },
+    "papers_drug_and_disease": {
+     "mean": 0.8866666666666667,
+     "median": 0.0,
+     "pairs_with_ge1": 35,
+     "share_pairs_with_ge1": 0.23333333333333334,
+     "total": 133
+    },
+    "sent_drug": {
+     "mean": 3.28,
+     "median": 0.0,
+     "pairs_with_ge1": 57,
+     "share_pairs_with_ge1": 0.38,
+     "total": 492
+    },
+    "sent_drug_disease_evaluative_rule": {
+     "mean": 0.06,
+     "median": 0.0,
+     "pairs_with_ge1": 5,
+     "share_pairs_with_ge1": 0.03333333333333333,
+     "total": 9
+    },
+    "sent_drug_disease_name": {
+     "mean": 0.18,
+     "median": 0.0,
+     "pairs_with_ge1": 16,
+     "share_pairs_with_ge1": 0.10666666666666667,
+     "total": 27
+    },
+    "sent_drug_disease_set": {
+     "mean": 0.24666666666666667,
+     "median": 0.0,
+     "pairs_with_ge1": 16,
+     "share_pairs_with_ge1": 0.10666666666666667,
+     "total": 37
+    }
+   },
+   "R6a_direct_query_top10_INN": {
+    "gain_vs_R0": {
+     "major_artefact_rule": true,
+     "mean_sent_drug_disease_set_difference": 3.9733333333333336,
+     "mean_sent_drug_disease_set_ratio": 36.05882352941177,
+     "share_pairs_ge1_difference_points": 43.99999999999999
+    },
+    "n_pairs": 150,
+    "papers_drug": {
+     "mean": 5.2,
+     "median": 6.5,
+     "pairs_with_ge1": 93,
+     "share_pairs_with_ge1": 0.62,
+     "total": 780
+    },
+    "papers_drug_and_disease": {
+     "mean": 5.14,
+     "median": 6.0,
+     "pairs_with_ge1": 93,
+     "share_pairs_with_ge1": 0.62,
+     "total": 771
+    },
+    "sent_drug": {
+     "mean": 15.393333333333333,
+     "median": 9.0,
+     "pairs_with_ge1": 93,
+     "share_pairs_with_ge1": 0.62,
+     "total": 2309
+    },
+    "sent_drug_disease_evaluative_rule": {
+     "mean": 0.8933333333333333,
+     "median": 0.0,
+     "pairs_with_ge1": 50,
+     "share_pairs_with_ge1": 0.3333333333333333,
+     "total": 134
+    },
+    "sent_drug_disease_name": {
+     "mean": 2.5866666666666664,
+     "median": 0.0,
+     "pairs_with_ge1": 56,
+     "share_pairs_with_ge1": 0.37333333333333335,
+     "total": 388
+    },
+    "sent_drug_disease_set": {
+     "mean": 4.086666666666667,
+     "median": 1.0,
+     "pairs_with_ge1": 77,
+     "share_pairs_with_ge1": 0.5133333333333333,
+     "total": 613
+    }
+   },
+   "R6b_direct_query_top10_synonyms": {
+    "gain_vs_R0": {
+     "major_artefact_rule": true,
+     "mean_sent_drug_disease_set_difference": 3.7933333333333334,
+     "mean_sent_drug_disease_set_ratio": 34.47058823529412,
+     "share_pairs_ge1_difference_points": 46.0
+    },
+    "n_pairs": 150,
+    "papers_drug": {
+     "mean": 5.386666666666667,
+     "median": 8.0,
+     "pairs_with_ge1": 97,
+     "share_pairs_with_ge1": 0.6466666666666666,
+     "total": 808
+    },
+    "papers_drug_and_disease": {
+     "mean": 5.326666666666667,
+     "median": 7.5,
+     "pairs_with_ge1": 97,
+     "share_pairs_with_ge1": 0.6466666666666666,
+     "total": 799
+    },
+    "sent_drug": {
+     "mean": 16.033333333333335,
+     "median": 11.0,
+     "pairs_with_ge1": 97,
+     "share_pairs_with_ge1": 0.6466666666666666,
+     "total": 2405
+    },
+    "sent_drug_disease_evaluative_rule": {
+     "mean": 0.8333333333333334,
+     "median": 0.0,
+     "pairs_with_ge1": 49,
+     "share_pairs_with_ge1": 0.32666666666666666,
+     "total": 125
+    },
+    "sent_drug_disease_name": {
+     "mean": 2.46,
+     "median": 0.0,
+     "pairs_with_ge1": 56,
+     "share_pairs_with_ge1": 0.37333333333333335,
+     "total": 369
+    },
+    "sent_drug_disease_set": {
+     "mean": 3.9066666666666667,
+     "median": 1.0,
+     "pairs_with_ge1": 80,
+     "share_pairs_with_ge1": 0.5333333333333333,
+     "total": 586
+    }
+   },
+   "R7_union_R4_R5_R6b": {
+    "gain_vs_R0": {
+     "major_artefact_rule": true,
+     "mean_sent_drug_disease_set_difference": 3.966666666666667,
+     "mean_sent_drug_disease_set_ratio": 36.0,
+     "share_pairs_ge1_difference_points": 46.0
+    },
+    "n_pairs": 150,
+    "papers_drug": {
+     "mean": 7.013333333333334,
+     "median": 8.5,
+     "pairs_with_ge1": 103,
+     "share_pairs_with_ge1": 0.6866666666666666,
+     "total": 1052
+    },
+    "papers_drug_and_disease": {
+     "mean": 5.973333333333334,
+     "median": 7.5,
+     "pairs_with_ge1": 97,
+     "share_pairs_with_ge1": 0.6466666666666666,
+     "total": 896
+    },
+    "sent_drug": {
+     "mean": 18.96,
+     "median": 12.0,
+     "pairs_with_ge1": 103,
+     "share_pairs_with_ge1": 0.6866666666666666,
+     "total": 2844
+    },
+    "sent_drug_disease_evaluative_rule": {
+     "mean": 0.88,
+     "median": 0.0,
+     "pairs_with_ge1": 49,
+     "share_pairs_with_ge1": 0.32666666666666666,
+     "total": 132
+    },
+    "sent_drug_disease_name": {
+     "mean": 2.566666666666667,
+     "median": 0.0,
+     "pairs_with_ge1": 56,
+     "share_pairs_with_ge1": 0.37333333333333335,
+     "total": 385
+    },
+    "sent_drug_disease_set": {
+     "mean": 4.08,
+     "median": 1.0,
+     "pairs_with_ge1": 80,
+     "share_pairs_with_ge1": 0.5333333333333333,
+     "total": 612
+    }
+   }
+  },
+  "variants_at_f0.03_mean_of_5_replicates": {
+   "R0_baseline": {
+    "n_pairs": 150,
+    "papers_drug": {
+     "mean": 0.036000000000000004,
+     "median": 0.0,
+     "pairs_with_ge1": 17,
+     "share_pairs_with_ge1": 0.11333333333333333,
+     "total": 5
+    },
+    "papers_drug_and_disease": {
+     "mean": 0.029333333333333336,
+     "median": 0.0,
+     "pairs_with_ge1": 13,
+     "share_pairs_with_ge1": 0.08666666666666667,
+     "total": 4
+    },
+    "sent_drug": {
+     "mean": 0.05333333333333334,
+     "median": 0.0,
+     "pairs_with_ge1": 17,
+     "share_pairs_with_ge1": 0.11333333333333333,
+     "total": 8
+    },
+    "sent_drug_disease_evaluative_rule": {
+     "mean": 0.0013333333333333335,
+     "median": 0.0,
+     "pairs_with_ge1": 1,
+     "share_pairs_with_ge1": 0.006666666666666667,
+     "total": 0
+    },
+    "sent_drug_disease_name": {
+     "mean": 0.005333333333333334,
+     "median": 0.0,
+     "pairs_with_ge1": 3,
+     "share_pairs_with_ge1": 0.02,
+     "total": 0
+    },
+    "sent_drug_disease_set": {
+     "mean": 0.005333333333333334,
+     "median": 0.0,
+     "pairs_with_ge1": 3,
+     "share_pairs_with_ge1": 0.02,
+     "total": 0
+    }
+   },
+   "R1_sentence_cap_lifted": {
+    "n_pairs": 150,
+    "papers_drug": {
+     "mean": 0.036000000000000004,
+     "median": 0.0,
+     "pairs_with_ge1": 17,
+     "share_pairs_with_ge1": 0.11333333333333333,
+     "total": 5
+    },
+    "papers_drug_and_disease": {
+     "mean": 0.029333333333333336,
+     "median": 0.0,
+     "pairs_with_ge1": 13,
+     "share_pairs_with_ge1": 0.08666666666666667,
+     "total": 4
+    },
+    "sent_drug": {
+     "mean": 0.06933333333333333,
+     "median": 0.0,
+     "pairs_with_ge1": 17,
+     "share_pairs_with_ge1": 0.11333333333333333,
+     "total": 10
+    },
+    "sent_drug_disease_evaluative_rule": {
+     "mean": 0.0013333333333333335,
+     "median": 0.0,
+     "pairs_with_ge1": 1,
+     "share_pairs_with_ge1": 0.006666666666666667,
+     "total": 0
+    },
+    "sent_drug_disease_name": {
+     "mean": 0.005333333333333334,
+     "median": 0.0,
+     "pairs_with_ge1": 3,
+     "share_pairs_with_ge1": 0.02,
+     "total": 0
+    },
+    "sent_drug_disease_set": {
+     "mean": 0.005333333333333334,
+     "median": 0.0,
+     "pairs_with_ge1": 3,
+     "share_pairs_with_ge1": 0.02,
+     "total": 0
+    }
+   },
+   "R2_paper_cap_lifted": {
+    "n_pairs": 150,
+    "papers_drug": {
+     "mean": 0.036000000000000004,
+     "median": 0.0,
+     "pairs_with_ge1": 17,
+     "share_pairs_with_ge1": 0.11333333333333333,
+     "total": 5
+    },
+    "papers_drug_and_disease": {
+     "mean": 0.029333333333333336,
+     "median": 0.0,
+     "pairs_with_ge1": 13,
+     "share_pairs_with_ge1": 0.08666666666666667,
+     "total": 4
+    },
+    "sent_drug": {
+     "mean": 0.05333333333333334,
+     "median": 0.0,
+     "pairs_with_ge1": 17,
+     "share_pairs_with_ge1": 0.11333333333333333,
+     "total": 8
+    },
+    "sent_drug_disease_evaluative_rule": {
+     "mean": 0.0013333333333333335,
+     "median": 0.0,
+     "pairs_with_ge1": 1,
+     "share_pairs_with_ge1": 0.006666666666666667,
+     "total": 0
+    },
+    "sent_drug_disease_name": {
+     "mean": 0.005333333333333334,
+     "median": 0.0,
+     "pairs_with_ge1": 3,
+     "share_pairs_with_ge1": 0.02,
+     "total": 0
+    },
+    "sent_drug_disease_set": {
+     "mean": 0.005333333333333334,
+     "median": 0.0,
+     "pairs_with_ge1": 3,
+     "share_pairs_with_ge1": 0.02,
+     "total": 0
+    }
+   },
+   "R3_both_caps_lifted": {
+    "n_pairs": 150,
+    "papers_drug": {
+     "mean": 0.036000000000000004,
+     "median": 0.0,
+     "pairs_with_ge1": 17,
+     "share_pairs_with_ge1": 0.11333333333333333,
+     "total": 5
+    },
+    "papers_drug_and_disease": {
+     "mean": 0.029333333333333336,
+     "median": 0.0,
+     "pairs_with_ge1": 13,
+     "share_pairs_with_ge1": 0.08666666666666667,
+     "total": 4
+    },
+    "sent_drug": {
+     "mean": 0.06933333333333333,
+     "median": 0.0,
+     "pairs_with_ge1": 17,
+     "share_pairs_with_ge1": 0.11333333333333333,
+     "total": 10
+    },
+    "sent_drug_disease_evaluative_rule": {
+     "mean": 0.0013333333333333335,
+     "median": 0.0,
+     "pairs_with_ge1": 1,
+     "share_pairs_with_ge1": 0.006666666666666667,
+     "total": 0
+    },
+    "sent_drug_disease_name": {
+     "mean": 0.005333333333333334,
+     "median": 0.0,
+     "pairs_with_ge1": 3,
+     "share_pairs_with_ge1": 0.02,
+     "total": 0
+    },
+    "sent_drug_disease_set": {
+     "mean": 0.005333333333333334,
+     "median": 0.0,
+     "pairs_with_ge1": 3,
+     "share_pairs_with_ge1": 0.02,
+     "total": 0
+    }
+   },
+   "R4_R3_no_gene_gate": {
+    "n_pairs": 150,
+    "papers_drug": {
+     "mean": 0.03866666666666666,
+     "median": 0.0,
+     "pairs_with_ge1": 19,
+     "share_pairs_with_ge1": 0.12666666666666668,
+     "total": 5
+    },
+    "papers_drug_and_disease": {
+     "mean": 0.029333333333333336,
+     "median": 0.0,
+     "pairs_with_ge1": 13,
+     "share_pairs_with_ge1": 0.08666666666666667,
+     "total": 4
+    },
+    "sent_drug": {
+     "mean": 0.07466666666666666,
+     "median": 0.0,
+     "pairs_with_ge1": 19,
+     "share_pairs_with_ge1": 0.12666666666666668,
+     "total": 11
+    },
+    "sent_drug_disease_evaluative_rule": {
+     "mean": 0.0013333333333333335,
+     "median": 0.0,
+     "pairs_with_ge1": 1,
+     "share_pairs_with_ge1": 0.006666666666666667,
+     "total": 0
+    },
+    "sent_drug_disease_name": {
+     "mean": 0.005333333333333334,
+     "median": 0.0,
+     "pairs_with_ge1": 3,
+     "share_pairs_with_ge1": 0.02,
+     "total": 0
+    },
+    "sent_drug_disease_set": {
+     "mean": 0.005333333333333334,
+     "median": 0.0,
+     "pairs_with_ge1": 3,
+     "share_pairs_with_ge1": 0.02,
+     "total": 0
+    }
+   },
+   "R5_R3_drug_synonyms": {
+    "n_pairs": 150,
+    "papers_drug": {
+     "mean": 0.04666666666666667,
+     "median": 0.0,
+     "pairs_with_ge1": 21,
+     "share_pairs_with_ge1": 0.14,
+     "total": 7
+    },
+    "papers_drug_and_disease": {
+     "mean": 0.03200000000000001,
+     "median": 0.0,
+     "pairs_with_ge1": 14,
+     "share_pairs_with_ge1": 0.09333333333333334,
+     "total": 4
+    },
+    "sent_drug": {
+     "mean": 0.08133333333333333,
+     "median": 0.0,
+     "pairs_with_ge1": 21,
+     "share_pairs_with_ge1": 0.14,
+     "total": 12
+    },
+    "sent_drug_disease_evaluative_rule": {
+     "mean": 0.0013333333333333335,
+     "median": 0.0,
+     "pairs_with_ge1": 1,
+     "share_pairs_with_ge1": 0.006666666666666667,
+     "total": 0
+    },
+    "sent_drug_disease_name": {
+     "mean": 0.005333333333333334,
+     "median": 0.0,
+     "pairs_with_ge1": 3,
+     "share_pairs_with_ge1": 0.02,
+     "total": 0
+    },
+    "sent_drug_disease_set": {
+     "mean": 0.005333333333333334,
+     "median": 0.0,
+     "pairs_with_ge1": 3,
+     "share_pairs_with_ge1": 0.02,
+     "total": 0
+    }
+   }
+  }
+ },
+ "Q2_sample": {
+  "n": 150,
+  "pairs": [
+   [
+    "Alzheimer disease",
+    "donepezil"
+   ],
+   [
+    "Becker muscular dystrophy",
+    "ataluren"
+   ],
+   [
+    "Becker muscular dystrophy",
+    "deflazacort"
+   ],
+   [
+    "Cushing disease due to pituitary adenoma",
+    "osilodrostat"
+   ],
+   [
+    "Diamond-Blackfan anemia",
+    "betamethasone"
+   ],
+   [
+    "Diamond-Blackfan anemia",
+    "dexamethasone"
+   ],
+   [
+    "Diamond-Blackfan anemia",
+    "oxymetholone"
+   ],
+   [
+    "Diamond-Blackfan anemia",
+    "prednisolone"
+   ],
+   [
+    "Diamond-Blackfan anemia",
+    "prednisone"
+   ],
+   [
+    "Dravet syndrome",
+    "cannabidiol"
+   ],
+   [
+    "Dravet syndrome",
+    "stiripentol"
+   ],
+   [
+    "Duchenne muscular dystrophy",
+    "eteplirsen"
+   ],
+   [
+    "Duchenne muscular dystrophy",
+    "golodirsen"
+   ],
+   [
+    "Laron syndrome",
+    "mecasermin rinfabate"
+   ],
+   [
+    "Lennox-Gastaut syndrome",
+    "cannabidiol"
+   ],
+   [
+    "Lennox-Gastaut syndrome",
+    "clonazepam"
+   ],
+   [
+    "Lennox-Gastaut syndrome",
+    "felbamate"
+   ],
+   [
+    "Lennox-Gastaut syndrome",
+    "topiramate"
+   ],
+   [
+    "Noonan syndrome",
+    "carbetocin"
+   ],
+   [
+    "Parkinson disease",
+    "apomorphine"
+   ],
+   [
+    "Parkinson disease",
+    "cycrimine"
+   ],
+   [
+    "Parkinson disease",
+    "orphenadrine"
+   ],
+   [
+    "Parkinson disease",
+    "pimavanserin"
+   ],
+   [
+    "Parkinson disease",
+    "pramipexole"
+   ],
+   [
+    "Parkinson disease",
+    "procyclidine"
+   ],
+   [
+    "Parkinson disease",
+    "rasagiline"
+   ],
+   [
+    "Parkinson disease",
+    "safinamide"
+   ],
+   [
+    "West syndrome",
+    "vigabatrin"
+   ],
+   [
+    "X-linked adrenal hypoplasia congenita",
+    "prednisolone"
+   ],
+   [
+    "X-linked parkinsonism-spasticity syndrome",
+    "amantadine"
+   ],
+   [
+    "X-linked parkinsonism-spasticity syndrome",
+    "droxidopa"
+   ],
+   [
+    "X-linked parkinsonism-spasticity syndrome",
+    "istradefylline"
+   ],
+   [
+    "X-linked parkinsonism-spasticity syndrome",
+    "levodopa"
+   ],
+   [
+    "X-linked parkinsonism-spasticity syndrome",
+    "opicapone"
+   ],
+   [
+    "X-linked parkinsonism-spasticity syndrome",
+    "pimavanserin"
+   ],
+   [
+    "X-linked parkinsonism-spasticity syndrome",
+    "procyclidine"
+   ],
+   [
+    "X-linked parkinsonism-spasticity syndrome",
+    "rasagiline"
+   ],
+   [
+    "X-linked parkinsonism-spasticity syndrome",
+    "ropinirole"
+   ],
+   [
+    "X-linked parkinsonism-spasticity syndrome",
+    "safinamide"
+   ],
+   [
+    "absence epilepsy",
+    "acetazolamide"
+   ],
+   [
+    "absence epilepsy",
+    "clonazepam"
+   ],
+   [
+    "absence epilepsy",
+    "methsuximide"
+   ],
+   [
+    "atypical juvenile parkinsonism",
+    "apomorphine"
+   ],
+   [
+    "atypical juvenile parkinsonism",
+    "bromocriptine"
+   ],
+   [
+    "atypical juvenile parkinsonism",
+    "cycrimine"
+   ],
+   [
+    "atypical juvenile parkinsonism",
+    "istradefylline"
+   ],
+   [
+    "atypical juvenile parkinsonism",
+    "levodopa"
+   ],
+   [
+    "atypical juvenile parkinsonism",
+    "trihexyphenidyl"
+   ],
+   [
+    "autoimmune thrombocytopenic",
+    "cortisone acetate"
+   ],
+   [
+    "autoimmune thrombocytopenic",
+    "dexamethasone"
+   ],
+   [
+    "beta thalassemia",
+    "deferiprone"
+   ],
+   [
+    "beta thalassemia",
+    "luspatercept"
+   ],
+   [
+    "beta-thalassemia intermedia",
+    "deferasirox"
+   ],
+   [
+    "beta-thalassemia intermedia",
+    "luspatercept"
+   ],
+   [
+    "cerebrotendinous xanthomatosis",
+    "cholic acid"
+   ],
+   [
+    "cystinuria",
+    "penicillamine"
+   ],
+   [
+    "early-onset parkinsonism-intellectual disability syndrome",
+    "apomorphine"
+   ],
+   [
+    "early-onset parkinsonism-intellectual disability syndrome",
+    "cycrimine"
+   ],
+   [
+    "early-onset parkinsonism-intellectual disability syndrome",
+    "droxidopa"
+   ],
+   [
+    "early-onset parkinsonism-intellectual disability syndrome",
+    "rotigotine"
+   ],
+   [
+    "familial Mediterranean fever",
+    "canakinumab"
+   ],
+   [
+    "familial glucocorticoid deficiency",
+    "cortisone acetate"
+   ],
+   [
+    "familial glucocorticoid deficiency",
+    "methylprednisolone"
+   ],
+   [
+    "familial glucocorticoid deficiency",
+    "prednisolone"
+   ],
+   [
+    "familial glucocorticoid deficiency",
+    "prednisone"
+   ],
+   [
+    "familial hyperprolactinemia",
+    "cabergoline"
+   ],
+   [
+    "familial thyroid carcinoma",
+    "liothyronine"
+   ],
+   [
+    "galactosemia",
+    "tiopronin"
+   ],
+   [
+    "gastrointestinal stromal tumor",
+    "imatinib"
+   ],
+   [
+    "gastrointestinal stromal tumor",
+    "regorafenib"
+   ],
+   [
+    "hemophilia",
+    "eftrenonacog alfa"
+   ],
+   [
+    "hemophilia",
+    "emicizumab"
+   ],
+   [
+    "hemophilia",
+    "moroctocog alfa"
+   ],
+   [
+    "hereditary angioedema",
+    "betamethasone"
+   ],
+   [
+    "hereditary angioedema",
+    "hydrocortisone acetate"
+   ],
+   [
+    "hereditary angioedema",
+    "icatibant"
+   ],
+   [
+    "hereditary angioedema",
+    "methylprednisolone"
+   ],
+   [
+    "hereditary angioedema",
+    "prednisolone"
+   ],
+   [
+    "hereditary angioedema",
+    "stanozolol"
+   ],
+   [
+    "hereditary breast ovarian cancer syndrome",
+    "carboplatin"
+   ],
+   [
+    "hereditary breast ovarian cancer syndrome",
+    "doxorubicin"
+   ],
+   [
+    "hereditary breast ovarian cancer syndrome",
+    "olaparib"
+   ],
+   [
+    "hereditary breast ovarian cancer syndrome",
+    "thiotepa"
+   ],
+   [
+    "hereditary late onset Parkinson disease",
+    "amantadine"
+   ],
+   [
+    "hereditary late onset Parkinson disease",
+    "droxidopa"
+   ],
+   [
+    "hereditary late onset Parkinson disease",
+    "istradefylline"
+   ],
+   [
+    "hereditary late onset Parkinson disease",
+    "ropinirole"
+   ],
+   [
+    "hereditary late onset Parkinson disease",
+    "safinamide"
+   ],
+   [
+    "hereditary late onset Parkinson disease",
+    "selegiline"
+   ],
+   [
+    "homozygous familial hypercholesterolemia",
+    "atorvastatin"
+   ],
+   [
+    "homozygous familial hypercholesterolemia",
+    "evolocumab"
+   ],
+   [
+    "hyperammonemia due to N-acetylglutamate synthase deficiency",
+    "glycerol phenylbutyrate"
+   ],
+   [
+    "hyperargininemia",
+    "glycerol phenylbutyrate"
+   ],
+   [
+    "hyperparathyroidism",
+    "alfacalcidol"
+   ],
+   [
+    "hypoalphalipoproteinemia",
+    "fenofibrate"
+   ],
+   [
+    "hypogonadotropic hypogonadism with or without anosmia",
+    "testosterone"
+   ],
+   [
+    "hypoparathyroidism",
+    "ergocalciferol"
+   ],
+   [
+    "inherited acute myeloid leukemia",
+    "daunorubicin"
+   ],
+   [
+    "inherited acute myeloid leukemia",
+    "decitabine"
+   ],
+   [
+    "inherited acute myeloid leukemia",
+    "gilteritinib"
+   ],
+   [
+    "inherited acute myeloid leukemia",
+    "midostaurin"
+   ],
+   [
+    "inherited acute myeloid leukemia",
+    "quizartinib"
+   ],
+   [
+    "inherited isolated adrenal insufficiency due to partial CYP11A1 deficiency",
+    "prednisone"
+   ],
+   [
+    "juvenile Paget disease",
+    "alendronic acid"
+   ],
+   [
+    "juvenile Paget disease",
+    "etidronic acid"
+   ],
+   [
+    "juvenile Paget disease",
+    "tiludronic acid"
+   ],
+   [
+    "kidney Wilms tumor",
+    "dactinomycin"
+   ],
+   [
+    "kidney Wilms tumor",
+    "doxorubicin"
+   ],
+   [
+    "myeloid leukemia",
+    "azacitidine"
+   ],
+   [
+    "myeloid leukemia",
+    "enasidenib"
+   ],
+   [
+    "myeloid leukemia",
+    "gilteritinib"
+   ],
+   [
+    "myeloid leukemia",
+    "ivosidenib"
+   ],
+   [
+    "myeloid leukemia",
+    "mitoxantrone"
+   ],
+   [
+    "myelomonocytic leukemia",
+    "arsenic trioxide"
+   ],
+   [
+    "narcolepsy",
+    "armodafinil"
+   ],
+   [
+    "narcolepsy",
+    "methylphenidate"
+   ],
+   [
+    "narcolepsy",
+    "solriamfetol"
+   ],
+   [
+    "orthostatic hypotension",
+    "midodrine"
+   ],
+   [
+    "ovarian cancer",
+    "doxorubicin"
+   ],
+   [
+    "ovarian cancer",
+    "melphalan"
+   ],
+   [
+    "ovarian cancer",
+    "paclitaxel"
+   ],
+   [
+    "parkinsonian-pyramidal syndrome",
+    "amantadine"
+   ],
+   [
+    "parkinsonian-pyramidal syndrome",
+    "biperiden"
+   ],
+   [
+    "parkinsonian-pyramidal syndrome",
+    "droxidopa"
+   ],
+   [
+    "parkinsonian-pyramidal syndrome",
+    "safinamide"
+   ],
+   [
+    "parkinsonian-pyramidal syndrome",
+    "trihexyphenidyl"
+   ],
+   [
+    "patent ductus arteriosus",
+    "indomethacin"
+   ],
+   [
+    "primary intraosseous venous malformation",
+    "propranolol"
+   ],
+   [
+    "pulmonary venoocclusive disease",
+    "propranolol"
+   ],
+   [
+    "severe congenital neutropenia",
+    "filgrastim"
+   ],
+   [
+    "small cell lung carcinoma",
+    "doxorubicin"
+   ],
+   [
+    "small cell lung carcinoma",
+    "topotecan"
+   ],
+   [
+    "squamous cell carcinoma",
+    "cemiplimab"
+   ],
+   [
+    "squamous cell carcinoma",
+    "temoporfin"
+   ],
+   [
+    "symptomatic form of hemophilia in female carriers",
+    "efmoroctocog alfa"
+   ],
+   [
+    "symptomatic form of hemophilia in female carriers",
+    "turoctocog alfa"
+   ],
+   [
+    "symptomatic form of hemophilia in female carriers",
+    "turoctocog alfa pegol"
+   ],
+   [
+    "systemic lupus erythematosus (disease)",
+    "betamethasone"
+   ],
+   [
+    "systemic lupus erythematosus (disease)",
+    "cortisone acetate"
+   ],
+   [
+    "systemic lupus erythematosus (disease)",
+    "hydrocortisone"
+   ],
+   [
+    "systemic lupus erythematosus (disease)",
+    "hydroxychloroquine"
+   ],
+   [
+    "systemic lupus erythematosus (disease)",
+    "prednisone"
+   ],
+   [
+    "systemic lupus erythematosus (disease)",
+    "triamcinolone"
+   ],
+   [
+    "temporal arteritis",
+    "tocilizumab"
+   ],
+   [
+    "temporal arteritis",
+    "triamcinolone"
+   ],
+   [
+    "testicular germ cell tumor",
+    "vinblastine"
+   ],
+   [
+    "thrombocythemia",
+    "anagrelide"
+   ],
+   [
+    "thyroid gland carcinoma",
+    "lenvatinib"
+   ],
+   [
+    "thyroid gland carcinoma",
+    "vandetanib"
+   ],
+   [
+    "von Willebrand disease",
+    "desmopressin"
+   ]
+  ],
+  "seed": 20261015
+ },
+ "Q3_labels": {
+  "a_reading": {
+   "class_counts": {
+    "informative_label_too_strict": 2,
+    "label_looks_right": 9,
+    "uninformative": 18
+   },
+   "pool": {
+    "n_gold_positive_pairs_with_items": 159,
+    "n_one_per_pair": 21,
+    "n_pairs_no_yes_from_either_annotator": 21,
+    "n_sentences_in_pool_pairs": 66
+   },
+   "reader": "the assistant (audit opinion, not ground truth); the pairs are known to be gold-positive, which may bias the reading toward 'informative'",
+   "rows": [
+    {
+     "class": "uninformative",
+     "disease": "chondrocalcinosis",
+     "drug": "methylprednisolone",
+     "id": "dev-02504",
+     "opus": [
+      "no",
+      "harm"
+     ],
+     "reason": "drug only induces an osteonecrosis rat model",
+     "sentence": "Consistently, in rat ONFH models induced by methylprednisolone (MPSL) and imiquimod (IMI), significant bone loss in the femoral head was observed, attributable to increased numbers of TRAP positive osteoclasts.",
+     "sonnet": [
+      "no",
+      "harm"
+     ]
+    },
+    {
+     "class": "label_looks_right",
+     "disease": "tufted angioma (disease)",
+     "drug": "propranolol",
+     "id": "dev-04858",
+     "opus": [
+      "unclear",
+      "unclear"
+     ],
+     "reason": "treatments listed for a patient but no condition named in the sentence",
+     "sentence": "She had pericardial effusion at the neonatal age that required pericardiocentesis, propranolol, and corticosteroids.",
+     "sonnet": [
+      "unclear",
+      "unclear"
+     ]
+    },
+    {
+     "class": "uninformative",
+     "disease": "juvenile Paget disease",
+     "drug": "risedronic acid",
+     "id": "dev-05568",
+     "opus": [
+      "no",
+      "benefit"
+     ],
+     "reason": "drug acts on osteosarcoma growth, not on the disease",
+     "sentence": "In addition, risedronic acid inhibited osteosarcoma growth at both cellular and molecular levels.",
+     "sonnet": [
+      "no",
+      "benefit"
+     ]
+    },
+    {
+     "class": "uninformative",
+     "disease": "kidney Wilms tumor",
+     "drug": "doxorubicin",
+     "id": "dev-00682",
+     "opus": [
+      "no",
+      "harm"
+     ],
+     "reason": "doxorubicin resistance in colorectal cancer, other disease",
+     "sentence": "This work aims to elucidate the mechanism of thyroid hormone receptor interactor 13 (TRIP13) affecting doxorubicin (DOX) resistance in colorectal cancer (CRC).",
+     "sonnet": [
+      "no",
+      "harm"
+     ]
+    },
+    {
+     "class": "label_looks_right",
+     "disease": "Alzheimer disease",
+     "drug": "donepezil",
+     "id": "dev-07580",
+     "opus": [
+      "unclear",
+      "unclear"
+     ],
+     "reason": "donepezil is only the positive-control group of a herbal test",
+     "sentence": "APP/PS1 mice of approximately nine months old were randomly divided into the model group, the low, medium, and high(2.5, 5, and 10 g·kg~(-1)) groups of Huanglian Jiedu Decoction, and 0.75 mg·kg~(-1) donepezil hydrochloride group, and the C57BL/6J mice with the same age were taken as the normal group.",
+     "sonnet": [
+      "no",
+      "unclear"
+     ]
+    },
+    {
+     "class": "label_looks_right",
+     "disease": "Dravet syndrome",
+     "drug": "cannabidiol",
+     "id": "dev-00350",
+     "opus": [
+      "unclear",
+      "unclear"
+     ],
+     "reason": "drug is a treatment of the mice, but the sentence reports a miRNA screen",
+     "sentence": "Here we show that genome-wide miRNA screening of hippocampal tissue from a rat epilepsy model, mice treated with the antiseizure medicine cannabidiol, and plasma from patients with treatment-resistant epilepsy, converge on a single target-miR-335-5p.",
+     "sonnet": [
+      "no",
+      "unclear"
+     ]
+    },
+    {
+     "class": "uninformative",
+     "disease": "parkinsonian-pyramidal syndrome",
+     "drug": "apomorphine",
+     "id": "dev-03122",
+     "opus": [
+      "no",
+      "unclear"
+     ],
+     "reason": "apomorphine used as a tool to induce rotation",
+     "sentence": "The mPFF-injected A53T BAC-SNCA Tg mice showed a 38% reduction in tyrosine hydroxylase (TH)-positive neurons in the ipsilateral SNpc, apomorphine-induced rotational behavior, and motor dysfunction at 2 months post-injection.",
+     "sonnet": [
+      "no",
+      "unclear"
+     ]
+    },
+    {
+     "class": "label_looks_right",
+     "disease": "homozygous familial hypercholesterolemia",
+     "drug": "atorvastatin",
+     "id": "dev-00007",
+     "opus": [
+      "unclear",
+      "benefit"
+     ],
+     "reason": "cholesterol-lowering combination in a mouse, disease not stated",
+     "sentence": "APOE∗3-Leiden.CETP mice orally treated with NYX-PCSK9i demonstrated a dose-dependent decrease in plasma total cholesterol of up to 57%, while its combination with atorvastatin additively suppressed plasma total cholesterol levels.",
+     "sonnet": [
+      "unclear",
+      "benefit"
+     ]
+    },
+    {
+     "class": "uninformative",
+     "disease": "Lennox-Gastaut syndrome",
+     "drug": "clonazepam",
+     "id": "dev-05567",
+     "opus": [
+      "no",
+      "no_effect"
+     ],
+     "reason": "patient with another movement disorder resistant to clonazepam",
+     "sentence": "In 2018 she experienced worsening of tremor and developed painful dystonic attacks, resistant to treatments including clonazepam, trihexyphenidyl, baclofen, and levodopa/benserazide.",
+     "sonnet": [
+      "no",
+      "no_effect"
+     ]
+    },
+    {
+     "class": "uninformative",
+     "disease": "familial thyroid carcinoma",
+     "drug": "levothyroxine",
+     "id": "dev-05291",
+     "opus": [
+      "no",
+      "unclear"
+     ],
+     "reason": "levothyroxine for hypothyroidism, a different disease",
+     "sentence": "Levothyroxine (LT4) serves as the standard hypothyroidism treatment, with required dosages influenced by the severity of the individual's disorder, which varies widely among affected individuals.",
+     "sonnet": [
+      "no",
+      "unclear"
+     ]
+    },
+    {
+     "class": "uninformative",
+     "disease": "thyroid gland carcinoma",
+     "drug": "vandetanib",
+     "id": "dev-07273",
+     "opus": [
+      "no",
+      "benefit"
+     ],
+     "reason": "RET-fusion lung cancer trials, a different disease",
+     "sentence": "Recent clinical trials for RET fusion-positive NSCLC using vandetanib or cabozantinib demonstrated positive clinical response and considerable differential activities for RET inhibitors among fusion partners.",
+     "sonnet": [
+      "no",
+      "benefit"
+     ]
+    },
+    {
+     "class": "label_looks_right",
+     "disease": "inherited acute myeloid leukemia",
+     "drug": "daunorubicin",
+     "id": "dev-04223",
+     "opus": [
+      "no",
+      "unclear"
+     ],
+     "reason": "drug is a perturbation in a Western-blot assay on cell lines",
+     "sentence": "Western blot was used to determine the changes of the expression of CEBPA protein in K562 CEBPA p30, U937 and MOLM-13 cell lines before and after treatments with HHT, daunorubicin (DNR) or cytarabine (Ara-C).",
+     "sonnet": [
+      "no",
+      "unclear"
+     ]
+    },
+    {
+     "class": "uninformative",
+     "disease": "inherited isolated adrenal insufficiency due to partial CYP11A1 deficiency",
+     "drug": "dexamethasone",
+     "id": "dev-01790",
+     "opus": [
+      "no",
+      "harm"
+     ],
+     "reason": "rat reproductive toxicity model",
+     "sentence": "Physiological roles of propolis and red ginseng nanoplatforms in alleviating dexamethasone-induced male reproductive challenges in a rat model.",
+     "sonnet": [
+      "no",
+      "harm"
+     ]
+    },
+    {
+     "class": "informative_label_too_strict",
+     "disease": "inherited acute myeloid leukemia",
+     "drug": "mitoxantrone",
+     "id": "dev-00061",
+     "opus": [
+      "unclear",
+      "unclear"
+     ],
+     "reason": "APL (an AML subtype) treated with mitoxantrone with remission reported; drug evaluated as leukaemia therapy",
+     "sentence": "Interventions Complete remission of APL was achieved after all-trans retinoic acid and arsenic trioxide double induction therapy, followed by 2 cycles of mitoxantrone and cytarabine, and 1 cycle of idarubicin and cytarabine.",
+     "sonnet": [
+      "unclear",
+      "benefit"
+     ]
+    },
+    {
+     "class": "uninformative",
+     "disease": "inherited acute myeloid leukemia",
+     "drug": "doxorubicin",
+     "id": "dev-01240",
+     "opus": [
+      "no",
+      "unclear"
+     ],
+     "reason": "liver cancer cells under glucose starvation",
+     "sentence": "ACSL4 is essential for HCC cell survival in response to glucose starvation, rather than to hypoxia or to the combination of hypoxia with doxorubicin or cisplatin.",
+     "sonnet": [
+      "no",
+      "unclear"
+     ]
+    },
+    {
+     "class": "uninformative",
+     "disease": "familial isolated deficiency of vitamin E",
+     "drug": "vitamin e",
+     "id": "dev-06235",
+     "opus": [
+      "no",
+      "unclear"
+     ],
+     "reason": "title of a family report; vitamin E is the deficient nutrient, no treatment",
+     "sentence": "Ataxia with isolated vitamin E deficiency: a Japanese family carrying a novel mutation in the alpha-tocopherol transfer protein gene.",
+     "sonnet": [
+      "no",
+      "unclear"
+     ]
+    },
+    {
+     "class": "uninformative",
+     "disease": "temporal arteritis",
+     "drug": "tocilizumab",
+     "id": "dev-05360",
+     "opus": [
+      "no",
+      "unclear"
+     ],
+     "reason": "rheumatoid arthritis cohort, a different disease",
+     "sentence": "We recruited 106 patients with active RA who had started abatacept, tocilizumab, or TNF inhibitors as a first-line bDMARDs.",
+     "sonnet": [
+      "no",
+      "unclear"
+     ]
+    },
+    {
+     "class": "label_looks_right",
+     "disease": "temporal arteritis",
+     "drug": "prednisolone",
+     "id": "dev-01879",
+     "opus": [
+      "unclear",
+      "benefit"
+     ],
+     "reason": "treatment effect stated but the condition is the abbreviation SAT, not the item disease",
+     "sentence": "Prednisolone treatment was effective for SAT.",
+     "sonnet": [
+      "no",
+      "benefit"
+     ]
+    },
+    {
+     "class": "informative_label_too_strict",
+     "disease": "Lennox-Gastaut syndrome",
+     "drug": "clobazam",
+     "id": "dev-05724",
+     "opus": [
+      "unclear",
+      "no_effect"
+     ],
+     "reason": "clobazam named among drugs that failed to control the seizures of a patient; a null treatment result in an epilepsy; Sonnet no looks strict",
+     "sentence": "Despite treating the seizures with multiple antiepileptic drugs, including phenytoin, sodium valproate, levetiracetam, perampanel, and clobazam, it was very difficult to control the seizures, and genetic testing was suggested.",
+     "sonnet": [
+      "no",
+      "no_effect"
+     ]
+    },
+    {
+     "class": "label_looks_right",
+     "disease": "Lennox-Gastaut syndrome",
+     "drug": "topiramate",
+     "id": "dev-04586",
+     "opus": [
+      "unclear",
+      "unclear"
+     ],
+     "reason": "drug list for an unspecified condition",
+     "sentence": "Treatment includes antiepileptics such as lamotrigine, valproate or topiramate, calcium blockers such as flunarizine or verapamil and acetazolamide.",
+     "sonnet": [
+      "unclear",
+      "unclear"
+     ]
+    },
+    {
+     "class": "uninformative",
+     "disease": "X-linked adrenal hypoplasia congenita",
+     "drug": "dexamethasone",
+     "id": "dev-00961",
+     "opus": [
+      "no",
+      "unclear"
+     ],
+     "reason": "stallion testes gene expression",
+     "sentence": "Dexamethasone downregulates expression of several genes encoding orphan nuclear receptors that are important to steroidogenesis in stallion testes.",
+     "sonnet": [
+      "no",
+      "unclear"
+     ]
+    },
+    {
+     "class": "uninformative",
+     "disease": "familial isolated deficiency of vitamin E",
+     "drug": "vitamin e",
+     "id": "dev-03491",
+     "opus": [
+      "no",
+      "unclear"
+     ],
+     "reason": "title of a case report; vitamin E not given as treatment",
+     "sentence": "[Clinical and genetic analysis of a patient with Ataxia and vitamin E deficiency due to homozygous variant of TTPA gene].",
+     "sonnet": [
+      "no",
+      "unclear"
+     ]
+    },
+    {
+     "class": "uninformative",
+     "disease": "familial isolated deficiency of vitamin E",
+     "drug": "vitamin e",
+     "id": "dev-03596",
+     "opus": [
+      "no",
+      "unclear"
+     ],
+     "reason": "basic biology of vitamin E trafficking",
+     "sentence": "The tocopherol transfer protein mediates vitamin E trafficking between cerebellar astrocytes and neurons.",
+     "sonnet": [
+      "no",
+      "unclear"
+     ]
+    },
+    {
+     "class": "uninformative",
+     "disease": "X-linked adrenal hypoplasia congenita",
+     "drug": "dexamethasone",
+     "id": "dev-04830",
+     "opus": [
+      "no",
+      "unclear"
+     ],
+     "reason": "stallion testes sampling",
+     "sentence": "Stallions treated with the synthetic glucocorticoid dexamethasone had testes collected at 6 or 12 hours postinjection.",
+     "sonnet": [
+      "no",
+      "unclear"
+     ]
+    },
+    {
+     "class": "uninformative",
+     "disease": "kidney Wilms tumor",
+     "drug": "doxorubicin",
+     "id": "dev-02889",
+     "opus": [
+      "no",
+      "harm"
+     ],
+     "reason": "colorectal cancer cell stemness",
+     "sentence": "TRIP13 Activates Glycolysis to Promote Cell Stemness and Strengthen Doxorubicin Resistance of Colorectal Cancer Cells.",
+     "sonnet": [
+      "no",
+      "harm"
+     ]
+    },
+    {
+     "class": "uninformative",
+     "disease": "inherited isolated adrenal insufficiency due to partial CYP11A1 deficiency",
+     "drug": "dexamethasone",
+     "id": "dev-05386",
+     "opus": [
+      "no",
+      "harm"
+     ],
+     "reason": "dexamethasone as the toxicant in rats",
+     "sentence": "Objective This study evaluated the efficiency of red ginseng and propolis, either in powder or as nano-forms against dexamethasone-induced testicular oxidative challenges in adult male albino rats.",
+     "sonnet": [
+      "no",
+      "harm"
+     ]
+    },
+    {
+     "class": "uninformative",
+     "disease": "inherited isolated adrenal insufficiency due to partial CYP11A1 deficiency",
+     "drug": "dexamethasone",
+     "id": "dev-03591",
+     "opus": [
+      "no",
+      "unclear"
+     ],
+     "reason": "cell-clock experiment, dexamethasone as synchroniser",
+     "sentence": "We also demonstrated that dexamethasone synchronization in KGN cells enhanced the rhythmic alterations in circadian clock genes.",
+     "sonnet": [
+      "no",
+      "unclear"
+     ]
+    },
+    {
+     "class": "label_looks_right",
+     "disease": "homozygous familial hypercholesterolemia",
+     "drug": "atorvastatin",
+     "id": "dev-01686",
+     "opus": [
+      "no",
+      "unclear"
+     ],
+     "reason": "atorvastatin is the comparator in an assay of other compounds",
+     "sentence": "The efficacies of the hypolipidemic effects of allicin (200 µM) and capsaicin (200 µM) were comparable to that of atorvastatin (10 µM) in this study.",
+     "sonnet": [
+      "no",
+      "unclear"
+     ]
+    },
+    {
+     "class": "label_looks_right",
+     "disease": "homozygous familial hypercholesterolemia",
+     "drug": "atorvastatin",
+     "id": "dev-05371",
+     "opus": [
+      "unclear",
+      "benefit"
+     ],
+     "reason": "synergy with a statin in a cholesterol model, familial disease not tied",
+     "sentence": "Notably, piperines demonstrated synergistic beneficial effects with atorvastatin or ezetimibe, which are two widely used hypocholesterolemic and anti-atherosclerotic drugs.",
+     "sonnet": [
+      "unclear",
+      "benefit"
+     ]
+    }
+   ]
+  },
+  "b_crosstabs": {
+   "gold_positive_pairs": {
+    "direction": {
+     "agreement": 0.9178082191780822,
+     "kappa": 0.855331508075809,
+     "n": 803,
+     "rows_first_columns_second": {
+      "benefit": {
+       "benefit": 254,
+       "harm": 0,
+       "no_effect": 0,
+       "unclear": 5
+      },
+      "harm": {
+       "benefit": 0,
+       "harm": 47,
+       "no_effect": 1,
+       "unclear": 10
+      },
+      "no_effect": {
+       "benefit": 0,
+       "harm": 1,
+       "no_effect": 23,
+       "unclear": 2
+      },
+      "unclear": {
+       "benefit": 44,
+       "harm": 0,
+       "no_effect": 3,
+       "unclear": 413
+      }
+     }
+    },
+    "n_items": 803,
+    "relevance": {
+     "agreement": 0.5529265255292652,
+     "kappa": 0.3499046089870511,
+     "n": 803,
+     "rows_first_columns_second": {
+      "no": {
+       "no": 147,
+       "unclear": 10,
+       "yes": 12
+      },
+      "unclear": {
+       "no": 22,
+       "unclear": 36,
+       "yes": 311
+      },
+      "yes": {
+       "no": 2,
+       "unclear": 2,
+       "yes": 261
+      }
+     }
+    },
+    "share_yes": {
+     "opus": 0.3300124533001245,
+     "sonnet": 0.7272727272727273
+    },
+    "share_yes_both": 0.32503113325031135,
+    "share_yes_either": 0.7322540473225405
+   },
+   "other_pairs": {
+    "direction": {
+     "agreement": 0.9356160374597601,
+     "kappa": 0.8351142004259342,
+     "n": 6834,
+     "rows_first_columns_second": {
+      "benefit": {
+       "benefit": 1028,
+       "harm": 1,
+       "no_effect": 2,
+       "unclear": 60
+      },
+      "harm": {
+       "benefit": 0,
+       "harm": 304,
+       "no_effect": 2,
+       "unclear": 38
+      },
+      "no_effect": {
+       "benefit": 0,
+       "harm": 3,
+       "no_effect": 86,
+       "unclear": 17
+      },
+      "unclear": {
+       "benefit": 237,
+       "harm": 68,
+       "no_effect": 12,
+       "unclear": 4976
+      }
+     }
+    },
+    "n_items": 6834,
+    "relevance": {
+     "agreement": 0.8306994439566872,
+     "kappa": 0.5524117902689475,
+     "n": 6834,
+     "rows_first_columns_second": {
+      "no": {
+       "no": 5126,
+       "unclear": 102,
+       "yes": 83
+      },
+      "unclear": {
+       "no": 186,
+       "unclear": 274,
+       "yes": 777
+      },
+      "yes": {
+       "no": 6,
+       "unclear": 3,
+       "yes": 277
+      }
+     }
+    },
+    "share_yes": {
+     "opus": 0.04184957565115598,
+     "sonnet": 0.16637401229148377
+    },
+    "share_yes_both": 0.0405326309628329,
+    "share_yes_either": 0.16769095697980685
+   }
+  },
+  "c_sensitivity": {
+   "0.03": {
+    "gold_positive": {
+     "S3_verified_sentence": 16.8,
+     "S4_relevance_yes_either": 13.8,
+     "S5_relevance_yes_both": 8.4,
+     "S6_yes_both_and_benefit": 3.4,
+     "S6b_yes_either_and_benefit": 7.0,
+     "benefit_direction_only": 8.6,
+     "opus_yes": 8.4,
+     "opus_yes_benefit": 3.4,
+     "sonnet_yes": 13.8,
+     "sonnet_yes_benefit": 7.0
+    },
+    "other": {
+     "S3_verified_sentence": 162.2,
+     "S4_relevance_yes_either": 36.4,
+     "S5_relevance_yes_both": 10.0,
+     "S6_yes_both_and_benefit": 4.2,
+     "S6b_yes_either_and_benefit": 16.8,
+     "benefit_direction_only": 36.6,
+     "opus_yes": 10.2,
+     "opus_yes_benefit": 4.2,
+     "sonnet_yes": 36.2,
+     "sonnet_yes_benefit": 16.8
+    }
+   },
+   "0.1": {
+    "gold_positive": {
+     "S3_verified_sentence": 38.8,
+     "S4_relevance_yes_either": 32.2,
+     "S5_relevance_yes_both": 17.0,
+     "S6_yes_both_and_benefit": 8.2,
+     "S6b_yes_either_and_benefit": 16.0,
+     "benefit_direction_only": 18.0,
+     "opus_yes": 17.2,
+     "opus_yes_benefit": 8.2,
+     "sonnet_yes": 32.0,
+     "sonnet_yes_benefit": 16.0
+    },
+    "other": {
+     "S3_verified_sentence": 404.2,
+     "S4_relevance_yes_either": 82.8,
+     "S5_relevance_yes_both": 20.4,
+     "S6_yes_both_and_benefit": 7.8,
+     "S6b_yes_either_and_benefit": 41.8,
+     "benefit_direction_only": 90.0,
+     "opus_yes": 21.0,
+     "opus_yes_benefit": 8.2,
+     "sonnet_yes": 82.2,
+     "sonnet_yes_benefit": 41.4
+    }
+   },
+   "1.0": {
+    "gold_positive": {
+     "S3_verified_sentence": 159.0,
+     "S4_relevance_yes_either": 138.0,
+     "S5_relevance_yes_both": 77.0,
+     "S6_yes_both_and_benefit": 37.0,
+     "S6b_yes_either_and_benefit": 74.0,
+     "benefit_direction_only": 82.0,
+     "opus_yes": 78.0,
+     "opus_yes_benefit": 37.0,
+     "sonnet_yes": 137.0,
+     "sonnet_yes_benefit": 74.0
+    },
+    "other": {
+     "S3_verified_sentence": 2258.0,
+     "S4_relevance_yes_either": 545.0,
+     "S5_relevance_yes_both": 156.0,
+     "S6_yes_both_and_benefit": 78.0,
+     "S6b_yes_either_and_benefit": 282.0,
+     "benefit_direction_only": 644.0,
+     "opus_yes": 162.0,
+     "opus_yes_benefit": 79.0,
+     "sonnet_yes": 540.0,
+     "sonnet_yes_benefit": 281.0
+    }
+   }
+  },
+  "d_v2_pilot": {
+   "n_items": 800,
+   "opus_vs_sonnet_direction": {
+    "v1": {
+     "agreement": 0.94625,
+     "kappa": 0.8730828687699,
+     "n": 800,
+     "rows_first_columns_second": {
+      "benefit": {
+       "benefit": 125,
+       "harm": 0,
+       "no_effect": 0,
+       "unclear": 8
+      },
+      "harm": {
+       "benefit": 0,
+       "harm": 51,
+       "no_effect": 0,
+       "unclear": 5
+      },
+      "no_effect": {
+       "benefit": 0,
+       "harm": 0,
+       "no_effect": 14,
+       "unclear": 3
+      },
+      "unclear": {
+       "benefit": 19,
+       "harm": 7,
+       "no_effect": 1,
+       "unclear": 567
+      }
+     }
+    },
+    "v2": {
+     "agreement": 0.94375,
+     "kappa": 0.8662023392291025,
+     "n": 800,
+     "rows_first_columns_second": {
+      "benefit": {
+       "benefit": 128,
+       "harm": 0,
+       "no_effect": 0,
+       "unclear": 7
+      },
+      "harm": {
+       "benefit": 0,
+       "harm": 44,
+       "no_effect": 0,
+       "unclear": 8
+      },
+      "no_effect": {
+       "benefit": 0,
+       "harm": 1,
+       "no_effect": 15,
+       "unclear": 1
+      },
+      "unclear": {
+       "benefit": 19,
+       "harm": 8,
+       "no_effect": 1,
+       "unclear": 568
+      }
+     }
+    }
+   },
+   "opus_vs_sonnet_relevance": {
+    "v1": {
+     "agreement": 0.84375,
+     "kappa": 0.6246048966537281,
+     "n": 800,
+     "rows_first_columns_second": {
+      "no": {
+       "no": 579,
+       "unclear": 9,
+       "yes": 8
+      },
+      "unclear": {
+       "no": 20,
+       "unclear": 39,
+       "yes": 86
+      },
+      "yes": {
+       "no": 1,
+       "unclear": 1,
+       "yes": 57
+      }
+     }
+    },
+    "v2": {
+     "agreement": 0.93625,
+     "kappa": 0.8511171685988593,
+     "n": 800,
+     "rows_first_columns_second": {
+      "no": {
+       "no": 566,
+       "unclear": 13,
+       "yes": 5
+      },
+      "unclear": {
+       "no": 9,
+       "unclear": 142,
+       "yes": 20
+      },
+      "yes": {
+       "no": 0,
+       "unclear": 4,
+       "yes": 41
+      }
+     }
+    }
+   },
+   "per_annotator_v1_vs_v2": {
+    "opus": {
+     "direction": {
+      "agreement": 0.9775,
+      "kappa": 0.9456234423381921,
+      "n": 800,
+      "rows_first_columns_second": {
+       "benefit": {
+        "benefit": 130,
+        "harm": 0,
+        "no_effect": 0,
+        "unclear": 3
+       },
+       "harm": {
+        "benefit": 0,
+        "harm": 49,
+        "no_effect": 0,
+        "unclear": 7
+       },
+       "no_effect": {
+        "benefit": 0,
+        "harm": 0,
+        "no_effect": 17,
+        "unclear": 0
+       },
+       "unclear": {
+        "benefit": 5,
+        "harm": 3,
+        "no_effect": 0,
+        "unclear": 586
+       }
+      }
+     },
+     "relevance": {
+      "agreement": 0.9475,
+      "kappa": 0.8729611397200608,
+      "n": 800,
+      "rows_first_columns_second": {
+       "no": {
+        "no": 578,
+        "unclear": 16,
+        "yes": 2
+       },
+       "unclear": {
+        "no": 4,
+        "unclear": 139,
+        "yes": 2
+       },
+       "yes": {
+        "no": 2,
+        "unclear": 16,
+        "yes": 41
+       }
+      }
+     }
+    },
+    "sonnet": {
+     "direction": {
+      "agreement": 0.9575,
+      "kappa": 0.9011074511172678,
+      "n": 800,
+      "rows_first_columns_second": {
+       "benefit": {
+        "benefit": 137,
+        "harm": 0,
+        "no_effect": 0,
+        "unclear": 7
+       },
+       "harm": {
+        "benefit": 0,
+        "harm": 48,
+        "no_effect": 0,
+        "unclear": 10
+       },
+       "no_effect": {
+        "benefit": 0,
+        "harm": 1,
+        "no_effect": 14,
+        "unclear": 0
+       },
+       "unclear": {
+        "benefit": 10,
+        "harm": 4,
+        "no_effect": 2,
+        "unclear": 567
+       }
+      }
+     },
+     "relevance": {
+      "agreement": 0.83125,
+      "kappa": 0.6104500384139546,
+      "n": 800,
+      "rows_first_columns_second": {
+       "no": {
+        "no": 567,
+        "unclear": 29,
+        "yes": 4
+       },
+       "unclear": {
+        "no": 5,
+        "unclear": 40,
+        "yes": 4
+       },
+       "yes": {
+        "no": 3,
+        "unclear": 90,
+        "yes": 58
+       }
+      }
+     }
+    }
+   },
+   "relevance_disagreement": {
+    "kept_in_v2": 23,
+    "newly_created_by_v2": 28,
+    "removed_by_v2": 102,
+    "share_of_v1_disagreement_removed_net": 0.5920000000000001,
+    "v1_items": 125,
+    "v2_items": 51
+   },
+   "yes_counts": {
+    "v1": {
+     "opus_yes": 59,
+     "sonnet_yes": 151,
+     "yes_both": 57,
+     "yes_either": 153
+    },
+    "v2": {
+     "opus_yes": 45,
+     "sonnet_yes": 66,
+     "yes_both": 41,
+     "yes_either": 70
+    }
+   }
+  }
+ },
+ "Q4_verdict": {
+  "computed": {
+   "direct_hits_also_matching_gene_clause_share_of_total": 0.1122158615379465,
+   "gold_positive_at_f0.03": {
+    "largest_absolute_loss": {
+     "from": "S0_candidate_pairs",
+     "lost_pairs": 447.6,
+     "retention": 0.03741935483870967,
+     "to": "S1a_drug_named_in_a_kept_paper"
+    },
+    "lowest_retention": {
+     "from": "S0_candidate_pairs",
+     "lost_pairs": 447.6,
+     "retention": 0.03741935483870967,
+     "to": "S1a_drug_named_in_a_kept_paper"
+    }
+   },
+   "gold_positive_at_f1.0": {
+    "largest_absolute_loss": {
+     "from": "S0_candidate_pairs",
+     "lost_pairs": 302.0,
+     "retention": 0.35053763440860214,
+     "to": "S1a_drug_named_in_a_kept_paper"
+    },
+    "lowest_retention": {
+     "from": "S0_candidate_pairs",
+     "lost_pairs": 302.0,
+     "retention": 0.35053763440860214,
+     "to": "S1a_drug_named_in_a_kept_paper"
+    }
+   },
+   "gold_positive_share_of_S0": {
+    "0.03": {
+     "S1a_drug_named_in_a_kept_paper": 0.03741935483870967,
+     "S1b_and_paper_has_disease_gene": 0.03612903225806452,
+     "S2_sentence_extracted": 0.03612903225806452,
+     "S3_verified_sentence": 0.03612903225806452,
+     "S4_relevance_yes_either": 0.02967741935483871,
+     "S5_relevance_yes_both": 0.01806451612903226,
+     "S6_yes_both_and_benefit": 0.007311827956989247,
+     "S6b_yes_either_and_benefit": 0.015053763440860216
+    },
+    "0.1": {
+     "S1a_drug_named_in_a_kept_paper": 0.08645161290322581,
+     "S1b_and_paper_has_disease_gene": 0.08344086021505376,
+     "S2_sentence_extracted": 0.08344086021505376,
+     "S3_verified_sentence": 0.08344086021505376,
+     "S4_relevance_yes_either": 0.069247311827957,
+     "S5_relevance_yes_both": 0.03655913978494624,
+     "S6_yes_both_and_benefit": 0.017634408602150535,
+     "S6b_yes_either_and_benefit": 0.034408602150537634
+    },
+    "1.0": {
+     "S1a_drug_named_in_a_kept_paper": 0.35053763440860214,
+     "S1b_and_paper_has_disease_gene": 0.3419354838709677,
+     "S2_sentence_extracted": 0.3419354838709677,
+     "S3_verified_sentence": 0.3419354838709677,
+     "S4_relevance_yes_either": 0.2967741935483871,
+     "S5_relevance_yes_both": 0.16559139784946236,
+     "S6_yes_both_and_benefit": 0.07956989247311828,
+     "S6b_yes_either_and_benefit": 0.15913978494623657
+    }
+   },
+   "label_strictness": {
+    "either_over_both_pairs_gold_positive_f0.03": 1.6428571428571428,
+    "either_over_both_pairs_gold_positive_f1.0": 1.7922077922077921,
+    "n_read": 29,
+    "reading_too_strict_share": 0.06896551724137931
+   },
+   "language": {
+    "explicit_non_english_share_first20_direct": 0.03706293706293706,
+    "explicit_non_english_share_retrieved": 0.01377181526771934,
+    "material_at_5_percent": false,
+    "note": "records with no language field are all preprints (source PPR) in the retrieved set and are not counted as non-English",
+    "unknown_language_share_retrieved": 0.11124302505045708
+   },
+   "pairs_zero_direct_hits": 57,
+   "recall_mean_first20": 0.0376524803469775,
+   "relaxation_mean_drug_disease_sentences": {
+    "R0_baseline": 0.11333333333333333,
+    "R1_sentence_cap_lifted": 0.11333333333333333,
+    "R2_paper_cap_lifted": 0.24666666666666667,
+    "R3_both_caps_lifted": 0.24666666666666667,
+    "R4_R3_no_gene_gate": 0.24666666666666667,
+    "R5_R3_drug_synonyms": 0.24666666666666667,
+    "R6a_direct_query_top10_INN": 4.086666666666667,
+    "R6b_direct_query_top10_synonyms": 3.9066666666666667,
+    "R7_union_R4_R5_R6b": 4.08
+   },
+   "relaxation_pairs_with_ge1_drug_disease_sentence": {
+    "R0_baseline": 11,
+    "R1_sentence_cap_lifted": 11,
+    "R2_paper_cap_lifted": 16,
+    "R3_both_caps_lifted": 16,
+    "R4_R3_no_gene_gate": 16,
+    "R5_R3_drug_synonyms": 16,
+    "R6a_direct_query_top10_INN": 77,
+    "R6b_direct_query_top10_synonyms": 80,
+    "R7_union_R4_R5_R6b": 80
+   },
+   "variants_meeting_major_artefact_rule": [
+    "R2_paper_cap_lifted",
+    "R3_both_caps_lifted",
+    "R4_R3_no_gene_gate",
+    "R5_R3_drug_synonyms",
+    "R6a_direct_query_top10_INN",
+    "R6b_direct_query_top10_synonyms",
+    "R7_union_R4_R5_R6b"
+   ]
+  },
+  "prose": [
+   "**Short answer.** The claim is right about the outcome and wrong about the cause. With the current construction the LLM features are almost empty at 3 % of the literature (gold-positive pairs with a counted relevant benefit sentence: 3.4 of 465, 0.7 %), but they are also nearly empty at 100 % of the literature (37 of 465, 8.0 %; 74 of 465, 15.9 % if either annotator may say yes). So the problem is not 'low volume'; thinning multiplies an already poor base. The base is poor mainly because of how papers are retrieved (ii), partly because some gold pairs really have little drug-and-disease literature (i), and only marginally because of label strictness (iii). Language and drug naming are not material losses.",
+   "**Where the pairs are lost (Q1, gold-positive, f = 1.0).** 465 candidate pairs -> 163 (35.1 %) have the drug named in any of the retrieved papers -> 159 have an extracted and verified sentence -> 138 have `yes` from either annotator -> 77 from both -> 37 with benefit direction. The largest single loss is the first step (302 pairs, retention 35 %); the extraction, the paper gate and the verification lose 4 pairs in total. At f = 0.03 the first step keeps 3.7 % of the pairs (17.4 of 465). Non-gold candidates behave the same way at the first step (57 % keep a mention at f = 1.0) but lose most pairs later, at the relevance step (545 of 2258 with a verified sentence have `yes` by either).",
+   "**(ii) Retrieval is the artefact.** The paper query pools the gene symbols of the disease only, with no disease term, no drug term and no language filter, and keeps the first 300 records with an abstract; 89 of 103 DEV diseases are at that cap and the 300 are a median 8.7 % of the gene-query hits. A direct `drug AND disease` query shows how far this is from the drug-and-disease literature: of the first 20 direct records only 3.8 % (mean over the 93 pairs that have hits) are among the 300 retrieved, and only 11 % of all direct hits (3352 of 29871) even contain a disease gene symbol, so 89 % cannot be reached by any gene-symbol query whatever the cap. On the 150 seeded gold-positive pairs the baseline gives 0.11 sentences per pair naming drug and disease (11 pairs, 7 %); the top-10 direct-query papers give 3.9 (80 pairs, 53 %), and 0.83 vs 0.03 sentences per pair that the rule extractor reads as evaluative (benefit or harm). Rules relaxed one at a time inside the existing retrieval change little: lifting the sentence cap adds nothing to drug-and-disease sentences; lifting the paper cap gives 0.25 vs 0.11 (16 vs 11 pairs; flagged 'major' by the doubling convention only because the base is tiny); removing the gene gate adds nothing; drug synonyms add nothing to drug-and-disease sentences (0.25).",
+   "**(i) Part of it is the literature.** 57 of the 150 gold-positive pairs (38 %) have zero direct hits for the drug AND the disease name or up to five of its synonyms in title or abstract (median 6.5 hits per pair). Some of these are rare diseases whose MONDO labels are not the words used in papers, so this is an upper bound on true absence, but for them no retrieval design will provide sentences; for those pairs the claim 'not testable' is correct. The 93 pairs with hits have a large literature (mean 199 hits over all 150 pairs, maximum 4177).",
+   "**(iii) Label strictness is minor for coverage.** On DEV gold-positive items Sonnet says `yes` for 72.7 % and Opus for 33.0 % (kappa 0.35, versus 0.55 for other pairs); `either` vs `both` changes the gold-positive pairs with a counted `yes` sentence from 77 to 138 at f = 1.0 (x1.8) and from 8.4 to 13.8 at f = 0.03 (x1.6), below the doubling convention. In my reading of the gold-positive pairs where neither annotator said `yes` (only 21 pairs; 29 sentences read, audit opinion) 18 sentences were uninformative, 9 labels looked right and 2 looked too strict (7 %), below the quarter threshold. The disagreement is mostly Opus `unclear` against Sonnet `yes` (311 items on gold-positive pairs). The v2 guideline removes 102 of 125 v1 disagreements on the 800 pilot items (kappa 0.62 -> 0.85) but creates 28 and does so by making Sonnet stricter (`yes` by either 153 -> 70, by both 57 -> 41), so it lowers coverage further. The much higher `yes` rate on gold-positive than on other pairs (either 73 % vs 17 %) is compatible with real signal in the sentences and with annotator knowledge of indications (parent S4); this audit cannot separate the two.",
+   "**Language and naming.** Explicit non-English records are 1.4 % of the 8423 retrieved records of 30 seeded diseases and 3.7 % of the first 20 direct records; 11 % of retrieved records have no language field and all are preprints, so they are not counted as non-English. Below the 5 % convention, not material. Drug naming: 2 of 202 gold-positive drugs have a non-plain project name; 104 have a project synonym (mostly ClinicalTrials.gov other names, so a lower bound); 16 (7.9 %) have sentences naming the drug only by a synonym, 19.5 % of the drug sentences of pairs with synonyms, but they add nothing to drug-and-disease sentences, so naming is not the bottleneck either.",
+   "**Recommendation (not implemented, nothing annotated).** The cheapest change with the largest gain is to retrieve per candidate pair instead of per disease: one Europe PMC query `drug (INN and synonyms) AND disease (name and a few synonyms)` for the first 10 to 20 records, and keep the sentences that name the drug (prefer those that also name the disease). Estimated gain from the 150-pair sample: pairs with at least one drug-and-disease sentence from 7 % to 53 %, sentences per pair from 0.11 to 3.9, i.e. about 7 times the pairs and 35 times the sentences. Cost: about one call per candidate pair (4442 DEV pairs, at most 4 requests per second), and about 4 more sentences per pair to annotate (about 17 thousand DEV items if the other pairs behave like gold-positive ones; fewer in practice). Low volume can then be simulated by keeping a fraction of each pair's own hits, which keeps the test meaningful for pairs with many hits; pairs with none stay empty, which is the true literature limit. Estimates come from gold-positive pairs only and count sentences, not relevant sentences; a second, much smaller lever is accepting `yes` by either annotator (x1.6 to x1.8 pairs), which does not address the 65 % of gold pairs never retrieved."
+  ]
+ },
+ "heldout_touched": false,
+ "label": "READ-ONLY, DEV-ONLY audit of the low-coverage claim (post hoc); no new annotation; opinion tables are audit readings, not ground truth",
+ "lock_file_created": false,
+ "n_dev_diseases": 103,
+ "n_items_dev": 7637,
+ "protocol": "protocol\\addendum_engine_v4_llm_audit.md",
+ "protocol_sha256": "bf6807148bc810aa2db12164f179c73891d880af1779b514ab5ff7cf46935475",
+ "seconds": 2841.6,
+ "seed": 20261015,
+ "unvalidated_registry": {
+  "direct_query_first_records": {
+   "conservative_default": 20,
+   "note": "recall measured on the first 20 records",
+   "status": "UNVALIDATED",
+   "value": 20
+  },
+  "direct_query_papers": {
+   "conservative_default": 10,
+   "note": "top 10 papers of the drug AND disease query",
+   "status": "UNVALIDATED",
+   "value": 10
+  },
+  "disease_terms_in_query": {
+   "conservative_default": 1,
+   "note": "name plus the shortest synonyms of the benchmark name set",
+   "status": "UNVALIDATED",
+   "value": 6
+  },
+  "inherited_constants": {
+   "conservative_default": "as parent",
+   "note": "parent registry",
+   "status": "UNVALIDATED",
+   "value": "top 30, 3 papers, 2 sentences, 300 records, year <= 2024"
+  },
+  "language_sample_diseases": {
+   "conservative_default": 30,
+   "note": "seeded sample",
+   "status": "UNVALIDATED",
+   "value": 30
+  },
+  "material_loss_rule": {
+   "conservative_default": "same",
+   "note": "audit convention",
+   "status": "UNVALIDATED",
+   "value": "relaxing one rule alone doubles drug+disease sentences per pair or adds >= 20 points of pairs with >= 1; language material if > 5 % non-English"
+  },
+  "salt_words": {
+   "conservative_default": [
+    "acetate",
+    "anhydrous",
+    "benzoate",
+    "besylate",
+    "bromide",
+    "calcium",
+    "carbonate",
+    "chloride",
+    "citrate",
+    "cypionate",
+    "decanoate",
+    "diacetate",
+    "dihydrate",
+    "dipropionate",
+    "free",
+    "fumarate",
+    "furoate",
+    "hcl",
+    "hydrate",
+    "hydrobromide",
+    "hydrochloride",
+    "lactate",
+    "magnesium",
+    "maleate",
+    "mesylate",
+    "monohydrate",
+    "nitrate",
+    "palmitate",
+    "phosphate",
+    "pivalate",
+    "potassium",
+    "propionate",
+    "sodium",
+    "succinate",
+    "sulfate",
+    "sulphate",
+    "tartrate",
+    "valerate"
+   ],
+   "note": "synonym rule 3",
+   "status": "UNVALIDATED",
+   "value": [
+    "acetate",
+    "anhydrous",
+    "benzoate",
+    "besylate",
+    "bromide",
+    "calcium",
+    "carbonate",
+    "chloride",
+    "citrate",
+    "cypionate",
+    "decanoate",
+    "diacetate",
+    "dihydrate",
+    "dipropionate",
+    "free",
+    "fumarate",
+    "furoate",
+    "hcl",
+    "hydrate",
+    "hydrobromide",
+    "hydrochloride",
+    "lactate",
+    "magnesium",
+    "maleate",
+    "mesylate",
+    "monohydrate",
+    "nitrate",
+    "palmitate",
+    "phosphate",
+    "pivalate",
+    "potassium",
+    "propionate",
+    "sodium",
+    "succinate",
+    "sulfate",
+    "sulphate",
+    "tartrate",
+    "valerate"
+   ]
+  },
+  "sample_gold_positive_pairs": {
+   "conservative_default": 150,
+   "note": "audit sample size fixed by the task",
+   "status": "UNVALIDATED",
+   "value": 150
+  },
+  "sentences_read": {
+   "conservative_default": 60,
+   "note": "audit reading size fixed by the task",
+   "status": "UNVALIDATED",
+   "value": 60
+  }
+ }
+}

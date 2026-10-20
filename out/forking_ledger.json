@@ -1,0 +1,138 @@
+{
+ "entries": [
+  {
+   "line": "A",
+   "result": "mean AUC 0.821 (0.801-0.839); ranking dominated by drugs that cause the phenotypes",
+   "status": "superseded",
+   "variant": "PrimeKG personalised PageRank, graph with drug_effect edges (first run)",
+   "when": "addendum 10",
+   "why_changed": "post hoc: side-effect edges removed after the ranking was read (amendment 2)"
+  },
+  {
+   "line": "A",
+   "result": "validation mean AUC 0.802; patient ranking in out/kg_query.json",
+   "status": "sensitivity",
+   "variant": "graph without drug-disease and drug_effect edges; patient query with 8 HPO terms (7 with a node)",
+   "when": "addendum 10"
+  },
+  {
+   "line": "A",
+   "result": "43 of 46 drugs of the real top 50 are in the top 50 of >= 5 % of random queries; fostamatinib is in the top 5 of 98.8 % of them",
+   "status": "primary",
+   "variant": "same graph; patient query without the parental term HP:0200067 (6 phenotype nodes), specificity against 500 degree-matched random queries",
+   "when": "addendum 11, E4/E5"
+  },
+  {
+   "line": "A",
+   "result": "Jaccard of the top 50 against the primary query between 0.89 and 1.00",
+   "status": "sensitivity",
+   "variant": "term ablation (each of 6 terms left out), core-only and non-specific-only queries",
+   "when": "addendum 11, E5"
+  },
+  {
+   "line": "B1",
+   "result": "mean AUC 0.717",
+   "status": "superseded",
+   "variant": "phenotype module, curated + measured links with single-record links, validation on 19 diseases",
+   "when": "addendum 10, amendment 1",
+   "why_changed": "validation replaced before it ran (the 30-disease benchmark could not be run); thresholds unchanged"
+  },
+  {
+   "line": "B1",
+   "result": "mean AUC 0.646, excess lower bound -0.083: not usable",
+   "status": "primary",
+   "variant": "validation without the causal genes of each disease and without the drugs that act on them; excess over the degree baseline required",
+   "when": "addendum 11, E2/E3"
+  },
+  {
+   "line": "B1",
+   "result": "top-100 variant mean AUC 0.696 in the primary validation, excess condition met: False",
+   "status": "sensitivity",
+   "variant": "module defined by >= 3 terms, and by the 100 best terms by information content (sensitivity of the nine configurations)",
+   "when": "addendum 10"
+  },
+  {
+   "line": "B2",
+   "result": "fostamatinib robust 9/9 (single-record links)",
+   "status": "superseded",
+   "variant": "mitosis modules W1/W2/W3, nine configurations, single-record links",
+   "when": "addendum 10",
+   "why_changed": "post hoc: two-record rule applied after fostamatinib's support was read (E8)"
+  },
+  {
+   "line": "B2",
+   "result": "module rule validated: mean AUC 0.777, 15 diseases; without the drugs acting on the causal genes 11 evaluable diseases (not testable)",
+   "status": "primary",
+   "variant": "BUB1B-only module (W3), links with >= 2 records, no predicted links; module rule validated on diseases with a known causal gene",
+   "when": "addendum 11, E1/E7/E8"
+  },
+  {
+   "line": "B2",
+   "result": "pathway-context scenarios; see out/track1_scenarios.json",
+   "status": "sensitivity",
+   "variant": "W1 (Track 1 weights) and W2 (equal weights)",
+   "when": "addendum 11, E7"
+  },
+  {
+   "line": "C",
+   "result": "22 hits against p95 23.05: not usable",
+   "status": "superseded",
+   "variant": "lineage + proliferation covariates, 200 null sets",
+   "when": "addendum 10",
+   "why_changed": "TP53 confounding (6 of 19 PRISM hits were MDM2 inhibitors) and a null that was too small"
+  },
+  {
+   "line": "C",
+   "result": "5 hits against p95 17.05: not usable; no drug supported",
+   "status": "primary",
+   "variant": "lineage + proliferation + TP53 + MSI + CIN, 1,000 null sets",
+   "when": "addendum 11, E6"
+  },
+  {
+   "line": "C",
+   "result": "orthogonalised hits {'crispr': 3, 'prism': 3}; VIF 4.94",
+   "status": "sensitivity",
+   "variant": "SAC score orthogonalised to proliferation; PRISM and CRISPR totals separate; collapsed by MOA class",
+   "when": "addendum 11, E6"
+  },
+  {
+   "line": "D",
+   "result": "4 of 6 controls recovered, two by construction; no tier assigned",
+   "status": "exploratory",
+   "variant": "OmniPath signed paths to checkpoint-strength nodes",
+   "when": "addendum 10"
+  },
+  {
+   "line": "combination",
+   "result": "candidates: 0 (B2 as pre-specified), 0 (B2 exploratory)",
+   "status": "primary",
+   "variant": "at least two usable lines among A, B, C; B1 and B2 count as one line",
+   "when": "addendum 11, E1/E9"
+  },
+  {
+   "line": "combination",
+   "result": "candidates: ['FOSTAMATINIB']",
+   "status": "superseded",
+   "variant": "addendum 10 rule with single-record links and the 8-term query",
+   "when": "addendum 10",
+   "why_changed": "its B support disappears with two-record links and its A support is generic"
+  },
+  {
+   "line": "combination",
+   "result": "nobody accepted; kept as a labelled list only",
+   "status": "sensitivity",
+   "variant": "amendment 3: one usable line plus a literature rationale",
+   "when": "addendum 10, amendment 3 (post hoc)"
+  },
+  {
+   "line": "class",
+   "result": "see out/class_analysis.json",
+   "status": "primary",
+   "variant": "ChEMBL mechanism-of-action text and ATC level 4; 10,000 degree-matched random classes; FDR < 0.10",
+   "when": "addendum 11, E10"
+  }
+ ],
+ "n_entries": 18,
+ "n_primary": 6,
+ "note": "Every variant of the computational lines that was run. The literature searches (two rounds, 419 and 256 queries) and the selection and editorial rules of E16 are not entries of this ledger; they are described in protocol/addendum_e16.md. Only entries marked primary are findings; the rest are sensitivity analyses or superseded."
+}

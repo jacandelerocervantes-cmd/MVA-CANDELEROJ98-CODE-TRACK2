@@ -1,0 +1,706 @@
+{
+ "annotator": "sonnet",
+ "shard": 4,
+ "labels": [
+  {
+   "id": "ho5-01741",
+   "direction": "benefit",
+   "relevance": "unclear",
+   "conf_direction": 2,
+   "conf_relevance": 2
+  },
+  {
+   "id": "ho5-01744",
+   "direction": "unclear",
+   "relevance": "unclear",
+   "conf_direction": 2,
+   "conf_relevance": 2
+  },
+  {
+   "id": "ho5-01745",
+   "direction": "unclear",
+   "relevance": "no",
+   "conf_direction": 3,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-01749",
+   "direction": "unclear",
+   "relevance": "no",
+   "conf_direction": 3,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-01760",
+   "direction": "unclear",
+   "relevance": "yes",
+   "conf_direction": 3,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-01762",
+   "direction": "unclear",
+   "relevance": "no",
+   "conf_direction": 3,
+   "conf_relevance": 2
+  },
+  {
+   "id": "ho5-01767",
+   "direction": "unclear",
+   "relevance": "no",
+   "conf_direction": 3,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-01786",
+   "direction": "unclear",
+   "relevance": "no",
+   "conf_direction": 3,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-01788",
+   "direction": "unclear",
+   "relevance": "no",
+   "conf_direction": 2,
+   "conf_relevance": 2
+  },
+  {
+   "id": "ho5-01799",
+   "direction": "unclear",
+   "relevance": "unclear",
+   "conf_direction": 3,
+   "conf_relevance": 2
+  },
+  {
+   "id": "ho5-01807",
+   "direction": "harm",
+   "relevance": "yes",
+   "conf_direction": 2,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-01812",
+   "direction": "harm",
+   "relevance": "no",
+   "conf_direction": 3,
+   "conf_relevance": 2
+  },
+  {
+   "id": "ho5-01813",
+   "direction": "benefit",
+   "relevance": "no",
+   "conf_direction": 2,
+   "conf_relevance": 2
+  },
+  {
+   "id": "ho5-01820",
+   "direction": "unclear",
+   "relevance": "yes",
+   "conf_direction": 3,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-01822",
+   "direction": "unclear",
+   "relevance": "no",
+   "conf_direction": 3,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-01830",
+   "direction": "unclear",
+   "relevance": "yes",
+   "conf_direction": 3,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-01838",
+   "direction": "unclear",
+   "relevance": "yes",
+   "conf_direction": 3,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-01845",
+   "direction": "harm",
+   "relevance": "no",
+   "conf_direction": 2,
+   "conf_relevance": 2
+  },
+  {
+   "id": "ho5-01848",
+   "direction": "unclear",
+   "relevance": "unclear",
+   "conf_direction": 3,
+   "conf_relevance": 2
+  },
+  {
+   "id": "ho5-01849",
+   "direction": "unclear",
+   "relevance": "no",
+   "conf_direction": 3,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-01850",
+   "direction": "unclear",
+   "relevance": "no",
+   "conf_direction": 3,
+   "conf_relevance": 2
+  },
+  {
+   "id": "ho5-01854",
+   "direction": "harm",
+   "relevance": "no",
+   "conf_direction": 2,
+   "conf_relevance": 2
+  },
+  {
+   "id": "ho5-01859",
+   "direction": "harm",
+   "relevance": "yes",
+   "conf_direction": 3,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-01863",
+   "direction": "unclear",
+   "relevance": "no",
+   "conf_direction": 3,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-01864",
+   "direction": "unclear",
+   "relevance": "no",
+   "conf_direction": 3,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-01868",
+   "direction": "unclear",
+   "relevance": "unclear",
+   "conf_direction": 3,
+   "conf_relevance": 2
+  },
+  {
+   "id": "ho5-01889",
+   "direction": "unclear",
+   "relevance": "yes",
+   "conf_direction": 3,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-01893",
+   "direction": "benefit",
+   "relevance": "unclear",
+   "conf_direction": 2,
+   "conf_relevance": 2
+  },
+  {
+   "id": "ho5-01907",
+   "direction": "unclear",
+   "relevance": "no",
+   "conf_direction": 3,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-01910",
+   "direction": "no_effect",
+   "relevance": "unclear",
+   "conf_direction": 2,
+   "conf_relevance": 2
+  },
+  {
+   "id": "ho5-01915",
+   "direction": "unclear",
+   "relevance": "unclear",
+   "conf_direction": 3,
+   "conf_relevance": 2
+  },
+  {
+   "id": "ho5-01919",
+   "direction": "unclear",
+   "relevance": "yes",
+   "conf_direction": 3,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-01932",
+   "direction": "unclear",
+   "relevance": "no",
+   "conf_direction": 2,
+   "conf_relevance": 2
+  },
+  {
+   "id": "ho5-01933",
+   "direction": "unclear",
+   "relevance": "yes",
+   "conf_direction": 2,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-01949",
+   "direction": "unclear",
+   "relevance": "unclear",
+   "conf_direction": 3,
+   "conf_relevance": 2
+  },
+  {
+   "id": "ho5-01950",
+   "direction": "unclear",
+   "relevance": "yes",
+   "conf_direction": 2,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-01954",
+   "direction": "no_effect",
+   "relevance": "unclear",
+   "conf_direction": 3,
+   "conf_relevance": 2
+  },
+  {
+   "id": "ho5-01966",
+   "direction": "benefit",
+   "relevance": "unclear",
+   "conf_direction": 2,
+   "conf_relevance": 2
+  },
+  {
+   "id": "ho5-01967",
+   "direction": "benefit",
+   "relevance": "yes",
+   "conf_direction": 2,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-01969",
+   "direction": "unclear",
+   "relevance": "yes",
+   "conf_direction": 3,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-01974",
+   "direction": "unclear",
+   "relevance": "unclear",
+   "conf_direction": 3,
+   "conf_relevance": 2
+  },
+  {
+   "id": "ho5-01976",
+   "direction": "unclear",
+   "relevance": "yes",
+   "conf_direction": 2,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-01991",
+   "direction": "unclear",
+   "relevance": "no",
+   "conf_direction": 3,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-01993",
+   "direction": "unclear",
+   "relevance": "yes",
+   "conf_direction": 3,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-02002",
+   "direction": "unclear",
+   "relevance": "unclear",
+   "conf_direction": 3,
+   "conf_relevance": 2
+  },
+  {
+   "id": "ho5-02011",
+   "direction": "harm",
+   "relevance": "unclear",
+   "conf_direction": 3,
+   "conf_relevance": 2
+  },
+  {
+   "id": "ho5-02014",
+   "direction": "unclear",
+   "relevance": "yes",
+   "conf_direction": 3,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-02025",
+   "direction": "unclear",
+   "relevance": "no",
+   "conf_direction": 3,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-02034",
+   "direction": "harm",
+   "relevance": "no",
+   "conf_direction": 3,
+   "conf_relevance": 2
+  },
+  {
+   "id": "ho5-02038",
+   "direction": "unclear",
+   "relevance": "no",
+   "conf_direction": 3,
+   "conf_relevance": 2
+  },
+  {
+   "id": "ho5-02040",
+   "direction": "unclear",
+   "relevance": "no",
+   "conf_direction": 3,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-02041",
+   "direction": "benefit",
+   "relevance": "yes",
+   "conf_direction": 2,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-02043",
+   "direction": "unclear",
+   "relevance": "unclear",
+   "conf_direction": 3,
+   "conf_relevance": 2
+  },
+  {
+   "id": "ho5-02047",
+   "direction": "unclear",
+   "relevance": "yes",
+   "conf_direction": 3,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-02055",
+   "direction": "unclear",
+   "relevance": "no",
+   "conf_direction": 2,
+   "conf_relevance": 2
+  },
+  {
+   "id": "ho5-02063",
+   "direction": "unclear",
+   "relevance": "yes",
+   "conf_direction": 3,
+   "conf_relevance": 2
+  },
+  {
+   "id": "ho5-02077",
+   "direction": "harm",
+   "relevance": "no",
+   "conf_direction": 2,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-02078",
+   "direction": "unclear",
+   "relevance": "no",
+   "conf_direction": 3,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-02080",
+   "direction": "unclear",
+   "relevance": "unclear",
+   "conf_direction": 3,
+   "conf_relevance": 2
+  },
+  {
+   "id": "ho5-02082",
+   "direction": "benefit",
+   "relevance": "unclear",
+   "conf_direction": 2,
+   "conf_relevance": 2
+  },
+  {
+   "id": "ho5-02086",
+   "direction": "benefit",
+   "relevance": "no",
+   "conf_direction": 3,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-02088",
+   "direction": "benefit",
+   "relevance": "unclear",
+   "conf_direction": 3,
+   "conf_relevance": 2
+  },
+  {
+   "id": "ho5-02093",
+   "direction": "unclear",
+   "relevance": "yes",
+   "conf_direction": 3,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-02096",
+   "direction": "benefit",
+   "relevance": "unclear",
+   "conf_direction": 2,
+   "conf_relevance": 2
+  },
+  {
+   "id": "ho5-02097",
+   "direction": "unclear",
+   "relevance": "unclear",
+   "conf_direction": 3,
+   "conf_relevance": 2
+  },
+  {
+   "id": "ho5-02102",
+   "direction": "unclear",
+   "relevance": "yes",
+   "conf_direction": 3,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-02106",
+   "direction": "unclear",
+   "relevance": "no",
+   "conf_direction": 3,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-02108",
+   "direction": "unclear",
+   "relevance": "no",
+   "conf_direction": 3,
+   "conf_relevance": 2
+  },
+  {
+   "id": "ho5-02120",
+   "direction": "unclear",
+   "relevance": "no",
+   "conf_direction": 3,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-02122",
+   "direction": "harm",
+   "relevance": "yes",
+   "conf_direction": 2,
+   "conf_relevance": 2
+  },
+  {
+   "id": "ho5-02139",
+   "direction": "harm",
+   "relevance": "no",
+   "conf_direction": 3,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-02140",
+   "direction": "unclear",
+   "relevance": "unclear",
+   "conf_direction": 3,
+   "conf_relevance": 2
+  },
+  {
+   "id": "ho5-02145",
+   "direction": "unclear",
+   "relevance": "no",
+   "conf_direction": 3,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-02161",
+   "direction": "benefit",
+   "relevance": "yes",
+   "conf_direction": 3,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-02165",
+   "direction": "unclear",
+   "relevance": "yes",
+   "conf_direction": 3,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-02180",
+   "direction": "unclear",
+   "relevance": "no",
+   "conf_direction": 2,
+   "conf_relevance": 2
+  },
+  {
+   "id": "ho5-02190",
+   "direction": "benefit",
+   "relevance": "yes",
+   "conf_direction": 2,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-02195",
+   "direction": "unclear",
+   "relevance": "yes",
+   "conf_direction": 3,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-02196",
+   "direction": "unclear",
+   "relevance": "unclear",
+   "conf_direction": 3,
+   "conf_relevance": 2
+  },
+  {
+   "id": "ho5-02202",
+   "direction": "unclear",
+   "relevance": "no",
+   "conf_direction": 3,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-02207",
+   "direction": "benefit",
+   "relevance": "unclear",
+   "conf_direction": 3,
+   "conf_relevance": 2
+  },
+  {
+   "id": "ho5-02216",
+   "direction": "unclear",
+   "relevance": "unclear",
+   "conf_direction": 3,
+   "conf_relevance": 2
+  },
+  {
+   "id": "ho5-02218",
+   "direction": "unclear",
+   "relevance": "yes",
+   "conf_direction": 3,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-02221",
+   "direction": "unclear",
+   "relevance": "no",
+   "conf_direction": 3,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-02224",
+   "direction": "harm",
+   "relevance": "unclear",
+   "conf_direction": 2,
+   "conf_relevance": 2
+  },
+  {
+   "id": "ho5-02234",
+   "direction": "unclear",
+   "relevance": "yes",
+   "conf_direction": 3,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-02237",
+   "direction": "harm",
+   "relevance": "no",
+   "conf_direction": 2,
+   "conf_relevance": 2
+  },
+  {
+   "id": "ho5-02239",
+   "direction": "benefit",
+   "relevance": "yes",
+   "conf_direction": 3,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-02245",
+   "direction": "benefit",
+   "relevance": "unclear",
+   "conf_direction": 3,
+   "conf_relevance": 2
+  },
+  {
+   "id": "ho5-02248",
+   "direction": "harm",
+   "relevance": "yes",
+   "conf_direction": 2,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-02272",
+   "direction": "unclear",
+   "relevance": "unclear",
+   "conf_direction": 3,
+   "conf_relevance": 2
+  },
+  {
+   "id": "ho5-02274",
+   "direction": "harm",
+   "relevance": "no",
+   "conf_direction": 3,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-02282",
+   "direction": "unclear",
+   "relevance": "yes",
+   "conf_direction": 3,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-02289",
+   "direction": "unclear",
+   "relevance": "no",
+   "conf_direction": 3,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-02292",
+   "direction": "unclear",
+   "relevance": "no",
+   "conf_direction": 3,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-02294",
+   "direction": "unclear",
+   "relevance": "no",
+   "conf_direction": 3,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-02296",
+   "direction": "unclear",
+   "relevance": "unclear",
+   "conf_direction": 3,
+   "conf_relevance": 2
+  },
+  {
+   "id": "ho5-02303",
+   "direction": "unclear",
+   "relevance": "no",
+   "conf_direction": 3,
+   "conf_relevance": 3
+  },
+  {
+   "id": "ho5-02312",
+   "direction": "unclear",
+   "relevance": "unclear",
+   "conf_direction": 3,
+   "conf_relevance": 2
+  },
+  {
+   "id": "ho5-02313",
+   "direction": "benefit",
+   "relevance": "yes",
+   "conf_direction": 2,
+   "conf_relevance": 3
+  }
+ ]
+}

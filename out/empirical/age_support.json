@@ -1,0 +1,3712 @@
+{
+ "age_range_years": [
+  0,
+  18.0
+ ],
+ "drugs": [
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL4204794",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "AVAPRITINIB",
+   "scope": "no paediatric use established",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "645c887c-8cd4-4623-8da9-ac223d71a8b9",
+   "verdict": "not_established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL487253",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "BENDAMUSTINE",
+   "scope": "not established; a trial in patients aged 1 to 19 years with relapsed or refractory acute leukaemia showed no treatment response",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "085dd54c-4212-d879-afef-ee52732a48c0",
+   "verdict": "not_established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL325041",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "BORTEZOMIB",
+   "scope": "not established; studied with chemotherapy in paediatric and young adult lymphoid malignancies",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "b605b541-4bfd-db3e-9710-11c27f6dee6c",
+   "verdict": "not_established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.944444,
+    "upper": 0.944444,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.666667,
+     "upper": 0.666667,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 1.0,
+     "upper": 1.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 1.0,
+     "upper": 1.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [
+     [
+      1.0,
+      18.0
+     ]
+    ],
+    "state": "known"
+   },
+   "dropped": [
+    {
+     "age_intervals_years": [
+      [
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       1.0
+      ]
+     ],
+     "reason": "restates L_d (paediatric use not established below an age) or refers to another indication; not a hazard",
+     "section": "pediatric_use",
+     "sentence": "The safety and effectiveness of BOSULIF in pediatric patients younger than 1 year of age with newly diagnosed CP Ph+ CML, pediatric patients younger than 1 year of age with CP Ph+ CML that is resistant or intolerant to prior therapy, and pediatric patients with AP Ph+ CML or BP Ph+ CML have not been established."
+    }
+   ],
+   "drug_id": "CHEMBL288441",
+   "hazards": [],
+   "min_age_years": 1.0,
+   "n_dropped": 1,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "BOSUTINIB",
+   "scope": "chronic-phase Philadelphia-chromosome-positive chronic myelogenous leukaemia (newly diagnosed, or resistant or intolerant) from 1 year; no other paediatric indication; label read: Bosulif (Pfizer)",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.944444,
+    "upper": 0.944444,
+    "width_years": 18.0
+   },
+   "setid": "adc84ad5-a04d-4fee-9ba8-91f7abd928e3",
+   "verdict": "established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 1.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 1.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 1.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 1.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "unknown"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL820",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "BUSULFAN",
+   "scope": "label (injection): effectiveness in the labelled indication (conditioning before transplantation for CML) not studied in children; a 24-patient pharmacokinetic study (5 months to 16 years) supports a suggested paediatric dosing nomogram; no statement that paediatric use is established",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 1.0,
+    "width_years": 18.0
+   },
+   "setid": "086a715e-4958-4bb5-9ebd-86171e6b6203",
+   "verdict": "verify",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL1201748",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "CABAZITAXEL",
+   "scope": "label states safety and effectiveness in paediatric patients have not been established (a dose-finding study is described)",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "ec6892c8-01e1-6a8b-e053-2995a90a956f",
+   "verdict": "not_established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.333333,
+    "upper": 0.333333,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 1.0,
+     "upper": 1.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [
+     [
+      12.0,
+      18.0
+     ]
+    ],
+    "state": "known"
+   },
+   "dropped": [
+    {
+     "age_intervals_years": [
+      [
+       0.0,
+       12.0
+      ]
+     ],
+     "reason": "restates L_d (paediatric use not established below an age) or refers to another indication; not a hazard",
+     "section": "pediatric_use",
+     "sentence": "The safety and effectiveness of CABOMETYX in pediatric patients less than 12 years of age have not been established."
+    }
+   ],
+   "drug_id": "CHEMBL2105717",
+   "hazards": [],
+   "min_age_years": 12.0,
+   "n_dropped": 1,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "CABOZANTINIB",
+   "scope": "differentiated thyroid cancer and neuroendocrine tumours in patients aged 12 years and older (CABOMETYX); physeal widening seen in children with open growth plates",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.333333,
+    "upper": 0.333333,
+    "width_years": 18.0
+   },
+   "setid": "3850cce2-6137-42e5-a792-d318c4a4b3b5",
+   "verdict": "established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL3188267",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "CAPMATINIB",
+   "scope": "no paediatric use established",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "455892c3-d144-4ba8-9ab4-79cabff9876d",
+   "verdict": "not_established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL1351",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "CARBOPLATIN",
+   "scope": "not established; the label refers to audiologic toxicity",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "4c89cedc-e48b-445c-ad05-54dbe60e4fb0",
+   "verdict": "not_established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL451887",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "CARFILZOMIB",
+   "scope": "not established; evaluated with chemotherapy in 124 patients aged 1 to <17 years with relapsed or refractory ALL",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "ea66eb30-e665-4693-99a1-a9d3b4bbe2d6",
+   "verdict": "not_established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL513",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "CARMUSTINE",
+   "scope": "label read: carmustine for injection (Heritage/Avet), intravenous; paediatric use not established",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "38962a55-a514-4c48-bea5-f99a8da4beec",
+   "verdict": "not_established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL2403108",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "CERITINIB",
+   "scope": "no paediatric use established",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "fff5d805-4ffd-4e8e-8e63-6f129697563e",
+   "verdict": "not_established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL515",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "CHLORAMBUCIL",
+   "scope": "no paediatric use established",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "58a3c995-5ad6-465d-8437-5970c9088213",
+   "verdict": "not_established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 1.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 1.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 1.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 1.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "unknown"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL76",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "CHLOROQUINE",
+   "scope": "the paediatric section only refers to the warnings and the dosage section (paediatric dosing for malaria); no statement of established use and no minimum age (implicit paediatric labelling)",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 1.0,
+    "width_years": 18.0
+   },
+   "setid": "eb02c52d-907c-43fb-aa8f-2f378a9087e7",
+   "verdict": "verify",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL11359",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "CISPLATIN",
+   "scope": "no paediatric indication; the label's paediatric statement is an ototoxicity warning (more severe in patients under 5 years). The earlier heuristic 'established from 5 years' misread that warning",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "508496cb-3441-46b3-a4fe-e0d440e6adc6",
+   "verdict": "not_established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.777778,
+    "upper": 0.777778,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 1.0,
+     "upper": 1.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.888889,
+     "upper": 0.888889,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [
+     [
+      4.0,
+      18.0
+     ]
+    ],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL107",
+   "hazards": [],
+   "min_age_years": 4.0,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "COLCHICINE",
+   "scope": "Familial Mediterranean fever in adults and children 4 years or older (the label's paediatric-use text says the safety and efficacy in children of all ages with FMF were evaluated in uncontrolled studies); not established for gout",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.777778,
+    "upper": 0.777778,
+    "width_years": 18.0
+   },
+   "setid": "0f69b9c6-8c00-45e2-b950-34dc5ae62352",
+   "verdict": "established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 1.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 1.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 1.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 1.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "unknown"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL160",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "CYCLOSPORINE",
+   "scope": "systemic labels (Sandimmune; Neoral and Gengraf): no adequate and well-controlled studies in children, but transplant recipients from 6 months (Sandimmune) or 1 year (Neoral, Gengraf) have received it; not established below 18 years for juvenile rheumatoid arthritis or psoriasis. The earlier automatic read used an ophthalmic emulsion label, the wrong product",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 1.0,
+    "width_years": 18.0
+   },
+   "setid": "5e5926a7-1de0-4b54-a5c0-286b6200ff82",
+   "verdict": "verify",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL476",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "DACARBAZINE",
+   "scope": "the label contains no paediatric statement (no mention of children or paediatric patients); adult indications only, so paediatric use is not labelled",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "0d81315c-7021-4091-b703-ad135390c936",
+   "verdict": "not_established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.888889,
+    "upper": 0.888889,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.333333,
+     "upper": 0.333333,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 1.0,
+     "upper": 1.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 1.0,
+     "upper": 1.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [
+    [
+     0.0,
+     2.0
+    ]
+   ],
+   "L": {
+    "intervals": [
+     [
+      0.0,
+      18.0
+     ]
+    ],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL178",
+   "hazards": [
+    {
+     "age_intervals_years": [
+      [
+       0.0,
+       2.0
+      ]
+     ],
+     "kind": "risk_or_warning",
+     "section": "boxed_warning",
+     "sentence": "The incidence of myocardial toxicity increases after a total cumulative dose exceeding 400 to 550 mg/m 2 in adults, 300 mg/m 2 in children more than 2 years of age, or 10 mg/kg in children less than 2 years of age.",
+     "weight_cutoffs": []
+    }
+   ],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 1,
+   "n_weight_flags": 0,
+   "name": "DAUNORUBICIN",
+   "scope": "remission induction in acute lymphocytic leukaemia of children and adults (a minimum age is not stated); the paediatric-use text says appropriate studies were not performed in children and that cardiotoxicity may be more frequent and occur at lower cumulative doses in children",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.888889,
+    "upper": 0.888889,
+    "width_years": 18.0
+   },
+   "setid": "9705fa12-499e-41a3-8fb4-f6df0858b851",
+   "verdict": "established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "known"
+   },
+   "dropped": [
+    {
+     "age_intervals_years": [
+      [
+       0.0,
+       2.0
+      ]
+     ],
+     "reason": "number is a time since an event or in an adult trial (previously, post), not a patient age",
+     "section": "boxed_warning",
+     "sentence": "Mortality In the National Heart, Lung and Blood Institute's Cardiac Arrhythmia Suppression Trial (CAST), a long-term, multi-center, randomized, double-blind study in patients with asymptomatic non-life-threatening ventricular arrhythmias who had had a myocardial infarction more than 6 days but less than 2 years previously, an excessive mortality or non-fatal cardiac arrest rate (7.7%) was seen in patients treated with encainide or flecainide compared with that seen in patients assigned to carefully matched placebo-treated groups (3.0%)."
+    },
+    {
+     "age_intervals_years": [
+      [
+       0.0,
+       2.0
+      ]
+     ],
+     "reason": "number is a time since an event or in an adult trial (previously, post), not a patient age",
+     "section": "warnings",
+     "sentence": "Warnings Mortality In the National Heart, Lung and Blood Institute's Cardiac Arrhythmia Suppression Trial (CAST), a long-term, multi-center, randomized, double-blind study in patients with asymptomatic non-life-threatening ventricular arrhythmias who had had a myocardial infarction more than 6 days but less than 2 years previously, an excessive mortality or non-fatal cardiac arrest rate (7.7%) was seen in patients treated with encainide or flecainide compared with that seen in patients assigned to carefully matched placebo-treated groups (3.0%)."
+    }
+   ],
+   "drug_id": "CHEMBL517",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 2,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "DISOPYRAMIDE",
+   "scope": "no paediatric use established",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "31e79459-107f-4d69-a163-90014f1c4772",
+   "verdict": "not_established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL92",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "DOCETAXEL ANHYDROUS",
+   "scope": "label states paediatric efficacy has not been established (safety profile described only)",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "2fb017fd-e55e-43ef-9024-07f2d412b37b",
+   "verdict": "not_established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 1.0,
+    "upper": 1.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 1.0,
+     "upper": 1.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 1.0,
+     "upper": 1.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 1.0,
+     "upper": 1.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [
+     [
+      0.0,
+      18.0
+     ]
+    ],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL53463",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "DOXORUBICIN",
+   "scope": "label read: conventional doxorubicin hydrochloride injection (the earlier automatic read used the liposomal product, where paediatric use is not established). The indications include childhood cancers (metastatic Wilms' tumor, metastatic neuroblastoma) and the label gives paediatric safety information (late cardiovascular dysfunction, especially under 5 years) without a minimum age or a statement of established effectiveness",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 1.0,
+    "upper": 1.0,
+    "width_years": 18.0
+   },
+   "setid": "1fd148fb-0fbc-4b6f-b790-23546fb46a71",
+   "verdict": "established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.995372,
+    "upper": 0.995372,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.972233,
+     "upper": 0.972233,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 1.0,
+     "upper": 1.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 1.0,
+     "upper": 1.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [
+     [
+      0.0833,
+      18.0
+     ]
+    ],
+    "state": "known"
+   },
+   "dropped": [
+    {
+     "age_intervals_years": [
+      [
+       0.0,
+       0.5
+      ]
+     ],
+     "reason": "dosing table / dose-by-body-surface text, not an age-specific hazard statement",
+     "section": "dosage",
+     "sentence": "(2.6) Age Recommended Daily Dosage >6 months ≤0.50 m2: 300 mg/m2 0.51 to 0.80 m2: 200 mg0.81 to 1.10 m2: 300 mg1.11 to 1.50 m2: 400 mgBSA ≥1.51 m2: 600 mg once daily >1 month to ≤6 months 250 mg/m2 once daily Modify dosage of ROZLYTREK if coadministration with moderate or strong CYP3A inhibitors cannot be avoided."
+    }
+   ],
+   "drug_id": "CHEMBL1983268",
+   "hazards": [],
+   "min_age_years": 0.0833,
+   "n_dropped": 1,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "ENTRECTINIB",
+   "scope": "solid tumours with an NTRK gene fusion in patients older than 1 month; not established in paediatric ROS1-positive NSCLC",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.995372,
+    "upper": 0.995372,
+    "width_years": 18.0
+   },
+   "setid": "c7c71b0c-2549-4495-86b6-c2807fa54908",
+   "verdict": "established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL417",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "EPIRUBICIN",
+   "scope": "not established; paediatric patients may be at greater risk of anthracycline cardiotoxicity",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "f7ec5ec1-fb05-4c78-b821-9aea638cf144",
+   "verdict": "not_established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL1683590",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "ERIBULIN",
+   "scope": "not established",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "64bf3c30-f06a-3615-ca5e-eb4154d371d0",
+   "verdict": "not_established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL44657",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "ETOPOSIDE",
+   "scope": "label read: etoposide injection. It has no paediatric-use section; it reports pharmacokinetics and anaphylactic-like reactions in children and has adult indications only, so paediatric use is not labelled",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "fe870629-104d-4d67-a7c6-f53bc588121e",
+   "verdict": "not_established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL1200645",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "ETOPOSIDE PHOSPHATE",
+   "scope": "label read: ETOPOPHOS (the earlier automatic read used the etoposide injection label)",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "7499fc35-fae8-44ad-bbab-9a1a589bf3ee",
+   "verdict": "not_established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.944444,
+    "upper": 0.944444,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.666667,
+     "upper": 0.666667,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 1.0,
+     "upper": 1.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 1.0,
+     "upper": 1.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [
+     [
+      1.0,
+      18.0
+     ]
+    ],
+    "state": "known"
+   },
+   "dropped": [
+    {
+     "age_intervals_years": [
+      [
+       0.0,
+       1.0
+      ]
+     ],
+     "reason": "restates L_d (paediatric use not established below an age) or refers to another indication; not a hazard",
+     "section": "pediatric_use",
+     "sentence": "The safety and effectiveness of AFINITOR/AFINITOR DISPERZ have not been established in pediatric patients less than 1 year of age with TSC-associated SEGA."
+    },
+    {
+     "age_intervals_years": [
+      [
+       0.0,
+       2.0
+      ]
+     ],
+     "reason": "restates L_d (paediatric use not established below an age) or refers to another indication; not a hazard",
+     "section": "pediatric_use",
+     "sentence": "The safety and effectiveness of AFINITOR DISPERZ and AFINITOR have not been established for the adjunctive treatment of pediatric patients less than 2 years of age with TSC-associated partial-onset seizures."
+    }
+   ],
+   "drug_id": "CHEMBL1908360",
+   "hazards": [],
+   "min_age_years": 1.0,
+   "n_dropped": 2,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "EVEROLIMUS",
+   "scope": "label read: AFINITOR and AFINITOR DISPERZ; TSC-associated subependymal giant cell astrocytoma from 1 year (not established below 1 year); the ZORTRESS label (transplantation) says paediatric use below 18 years is not established",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.888889,
+    "upper": 0.888889,
+    "width_years": 18.0
+   },
+   "setid": "2150f73a-179b-4afc-b8ce-67c85cc72f04",
+   "verdict": "established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL3301622",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "GILTERITINIB",
+   "scope": "no paediatric use established",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "b5ff59aa-9c0d-49a8-9053-1f179b482383",
+   "verdict": "not_established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL1117",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "IDARUBICIN",
+   "scope": "not established",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "d31254be-6bd2-4ac1-acab-bc00e2209d28",
+   "verdict": "not_established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL1024",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "IFOSFAMIDE",
+   "scope": "not established; renal rickets, growth retardation and infertility reported in paediatric patients",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "91e433a9-6800-43a6-ac13-a49a04a5aecd",
+   "verdict": "not_established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL1201752",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "IXABEPILONE",
+   "scope": "not established; the alcohol content should be considered in paediatric patients",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "241f0b1e-8b95-470d-876f-bf1804daaf18",
+   "verdict": "not_established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL3545432",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "IXAZOMIB CITRATE",
+   "scope": "no paediatric use established",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "038f2461-834b-4488-9ebd-863c83eef5a7",
+   "verdict": "not_established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 1.0,
+    "upper": 1.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 1.0,
+     "upper": 1.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 1.0,
+     "upper": 1.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 1.0,
+     "upper": 1.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [
+     [
+      0.0,
+      18.0
+     ]
+    ],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL3889654",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "LAROTRECTINIB",
+   "scope": "solid tumours with an NTRK gene fusion; the label states that safety and effectiveness were established in paediatric patients and gives no minimum age (safety was evaluated from under 1 month of age); the age is not assumed",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 1.0,
+    "upper": 1.0,
+    "width_years": 18.0
+   },
+   "setid": "0c8ca614-58b2-4aa4-83d3-0387a8f782fd",
+   "verdict": "established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL1289601",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "LENVATINIB",
+   "scope": "not established; studied in 232 patients aged 2 to <17 years with relapsed or refractory solid tumours",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "f4bedd21-efde-44c6-9d9c-b48b78d7ed1e",
+   "verdict": "not_established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL514",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "LOMUSTINE",
+   "scope": "paediatric use, including dose, is not based on adequate and well-controlled studies",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "3c3637fc-4499-4331-a3c4-6969fc86704e",
+   "verdict": "not_established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.944444,
+    "upper": 0.944444,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.666667,
+     "upper": 0.666667,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 1.0,
+     "upper": 1.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 1.0,
+     "upper": 1.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [
+     [
+      1.0,
+      18.0
+     ]
+    ],
+    "state": "known"
+   },
+   "dropped": [
+    {
+     "age_intervals_years": [
+      [
+       0.0,
+       1.0
+      ]
+     ],
+     "reason": "restates L_d (paediatric use not established below an age) or refers to another indication; not a hazard",
+     "section": "pediatric_use",
+     "sentence": "The safety and effectiveness of SKYTROFA in children less than 1 year of age have not been established."
+    }
+   ],
+   "drug_id": "CHEMBL4298185",
+   "hazards": [],
+   "min_age_years": 1.0,
+   "n_dropped": 1,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "LONAPEGSOMATROPIN",
+   "scope": "growth failure due to inadequate secretion of endogenous growth hormone in patients 1 year and older weighing at least 11.5 kg; not indicated in Prader-Willi syndrome; not established under 1 year. Contraindicated in active malignancy (see the caution list)",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.944444,
+    "upper": 0.944444,
+    "width_years": 18.0
+   },
+   "setid": "9229f871-bc61-4ddc-8122-d126d40e36ac",
+   "verdict": "established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL427",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "MECHLORETHAMINE",
+   "scope": "label read: Valchlor, a topical gel for cutaneous T-cell lymphoma; the only US label found, a topical product that does not describe the systemic drug; paediatric use not established",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "6a52e4c2-6a9f-4ebb-bc77-046b4f8bcd57",
+   "verdict": "not_established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL852",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "MELPHALAN",
+   "scope": "label read: EVOMELA; paediatric patients were not included in the trials",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "69f55869-dc11-408e-8fc7-47634269a52c",
+   "verdict": "not_established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.444444,
+    "upper": 0.444444,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 1.0,
+     "upper": 1.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.222222,
+     "upper": 0.222222,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [
+     [
+      10.0,
+      18.0
+     ]
+    ],
+    "state": "known"
+   },
+   "dropped": [
+    {
+     "age_intervals_years": [
+      [
+       0.0,
+       10.0
+      ]
+     ],
+     "reason": "restates L_d (paediatric use not established below an age) or refers to another indication; not a hazard",
+     "section": "pediatric_use",
+     "sentence": "Safety and effectiveness of metformin hydrochloride have not been established in pediatric patients less than 10 years old."
+    }
+   ],
+   "drug_id": "CHEMBL1431",
+   "hazards": [],
+   "min_age_years": 10.0,
+   "n_dropped": 1,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "METFORMIN",
+   "scope": "type 2 diabetes mellitus in patients 10 to 16 years old (not established below 10 years); label read: a repackager's metformin hydrochloride tablets",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.444444,
+    "upper": 0.444444,
+    "width_years": 18.0
+   },
+   "setid": "23aa50c5-28fe-4322-b5c6-1f1c48409b16",
+   "verdict": "established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL608533",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "MIDOSTAURIN",
+   "scope": "label read: RYDAPT (found by brand name; a search by generic name returned nothing); studied in children with leukaemia, with prolonged grade 4 cytopenias when combined with chemotherapy",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "11fa3fc9-6776-49a6-b1c1-653f627c3e58",
+   "verdict": "not_established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL58",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "MITOXANTRONE",
+   "scope": "not established",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "accf9569-4b57-4e83-a7db-4e890a75d1ba",
+   "verdict": "not_established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "known"
+   },
+   "dropped": [
+    {
+     "age_intervals_years": [
+      [
+       0.0,
+       18.0
+      ]
+     ],
+     "reason": "restates L_d (paediatric use not established below an age) or refers to another indication; not a hazard",
+     "section": "pediatric_use",
+     "sentence": "8.4 Pediatric Use Safety and effectiveness in pediatric patients with multiple sclerosis or Crohn's disease below the age of 18 years have not been established."
+    }
+   ],
+   "drug_id": "CHEMBL1201607",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 1,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "NATALIZUMAB",
+   "scope": "not indicated in patients under 18 years (multiple sclerosis, Crohn's disease)",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "ef653c36-dd4b-4e71-9d2d-40b8fea24b67",
+   "verdict": "not_established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL502835",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "NINTEDANIB",
+   "scope": "not established; effectiveness was not demonstrated in a randomised study in children aged 6 to 17 years with fibrosing interstitial lung disease; bone and tooth changes in young animals",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "4ecf7f05-4a95-b98c-e063-6394a90ab896",
+   "verdict": "not_established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL414804",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "OXALIPLATIN",
+   "scope": "not established; assessed in four studies in patients aged 7 months to 22 years with solid tumours",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "a6f89dc3-a594-4b5b-8728-272e20c1ecb5",
+   "verdict": "not_established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL428647",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "PACLITAXEL",
+   "scope": "safety and effectiveness in paediatric patients have not been established; central nervous system toxicity was reported in a paediatric trial (attributed to the ethanol in the vehicle)",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "0c12c77c-5fd4-48dc-a318-e96892233992",
+   "verdict": "not_established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL477772",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "PAZOPANIB",
+   "scope": "not established and not indicated in paediatric patients (severe effects on organ growth in juvenile rats)",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "b05ea49a-a764-5ff2-6e4a-26add69da9e2",
+   "verdict": "not_established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL3813873",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "PEXIDARTINIB",
+   "scope": "no paediatric use established",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "7b0ec4bf-b2ac-49ee-96af-7740ad3f2e16",
+   "verdict": "not_established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.995741,
+    "upper": 0.995741,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.974447,
+     "upper": 0.974447,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 1.0,
+     "upper": 1.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 1.0,
+     "upper": 1.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [
+    [
+     0.0,
+     0.07665982203969883
+    ]
+   ],
+   "L": {
+    "intervals": [
+     [
+      0.0,
+      18.0
+     ]
+    ],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL1469",
+   "hazards": [
+    {
+     "age_intervals_years": [
+      [
+       0.0,
+       0.07665982203969883
+      ]
+     ],
+     "kind": "not_recommended",
+     "section": "pediatric_use",
+     "sentence": "Pediatric Use The use of tablets for neonates, infants and children to the weight of 20 kg is not recommended.",
+     "weight_cutoffs": [
+      {
+       "cutoff_kg": 20.0,
+       "matched_text": "weight of 20 kg"
+      }
+     ]
+    }
+   ],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 1,
+   "n_weight_flags": 1,
+   "name": "PHENYLBUTANOIC ACID",
+   "scope": "adjunctive therapy of urea cycle disorders, including neonatal-onset disease (presenting within the first 28 days of life); tablets are not recommended for neonates, infants and children up to 20 kg; label read: Buphenyl (sodium phenylbutyrate, Horizon)",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.995741,
+    "upper": 0.995741,
+    "width_years": 18.0
+   },
+   "setid": "463a36fa-3eb2-4326-8bd0-c8c7a11bca3a",
+   "verdict": "established",
+   "weight_flags": [
+    {
+     "section": "pediatric_use",
+     "sentence": "Pediatric Use The use of tablets for neonates, infants and children to the weight of 20 kg is not recommended.",
+     "weight_cutoffs": [
+      {
+       "cutoff_kg": 20.0,
+       "matched_text": "weight of 20 kg"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL43452",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "POMALIDOMIDE",
+   "scope": "not established; assessed in children aged 4 to <17 years with CNS tumours",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "b8c3b7f3-7e72-47af-be23-133e7bb3db59",
+   "verdict": "not_established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL576982",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "QUIZARTINIB",
+   "scope": "no paediatric use established",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "29cdbcfe-497d-4e78-bb7b-2d4acafe8e86",
+   "verdict": "not_established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "known"
+   },
+   "dropped": [
+    {
+     "age_intervals_years": [
+      [
+       0.0,
+       18.0
+      ]
+     ],
+     "reason": "restates L_d (paediatric use not established below an age) or refers to another indication; not a hazard",
+     "section": "pediatric_use",
+     "sentence": "8.4 Pediatric Use The safety and efficacy of STIVARGA in pediatric patients less than 18 years of age have not been established."
+    }
+   ],
+   "drug_id": "CHEMBL1946170",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 1,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "REGORAFENIB",
+   "scope": "not established below 18 years; dentin and growth-plate findings in young animals",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "824f19c9-0546-4a8a-8d8f-c4055c04f7c7",
+   "verdict": "not_established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL4216467",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "RIPRETINIB",
+   "scope": "no paediatric use established; bone and tooth findings in rats",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "9f18e462-03dd-4296-a02a-a0577e3ee78d",
+   "verdict": "not_established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL3545185",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "SELINEXOR",
+   "scope": "no paediatric use established",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "f6dd2682-75a6-4863-90a8-a3197f6f78a8",
+   "verdict": "not_established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.888889,
+    "upper": 0.888889,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.333333,
+     "upper": 0.333333,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 1.0,
+     "upper": 1.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 1.0,
+     "upper": 1.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [
+     [
+      2.0,
+      18.0
+     ]
+    ],
+    "state": "known"
+   },
+   "dropped": [
+    {
+     "age_intervals_years": [
+      [
+       0.0,
+       2.0
+      ]
+     ],
+     "reason": "restates L_d (paediatric use not established below an age) or refers to another indication; not a hazard",
+     "section": "pediatric_use",
+     "sentence": "The safety and effectiveness of RETEVMO have not been established in these indications in patients aged less than 2 years."
+    }
+   ],
+   "drug_id": "CHEMBL4559134",
+   "hazards": [],
+   "min_age_years": 2.0,
+   "n_dropped": 1,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "SELPERCATINIB",
+   "scope": "RET-mutant medullary thyroid cancer and RET fusion-positive thyroid cancer needing systemic therapy",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.888889,
+    "upper": 0.888889,
+    "width_years": 18.0
+   },
+   "setid": "7fa848ba-a59c-4144-9f52-64d090f4d828",
+   "verdict": "established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.944444,
+    "upper": 0.944444,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.666667,
+     "upper": 0.666667,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 1.0,
+     "upper": 1.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 1.0,
+     "upper": 1.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [
+     [
+      1.0,
+      18.0
+     ]
+    ],
+    "state": "known"
+   },
+   "dropped": [
+    {
+     "age_intervals_years": [
+      [
+       0.0,
+       1.0
+      ]
+     ],
+     "reason": "restates L_d (paediatric use not established below an age) or refers to another indication; not a hazard",
+     "section": "pediatric_use",
+     "sentence": "The safety and effectiveness of KOSELUGO have not been established in pediatric patients younger than 1 year of age."
+    }
+   ],
+   "drug_id": "CHEMBL1614701",
+   "hazards": [],
+   "min_age_years": 1.0,
+   "n_dropped": 1,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "SELUMETINIB",
+   "scope": "neurofibromatosis type 1 with symptomatic, inoperable plexiform neurofibromas, from 1 year (not established below 1 year); growth plate dysplasia in young rats",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.944444,
+    "upper": 0.944444,
+    "width_years": 18.0
+   },
+   "setid": "7d042c61-f28f-4ab5-ab10-d7558c0d49ff",
+   "verdict": "established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.277778,
+    "upper": 0.277778,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.833333,
+     "upper": 0.833333,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [
+     [
+      13.0,
+      18.0
+     ]
+    ],
+    "state": "known"
+   },
+   "dropped": [
+    {
+     "age_intervals_years": [
+      [
+       0.0,
+       13.0
+      ]
+     ],
+     "reason": "restates L_d (paediatric use not established below an age) or refers to another indication; not a hazard",
+     "section": "pediatric_use",
+     "sentence": "8.4 Pediatric Use Renal Transplant The safety and efficacy of sirolimus in pediatric patients <13 years have not been established."
+    },
+    {
+     "age_intervals_years": [
+      [
+       0.0,
+       18.0
+      ]
+     ],
+     "reason": "restates L_d (paediatric use not established below an age) or refers to another indication; not a hazard",
+     "section": "pediatric_use",
+     "sentence": "Lymphangioleiomyomatosis The safety and efficacy of sirolimus in pediatric patients <18 years have not been established."
+    },
+    {
+     "age_intervals_years": [
+      [
+       0.5,
+       12.0
+      ]
+     ],
+     "reason": "number is a time since an event or in an adult trial (previously, post), not a patient age",
+     "section": "warnings",
+     "sentence": "In a clinical study in stable liver transplant patients 6 to 144 months post-liver transplantation and receiving a CNI-based regimen, an increased number of deaths was observed in the group converted to a sirolimus-based regimen compared to the group who was continued on a CNI-based regimen, although the difference was not statistically significant (3.8% versus 1.4%) [ see Clinical Studies ( 14.5) ]."
+    }
+   ],
+   "drug_id": "CHEMBL413",
+   "hazards": [],
+   "min_age_years": 13.0,
+   "n_dropped": 3,
+   "n_hazards": 0,
+   "n_weight_flags": 1,
+   "name": "SIROLIMUS",
+   "scope": "prophylaxis of organ rejection in renal transplantation in children 13 years and older at low to moderate immunologic risk (not established below 13 years); label read: a repackager's sirolimus tablets",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "9970e495-29c4-47b8-a3e9-c9b365abe400",
+   "verdict": "established",
+   "weight_flags": [
+    {
+     "section": "dosage",
+     "sentence": "2.5 Therapeutic Drug Monitoring Monitoring of sirolimus trough concentrations is recommended for all patients, especially in those patients likely to have altered drug metabolism, in patients ≥ 13 years who weigh less than 40 kg, in patients with hepatic impairment, when a change in the sirolimus tablets dosage form is made, and during concurrent administration of strong CYP3A4 inducers and inhibitors [ seeWarnings and Precautions (5.20, 5.21), Drug Interactions ( 7) ].",
+     "weight_cutoffs": [
+      {
+       "cutoff_kg": 40.0,
+       "matched_text": "less than 40 kg"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "C": {
+    "lower": 0.861111,
+    "upper": 0.861111,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.166667,
+     "upper": 0.166667,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 1.0,
+     "upper": 1.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 1.0,
+     "upper": 1.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [
+     [
+      2.5,
+      18.0
+     ]
+    ],
+    "state": "known"
+   },
+   "dropped": [
+    {
+     "age_intervals_years": [
+      [
+       0.0,
+       2.5
+      ]
+     ],
+     "reason": "restates L_d (paediatric use not established below an age) or refers to another indication; not a hazard",
+     "section": "pediatric_use",
+     "sentence": "The safety and effectiveness of SOGROYA have not been established in pediatric patients less than 2.5 years of age for the treatment of growth failure due to inadequate secretion of endogenous GH, short stature born SGA with no catch-up growth, growth failure associated with NS, or with ISS."
+    }
+   ],
+   "drug_id": "CHEMBL3707290",
+   "hazards": [],
+   "min_age_years": 2.5,
+   "n_dropped": 1,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "SOMAPACITAN",
+   "scope": "growth failure due to inadequate secretion of endogenous growth hormone, short stature born small for gestational age, growth failure associated with Noonan syndrome and idiopathic short stature, from 2.5 years; not established under 2.5 years",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.861111,
+    "upper": 0.861111,
+    "width_years": 18.0
+   },
+   "setid": "eadd03b4-adc3-4b88-8a24-9d205c5b85aa",
+   "verdict": "established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.833333,
+    "upper": 0.833333,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 1.0,
+     "upper": 1.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 1.0,
+     "upper": 1.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [
+     [
+      3.0,
+      18.0
+     ]
+    ],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL4297830",
+   "hazards": [],
+   "min_age_years": 3.0,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "SOMATROGON",
+   "scope": "growth failure due to inadequate secretion of endogenous growth hormone in patients aged 3 years and older",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.833333,
+    "upper": 0.833333,
+    "width_years": 18.0
+   },
+   "setid": "06dce529-b741-4a1b-8842-3ad77be6e308",
+   "verdict": "established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 1.0,
+    "upper": 1.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 1.0,
+     "upper": 1.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 1.0,
+     "upper": 1.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 1.0,
+     "upper": 1.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [
+     [
+      0.0,
+      18.0
+     ]
+    ],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL1201621",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "SOMATROPIN",
+   "scope": "label read: HUMATROPE; growth hormone deficiency, Turner syndrome, idiopathic short stature, SHOX deficiency and short stature in children born small for gestational age; the label states no minimum age (the SGA indication refers to no catch-up growth by 2 to 4 years of age)",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 1.0,
+    "upper": 1.0,
+    "width_years": 18.0
+   },
+   "setid": "a774e1ae-3997-49ee-8b0e-99a2b315d409",
+   "verdict": "established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL1336",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "SORAFENIB",
+   "scope": "not established; growth-plate and bone-marrow findings in young dogs",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "faa9d847-2cd5-6538-e053-6394a90aa92b",
+   "verdict": "not_established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL535",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "SUNITINIB",
+   "scope": "not established; poorly tolerated in children with dose-limiting cardiotoxicity",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "a9479e5f-914f-46ca-95c1-327c66457e47",
+   "verdict": "not_established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL810",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "TEMOZOLOMIDE",
+   "scope": "not established; assessed in two studies in patients aged 3 to 18 years",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "9dff10ec-6a55-47b6-a458-b7c39e32dc55",
+   "verdict": "not_established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.995372,
+    "upper": 0.995372,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.972233,
+     "upper": 0.972233,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 1.0,
+     "upper": 1.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 1.0,
+     "upper": 1.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [
+     [
+      0.0833,
+      18.0
+     ]
+    ],
+    "state": "known"
+   },
+   "dropped": [
+    {
+     "age_intervals_years": [
+      [
+       0.0,
+       0.07665982203969883
+      ]
+     ],
+     "reason": "restates L_d (paediatric use not established below an age) or refers to another indication; not a hazard",
+     "section": "pediatric_use",
+     "sentence": "Safety and effectiveness of thiotepa in neonates have not been established."
+    }
+   ],
+   "drug_id": "CHEMBL671",
+   "hazards": [],
+   "min_age_years": 0.0833,
+   "n_dropped": 1,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "THIOTEPA",
+   "scope": "prevention of graft rejection in paediatric patients undergoing allogeneic transplantation for class 3 beta-thalassaemia (studied from 1 month); not established in neonates, nor for breast, ovarian or bladder cancer",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.995372,
+    "upper": 0.995372,
+    "width_years": 18.0
+   },
+   "setid": "6cd6ae89-c553-4328-9262-4363610a1f19",
+   "verdict": "established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.944444,
+    "upper": 0.944444,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.666667,
+     "upper": 0.666667,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 1.0,
+     "upper": 1.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 1.0,
+     "upper": 1.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [
+     [
+      1.0,
+      18.0
+     ]
+    ],
+    "state": "known"
+   },
+   "dropped": [
+    {
+     "age_intervals_years": [
+      [
+       0.0,
+       1.0
+      ]
+     ],
+     "reason": "restates L_d (paediatric use not established below an age) or refers to another indication; not a hazard",
+     "section": "pediatric_use",
+     "sentence": "The safety and effectiveness of MEKINIST in combination with dabrafenib have not been established for these indications in pediatric patients less than 1 year old."
+    }
+   ],
+   "drug_id": "CHEMBL2103875",
+   "hazards": [],
+   "min_age_years": 1.0,
+   "n_dropped": 1,
+   "n_hazards": 0,
+   "n_weight_flags": 1,
+   "name": "TRAMETINIB",
+   "scope": "in combination with dabrafenib, BRAF V600E-positive solid tumours and low-grade glioma from 1 year; not established as a single agent in paediatric patients",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.944444,
+    "upper": 0.944444,
+    "width_years": 18.0
+   },
+   "setid": "0002ad27-779d-42ab-83b5-bc65453412a1",
+   "verdict": "established",
+   "weight_flags": [
+    {
+     "section": "dosage",
+     "sentence": "A recommended dosage of MEKINIST tablets has not been established in patients who weigh less than 26 kg.",
+     "weight_cutoffs": [
+      {
+       "cutoff_kg": 26.0,
+       "matched_text": "less than 26 kg"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "C": {
+    "lower": 0.944444,
+    "upper": 0.944444,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.666667,
+     "upper": 0.666667,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 1.0,
+     "upper": 1.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 1.0,
+     "upper": 1.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [
+     [
+      1.0,
+      18.0
+     ]
+    ],
+    "state": "known"
+   },
+   "dropped": [
+    {
+     "age_intervals_years": [
+      [
+       0.0,
+       1.0
+      ]
+     ],
+     "reason": "restates L_d (paediatric use not established below an age) or refers to another indication; not a hazard",
+     "section": "warnings",
+     "sentence": "Safety and effectiveness of GRAFAPEX as part of a preparative regimen prior to allogeneic hematopoietic stem cell transplant in pediatric patients with AML or MDS younger than 1 year of age have not been established."
+    }
+   ],
+   "drug_id": "CHEMBL455186",
+   "hazards": [],
+   "min_age_years": 1.0,
+   "n_dropped": 1,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "TREOSULFAN",
+   "scope": "preparative regimen with fludarabine before allogeneic transplantation for AML or myelodysplastic syndrome in adult and paediatric patients 1 year of age and older (from the indications; the label has no paediatric-use section)",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.944444,
+    "upper": 0.944444,
+    "width_years": 18.0
+   },
+   "setid": "2d06b03c-17aa-0492-e063-6294a90abd8f",
+   "verdict": "established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL1096885",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "VALRUBICIN",
+   "scope": "no paediatric use established",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "8739ae02-e4c5-0fa2-e053-2a91aa0a1b74",
+   "verdict": "not_established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL24828",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "VANDETANIB",
+   "scope": "no paediatric use established",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "e5721cb8-4185-47b9-bbb3-1c587e558a03",
+   "verdict": "not_established",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 1.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 1.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 1.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 1.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "unknown"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL159",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "VINBLASTINE",
+   "scope": "the paediatric section only refers to the dosage section, which gives a paediatric dosage schedule; no minimum age and no statement of established effectiveness (implicit paediatric labelling)",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 1.0,
+    "width_years": 18.0
+   },
+   "setid": "f073b58e-56d6-4c8d-a2ce-b37719402d77",
+   "verdict": "verify",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 1.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 1.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 1.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 1.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "unknown"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL90555",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "VINCRISTINE",
+   "scope": "the paediatric section only refers to the dosage section; the label gives paediatric dosing (including for patients weighing 10 kg or less) and warns of deaths in children under 13 years after doses ten times the recommended dose; no minimum age and no statement of established effectiveness (implicit paediatric labelling)",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 1.0,
+    "width_years": 18.0
+   },
+   "setid": "b22e4c8e-dbe1-4d4b-a026-e1812974071c",
+   "verdict": "verify",
+   "weight_flags": []
+  },
+  {
+   "C": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "C_by_group": {
+    "0_to_under_3": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 3.0
+    },
+    "12_and_older": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 6.0
+    },
+    "3_to_under_12": {
+     "lower": 0.0,
+     "upper": 0.0,
+     "width_years": 9.0
+    }
+   },
+   "H_intervals_years": [],
+   "L": {
+    "intervals": [],
+    "state": "known"
+   },
+   "dropped": [],
+   "drug_id": "CHEMBL553025",
+   "hazards": [],
+   "min_age_years": null,
+   "n_dropped": 0,
+   "n_hazards": 0,
+   "n_weight_flags": 0,
+   "name": "VINORELBINE",
+   "scope": "not established; a single-arm study in patients aged 1 to 25 years with recurrent solid tumours",
+   "sensitivity_C_if_not_established_sentences_counted_as_hazards": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "width_years": 18.0
+   },
+   "setid": "10a70995-e04d-4044-b1dc-c9aa27460397",
+   "verdict": "not_established",
+   "weight_flags": []
+  }
+ ],
+ "groups": {
+  "0_to_under_3": [
+   0.0,
+   3.0
+  ],
+  "12_and_older": [
+   12.0,
+   120.0
+  ],
+  "3_to_under_12": [
+   3.0,
+   12.0
+  ]
+ },
+ "header": {
+  "definition": "C = measure{a in [0,18] : L(a)=1 and H(a)=0} / 18; L from the reviewed label verdict (verify = unknown: lower bound 0, upper bound 1); H from age-specific cautions extracted by regular expressions (verbatim sentences). Weight cut-offs are flagged, not converted.",
+  "heuristic": "Extraction is by regular expressions over label sections and must be verified by hand; a caution about one indication is applied to the whole age range.",
+  "not_a_recommendation": "This is NOT a recommendation of treatment and NOT dosing advice. No dose is computed. The age of the patient is unknown and is never assumed.",
+  "purpose": "Label support under an unknown patient age: the fraction of the paediatric age range 0-18 years over which the US label supports use and no age-specific label warning contradicts it."
+ },
+ "n_drugs": 71,
+ "n_hazards_kept": 2,
+ "n_sentences_dropped": 20,
+ "n_weight_flags": 3
+}

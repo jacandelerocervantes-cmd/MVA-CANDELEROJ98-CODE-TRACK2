@@ -1,0 +1,260 @@
+{
+ "CHEMBL107": [],
+ "CHEMBL1096": [],
+ "CHEMBL1102": [],
+ "CHEMBL12": [
+  {
+   "clinpgx_level": "3",
+   "cpic_level": "B/C",
+   "gene": "CYP2C19",
+   "guideline_name": null,
+   "guideline_url": null,
+   "provisional": true
+  }
+ ],
+ "CHEMBL1200472": [],
+ "CHEMBL1200790": [],
+ "CHEMBL1200802": [],
+ "CHEMBL1201748": [],
+ "CHEMBL1201752": [],
+ "CHEMBL1522": [],
+ "CHEMBL1568698": [],
+ "CHEMBL1697737": [],
+ "CHEMBL1742994": [],
+ "CHEMBL1743082": [],
+ "CHEMBL1770916": [],
+ "CHEMBL207538": [],
+ "CHEMBL2103875": [
+  {
+   "clinpgx_level": null,
+   "cpic_level": "C",
+   "gene": "G6PD",
+   "guideline_name": "G6PD",
+   "guideline_url": "https://www.clinpgx.org/guideline/PA166251450",
+   "provisional": false
+  }
+ ],
+ "CHEMBL2105755": [],
+ "CHEMBL2110725": [],
+ "CHEMBL2403108": [],
+ "CHEMBL270190": [],
+ "CHEMBL285674": [],
+ "CHEMBL315795": [],
+ "CHEMBL3187723": [],
+ "CHEMBL325041": [],
+ "CHEMBL3286830": [],
+ "CHEMBL3301582": [],
+ "CHEMBL3301589": [],
+ "CHEMBL344159": [],
+ "CHEMBL3545132": [],
+ "CHEMBL3545185": [],
+ "CHEMBL3545432": [],
+ "CHEMBL3990044": [],
+ "CHEMBL407": [],
+ "CHEMBL4105630": [],
+ "CHEMBL426084": [],
+ "CHEMBL428647": [],
+ "CHEMBL4297841": [],
+ "CHEMBL450": [],
+ "CHEMBL451": [],
+ "CHEMBL451887": [],
+ "CHEMBL452": [],
+ "CHEMBL454": [],
+ "CHEMBL4559134": [],
+ "CHEMBL4582651": [],
+ "CHEMBL500": [
+  {
+   "clinpgx_level": null,
+   "cpic_level": "C",
+   "gene": "ADRA2C",
+   "guideline_name": "CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",
+   "guideline_url": "https://www.clinpgx.org/guideline/PA166343383",
+   "provisional": false
+  },
+  {
+   "clinpgx_level": null,
+   "cpic_level": "C",
+   "gene": "ADRB1",
+   "guideline_name": "CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",
+   "guideline_url": "https://www.clinpgx.org/guideline/PA166343383",
+   "provisional": false
+  },
+  {
+   "clinpgx_level": null,
+   "cpic_level": "C",
+   "gene": "ADRB2",
+   "guideline_name": "CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",
+   "guideline_url": "https://www.clinpgx.org/guideline/PA166343383",
+   "provisional": false
+  },
+  {
+   "clinpgx_level": null,
+   "cpic_level": "C",
+   "gene": "GRK4",
+   "guideline_name": "CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",
+   "guideline_url": "https://www.clinpgx.org/guideline/PA166343383",
+   "provisional": false
+  },
+  {
+   "clinpgx_level": null,
+   "cpic_level": "C",
+   "gene": "GRK5",
+   "guideline_name": "CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",
+   "guideline_url": "https://www.clinpgx.org/guideline/PA166343383",
+   "provisional": false
+  }
+ ],
+ "CHEMBL511142": [
+  {
+   "clinpgx_level": "3",
+   "cpic_level": "C",
+   "gene": "COMT",
+   "guideline_name": "CYP2D6, OPRM1, COMT, and Opioids",
+   "guideline_url": "https://www.clinpgx.org/guideline/PA166251454",
+   "provisional": false
+  },
+  {
+   "clinpgx_level": "3",
+   "cpic_level": "C",
+   "gene": "OPRM1",
+   "guideline_name": "CYP2D6, OPRM1, COMT, and Opioids",
+   "guideline_url": "https://www.clinpgx.org/guideline/PA166251454",
+   "provisional": false
+  }
+ ],
+ "CHEMBL521606": [
+  {
+   "clinpgx_level": null,
+   "cpic_level": "C",
+   "gene": "ADRA2C",
+   "guideline_name": "CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",
+   "guideline_url": "https://www.clinpgx.org/guideline/PA166343383",
+   "provisional": false
+  },
+  {
+   "clinpgx_level": null,
+   "cpic_level": "C",
+   "gene": "ADRB1",
+   "guideline_name": "CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",
+   "guideline_url": "https://www.clinpgx.org/guideline/PA166343383",
+   "provisional": false
+  },
+  {
+   "clinpgx_level": null,
+   "cpic_level": "C",
+   "gene": "ADRB2",
+   "guideline_name": "CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",
+   "guideline_url": "https://www.clinpgx.org/guideline/PA166343383",
+   "provisional": false
+  },
+  {
+   "clinpgx_level": null,
+   "cpic_level": "C",
+   "gene": "GRK4",
+   "guideline_name": "CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",
+   "guideline_url": "https://www.clinpgx.org/guideline/PA166343383",
+   "provisional": false
+  },
+  {
+   "clinpgx_level": null,
+   "cpic_level": "C",
+   "gene": "GRK5",
+   "guideline_name": "CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",
+   "guideline_url": "https://www.clinpgx.org/guideline/PA166343383",
+   "provisional": false
+  }
+ ],
+ "CHEMBL526": [],
+ "CHEMBL5314379": [],
+ "CHEMBL548": [],
+ "CHEMBL568": [
+  {
+   "clinpgx_level": "3",
+   "cpic_level": "C/D",
+   "gene": "UGT2B15",
+   "guideline_name": null,
+   "guideline_url": null,
+   "provisional": true
+  }
+ ],
+ "CHEMBL571546": [],
+ "CHEMBL580": [],
+ "CHEMBL591": [],
+ "CHEMBL601719": [],
+ "CHEMBL655": [
+  {
+   "clinpgx_level": "3",
+   "cpic_level": "C/D",
+   "gene": "CYP3A5",
+   "guideline_name": null,
+   "guideline_url": null,
+   "provisional": true
+  }
+ ],
+ "CHEMBL661": [],
+ "CHEMBL681": [],
+ "CHEMBL70418": [
+  {
+   "clinpgx_level": "2A",
+   "cpic_level": "B/C",
+   "gene": "CYP2C19",
+   "guideline_name": null,
+   "guideline_url": null,
+   "provisional": true
+  }
+ ],
+ "CHEMBL723": [
+  {
+   "clinpgx_level": null,
+   "cpic_level": "C",
+   "gene": "ADRA2C",
+   "guideline_name": "CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",
+   "guideline_url": "https://www.clinpgx.org/guideline/PA166343383",
+   "provisional": false
+  },
+  {
+   "clinpgx_level": "3",
+   "cpic_level": "C",
+   "gene": "ADRB1",
+   "guideline_name": "CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",
+   "guideline_url": "https://www.clinpgx.org/guideline/PA166343383",
+   "provisional": false
+  },
+  {
+   "clinpgx_level": "3",
+   "cpic_level": "C",
+   "gene": "ADRB2",
+   "guideline_name": "CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",
+   "guideline_url": "https://www.clinpgx.org/guideline/PA166343383",
+   "provisional": false
+  },
+  {
+   "clinpgx_level": "3",
+   "cpic_level": "C",
+   "gene": "CYP2D6",
+   "guideline_name": "CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",
+   "guideline_url": "https://www.clinpgx.org/guideline/PA166343383",
+   "provisional": false
+  },
+  {
+   "clinpgx_level": null,
+   "cpic_level": "C",
+   "gene": "GRK4",
+   "guideline_name": "CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",
+   "guideline_url": "https://www.clinpgx.org/guideline/PA166343383",
+   "provisional": false
+  },
+  {
+   "clinpgx_level": null,
+   "cpic_level": "C",
+   "gene": "GRK5",
+   "guideline_name": "CYP2D6, ADRB1, ADRB2, ADRA2C, GRK4, and GRK5 and Beta-Blockers",
+   "guideline_url": "https://www.clinpgx.org/guideline/PA166343383",
+   "provisional": false
+  }
+ ],
+ "CHEMBL92": [],
+ "CHEMBL967": [],
+ "CHEMBL969": [],
+ "CHEMBL970": []
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Result of the author's reading of the PubMed hits of out/literature_search.json (protocol/addendum_four_lines.md, amendment 3). A drug is listed under `accepted` only if an abstract supports, for the drug's own target, an effect on the spindle checkpoint, BubR1 function, chromosome segregation or the aneuploidy response (or on the growth and muscle phenotypes of BubR1-deficient models). Nothing is listed there. The hits that looked closest are written under `reviewed_and_rejected` with the reason, so that the decision can be checked.",
+  "searched_on": "2026-10-07",
+  "accepted": [],
+  "reviewed_and_rejected": [
+    {"drug": "BRIGATINIB", "gene": "ALK", "pmid": "34885137", "title": "Mad2 Induced Aneuploidy Contributes to Eml4-Alk Driven Lung Cancer by Generating an Immunosuppressive Environment",
+     "reason": "It shows that chromosomal instability caused by MAD2 overexpression cooperates with EML4-ALK in a lung cancer model; it does not show that ALK activity or its inhibition affects the checkpoint or the response to aneuploidy."},
+    {"drug": "BRIGATINIB", "gene": "EGFR", "pmid": "25503139", "title": "Numerical and structural chromosomal anomalies in undifferentiated pleomorphic sarcoma",
+     "reason": "Descriptive cytogenetics of a tumour type; EGFR is only a co-listed gene."},
+    {"drug": "MIDOSTAURIN", "gene": "KIT", "pmid": "32977361", "title": "BUB1B promotes hepatocellular carcinoma progression via activation of the mTORC1 signaling pathway",
+     "reason": "The paper is about BUB1B and mTORC1 in liver cancer; KIT matched only by the term, and midostaurin does not act on mTORC1."},
+    {"drug": "MIDOSTAURIN", "gene": "FLT3", "pmid": "25405759", "title": "MDM4 overexpressed in acute myeloid leukemia patients with complex karyotype and wild-type TP53",
+     "reason": "Association in patient samples (complex karyotype and MDM4); no statement about FLT3 and the checkpoint or aneuploidy tolerance."},
+    {"drug": "INDOMETHACIN", "gene": "PTGS2", "pmid": "16397240", "title": "Aneuploidy-dependent massive deregulation of the cellular transcriptome and apparent divergence of the Wnt/beta-catenin signaling pathway in human rectal carcinomas",
+     "reason": "Transcriptome of aneuploid tumours; PTGS2 is one of many deregulated genes; no link to the drug's action."},
+    {"drug": "COBIMETINIB", "gene": "MAP2K1", "pmid": "24444598", "title": "Digital multiplexed mRNA analysis of functionally important genes in single human oocytes and correlation of changes in transcript levels with oocyte aneuploidy",
+     "reason": "Transcript level of a panel of genes in oocytes; no functional claim about MAP2K1 and chromosome segregation."},
+    {"drug": "SELINEXOR", "gene": "XPO1", "pmid": null, "title": null, "reason": "The search returned no paper."}
+  ],
+  "no_hits": "The remaining drugs supported by one line have no hit or only hits with the same character as those above (gene names matched in tumour cytogenetics or transcriptome lists)."
+}

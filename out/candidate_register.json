@@ -1,0 +1,2970 @@
+{
+ "by_source": {
+  "extrapolation_arm": 3,
+  "paediatric_search": 1,
+  "strict": 16,
+  "wide_ring": 17
+ },
+ "drugs": [
+  {
+   "L1": true,
+   "L2": true,
+   "L3": true,
+   "L4_call": "no_association",
+   "age_bands": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "age_groups": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "approved_indications": [
+    "Neoplasms"
+   ],
+   "boxed_warning": false,
+   "broad_target_profile": true,
+   "core": {
+    "L1_core": false,
+    "label": "proximity_by_generic_complex_only",
+    "robustness_count_core": 0
+   },
+   "drug_id": "CHEMBL325041",
+   "excipient_alerts": [],
+   "fda_eligible": true,
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "justification": "Satisfies L1 robust proximity, L2 binding to a module protein, L3 literature rationale; does not satisfy none; PRISM: no association with checkpoint strength. Its proximity comes only from membership of generic complexes (proteasome or tubulin): it disappears when they are removed from the modules. Broad target profile: closeness may reflect breadth.",
+   "label_caution": null,
+   "list": "tumour_context",
+   "mechanism_of_action": [
+    "26S proteasome inhibitor"
+   ],
+   "name": "BORTEZOMIB",
+   "novelty": "curated_mechanism_already_near",
+   "proximal_targets": [
+    {
+     "distance": 0,
+     "gene": "ADRM1",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "Q16186"
+    },
+    {
+     "distance": 0,
+     "gene": "HDAC8",
+     "median_pchembl": 7.14,
+     "module": "BUB1B",
+     "n_measurements": 1,
+     "source": "measured",
+     "uniprot": "Q9BY41"
+    },
+    {
+     "distance": 0,
+     "gene": "PSMA1",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "P25786"
+    },
+    {
+     "distance": 0,
+     "gene": "PSMA2",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "P25787"
+    },
+    {
+     "distance": 0,
+     "gene": "PSMA3",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "P25788"
+    }
+   ],
+   "repositioning": {
+    "caveat": "The support is from yeast and cancer cells and no paper on proteasome inhibitors in BUB1B-deficient cells was verified. In cell lines there is no association with checkpoint strength before adjusting; after adjusting for proliferation the direction is the same as for microtubule agents (less effective with a weak checkpoint). The network proximity of this class is membership of the proteasome in the checkpoint pathways, so it is not independent evidence.",
+    "consequences": [
+     "2",
+     "5"
+    ],
+    "context": "tumour",
+    "new_use": "Tumour-directed: proteasome inhibition to exploit the proteotoxic stress of aneuploid cells, if the child develops a tumour (rhabdomyosarcoma or Wilms tumour are the tumours reported in this syndrome). It does not treat the constitutional defect.",
+    "rule": "proteasome_inhibitor",
+    "validation": "Dose-response of a proteasome inhibitor in patient-derived cells or BUB1B-hypomorphic engineered cells against isogenic controls; read-outs: selective killing of aneuploid cells (karyotype or single-cell sequencing) and proteotoxic stress markers (ubiquitinated proteins, HSP70). Refuted if aneuploid and diploid cells are equally sensitive."
+   },
+   "sources": [
+    "strict",
+    "wide_ring"
+   ],
+   "target_roles": [
+    {
+     "gene": "ADRM1",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits ADRM1 (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "PSMA1",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits PSMA1 (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "PSMA2",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits PSMA2 (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "PSMA3",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits PSMA3 (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "PSMA4",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits PSMA4 (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "PSMA5",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits PSMA5 (curated mechanism)",
+     "source": "curated"
+    }
+   ],
+   "tier_strict": 1,
+   "tier_wide": 1
+  },
+  {
+   "L1": true,
+   "L2": true,
+   "L3": true,
+   "L4_call": "no_association",
+   "age_bands": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "age_groups": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "approved_indications": [
+    "Multiple Myeloma",
+    "Neoplasms"
+   ],
+   "boxed_warning": false,
+   "broad_target_profile": true,
+   "core": {
+    "L1_core": false,
+    "label": "proximity_by_generic_complex_only",
+    "robustness_count_core": 0
+   },
+   "drug_id": "CHEMBL451887",
+   "excipient_alerts": [
+    "BETADEX SULFOBUTYL ETHER SODIUM"
+   ],
+   "fda_eligible": true,
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "justification": "Satisfies L1 robust proximity, L2 binding to a module protein, L3 literature rationale; does not satisfy none; PRISM: no association with checkpoint strength. Its proximity comes only from membership of generic complexes (proteasome or tubulin): it disappears when they are removed from the modules. Broad target profile: closeness may reflect breadth.",
+   "label_caution": null,
+   "list": "tumour_context",
+   "mechanism_of_action": [
+    "26S proteasome inhibitor"
+   ],
+   "name": "CARFILZOMIB",
+   "novelty": "curated_mechanism_already_near",
+   "proximal_targets": [
+    {
+     "distance": 0,
+     "gene": "ADRM1",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "Q16186"
+    },
+    {
+     "distance": 0,
+     "gene": "PSMA1",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "P25786"
+    },
+    {
+     "distance": 0,
+     "gene": "PSMA2",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "P25787"
+    },
+    {
+     "distance": 0,
+     "gene": "PSMA3",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "P25788"
+    },
+    {
+     "distance": 0,
+     "gene": "PSMA4",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "P25789"
+    }
+   ],
+   "repositioning": {
+    "caveat": "The support is from yeast and cancer cells and no paper on proteasome inhibitors in BUB1B-deficient cells was verified. In cell lines there is no association with checkpoint strength before adjusting; after adjusting for proliferation the direction is the same as for microtubule agents (less effective with a weak checkpoint). The network proximity of this class is membership of the proteasome in the checkpoint pathways, so it is not independent evidence.",
+    "consequences": [
+     "2",
+     "5"
+    ],
+    "context": "tumour",
+    "new_use": "Tumour-directed: proteasome inhibition to exploit the proteotoxic stress of aneuploid cells, if the child develops a tumour (rhabdomyosarcoma or Wilms tumour are the tumours reported in this syndrome). It does not treat the constitutional defect.",
+    "rule": "proteasome_inhibitor",
+    "validation": "Dose-response of a proteasome inhibitor in patient-derived cells or BUB1B-hypomorphic engineered cells against isogenic controls; read-outs: selective killing of aneuploid cells (karyotype or single-cell sequencing) and proteotoxic stress markers (ubiquitinated proteins, HSP70). Refuted if aneuploid and diploid cells are equally sensitive."
+   },
+   "sources": [
+    "strict",
+    "wide_ring"
+   ],
+   "target_roles": [
+    {
+     "gene": "ADRM1",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits ADRM1 (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "PSMA1",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits PSMA1 (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "PSMA2",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits PSMA2 (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "PSMA3",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits PSMA3 (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "PSMA4",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits PSMA4 (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "PSMA5",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits PSMA5 (curated mechanism)",
+     "source": "curated"
+    }
+   ],
+   "tier_strict": 1,
+   "tier_wide": 1
+  },
+  {
+   "L1": true,
+   "L2": true,
+   "L3": true,
+   "L4_call": "no_association",
+   "age_bands": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "age_groups": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "approved_indications": [
+    "Multiple Myeloma"
+   ],
+   "boxed_warning": false,
+   "broad_target_profile": true,
+   "core": {
+    "L1_core": false,
+    "label": "proximity_by_generic_complex_only",
+    "robustness_count_core": 0
+   },
+   "drug_id": "CHEMBL3545432",
+   "excipient_alerts": [],
+   "fda_eligible": true,
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "justification": "Satisfies L1 robust proximity, L2 binding to a module protein, L3 literature rationale; does not satisfy none; PRISM: no association with checkpoint strength. Its proximity comes only from membership of generic complexes (proteasome or tubulin): it disappears when they are removed from the modules. Broad target profile: closeness may reflect breadth.",
+   "label_caution": null,
+   "list": "tumour_context",
+   "mechanism_of_action": [
+    "26S proteasome inhibitor"
+   ],
+   "name": "IXAZOMIB CITRATE",
+   "novelty": "curated_mechanism_already_near",
+   "proximal_targets": [
+    {
+     "distance": 0,
+     "gene": "ADRM1",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "Q16186"
+    },
+    {
+     "distance": 0,
+     "gene": "PSMA1",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "P25786"
+    },
+    {
+     "distance": 0,
+     "gene": "PSMA2",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "P25787"
+    },
+    {
+     "distance": 0,
+     "gene": "PSMA3",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "P25788"
+    },
+    {
+     "distance": 0,
+     "gene": "PSMA4",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "P25789"
+    }
+   ],
+   "repositioning": {
+    "caveat": "The support is from yeast and cancer cells and no paper on proteasome inhibitors in BUB1B-deficient cells was verified. In cell lines there is no association with checkpoint strength before adjusting; after adjusting for proliferation the direction is the same as for microtubule agents (less effective with a weak checkpoint). The network proximity of this class is membership of the proteasome in the checkpoint pathways, so it is not independent evidence.",
+    "consequences": [
+     "2",
+     "5"
+    ],
+    "context": "tumour",
+    "new_use": "Tumour-directed: proteasome inhibition to exploit the proteotoxic stress of aneuploid cells, if the child develops a tumour (rhabdomyosarcoma or Wilms tumour are the tumours reported in this syndrome). It does not treat the constitutional defect.",
+    "rule": "proteasome_inhibitor",
+    "validation": "Dose-response of a proteasome inhibitor in patient-derived cells or BUB1B-hypomorphic engineered cells against isogenic controls; read-outs: selective killing of aneuploid cells (karyotype or single-cell sequencing) and proteotoxic stress markers (ubiquitinated proteins, HSP70). Refuted if aneuploid and diploid cells are equally sensitive."
+   },
+   "sources": [
+    "strict",
+    "wide_ring"
+   ],
+   "target_roles": [
+    {
+     "gene": "ADRM1",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits ADRM1 (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "PSMA1",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits PSMA1 (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "PSMA2",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits PSMA2 (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "PSMA3",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits PSMA3 (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "PSMA4",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits PSMA4 (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "PSMA5",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits PSMA5 (curated mechanism)",
+     "source": "curated"
+    }
+   ],
+   "tier_strict": 1,
+   "tier_wide": 1
+  },
+  {
+   "L1": true,
+   "L2": true,
+   "L3": false,
+   "L4_call": "not_in_PRISM",
+   "age_bands": {
+    "adolescent": "LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "age_groups": {
+    "0_to_under_3": "partly (from 2 y)",
+    "12_and_older": "labelled",
+    "3_to_under_12": "labelled"
+   },
+   "approved_indications": [
+    "Hodgkin Disease",
+    "Lymphoma, Large-Cell, Anaplastic",
+    "Lymphoma, Non-Hodgkin",
+    "Neoplasms"
+   ],
+   "boxed_warning": true,
+   "broad_target_profile": false,
+   "core": {
+    "L1_core": false,
+    "label": "proximity_by_generic_complex_only",
+    "robustness_count_core": 0
+   },
+   "drug_id": "CHEMBL1742994",
+   "excipient_alerts": [
+    "POLYSORBATE 80"
+   ],
+   "fda_eligible": true,
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "justification": "Satisfies L1 robust proximity, L2 binding to a module protein; does not satisfy L3 literature rationale; not in PRISM. Its proximity comes only from membership of generic complexes (proteasome or tubulin): it disappears when they are removed from the modules.",
+   "label_caution": null,
+   "list": "tumour_context",
+   "mechanism_of_action": [
+    "Tubulin inhibitor",
+    "Tumor necrosis factor receptor superfamily member 8 binding agent"
+   ],
+   "name": "BRENTUXIMAB VEDOTIN",
+   "novelty": "curated_mechanism_already_near",
+   "proximal_targets": [
+    {
+     "distance": 0,
+     "gene": "TUBA1A",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "Q71U36"
+    },
+    {
+     "distance": 0,
+     "gene": "TUBA1B",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "P68363"
+    },
+    {
+     "distance": 0,
+     "gene": "TUBA1C",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "Q9BQE3"
+    },
+    {
+     "distance": 0,
+     "gene": "TUBA3D",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "P0DPH7"
+    },
+    {
+     "distance": 0,
+     "gene": "TUBA3E",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "Q6PEY2"
+    }
+   ],
+   "repositioning": {
+    "caveat": "Antimitotic payloads depend on the spindle checkpoint: cell-line data and taxane studies point to less effect where the checkpoint is weak.",
+    "consequences": [
+     "5"
+    ],
+    "context": "tumour",
+    "new_use": "Tumour-directed delivery of a tubulin toxin to cells that carry CD30 (TNFRSF8): relevant only if the child's tumour expresses that antigen (not established for any tumour of this syndrome). The payload is an antimitotic.",
+    "rule": "tubulin_toxin_antibody_drug_conjugate",
+    "validation": "Immunohistochemistry for the antigen in the child's tumour or in rhabdomyosarcoma and Wilms tumour models. Refuted if the antigen is absent; and test the payload in BUB1B-hypomorphic cells, where less effect is expected."
+   },
+   "sources": [
+    "paediatric_search",
+    "strict",
+    "wide_ring"
+   ],
+   "target_roles": [
+    {
+     "gene": "TUBA1A",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA1A (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA1B",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA1B (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA1C",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA1C (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA3D",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA3D (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA3E",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA3E (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA4A",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA4A (curated mechanism)",
+     "source": "curated"
+    }
+   ],
+   "tier_strict": 2,
+   "tier_wide": 2
+  },
+  {
+   "L1": true,
+   "L2": true,
+   "L3": false,
+   "L4_call": "supports_resistance_when_SAC_weak",
+   "age_bands": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "age_groups": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "approved_indications": [
+    "Neoplasms",
+    "Prostatic Neoplasms",
+    "Prostatic Neoplasms, Castration-Resistant"
+   ],
+   "boxed_warning": true,
+   "broad_target_profile": false,
+   "core": {
+    "L1_core": false,
+    "label": "proximity_by_generic_complex_only",
+    "robustness_count_core": 0
+   },
+   "drug_id": "CHEMBL1201748",
+   "excipient_alerts": [
+    "ALCOHOL",
+    "POLYSORBATE 80"
+   ],
+   "fda_eligible": true,
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "justification": "Satisfies L1 robust proximity, L2 binding to a module protein; does not satisfy L3 literature rationale; PRISM: cells with a weak checkpoint are more resistant. Its proximity comes only from membership of generic complexes (proteasome or tubulin): it disappears when they are removed from the modules.",
+   "label_caution": null,
+   "list": "tumour_context",
+   "mechanism_of_action": [
+    "Tubulin inhibitor"
+   ],
+   "name": "CABAZITAXEL",
+   "novelty": "curated_mechanism_already_near",
+   "proximal_targets": [
+    {
+     "distance": 0,
+     "gene": "TUBA1A",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "Q71U36"
+    },
+    {
+     "distance": 0,
+     "gene": "TUBA1B",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "P68363"
+    },
+    {
+     "distance": 0,
+     "gene": "TUBA1C",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "Q9BQE3"
+    },
+    {
+     "distance": 0,
+     "gene": "TUBA3D",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "P0DPH7"
+    },
+    {
+     "distance": 0,
+     "gene": "TUBA3E",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "Q6PEY2"
+    }
+   ],
+   "repositioning": {
+    "caveat": "Cell lines with a weaker checkpoint are more resistant to every microtubule agent tested, in line with taxane-resistance reports: this class is not favoured and is listed for completeness.",
+    "consequences": [
+     "5"
+    ],
+    "context": "tumour_or_constitutional",
+    "new_use": "Antimitotic for a tumour context (consequence 5); no rationale for the constitutional defect.",
+    "rule": "microtubule_agent_tumour",
+    "validation": "Viability and mitotic-slippage assays in cells with reduced BUB1B against controls. The cell-line data predict less effect with a weak checkpoint; a confirmation is a reason to avoid the class."
+   },
+   "sources": [
+    "strict",
+    "wide_ring"
+   ],
+   "target_roles": [
+    {
+     "gene": "TUBA1A",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA1A (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA1B",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA1B (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA1C",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA1C (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA3D",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA3D (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA3E",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA3E (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA4A",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA4A (curated mechanism)",
+     "source": "curated"
+    }
+   ],
+   "tier_strict": 2,
+   "tier_wide": 2
+  },
+  {
+   "L1": true,
+   "L2": true,
+   "L3": false,
+   "L4_call": "supports_resistance_when_SAC_weak",
+   "age_bands": {
+    "adolescent": "LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "age_groups": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "labelled",
+    "3_to_under_12": "partly (from 4 y)"
+   },
+   "approved_indications": [
+    "Familial Mediterranean Fever",
+    "Gout"
+   ],
+   "boxed_warning": false,
+   "broad_target_profile": false,
+   "core": {
+    "L1_core": false,
+    "label": "proximity_by_generic_complex_only",
+    "robustness_count_core": 0
+   },
+   "drug_id": "CHEMBL107",
+   "excipient_alerts": [
+    "LACTOSE MONOHYDRATE"
+   ],
+   "fda_eligible": true,
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "justification": "Satisfies L1 robust proximity, L2 binding to a module protein; does not satisfy L3 literature rationale; PRISM: cells with a weak checkpoint are more resistant. Its proximity comes only from membership of generic complexes (proteasome or tubulin): it disappears when they are removed from the modules.",
+   "label_caution": null,
+   "list": "constitutional_defect",
+   "mechanism_of_action": [
+    "Tubulin inhibitor"
+   ],
+   "name": "COLCHICINE",
+   "novelty": "curated_mechanism_already_near",
+   "proximal_targets": [
+    {
+     "distance": 0,
+     "gene": "TUBA1A",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "Q71U36"
+    },
+    {
+     "distance": 0,
+     "gene": "TUBA1B",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "P68363"
+    },
+    {
+     "distance": 0,
+     "gene": "TUBA1C",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "Q9BQE3"
+    },
+    {
+     "distance": 0,
+     "gene": "TUBA3D",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "P0DPH7"
+    },
+    {
+     "distance": 0,
+     "gene": "TUBA3E",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "Q6PEY2"
+    }
+   ],
+   "repositioning": {
+    "caveat": "Cell lines with a weaker checkpoint are more resistant to every microtubule agent tested; listed because it met the criteria, not because a use is proposed.",
+    "consequences": [],
+    "context": "none",
+    "new_use": "No specific repositioned use proposed: a microtubule agent used outside oncology; its closeness to the module comes only from tubulin, which is a generic component of the mitotic pathways.",
+    "rule": "microtubule_agent_non_oncology",
+    "validation": "None proposed; if tested, the same assay as for the other microtubule agents."
+   },
+   "sources": [
+    "strict",
+    "wide_ring"
+   ],
+   "target_roles": [
+    {
+     "gene": "TUBA1A",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA1A (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA1B",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA1B (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA1C",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA1C (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA3D",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA3D (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA3E",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA3E (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA4A",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA4A (curated mechanism)",
+     "source": "curated"
+    }
+   ],
+   "tier_strict": 2,
+   "tier_wide": 2
+  },
+  {
+   "L1": true,
+   "L2": true,
+   "L3": false,
+   "L4_call": "supports_resistance_when_SAC_weak",
+   "age_bands": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "age_groups": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "approved_indications": [
+    "Adenocarcinoma",
+    "Breast Neoplasms",
+    "Carcinoma, Non-Small-Cell Lung",
+    "Head and Neck Neoplasms",
+    "Prostatic Neoplasms",
+    "Squamous Cell Carcinoma of Head and Neck",
+    "Stomach Neoplasms"
+   ],
+   "boxed_warning": true,
+   "broad_target_profile": false,
+   "core": {
+    "L1_core": false,
+    "label": "proximity_by_generic_complex_only",
+    "robustness_count_core": 0
+   },
+   "drug_id": "CHEMBL92",
+   "excipient_alerts": [
+    "ALCOHOL",
+    "POLYSORBATE 80"
+   ],
+   "fda_eligible": true,
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "justification": "Satisfies L1 robust proximity, L2 binding to a module protein; does not satisfy L3 literature rationale; PRISM: cells with a weak checkpoint are more resistant. Its proximity comes only from membership of generic complexes (proteasome or tubulin): it disappears when they are removed from the modules.",
+   "label_caution": null,
+   "list": "tumour_context",
+   "mechanism_of_action": [
+    "Tubulin stabiliser"
+   ],
+   "name": "DOCETAXEL ANHYDROUS",
+   "novelty": "curated_mechanism_already_near",
+   "proximal_targets": [
+    {
+     "distance": 0,
+     "gene": "TUBA1A",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "Q71U36"
+    },
+    {
+     "distance": 0,
+     "gene": "TUBA1B",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "P68363"
+    },
+    {
+     "distance": 0,
+     "gene": "TUBA1C",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "Q9BQE3"
+    },
+    {
+     "distance": 0,
+     "gene": "TUBA3D",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "P0DPH7"
+    },
+    {
+     "distance": 0,
+     "gene": "TUBA3E",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "Q6PEY2"
+    }
+   ],
+   "repositioning": {
+    "caveat": "Cell lines with a weaker checkpoint are more resistant to every microtubule agent tested, in line with taxane-resistance reports: this class is not favoured and is listed for completeness.",
+    "consequences": [
+     "5"
+    ],
+    "context": "tumour_or_constitutional",
+    "new_use": "Antimitotic for a tumour context (consequence 5); no rationale for the constitutional defect.",
+    "rule": "microtubule_agent_tumour",
+    "validation": "Viability and mitotic-slippage assays in cells with reduced BUB1B against controls. The cell-line data predict less effect with a weak checkpoint; a confirmation is a reason to avoid the class."
+   },
+   "sources": [
+    "strict",
+    "wide_ring"
+   ],
+   "target_roles": [
+    {
+     "gene": "TUBA1A",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "stabilises TUBA1A (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA1B",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "stabilises TUBA1B (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA1C",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "stabilises TUBA1C (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA3D",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "stabilises TUBA3D (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA3E",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "stabilises TUBA3E (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA4A",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "stabilises TUBA4A (curated mechanism)",
+     "source": "curated"
+    }
+   ],
+   "tier_strict": 2,
+   "tier_wide": 2
+  },
+  {
+   "L1": true,
+   "L2": true,
+   "L3": false,
+   "L4_call": "not_in_PRISM",
+   "age_bands": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "age_groups": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "approved_indications": [
+    "Carcinoma, Transitional Cell",
+    "Neoplasms",
+    "Urologic Neoplasms"
+   ],
+   "boxed_warning": true,
+   "broad_target_profile": false,
+   "core": {
+    "L1_core": false,
+    "label": "proximity_by_generic_complex_only",
+    "robustness_count_core": 0
+   },
+   "drug_id": "CHEMBL3301589",
+   "excipient_alerts": [],
+   "fda_eligible": true,
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "justification": "Satisfies L1 robust proximity, L2 binding to a module protein; does not satisfy L3 literature rationale; not in PRISM. Its proximity comes only from membership of generic complexes (proteasome or tubulin): it disappears when they are removed from the modules.",
+   "label_caution": null,
+   "list": "tumour_context",
+   "mechanism_of_action": [
+    "Nectin-4 binding agent",
+    "Tubulin inhibitor"
+   ],
+   "name": "ENFORTUMAB VEDOTIN",
+   "novelty": "curated_mechanism_already_near",
+   "proximal_targets": [
+    {
+     "distance": 0,
+     "gene": "TUBA1A",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "Q71U36"
+    },
+    {
+     "distance": 0,
+     "gene": "TUBA1B",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "P68363"
+    },
+    {
+     "distance": 0,
+     "gene": "TUBA1C",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "Q9BQE3"
+    },
+    {
+     "distance": 0,
+     "gene": "TUBA3D",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "P0DPH7"
+    },
+    {
+     "distance": 0,
+     "gene": "TUBA3E",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "Q6PEY2"
+    }
+   ],
+   "repositioning": {
+    "caveat": "Antimitotic payloads depend on the spindle checkpoint: cell-line data and taxane studies point to less effect where the checkpoint is weak.",
+    "consequences": [
+     "5"
+    ],
+    "context": "tumour",
+    "new_use": "Tumour-directed delivery of a tubulin toxin to cells that carry Nectin-4: relevant only if the child's tumour expresses that antigen (not established for any tumour of this syndrome). The payload is an antimitotic.",
+    "rule": "tubulin_toxin_antibody_drug_conjugate",
+    "validation": "Immunohistochemistry for the antigen in the child's tumour or in rhabdomyosarcoma and Wilms tumour models. Refuted if the antigen is absent; and test the payload in BUB1B-hypomorphic cells, where less effect is expected."
+   },
+   "sources": [
+    "strict",
+    "wide_ring"
+   ],
+   "target_roles": [
+    {
+     "gene": "TUBA1A",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA1A (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA1B",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA1B (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA1C",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA1C (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA3D",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA3D (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA3E",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA3E (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA4A",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA4A (curated mechanism)",
+     "source": "curated"
+    }
+   ],
+   "tier_strict": 2,
+   "tier_wide": 2
+  },
+  {
+   "L1": true,
+   "L2": true,
+   "L3": false,
+   "L4_call": "supports_resistance_when_SAC_weak",
+   "age_bands": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "age_groups": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "approved_indications": [
+    "Breast Neoplasms",
+    "Neoplasms"
+   ],
+   "boxed_warning": true,
+   "broad_target_profile": false,
+   "core": {
+    "L1_core": false,
+    "label": "proximity_by_generic_complex_only",
+    "robustness_count_core": 0
+   },
+   "drug_id": "CHEMBL1201752",
+   "excipient_alerts": [
+    "ALCOHOL",
+    "POLYOXYL 35 CASTOR OIL"
+   ],
+   "fda_eligible": true,
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "justification": "Satisfies L1 robust proximity, L2 binding to a module protein; does not satisfy L3 literature rationale; PRISM: cells with a weak checkpoint are more resistant. Its proximity comes only from membership of generic complexes (proteasome or tubulin): it disappears when they are removed from the modules.",
+   "label_caution": null,
+   "list": "tumour_context",
+   "mechanism_of_action": [
+    "Tubulin inhibitor"
+   ],
+   "name": "IXABEPILONE",
+   "novelty": "curated_mechanism_already_near",
+   "proximal_targets": [
+    {
+     "distance": 0,
+     "gene": "TUBA1A",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "Q71U36"
+    },
+    {
+     "distance": 0,
+     "gene": "TUBA1B",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "P68363"
+    },
+    {
+     "distance": 0,
+     "gene": "TUBA1C",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "Q9BQE3"
+    },
+    {
+     "distance": 0,
+     "gene": "TUBA3D",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "P0DPH7"
+    },
+    {
+     "distance": 0,
+     "gene": "TUBA3E",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "Q6PEY2"
+    }
+   ],
+   "repositioning": {
+    "caveat": "Cell lines with a weaker checkpoint are more resistant to every microtubule agent tested, in line with taxane-resistance reports: this class is not favoured and is listed for completeness.",
+    "consequences": [
+     "5"
+    ],
+    "context": "tumour_or_constitutional",
+    "new_use": "Antimitotic for a tumour context (consequence 5); no rationale for the constitutional defect.",
+    "rule": "microtubule_agent_tumour",
+    "validation": "Viability and mitotic-slippage assays in cells with reduced BUB1B against controls. The cell-line data predict less effect with a weak checkpoint; a confirmation is a reason to avoid the class."
+   },
+   "sources": [
+    "strict",
+    "wide_ring"
+   ],
+   "target_roles": [
+    {
+     "gene": "TUBA1A",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA1A (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA1B",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA1B (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA1C",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA1C (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA3D",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA3D (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA3E",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA3E (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA4A",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA4A (curated mechanism)",
+     "source": "curated"
+    }
+   ],
+   "tier_strict": 2,
+   "tier_wide": 2
+  },
+  {
+   "L1": true,
+   "L2": true,
+   "L3": false,
+   "L4_call": "not_in_PRISM",
+   "age_bands": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "age_groups": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "approved_indications": [
+    "Carcinoma, Ovarian Epithelial",
+    "Fallopian Tube Neoplasms",
+    "Neoplasms",
+    "Peritoneal Neoplasms"
+   ],
+   "boxed_warning": true,
+   "broad_target_profile": false,
+   "core": {
+    "L1_core": false,
+    "label": "proximity_by_generic_complex_only",
+    "robustness_count_core": 0
+   },
+   "drug_id": "CHEMBL3545132",
+   "excipient_alerts": [],
+   "fda_eligible": true,
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "justification": "Satisfies L1 robust proximity, L2 binding to a module protein; does not satisfy L3 literature rationale; not in PRISM. Its proximity comes only from membership of generic complexes (proteasome or tubulin): it disappears when they are removed from the modules.",
+   "label_caution": null,
+   "list": "tumour_context",
+   "mechanism_of_action": [
+    "Folate receptor alpha binding agent",
+    "Tubulin inhibitor"
+   ],
+   "name": "MIRVETUXIMAB SORAVTANSINE",
+   "novelty": "curated_mechanism_already_near",
+   "proximal_targets": [
+    {
+     "distance": 0,
+     "gene": "TUBA1A",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "Q71U36"
+    },
+    {
+     "distance": 0,
+     "gene": "TUBA1B",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "P68363"
+    },
+    {
+     "distance": 0,
+     "gene": "TUBA1C",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "Q9BQE3"
+    },
+    {
+     "distance": 0,
+     "gene": "TUBA3D",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "P0DPH7"
+    },
+    {
+     "distance": 0,
+     "gene": "TUBA3E",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "Q6PEY2"
+    }
+   ],
+   "repositioning": {
+    "caveat": "Antimitotic payloads depend on the spindle checkpoint: cell-line data and taxane studies point to less effect where the checkpoint is weak.",
+    "consequences": [
+     "5"
+    ],
+    "context": "tumour",
+    "new_use": "Tumour-directed delivery of a tubulin toxin to cells that carry folate receptor alpha (FOLR1): relevant only if the child's tumour expresses that antigen (not established for any tumour of this syndrome). The payload is an antimitotic.",
+    "rule": "tubulin_toxin_antibody_drug_conjugate",
+    "validation": "Immunohistochemistry for the antigen in the child's tumour or in rhabdomyosarcoma and Wilms tumour models. Refuted if the antigen is absent; and test the payload in BUB1B-hypomorphic cells, where less effect is expected."
+   },
+   "sources": [
+    "strict",
+    "wide_ring"
+   ],
+   "target_roles": [
+    {
+     "gene": "TUBA1A",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA1A (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA1B",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA1B (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA1C",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA1C (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA3D",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA3D (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA3E",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA3E (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA4A",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA4A (curated mechanism)",
+     "source": "curated"
+    }
+   ],
+   "tier_strict": 2,
+   "tier_wide": 2
+  },
+  {
+   "L1": true,
+   "L2": true,
+   "L3": false,
+   "L4_call": "supports_resistance_when_SAC_weak",
+   "age_bands": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "age_groups": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "approved_indications": [
+    "Breast Neoplasms",
+    "Carcinoma",
+    "Carcinoma, Non-Small-Cell Lung",
+    "Neoplasms",
+    "Ovarian Neoplasms",
+    "Pancreatic Neoplasms",
+    "Sarcoma, Kaposi"
+   ],
+   "boxed_warning": true,
+   "broad_target_profile": false,
+   "core": {
+    "L1_core": false,
+    "label": "proximity_by_generic_complex_only",
+    "robustness_count_core": 0
+   },
+   "drug_id": "CHEMBL428647",
+   "excipient_alerts": [
+    "ALCOHOL",
+    "POLYOXYL 35 CASTOR OIL"
+   ],
+   "fda_eligible": true,
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "justification": "Satisfies L1 robust proximity, L2 binding to a module protein; does not satisfy L3 literature rationale; PRISM: cells with a weak checkpoint are more resistant. Its proximity comes only from membership of generic complexes (proteasome or tubulin): it disappears when they are removed from the modules.",
+   "label_caution": null,
+   "list": "tumour_context",
+   "mechanism_of_action": [
+    "Tubulin inhibitor"
+   ],
+   "name": "PACLITAXEL",
+   "novelty": "curated_mechanism_already_near",
+   "proximal_targets": [
+    {
+     "distance": 0,
+     "gene": "TUBA1A",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "Q71U36"
+    },
+    {
+     "distance": 0,
+     "gene": "TUBA1B",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "P68363"
+    },
+    {
+     "distance": 0,
+     "gene": "TUBA1C",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "Q9BQE3"
+    },
+    {
+     "distance": 0,
+     "gene": "TUBA3D",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "P0DPH7"
+    },
+    {
+     "distance": 0,
+     "gene": "TUBA3E",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "Q6PEY2"
+    }
+   ],
+   "repositioning": {
+    "caveat": "Cell lines with a weaker checkpoint are more resistant to every microtubule agent tested, in line with taxane-resistance reports: this class is not favoured and is listed for completeness.",
+    "consequences": [
+     "5"
+    ],
+    "context": "tumour_or_constitutional",
+    "new_use": "Antimitotic for a tumour context (consequence 5); no rationale for the constitutional defect.",
+    "rule": "microtubule_agent_tumour",
+    "validation": "Viability and mitotic-slippage assays in cells with reduced BUB1B against controls. The cell-line data predict less effect with a weak checkpoint; a confirmation is a reason to avoid the class."
+   },
+   "sources": [
+    "strict",
+    "wide_ring"
+   ],
+   "target_roles": [
+    {
+     "gene": "TUBA1A",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA1A (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA1B",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA1B (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA1C",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA1C (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA3D",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA3D (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA3E",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA3E (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA4A",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA4A (curated mechanism)",
+     "source": "curated"
+    }
+   ],
+   "tier_strict": 2,
+   "tier_wide": 2
+  },
+  {
+   "L1": true,
+   "L2": true,
+   "L3": false,
+   "L4_call": "not_in_PRISM",
+   "age_bands": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "age_groups": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "approved_indications": [
+    "Lymphoma, B-Cell",
+    "Lymphoma, Large B-Cell, Diffuse",
+    "Neoplasms"
+   ],
+   "boxed_warning": false,
+   "broad_target_profile": false,
+   "core": {
+    "L1_core": false,
+    "label": "proximity_by_generic_complex_only",
+    "robustness_count_core": 0
+   },
+   "drug_id": "CHEMBL3301582",
+   "excipient_alerts": [],
+   "fda_eligible": true,
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "justification": "Satisfies L1 robust proximity, L2 binding to a module protein; does not satisfy L3 literature rationale; not in PRISM. Its proximity comes only from membership of generic complexes (proteasome or tubulin): it disappears when they are removed from the modules.",
+   "label_caution": null,
+   "list": "tumour_context",
+   "mechanism_of_action": [
+    "B-cell antigen receptor complex-associated protein beta chain binding agent",
+    "Tubulin inhibitor"
+   ],
+   "name": "POLATUZUMAB VEDOTIN",
+   "novelty": "curated_mechanism_already_near",
+   "proximal_targets": [
+    {
+     "distance": 0,
+     "gene": "TUBA1A",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "Q71U36"
+    },
+    {
+     "distance": 0,
+     "gene": "TUBA1B",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "P68363"
+    },
+    {
+     "distance": 0,
+     "gene": "TUBA1C",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "Q9BQE3"
+    },
+    {
+     "distance": 0,
+     "gene": "TUBA3D",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "P0DPH7"
+    },
+    {
+     "distance": 0,
+     "gene": "TUBA3E",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "Q6PEY2"
+    }
+   ],
+   "repositioning": {
+    "caveat": "Antimitotic payloads depend on the spindle checkpoint: cell-line data and taxane studies point to less effect where the checkpoint is weak.",
+    "consequences": [
+     "5"
+    ],
+    "context": "tumour",
+    "new_use": "Tumour-directed delivery of a tubulin toxin to cells that carry CD79b: relevant only if the child's tumour expresses that antigen (not established for any tumour of this syndrome). The payload is an antimitotic.",
+    "rule": "tubulin_toxin_antibody_drug_conjugate",
+    "validation": "Immunohistochemistry for the antigen in the child's tumour or in rhabdomyosarcoma and Wilms tumour models. Refuted if the antigen is absent; and test the payload in BUB1B-hypomorphic cells, where less effect is expected."
+   },
+   "sources": [
+    "strict",
+    "wide_ring"
+   ],
+   "target_roles": [
+    {
+     "gene": "TUBA1A",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA1A (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA1B",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA1B (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA1C",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA1C (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA3D",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA3D (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA3E",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA3E (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA4A",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA4A (curated mechanism)",
+     "source": "curated"
+    }
+   ],
+   "tier_strict": 2,
+   "tier_wide": 2
+  },
+  {
+   "L1": true,
+   "L2": true,
+   "L3": false,
+   "L4_call": "no_association",
+   "age_bands": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "age_groups": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "approved_indications": [
+    "Lymphoma, Large B-Cell, Diffuse",
+    "Multiple Myeloma",
+    "Neoplasms"
+   ],
+   "boxed_warning": false,
+   "broad_target_profile": false,
+   "core": {
+    "L1_core": true,
+    "label": "proximity_also_without_generic_complexes",
+    "robustness_count_core": 9
+   },
+   "drug_id": "CHEMBL3545185",
+   "excipient_alerts": [
+    "POLYSORBATE 80"
+   ],
+   "fda_eligible": true,
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "justification": "Satisfies L1 robust proximity, L2 binding to a module protein; does not satisfy L3 literature rationale; PRISM: no association with checkpoint strength.",
+   "label_caution": null,
+   "list": "tumour_context",
+   "mechanism_of_action": [
+    "Exportin-1 inhibitor"
+   ],
+   "name": "SELINEXOR",
+   "novelty": "curated_mechanism_already_near",
+   "proximal_targets": [
+    {
+     "distance": 0,
+     "gene": "XPO1",
+     "median_pchembl": 7.6,
+     "module": "BUB1B",
+     "n_measurements": 4,
+     "source": "curated",
+     "uniprot": "O14980"
+    }
+   ],
+   "repositioning": {
+    "caveat": "No mechanistic rationale specific to MVA was found; the case rests on network closeness alone.",
+    "consequences": [
+     "5"
+    ],
+    "context": "tumour",
+    "new_use": "Tumour-directed nuclear-export inhibition; XPO1 is a protein of the checkpoint module (curated mechanism).",
+    "rule": "xpo1_inhibitor",
+    "validation": "Viability and mitotic phenotypes (mitotic index, micronuclei) in BUB1B-hypomorphic cells against controls and in tumour models. Refuted if there is no selective effect."
+   },
+   "sources": [
+    "strict",
+    "wide_ring"
+   ],
+   "target_roles": [
+    {
+     "gene": "XPO1",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits XPO1 (curated mechanism)",
+     "source": "curated"
+    }
+   ],
+   "tier_strict": 2,
+   "tier_wide": 2
+  },
+  {
+   "L1": true,
+   "L2": true,
+   "L3": false,
+   "L4_call": "not_in_PRISM",
+   "age_bands": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "age_groups": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "approved_indications": [
+    "Neoplasms",
+    "Uterine Cervical Neoplasms"
+   ],
+   "boxed_warning": true,
+   "broad_target_profile": false,
+   "core": {
+    "L1_core": false,
+    "label": "proximity_by_generic_complex_only",
+    "robustness_count_core": 0
+   },
+   "drug_id": "CHEMBL4297841",
+   "excipient_alerts": [],
+   "fda_eligible": true,
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "justification": "Satisfies L1 robust proximity, L2 binding to a module protein; does not satisfy L3 literature rationale; not in PRISM. Its proximity comes only from membership of generic complexes (proteasome or tubulin): it disappears when they are removed from the modules.",
+   "label_caution": null,
+   "list": "tumour_context",
+   "mechanism_of_action": [
+    "Coagulation factor III binding agent",
+    "Tubulin inhibitor"
+   ],
+   "name": "TISOTUMAB VEDOTIN",
+   "novelty": "curated_mechanism_already_near",
+   "proximal_targets": [
+    {
+     "distance": 0,
+     "gene": "TUBA1A",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "Q71U36"
+    },
+    {
+     "distance": 0,
+     "gene": "TUBA1B",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "P68363"
+    },
+    {
+     "distance": 0,
+     "gene": "TUBA1C",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "Q9BQE3"
+    },
+    {
+     "distance": 0,
+     "gene": "TUBA3D",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "P0DPH7"
+    },
+    {
+     "distance": 0,
+     "gene": "TUBA3E",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "Q6PEY2"
+    }
+   ],
+   "repositioning": {
+    "caveat": "Antimitotic payloads depend on the spindle checkpoint: cell-line data and taxane studies point to less effect where the checkpoint is weak.",
+    "consequences": [
+     "5"
+    ],
+    "context": "tumour",
+    "new_use": "Tumour-directed delivery of a tubulin toxin to cells that carry tissue factor (F3): relevant only if the child's tumour expresses that antigen (not established for any tumour of this syndrome). The payload is an antimitotic.",
+    "rule": "tubulin_toxin_antibody_drug_conjugate",
+    "validation": "Immunohistochemistry for the antigen in the child's tumour or in rhabdomyosarcoma and Wilms tumour models. Refuted if the antigen is absent; and test the payload in BUB1B-hypomorphic cells, where less effect is expected."
+   },
+   "sources": [
+    "strict",
+    "wide_ring"
+   ],
+   "target_roles": [
+    {
+     "gene": "TUBA1A",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA1A (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA1B",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA1B (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA1C",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA1C (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA3D",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA3D (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA3E",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA3E (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA4A",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA4A (curated mechanism)",
+     "source": "curated"
+    }
+   ],
+   "tier_strict": 2,
+   "tier_wide": 2
+  },
+  {
+   "L1": true,
+   "L2": true,
+   "L3": false,
+   "L4_call": "not_in_PRISM",
+   "age_bands": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "age_groups": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "approved_indications": [
+    "Breast Neoplasms",
+    "Neoplasms"
+   ],
+   "boxed_warning": true,
+   "broad_target_profile": false,
+   "core": {
+    "L1_core": false,
+    "label": "proximity_by_generic_complex_only",
+    "robustness_count_core": 0
+   },
+   "drug_id": "CHEMBL1743082",
+   "excipient_alerts": [],
+   "fda_eligible": true,
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "justification": "Satisfies L1 robust proximity, L2 binding to a module protein; does not satisfy L3 literature rationale; not in PRISM. Its proximity comes only from membership of generic complexes (proteasome or tubulin): it disappears when they are removed from the modules.",
+   "label_caution": null,
+   "list": "tumour_context",
+   "mechanism_of_action": [
+    "Receptor protein-tyrosine kinase erbB-2 binding agent",
+    "Tubulin inhibitor"
+   ],
+   "name": "TRASTUZUMAB EMTANSINE",
+   "novelty": "curated_mechanism_already_near",
+   "proximal_targets": [
+    {
+     "distance": 0,
+     "gene": "TUBA1A",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "Q71U36"
+    },
+    {
+     "distance": 0,
+     "gene": "TUBA1B",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "P68363"
+    },
+    {
+     "distance": 0,
+     "gene": "TUBA1C",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "Q9BQE3"
+    },
+    {
+     "distance": 0,
+     "gene": "TUBA3D",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "P0DPH7"
+    },
+    {
+     "distance": 0,
+     "gene": "TUBA3E",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "Q6PEY2"
+    }
+   ],
+   "repositioning": {
+    "caveat": "Antimitotic payloads depend on the spindle checkpoint: cell-line data and taxane studies point to less effect where the checkpoint is weak.",
+    "consequences": [
+     "5"
+    ],
+    "context": "tumour",
+    "new_use": "Tumour-directed delivery of a tubulin toxin to cells that carry HER2 (ERBB2): relevant only if the child's tumour expresses that antigen (not established for any tumour of this syndrome). The payload is an antimitotic.",
+    "rule": "tubulin_toxin_antibody_drug_conjugate",
+    "validation": "Immunohistochemistry for the antigen in the child's tumour or in rhabdomyosarcoma and Wilms tumour models. Refuted if the antigen is absent; and test the payload in BUB1B-hypomorphic cells, where less effect is expected."
+   },
+   "sources": [
+    "strict",
+    "wide_ring"
+   ],
+   "target_roles": [
+    {
+     "gene": "TUBA1A",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA1A (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA1B",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA1B (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA1C",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA1C (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA3D",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA3D (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA3E",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA3E (curated mechanism)",
+     "source": "curated"
+    },
+    {
+     "gene": "TUBA4A",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits TUBA4A (curated mechanism)",
+     "source": "curated"
+    }
+   ],
+   "tier_strict": 2,
+   "tier_wide": 2
+  },
+  {
+   "L1": true,
+   "L2": false,
+   "L3": false,
+   "L4_call": "no_association",
+   "age_bands": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "age_groups": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "approved_indications": [
+    "Hemorrhage"
+   ],
+   "boxed_warning": false,
+   "broad_target_profile": false,
+   "core": {
+    "L1_core": true,
+    "label": "proximity_also_without_generic_complexes",
+    "robustness_count_core": 9
+   },
+   "drug_id": "CHEMBL2103830",
+   "excipient_alerts": [],
+   "fda_eligible": true,
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "justification": "Satisfies L1 robust proximity; does not satisfy L2 binding to a module protein, L3 literature rationale; PRISM: no association with checkpoint strength. New: close to a module only thanks to measured or predicted links.",
+   "label_caution": "label: not recommended under 18 years; chondrodystrophy of the femoral head and growth-plate dysplasia in juvenile animals (relevant to a child with growth restriction)",
+   "list": "constitutional_defect",
+   "mechanism_of_action": [
+    "Tyrosine-protein kinase SYK inhibitor"
+   ],
+   "name": "FOSTAMATINIB",
+   "novelty": "new_via_expanded_links",
+   "proximal_targets": [
+    {
+     "distance": 0,
+     "gene": "NEK9",
+     "median_pchembl": 7.39,
+     "module": "BUB1B",
+     "n_measurements": 1,
+     "source": "measured",
+     "uniprot": "Q8TD19"
+    },
+    {
+     "distance": 0,
+     "gene": "PLK4",
+     "median_pchembl": 6.24,
+     "module": "BUB1B",
+     "n_measurements": 1,
+     "source": "measured",
+     "uniprot": "O00444"
+    },
+    {
+     "distance": 1,
+     "gene": "AURKA",
+     "median_pchembl": 6.52,
+     "module": "BUB1B",
+     "n_measurements": 1,
+     "source": "measured",
+     "uniprot": "O14965"
+    },
+    {
+     "distance": 1,
+     "gene": "SYK",
+     "median_pchembl": 7.52,
+     "module": "BUB1B",
+     "n_measurements": 5,
+     "source": "curated",
+     "uniprot": "P43405"
+    },
+    {
+     "distance": 2,
+     "gene": "ABCG2",
+     "median_pchembl": 7.3,
+     "module": "BUB1B",
+     "n_measurements": 1,
+     "source": "measured",
+     "uniprot": "Q9UNQ0"
+    }
+   ],
+   "repositioning": {
+    "caveat": "A broad binder: closeness to the module may reflect breadth of targets and not specificity.",
+    "consequences": [
+     "1"
+    ],
+    "context": "constitutional_hypothesis",
+    "new_use": "Hypothesis that it acts on the checkpoint and mitotic network, because it binds NEK9, PLK4, AURKA (measured activity at or below 1 uM), proteins of or next to the modules; this would act on consequence 1. The direction of effect is unknown.",
+    "rule": "measured_links",
+    "validation": "Confirm binding with an orthogonal assay (biochemical kinase assay, thermal shift) at relevant concentrations and test mitotic fidelity (mitotic index, micronuclei, lagging chromosomes) in cells. Refuted if there is no engagement or no effect."
+   },
+   "sources": [
+    "strict",
+    "wide_ring"
+   ],
+   "target_roles": [
+    {
+     "gene": "NEK9",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "binds NEK9 (measured from a single measurement, median pChEMBL 7.39; ChEMBL gives no action type)",
+     "source": "measured"
+    },
+    {
+     "gene": "PLK4",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "binds PLK4 (measured from a single measurement, median pChEMBL 6.24; ChEMBL gives no action type)",
+     "source": "measured"
+    }
+   ],
+   "tier_strict": 3,
+   "tier_wide": 3
+  },
+  {
+   "L1": true,
+   "L2": true,
+   "L3": false,
+   "L4_call": "not_in_PRISM",
+   "age_bands": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "age_groups": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "approved_indications": [
+    "Crohn Disease",
+    "Inflammation",
+    "Multiple Sclerosis",
+    "Multiple Sclerosis, Relapsing-Remitting"
+   ],
+   "boxed_warning": true,
+   "broad_target_profile": false,
+   "core": {
+    "L1_core": false,
+    "label": "proximity_by_generic_complex_only",
+    "robustness_count_core": 6
+   },
+   "drug_id": "CHEMBL1201607",
+   "excipient_alerts": [
+    "POLYSORBATE 80"
+   ],
+   "fda_eligible": true,
+   "gates": {
+    "fda_eligible": true,
+    "not_acute_use_class": true,
+    "systemic_route": true
+   },
+   "justification": "Satisfies L1 robust proximity, L2 binding to a module protein; does not satisfy L3 literature rationale; not in PRISM. Its proximity comes only from membership of generic complexes (proteasome or tubulin): it disappears when they are removed from the modules.",
+   "label_caution": null,
+   "list": "constitutional_defect",
+   "mechanism_of_action": [
+    "Integrin alpha-4/beta-1 inhibitor",
+    "Integrin alpha-4/beta-7 inhibitor"
+   ],
+   "name": "NATALIZUMAB",
+   "novelty": "curated_mechanism_already_near",
+   "proximal_targets": [
+    {
+     "distance": 0,
+     "gene": "ITGB1",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "P05556"
+    },
+    {
+     "distance": 1,
+     "gene": "ITGA4",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "P13612"
+    },
+    {
+     "distance": 1,
+     "gene": "ITGB7",
+     "median_pchembl": null,
+     "module": "BUB1B",
+     "n_measurements": null,
+     "source": "curated",
+     "uniprot": "P26010"
+    }
+   ],
+   "repositioning": {
+    "caveat": "Listed for completeness because it met the criteria of the wider ring.",
+    "consequences": [],
+    "context": "none",
+    "new_use": "No specific repositioned use proposed: it is linked to the module only through integrin alpha-4/beta-1 (curated), which looks like a network-topology effect.",
+    "rule": "integrin_antibody",
+    "validation": "None proposed."
+   },
+   "sources": [
+    "wide_ring"
+   ],
+   "target_roles": [
+    {
+     "gene": "ITGB1",
+     "modules": [
+      "BUB1B",
+      "CENPE",
+      "MAD1L1"
+     ],
+     "role": "inhibits ITGB1 (curated mechanism)",
+     "source": "curated"
+    }
+   ],
+   "tier_strict": null,
+   "tier_wide": 2
+  },
+  {
+   "L1": false,
+   "L2": true,
+   "L3": true,
+   "L4_call": "no_association",
+   "age_bands": {
+    "adolescent": "UNKNOWN",
+    "adult": "UNKNOWN",
+    "child": "UNKNOWN",
+    "infant": "UNKNOWN",
+    "neonate": "UNKNOWN"
+   },
+   "age_groups": {
+    "0_to_under_3": "partly (from 1 y)",
+    "12_and_older": "labelled",
+    "3_to_under_12": "labelled"
+   },
+   "approved_indications": [
+    "Angiomyolipoma",
+    "Astrocytoma",
+    "Breast Neoplasms",
+    "Carcinoma, Renal Cell",
+    "Neoplasms",
+    "Neuroendocrine Tumors",
+    "Pancreatic Neoplasms",
+    "Tuberous Sclerosis"
+   ],
+   "boxed_warning": true,
+   "broad_target_profile": false,
+   "core": {
+    "L1_core": false,
+    "label": "no_proximity",
+    "robustness_count_core": 0
+   },
+   "drug_id": "CHEMBL1908360",
+   "excipient_alerts": [
+    "LACTOSE MONOHYDRATE"
+   ],
+   "fda_eligible": true,
+   "gates": {
+    "fda_eligible": true
+   },
+   "justification": "Satisfies L2 binding to a module protein, L3 literature rationale; does not satisfy L1 robust proximity; PRISM: no association with checkpoint strength.",
+   "label_caution": null,
+   "list": "extrapolation",
+   "mechanism_of_action": [
+    "FK506-binding protein 1A inhibitor"
+   ],
+   "name": "EVEROLIMUS",
+   "novelty": "extrapolation_from_mouse_or_cancer_cell_evidence",
+   "repositioning": {
+    "caveat": "No drug was tested in those mice and the drugs carry boxed warnings; in cell lines the weak-checkpoint group is not more sensitive (an apparent resistance of sirolimus disappears after adjusting for proliferation).",
+    "consequences": [
+     "3",
+     "4"
+    ],
+    "context": "constitutional_extrapolation",
+    "new_use": "For the growth restriction, muscle atrophy and senescence consequences: BubR1-mutant mice show sarcopenia that correlates with mTORC1 hyperactivity, and the proband has short stature and muscle atrophy. An extrapolation from mouse genetics.",
+    "rule": "mtor_pathway",
+    "validation": "mTORC1 activity (phospho-S6) and muscle-differentiation or growth phenotypes in patient-derived myoblasts or in the BubR1 hypomorphic mouse model. Refuted if mTORC1 is not raised or the drug does not change the phenotype."
+   },
+   "sources": [
+    "extrapolation_arm"
+   ],
+   "target_roles": [
+    {
+     "gene": "FK506-binding protein 1A inhibitor",
+     "role": "FK506-binding protein 1A inhibitor (curated mechanism)"
+    }
+   ],
+   "tier_strict": null,
+   "tier_wide": null
+  },
+  {
+   "L1": false,
+   "L2": true,
+   "L3": true,
+   "L4_call": "confounded_by_proliferation_or_lineage",
+   "age_bands": {
+    "adolescent": "UNKNOWN",
+    "adult": "UNKNOWN",
+    "child": "UNKNOWN",
+    "infant": "UNKNOWN",
+    "neonate": "UNKNOWN"
+   },
+   "age_groups": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "partly (from 13 y)",
+    "3_to_under_12": "not_labelled"
+   },
+   "approved_indications": [
+    "Angiofibroma",
+    "Delayed Graft Function",
+    "Eye Diseases",
+    "Kidney Transplantation",
+    "Neoplasms",
+    "Tuberous Sclerosis"
+   ],
+   "boxed_warning": true,
+   "broad_target_profile": false,
+   "core": {
+    "L1_core": false,
+    "label": "no_proximity",
+    "robustness_count_core": 0
+   },
+   "drug_id": "CHEMBL413",
+   "excipient_alerts": [
+    "ALCOHOL",
+    "POLYSORBATE 80",
+    "PROPYLENE GLYCOL",
+    "SOYBEAN PHOSPHATIDYLCHOLINE"
+   ],
+   "fda_eligible": true,
+   "gates": {
+    "fda_eligible": true
+   },
+   "justification": "Satisfies L2 binding to a module protein, L3 literature rationale; does not satisfy L1 robust proximity; confounded_by_proliferation_or_lineage.",
+   "label_caution": null,
+   "list": "extrapolation",
+   "mechanism_of_action": [
+    "FK506-binding protein 1A inhibitor"
+   ],
+   "name": "SIROLIMUS",
+   "novelty": "extrapolation_from_mouse_or_cancer_cell_evidence",
+   "repositioning": {
+    "caveat": "No drug was tested in those mice and the drugs carry boxed warnings; in cell lines the weak-checkpoint group is not more sensitive (an apparent resistance of sirolimus disappears after adjusting for proliferation).",
+    "consequences": [
+     "3",
+     "4"
+    ],
+    "context": "constitutional_extrapolation",
+    "new_use": "For the growth restriction, muscle atrophy and senescence consequences: BubR1-mutant mice show sarcopenia that correlates with mTORC1 hyperactivity, and the proband has short stature and muscle atrophy. An extrapolation from mouse genetics.",
+    "rule": "mtor_pathway",
+    "validation": "mTORC1 activity (phospho-S6) and muscle-differentiation or growth phenotypes in patient-derived myoblasts or in the BubR1 hypomorphic mouse model. Refuted if mTORC1 is not raised or the drug does not change the phenotype."
+   },
+   "sources": [
+    "extrapolation_arm"
+   ],
+   "target_roles": [
+    {
+     "gene": "FK506-binding protein 1A inhibitor",
+     "role": "FK506-binding protein 1A inhibitor (curated mechanism)"
+    }
+   ],
+   "tier_strict": null,
+   "tier_wide": null
+  },
+  {
+   "L1": false,
+   "L2": true,
+   "L3": true,
+   "L4_call": "no_association",
+   "age_bands": {
+    "adolescent": "UNKNOWN",
+    "adult": "UNKNOWN",
+    "child": "UNKNOWN",
+    "infant": "UNKNOWN",
+    "neonate": "UNKNOWN"
+   },
+   "age_groups": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "approved_indications": [
+    "Carcinoma, Renal Cell",
+    "Lymphoma, Mantle-Cell",
+    "Neoplasms"
+   ],
+   "boxed_warning": false,
+   "broad_target_profile": false,
+   "core": {
+    "L1_core": false,
+    "label": "no_proximity",
+    "robustness_count_core": 0
+   },
+   "drug_id": "CHEMBL1201182",
+   "excipient_alerts": [
+    "ALCOHOL",
+    "POLYSORBATE 80",
+    "PROPYLENE GLYCOL"
+   ],
+   "fda_eligible": true,
+   "gates": {
+    "fda_eligible": true
+   },
+   "justification": "Satisfies L2 binding to a module protein, L3 literature rationale; does not satisfy L1 robust proximity; PRISM: no association with checkpoint strength.",
+   "label_caution": null,
+   "list": "extrapolation",
+   "mechanism_of_action": [
+    "FK506-binding protein 1A inhibitor"
+   ],
+   "name": "TEMSIROLIMUS",
+   "novelty": "extrapolation_from_mouse_or_cancer_cell_evidence",
+   "repositioning": {
+    "caveat": "No drug was tested in those mice and the drugs carry boxed warnings; in cell lines the weak-checkpoint group is not more sensitive (an apparent resistance of sirolimus disappears after adjusting for proliferation).",
+    "consequences": [
+     "3",
+     "4"
+    ],
+    "context": "constitutional_extrapolation",
+    "new_use": "For the growth restriction, muscle atrophy and senescence consequences: BubR1-mutant mice show sarcopenia that correlates with mTORC1 hyperactivity, and the proband has short stature and muscle atrophy. An extrapolation from mouse genetics.",
+    "rule": "mtor_pathway",
+    "validation": "mTORC1 activity (phospho-S6) and muscle-differentiation or growth phenotypes in patient-derived myoblasts or in the BubR1 hypomorphic mouse model. Refuted if mTORC1 is not raised or the drug does not change the phenotype."
+   },
+   "sources": [
+    "extrapolation_arm"
+   ],
+   "target_roles": [
+    {
+     "gene": "FK506-binding protein 1A inhibitor",
+     "role": "FK506-binding protein 1A inhibitor (curated mechanism)"
+    }
+   ],
+   "tier_strict": null,
+   "tier_wide": null
+  }
+ ],
+ "n_drugs": 20,
+ "note": "FDA-approved drugs only. Hypotheses for follow-up; not medical advice and not dosing."
+}

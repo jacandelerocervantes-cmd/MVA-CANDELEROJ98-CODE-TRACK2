@@ -1,0 +1,6231 @@
+{
+  "api_problems": [],
+  "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+  "drugs": {
+    "CHEMBL107": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "COLCHICINE",
+      "pairs": [
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P04350"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P07437"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P0DPH7"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P68363"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P68366"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P68371"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q13509"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q13885"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q3ZCM7"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q6PEY2"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q71U36"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9BQE3"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9BUF5"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9BVA1"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9H4B7"
+        }
+      ]
+    },
+    "CHEMBL1096": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "AMLEXANOX",
+      "pairs": [
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P27815"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q07343"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q08493"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q08499"
+        }
+      ]
+    },
+    "CHEMBL1102": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "GLUTETHIMIDE",
+      "pairs": [
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O00591"
+        },
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O14764"
+        },
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P14867"
+        },
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18505"
+        },
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18507"
+        },
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28472"
+        },
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P31644"
+        },
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P34903"
+        },
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47869"
+        },
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47870"
+        },
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P48169"
+        },
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P78334"
+        },
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q16445"
+        },
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q8N1C3"
+        },
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q99928"
+        },
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9UN88"
+        }
+      ]
+    },
+    "CHEMBL12": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "DIAZEPAM",
+      "pairs": [
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O00591"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O14764"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P14867"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18505"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18507"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28472"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P31644"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P34903"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47869"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47870"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P48169"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P78334"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q16445"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q8N1C3"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q99928"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9UN88"
+        }
+      ]
+    },
+    "CHEMBL1200472": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "QUAZEPAM",
+      "pairs": [
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O00591"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O14764"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P14867"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18505"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18507"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28472"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P31644"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P34903"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47869"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47870"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P48169"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P78334"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q16445"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q8N1C3"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q99928"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9UN88"
+        }
+      ]
+    },
+    "CHEMBL1200790": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "METHYPRYLON",
+      "pairs": [
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O00591"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O14764"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P14867"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18505"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18507"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28472"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P31644"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P34903"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47869"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47870"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P48169"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P78334"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q16445"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q8N1C3"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q99928"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9UN88"
+        }
+      ]
+    },
+    "CHEMBL1200802": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "TALBUTAL",
+      "pairs": [
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O00591"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O14764"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P14867"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18505"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18507"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28472"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P31644"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P34903"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47869"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47870"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P48169"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P78334"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q16445"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q8N1C3"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q99928"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9UN88"
+        }
+      ]
+    },
+    "CHEMBL1201748": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "CABAZITAXEL",
+      "pairs": [
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P04350"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P07437"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P0DPH7"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P68363"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P68366"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P68371"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q13509"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q13885"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q3ZCM7"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q6PEY2"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q71U36"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9BQE3"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9BUF5"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9BVA1"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9H4B7"
+        }
+      ]
+    },
+    "CHEMBL1201752": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "IXABEPILONE",
+      "pairs": [
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P04350"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P07437"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P0DPH7"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P68363"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P68366"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P68371"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q13509"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q13885"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q3ZCM7"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q6PEY2"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q71U36"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9BQE3"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9BUF5"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9BVA1"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9H4B7"
+        }
+      ]
+    },
+    "CHEMBL1522": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "ESZOPICLONE",
+      "pairs": [
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O00591"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O14764"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P14867"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18505"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18507"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28472"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P31644"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P34903"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47869"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47870"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P48169"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P78334"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q16445"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q8N1C3"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q99928"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9UN88"
+        }
+      ]
+    },
+    "CHEMBL1568698": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "GANAXOLONE",
+      "pairs": [
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O00591"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O14764"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P14867"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18505"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18507"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28472"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P31644"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P34903"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47869"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47870"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P48169"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P78334"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q16445"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q8N1C3"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q99928"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9UN88"
+        }
+      ]
+    },
+    "CHEMBL1697737": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "CLOTIAZEPAM",
+      "pairs": [
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O00591"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O14764"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P14867"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18505"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18507"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28472"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P31644"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P34903"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47869"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47870"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P48169"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P78334"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q16445"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q8N1C3"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q99928"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9UN88"
+        }
+      ]
+    },
+    "CHEMBL1742994": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "BRENTUXIMAB VEDOTIN",
+      "pairs": [
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P04350"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P07437"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P0DPH7"
+        },
+        {
+          "action": "BINDING AGENT",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28908"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P68363"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P68366"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P68371"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q13509"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q13885"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q3ZCM7"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q6PEY2"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q71U36"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9BQE3"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9BUF5"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9BVA1"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9H4B7"
+        }
+      ]
+    },
+    "CHEMBL1743082": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "TRASTUZUMAB EMTANSINE",
+      "pairs": [
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P04350"
+        },
+        {
+          "action": "BINDING AGENT",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P04626"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P07437"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P0DPH7"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P68363"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P68366"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P68371"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q13509"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q13885"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q3ZCM7"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q6PEY2"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q71U36"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9BQE3"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9BUF5"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9BVA1"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9H4B7"
+        }
+      ]
+    },
+    "CHEMBL1770916": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "NIROGACESTAT",
+      "pairs": [
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P49768"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P49810"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q8WW43"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q92542"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q96BI3"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9NZ42"
+        }
+      ]
+    },
+    "CHEMBL207538": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "BREXANOLONE",
+      "pairs": [
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O00591"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O14764"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P14867"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18505"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18507"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28472"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P31644"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P34903"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47869"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47870"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P48169"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P78334"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q16445"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q8N1C3"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q99928"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9UN88"
+        }
+      ]
+    },
+    "CHEMBL2103875": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "TRAMETINIB",
+      "pairs": [
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P36507"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q02750"
+        }
+      ]
+    },
+    "CHEMBL2105755": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "NALDEMEDINE",
+      "pairs": [
+        {
+          "action": "ANTAGONIST",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P35372"
+        }
+      ]
+    },
+    "CHEMBL2110725": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "VINFLUNINE",
+      "pairs": [
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P04350"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P07437"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P0DPH7"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P68363"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P68366"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P68371"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q13509"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q13885"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q3ZCM7"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q6PEY2"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q71U36"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9BQE3"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9BUF5"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9BVA1"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9H4B7"
+        }
+      ]
+    },
+    "CHEMBL2403108": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "CERITINIB",
+      "pairs": [
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P06748"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9HC35"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9UM73"
+        }
+      ]
+    },
+    "CHEMBL270190": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "ALVIMOPAN",
+      "pairs": [
+        {
+          "action": "ANTAGONIST",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P35372"
+        }
+      ]
+    },
+    "CHEMBL285674": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "ESTAZOLAM",
+      "pairs": [
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O00591"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O14764"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P14867"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18505"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18507"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28472"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P31644"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P34903"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47869"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47870"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P48169"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P78334"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q16445"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q8N1C3"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q99928"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9UN88"
+        }
+      ]
+    },
+    "CHEMBL315795": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "CLOMETHIAZOLE",
+      "pairs": [
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O00591"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O14764"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P14867"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18505"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18507"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28472"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P31644"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P34903"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47869"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47870"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P48169"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P78334"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q16445"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q8N1C3"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q99928"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9UN88"
+        }
+      ]
+    },
+    "CHEMBL3187723": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "BINIMETINIB",
+      "pairs": [
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P36507"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q02750"
+        }
+      ]
+    },
+    "CHEMBL325041": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "BORTEZOMIB",
+      "pairs": [
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "A5LHX3"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O00231"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O00232"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O00487"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O14818"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O43242"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P17980"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P20618"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P25786"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P25787"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P25788"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P25789"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28062"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28065"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28066"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28070"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28072"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28074"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P35998"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P40306"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P43686"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P48556"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P49720"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P49721"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P51665"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P55036"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P60896"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P60900"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P62191"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P62195"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P62333"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q13200"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q15008"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q16186"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q8TAA3"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q99436"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q99460"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9UNM6"
+        }
+      ]
+    },
+    "CHEMBL3286830": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "LORLATINIB",
+      "pairs": [
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9HC35"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9UM73"
+        }
+      ]
+    },
+    "CHEMBL3301582": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "POLATUZUMAB VEDOTIN",
+      "pairs": [
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P04350"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P07437"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P0DPH7"
+        },
+        {
+          "action": "BINDING AGENT",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P40259"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P68363"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P68366"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P68371"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q13509"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q13885"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q3ZCM7"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q6PEY2"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q71U36"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9BQE3"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9BUF5"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9BVA1"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9H4B7"
+        }
+      ]
+    },
+    "CHEMBL3301589": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "ENFORTUMAB VEDOTIN",
+      "pairs": [
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P04350"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P07437"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P0DPH7"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P68363"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P68366"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P68371"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q13509"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q13885"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q3ZCM7"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q6PEY2"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q71U36"
+        },
+        {
+          "action": "BINDING AGENT",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q96NY8"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9BQE3"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9BUF5"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9BVA1"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9H4B7"
+        }
+      ]
+    },
+    "CHEMBL344159": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "TOLVAPTAN",
+      "pairs": [
+        {
+          "action": "ANTAGONIST",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P30518"
+        }
+      ]
+    },
+    "CHEMBL3545132": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "MIRVETUXIMAB SORAVTANSINE",
+      "pairs": [
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P04350"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P07437"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P0DPH7"
+        },
+        {
+          "action": "BINDING AGENT",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P15328"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P68363"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P68366"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P68371"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q13509"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q13885"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q3ZCM7"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q6PEY2"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q71U36"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9BQE3"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9BUF5"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9BVA1"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9H4B7"
+        }
+      ]
+    },
+    "CHEMBL3545185": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "SELINEXOR",
+      "pairs": [
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O14980"
+        }
+      ]
+    },
+    "CHEMBL3545432": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "IXAZOMIB CITRATE",
+      "pairs": [
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "A5LHX3"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O00231"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O00232"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O00487"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O14818"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O43242"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P17980"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P20618"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P25786"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P25787"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P25788"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P25789"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28062"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28065"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28066"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28070"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28072"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28074"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P35998"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P40306"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P43686"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P48556"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P49720"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P49721"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P51665"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P55036"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P60896"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P60900"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P62191"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P62195"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P62333"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q13200"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q15008"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q16186"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q8TAA3"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q99436"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q99460"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9UNM6"
+        }
+      ]
+    },
+    "CHEMBL3990044": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "RELATLIMAB",
+      "pairs": [
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18627"
+        }
+      ]
+    },
+    "CHEMBL407": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "FLUMAZENIL",
+      "pairs": [
+        {
+          "action": "ALLOSTERIC ANTAGONIST",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O00591"
+        },
+        {
+          "action": "ALLOSTERIC ANTAGONIST",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O14764"
+        },
+        {
+          "action": "ALLOSTERIC ANTAGONIST",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P14867"
+        },
+        {
+          "action": "ALLOSTERIC ANTAGONIST",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18505"
+        },
+        {
+          "action": "ALLOSTERIC ANTAGONIST",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18507"
+        },
+        {
+          "action": "ALLOSTERIC ANTAGONIST",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28472"
+        },
+        {
+          "action": "ALLOSTERIC ANTAGONIST",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P31644"
+        },
+        {
+          "action": "ALLOSTERIC ANTAGONIST",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P34903"
+        },
+        {
+          "action": "ALLOSTERIC ANTAGONIST",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47869"
+        },
+        {
+          "action": "ALLOSTERIC ANTAGONIST",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47870"
+        },
+        {
+          "action": "ALLOSTERIC ANTAGONIST",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P48169"
+        },
+        {
+          "action": "ALLOSTERIC ANTAGONIST",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P78334"
+        },
+        {
+          "action": "ALLOSTERIC ANTAGONIST",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q16445"
+        },
+        {
+          "action": "ALLOSTERIC ANTAGONIST",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q8N1C3"
+        },
+        {
+          "action": "ALLOSTERIC ANTAGONIST",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q99928"
+        },
+        {
+          "action": "ALLOSTERIC ANTAGONIST",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9UN88"
+        }
+      ]
+    },
+    "CHEMBL4105630": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "ZURANOLONE",
+      "pairs": [
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O00591"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O14764"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P14867"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18505"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18507"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28472"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P31644"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P34903"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47869"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47870"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P48169"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P78334"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q16445"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q8N1C3"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q99928"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9UN88"
+        }
+      ]
+    },
+    "CHEMBL426084": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "SAMIDORPHAN",
+      "pairs": [
+        {
+          "action": "ANTAGONIST",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P35372"
+        }
+      ]
+    },
+    "CHEMBL428647": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "PACLITAXEL",
+      "pairs": [
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P04350"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P07437"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P0DPH7"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P68363"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P68366"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P68371"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q13509"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q13885"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q3ZCM7"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q6PEY2"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q71U36"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9BQE3"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9BUF5"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9BVA1"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9H4B7"
+        }
+      ]
+    },
+    "CHEMBL4297841": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "TISOTUMAB VEDOTIN",
+      "pairs": [
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P04350"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P07437"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P0DPH7"
+        },
+        {
+          "action": "BINDING AGENT",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P13726"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P68363"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P68366"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P68371"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q13509"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q13885"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q3ZCM7"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q6PEY2"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q71U36"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9BQE3"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9BUF5"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9BVA1"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9H4B7"
+        }
+      ]
+    },
+    "CHEMBL450": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "METHARBITAL",
+      "pairs": [
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O00591"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O14764"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P14867"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18505"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18507"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28472"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P31644"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P34903"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47869"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47870"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P48169"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P78334"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q16445"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q8N1C3"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q99928"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9UN88"
+        }
+      ]
+    },
+    "CHEMBL451": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "CHLORDIAZEPOXIDE",
+      "pairs": [
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O00591"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O14764"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P14867"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18505"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18507"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28472"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P31644"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P34903"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47869"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47870"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P48169"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P78334"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q16445"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q8N1C3"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q99928"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9UN88"
+        }
+      ]
+    },
+    "CHEMBL451887": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "CARFILZOMIB",
+      "pairs": [
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "A5LHX3"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O00231"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O00232"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O00487"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O14818"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O43242"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P17980"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P20618"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P25786"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P25787"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P25788"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P25789"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28062"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28065"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28066"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28070"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28072"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28074"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P35998"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P40306"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P43686"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P48556"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P49720"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P49721"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P51665"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P55036"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P60896"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P60900"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P62191"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P62195"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P62333"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q13200"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q15008"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q16186"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q8TAA3"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q99436"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q99460"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9UNM6"
+        }
+      ]
+    },
+    "CHEMBL452": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "CLONAZEPAM",
+      "pairs": [
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O00591"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O14764"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P14867"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18505"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18507"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28472"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P31644"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P34903"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47869"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47870"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P48169"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P78334"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q16445"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q8N1C3"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q99928"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9UN88"
+        }
+      ]
+    },
+    "CHEMBL454": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "BUTALBITAL",
+      "pairs": [
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O00591"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O14764"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P14867"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18505"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18507"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28472"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P31644"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P34903"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47869"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47870"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P48169"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P78334"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q16445"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q8N1C3"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q99928"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9UN88"
+        }
+      ]
+    },
+    "CHEMBL4559134": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "SELPERCATINIB",
+      "pairs": [
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P07949"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P33176"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q16204"
+        }
+      ]
+    },
+    "CHEMBL4582651": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "PRALSETINIB",
+      "pairs": [
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P07949"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P33176"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q16204"
+        }
+      ]
+    },
+    "CHEMBL500": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "PINDOLOL",
+      "pairs": [
+        {
+          "action": "PARTIAL AGONIST",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P07550"
+        },
+        {
+          "action": "PARTIAL AGONIST",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P08588"
+        }
+      ]
+    },
+    "CHEMBL511142": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "BUPRENORPHINE",
+      "pairs": [
+        {
+          "action": "AGONIST",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P35372"
+        },
+        {
+          "action": "AGONIST",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P41145"
+        }
+      ]
+    },
+    "CHEMBL521606": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "NADOLOL",
+      "pairs": [
+        {
+          "action": "ANTAGONIST",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P07550"
+        },
+        {
+          "action": "ANTAGONIST",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P08588"
+        }
+      ]
+    },
+    "CHEMBL526": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "PROPOFOL",
+      "pairs": [
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O00591"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O14764"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P14867"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18505"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18507"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28472"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P31644"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P34903"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47869"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47870"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P48169"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P78334"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q16445"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q8N1C3"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q99928"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9UN88"
+        }
+      ]
+    },
+    "CHEMBL5314379": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "VOCLOSPORIN",
+      "pairs": [
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q08209"
+        }
+      ]
+    },
+    "CHEMBL548": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "DINOPROSTONE",
+      "pairs": [
+        {
+          "action": "AGONIST",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P34995"
+        },
+        {
+          "action": "AGONIST",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P35408"
+        },
+        {
+          "action": "AGONIST",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P43115"
+        },
+        {
+          "action": "AGONIST",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P43116"
+        }
+      ]
+    },
+    "CHEMBL568": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "OXAZEPAM",
+      "pairs": [
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O00591"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O14764"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P14867"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18505"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18507"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28472"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P31644"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P34903"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47869"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47870"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P48169"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P78334"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q16445"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q8N1C3"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q99928"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9UN88"
+        }
+      ]
+    },
+    "CHEMBL571546": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "TIRBANIBULIN",
+      "pairs": [
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P12931"
+        }
+      ]
+    },
+    "CHEMBL580": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "LORAZEPAM",
+      "pairs": [
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O00591"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O14764"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P14867"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18505"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18507"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28472"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P31644"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P34903"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47869"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47870"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P48169"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P78334"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q16445"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q8N1C3"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q99928"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9UN88"
+        }
+      ]
+    },
+    "CHEMBL591": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "ETHCHLORVYNOL",
+      "pairs": [
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O00591"
+        },
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O14764"
+        },
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P14867"
+        },
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18505"
+        },
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18507"
+        },
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28472"
+        },
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P31644"
+        },
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P34903"
+        },
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47869"
+        },
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47870"
+        },
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P48169"
+        },
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P78334"
+        },
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q16445"
+        },
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q8N1C3"
+        },
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q99928"
+        },
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9UN88"
+        }
+      ]
+    },
+    "CHEMBL601719": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "CRIZOTINIB",
+      "pairs": [
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P06748"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P08581"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P08922"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q04912"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9HC35"
+        },
+        {
+          "action": "INHIBITOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9UM73"
+        }
+      ]
+    },
+    "CHEMBL655": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "MIDAZOLAM",
+      "pairs": [
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O00591"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O14764"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P14867"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18505"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18507"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28472"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P31644"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P34903"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47869"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47870"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P48169"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P78334"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q16445"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q8N1C3"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q99928"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9UN88"
+        }
+      ]
+    },
+    "CHEMBL661": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "ALPRAZOLAM",
+      "pairs": [
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O00591"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O14764"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P14867"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18505"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18507"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28472"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P31644"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P34903"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47869"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47870"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P48169"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P78334"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q16445"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q8N1C3"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q99928"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9UN88"
+        }
+      ]
+    },
+    "CHEMBL681": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "ETOMIDATE",
+      "pairs": [
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O00591"
+        },
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O14764"
+        },
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P14867"
+        },
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18505"
+        },
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18507"
+        },
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28472"
+        },
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P31644"
+        },
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P34903"
+        },
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47869"
+        },
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47870"
+        },
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P48169"
+        },
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P78334"
+        },
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q16445"
+        },
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q8N1C3"
+        },
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q99928"
+        },
+        {
+          "action": "POSITIVE MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9UN88"
+        }
+      ]
+    },
+    "CHEMBL70418": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "CLOBAZAM",
+      "pairs": [
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O00591"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O14764"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P14867"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18505"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18507"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28472"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P31644"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P34903"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47869"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47870"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P48169"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P78334"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q16445"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q8N1C3"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q99928"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9UN88"
+        }
+      ]
+    },
+    "CHEMBL723": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "CARVEDILOL",
+      "pairs": [
+        {
+          "action": "ANTAGONIST",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P07550"
+        },
+        {
+          "action": "ANTAGONIST",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P08588"
+        },
+        {
+          "action": "ANTAGONIST",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P13945"
+        },
+        {
+          "action": "ANTAGONIST",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P25100"
+        },
+        {
+          "action": "ANTAGONIST",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P35348"
+        },
+        {
+          "action": "ANTAGONIST",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P35368"
+        }
+      ]
+    },
+    "CHEMBL92": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "DOCETAXEL ANHYDROUS",
+      "pairs": [
+        {
+          "action": "STABILISER",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P04350"
+        },
+        {
+          "action": "STABILISER",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P07437"
+        },
+        {
+          "action": "STABILISER",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P0DPH7"
+        },
+        {
+          "action": "STABILISER",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P68363"
+        },
+        {
+          "action": "STABILISER",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P68366"
+        },
+        {
+          "action": "STABILISER",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P68371"
+        },
+        {
+          "action": "STABILISER",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q13509"
+        },
+        {
+          "action": "STABILISER",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q13885"
+        },
+        {
+          "action": "STABILISER",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q3ZCM7"
+        },
+        {
+          "action": "STABILISER",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q6PEY2"
+        },
+        {
+          "action": "STABILISER",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q71U36"
+        },
+        {
+          "action": "STABILISER",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9BQE3"
+        },
+        {
+          "action": "STABILISER",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9BUF5"
+        },
+        {
+          "action": "STABILISER",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9BVA1"
+        },
+        {
+          "action": "STABILISER",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9H4B7"
+        }
+      ]
+    },
+    "CHEMBL967": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "TEMAZEPAM",
+      "pairs": [
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O00591"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O14764"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P14867"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18505"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18507"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28472"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P31644"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P34903"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47869"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47870"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P48169"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P78334"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q16445"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q8N1C3"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q99928"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9UN88"
+        }
+      ]
+    },
+    "CHEMBL969": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "PRAZEPAM",
+      "pairs": [
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O00591"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O14764"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P14867"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18505"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18507"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28472"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P31644"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P34903"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47869"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47870"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P48169"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P78334"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q16445"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q8N1C3"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q99928"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9UN88"
+        }
+      ]
+    },
+    "CHEMBL970": {
+      "caveat": "provisional; GO annotation-based; applies only to the spindle checkpoint module; other modules are not assessed",
+      "classifications": [
+        "no_checkpoint_annotation"
+      ],
+      "name": "HALAZEPAM",
+      "pairs": [
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O00591"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "O14764"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P14867"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18505"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P18507"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P28472"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P31644"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P34903"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47869"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P47870"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P48169"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "P78334"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q16445"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q8N1C3"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q99928"
+        },
+        {
+          "action": "POSITIVE ALLOSTERIC MODULATOR",
+          "classification": "no_checkpoint_annotation",
+          "evidence": [],
+          "target_role": "none",
+          "uniprot": "Q9UN88"
+        }
+      ]
+    }
+  },
+  "summary": {
+    "drugs_per_class": {
+      "may_strengthen_checkpoint": 0,
+      "may_weaken_checkpoint": 0,
+      "no_checkpoint_annotation": 65,
+      "unclear": 0
+    },
+    "go_terms": [
+      "GO:0007094",
+      "GO:0090266",
+      "GO:0090267",
+      "GO:0090232",
+      "GO:0090231",
+      "GO:0090233",
+      "GO:0033597"
+    ],
+    "n_drugs": 65,
+    "n_targets_queried": 113
+  }
+}

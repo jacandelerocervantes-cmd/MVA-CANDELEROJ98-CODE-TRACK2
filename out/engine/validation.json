@@ -1,0 +1,3382 @@
+{
+  "addendum_sha256": "f705de30e3b7b310612d331b6ac25c1df5e9b7c036051f846bff29827b7876c7",
+  "benchmark_sha256": "48c53a059a3f35218a3fa57efaf26d8d28d4002d86dde536ab4432211dde9a74",
+  "benchmark_sha256_matches_addendum": true,
+  "deviations_and_clarifications": [
+    "Calibration map: the protocol (section 4.2) specifies a logistic (Platt) map; this is the decisive one. An isotonic map (requested in the task brief) is reported as supplementary only, never used for the decision.",
+    "Platt/isotonic maps are fitted on inner out-of-fold scores of the training diseases of each outer fold (nested grouped CV).",
+    "Random baseline: exact expectations (AUC 0.5, precision@k = positives/N, recall@20 = 20/N), no sampling.",
+    "Popularity counts all records up to the retrieval date (primary) or PUB_YEAR <= 2018 (temporal); the primary literature is restricted to <= 2024, a negligible mismatch.",
+    "Popularity expectation uses all Europe PMC records as the denominator while co-mention is measured in abstracts; the learned weight absorbs the constant.",
+    "Gene presence in a paper is a case-sensitive whole-word match of the HGNC symbol in title or abstract."
+  ],
+  "known_limits": [
+    "Benchmark of 17 diseases: bootstrap intervals are wide.",
+    "Gold 1 is incomplete and partly circular.",
+    "Gold 2 is a name match in intervention fields and may include comparators.",
+    "PrimeKG-based gold may reflect post-2018 knowledge; the prior is excluded from the temporal analysis."
+  ],
+  "main": {
+    "primary_gold1": {
+      "arms": {
+        "A": {
+          "auc": {
+            "ci95": [
+              0.701445,
+              0.905733
+            ],
+            "estimate": 0.810508,
+            "n_diseases": 17
+          },
+          "auc_minus_popularity": {
+            "ci95": [
+              0.049338,
+              0.343249
+            ],
+            "estimate": 0.206438,
+            "n_diseases": 17,
+            "p_boot_le_0": 0.005
+          },
+          "auc_minus_proxy": {
+            "ci95": [
+              0.10735,
+              0.286385
+            ],
+            "estimate": 0.19948,
+            "n_diseases": 17,
+            "p_boot_le_0": 0.0
+          },
+          "auc_minus_random": {
+            "ci95": [
+              0.201445,
+              0.405733
+            ],
+            "estimate": 0.310508,
+            "n_diseases": 17,
+            "p_boot_le_0": 0.0
+          },
+          "calibration_isotonic_supplementary": {
+            "brier": {
+              "ci95": [
+                0.001586,
+                0.003264
+              ],
+              "estimate": 0.00237
+            },
+            "brier_constant_prevalence": {
+              "ci95": [
+                0.00152,
+                0.003274
+              ],
+              "estimate": 0.002321
+            },
+            "calibration_slope": {
+              "ci95": [
+                0.325013,
+                1.148184
+              ],
+              "estimate": 0.726513
+            },
+            "n_pairs": 45985,
+            "n_positive_pairs": 107
+          },
+          "calibration_platt": {
+            "brier": {
+              "ci95": [
+                0.001562,
+                0.003273
+              ],
+              "estimate": 0.002363
+            },
+            "brier_constant_prevalence": {
+              "ci95": [
+                0.00152,
+                0.003274
+              ],
+              "estimate": 0.002321
+            },
+            "calibration_slope": {
+              "ci95": [
+                0.609698,
+                1.393359
+              ],
+              "estimate": 0.900051
+            },
+            "n_pairs": 45985,
+            "n_positive_pairs": 107
+          },
+          "features": [
+            "log1p_n_papers",
+            "log1p_n_benefit",
+            "log1p_n_human",
+            "log1p_n_harm",
+            "log_popularity",
+            "excess_over_popularity",
+            "prior_direct_targets",
+            "prior_ppi_targets"
+          ],
+          "per_disease_auc": {
+            "Diamond-Blackfan anemia": 0.452275,
+            "Dravet syndrome": 0.983722,
+            "Duchenne muscular dystrophy": 0.995742,
+            "Laron syndrome": 0.853311,
+            "Lennox-Gastaut syndrome": 0.904114,
+            "Noonan syndrome": 0.766463,
+            "atypical juvenile parkinsonism": 0.651644,
+            "beta thalassemia": 0.999013,
+            "cystinuria": 0.999445,
+            "familial glucocorticoid deficiency": 0.32805,
+            "gastrointestinal stromal tumor": 1.0,
+            "hemophilia": 0.417207,
+            "hereditary hypophosphatemic rickets": 0.994821,
+            "homozygous familial hypercholesterolemia": 0.999135,
+            "inherited acute myeloid leukemia": 0.76943,
+            "juvenile Paget disease": 0.664259,
+            "paroxysmal nocturnal hemoglobinuria": 1.0
+          },
+          "precision_at_10": {
+            "ci95": [
+              0.105882,
+              0.253088
+            ],
+            "estimate": 0.176471,
+            "n_diseases": 17
+          },
+          "precision_at_10_minus_best_baseline": {
+            "ci95": [
+              0.040944,
+              0.162693
+            ],
+            "estimate": 0.096093,
+            "n_diseases": 17,
+            "p_boot_le_0": 0.0
+          },
+          "recall_at_20": {
+            "ci95": [
+              0.301605,
+              0.648868
+            ],
+            "estimate": 0.480235,
+            "n_diseases": 17
+          }
+        },
+        "B": {
+          "auc": {
+            "ci95": [
+              0.621566,
+              0.879072
+            ],
+            "estimate": 0.757687,
+            "n_diseases": 17
+          },
+          "auc_minus_popularity": {
+            "ci95": [
+              -0.000328,
+              0.281771
+            ],
+            "estimate": 0.153617,
+            "n_diseases": 17,
+            "p_boot_le_0": 0.0255
+          },
+          "auc_minus_proxy": {
+            "ci95": [
+              0.037819,
+              0.253171
+            ],
+            "estimate": 0.14666,
+            "n_diseases": 17,
+            "p_boot_le_0": 0.0035
+          },
+          "auc_minus_random": {
+            "ci95": [
+              0.121566,
+              0.379072
+            ],
+            "estimate": 0.257687,
+            "n_diseases": 17,
+            "p_boot_le_0": 0.0
+          },
+          "calibration_isotonic_supplementary": {
+            "brier": {
+              "ci95": [
+                0.001363,
+                0.00315
+              ],
+              "estimate": 0.002186
+            },
+            "brier_constant_prevalence": {
+              "ci95": [
+                0.00152,
+                0.003274
+              ],
+              "estimate": 0.002321
+            },
+            "calibration_slope": {
+              "ci95": [
+                0.824397,
+                1.144727
+              ],
+              "estimate": 0.978306
+            },
+            "n_pairs": 45985,
+            "n_positive_pairs": 107
+          },
+          "calibration_platt": {
+            "brier": {
+              "ci95": [
+                0.001385,
+                0.003162
+              ],
+              "estimate": 0.0022
+            },
+            "brier_constant_prevalence": {
+              "ci95": [
+                0.00152,
+                0.003274
+              ],
+              "estimate": 0.002321
+            },
+            "calibration_slope": {
+              "ci95": [
+                0.77752,
+                1.306789
+              ],
+              "estimate": 1.063279
+            },
+            "n_pairs": 45985,
+            "n_positive_pairs": 107
+          },
+          "features": [
+            "log1p_n_papers",
+            "log1p_n_benefit",
+            "log1p_n_human",
+            "log1p_n_harm",
+            "log_popularity",
+            "excess_over_popularity"
+          ],
+          "per_disease_auc": {
+            "Diamond-Blackfan anemia": 0.328058,
+            "Dravet syndrome": 0.995006,
+            "Duchenne muscular dystrophy": 0.995372,
+            "Laron syndrome": 0.226415,
+            "Lennox-Gastaut syndrome": 0.879598,
+            "Noonan syndrome": 0.668054,
+            "atypical juvenile parkinsonism": 0.653192,
+            "beta thalassemia": 0.999136,
+            "cystinuria": 0.99963,
+            "familial glucocorticoid deficiency": 0.321978,
+            "gastrointestinal stromal tumor": 0.999722,
+            "hemophilia": 0.374924,
+            "hereditary hypophosphatemic rickets": 0.994081,
+            "homozygous familial hypercholesterolemia": 0.999135,
+            "inherited acute myeloid leukemia": 0.780929,
+            "juvenile Paget disease": 0.665444,
+            "paroxysmal nocturnal hemoglobinuria": 1.0
+          },
+          "precision_at_10": {
+            "ci95": [
+              0.088235,
+              0.253088
+            ],
+            "estimate": 0.164706,
+            "n_diseases": 17
+          },
+          "precision_at_10_minus_best_baseline": {
+            "ci95": [
+              0.019579,
+              0.16055
+            ],
+            "estimate": 0.084329,
+            "n_diseases": 17,
+            "p_boot_le_0": 0.0035
+          },
+          "recall_at_20": {
+            "ci95": [
+              0.293166,
+              0.647494
+            ],
+            "estimate": 0.474887,
+            "n_diseases": 17
+          }
+        },
+        "C": {
+          "auc": {
+            "ci95": [
+              0.737679,
+              0.914665
+            ],
+            "estimate": 0.829515,
+            "n_diseases": 17
+          },
+          "auc_minus_popularity": {
+            "ci95": [
+              0.087299,
+              0.372646
+            ],
+            "estimate": 0.225446,
+            "n_diseases": 17,
+            "p_boot_le_0": 0.0005
+          },
+          "auc_minus_proxy": {
+            "ci95": [
+              0.11712,
+              0.317603
+            ],
+            "estimate": 0.218488,
+            "n_diseases": 17,
+            "p_boot_le_0": 0.0
+          },
+          "auc_minus_random": {
+            "ci95": [
+              0.237679,
+              0.414665
+            ],
+            "estimate": 0.329515,
+            "n_diseases": 17,
+            "p_boot_le_0": 0.0
+          },
+          "calibration_isotonic_supplementary": {
+            "brier": {
+              "ci95": [
+                0.001506,
+                0.003233
+              ],
+              "estimate": 0.002307
+            },
+            "brier_constant_prevalence": {
+              "ci95": [
+                0.00152,
+                0.003274
+              ],
+              "estimate": 0.002321
+            },
+            "calibration_slope": {
+              "ci95": [
+                0.387494,
+                1.05682
+              ],
+              "estimate": 0.731113
+            },
+            "n_pairs": 45985,
+            "n_positive_pairs": 107
+          },
+          "calibration_platt": {
+            "brier": {
+              "ci95": [
+                0.001613,
+                0.003328
+              ],
+              "estimate": 0.00242
+            },
+            "brier_constant_prevalence": {
+              "ci95": [
+                0.00152,
+                0.003274
+              ],
+              "estimate": 0.002321
+            },
+            "calibration_slope": {
+              "ci95": [
+                0.581027,
+                1.368719
+              ],
+              "estimate": 0.86184
+            },
+            "n_pairs": 45985,
+            "n_positive_pairs": 107
+          },
+          "features": [
+            "log1p_n_papers",
+            "log1p_n_benefit",
+            "log1p_n_human",
+            "log1p_n_harm",
+            "prior_direct_targets",
+            "prior_ppi_targets"
+          ],
+          "per_disease_auc": {
+            "Diamond-Blackfan anemia": 0.816312,
+            "Dravet syndrome": 0.49889,
+            "Duchenne muscular dystrophy": 0.994123,
+            "Laron syndrome": 0.981502,
+            "Lennox-Gastaut syndrome": 0.845549,
+            "Noonan syndrome": 0.678413,
+            "atypical juvenile parkinsonism": 0.51693,
+            "beta thalassemia": 0.991488,
+            "cystinuria": 0.998705,
+            "familial glucocorticoid deficiency": 0.551956,
+            "gastrointestinal stromal tumor": 0.999722,
+            "hemophilia": 0.935226,
+            "hereditary hypophosphatemic rickets": 0.994266,
+            "homozygous familial hypercholesterolemia": 0.998672,
+            "inherited acute myeloid leukemia": 0.710892,
+            "juvenile Paget disease": 0.589111,
+            "paroxysmal nocturnal hemoglobinuria": 1.0
+          },
+          "precision_at_10": {
+            "ci95": [
+              0.0794,
+              0.216176
+            ],
+            "estimate": 0.146569,
+            "n_diseases": 17
+          },
+          "precision_at_10_minus_best_baseline": {
+            "ci95": [
+              0.025526,
+              0.113675
+            ],
+            "estimate": 0.066191,
+            "n_diseases": 17,
+            "p_boot_le_0": 0.0
+          },
+          "recall_at_20": {
+            "ci95": [
+              0.275072,
+              0.633982
+            ],
+            "estimate": 0.448928,
+            "n_diseases": 17
+          }
+        },
+        "D": {
+          "auc": {
+            "ci95": [
+              0.683606,
+              0.877576
+            ],
+            "estimate": 0.782201,
+            "n_diseases": 17
+          },
+          "auc_minus_popularity": {
+            "ci95": [
+              0.054883,
+              0.290626
+            ],
+            "estimate": 0.178132,
+            "n_diseases": 17,
+            "p_boot_le_0": 0.0015
+          },
+          "auc_minus_proxy": {
+            "ci95": [
+              0.094204,
+              0.252091
+            ],
+            "estimate": 0.171174,
+            "n_diseases": 17,
+            "p_boot_le_0": 0.0
+          },
+          "auc_minus_random": {
+            "ci95": [
+              0.183606,
+              0.377576
+            ],
+            "estimate": 0.282201,
+            "n_diseases": 17,
+            "p_boot_le_0": 0.0
+          },
+          "calibration_isotonic_supplementary": {
+            "brier": {
+              "ci95": [
+                0.001425,
+                0.003202
+              ],
+              "estimate": 0.002238
+            },
+            "brier_constant_prevalence": {
+              "ci95": [
+                0.00152,
+                0.003274
+              ],
+              "estimate": 0.002321
+            },
+            "calibration_slope": {
+              "ci95": [
+                0.803582,
+                1.176616
+              ],
+              "estimate": 0.979337
+            },
+            "n_pairs": 45985,
+            "n_positive_pairs": 107
+          },
+          "calibration_platt": {
+            "brier": {
+              "ci95": [
+                0.001507,
+                0.003269
+              ],
+              "estimate": 0.002311
+            },
+            "brier_constant_prevalence": {
+              "ci95": [
+                0.00152,
+                0.003274
+              ],
+              "estimate": 0.002321
+            },
+            "calibration_slope": {
+              "ci95": [
+                0.811004,
+                1.256088
+              ],
+              "estimate": 1.034638
+            },
+            "n_pairs": 45985,
+            "n_positive_pairs": 107
+          },
+          "features": [
+            "log1p_n_papers",
+            "log1p_n_benefit",
+            "log1p_n_human",
+            "log1p_n_harm"
+          ],
+          "per_disease_auc": {
+            "Diamond-Blackfan anemia": 0.548323,
+            "Dravet syndrome": 0.994173,
+            "Duchenne muscular dystrophy": 0.993613,
+            "Laron syndrome": 0.493341,
+            "Lennox-Gastaut syndrome": 0.767817,
+            "Noonan syndrome": 0.492231,
+            "atypical juvenile parkinsonism": 0.520633,
+            "beta thalassemia": 0.996052,
+            "cystinuria": 0.99852,
+            "familial glucocorticoid deficiency": 0.556011,
+            "gastrointestinal stromal tumor": 0.999537,
+            "hemophilia": 0.624587,
+            "hereditary hypophosphatemic rickets": 0.992786,
+            "homozygous familial hypercholesterolemia": 0.998858,
+            "inherited acute myeloid leukemia": 0.730273,
+            "juvenile Paget disease": 0.590667,
+            "paroxysmal nocturnal hemoglobinuria": 1.0
+          },
+          "precision_at_10": {
+            "ci95": [
+              0.067647,
+              0.211765
+            ],
+            "estimate": 0.135294,
+            "n_diseases": 17
+          },
+          "precision_at_10_minus_best_baseline": {
+            "ci95": [
+              0.00198,
+              0.118526
+            ],
+            "estimate": 0.054917,
+            "n_diseases": 17,
+            "p_boot_le_0": 0.0205
+          },
+          "recall_at_20": {
+            "ci95": [
+              0.271168,
+              0.628111
+            ],
+            "estimate": 0.448561,
+            "n_diseases": 17
+          }
+        }
+      },
+      "baselines": {
+        "popularity": {
+          "auc": {
+            "ci95": [
+              0.503123,
+              0.695428
+            ],
+            "estimate": 0.604069,
+            "n_diseases": 17
+          },
+          "precision_at_10": {
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "estimate": 0.0,
+            "n_diseases": 17
+          },
+          "recall_at_20": {
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "estimate": 0.0,
+            "n_diseases": 17
+          }
+        },
+        "proxy": {
+          "auc": {
+            "ci95": [
+              0.532489,
+              0.698947
+            ],
+            "estimate": 0.611027,
+            "n_diseases": 17
+          },
+          "precision_at_10": {
+            "ci95": [
+              0.021773,
+              0.144659
+            ],
+            "estimate": 0.080377,
+            "n_diseases": 17
+          },
+          "recall_at_20": {
+            "ci95": [
+              0.072122,
+              0.403309
+            ],
+            "estimate": 0.228495,
+            "n_diseases": 17
+          }
+        },
+        "random": {
+          "auc": {
+            "ci95": [
+              0.5,
+              0.5
+            ],
+            "estimate": 0.5,
+            "n_diseases": 17
+          },
+          "precision_at_10": {
+            "ci95": [
+              0.001522,
+              0.003284
+            ],
+            "estimate": 0.002327,
+            "n_diseases": 17
+          },
+          "recall_at_20": {
+            "ci95": [
+              0.007394,
+              0.007394
+            ],
+            "estimate": 0.007394,
+            "n_diseases": 17
+          }
+        }
+      },
+      "best_baseline_by_precision_at_10": "proxy",
+      "decision_arm_A": {
+        "criterion_1_auc_minus_popularity_ge_0.05_and_ci_lower_gt_0": {
+          "ci95": [
+            0.049338,
+            0.343249
+          ],
+          "estimate": 0.206438,
+          "met": true
+        },
+        "criterion_2_calibration_slope_in_0.8_1.2": {
+          "estimate": 0.900051,
+          "met": true
+        },
+        "criterion_3_precision_at_10_above_best_baseline": {
+          "difference_estimate": 0.096093,
+          "met": true
+        },
+        "verdict": "supported"
+      },
+      "diseases": [
+        "Diamond-Blackfan anemia",
+        "Dravet syndrome",
+        "Duchenne muscular dystrophy",
+        "Laron syndrome",
+        "Lennox-Gastaut syndrome",
+        "Noonan syndrome",
+        "atypical juvenile parkinsonism",
+        "beta thalassemia",
+        "cystinuria",
+        "familial glucocorticoid deficiency",
+        "gastrointestinal stromal tumor",
+        "hemophilia",
+        "hereditary hypophosphatemic rickets",
+        "homozygous familial hypercholesterolemia",
+        "inherited acute myeloid leukemia",
+        "juvenile Paget disease",
+        "paroxysmal nocturnal hemoglobinuria"
+      ],
+      "folds": [
+        [
+          "Duchenne muscular dystrophy",
+          "Lennox-Gastaut syndrome",
+          "hemophilia",
+          "paroxysmal nocturnal hemoglobinuria"
+        ],
+        [
+          "atypical juvenile parkinsonism",
+          "cystinuria",
+          "gastrointestinal stromal tumor",
+          "hereditary hypophosphatemic rickets"
+        ],
+        [
+          "Diamond-Blackfan anemia",
+          "Noonan syndrome",
+          "juvenile Paget disease"
+        ],
+        [
+          "Dravet syndrome",
+          "Laron syndrome",
+          "inherited acute myeloid leukemia"
+        ],
+        [
+          "beta thalassemia",
+          "familial glucocorticoid deficiency",
+          "homozygous familial hypercholesterolemia"
+        ]
+      ],
+      "n_folds": 5
+    },
+    "temporal_gold2": {
+      "arms": {
+        "B": {
+          "auc": {
+            "ci95": [
+              0.543739,
+              0.736717
+            ],
+            "estimate": 0.640255,
+            "n_diseases": 13
+          },
+          "auc_minus_popularity": {
+            "ci95": [
+              -0.102606,
+              0.22836
+            ],
+            "estimate": 0.066256,
+            "n_diseases": 13,
+            "p_boot_le_0": 0.217
+          },
+          "auc_minus_proxy": {
+            "ci95": [
+              -0.024397,
+              0.180382
+            ],
+            "estimate": 0.074361,
+            "n_diseases": 13,
+            "p_boot_le_0": 0.0785
+          },
+          "auc_minus_random": {
+            "ci95": [
+              0.043739,
+              0.236717
+            ],
+            "estimate": 0.140255,
+            "n_diseases": 13,
+            "p_boot_le_0": 0.002
+          },
+          "calibration_isotonic_supplementary": {
+            "brier": {
+              "ci95": [
+                0.002422,
+                0.005655
+              ],
+              "estimate": 0.004015
+            },
+            "brier_constant_prevalence": {
+              "ci95": [
+                0.002472,
+                0.005981
+              ],
+              "estimate": 0.004196
+            },
+            "calibration_slope": {
+              "ci95": [
+                0.887059,
+                1.086409
+              ],
+              "estimate": 0.981803
+            },
+            "n_pairs": 35165,
+            "n_positive_pairs": 148
+          },
+          "calibration_platt": {
+            "brier": {
+              "ci95": [
+                0.002415,
+                0.005867
+              ],
+              "estimate": 0.004117
+            },
+            "brier_constant_prevalence": {
+              "ci95": [
+                0.002472,
+                0.005981
+              ],
+              "estimate": 0.004196
+            },
+            "calibration_slope": {
+              "ci95": [
+                0.800294,
+                1.575201
+              ],
+              "estimate": 1.166187
+            },
+            "n_pairs": 35165,
+            "n_positive_pairs": 148
+          },
+          "features": [
+            "log1p_n_papers",
+            "log1p_n_benefit",
+            "log1p_n_human",
+            "log1p_n_harm",
+            "log_popularity",
+            "excess_over_popularity"
+          ],
+          "per_disease_auc": {
+            "Diamond-Blackfan anemia": 0.517815,
+            "Dravet syndrome": 0.747318,
+            "Duchenne muscular dystrophy": 0.754063,
+            "Lennox-Gastaut syndrome": 0.995932,
+            "Noonan syndrome": 0.569042,
+            "beta thalassemia": 0.340769,
+            "cystinuria": 0.669626,
+            "gastrointestinal stromal tumor": 0.49303,
+            "hemophilia": 0.723458,
+            "hereditary hypophosphatemic rickets": 0.793084,
+            "homozygous familial hypercholesterolemia": 0.818222,
+            "inherited acute myeloid leukemia": 0.361935,
+            "paroxysmal nocturnal hemoglobinuria": 0.539021
+          },
+          "precision_at_10": {
+            "ci95": [
+              0.107692,
+              0.307692
+            ],
+            "estimate": 0.207692,
+            "n_diseases": 13
+          },
+          "precision_at_10_minus_best_baseline": {
+            "ci95": [
+              0.028958,
+              0.198269
+            ],
+            "estimate": 0.105006,
+            "n_diseases": 13,
+            "p_boot_le_0": 0.002
+          },
+          "recall_at_20": {
+            "ci95": [
+              0.191296,
+              0.497859
+            ],
+            "estimate": 0.330074,
+            "n_diseases": 13
+          }
+        },
+        "D": {
+          "auc": {
+            "ci95": [
+              0.603003,
+              0.75421
+            ],
+            "estimate": 0.671223,
+            "n_diseases": 13
+          },
+          "auc_minus_popularity": {
+            "ci95": [
+              -0.010614,
+              0.211625
+            ],
+            "estimate": 0.097225,
+            "n_diseases": 13,
+            "p_boot_le_0": 0.0395
+          },
+          "auc_minus_proxy": {
+            "ci95": [
+              0.03741,
+              0.191866
+            ],
+            "estimate": 0.105329,
+            "n_diseases": 13,
+            "p_boot_le_0": 0.0015
+          },
+          "auc_minus_random": {
+            "ci95": [
+              0.103003,
+              0.25421
+            ],
+            "estimate": 0.171223,
+            "n_diseases": 13,
+            "p_boot_le_0": 0.0
+          },
+          "calibration_isotonic_supplementary": {
+            "brier": {
+              "ci95": [
+                0.002454,
+                0.00579
+              ],
+              "estimate": 0.004099
+            },
+            "brier_constant_prevalence": {
+              "ci95": [
+                0.002472,
+                0.005981
+              ],
+              "estimate": 0.004196
+            },
+            "calibration_slope": {
+              "ci95": [
+                0.914628,
+                1.095096
+              ],
+              "estimate": 1.004448
+            },
+            "n_pairs": 35165,
+            "n_positive_pairs": 148
+          },
+          "calibration_platt": {
+            "brier": {
+              "ci95": [
+                0.002446,
+                0.005905
+              ],
+              "estimate": 0.004147
+            },
+            "brier_constant_prevalence": {
+              "ci95": [
+                0.002472,
+                0.005981
+              ],
+              "estimate": 0.004196
+            },
+            "calibration_slope": {
+              "ci95": [
+                0.729882,
+                1.417335
+              ],
+              "estimate": 1.038821
+            },
+            "n_pairs": 35165,
+            "n_positive_pairs": 148
+          },
+          "features": [
+            "log1p_n_papers",
+            "log1p_n_benefit",
+            "log1p_n_human",
+            "log1p_n_harm"
+          ],
+          "per_disease_auc": {
+            "Diamond-Blackfan anemia": 0.592926,
+            "Dravet syndrome": 0.745191,
+            "Duchenne muscular dystrophy": 0.69002,
+            "Lennox-Gastaut syndrome": 0.994453,
+            "Noonan syndrome": 0.586573,
+            "beta thalassemia": 0.614955,
+            "cystinuria": 0.744451,
+            "gastrointestinal stromal tumor": 0.616649,
+            "hemophilia": 0.633516,
+            "hereditary hypophosphatemic rickets": 0.497596,
+            "homozygous familial hypercholesterolemia": 0.89637,
+            "inherited acute myeloid leukemia": 0.614977,
+            "paroxysmal nocturnal hemoglobinuria": 0.498228
+          },
+          "precision_at_10": {
+            "ci95": [
+              0.065385,
+              0.223077
+            ],
+            "estimate": 0.138462,
+            "n_diseases": 13
+          },
+          "precision_at_10_minus_best_baseline": {
+            "ci95": [
+              -0.021923,
+              0.098111
+            ],
+            "estimate": 0.035775,
+            "n_diseases": 13,
+            "p_boot_le_0": 0.1215
+          },
+          "recall_at_20": {
+            "ci95": [
+              0.159207,
+              0.477398
+            ],
+            "estimate": 0.301268,
+            "n_diseases": 13
+          }
+        }
+      },
+      "baselines": {
+        "popularity": {
+          "auc": {
+            "ci95": [
+              0.477589,
+              0.666374
+            ],
+            "estimate": 0.573999,
+            "n_diseases": 13
+          },
+          "precision_at_10": {
+            "ci95": [
+              0.0,
+              0.038462
+            ],
+            "estimate": 0.015385,
+            "n_diseases": 13
+          },
+          "recall_at_20": {
+            "ci95": [
+              0.0,
+              0.015385
+            ],
+            "estimate": 0.006154,
+            "n_diseases": 13
+          }
+        },
+        "proxy": {
+          "auc": {
+            "ci95": [
+              0.515023,
+              0.63262
+            ],
+            "estimate": 0.565894,
+            "n_diseases": 13
+          },
+          "precision_at_10": {
+            "ci95": [
+              0.032647,
+              0.178745
+            ],
+            "estimate": 0.102687,
+            "n_diseases": 13
+          },
+          "recall_at_20": {
+            "ci95": [
+              0.036515,
+              0.26963
+            ],
+            "estimate": 0.136885,
+            "n_diseases": 13
+          }
+        },
+        "random": {
+          "auc": {
+            "ci95": [
+              0.5,
+              0.5
+            ],
+            "estimate": 0.5,
+            "n_diseases": 13
+          },
+          "precision_at_10": {
+            "ci95": [
+              0.002474,
+              0.006001
+            ],
+            "estimate": 0.004209,
+            "n_diseases": 13
+          },
+          "recall_at_20": {
+            "ci95": [
+              0.007394,
+              0.007394
+            ],
+            "estimate": 0.007394,
+            "n_diseases": 13
+          }
+        }
+      },
+      "best_baseline_by_precision_at_10": "proxy",
+      "diseases": [
+        "Diamond-Blackfan anemia",
+        "Dravet syndrome",
+        "Duchenne muscular dystrophy",
+        "Lennox-Gastaut syndrome",
+        "Noonan syndrome",
+        "beta thalassemia",
+        "cystinuria",
+        "gastrointestinal stromal tumor",
+        "hemophilia",
+        "hereditary hypophosphatemic rickets",
+        "homozygous familial hypercholesterolemia",
+        "inherited acute myeloid leukemia",
+        "paroxysmal nocturnal hemoglobinuria"
+      ],
+      "diseases_excluded_empty_gold2": [
+        "Laron syndrome",
+        "atypical juvenile parkinsonism",
+        "familial glucocorticoid deficiency",
+        "juvenile Paget disease"
+      ],
+      "folds": [
+        [
+          "Noonan syndrome",
+          "cystinuria",
+          "gastrointestinal stromal tumor"
+        ],
+        [
+          "Duchenne muscular dystrophy",
+          "hereditary hypophosphatemic rickets",
+          "paroxysmal nocturnal hemoglobinuria"
+        ],
+        [
+          "Lennox-Gastaut syndrome",
+          "beta thalassemia",
+          "hemophilia"
+        ],
+        [
+          "Diamond-Blackfan anemia",
+          "inherited acute myeloid leukemia"
+        ],
+        [
+          "Dravet syndrome",
+          "homozygous familial hypercholesterolemia"
+        ]
+      ],
+      "n_folds": 5,
+      "note": "Literature up to 2018 only; knowledge-graph prior excluded, so only arms B and D are valid; arms A and C are not computed. Diseases with no gold 2 drug are excluded."
+    },
+    "temporal_gold2_excluding_gold1_drugs": {
+      "arms": {
+        "B": {
+          "auc": {
+            "ci95": [
+              0.391025,
+              0.538653
+            ],
+            "estimate": 0.469299,
+            "n_diseases": 11
+          },
+          "auc_minus_popularity": {
+            "ci95": [
+              -0.267736,
+              0.059288
+            ],
+            "estimate": -0.093855,
+            "n_diseases": 11,
+            "p_boot_le_0": 0.874
+          },
+          "auc_minus_proxy": {
+            "ci95": [
+              -0.156309,
+              -0.00703
+            ],
+            "estimate": -0.083894,
+            "n_diseases": 11,
+            "p_boot_le_0": 0.9855
+          },
+          "auc_minus_random": {
+            "ci95": [
+              -0.108975,
+              0.038653
+            ],
+            "estimate": -0.030701,
+            "n_diseases": 11,
+            "p_boot_le_0": 0.7805
+          },
+          "calibration_isotonic_supplementary": {
+            "brier": {
+              "ci95": [
+                0.003172,
+                0.006436
+              ],
+              "estimate": 0.004816
+            },
+            "brier_constant_prevalence": {
+              "ci95": [
+                0.003082,
+                0.006626
+              ],
+              "estimate": 0.004888
+            },
+            "calibration_slope": {
+              "ci95": [
+                0.405854,
+                1.026706
+              ],
+              "estimate": 0.797331
+            },
+            "n_pairs": 29755,
+            "n_positive_pairs": 146
+          },
+          "calibration_platt": {
+            "brier": {
+              "ci95": [
+                0.003059,
+                0.006511
+              ],
+              "estimate": 0.004828
+            },
+            "brier_constant_prevalence": {
+              "ci95": [
+                0.003082,
+                0.006626
+              ],
+              "estimate": 0.004888
+            },
+            "calibration_slope": {
+              "ci95": [
+                0.149167,
+                1.130505
+              ],
+              "estimate": 0.645691
+            },
+            "n_pairs": 29755,
+            "n_positive_pairs": 146
+          },
+          "features": [
+            "log1p_n_papers",
+            "log1p_n_benefit",
+            "log1p_n_human",
+            "log1p_n_harm",
+            "log_popularity",
+            "excess_over_popularity"
+          ],
+          "per_disease_auc": {
+            "Diamond-Blackfan anemia": 0.515831,
+            "Dravet syndrome": 0.446706,
+            "Duchenne muscular dystrophy": 0.578456,
+            "Noonan syndrome": 0.571019,
+            "beta thalassemia": 0.282966,
+            "cystinuria": 0.670122,
+            "gastrointestinal stromal tumor": 0.363806,
+            "hemophilia": 0.504434,
+            "homozygous familial hypercholesterolemia": 0.534668,
+            "inherited acute myeloid leukemia": 0.225539,
+            "paroxysmal nocturnal hemoglobinuria": 0.468745
+          },
+          "precision_at_10": {
+            "ci95": [
+              0.054545,
+              0.218182
+            ],
+            "estimate": 0.136364,
+            "n_diseases": 11
+          },
+          "precision_at_10_minus_best_baseline": {
+            "ci95": [
+              -0.009707,
+              0.161455
+            ],
+            "estimate": 0.069663,
+            "n_diseases": 11,
+            "p_boot_le_0": 0.041
+          },
+          "recall_at_20": {
+            "ci95": [
+              0.051848,
+              0.230177
+            ],
+            "estimate": 0.130802,
+            "n_diseases": 11
+          }
+        },
+        "D": {
+          "auc": {
+            "ci95": [
+              0.543021,
+              0.648038
+            ],
+            "estimate": 0.59514,
+            "n_diseases": 11
+          },
+          "auc_minus_popularity": {
+            "ci95": [
+              -0.102833,
+              0.175269
+            ],
+            "estimate": 0.031986,
+            "n_diseases": 11,
+            "p_boot_le_0": 0.351
+          },
+          "auc_minus_proxy": {
+            "ci95": [
+              -0.00685,
+              0.100212
+            ],
+            "estimate": 0.041947,
+            "n_diseases": 11,
+            "p_boot_le_0": 0.0455
+          },
+          "auc_minus_random": {
+            "ci95": [
+              0.043021,
+              0.148038
+            ],
+            "estimate": 0.09514,
+            "n_diseases": 11,
+            "p_boot_le_0": 0.0
+          },
+          "calibration_isotonic_supplementary": {
+            "brier": {
+              "ci95": [
+                0.003118,
+                0.006495
+              ],
+              "estimate": 0.004817
+            },
+            "brier_constant_prevalence": {
+              "ci95": [
+                0.003082,
+                0.006626
+              ],
+              "estimate": 0.004888
+            },
+            "calibration_slope": {
+              "ci95": [
+                0.737533,
+                1.068453
+              ],
+              "estimate": 0.899786
+            },
+            "n_pairs": 29755,
+            "n_positive_pairs": 146
+          },
+          "calibration_platt": {
+            "brier": {
+              "ci95": [
+                0.003099,
+                0.006597
+              ],
+              "estimate": 0.004874
+            },
+            "brier_constant_prevalence": {
+              "ci95": [
+                0.003082,
+                0.006626
+              ],
+              "estimate": 0.004888
+            },
+            "calibration_slope": {
+              "ci95": [
+                0.17579,
+                1.347797
+              ],
+              "estimate": 0.808216
+            },
+            "n_pairs": 29755,
+            "n_positive_pairs": 146
+          },
+          "features": [
+            "log1p_n_papers",
+            "log1p_n_benefit",
+            "log1p_n_human",
+            "log1p_n_harm"
+          ],
+          "per_disease_auc": {
+            "Diamond-Blackfan anemia": 0.593125,
+            "Dravet syndrome": 0.493153,
+            "Duchenne muscular dystrophy": 0.662038,
+            "Noonan syndrome": 0.587954,
+            "beta thalassemia": 0.581934,
+            "cystinuria": 0.744261,
+            "gastrointestinal stromal tumor": 0.497966,
+            "hemophilia": 0.646903,
+            "homozygous familial hypercholesterolemia": 0.743419,
+            "inherited acute myeloid leukemia": 0.536134,
+            "paroxysmal nocturnal hemoglobinuria": 0.459651
+          },
+          "precision_at_10": {
+            "ci95": [
+              0.018182,
+              0.151175
+            ],
+            "estimate": 0.074805,
+            "n_diseases": 11
+          },
+          "precision_at_10_minus_best_baseline": {
+            "ci95": [
+              -0.043502,
+              0.061944
+            ],
+            "estimate": 0.008104,
+            "n_diseases": 11,
+            "p_boot_le_0": 0.377
+          },
+          "recall_at_20": {
+            "ci95": [
+              0.043218,
+              0.167518
+            ],
+            "estimate": 0.100073,
+            "n_diseases": 11
+          }
+        }
+      },
+      "baselines": {
+        "popularity": {
+          "auc": {
+            "ci95": [
+              0.450496,
+              0.674211
+            ],
+            "estimate": 0.563154,
+            "n_diseases": 11
+          },
+          "precision_at_10": {
+            "ci95": [
+              0.0,
+              0.045455
+            ],
+            "estimate": 0.018182,
+            "n_diseases": 11
+          },
+          "recall_at_20": {
+            "ci95": [
+              0.0,
+              0.020516
+            ],
+            "estimate": 0.008282,
+            "n_diseases": 11
+          }
+        },
+        "proxy": {
+          "auc": {
+            "ci95": [
+              0.512197,
+              0.60098
+            ],
+            "estimate": 0.553193,
+            "n_diseases": 11
+          },
+          "precision_at_10": {
+            "ci95": [
+              0.027354,
+              0.111914
+            ],
+            "estimate": 0.066701,
+            "n_diseases": 11
+          },
+          "recall_at_20": {
+            "ci95": [
+              0.031593,
+              0.208882
+            ],
+            "estimate": 0.113341,
+            "n_diseases": 11
+          }
+        },
+        "random": {
+          "auc": {
+            "ci95": [
+              0.5,
+              0.5
+            ],
+            "estimate": 0.5,
+            "n_diseases": 11
+          },
+          "precision_at_10": {
+            "ci95": [
+              0.002525,
+              0.005628
+            ],
+            "estimate": 0.004109,
+            "n_diseases": 11
+          },
+          "recall_at_20": {
+            "ci95": [
+              0.007403,
+              0.007416
+            ],
+            "estimate": 0.007409,
+            "n_diseases": 11
+          }
+        }
+      },
+      "best_baseline_by_precision_at_10": "proxy",
+      "diseases": [
+        "Diamond-Blackfan anemia",
+        "Dravet syndrome",
+        "Duchenne muscular dystrophy",
+        "Noonan syndrome",
+        "beta thalassemia",
+        "cystinuria",
+        "gastrointestinal stromal tumor",
+        "hemophilia",
+        "homozygous familial hypercholesterolemia",
+        "inherited acute myeloid leukemia",
+        "paroxysmal nocturnal hemoglobinuria"
+      ],
+      "folds": [
+        [
+          "Noonan syndrome",
+          "beta thalassemia",
+          "gastrointestinal stromal tumor"
+        ],
+        [
+          "Diamond-Blackfan anemia",
+          "inherited acute myeloid leukemia"
+        ],
+        [
+          "Duchenne muscular dystrophy",
+          "homozygous familial hypercholesterolemia"
+        ],
+        [
+          "Dravet syndrome",
+          "hemophilia"
+        ],
+        [
+          "cystinuria",
+          "paroxysmal nocturnal hemoglobinuria"
+        ]
+      ],
+      "n_folds": 5
+    }
+  },
+  "per_disease_retrieval": {
+    "Diamond-Blackfan anemia": {
+      "n_gold1": 9,
+      "n_gold2": 5,
+      "n_papers_retrieved_primary": 300,
+      "n_papers_retrieved_temporal": 300,
+      "n_papers_with_gene_primary": 271,
+      "n_papers_with_gene_temporal": 262,
+      "symbols": [
+        "ADA2",
+        "EPO",
+        "GATA1",
+        "HEATR3",
+        "RPL11",
+        "RPL15",
+        "RPL17",
+        "RPL18",
+        "RPL26",
+        "RPL27",
+        "RPL31",
+        "RPL35",
+        "RPL35A",
+        "RPL5",
+        "RPL8",
+        "RPL9",
+        "RPS10",
+        "RPS15A",
+        "RPS17",
+        "RPS19",
+        "RPS20",
+        "RPS24",
+        "RPS26",
+        "RPS27",
+        "RPS28",
+        "RPS29",
+        "RPS7",
+        "TSR2"
+      ]
+    },
+    "Dravet syndrome": {
+      "n_gold1": 2,
+      "n_gold2": 2,
+      "n_papers_retrieved_primary": 300,
+      "n_papers_retrieved_temporal": 300,
+      "n_papers_with_gene_primary": 281,
+      "n_papers_with_gene_temporal": 284,
+      "symbols": [
+        "GABRA1",
+        "GABRG2",
+        "PCDH19",
+        "SCN1A",
+        "SCN1B",
+        "SCN2A",
+        "SCN9A"
+      ]
+    },
+    "Duchenne muscular dystrophy": {
+      "n_gold1": 4,
+      "n_gold2": 18,
+      "n_papers_retrieved_primary": 300,
+      "n_papers_retrieved_temporal": 300,
+      "n_papers_with_gene_primary": 300,
+      "n_papers_with_gene_temporal": 300,
+      "symbols": [
+        "DMD",
+        "LTBP4"
+      ]
+    },
+    "Laron syndrome": {
+      "n_gold1": 2,
+      "n_gold2": 0,
+      "n_papers_retrieved_primary": 300,
+      "n_papers_retrieved_temporal": 300,
+      "n_papers_with_gene_primary": 246,
+      "n_papers_with_gene_temporal": 242,
+      "symbols": [
+        "GHR",
+        "STAT5B"
+      ]
+    },
+    "Lennox-Gastaut syndrome": {
+      "n_gold1": 11,
+      "n_gold2": 1,
+      "n_papers_retrieved_primary": 300,
+      "n_papers_retrieved_temporal": 300,
+      "n_papers_with_gene_primary": 272,
+      "n_papers_with_gene_temporal": 275,
+      "symbols": [
+        "CACNA1A",
+        "CHD2",
+        "CUX2",
+        "DNM1",
+        "GABRB3",
+        "MAPK10",
+        "SCN1A"
+      ]
+    },
+    "Noonan syndrome": {
+      "n_gold1": 2,
+      "n_gold2": 11,
+      "n_papers_retrieved_primary": 300,
+      "n_papers_retrieved_temporal": 300,
+      "n_papers_with_gene_primary": 299,
+      "n_papers_with_gene_temporal": 296,
+      "symbols": [
+        "BRAF",
+        "CBL",
+        "KRAS",
+        "LZTR1",
+        "MAP2K1",
+        "MAP2K2",
+        "MAPK1",
+        "MRAS",
+        "NF1",
+        "NRAS",
+        "PPP1CB",
+        "PTPN11",
+        "RAF1",
+        "RASA2",
+        "RIT1",
+        "RRAS",
+        "RRAS2",
+        "SHOC2",
+        "SOS1",
+        "SOS2",
+        "SPRED2"
+      ]
+    },
+    "atypical juvenile parkinsonism": {
+      "n_gold1": 19,
+      "n_gold2": 0,
+      "n_papers_retrieved_primary": 300,
+      "n_papers_retrieved_temporal": 240,
+      "n_papers_with_gene_primary": 269,
+      "n_papers_with_gene_temporal": 194,
+      "symbols": [
+        "DNAJC6",
+        "PODXL",
+        "SYNJ1"
+      ]
+    },
+    "beta thalassemia": {
+      "n_gold1": 3,
+      "n_gold2": 25,
+      "n_papers_retrieved_primary": 300,
+      "n_papers_retrieved_temporal": 300,
+      "n_papers_with_gene_primary": 260,
+      "n_papers_with_gene_temporal": 267,
+      "symbols": [
+        "GATA1",
+        "HBA1",
+        "HBA2",
+        "HBB",
+        "HBD",
+        "HBG1",
+        "HBG2",
+        "KLF1"
+      ]
+    },
+    "cystinuria": {
+      "n_gold1": 2,
+      "n_gold2": 2,
+      "n_papers_retrieved_primary": 300,
+      "n_papers_retrieved_temporal": 231,
+      "n_papers_with_gene_primary": 267,
+      "n_papers_with_gene_temporal": 196,
+      "symbols": [
+        "CAMKMT",
+        "PREPL",
+        "SLC3A1",
+        "SLC7A9"
+      ]
+    },
+    "familial glucocorticoid deficiency": {
+      "n_gold1": 8,
+      "n_gold2": 0,
+      "n_papers_retrieved_primary": 300,
+      "n_papers_retrieved_temporal": 300,
+      "n_papers_with_gene_primary": 155,
+      "n_papers_with_gene_temporal": 203,
+      "symbols": [
+        "MC2R",
+        "MRAP",
+        "NNT",
+        "STAR",
+        "TXNRD2"
+      ]
+    },
+    "gastrointestinal stromal tumor": {
+      "n_gold1": 4,
+      "n_gold2": 25,
+      "n_papers_retrieved_primary": 300,
+      "n_papers_retrieved_temporal": 300,
+      "n_papers_with_gene_primary": 276,
+      "n_papers_with_gene_temporal": 285,
+      "symbols": [
+        "KIT",
+        "PDGFRA",
+        "SDHA",
+        "SDHB",
+        "SDHC"
+      ]
+    },
+    "hemophilia": {
+      "n_gold1": 11,
+      "n_gold2": 21,
+      "n_papers_retrieved_primary": 300,
+      "n_papers_retrieved_temporal": 300,
+      "n_papers_with_gene_primary": 296,
+      "n_papers_with_gene_temporal": 297,
+      "symbols": [
+        "F8",
+        "F9"
+      ]
+    },
+    "hereditary hypophosphatemic rickets": {
+      "n_gold1": 2,
+      "n_gold2": 1,
+      "n_papers_retrieved_primary": 234,
+      "n_papers_retrieved_temporal": 97,
+      "n_papers_with_gene_primary": 206,
+      "n_papers_with_gene_temporal": 84,
+      "symbols": [
+        "SLC34A1",
+        "SLC34A3"
+      ]
+    },
+    "homozygous familial hypercholesterolemia": {
+      "n_gold1": 6,
+      "n_gold2": 5,
+      "n_papers_retrieved_primary": 300,
+      "n_papers_retrieved_temporal": 300,
+      "n_papers_with_gene_primary": 298,
+      "n_papers_with_gene_temporal": 291,
+      "symbols": [
+        "ABCG5",
+        "ABCG8",
+        "APOB",
+        "LDLR",
+        "LDLRAP1",
+        "PCSK9"
+      ]
+    },
+    "inherited acute myeloid leukemia": {
+      "n_gold1": 15,
+      "n_gold2": 17,
+      "n_papers_retrieved_primary": 300,
+      "n_papers_retrieved_temporal": 300,
+      "n_papers_with_gene_primary": 262,
+      "n_papers_with_gene_temporal": 258,
+      "symbols": [
+        "CEBPA",
+        "ERCC6L2",
+        "TGM6"
+      ]
+    },
+    "juvenile Paget disease": {
+      "n_gold1": 5,
+      "n_gold2": 0,
+      "n_papers_retrieved_primary": 300,
+      "n_papers_retrieved_temporal": 298,
+      "n_papers_with_gene_primary": 242,
+      "n_papers_with_gene_temporal": 258,
+      "symbols": [
+        "TNFRSF11A",
+        "TNFRSF11B"
+      ]
+    },
+    "paroxysmal nocturnal hemoglobinuria": {
+      "n_gold1": 2,
+      "n_gold2": 15,
+      "n_papers_retrieved_primary": 300,
+      "n_papers_retrieved_temporal": 300,
+      "n_papers_with_gene_primary": 226,
+      "n_papers_with_gene_temporal": 135,
+      "symbols": [
+        "PIGA",
+        "PIGT"
+      ]
+    }
+  },
+  "protocol": "protocol/addendum_engine.md (pre-registered 2026-10-15); thresholds and endpoint unchanged",
+  "sensitivity_min_10_retrieved_papers": {
+    "diseases": [
+      "Diamond-Blackfan anemia",
+      "Dravet syndrome",
+      "Duchenne muscular dystrophy",
+      "Laron syndrome",
+      "Lennox-Gastaut syndrome",
+      "Noonan syndrome",
+      "atypical juvenile parkinsonism",
+      "beta thalassemia",
+      "cystinuria",
+      "familial glucocorticoid deficiency",
+      "gastrointestinal stromal tumor",
+      "hemophilia",
+      "hereditary hypophosphatemic rickets",
+      "homozygous familial hypercholesterolemia",
+      "inherited acute myeloid leukemia",
+      "juvenile Paget disease",
+      "paroxysmal nocturnal hemoglobinuria"
+    ],
+    "label": "SENSITIVITY ANALYSIS (not the pre-registered primary analysis): diseases with >= 10 retrieved primary papers; the whole cross-validation is re-run on this subset",
+    "results": {
+      "primary_gold1": {
+        "arms": {
+          "A": {
+            "auc": {
+              "ci95": [
+                0.701445,
+                0.905733
+              ],
+              "estimate": 0.810508,
+              "n_diseases": 17
+            },
+            "auc_minus_popularity": {
+              "ci95": [
+                0.049338,
+                0.343249
+              ],
+              "estimate": 0.206438,
+              "n_diseases": 17,
+              "p_boot_le_0": 0.005
+            },
+            "auc_minus_proxy": {
+              "ci95": [
+                0.10735,
+                0.286385
+              ],
+              "estimate": 0.19948,
+              "n_diseases": 17,
+              "p_boot_le_0": 0.0
+            },
+            "auc_minus_random": {
+              "ci95": [
+                0.201445,
+                0.405733
+              ],
+              "estimate": 0.310508,
+              "n_diseases": 17,
+              "p_boot_le_0": 0.0
+            },
+            "calibration_isotonic_supplementary": {
+              "brier": {
+                "ci95": [
+                  0.001586,
+                  0.003264
+                ],
+                "estimate": 0.00237
+              },
+              "brier_constant_prevalence": {
+                "ci95": [
+                  0.00152,
+                  0.003274
+                ],
+                "estimate": 0.002321
+              },
+              "calibration_slope": {
+                "ci95": [
+                  0.325013,
+                  1.148184
+                ],
+                "estimate": 0.726513
+              },
+              "n_pairs": 45985,
+              "n_positive_pairs": 107
+            },
+            "calibration_platt": {
+              "brier": {
+                "ci95": [
+                  0.001562,
+                  0.003273
+                ],
+                "estimate": 0.002363
+              },
+              "brier_constant_prevalence": {
+                "ci95": [
+                  0.00152,
+                  0.003274
+                ],
+                "estimate": 0.002321
+              },
+              "calibration_slope": {
+                "ci95": [
+                  0.609698,
+                  1.393359
+                ],
+                "estimate": 0.900051
+              },
+              "n_pairs": 45985,
+              "n_positive_pairs": 107
+            },
+            "features": [
+              "log1p_n_papers",
+              "log1p_n_benefit",
+              "log1p_n_human",
+              "log1p_n_harm",
+              "log_popularity",
+              "excess_over_popularity",
+              "prior_direct_targets",
+              "prior_ppi_targets"
+            ],
+            "per_disease_auc": {
+              "Diamond-Blackfan anemia": 0.452275,
+              "Dravet syndrome": 0.983722,
+              "Duchenne muscular dystrophy": 0.995742,
+              "Laron syndrome": 0.853311,
+              "Lennox-Gastaut syndrome": 0.904114,
+              "Noonan syndrome": 0.766463,
+              "atypical juvenile parkinsonism": 0.651644,
+              "beta thalassemia": 0.999013,
+              "cystinuria": 0.999445,
+              "familial glucocorticoid deficiency": 0.32805,
+              "gastrointestinal stromal tumor": 1.0,
+              "hemophilia": 0.417207,
+              "hereditary hypophosphatemic rickets": 0.994821,
+              "homozygous familial hypercholesterolemia": 0.999135,
+              "inherited acute myeloid leukemia": 0.76943,
+              "juvenile Paget disease": 0.664259,
+              "paroxysmal nocturnal hemoglobinuria": 1.0
+            },
+            "precision_at_10": {
+              "ci95": [
+                0.105882,
+                0.253088
+              ],
+              "estimate": 0.176471,
+              "n_diseases": 17
+            },
+            "precision_at_10_minus_best_baseline": {
+              "ci95": [
+                0.040944,
+                0.162693
+              ],
+              "estimate": 0.096093,
+              "n_diseases": 17,
+              "p_boot_le_0": 0.0
+            },
+            "recall_at_20": {
+              "ci95": [
+                0.301605,
+                0.648868
+              ],
+              "estimate": 0.480235,
+              "n_diseases": 17
+            }
+          },
+          "B": {
+            "auc": {
+              "ci95": [
+                0.621566,
+                0.879072
+              ],
+              "estimate": 0.757687,
+              "n_diseases": 17
+            },
+            "auc_minus_popularity": {
+              "ci95": [
+                -0.000328,
+                0.281771
+              ],
+              "estimate": 0.153617,
+              "n_diseases": 17,
+              "p_boot_le_0": 0.0255
+            },
+            "auc_minus_proxy": {
+              "ci95": [
+                0.037819,
+                0.253171
+              ],
+              "estimate": 0.14666,
+              "n_diseases": 17,
+              "p_boot_le_0": 0.0035
+            },
+            "auc_minus_random": {
+              "ci95": [
+                0.121566,
+                0.379072
+              ],
+              "estimate": 0.257687,
+              "n_diseases": 17,
+              "p_boot_le_0": 0.0
+            },
+            "calibration_isotonic_supplementary": {
+              "brier": {
+                "ci95": [
+                  0.001363,
+                  0.00315
+                ],
+                "estimate": 0.002186
+              },
+              "brier_constant_prevalence": {
+                "ci95": [
+                  0.00152,
+                  0.003274
+                ],
+                "estimate": 0.002321
+              },
+              "calibration_slope": {
+                "ci95": [
+                  0.824397,
+                  1.144727
+                ],
+                "estimate": 0.978306
+              },
+              "n_pairs": 45985,
+              "n_positive_pairs": 107
+            },
+            "calibration_platt": {
+              "brier": {
+                "ci95": [
+                  0.001385,
+                  0.003162
+                ],
+                "estimate": 0.0022
+              },
+              "brier_constant_prevalence": {
+                "ci95": [
+                  0.00152,
+                  0.003274
+                ],
+                "estimate": 0.002321
+              },
+              "calibration_slope": {
+                "ci95": [
+                  0.77752,
+                  1.306789
+                ],
+                "estimate": 1.063279
+              },
+              "n_pairs": 45985,
+              "n_positive_pairs": 107
+            },
+            "features": [
+              "log1p_n_papers",
+              "log1p_n_benefit",
+              "log1p_n_human",
+              "log1p_n_harm",
+              "log_popularity",
+              "excess_over_popularity"
+            ],
+            "per_disease_auc": {
+              "Diamond-Blackfan anemia": 0.328058,
+              "Dravet syndrome": 0.995006,
+              "Duchenne muscular dystrophy": 0.995372,
+              "Laron syndrome": 0.226415,
+              "Lennox-Gastaut syndrome": 0.879598,
+              "Noonan syndrome": 0.668054,
+              "atypical juvenile parkinsonism": 0.653192,
+              "beta thalassemia": 0.999136,
+              "cystinuria": 0.99963,
+              "familial glucocorticoid deficiency": 0.321978,
+              "gastrointestinal stromal tumor": 0.999722,
+              "hemophilia": 0.374924,
+              "hereditary hypophosphatemic rickets": 0.994081,
+              "homozygous familial hypercholesterolemia": 0.999135,
+              "inherited acute myeloid leukemia": 0.780929,
+              "juvenile Paget disease": 0.665444,
+              "paroxysmal nocturnal hemoglobinuria": 1.0
+            },
+            "precision_at_10": {
+              "ci95": [
+                0.088235,
+                0.253088
+              ],
+              "estimate": 0.164706,
+              "n_diseases": 17
+            },
+            "precision_at_10_minus_best_baseline": {
+              "ci95": [
+                0.019579,
+                0.16055
+              ],
+              "estimate": 0.084329,
+              "n_diseases": 17,
+              "p_boot_le_0": 0.0035
+            },
+            "recall_at_20": {
+              "ci95": [
+                0.293166,
+                0.647494
+              ],
+              "estimate": 0.474887,
+              "n_diseases": 17
+            }
+          },
+          "C": {
+            "auc": {
+              "ci95": [
+                0.737679,
+                0.914665
+              ],
+              "estimate": 0.829515,
+              "n_diseases": 17
+            },
+            "auc_minus_popularity": {
+              "ci95": [
+                0.087299,
+                0.372646
+              ],
+              "estimate": 0.225446,
+              "n_diseases": 17,
+              "p_boot_le_0": 0.0005
+            },
+            "auc_minus_proxy": {
+              "ci95": [
+                0.11712,
+                0.317603
+              ],
+              "estimate": 0.218488,
+              "n_diseases": 17,
+              "p_boot_le_0": 0.0
+            },
+            "auc_minus_random": {
+              "ci95": [
+                0.237679,
+                0.414665
+              ],
+              "estimate": 0.329515,
+              "n_diseases": 17,
+              "p_boot_le_0": 0.0
+            },
+            "calibration_isotonic_supplementary": {
+              "brier": {
+                "ci95": [
+                  0.001506,
+                  0.003233
+                ],
+                "estimate": 0.002307
+              },
+              "brier_constant_prevalence": {
+                "ci95": [
+                  0.00152,
+                  0.003274
+                ],
+                "estimate": 0.002321
+              },
+              "calibration_slope": {
+                "ci95": [
+                  0.387494,
+                  1.05682
+                ],
+                "estimate": 0.731113
+              },
+              "n_pairs": 45985,
+              "n_positive_pairs": 107
+            },
+            "calibration_platt": {
+              "brier": {
+                "ci95": [
+                  0.001613,
+                  0.003328
+                ],
+                "estimate": 0.00242
+              },
+              "brier_constant_prevalence": {
+                "ci95": [
+                  0.00152,
+                  0.003274
+                ],
+                "estimate": 0.002321
+              },
+              "calibration_slope": {
+                "ci95": [
+                  0.581027,
+                  1.368719
+                ],
+                "estimate": 0.86184
+              },
+              "n_pairs": 45985,
+              "n_positive_pairs": 107
+            },
+            "features": [
+              "log1p_n_papers",
+              "log1p_n_benefit",
+              "log1p_n_human",
+              "log1p_n_harm",
+              "prior_direct_targets",
+              "prior_ppi_targets"
+            ],
+            "per_disease_auc": {
+              "Diamond-Blackfan anemia": 0.816312,
+              "Dravet syndrome": 0.49889,
+              "Duchenne muscular dystrophy": 0.994123,
+              "Laron syndrome": 0.981502,
+              "Lennox-Gastaut syndrome": 0.845549,
+              "Noonan syndrome": 0.678413,
+              "atypical juvenile parkinsonism": 0.51693,
+              "beta thalassemia": 0.991488,
+              "cystinuria": 0.998705,
+              "familial glucocorticoid deficiency": 0.551956,
+              "gastrointestinal stromal tumor": 0.999722,
+              "hemophilia": 0.935226,
+              "hereditary hypophosphatemic rickets": 0.994266,
+              "homozygous familial hypercholesterolemia": 0.998672,
+              "inherited acute myeloid leukemia": 0.710892,
+              "juvenile Paget disease": 0.589111,
+              "paroxysmal nocturnal hemoglobinuria": 1.0
+            },
+            "precision_at_10": {
+              "ci95": [
+                0.0794,
+                0.216176
+              ],
+              "estimate": 0.146569,
+              "n_diseases": 17
+            },
+            "precision_at_10_minus_best_baseline": {
+              "ci95": [
+                0.025526,
+                0.113675
+              ],
+              "estimate": 0.066191,
+              "n_diseases": 17,
+              "p_boot_le_0": 0.0
+            },
+            "recall_at_20": {
+              "ci95": [
+                0.275072,
+                0.633982
+              ],
+              "estimate": 0.448928,
+              "n_diseases": 17
+            }
+          },
+          "D": {
+            "auc": {
+              "ci95": [
+                0.683606,
+                0.877576
+              ],
+              "estimate": 0.782201,
+              "n_diseases": 17
+            },
+            "auc_minus_popularity": {
+              "ci95": [
+                0.054883,
+                0.290626
+              ],
+              "estimate": 0.178132,
+              "n_diseases": 17,
+              "p_boot_le_0": 0.0015
+            },
+            "auc_minus_proxy": {
+              "ci95": [
+                0.094204,
+                0.252091
+              ],
+              "estimate": 0.171174,
+              "n_diseases": 17,
+              "p_boot_le_0": 0.0
+            },
+            "auc_minus_random": {
+              "ci95": [
+                0.183606,
+                0.377576
+              ],
+              "estimate": 0.282201,
+              "n_diseases": 17,
+              "p_boot_le_0": 0.0
+            },
+            "calibration_isotonic_supplementary": {
+              "brier": {
+                "ci95": [
+                  0.001425,
+                  0.003202
+                ],
+                "estimate": 0.002238
+              },
+              "brier_constant_prevalence": {
+                "ci95": [
+                  0.00152,
+                  0.003274
+                ],
+                "estimate": 0.002321
+              },
+              "calibration_slope": {
+                "ci95": [
+                  0.803582,
+                  1.176616
+                ],
+                "estimate": 0.979337
+              },
+              "n_pairs": 45985,
+              "n_positive_pairs": 107
+            },
+            "calibration_platt": {
+              "brier": {
+                "ci95": [
+                  0.001507,
+                  0.003269
+                ],
+                "estimate": 0.002311
+              },
+              "brier_constant_prevalence": {
+                "ci95": [
+                  0.00152,
+                  0.003274
+                ],
+                "estimate": 0.002321
+              },
+              "calibration_slope": {
+                "ci95": [
+                  0.811004,
+                  1.256088
+                ],
+                "estimate": 1.034638
+              },
+              "n_pairs": 45985,
+              "n_positive_pairs": 107
+            },
+            "features": [
+              "log1p_n_papers",
+              "log1p_n_benefit",
+              "log1p_n_human",
+              "log1p_n_harm"
+            ],
+            "per_disease_auc": {
+              "Diamond-Blackfan anemia": 0.548323,
+              "Dravet syndrome": 0.994173,
+              "Duchenne muscular dystrophy": 0.993613,
+              "Laron syndrome": 0.493341,
+              "Lennox-Gastaut syndrome": 0.767817,
+              "Noonan syndrome": 0.492231,
+              "atypical juvenile parkinsonism": 0.520633,
+              "beta thalassemia": 0.996052,
+              "cystinuria": 0.99852,
+              "familial glucocorticoid deficiency": 0.556011,
+              "gastrointestinal stromal tumor": 0.999537,
+              "hemophilia": 0.624587,
+              "hereditary hypophosphatemic rickets": 0.992786,
+              "homozygous familial hypercholesterolemia": 0.998858,
+              "inherited acute myeloid leukemia": 0.730273,
+              "juvenile Paget disease": 0.590667,
+              "paroxysmal nocturnal hemoglobinuria": 1.0
+            },
+            "precision_at_10": {
+              "ci95": [
+                0.067647,
+                0.211765
+              ],
+              "estimate": 0.135294,
+              "n_diseases": 17
+            },
+            "precision_at_10_minus_best_baseline": {
+              "ci95": [
+                0.00198,
+                0.118526
+              ],
+              "estimate": 0.054917,
+              "n_diseases": 17,
+              "p_boot_le_0": 0.0205
+            },
+            "recall_at_20": {
+              "ci95": [
+                0.271168,
+                0.628111
+              ],
+              "estimate": 0.448561,
+              "n_diseases": 17
+            }
+          }
+        },
+        "baselines": {
+          "popularity": {
+            "auc": {
+              "ci95": [
+                0.503123,
+                0.695428
+              ],
+              "estimate": 0.604069,
+              "n_diseases": 17
+            },
+            "precision_at_10": {
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "estimate": 0.0,
+              "n_diseases": 17
+            },
+            "recall_at_20": {
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "estimate": 0.0,
+              "n_diseases": 17
+            }
+          },
+          "proxy": {
+            "auc": {
+              "ci95": [
+                0.532489,
+                0.698947
+              ],
+              "estimate": 0.611027,
+              "n_diseases": 17
+            },
+            "precision_at_10": {
+              "ci95": [
+                0.021773,
+                0.144659
+              ],
+              "estimate": 0.080377,
+              "n_diseases": 17
+            },
+            "recall_at_20": {
+              "ci95": [
+                0.072122,
+                0.403309
+              ],
+              "estimate": 0.228495,
+              "n_diseases": 17
+            }
+          },
+          "random": {
+            "auc": {
+              "ci95": [
+                0.5,
+                0.5
+              ],
+              "estimate": 0.5,
+              "n_diseases": 17
+            },
+            "precision_at_10": {
+              "ci95": [
+                0.001522,
+                0.003284
+              ],
+              "estimate": 0.002327,
+              "n_diseases": 17
+            },
+            "recall_at_20": {
+              "ci95": [
+                0.007394,
+                0.007394
+              ],
+              "estimate": 0.007394,
+              "n_diseases": 17
+            }
+          }
+        },
+        "best_baseline_by_precision_at_10": "proxy",
+        "decision_arm_A": {
+          "criterion_1_auc_minus_popularity_ge_0.05_and_ci_lower_gt_0": {
+            "ci95": [
+              0.049338,
+              0.343249
+            ],
+            "estimate": 0.206438,
+            "met": true
+          },
+          "criterion_2_calibration_slope_in_0.8_1.2": {
+            "estimate": 0.900051,
+            "met": true
+          },
+          "criterion_3_precision_at_10_above_best_baseline": {
+            "difference_estimate": 0.096093,
+            "met": true
+          },
+          "verdict": "supported"
+        },
+        "diseases": [
+          "Diamond-Blackfan anemia",
+          "Dravet syndrome",
+          "Duchenne muscular dystrophy",
+          "Laron syndrome",
+          "Lennox-Gastaut syndrome",
+          "Noonan syndrome",
+          "atypical juvenile parkinsonism",
+          "beta thalassemia",
+          "cystinuria",
+          "familial glucocorticoid deficiency",
+          "gastrointestinal stromal tumor",
+          "hemophilia",
+          "hereditary hypophosphatemic rickets",
+          "homozygous familial hypercholesterolemia",
+          "inherited acute myeloid leukemia",
+          "juvenile Paget disease",
+          "paroxysmal nocturnal hemoglobinuria"
+        ],
+        "folds": [
+          [
+            "Duchenne muscular dystrophy",
+            "Lennox-Gastaut syndrome",
+            "hemophilia",
+            "paroxysmal nocturnal hemoglobinuria"
+          ],
+          [
+            "atypical juvenile parkinsonism",
+            "cystinuria",
+            "gastrointestinal stromal tumor",
+            "hereditary hypophosphatemic rickets"
+          ],
+          [
+            "Diamond-Blackfan anemia",
+            "Noonan syndrome",
+            "juvenile Paget disease"
+          ],
+          [
+            "Dravet syndrome",
+            "Laron syndrome",
+            "inherited acute myeloid leukemia"
+          ],
+          [
+            "beta thalassemia",
+            "familial glucocorticoid deficiency",
+            "homozygous familial hypercholesterolemia"
+          ]
+        ],
+        "n_folds": 5
+      },
+      "temporal_gold2": {
+        "arms": {
+          "B": {
+            "auc": {
+              "ci95": [
+                0.543739,
+                0.736717
+              ],
+              "estimate": 0.640255,
+              "n_diseases": 13
+            },
+            "auc_minus_popularity": {
+              "ci95": [
+                -0.102606,
+                0.22836
+              ],
+              "estimate": 0.066256,
+              "n_diseases": 13,
+              "p_boot_le_0": 0.217
+            },
+            "auc_minus_proxy": {
+              "ci95": [
+                -0.024397,
+                0.180382
+              ],
+              "estimate": 0.074361,
+              "n_diseases": 13,
+              "p_boot_le_0": 0.0785
+            },
+            "auc_minus_random": {
+              "ci95": [
+                0.043739,
+                0.236717
+              ],
+              "estimate": 0.140255,
+              "n_diseases": 13,
+              "p_boot_le_0": 0.002
+            },
+            "calibration_isotonic_supplementary": {
+              "brier": {
+                "ci95": [
+                  0.002422,
+                  0.005655
+                ],
+                "estimate": 0.004015
+              },
+              "brier_constant_prevalence": {
+                "ci95": [
+                  0.002472,
+                  0.005981
+                ],
+                "estimate": 0.004196
+              },
+              "calibration_slope": {
+                "ci95": [
+                  0.887059,
+                  1.086409
+                ],
+                "estimate": 0.981803
+              },
+              "n_pairs": 35165,
+              "n_positive_pairs": 148
+            },
+            "calibration_platt": {
+              "brier": {
+                "ci95": [
+                  0.002415,
+                  0.005867
+                ],
+                "estimate": 0.004117
+              },
+              "brier_constant_prevalence": {
+                "ci95": [
+                  0.002472,
+                  0.005981
+                ],
+                "estimate": 0.004196
+              },
+              "calibration_slope": {
+                "ci95": [
+                  0.800294,
+                  1.575201
+                ],
+                "estimate": 1.166187
+              },
+              "n_pairs": 35165,
+              "n_positive_pairs": 148
+            },
+            "features": [
+              "log1p_n_papers",
+              "log1p_n_benefit",
+              "log1p_n_human",
+              "log1p_n_harm",
+              "log_popularity",
+              "excess_over_popularity"
+            ],
+            "per_disease_auc": {
+              "Diamond-Blackfan anemia": 0.517815,
+              "Dravet syndrome": 0.747318,
+              "Duchenne muscular dystrophy": 0.754063,
+              "Lennox-Gastaut syndrome": 0.995932,
+              "Noonan syndrome": 0.569042,
+              "beta thalassemia": 0.340769,
+              "cystinuria": 0.669626,
+              "gastrointestinal stromal tumor": 0.49303,
+              "hemophilia": 0.723458,
+              "hereditary hypophosphatemic rickets": 0.793084,
+              "homozygous familial hypercholesterolemia": 0.818222,
+              "inherited acute myeloid leukemia": 0.361935,
+              "paroxysmal nocturnal hemoglobinuria": 0.539021
+            },
+            "precision_at_10": {
+              "ci95": [
+                0.107692,
+                0.307692
+              ],
+              "estimate": 0.207692,
+              "n_diseases": 13
+            },
+            "precision_at_10_minus_best_baseline": {
+              "ci95": [
+                0.028958,
+                0.198269
+              ],
+              "estimate": 0.105006,
+              "n_diseases": 13,
+              "p_boot_le_0": 0.002
+            },
+            "recall_at_20": {
+              "ci95": [
+                0.191296,
+                0.497859
+              ],
+              "estimate": 0.330074,
+              "n_diseases": 13
+            }
+          },
+          "D": {
+            "auc": {
+              "ci95": [
+                0.603003,
+                0.75421
+              ],
+              "estimate": 0.671223,
+              "n_diseases": 13
+            },
+            "auc_minus_popularity": {
+              "ci95": [
+                -0.010614,
+                0.211625
+              ],
+              "estimate": 0.097225,
+              "n_diseases": 13,
+              "p_boot_le_0": 0.0395
+            },
+            "auc_minus_proxy": {
+              "ci95": [
+                0.03741,
+                0.191866
+              ],
+              "estimate": 0.105329,
+              "n_diseases": 13,
+              "p_boot_le_0": 0.0015
+            },
+            "auc_minus_random": {
+              "ci95": [
+                0.103003,
+                0.25421
+              ],
+              "estimate": 0.171223,
+              "n_diseases": 13,
+              "p_boot_le_0": 0.0
+            },
+            "calibration_isotonic_supplementary": {
+              "brier": {
+                "ci95": [
+                  0.002454,
+                  0.00579
+                ],
+                "estimate": 0.004099
+              },
+              "brier_constant_prevalence": {
+                "ci95": [
+                  0.002472,
+                  0.005981
+                ],
+                "estimate": 0.004196
+              },
+              "calibration_slope": {
+                "ci95": [
+                  0.914628,
+                  1.095096
+                ],
+                "estimate": 1.004448
+              },
+              "n_pairs": 35165,
+              "n_positive_pairs": 148
+            },
+            "calibration_platt": {
+              "brier": {
+                "ci95": [
+                  0.002446,
+                  0.005905
+                ],
+                "estimate": 0.004147
+              },
+              "brier_constant_prevalence": {
+                "ci95": [
+                  0.002472,
+                  0.005981
+                ],
+                "estimate": 0.004196
+              },
+              "calibration_slope": {
+                "ci95": [
+                  0.729882,
+                  1.417335
+                ],
+                "estimate": 1.038821
+              },
+              "n_pairs": 35165,
+              "n_positive_pairs": 148
+            },
+            "features": [
+              "log1p_n_papers",
+              "log1p_n_benefit",
+              "log1p_n_human",
+              "log1p_n_harm"
+            ],
+            "per_disease_auc": {
+              "Diamond-Blackfan anemia": 0.592926,
+              "Dravet syndrome": 0.745191,
+              "Duchenne muscular dystrophy": 0.69002,
+              "Lennox-Gastaut syndrome": 0.994453,
+              "Noonan syndrome": 0.586573,
+              "beta thalassemia": 0.614955,
+              "cystinuria": 0.744451,
+              "gastrointestinal stromal tumor": 0.616649,
+              "hemophilia": 0.633516,
+              "hereditary hypophosphatemic rickets": 0.497596,
+              "homozygous familial hypercholesterolemia": 0.89637,
+              "inherited acute myeloid leukemia": 0.614977,
+              "paroxysmal nocturnal hemoglobinuria": 0.498228
+            },
+            "precision_at_10": {
+              "ci95": [
+                0.065385,
+                0.223077
+              ],
+              "estimate": 0.138462,
+              "n_diseases": 13
+            },
+            "precision_at_10_minus_best_baseline": {
+              "ci95": [
+                -0.021923,
+                0.098111
+              ],
+              "estimate": 0.035775,
+              "n_diseases": 13,
+              "p_boot_le_0": 0.1215
+            },
+            "recall_at_20": {
+              "ci95": [
+                0.159207,
+                0.477398
+              ],
+              "estimate": 0.301268,
+              "n_diseases": 13
+            }
+          }
+        },
+        "baselines": {
+          "popularity": {
+            "auc": {
+              "ci95": [
+                0.477589,
+                0.666374
+              ],
+              "estimate": 0.573999,
+              "n_diseases": 13
+            },
+            "precision_at_10": {
+              "ci95": [
+                0.0,
+                0.038462
+              ],
+              "estimate": 0.015385,
+              "n_diseases": 13
+            },
+            "recall_at_20": {
+              "ci95": [
+                0.0,
+                0.015385
+              ],
+              "estimate": 0.006154,
+              "n_diseases": 13
+            }
+          },
+          "proxy": {
+            "auc": {
+              "ci95": [
+                0.515023,
+                0.63262
+              ],
+              "estimate": 0.565894,
+              "n_diseases": 13
+            },
+            "precision_at_10": {
+              "ci95": [
+                0.032647,
+                0.178745
+              ],
+              "estimate": 0.102687,
+              "n_diseases": 13
+            },
+            "recall_at_20": {
+              "ci95": [
+                0.036515,
+                0.26963
+              ],
+              "estimate": 0.136885,
+              "n_diseases": 13
+            }
+          },
+          "random": {
+            "auc": {
+              "ci95": [
+                0.5,
+                0.5
+              ],
+              "estimate": 0.5,
+              "n_diseases": 13
+            },
+            "precision_at_10": {
+              "ci95": [
+                0.002474,
+                0.006001
+              ],
+              "estimate": 0.004209,
+              "n_diseases": 13
+            },
+            "recall_at_20": {
+              "ci95": [
+                0.007394,
+                0.007394
+              ],
+              "estimate": 0.007394,
+              "n_diseases": 13
+            }
+          }
+        },
+        "best_baseline_by_precision_at_10": "proxy",
+        "diseases": [
+          "Diamond-Blackfan anemia",
+          "Dravet syndrome",
+          "Duchenne muscular dystrophy",
+          "Lennox-Gastaut syndrome",
+          "Noonan syndrome",
+          "beta thalassemia",
+          "cystinuria",
+          "gastrointestinal stromal tumor",
+          "hemophilia",
+          "hereditary hypophosphatemic rickets",
+          "homozygous familial hypercholesterolemia",
+          "inherited acute myeloid leukemia",
+          "paroxysmal nocturnal hemoglobinuria"
+        ],
+        "diseases_excluded_empty_gold2": [
+          "Laron syndrome",
+          "atypical juvenile parkinsonism",
+          "familial glucocorticoid deficiency",
+          "juvenile Paget disease"
+        ],
+        "folds": [
+          [
+            "Noonan syndrome",
+            "cystinuria",
+            "gastrointestinal stromal tumor"
+          ],
+          [
+            "Duchenne muscular dystrophy",
+            "hereditary hypophosphatemic rickets",
+            "paroxysmal nocturnal hemoglobinuria"
+          ],
+          [
+            "Lennox-Gastaut syndrome",
+            "beta thalassemia",
+            "hemophilia"
+          ],
+          [
+            "Diamond-Blackfan anemia",
+            "inherited acute myeloid leukemia"
+          ],
+          [
+            "Dravet syndrome",
+            "homozygous familial hypercholesterolemia"
+          ]
+        ],
+        "n_folds": 5,
+        "note": "Literature up to 2018 only; knowledge-graph prior excluded, so only arms B and D are valid; arms A and C are not computed. Diseases with no gold 2 drug are excluded."
+      },
+      "temporal_gold2_excluding_gold1_drugs": {
+        "arms": {
+          "B": {
+            "auc": {
+              "ci95": [
+                0.391025,
+                0.538653
+              ],
+              "estimate": 0.469299,
+              "n_diseases": 11
+            },
+            "auc_minus_popularity": {
+              "ci95": [
+                -0.267736,
+                0.059288
+              ],
+              "estimate": -0.093855,
+              "n_diseases": 11,
+              "p_boot_le_0": 0.874
+            },
+            "auc_minus_proxy": {
+              "ci95": [
+                -0.156309,
+                -0.00703
+              ],
+              "estimate": -0.083894,
+              "n_diseases": 11,
+              "p_boot_le_0": 0.9855
+            },
+            "auc_minus_random": {
+              "ci95": [
+                -0.108975,
+                0.038653
+              ],
+              "estimate": -0.030701,
+              "n_diseases": 11,
+              "p_boot_le_0": 0.7805
+            },
+            "calibration_isotonic_supplementary": {
+              "brier": {
+                "ci95": [
+                  0.003172,
+                  0.006436
+                ],
+                "estimate": 0.004816
+              },
+              "brier_constant_prevalence": {
+                "ci95": [
+                  0.003082,
+                  0.006626
+                ],
+                "estimate": 0.004888
+              },
+              "calibration_slope": {
+                "ci95": [
+                  0.405854,
+                  1.026706
+                ],
+                "estimate": 0.797331
+              },
+              "n_pairs": 29755,
+              "n_positive_pairs": 146
+            },
+            "calibration_platt": {
+              "brier": {
+                "ci95": [
+                  0.003059,
+                  0.006511
+                ],
+                "estimate": 0.004828
+              },
+              "brier_constant_prevalence": {
+                "ci95": [
+                  0.003082,
+                  0.006626
+                ],
+                "estimate": 0.004888
+              },
+              "calibration_slope": {
+                "ci95": [
+                  0.149167,
+                  1.130505
+                ],
+                "estimate": 0.645691
+              },
+              "n_pairs": 29755,
+              "n_positive_pairs": 146
+            },
+            "features": [
+              "log1p_n_papers",
+              "log1p_n_benefit",
+              "log1p_n_human",
+              "log1p_n_harm",
+              "log_popularity",
+              "excess_over_popularity"
+            ],
+            "per_disease_auc": {
+              "Diamond-Blackfan anemia": 0.515831,
+              "Dravet syndrome": 0.446706,
+              "Duchenne muscular dystrophy": 0.578456,
+              "Noonan syndrome": 0.571019,
+              "beta thalassemia": 0.282966,
+              "cystinuria": 0.670122,
+              "gastrointestinal stromal tumor": 0.363806,
+              "hemophilia": 0.504434,
+              "homozygous familial hypercholesterolemia": 0.534668,
+              "inherited acute myeloid leukemia": 0.225539,
+              "paroxysmal nocturnal hemoglobinuria": 0.468745
+            },
+            "precision_at_10": {
+              "ci95": [
+                0.054545,
+                0.218182
+              ],
+              "estimate": 0.136364,
+              "n_diseases": 11
+            },
+            "precision_at_10_minus_best_baseline": {
+              "ci95": [
+                -0.009707,
+                0.161455
+              ],
+              "estimate": 0.069663,
+              "n_diseases": 11,
+              "p_boot_le_0": 0.041
+            },
+            "recall_at_20": {
+              "ci95": [
+                0.051848,
+                0.230177
+              ],
+              "estimate": 0.130802,
+              "n_diseases": 11
+            }
+          },
+          "D": {
+            "auc": {
+              "ci95": [
+                0.543021,
+                0.648038
+              ],
+              "estimate": 0.59514,
+              "n_diseases": 11
+            },
+            "auc_minus_popularity": {
+              "ci95": [
+                -0.102833,
+                0.175269
+              ],
+              "estimate": 0.031986,
+              "n_diseases": 11,
+              "p_boot_le_0": 0.351
+            },
+            "auc_minus_proxy": {
+              "ci95": [
+                -0.00685,
+                0.100212
+              ],
+              "estimate": 0.041947,
+              "n_diseases": 11,
+              "p_boot_le_0": 0.0455
+            },
+            "auc_minus_random": {
+              "ci95": [
+                0.043021,
+                0.148038
+              ],
+              "estimate": 0.09514,
+              "n_diseases": 11,
+              "p_boot_le_0": 0.0
+            },
+            "calibration_isotonic_supplementary": {
+              "brier": {
+                "ci95": [
+                  0.003118,
+                  0.006495
+                ],
+                "estimate": 0.004817
+              },
+              "brier_constant_prevalence": {
+                "ci95": [
+                  0.003082,
+                  0.006626
+                ],
+                "estimate": 0.004888
+              },
+              "calibration_slope": {
+                "ci95": [
+                  0.737533,
+                  1.068453
+                ],
+                "estimate": 0.899786
+              },
+              "n_pairs": 29755,
+              "n_positive_pairs": 146
+            },
+            "calibration_platt": {
+              "brier": {
+                "ci95": [
+                  0.003099,
+                  0.006597
+                ],
+                "estimate": 0.004874
+              },
+              "brier_constant_prevalence": {
+                "ci95": [
+                  0.003082,
+                  0.006626
+                ],
+                "estimate": 0.004888
+              },
+              "calibration_slope": {
+                "ci95": [
+                  0.17579,
+                  1.347797
+                ],
+                "estimate": 0.808216
+              },
+              "n_pairs": 29755,
+              "n_positive_pairs": 146
+            },
+            "features": [
+              "log1p_n_papers",
+              "log1p_n_benefit",
+              "log1p_n_human",
+              "log1p_n_harm"
+            ],
+            "per_disease_auc": {
+              "Diamond-Blackfan anemia": 0.593125,
+              "Dravet syndrome": 0.493153,
+              "Duchenne muscular dystrophy": 0.662038,
+              "Noonan syndrome": 0.587954,
+              "beta thalassemia": 0.581934,
+              "cystinuria": 0.744261,
+              "gastrointestinal stromal tumor": 0.497966,
+              "hemophilia": 0.646903,
+              "homozygous familial hypercholesterolemia": 0.743419,
+              "inherited acute myeloid leukemia": 0.536134,
+              "paroxysmal nocturnal hemoglobinuria": 0.459651
+            },
+            "precision_at_10": {
+              "ci95": [
+                0.018182,
+                0.151175
+              ],
+              "estimate": 0.074805,
+              "n_diseases": 11
+            },
+            "precision_at_10_minus_best_baseline": {
+              "ci95": [
+                -0.043502,
+                0.061944
+              ],
+              "estimate": 0.008104,
+              "n_diseases": 11,
+              "p_boot_le_0": 0.377
+            },
+            "recall_at_20": {
+              "ci95": [
+                0.043218,
+                0.167518
+              ],
+              "estimate": 0.100073,
+              "n_diseases": 11
+            }
+          }
+        },
+        "baselines": {
+          "popularity": {
+            "auc": {
+              "ci95": [
+                0.450496,
+                0.674211
+              ],
+              "estimate": 0.563154,
+              "n_diseases": 11
+            },
+            "precision_at_10": {
+              "ci95": [
+                0.0,
+                0.045455
+              ],
+              "estimate": 0.018182,
+              "n_diseases": 11
+            },
+            "recall_at_20": {
+              "ci95": [
+                0.0,
+                0.020516
+              ],
+              "estimate": 0.008282,
+              "n_diseases": 11
+            }
+          },
+          "proxy": {
+            "auc": {
+              "ci95": [
+                0.512197,
+                0.60098
+              ],
+              "estimate": 0.553193,
+              "n_diseases": 11
+            },
+            "precision_at_10": {
+              "ci95": [
+                0.027354,
+                0.111914
+              ],
+              "estimate": 0.066701,
+              "n_diseases": 11
+            },
+            "recall_at_20": {
+              "ci95": [
+                0.031593,
+                0.208882
+              ],
+              "estimate": 0.113341,
+              "n_diseases": 11
+            }
+          },
+          "random": {
+            "auc": {
+              "ci95": [
+                0.5,
+                0.5
+              ],
+              "estimate": 0.5,
+              "n_diseases": 11
+            },
+            "precision_at_10": {
+              "ci95": [
+                0.002525,
+                0.005628
+              ],
+              "estimate": 0.004109,
+              "n_diseases": 11
+            },
+            "recall_at_20": {
+              "ci95": [
+                0.007403,
+                0.007416
+              ],
+              "estimate": 0.007409,
+              "n_diseases": 11
+            }
+          }
+        },
+        "best_baseline_by_precision_at_10": "proxy",
+        "diseases": [
+          "Diamond-Blackfan anemia",
+          "Dravet syndrome",
+          "Duchenne muscular dystrophy",
+          "Noonan syndrome",
+          "beta thalassemia",
+          "cystinuria",
+          "gastrointestinal stromal tumor",
+          "hemophilia",
+          "homozygous familial hypercholesterolemia",
+          "inherited acute myeloid leukemia",
+          "paroxysmal nocturnal hemoglobinuria"
+        ],
+        "folds": [
+          [
+            "Noonan syndrome",
+            "beta thalassemia",
+            "gastrointestinal stromal tumor"
+          ],
+          [
+            "Diamond-Blackfan anemia",
+            "inherited acute myeloid leukemia"
+          ],
+          [
+            "Duchenne muscular dystrophy",
+            "homozygous familial hypercholesterolemia"
+          ],
+          [
+            "Dravet syndrome",
+            "hemophilia"
+          ],
+          [
+            "cystinuria",
+            "paroxysmal nocturnal hemoglobinuria"
+          ]
+        ],
+        "n_folds": 5
+      }
+    }
+  },
+  "settings": {
+    "arms": {
+      "A": {
+        "knowledge_graph_prior": true,
+        "popularity_correction": true
+      },
+      "B": {
+        "knowledge_graph_prior": false,
+        "popularity_correction": true
+      },
+      "C": {
+        "knowledge_graph_prior": true,
+        "popularity_correction": false
+      },
+      "D": {
+        "knowledge_graph_prior": false,
+        "popularity_correction": false
+      }
+    },
+    "feature_names": [
+      "log1p_n_papers",
+      "log1p_n_benefit",
+      "log1p_n_human",
+      "log1p_n_harm",
+      "log_popularity",
+      "excess_over_popularity",
+      "prior_direct_targets",
+      "prior_ppi_targets"
+    ],
+    "logistic_C": 1.0,
+    "max_papers": 300,
+    "n_benchmark_diseases": 17,
+    "n_bootstrap": 2000,
+    "n_universe_drugs": 2705,
+    "seed": 20261015,
+    "smoothing": 0.5,
+    "thresholds": {
+      "auc_diff_min": 0.05,
+      "calibration_slope": [
+        0.8,
+        1.2
+      ]
+    },
+    "year_primary_max": 2024,
+    "year_temporal_max": 2018
+  },
+  "what_features_can_and_cannot_capture": {
+    "can": [
+      "how many independent abstracts mention the drug together with a disease gene",
+      "whether such a paper has a sentence the lexicon rules read as benefit or harm",
+      "whether a drug sentence has a human patient or human cell cue",
+      "co-mention above what the drug's overall popularity predicts",
+      "network proximity of drug targets to disease genes (non-temporal only)"
+    ],
+    "cannot": [
+      "the AI-assisted direction labels of the report (these are not used)",
+      "negation or comparator roles beyond the rule lexicon; a sentence 'benefit' may concern another entity",
+      "evidence level, dose, species fidelity, rules R1/R3/R4",
+      "brand names, salts or synonyms outside the universe name",
+      "drugs with names shorter than 4 characters (not matched in text)",
+      "full texts (abstracts only, max 300 by relevance)"
+    ]
+  }
+}

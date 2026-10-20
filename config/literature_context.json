@@ -1,0 +1,42 @@
+{
+  "description": "Curated literature context attached to candidate drugs by mechanism class. Every PMID was checked to exist in PubMed (NCBI E-utilities, 2026-10-06) and the abstracts of the ones carrying a claim were read. A note says only what the abstract supports; where the evidence is from cancer cells, yeast or mice it says so. None of this is evidence that a drug works in this patient, and none of it is a recommendation.",
+  "classes": [
+    {
+      "id": "microtubule_targeting",
+      "match_any": ["tubulin"],
+      "claim_level": "cancer cells and one clinical trial (taxanes); nothing verified in MVA or for non-taxane agents",
+      "direction_hint": "unknown_possibly_unfavourable_in_weak_checkpoint_context",
+      "note": "For taxanes, reduced BubR1 and a weakened spindle checkpoint were found in a paclitaxel-resistant ovarian cancer line, and high chromosomal instability was associated with taxane resistance in an ovarian cancer trial. Another study found that paclitaxel kills breast tumour cells through chromosome missegregation on multipolar spindles rather than through mitotic arrest, so the dependence on the checkpoint is disputed. The direction of effect in a BUB1B-deficient child is therefore unknown; the evidence found concerns taxanes only.",
+      "pmids": ["17234259", "19458043", "24670687"]
+    },
+    {
+      "id": "proteasome_inhibition",
+      "match_any": ["proteasome"],
+      "claim_level": "yeast and cancer cell lines; nothing verified for proteasome inhibitors in BUB1B-deficient cells",
+      "direction_hint": "tumour_context_vulnerability_hypothesis",
+      "note": "Aneuploidy causes proteotoxic stress in yeast, and compounds that interfere with protein folding or autophagy (17-AAG, chloroquine) and energy stress (AICAR) were selectively toxic to aneuploid cells. This supports a proteotoxic-stress rationale for tumour-directed use; it does not show benefit for the constitutional defect, and no paper on proteasome inhibitors in BUB1B-deficient cells was verified.",
+      "pmids": ["23222101", "21315436"]
+    },
+    {
+      "id": "mtor_pathway",
+      "match_any": ["mtor", "serine/threonine-protein kinase mtor", "fkbp", "fk506"],
+      "claim_level": "mouse genetics (correlation); no drug tested in BubR1 mice was found",
+      "direction_hint": "extrapolation_from_mouse_for_growth_and_muscle_findings",
+      "note": "In mice with BubR1 mutations, a predisposition to sarcopenia correlated with mTORC1 hyperactivity. The proband has muscle atrophy and growth restriction among the findings, which makes mTOR-pathway drugs a hypothesis by extension; no BubR1 mouse study treated with an mTOR inhibitor was found.",
+      "pmids": ["31738183"]
+    },
+    {
+      "id": "senescence_axis",
+      "match_any": ["senescence"],
+      "claim_level": "mouse genetics (genetic clearance, not a drug)",
+      "direction_hint": "extrapolation_from_mouse",
+      "note": "In BubR1-insufficient progeroid mice, genetic clearance of p16Ink4a-positive senescent cells delayed ageing-related disorders. This was not achieved with a drug.",
+      "pmids": ["22048312", "18516091"]
+    }
+  ],
+  "tumour_context_reports": {
+    "applies_to_flag": "ANTINEOPLASTIC_AGENT",
+    "note": "Published case reports describe rhabdomyosarcoma and Wilms tumours in children with premature chromatid separation / MVA, including reduced-intensity chemotherapy and haematopoietic stem cell transplantation. These are individual case reports; the statement is that such management has been reported, not that it is recommended.",
+    "pmids": ["31184400", "31081598", "31053147"]
+  }
+}

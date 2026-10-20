@@ -1,0 +1,59 @@
+{
+ "chembl_version": "ChEMBL_37",
+ "iterations": 1000,
+ "mechanism": "fanconi_anemia_demo",
+ "n_approved_drugs": 2705,
+ "reactome_version": "97",
+ "sensitivity": {
+  "400": {
+   "n_pass": 9,
+   "n_scored": 1128,
+   "top10": [
+    "IXAZOMIB CITRATE",
+    "CARFILZOMIB",
+    "BORTEZOMIB",
+    "CYTARABINE",
+    "CLOFARABINE",
+    "FLUDARABINE PHOSPHATE",
+    "FUTIBATINIB",
+    "ERDAFITINIB",
+    "INFIGRATINIB",
+    "VADADUSTAT"
+   ]
+  },
+  "700": {
+   "n_pass": 6,
+   "n_scored": 1040,
+   "top10": [
+    "BORTEZOMIB",
+    "CARFILZOMIB",
+    "IXAZOMIB CITRATE",
+    "FLUDARABINE PHOSPHATE",
+    "CLOFARABINE",
+    "CYTARABINE",
+    "ATALUREN",
+    "VADADUSTAT",
+    "ETOPOSIDE",
+    "DEXRAZOXANE"
+   ]
+  },
+  "900": {
+   "n_pass": 4,
+   "n_scored": 905,
+   "top10": [
+    "FLUDARABINE PHOSPHATE",
+    "CLOFARABINE",
+    "CYTARABINE",
+    "ATALUREN",
+    "IXAZOMIB CITRATE",
+    "CARFILZOMIB",
+    "BORTEZOMIB",
+    "AVACOPAN",
+    "DENOSUMAB",
+    "BETIBEGLOGENE AUTOTEMCEL"
+   ]
+  }
+ },
+ "string_version": "v12.0",
+ "universe_sha256": "c4df43ba87d3146b117faec7a9050fde3f87ad757004f3b852bcbe01ebbea29c"
+}

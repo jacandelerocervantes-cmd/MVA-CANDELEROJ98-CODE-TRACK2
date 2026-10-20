@@ -1,0 +1,482 @@
+{
+ "agreement": {
+  "schemes_at_700": {
+   "W1_epcr vs W2_equal": {
+    "jaccard_top20": 1.0,
+    "spearman": 0.9714204645835832
+   },
+   "W1_epcr vs W3_pathogenic_gene_only": {
+    "jaccard_top20": 1.0,
+    "spearman": 0.7747205260812161
+   },
+   "W2_equal vs W3_pathogenic_gene_only": {
+    "jaccard_top20": 1.0,
+    "spearman": 0.6322457983657864
+   }
+  },
+  "thresholds_under_W1": {
+   "700 vs 400": {
+    "jaccard_top20": 0.8181818181818182,
+    "spearman": 0.3738964536416944
+   },
+   "700 vs 900": {
+    "jaccard_top20": 1.0,
+    "spearman": 0.6540618881747088
+   }
+  }
+ },
+ "drugs": [
+  {
+   "class": "robust",
+   "combined_700_W1": 11.7946,
+   "drug_id": "CHEMBL325041",
+   "in_top20_by_config": {
+    "400|W1_epcr": true,
+    "400|W2_equal": true,
+    "400|W3_pathogenic_gene_only": true,
+    "700|W1_epcr": true,
+    "700|W2_equal": true,
+    "700|W3_pathogenic_gene_only": true,
+    "900|W1_epcr": true,
+    "900|W2_equal": true,
+    "900|W3_pathogenic_gene_only": true
+   },
+   "name": "BORTEZOMIB",
+   "of": 9,
+   "robustness_count": 9
+  },
+  {
+   "class": "robust",
+   "combined_700_W1": 10.3898,
+   "drug_id": "CHEMBL1742994",
+   "in_top20_by_config": {
+    "400|W1_epcr": true,
+    "400|W2_equal": true,
+    "400|W3_pathogenic_gene_only": true,
+    "700|W1_epcr": true,
+    "700|W2_equal": true,
+    "700|W3_pathogenic_gene_only": true,
+    "900|W1_epcr": true,
+    "900|W2_equal": true,
+    "900|W3_pathogenic_gene_only": true
+   },
+   "name": "BRENTUXIMAB VEDOTIN",
+   "of": 9,
+   "robustness_count": 9
+  },
+  {
+   "class": "robust",
+   "combined_700_W1": 10.8466,
+   "drug_id": "CHEMBL1201748",
+   "in_top20_by_config": {
+    "400|W1_epcr": true,
+    "400|W2_equal": true,
+    "400|W3_pathogenic_gene_only": true,
+    "700|W1_epcr": true,
+    "700|W2_equal": true,
+    "700|W3_pathogenic_gene_only": true,
+    "900|W1_epcr": true,
+    "900|W2_equal": true,
+    "900|W3_pathogenic_gene_only": true
+   },
+   "name": "CABAZITAXEL",
+   "of": 9,
+   "robustness_count": 9
+  },
+  {
+   "class": "robust",
+   "combined_700_W1": 11.8448,
+   "drug_id": "CHEMBL451887",
+   "in_top20_by_config": {
+    "400|W1_epcr": true,
+    "400|W2_equal": true,
+    "400|W3_pathogenic_gene_only": true,
+    "700|W1_epcr": true,
+    "700|W2_equal": true,
+    "700|W3_pathogenic_gene_only": true,
+    "900|W1_epcr": true,
+    "900|W2_equal": true,
+    "900|W3_pathogenic_gene_only": true
+   },
+   "name": "CARFILZOMIB",
+   "of": 9,
+   "robustness_count": 9
+  },
+  {
+   "class": "robust",
+   "combined_700_W1": 11.5227,
+   "drug_id": "CHEMBL107",
+   "in_top20_by_config": {
+    "400|W1_epcr": true,
+    "400|W2_equal": true,
+    "400|W3_pathogenic_gene_only": true,
+    "700|W1_epcr": true,
+    "700|W2_equal": true,
+    "700|W3_pathogenic_gene_only": true,
+    "900|W1_epcr": true,
+    "900|W2_equal": true,
+    "900|W3_pathogenic_gene_only": true
+   },
+   "name": "COLCHICINE",
+   "of": 9,
+   "robustness_count": 9
+  },
+  {
+   "class": "robust",
+   "combined_700_W1": 11.4857,
+   "drug_id": "CHEMBL92",
+   "in_top20_by_config": {
+    "400|W1_epcr": true,
+    "400|W2_equal": true,
+    "400|W3_pathogenic_gene_only": true,
+    "700|W1_epcr": true,
+    "700|W2_equal": true,
+    "700|W3_pathogenic_gene_only": true,
+    "900|W1_epcr": true,
+    "900|W2_equal": true,
+    "900|W3_pathogenic_gene_only": true
+   },
+   "name": "DOCETAXEL ANHYDROUS",
+   "of": 9,
+   "robustness_count": 9
+  },
+  {
+   "class": "robust",
+   "combined_700_W1": 10.9652,
+   "drug_id": "CHEMBL3301589",
+   "in_top20_by_config": {
+    "400|W1_epcr": true,
+    "400|W2_equal": true,
+    "400|W3_pathogenic_gene_only": true,
+    "700|W1_epcr": true,
+    "700|W2_equal": true,
+    "700|W3_pathogenic_gene_only": true,
+    "900|W1_epcr": true,
+    "900|W2_equal": true,
+    "900|W3_pathogenic_gene_only": true
+   },
+   "name": "ENFORTUMAB VEDOTIN",
+   "of": 9,
+   "robustness_count": 9
+  },
+  {
+   "class": "robust",
+   "combined_700_W1": 11.0504,
+   "drug_id": "CHEMBL1201752",
+   "in_top20_by_config": {
+    "400|W1_epcr": true,
+    "400|W2_equal": true,
+    "400|W3_pathogenic_gene_only": true,
+    "700|W1_epcr": true,
+    "700|W2_equal": true,
+    "700|W3_pathogenic_gene_only": true,
+    "900|W1_epcr": true,
+    "900|W2_equal": true,
+    "900|W3_pathogenic_gene_only": true
+   },
+   "name": "IXABEPILONE",
+   "of": 9,
+   "robustness_count": 9
+  },
+  {
+   "class": "robust",
+   "combined_700_W1": 12.1499,
+   "drug_id": "CHEMBL3545432",
+   "in_top20_by_config": {
+    "400|W1_epcr": true,
+    "400|W2_equal": true,
+    "400|W3_pathogenic_gene_only": true,
+    "700|W1_epcr": true,
+    "700|W2_equal": true,
+    "700|W3_pathogenic_gene_only": true,
+    "900|W1_epcr": true,
+    "900|W2_equal": true,
+    "900|W3_pathogenic_gene_only": true
+   },
+   "name": "IXAZOMIB CITRATE",
+   "of": 9,
+   "robustness_count": 9
+  },
+  {
+   "class": "robust",
+   "combined_700_W1": 3.3896,
+   "drug_id": "CHEMBL3286830",
+   "in_top20_by_config": {
+    "400|W1_epcr": true,
+    "400|W2_equal": true,
+    "400|W3_pathogenic_gene_only": true,
+    "700|W1_epcr": true,
+    "700|W2_equal": true,
+    "700|W3_pathogenic_gene_only": true,
+    "900|W1_epcr": true,
+    "900|W2_equal": true,
+    "900|W3_pathogenic_gene_only": true
+   },
+   "name": "LORLATINIB",
+   "of": 9,
+   "robustness_count": 9
+  },
+  {
+   "class": "robust",
+   "combined_700_W1": 11.1867,
+   "drug_id": "CHEMBL3545132",
+   "in_top20_by_config": {
+    "400|W1_epcr": true,
+    "400|W2_equal": true,
+    "400|W3_pathogenic_gene_only": true,
+    "700|W1_epcr": true,
+    "700|W2_equal": true,
+    "700|W3_pathogenic_gene_only": true,
+    "900|W1_epcr": true,
+    "900|W2_equal": true,
+    "900|W3_pathogenic_gene_only": true
+   },
+   "name": "MIRVETUXIMAB SORAVTANSINE",
+   "of": 9,
+   "robustness_count": 9
+  },
+  {
+   "class": "robust",
+   "combined_700_W1": 11.3859,
+   "drug_id": "CHEMBL428647",
+   "in_top20_by_config": {
+    "400|W1_epcr": true,
+    "400|W2_equal": true,
+    "400|W3_pathogenic_gene_only": true,
+    "700|W1_epcr": true,
+    "700|W2_equal": true,
+    "700|W3_pathogenic_gene_only": true,
+    "900|W1_epcr": true,
+    "900|W2_equal": true,
+    "900|W3_pathogenic_gene_only": true
+   },
+   "name": "PACLITAXEL",
+   "of": 9,
+   "robustness_count": 9
+  },
+  {
+   "class": "robust",
+   "combined_700_W1": 10.286,
+   "drug_id": "CHEMBL3301582",
+   "in_top20_by_config": {
+    "400|W1_epcr": true,
+    "400|W2_equal": true,
+    "400|W3_pathogenic_gene_only": true,
+    "700|W1_epcr": true,
+    "700|W2_equal": true,
+    "700|W3_pathogenic_gene_only": true,
+    "900|W1_epcr": true,
+    "900|W2_equal": true,
+    "900|W3_pathogenic_gene_only": true
+   },
+   "name": "POLATUZUMAB VEDOTIN",
+   "of": 9,
+   "robustness_count": 9
+  },
+  {
+   "class": "robust",
+   "combined_700_W1": 3.2716,
+   "drug_id": "CHEMBL3545185",
+   "in_top20_by_config": {
+    "400|W1_epcr": true,
+    "400|W2_equal": true,
+    "400|W3_pathogenic_gene_only": true,
+    "700|W1_epcr": true,
+    "700|W2_equal": true,
+    "700|W3_pathogenic_gene_only": true,
+    "900|W1_epcr": true,
+    "900|W2_equal": true,
+    "900|W3_pathogenic_gene_only": true
+   },
+   "name": "SELINEXOR",
+   "of": 9,
+   "robustness_count": 9
+  },
+  {
+   "class": "robust",
+   "combined_700_W1": 7.7277,
+   "drug_id": "CHEMBL571546",
+   "in_top20_by_config": {
+    "400|W1_epcr": true,
+    "400|W2_equal": true,
+    "400|W3_pathogenic_gene_only": true,
+    "700|W1_epcr": true,
+    "700|W2_equal": true,
+    "700|W3_pathogenic_gene_only": true,
+    "900|W1_epcr": true,
+    "900|W2_equal": true,
+    "900|W3_pathogenic_gene_only": true
+   },
+   "name": "TIRBANIBULIN",
+   "of": 9,
+   "robustness_count": 9
+  },
+  {
+   "class": "robust",
+   "combined_700_W1": 9.9939,
+   "drug_id": "CHEMBL4297841",
+   "in_top20_by_config": {
+    "400|W1_epcr": true,
+    "400|W2_equal": true,
+    "400|W3_pathogenic_gene_only": true,
+    "700|W1_epcr": true,
+    "700|W2_equal": true,
+    "700|W3_pathogenic_gene_only": true,
+    "900|W1_epcr": true,
+    "900|W2_equal": true,
+    "900|W3_pathogenic_gene_only": true
+   },
+   "name": "TISOTUMAB VEDOTIN",
+   "of": 9,
+   "robustness_count": 9
+  },
+  {
+   "class": "robust",
+   "combined_700_W1": 11.3276,
+   "drug_id": "CHEMBL1743082",
+   "in_top20_by_config": {
+    "400|W1_epcr": true,
+    "400|W2_equal": true,
+    "400|W3_pathogenic_gene_only": true,
+    "700|W1_epcr": true,
+    "700|W2_equal": true,
+    "700|W3_pathogenic_gene_only": true,
+    "900|W1_epcr": true,
+    "900|W2_equal": true,
+    "900|W3_pathogenic_gene_only": true
+   },
+   "name": "TRASTUZUMAB EMTANSINE",
+   "of": 9,
+   "robustness_count": 9
+  },
+  {
+   "class": "robust",
+   "combined_700_W1": 11.1703,
+   "drug_id": "CHEMBL2110725",
+   "in_top20_by_config": {
+    "400|W1_epcr": true,
+    "400|W2_equal": true,
+    "400|W3_pathogenic_gene_only": true,
+    "700|W1_epcr": true,
+    "700|W2_equal": true,
+    "700|W3_pathogenic_gene_only": true,
+    "900|W1_epcr": true,
+    "900|W2_equal": true,
+    "900|W3_pathogenic_gene_only": true
+   },
+   "name": "VINFLUNINE",
+   "of": 9,
+   "robustness_count": 9
+  },
+  {
+   "class": "intermediate",
+   "combined_700_W1": 3.127,
+   "drug_id": "CHEMBL2403108",
+   "in_top20_by_config": {
+    "400|W1_epcr": false,
+    "400|W2_equal": false,
+    "400|W3_pathogenic_gene_only": false,
+    "700|W1_epcr": true,
+    "700|W2_equal": true,
+    "700|W3_pathogenic_gene_only": true,
+    "900|W1_epcr": true,
+    "900|W2_equal": true,
+    "900|W3_pathogenic_gene_only": true
+   },
+   "name": "CERITINIB",
+   "of": 9,
+   "robustness_count": 6
+  },
+  {
+   "class": "intermediate",
+   "combined_700_W1": 2.9011,
+   "drug_id": "CHEMBL601719",
+   "in_top20_by_config": {
+    "400|W1_epcr": false,
+    "400|W2_equal": false,
+    "400|W3_pathogenic_gene_only": false,
+    "700|W1_epcr": true,
+    "700|W2_equal": true,
+    "700|W3_pathogenic_gene_only": true,
+    "900|W1_epcr": true,
+    "900|W2_equal": true,
+    "900|W3_pathogenic_gene_only": true
+   },
+   "name": "CRIZOTINIB",
+   "of": 9,
+   "robustness_count": 6
+  },
+  {
+   "class": "fragile",
+   "combined_700_W1": 0.0,
+   "drug_id": "CHEMBL1399",
+   "in_top20_by_config": {
+    "400|W1_epcr": true,
+    "400|W2_equal": true,
+    "400|W3_pathogenic_gene_only": true,
+    "700|W1_epcr": false,
+    "700|W2_equal": false,
+    "700|W3_pathogenic_gene_only": false,
+    "900|W1_epcr": false,
+    "900|W2_equal": false,
+    "900|W3_pathogenic_gene_only": false
+   },
+   "name": "ANASTROZOLE",
+   "of": 9,
+   "robustness_count": 3
+  },
+  {
+   "class": "fragile",
+   "combined_700_W1": 0.0,
+   "drug_id": "CHEMBL1571",
+   "in_top20_by_config": {
+    "400|W1_epcr": true,
+    "400|W2_equal": true,
+    "400|W3_pathogenic_gene_only": true,
+    "700|W1_epcr": false,
+    "700|W2_equal": false,
+    "700|W3_pathogenic_gene_only": false,
+    "900|W1_epcr": false,
+    "900|W2_equal": false,
+    "900|W3_pathogenic_gene_only": false
+   },
+   "name": "TESTOLACTONE",
+   "of": 9,
+   "robustness_count": 3
+  }
+ ],
+ "modules": [
+  "sub_BUB1B",
+  "sub_CENPE",
+  "sub_IGBP1",
+  "sub_MAD1L1"
+ ],
+ "rule": {
+  "configurations": 9,
+  "fragile_max": 3,
+  "robust_min": 7,
+  "top_n": 20
+ },
+ "summary": {
+  "fragile": 2,
+  "intermediate": 2,
+  "robust": 18
+ },
+ "weights": {
+  "W1_epcr": {
+   "sub_BUB1B": 1.0,
+   "sub_CENPE": 0.1377,
+   "sub_IGBP1": 0.0986,
+   "sub_MAD1L1": 0.1261
+  },
+  "W2_equal": {
+   "sub_BUB1B": 1.0,
+   "sub_CENPE": 1.0,
+   "sub_IGBP1": 1.0,
+   "sub_MAD1L1": 1.0
+  },
+  "W3_pathogenic_gene_only": {
+   "sub_BUB1B": 1.0
+  }
+ }
+}

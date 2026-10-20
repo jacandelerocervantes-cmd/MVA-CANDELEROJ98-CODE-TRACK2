@@ -1,0 +1,59 @@
+{
+ "chembl_version": "ChEMBL_37",
+ "iterations": 1000,
+ "mechanism": "sub_MAD1L1",
+ "n_approved_drugs": 2705,
+ "reactome_version": "97",
+ "sensitivity": {
+  "400": {
+   "n_pass": 22,
+   "n_scored": 1128,
+   "top10": [
+    "IXAZOMIB CITRATE",
+    "BORTEZOMIB",
+    "CARFILZOMIB",
+    "DOCETAXEL ANHYDROUS",
+    "VINFLUNINE",
+    "MIRVETUXIMAB SORAVTANSINE",
+    "CABAZITAXEL",
+    "IXABEPILONE",
+    "POLATUZUMAB VEDOTIN",
+    "PACLITAXEL"
+   ]
+  },
+  "700": {
+   "n_pass": 20,
+   "n_scored": 1040,
+   "top10": [
+    "IXAZOMIB CITRATE",
+    "DOCETAXEL ANHYDROUS",
+    "CARFILZOMIB",
+    "CABAZITAXEL",
+    "BORTEZOMIB",
+    "COLCHICINE",
+    "VINFLUNINE",
+    "PACLITAXEL",
+    "TRASTUZUMAB EMTANSINE",
+    "IXABEPILONE"
+   ]
+  },
+  "900": {
+   "n_pass": 20,
+   "n_scored": 905,
+   "top10": [
+    "CARFILZOMIB",
+    "IXAZOMIB CITRATE",
+    "BORTEZOMIB",
+    "COLCHICINE",
+    "VINFLUNINE",
+    "CABAZITAXEL",
+    "MIRVETUXIMAB SORAVTANSINE",
+    "IXABEPILONE",
+    "TRASTUZUMAB EMTANSINE",
+    "PACLITAXEL"
+   ]
+  }
+ },
+ "string_version": "v12.0",
+ "universe_sha256": "c4df43ba87d3146b117faec7a9050fde3f87ad757004f3b852bcbe01ebbea29c"
+}

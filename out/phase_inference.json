@@ -1,0 +1,447 @@
+{
+  "assumes": "BUB1B is the causal gene; the gene-level fact used is only that BUB1B is the sole 'causal candidate' in out/differential_diagnosis.json",
+  "bub1b_sole_causal_candidate_in_differential": true,
+  "headline": {
+    "alt_cause": 1e-06,
+    "p_causal": 1.0,
+    "penetrance": 0.9,
+    "posterior_trans": 0.9999988888901234,
+    "prior": 0.5,
+    "range_over_penetrance_and_alt_cause_grid": [
+      0.998003992015968,
+      0.9999990000010001
+    ]
+  },
+  "hypotheses": {
+    "H_cis": "the two BUB1B alleles are on the same chromosome",
+    "H_trans": "the two BUB1B alleles are on different chromosomes"
+  },
+  "likelihood": {
+    "alt_cause_source": {
+      "clause": "the incidence of PCS/MVA syndrome is only 1:1,000,000",
+      "pmcid": "PMC11102876",
+      "pmid": "38770464",
+      "retrieved_from": "Europe PMC full text REST (fullTextXML), searched 2026-10-15"
+    },
+    "model": "P(affected|trans)=c*f+(1-c); P(affected|cis)=c*a+(1-c)",
+    "penetrance_note": "f is an assumption varied over the grid, not a sourced value"
+  },
+  "long_read_phasing": {
+    "beyond_read_length": "if d >= L no single read spans both alleles; phase then needs parental testing or chaining through intermediate heterozygous markers",
+    "distances_are_scenarios": "the real distance between the two alleles is not used here; the largest scenario is the whole gene body",
+    "formula": "p_span|cover = max(0, L-d)/L; lambda = D*p_span|cover; P(decisive) = 1 - sum_{k<m} exp(-lambda) lambda^k / k!",
+    "gene_body_length_bp": 60154,
+    "gene_body_length_source": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/BUB1B (release 116)",
+    "read_length_range_bp": [
+      10000,
+      25000
+    ],
+    "table": [
+      {
+        "distance_bp": 1000,
+        "min_depth_for_95pct_with_1_reads": 3.33,
+        "min_depth_for_95pct_with_3_reads": 7.0,
+        "p_decisive_depth_10x_min_reads_1": 0.9998765901959134,
+        "p_decisive_depth_20x_min_reads_1": 0.9999999847700203,
+        "p_decisive_depth_30x_min_reads_1": 0.9999999999981205,
+        "p_span_given_cover": 0.9,
+        "read_length_bp": 10000
+      },
+      {
+        "distance_bp": 1000,
+        "min_depth_for_95pct_with_1_reads": 3.21,
+        "min_depth_for_95pct_with_3_reads": 6.75,
+        "p_decisive_depth_10x_min_reads_1": 0.9999115730113401,
+        "p_decisive_depth_20x_min_reads_1": 0.9999999921806677,
+        "p_decisive_depth_30x_min_reads_1": 0.9999999999993086,
+        "p_span_given_cover": 0.9333333333333333,
+        "read_length_bp": 15000
+      },
+      {
+        "distance_bp": 1000,
+        "min_depth_for_95pct_with_1_reads": 3.15,
+        "min_depth_for_95pct_with_3_reads": 6.63,
+        "p_decisive_depth_10x_min_reads_1": 0.9999251481701124,
+        "p_decisive_depth_20x_min_reads_1": 0.9999999943972036,
+        "p_decisive_depth_30x_min_reads_1": 0.9999999999995807,
+        "p_span_given_cover": 0.95,
+        "read_length_bp": 20000
+      },
+      {
+        "distance_bp": 1000,
+        "min_depth_for_95pct_with_1_reads": 3.12,
+        "min_depth_for_95pct_with_3_reads": 6.56,
+        "p_decisive_depth_10x_min_reads_1": 0.9999322712635091,
+        "p_decisive_depth_20x_min_reads_1": 0.9999999954128183,
+        "p_decisive_depth_30x_min_reads_1": 0.9999999999996894,
+        "p_span_given_cover": 0.96,
+        "read_length_bp": 25000
+      },
+      {
+        "distance_bp": 5000,
+        "min_depth_for_95pct_with_1_reads": 5.99,
+        "min_depth_for_95pct_with_3_reads": 12.59,
+        "p_decisive_depth_10x_min_reads_1": 0.9932620530009145,
+        "p_decisive_depth_20x_min_reads_1": 0.9999546000702375,
+        "p_decisive_depth_30x_min_reads_1": 0.9999996940976795,
+        "p_span_given_cover": 0.5,
+        "read_length_bp": 10000
+      },
+      {
+        "distance_bp": 5000,
+        "min_depth_for_95pct_with_1_reads": 4.49,
+        "min_depth_for_95pct_with_3_reads": 9.44,
+        "p_decisive_depth_10x_min_reads_1": 0.9987273661986602,
+        "p_decisive_depth_20x_min_reads_1": 0.9999983804032077,
+        "p_decisive_depth_30x_min_reads_1": 0.9999999979388464,
+        "p_span_given_cover": 0.6666666666666666,
+        "read_length_bp": 15000
+      },
+      {
+        "distance_bp": 5000,
+        "min_depth_for_95pct_with_1_reads": 3.99,
+        "min_depth_for_95pct_with_3_reads": 8.39,
+        "p_decisive_depth_10x_min_reads_1": 0.9994469156298522,
+        "p_decisive_depth_20x_min_reads_1": 0.9999996940976795,
+        "p_decisive_depth_30x_min_reads_1": 0.9999999998308102,
+        "p_span_given_cover": 0.75,
+        "read_length_bp": 20000
+      },
+      {
+        "distance_bp": 5000,
+        "min_depth_for_95pct_with_1_reads": 3.74,
+        "min_depth_for_95pct_with_3_reads": 7.87,
+        "p_decisive_depth_10x_min_reads_1": 0.9996645373720975,
+        "p_decisive_depth_20x_min_reads_1": 0.9999998874648253,
+        "p_decisive_depth_30x_min_reads_1": 0.9999999999622486,
+        "p_span_given_cover": 0.8,
+        "read_length_bp": 25000
+      },
+      {
+        "distance_bp": 10000,
+        "min_depth_for_95pct_with_1_reads": null,
+        "min_depth_for_95pct_with_3_reads": null,
+        "p_decisive_depth_10x_min_reads_1": 0.0,
+        "p_decisive_depth_20x_min_reads_1": 0.0,
+        "p_decisive_depth_30x_min_reads_1": 0.0,
+        "p_span_given_cover": 0.0,
+        "read_length_bp": 10000
+      },
+      {
+        "distance_bp": 10000,
+        "min_depth_for_95pct_with_1_reads": 8.99,
+        "min_depth_for_95pct_with_3_reads": 18.89,
+        "p_decisive_depth_10x_min_reads_1": 0.9643260066527476,
+        "p_decisive_depth_20x_min_reads_1": 0.9987273661986602,
+        "p_decisive_depth_30x_min_reads_1": 0.9999546000702375,
+        "p_span_given_cover": 0.3333333333333333,
+        "read_length_bp": 15000
+      },
+      {
+        "distance_bp": 10000,
+        "min_depth_for_95pct_with_1_reads": 5.99,
+        "min_depth_for_95pct_with_3_reads": 12.59,
+        "p_decisive_depth_10x_min_reads_1": 0.9932620530009145,
+        "p_decisive_depth_20x_min_reads_1": 0.9999546000702375,
+        "p_decisive_depth_30x_min_reads_1": 0.9999996940976795,
+        "p_span_given_cover": 0.5,
+        "read_length_bp": 20000
+      },
+      {
+        "distance_bp": 10000,
+        "min_depth_for_95pct_with_1_reads": 4.99,
+        "min_depth_for_95pct_with_3_reads": 10.49,
+        "p_decisive_depth_10x_min_reads_1": 0.9975212478233336,
+        "p_decisive_depth_20x_min_reads_1": 0.9999938557876467,
+        "p_decisive_depth_30x_min_reads_1": 0.9999999847700203,
+        "p_span_given_cover": 0.6,
+        "read_length_bp": 25000
+      },
+      {
+        "distance_bp": 60154,
+        "min_depth_for_95pct_with_1_reads": null,
+        "min_depth_for_95pct_with_3_reads": null,
+        "p_decisive_depth_10x_min_reads_1": 0.0,
+        "p_decisive_depth_20x_min_reads_1": 0.0,
+        "p_decisive_depth_30x_min_reads_1": 0.0,
+        "p_span_given_cover": 0.0,
+        "read_length_bp": 10000
+      },
+      {
+        "distance_bp": 60154,
+        "min_depth_for_95pct_with_1_reads": null,
+        "min_depth_for_95pct_with_3_reads": null,
+        "p_decisive_depth_10x_min_reads_1": 0.0,
+        "p_decisive_depth_20x_min_reads_1": 0.0,
+        "p_decisive_depth_30x_min_reads_1": 0.0,
+        "p_span_given_cover": 0.0,
+        "read_length_bp": 15000
+      },
+      {
+        "distance_bp": 60154,
+        "min_depth_for_95pct_with_1_reads": null,
+        "min_depth_for_95pct_with_3_reads": null,
+        "p_decisive_depth_10x_min_reads_1": 0.0,
+        "p_decisive_depth_20x_min_reads_1": 0.0,
+        "p_decisive_depth_30x_min_reads_1": 0.0,
+        "p_span_given_cover": 0.0,
+        "read_length_bp": 20000
+      },
+      {
+        "distance_bp": 60154,
+        "min_depth_for_95pct_with_1_reads": null,
+        "min_depth_for_95pct_with_3_reads": null,
+        "p_decisive_depth_10x_min_reads_1": 0.0,
+        "p_decisive_depth_20x_min_reads_1": 0.0,
+        "p_decisive_depth_30x_min_reads_1": 0.0,
+        "p_span_given_cover": 0.0,
+        "read_length_bp": 25000
+      }
+    ]
+  },
+  "p_causal_needed_for_posterior_trans": {
+    "0.75": 0.6896558858509163,
+    "0.90": 0.8988773134714406,
+    "0.95": 0.9523819098019198
+  },
+  "parental_sanger_test": {
+    "assumptions": "eps (recombination between variants, mosaicism, test error) is an assumption; pattern 'both de novo' is neglected; parentage is assumed biological.",
+    "de_novo_pattern_extremes_pi_dn_0.05": {
+      "DN_M_if_q_is_0": 0.0,
+      "DN_M_if_q_is_1": 1.0
+    },
+    "expected_patterns": {
+      "C": "both variants in one parent, neither in the other",
+      "DN_F": "exactly one of the two variants found, in the father only (the other variant absent in both parents: de novo)",
+      "DN_M": "exactly one of the two variants found, in the mother only (the other variant absent in both parents: de novo)",
+      "T": "variant 1 in one parent only and variant 2 in the other parent only"
+    },
+    "expected_result_if_cis": "pattern C (one parent carries both variants, the other none)",
+    "expected_result_if_trans": "pattern T (each parent carries a different one of the two variants)",
+    "grid": [
+      {
+        "eps": 0.0,
+        "p_decisive": 1.0,
+        "pi_dn": 0.0,
+        "posterior_trans_C": 0.0,
+        "posterior_trans_DN_F": null,
+        "posterior_trans_DN_M": null,
+        "posterior_trans_T": 1.0
+      },
+      {
+        "eps": 0.01,
+        "p_decisive": 1.0,
+        "pi_dn": 0.0,
+        "posterior_trans_C": 0.01,
+        "posterior_trans_DN_F": null,
+        "posterior_trans_DN_M": null,
+        "posterior_trans_T": 0.99
+      },
+      {
+        "eps": 0.0,
+        "p_decisive": 0.95,
+        "pi_dn": 0.05,
+        "posterior_trans_C": 0.0,
+        "posterior_trans_DN_F": 0.5,
+        "posterior_trans_DN_M": 0.5,
+        "posterior_trans_T": 1.0
+      },
+      {
+        "eps": 0.01,
+        "p_decisive": 0.95,
+        "pi_dn": 0.05,
+        "posterior_trans_C": 0.01,
+        "posterior_trans_DN_F": 0.5,
+        "posterior_trans_DN_M": 0.5,
+        "posterior_trans_T": 0.9900000000000001
+      },
+      {
+        "eps": 0.0,
+        "p_decisive": 0.9,
+        "pi_dn": 0.1,
+        "posterior_trans_C": 0.0,
+        "posterior_trans_DN_F": 0.5,
+        "posterior_trans_DN_M": 0.5,
+        "posterior_trans_T": 1.0
+      },
+      {
+        "eps": 0.01,
+        "p_decisive": 0.9,
+        "pi_dn": 0.1,
+        "posterior_trans_C": 0.01,
+        "posterior_trans_DN_F": 0.5,
+        "posterior_trans_DN_M": 0.5,
+        "posterior_trans_T": 0.99
+      }
+    ]
+  },
+  "prior": {
+    "derivation": "both inherited: different parents with probability 1/2 each under independent transmission; one de novo: trans iff it arose on the other parent's chromosome, 1/2 for any paternal fraction q; hence 1/2",
+    "p_trans": 0.5,
+    "p_trans_if_de_novo_probability_0.1": 0.5,
+    "prior_grid_posteriors_at_headline": [
+      {
+        "posterior_trans": 0.9999974074141289,
+        "prior": 0.3
+      },
+      {
+        "posterior_trans": 0.9999988888901234,
+        "prior": 0.5
+      },
+      {
+        "posterior_trans": 0.9999995238097507,
+        "prior": 0.7
+      }
+    ]
+  },
+  "sensitivity_p_causal_at_headline": [
+    {
+      "p_causal": 1.0,
+      "posterior_trans": 0.9999988888901234
+    },
+    {
+      "p_causal": 0.99,
+      "posterior_trans": 0.9890219768037793
+    },
+    {
+      "p_causal": 0.9,
+      "posterior_trans": 0.9009892961481519
+    },
+    {
+      "p_causal": 0.75,
+      "posterior_trans": 0.7872335400636977
+    },
+    {
+      "p_causal": 0.5,
+      "posterior_trans": 0.6551721878716594
+    },
+    {
+      "p_causal": 0.25,
+      "posterior_trans": 0.5652173093887958
+    },
+    {
+      "p_causal": 0.1,
+      "posterior_trans": 0.5238094960947357
+    },
+    {
+      "p_causal": 0.0,
+      "posterior_trans": 0.5
+    }
+  ],
+  "sensitivity_p_causal_at_worst_grid_cell": [
+    {
+      "p_causal": 1.0,
+      "posterior_trans": 0.998003992015968
+    },
+    {
+      "p_causal": 0.99,
+      "posterior_trans": 0.978701137618946
+    },
+    {
+      "p_causal": 0.9,
+      "posterior_trans": 0.8449838684897834
+    },
+    {
+      "p_causal": 0.75,
+      "posterior_trans": 0.7136739937196689
+    },
+    {
+      "p_causal": 0.5,
+      "posterior_trans": 0.5997600959616154
+    },
+    {
+      "p_causal": 0.25,
+      "posterior_trans": 0.5383787109675435
+    },
+    {
+      "p_causal": 0.1,
+      "posterior_trans": 0.5134857575266202
+    },
+    {
+      "p_causal": 0.0,
+      "posterior_trans": 0.5
+    }
+  ],
+  "sensitivity_penetrance_by_alt_cause": [
+    {
+      "alt_cause": 1e-06,
+      "penetrance": 0.5,
+      "posterior_trans": 0.999998000004
+    },
+    {
+      "alt_cause": 1e-05,
+      "penetrance": 0.5,
+      "posterior_trans": 0.9999800003999921
+    },
+    {
+      "alt_cause": 0.0001,
+      "penetrance": 0.5,
+      "posterior_trans": 0.9998000399920016
+    },
+    {
+      "alt_cause": 0.001,
+      "penetrance": 0.5,
+      "posterior_trans": 0.998003992015968
+    },
+    {
+      "alt_cause": 1e-06,
+      "penetrance": 0.7,
+      "posterior_trans": 0.9999985714306122
+    },
+    {
+      "alt_cause": 1e-05,
+      "penetrance": 0.7,
+      "posterior_trans": 0.9999857144897931
+    },
+    {
+      "alt_cause": 0.0001,
+      "penetrance": 0.7,
+      "posterior_trans": 0.9998571632623912
+    },
+    {
+      "alt_cause": 0.001,
+      "penetrance": 0.7,
+      "posterior_trans": 0.9985734664764622
+    },
+    {
+      "alt_cause": 1e-06,
+      "penetrance": 0.9,
+      "posterior_trans": 0.9999988888901234
+    },
+    {
+      "alt_cause": 1e-05,
+      "penetrance": 0.9,
+      "posterior_trans": 0.9999888890123444
+    },
+    {
+      "alt_cause": 0.0001,
+      "penetrance": 0.9,
+      "posterior_trans": 0.9998889012331963
+    },
+    {
+      "alt_cause": 0.001,
+      "penetrance": 0.9,
+      "posterior_trans": 0.9988901220865705
+    },
+    {
+      "alt_cause": 1e-06,
+      "penetrance": 1.0,
+      "posterior_trans": 0.9999990000010001
+    },
+    {
+      "alt_cause": 1e-05,
+      "penetrance": 1.0,
+      "posterior_trans": 0.9999900000999989
+    },
+    {
+      "alt_cause": 0.0001,
+      "penetrance": 1.0,
+      "posterior_trans": 0.9999000099990001
+    },
+    {
+      "alt_cause": 0.001,
+      "penetrance": 1.0,
+      "posterior_trans": 0.9990009990009991
+    }
+  ]
+}

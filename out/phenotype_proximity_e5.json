@@ -1,0 +1,633 @@
+{
+ "drugs": [
+  {
+   "drug_id": "CHEMBL4297517",
+   "name": "MAVACAMTEN",
+   "robust": false,
+   "robustness_count": 5
+  },
+  {
+   "drug_id": "CHEMBL3187723",
+   "name": "BINIMETINIB",
+   "robust": false,
+   "robustness_count": 4
+  },
+  {
+   "drug_id": "CHEMBL2108078",
+   "name": "PARATHYROID HORMONE",
+   "robust": false,
+   "robustness_count": 4
+  },
+  {
+   "drug_id": "CHEMBL1614701",
+   "name": "SELUMETINIB",
+   "robust": false,
+   "robustness_count": 4
+  },
+  {
+   "drug_id": "CHEMBL2103875",
+   "name": "TRAMETINIB",
+   "robust": false,
+   "robustness_count": 4
+  },
+  {
+   "drug_id": "CHEMBL3545311",
+   "name": "BRIGATINIB",
+   "robust": false,
+   "robustness_count": 3
+  },
+  {
+   "drug_id": "CHEMBL3989949",
+   "name": "CENOBAMATE",
+   "robust": false,
+   "robustness_count": 3
+  },
+  {
+   "drug_id": "CHEMBL2146883",
+   "name": "COBIMETINIB",
+   "robust": false,
+   "robustness_count": 3
+  },
+  {
+   "drug_id": "CHEMBL2108709",
+   "name": "COLLAGENASE CLOSTRIDIUM HISTOLYTICUM",
+   "robust": false,
+   "robustness_count": 3
+  },
+  {
+   "drug_id": "CHEMBL1201496",
+   "name": "INSULIN ASPART",
+   "robust": false,
+   "robustness_count": 3
+  },
+  {
+   "drug_id": "CHEMBL1201644",
+   "name": "INSULIN ZINC SUSP RECOMBINANT HUMAN",
+   "robust": false,
+   "robustness_count": 3
+  },
+  {
+   "drug_id": "CHEMBL741",
+   "name": "LAMOTRIGINE",
+   "robust": false,
+   "robustness_count": 3
+  },
+  {
+   "drug_id": "CHEMBL79",
+   "name": "LIDOCAINE",
+   "robust": false,
+   "robustness_count": 3
+  },
+  {
+   "drug_id": "CHEMBL1068",
+   "name": "OXCARBAZEPINE",
+   "robust": false,
+   "robustness_count": 3
+  },
+  {
+   "drug_id": "CHEMBL5095475",
+   "name": "PALOPEGTERIPARATIDE",
+   "robust": false,
+   "robustness_count": 3
+  },
+  {
+   "drug_id": "CHEMBL856",
+   "name": "PRIMIDONE",
+   "robust": false,
+   "robustness_count": 3
+  },
+  {
+   "drug_id": "CHEMBL1946170",
+   "name": "REGORAFENIB",
+   "robust": false,
+   "robustness_count": 3
+  },
+  {
+   "drug_id": "CHEMBL525610",
+   "name": "TERIPARATIDE",
+   "robust": false,
+   "robustness_count": 3
+  },
+  {
+   "drug_id": "CHEMBL1201532",
+   "name": "THYROTROPIN",
+   "robust": false,
+   "robustness_count": 3
+  },
+  {
+   "drug_id": "CHEMBL1201533",
+   "name": "THYROTROPIN ALFA",
+   "robust": false,
+   "robustness_count": 3
+  },
+  {
+   "drug_id": "CHEMBL3348923",
+   "name": "TOVORAFENIB",
+   "robust": false,
+   "robustness_count": 3
+  },
+  {
+   "drug_id": "CHEMBL585",
+   "name": "TRIAMTERENE",
+   "robust": false,
+   "robustness_count": 3
+  },
+  {
+   "drug_id": "CHEMBL750",
+   "name": "ZONISAMIDE",
+   "robust": false,
+   "robustness_count": 3
+  },
+  {
+   "drug_id": "CHEMBL3301581",
+   "name": "ABALOPARATIDE",
+   "robust": false,
+   "robustness_count": 2
+  },
+  {
+   "drug_id": "CHEMBL3301610",
+   "name": "ABEMACICLIB",
+   "robust": false,
+   "robustness_count": 2
+  },
+  {
+   "drug_id": "CHEMBL256997",
+   "name": "ATALUREN",
+   "robust": false,
+   "robustness_count": 2
+  },
+  {
+   "drug_id": "CHEMBL325041",
+   "name": "BORTEZOMIB",
+   "robust": false,
+   "robustness_count": 2
+  },
+  {
+   "drug_id": "CHEMBL1072",
+   "name": "BUMETANIDE",
+   "robust": false,
+   "robustness_count": 2
+  },
+  {
+   "drug_id": "CHEMBL108",
+   "name": "CARBAMAZEPINE",
+   "robust": false,
+   "robustness_count": 2
+  },
+  {
+   "drug_id": "CHEMBL499915",
+   "name": "CARBENOXOLONE",
+   "robust": false,
+   "robustness_count": 2
+  },
+  {
+   "drug_id": "CHEMBL451887",
+   "name": "CARFILZOMIB",
+   "robust": false,
+   "robustness_count": 2
+  },
+  {
+   "drug_id": "CHEMBL240597",
+   "name": "CHENODIOL",
+   "robust": false,
+   "robustness_count": 2
+  },
+  {
+   "drug_id": "CHEMBL315985",
+   "name": "ESLICARBAZEPINE",
+   "robust": false,
+   "robustness_count": 2
+  },
+  {
+   "drug_id": "CHEMBL456",
+   "name": "ETHACRYNIC ACID",
+   "robust": false,
+   "robustness_count": 2
+  },
+  {
+   "drug_id": "CHEMBL1200983",
+   "name": "GALLIUM NITRATE",
+   "robust": false,
+   "robustness_count": 2
+  },
+  {
+   "drug_id": "CHEMBL467",
+   "name": "HYDROXYUREA",
+   "robust": false,
+   "robustness_count": 2
+  },
+  {
+   "drug_id": "CHEMBL1201631",
+   "name": "INSULIN HUMAN",
+   "robust": false,
+   "robustness_count": 2
+  },
+  {
+   "drug_id": "CHEMBL2108974",
+   "name": "INSULIN HUMAN ZINC",
+   "robust": false,
+   "robustness_count": 2
+  },
+  {
+   "drug_id": "CHEMBL4594581",
+   "name": "INSULIN ICODEC",
+   "robust": false,
+   "robustness_count": 2
+  },
+  {
+   "drug_id": "CHEMBL1201611",
+   "name": "INSULIN LISPRO PROTAMINE RECOMBINANT",
+   "robust": false,
+   "robustness_count": 2
+  },
+  {
+   "drug_id": "CHEMBL1201630",
+   "name": "INSULIN PURIFIED PORK",
+   "robust": false,
+   "robustness_count": 2
+  },
+  {
+   "drug_id": "CHEMBL2095222",
+   "name": "OCRIPLASMIN",
+   "robust": false,
+   "robustness_count": 2
+  },
+  {
+   "drug_id": "CHEMBL16",
+   "name": "PHENYTOIN",
+   "robust": false,
+   "robustness_count": 2
+  },
+  {
+   "drug_id": "CHEMBL1201754",
+   "name": "RUFINAMIDE",
+   "robust": false,
+   "robustness_count": 2
+  },
+  {
+   "drug_id": "CHEMBL1201549",
+   "name": "TERIPARATIDE ACETATE",
+   "robust": false,
+   "robustness_count": 2
+  },
+  {
+   "drug_id": "CHEMBL220492",
+   "name": "TOPIRAMATE",
+   "robust": false,
+   "robustness_count": 2
+  },
+  {
+   "drug_id": "CHEMBL1148",
+   "name": "TORSEMIDE",
+   "robust": false,
+   "robustness_count": 2
+  },
+  {
+   "drug_id": "CHEMBL1551",
+   "name": "URSODIOL",
+   "robust": false,
+   "robustness_count": 2
+  },
+  {
+   "drug_id": "CHEMBL98",
+   "name": "VORINOSTAT",
+   "robust": false,
+   "robustness_count": 2
+  },
+  {
+   "drug_id": "CHEMBL4298025",
+   "name": "ZENOCUTUZUMAB",
+   "robust": false,
+   "robustness_count": 2
+  },
+  {
+   "drug_id": "CHEMBL254328",
+   "name": "ABIRATERONE",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL3545057",
+   "name": "ACETYLDIGITOXIN",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL4594350",
+   "name": "ADAGRASIB",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL354077",
+   "name": "AMIFAMPRIDINE",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL243712",
+   "name": "AMISULPRIDE",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL408513",
+   "name": "BELINOSTAT",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL454",
+   "name": "BUTALBITAL",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL2403108",
+   "name": "CERITINIB",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL1750",
+   "name": "CLOFARABINE",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL370805",
+   "name": "COCAINE",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL2028663",
+   "name": "DABRAFENIB",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL284348",
+   "name": "DALFAMPRIDINE",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL4297185",
+   "name": "DAROLUTAMIDE",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL1614",
+   "name": "DESLANOSIDE",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL254219",
+   "name": "DIGITOXIN",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL1751",
+   "name": "DIGOXIN",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL3301612",
+   "name": "ENCORAFENIB",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL1983268",
+   "name": "ENTRECTINIB",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL87992",
+   "name": "ESLICARBAZEPINE ACETATE",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL691",
+   "name": "ETHINYL ESTRADIOL",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL1095",
+   "name": "ETHOTOIN",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL2108702",
+   "name": "IMETELSTAT SODIUM",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL1201664",
+   "name": "INSULIN ASPART PROTAMINE RECOMBINANT",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL1201497",
+   "name": "INSULIN GLARGINE",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL1201613",
+   "name": "INSULIN GLULISINE",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL2108973",
+   "name": "INSULIN HUMAN, ISOPHANE",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL1201539",
+   "name": "INSULIN PORK",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL1201629",
+   "name": "INSULIN PURIFIED BEEF",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL1201627",
+   "name": "INSULIN SUSP ISOPHANE SEMISYNTHETIC PURIFIED HUMAN",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL2109046",
+   "name": "INSULIN, PROTAMINE ZINC",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL3545432",
+   "name": "IXAZOMIB CITRATE",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL1289601",
+   "name": "LENVATINIB",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL295698",
+   "name": "LEVOKETOCONAZOLE",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL3039545",
+   "name": "LUSPATERCEPT",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL781",
+   "name": "MAZINDOL",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL861",
+   "name": "MEPHENYTOIN",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL1200443",
+   "name": "MERETHOXYLLINE PROCAINE",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL450",
+   "name": "METHARBITAL",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL1670",
+   "name": "MITOTANE",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL189963",
+   "name": "PALBOCICLIB",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL483254",
+   "name": "PANOBINOSTAT",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL477772",
+   "name": "PAZOPANIB",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL1194",
+   "name": "PRILOCAINE",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL1201486",
+   "name": "QUINIDINE POLYGALACTURONATE",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL343448",
+   "name": "ROMIDEPSIN",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL1336",
+   "name": "SORAFENIB",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL4535757",
+   "name": "SOTORASIB",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL535",
+   "name": "SUNITINIB",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL1200335",
+   "name": "TESTOSTERONE ENANTHATE",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL698",
+   "name": "TETRACAINE",
+   "robust": false,
+   "robustness_count": 1
+  },
+  {
+   "drug_id": "CHEMBL1229517",
+   "name": "VEMURAFENIB",
+   "robust": false,
+   "robustness_count": 1
+  }
+ ],
+ "links": "measured links with >= 2 records, no predicted links",
+ "module": {
+  "terms": [
+   "HP:0000121",
+   "HP:0001508",
+   "HP:0001518",
+   "HP:0001622",
+   "HP:0002859",
+   "HP:0003202",
+   "HP:0004322"
+  ],
+  "variants": {
+   "min2_terms": 1041,
+   "min3_terms": 297,
+   "top100_information_content": 100
+  }
+ },
+ "n_robust": 0,
+ "rule": {
+  "configurations": 9,
+  "robust_min": 7,
+  "top_n": 20
+ }
+}

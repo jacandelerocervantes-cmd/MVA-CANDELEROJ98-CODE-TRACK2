@@ -1,0 +1,727 @@
+{
+  "description": "Review of the paediatric status of US labels for drugs whose heuristic status was MIXED or unparsed and that matter for the ranking (robust, intermediate or paediatric-arm drugs with a strong proximity). Each verdict was made by reading the label's 'Pediatric Use' excerpt retrieved from DailyMed on 2026-10-06 (the excerpt text is kept in out/pediatric_arm.json and out/candidates.json). It is a reading by the author's assistant, not a pharmacist or regulatory review, and every entry must be re-verified against the current label before any use. The paediatric indication named is the labelled one and is generally unrelated to MVA. Entries for colchicine, selumetinib, daunorubicin, paclitaxel, natalizumab and fostamatinib were corrected on 2026-10-07 against the openFDA label text after an independent review found the earlier 'verify' status wrong. On 2026-10-08, 56 further entries were added by the same kind of reading (the complete 'Pediatric Use' text, and for labels without such a section the paediatric sentences of the whole label) for the drugs of the caution list, the class-level hypothesis and the single-line drugs; each carries a verbatim quote that was checked to appear in the label text. The reading also corrected products that the automatic label choice had got wrong (cyclosporine: systemic label instead of an ophthalmic emulsion; doxorubicin: conventional instead of liposomal; etoposide phosphate: ETOPOPHOS instead of etoposide injection; midostaurin: RYDAPT found by brand name) and one misread statement (cisplatin: an ototoxicity warning, not an established paediatric use). Verdict 'verify' means the label gives paediatric information without stating that use is established, and the question stays open. 'established' with no minimum age means the label names paediatric patients (a dosage schedule or indications) without an age. These are readings by the author's assistant, not a pharmacist or regulatory review; every entry must be re-verified against the current label before any use. Verdict `verify` means that the label is mixed or unreadable, or that its paediatric section only refers to information in another section without stating that paediatric use is established.",
+  "reviewed_on": "2026-10-08",
+  "entries": {
+    "CHEMBL1742994": {
+      "name": "BRENTUXIMAB VEDOTIN",
+      "verdict": "established",
+      "min_age_years": 2.0,
+      "scope": "previously untreated high-risk classical Hodgkin lymphoma in combination with chemotherapy; not established for other indications",
+      "route": "parenteral"
+    },
+    "CHEMBL601719": {
+      "name": "CRIZOTINIB",
+      "verdict": "established",
+      "min_age_years": 1.0,
+      "scope": "relapsed or refractory systemic ALK-positive anaplastic large cell lymphoma, and ALK-positive inflammatory myofibroblastic tumour; not established elsewhere",
+      "route": "oral"
+    },
+    "CHEMBL4559134": {
+      "name": "SELPERCATINIB",
+      "verdict": "established",
+      "min_age_years": 2.0,
+      "scope": "RET-mutant medullary thyroid cancer and RET fusion-positive thyroid cancer needing systemic therapy",
+      "route": "oral",
+      "earlier_source": "heuristic extraction and a first reading of 2026-10-06/07",
+      "source": "DailyMed setid=7fa848ba-a59c-4144-9f52-64d090f4d828, label effective 20260911, read 2026-10-08",
+      "quote": "The safety and effectiveness of RETEVMO have been established in pediatric patients aged 2 years and older"
+    },
+    "CHEMBL4582651": {
+      "name": "PRALSETINIB",
+      "verdict": "established",
+      "min_age_years": 12.0,
+      "scope": "RET fusion-positive thyroid cancer",
+      "route": "oral"
+    },
+    "CHEMBL92": {
+      "name": "DOCETAXEL ANHYDROUS",
+      "verdict": "not_established",
+      "scope": "label states paediatric efficacy has not been established (safety profile described only)",
+      "route": "parenteral",
+      "earlier_source": "heuristic extraction and a first reading of 2026-10-06/07",
+      "source": "DailyMed setid=2fb017fd-e55e-43ef-9024-07f2d412b37b, label effective 20260715, read 2026-10-08",
+      "quote": "The efficacy of docetaxel in pediatric patients as monotherapy or in combination has not been established."
+    },
+    "CHEMBL1201748": {
+      "name": "CABAZITAXEL",
+      "verdict": "not_established",
+      "scope": "label states safety and effectiveness in paediatric patients have not been established (a dose-finding study is described)",
+      "route": "parenteral",
+      "earlier_source": "heuristic extraction and a first reading of 2026-10-06/07",
+      "source": "DailyMed setid=ec6892c8-01e1-6a8b-e053-2995a90a956f, label effective 20221101, read 2026-10-08",
+      "quote": "The safety and effectiveness of cabazitaxel in pediatric patients have not been established."
+    },
+    "CHEMBL1095097": {
+      "name": "EPLERENONE",
+      "verdict": "not_established",
+      "scope": "not established for hypertension in paediatric patients",
+      "route": "oral"
+    },
+    "CHEMBL1421": {
+      "name": "DASATINIB ANHYDROUS",
+      "verdict": "established",
+      "min_age_years": 1.0,
+      "scope": "Ph+ chronic-phase CML (newly diagnosed) in paediatric patients; other indications not read",
+      "route": "oral"
+    },
+    "CHEMBL428647": {
+      "name": "PACLITAXEL",
+      "verdict": "not_established",
+      "route": "parenteral",
+      "source": "openFDA setid=0c12c77c-5fd4-48dc-a318-e96892233992, label effective 20240624, read 2026-10-08",
+      "scope": "safety and effectiveness in paediatric patients have not been established; central nervous system toxicity was reported in a paediatric trial (attributed to the ethanol in the vehicle)",
+      "earlier_source": "openFDA drug label API (label.json), text of the 'Pediatric Use' and 'Indications and Usage' sections, read 2026-10-07",
+      "quote": "The safety and effectiveness of paclitaxel in pediatric patients have not been established."
+    },
+    "CHEMBL107": {
+      "name": "COLCHICINE",
+      "verdict": "established",
+      "min_age_years": 4.0,
+      "route": "oral",
+      "source": "openFDA setid=0f69b9c6-8c00-45e2-b950-34dc5ae62352, label effective 20250701, read 2026-10-08",
+      "scope": "Familial Mediterranean fever in adults and children 4 years or older (the label's paediatric-use text says the safety and efficacy in children of all ages with FMF were evaluated in uncontrolled studies); not established for gout",
+      "earlier_source": "openFDA drug label API (label.json), text of the 'Pediatric Use' and 'Indications and Usage' sections, read 2026-10-07",
+      "quote": "The safety and efficacy of colchicine in children of all ages with FMF has been evaluated in uncontrolled studies."
+    },
+    "CHEMBL2110725": {
+      "name": "VINFLUNINE",
+      "verdict": "no_us_label",
+      "scope": "no US label found (approved elsewhere)",
+      "route": "parenteral"
+    },
+    "CHEMBL1568698": {
+      "name": "GANAXOLONE",
+      "verdict": "established",
+      "min_age_years": 2.0,
+      "scope": "seizures associated with CDKL5 deficiency disorder",
+      "route": "oral"
+    },
+    "CHEMBL3990044": {
+      "name": "RELATLIMAB",
+      "verdict": "established",
+      "min_age_years": 12.0,
+      "scope": "unresectable or metastatic melanoma, patients 12 years or older weighing at least 40 kg (fixed combination with nivolumab)",
+      "route": "parenteral"
+    },
+    "CHEMBL526": {
+      "name": "PROPOFOL",
+      "verdict": "established",
+      "min_age_years": 0.17,
+      "scope": "induction of anaesthesia from 3 years and maintenance from 2 months",
+      "route": "parenteral"
+    },
+    "CHEMBL655": {
+      "name": "MIDAZOLAM",
+      "verdict": "established",
+      "min_age_years": 0.0,
+      "scope": "sedation, anxiolysis and amnesia by continuous infusion in paediatric and neonatal patients",
+      "route": "parenteral"
+    },
+    "CHEMBL12": {
+      "name": "DIAZEPAM",
+      "verdict": "verify",
+      "scope": "one-line excerpt says safety and effectiveness below 6 months are not established; the rest was not read",
+      "route": "oral"
+    },
+    "CHEMBL568": {
+      "name": "OXAZEPAM",
+      "verdict": "verify",
+      "scope": "not established under 6 years; dosage for 6 to 12 years not established",
+      "route": "oral"
+    },
+    "CHEMBL451": {
+      "name": "CHLORDIAZEPOXIDE",
+      "verdict": "verify",
+      "scope": "use under 6 years not recommended; limited experience",
+      "route": "oral"
+    },
+    "CHEMBL1908360": {
+      "name": "EVEROLIMUS",
+      "verdict": "established",
+      "min_age_years": 1.0,
+      "scope": "label read: AFINITOR and AFINITOR DISPERZ; TSC-associated subependymal giant cell astrocytoma from 1 year (not established below 1 year); the ZORTRESS label (transplantation) says paediatric use below 18 years is not established",
+      "route": "oral",
+      "source": "DailyMed setid=2150f73a-179b-4afc-b8ce-67c85cc72f04, label effective 20260601, read 2026-10-08",
+      "quote": "The safety and effectiveness of AFINITOR/AFINITOR DISPERZ have been established in pediatric patients age 1 year and older with TSC-associated SEGA that requires therapeutic intervention but cannot be curatively resected.",
+      "also_read": [
+        {
+          "product": "Zortress",
+          "setid": "e082a024-7850-400b-a5c2-2a140612562a"
+        }
+      ]
+    },
+    "CHEMBL413": {
+      "name": "SIROLIMUS",
+      "verdict": "established",
+      "min_age_years": 13.0,
+      "scope": "prophylaxis of organ rejection in renal transplantation in children 13 years and older at low to moderate immunologic risk (not established below 13 years); label read: a repackager's sirolimus tablets",
+      "route": "oral",
+      "source": "DailyMed setid=9970e495-29c4-47b8-a3e9-c9b365abe400, label effective 20260911, read 2026-10-08",
+      "quote": "The safety and efficacy of sirolimus oral solution and sirolimus tablets have been established for prophylaxis of organ rejection in renal transplantation in children ≥13 years judged to be at low- to moderate-immunologic risk."
+    },
+    "CHEMBL1201182": {
+      "name": "TEMSIROLIMUS",
+      "verdict": "not_established",
+      "scope": "effectiveness in paediatric patients with relapsed or refractory solid tumours has not been established",
+      "route": "parenteral"
+    },
+    "CHEMBL1522": {
+      "name": "ESZOPICLONE",
+      "verdict": "not_established",
+      "scope": "not established in paediatric patients; failed to show efficacy in ADHD-associated insomnia",
+      "route": "oral"
+    },
+    "CHEMBL1614701": {
+      "name": "SELUMETINIB",
+      "verdict": "established",
+      "min_age_years": 1.0,
+      "scope": "neurofibromatosis type 1 with symptomatic, inoperable plexiform neurofibromas, from 1 year (not established below 1 year); growth plate dysplasia in young rats",
+      "route": "oral",
+      "source": "DailyMed setid=7d042c61-f28f-4ab5-ab10-d7558c0d49ff, label effective 20260526, read 2026-10-08",
+      "quote": "The safety and effectiveness have been established in pediatric patients 1 year of age and older with NF1 who have inoperable PN",
+      "earlier_source": "openFDA drug label API (label.json), text of the 'Pediatric Use' and 'Indications and Usage' sections, read 2026-10-07"
+    },
+    "CHEMBL178": {
+      "name": "DAUNORUBICIN",
+      "verdict": "established",
+      "min_age_years": null,
+      "route": "parenteral",
+      "source": "DailyMed setid=9705fa12-499e-41a3-8fb4-f6df0858b851, label effective 20260119, read 2026-10-08",
+      "scope": "remission induction in acute lymphocytic leukaemia of children and adults (a minimum age is not stated); the paediatric-use text says appropriate studies were not performed in children and that cardiotoxicity may be more frequent and occur at lower cumulative doses in children",
+      "caution": "label: cardiotoxicity may be more frequent and occur at lower cumulative doses in children",
+      "earlier_source": "openFDA drug label API (label.json), text of the 'Pediatric Use' and 'Indications and Usage' sections, read 2026-10-07",
+      "quote": "for remission induction in acute lymphocytic leukemia of children and adults"
+    },
+    "CHEMBL1201607": {
+      "name": "NATALIZUMAB",
+      "verdict": "not_established",
+      "route": "parenteral",
+      "source": "DailyMed setid=ef653c36-dd4b-4e71-9d2d-40b8fea24b67, label effective 20251031, read 2026-10-08",
+      "scope": "not indicated in patients under 18 years (multiple sclerosis, Crohn's disease)",
+      "earlier_source": "openFDA drug label API (label.json), text of the 'Pediatric Use' and 'Indications and Usage' sections, read 2026-10-07",
+      "quote": "TYRUKO is not indicated for use in pediatric patients."
+    },
+    "CHEMBL2103830": {
+      "name": "FOSTAMATINIB",
+      "verdict": "not_established",
+      "route": "oral",
+      "source": "openFDA drug label API (label.json), text of the 'Pediatric Use' and 'Indications and Usage' sections, read 2026-10-07",
+      "scope": "not recommended under 18 years because of effects on actively growing bones in non-clinical studies",
+      "caution": "label: not recommended under 18 years; chondrodystrophy of the femoral head and growth-plate dysplasia in juvenile animals (relevant to a child with growth restriction)"
+    },
+    "CHEMBL4204794": {
+      "name": "AVAPRITINIB",
+      "verdict": "not_established",
+      "scope": "no paediatric use established",
+      "route": "oral",
+      "source": "DailyMed setid=645c887c-8cd4-4623-8da9-ac223d71a8b9, label effective 20260914, read 2026-10-08",
+      "quote": "The safety and effectiveness of AYVAKIT in pediatric patients have not been established."
+    },
+    "CHEMBL487253": {
+      "name": "BENDAMUSTINE",
+      "verdict": "not_established",
+      "scope": "not established; a trial in patients aged 1 to 19 years with relapsed or refractory acute leukaemia showed no treatment response",
+      "route": "parenteral",
+      "source": "DailyMed setid=085dd54c-4212-d879-afef-ee52732a48c0, label effective 20260909, read 2026-10-08",
+      "quote": "There was no treatment response (CR+ CRp) in any patient."
+    },
+    "CHEMBL325041": {
+      "name": "BORTEZOMIB",
+      "verdict": "not_established",
+      "scope": "not established; studied with chemotherapy in paediatric and young adult lymphoid malignancies",
+      "route": "parenteral",
+      "source": "DailyMed setid=b605b541-4bfd-db3e-9710-11c27f6dee6c, label effective 20260909, read 2026-10-08",
+      "quote": "Safety and effectiveness have not been established in pediatric patients."
+    },
+    "CHEMBL820": {
+      "name": "BUSULFAN",
+      "verdict": "verify",
+      "scope": "label (injection): effectiveness in the labelled indication (conditioning before transplantation for CML) not studied in children; a 24-patient pharmacokinetic study (5 months to 16 years) supports a suggested paediatric dosing nomogram; no statement that paediatric use is established",
+      "route": "parenteral",
+      "source": "DailyMed setid=086a715e-4958-4bb5-9ebd-86171e6b6203, label effective see setid, read 2026-10-08",
+      "quote": "The effectiveness of Busulfan Injection in the treatment of CML has not been specifically studied in pediatric patients."
+    },
+    "CHEMBL2105717": {
+      "name": "CABOZANTINIB",
+      "verdict": "established",
+      "min_age_years": 12.0,
+      "scope": "differentiated thyroid cancer and neuroendocrine tumours in patients aged 12 years and older (CABOMETYX); physeal widening seen in children with open growth plates",
+      "route": "oral",
+      "source": "DailyMed setid=3850cce2-6137-42e5-a792-d318c4a4b3b5, label effective 20251019, read 2026-10-08",
+      "quote": "have been established in pediatric patients aged 12 years and older."
+    },
+    "CHEMBL3188267": {
+      "name": "CAPMATINIB",
+      "verdict": "not_established",
+      "scope": "no paediatric use established",
+      "route": "oral",
+      "source": "DailyMed setid=455892c3-d144-4ba8-9ab4-79cabff9876d, label effective 20251215, read 2026-10-08",
+      "quote": "Safety and effectiveness of TABRECTA in pediatric patients have not been established."
+    },
+    "CHEMBL1351": {
+      "name": "CARBOPLATIN",
+      "verdict": "not_established",
+      "scope": "not established; the label refers to audiologic toxicity",
+      "route": "parenteral",
+      "source": "DailyMed setid=4c89cedc-e48b-445c-ad05-54dbe60e4fb0, label effective 20260721, read 2026-10-08",
+      "quote": "Safety and effectiveness in pediatric patients have not been established"
+    },
+    "CHEMBL451887": {
+      "name": "CARFILZOMIB",
+      "verdict": "not_established",
+      "scope": "not established; evaluated with chemotherapy in 124 patients aged 1 to <17 years with relapsed or refractory ALL",
+      "route": "parenteral",
+      "source": "DailyMed setid=ea66eb30-e665-4693-99a1-a9d3b4bbe2d6, label effective 20250618, read 2026-10-08",
+      "quote": "The safety and effectiveness of Kyprolis in pediatric patients have not been established."
+    },
+    "CHEMBL513": {
+      "name": "CARMUSTINE",
+      "verdict": "not_established",
+      "scope": "label read: carmustine for injection (Heritage/Avet), intravenous; paediatric use not established",
+      "route": "intravenous",
+      "source": "DailyMed setid=b9b47082-32ee-4abb-a7b2-52292894d3f8, label effective 20260409, read 2026-10-09",
+      "quote": "Safety and effectiveness in children have not been established."
+    },
+    "CHEMBL2403108": {
+      "name": "CERITINIB",
+      "verdict": "not_established",
+      "scope": "no paediatric use established",
+      "route": "oral",
+      "source": "DailyMed setid=fff5d805-4ffd-4e8e-8e63-6f129697563e, label effective 20251215, read 2026-10-08",
+      "quote": "The safety and effectiveness of ZYKADIA in pediatric patients have not been established."
+    },
+    "CHEMBL515": {
+      "name": "CHLORAMBUCIL",
+      "verdict": "not_established",
+      "scope": "no paediatric use established",
+      "route": "oral",
+      "source": "openFDA setid=58a3c995-5ad6-465d-8437-5970c9088213, label effective 20250108, read 2026-10-08",
+      "quote": "The safety and effectiveness in pediatric patients have not been established."
+    },
+    "CHEMBL11359": {
+      "name": "CISPLATIN",
+      "verdict": "not_established",
+      "scope": "no paediatric indication; the label's paediatric statement is an ototoxicity warning (more severe in patients under 5 years). The earlier heuristic 'established from 5 years' misread that warning",
+      "route": "parenteral",
+      "source": "DailyMed setid=508496cb-3441-46b3-a4fe-e0d440e6adc6, label effective 20260624, read 2026-10-08",
+      "quote": "Ototoxic effects may be more severe and detrimental in pediatric patients receiving cisplatin for injection, particularly in patients less than 5 years of age."
+    },
+    "CHEMBL160": {
+      "name": "CYCLOSPORINE",
+      "verdict": "verify",
+      "scope": "systemic labels (Sandimmune; Neoral and Gengraf): no adequate and well-controlled studies in children, but transplant recipients from 6 months (Sandimmune) or 1 year (Neoral, Gengraf) have received it; not established below 18 years for juvenile rheumatoid arthritis or psoriasis. The earlier automatic read used an ophthalmic emulsion label, the wrong product",
+      "route": "oral and parenteral",
+      "source": "DailyMed setid=5e5926a7-1de0-4b54-a5c0-286b6200ff82, label effective see setid, read 2026-10-08",
+      "quote": "patients as young as 6 months of age have received cyclosporine with no unusual adverse effects.",
+      "also_read": [
+        {
+          "product": "Neoral",
+          "setid": "94461af3-11f1-4670-95d4-2965b9538ae3"
+        },
+        {
+          "product": "Gengraf",
+          "setid": "e896cbfe-4745-4088-82a3-8dc10b75c41f"
+        }
+      ]
+    },
+    "CHEMBL476": {
+      "name": "DACARBAZINE",
+      "verdict": "not_established",
+      "scope": "the label contains no paediatric statement (no mention of children or paediatric patients); adult indications only, so paediatric use is not labelled",
+      "route": "parenteral",
+      "source": "DailyMed setid=0d81315c-7021-4091-b703-ad135390c936, label effective 20250922, read 2026-10-08"
+    },
+    "CHEMBL517": {
+      "name": "DISOPYRAMIDE",
+      "verdict": "not_established",
+      "scope": "no paediatric use established",
+      "route": "oral",
+      "source": "DailyMed setid=31e79459-107f-4d69-a163-90014f1c4772, label effective 20260318, read 2026-10-08",
+      "quote": "Safety and effectiveness in pediatric patients have not been established"
+    },
+    "CHEMBL53463": {
+      "name": "DOXORUBICIN",
+      "verdict": "established",
+      "min_age_years": null,
+      "scope": "label read: conventional doxorubicin hydrochloride injection (the earlier automatic read used the liposomal product, where paediatric use is not established). The indications include childhood cancers (metastatic Wilms' tumor, metastatic neuroblastoma) and the label gives paediatric safety information (late cardiovascular dysfunction, especially under 5 years) without a minimum age or a statement of established effectiveness",
+      "route": "parenteral",
+      "source": "DailyMed setid=1fd148fb-0fbc-4b6f-b790-23546fb46a71, label effective see setid, read 2026-10-08",
+      "quote": "There are no recommended dose adjustments based on age."
+    },
+    "CHEMBL1983268": {
+      "name": "ENTRECTINIB",
+      "verdict": "established",
+      "min_age_years": 0.0833,
+      "scope": "solid tumours with an NTRK gene fusion in patients older than 1 month; not established in paediatric ROS1-positive NSCLC",
+      "route": "oral",
+      "source": "DailyMed setid=c7c71b0c-2549-4495-86b6-c2807fa54908, label effective 20251204, read 2026-10-08",
+      "quote": "The safety and effectiveness of ROZLYTREK have been established in pediatric patients older than 1 month of age"
+    },
+    "CHEMBL417": {
+      "name": "EPIRUBICIN",
+      "verdict": "not_established",
+      "scope": "not established; paediatric patients may be at greater risk of anthracycline cardiotoxicity",
+      "route": "parenteral",
+      "source": "DailyMed setid=f7ec5ec1-fb05-4c78-b821-9aea638cf144, label effective 20080611, read 2026-10-08",
+      "quote": "The safety and effectiveness of epirubicin in pediatric patients have not been established in adequate and well-controlled clinical trials."
+    },
+    "CHEMBL1683590": {
+      "name": "ERIBULIN",
+      "verdict": "not_established",
+      "scope": "not established",
+      "route": "parenteral",
+      "source": "DailyMed setid=64bf3c30-f06a-3615-ca5e-eb4154d371d0, label effective 20260910, read 2026-10-08",
+      "quote": "The safety and effectiveness of eribulin mesylate in pediatric patients have not been established."
+    },
+    "CHEMBL44657": {
+      "name": "ETOPOSIDE",
+      "verdict": "not_established",
+      "scope": "label read: etoposide injection. It has no paediatric-use section; it reports pharmacokinetics and anaphylactic-like reactions in children and has adult indications only, so paediatric use is not labelled",
+      "route": "parenteral",
+      "source": "DailyMed setid=fe870629-104d-4d67-a7c6-f53bc588121e, label effective 20260714, read 2026-10-08",
+      "quote": "Higher rates of anaphylactic-like reactions have been reported in children who received infusions at concentrations higher than those recommended."
+    },
+    "CHEMBL1200645": {
+      "name": "ETOPOSIDE PHOSPHATE",
+      "verdict": "not_established",
+      "scope": "label read: ETOPOPHOS (the earlier automatic read used the etoposide injection label)",
+      "route": "parenteral",
+      "source": "DailyMed setid=7499fc35-fae8-44ad-bbab-9a1a589bf3ee, label effective see setid, read 2026-10-08",
+      "quote": "Safety and effectiveness in pediatric patients have not been established."
+    },
+    "CHEMBL3301622": {
+      "name": "GILTERITINIB",
+      "verdict": "not_established",
+      "scope": "no paediatric use established",
+      "route": "oral",
+      "source": "DailyMed setid=b5ff59aa-9c0d-49a8-9053-1f179b482383, label effective 20261001, read 2026-10-08",
+      "quote": "Safety and effectiveness in pediatric patients have not been established."
+    },
+    "CHEMBL1117": {
+      "name": "IDARUBICIN",
+      "verdict": "not_established",
+      "scope": "not established",
+      "route": "parenteral",
+      "source": "DailyMed setid=d31254be-6bd2-4ac1-acab-bc00e2209d28, label effective 20250509, read 2026-10-08",
+      "quote": "Safety and effectiveness in children have not been established."
+    },
+    "CHEMBL1024": {
+      "name": "IFOSFAMIDE",
+      "verdict": "not_established",
+      "scope": "not established; renal rickets, growth retardation and infertility reported in paediatric patients",
+      "route": "parenteral",
+      "source": "openFDA setid=91e433a9-6800-43a6-ac13-a49a04a5aecd, label effective 20241202, read 2026-10-08",
+      "quote": "Safety and effectiveness have not been established in pediatric patients."
+    },
+    "CHEMBL1201752": {
+      "name": "IXABEPILONE",
+      "verdict": "not_established",
+      "scope": "not established; the alcohol content should be considered in paediatric patients",
+      "route": "parenteral",
+      "source": "DailyMed setid=241f0b1e-8b95-470d-876f-bf1804daaf18, label effective 20251204, read 2026-10-08",
+      "quote": "The safety and effectiveness of IXEMPRA in pediatric patients have not been established."
+    },
+    "CHEMBL3545432": {
+      "name": "IXAZOMIB CITRATE",
+      "verdict": "not_established",
+      "scope": "no paediatric use established",
+      "route": "oral",
+      "source": "DailyMed setid=038f2461-834b-4488-9ebd-863c83eef5a7, label effective 20260811, read 2026-10-08",
+      "quote": "Safety and effectiveness of NINLARO have not been established in pediatric patients."
+    },
+    "CHEMBL3889654": {
+      "name": "LAROTRECTINIB",
+      "verdict": "established",
+      "min_age_years": null,
+      "scope": "solid tumours with an NTRK gene fusion; the label states that safety and effectiveness were established in paediatric patients and gives no minimum age (safety was evaluated from under 1 month of age); the age is not assumed",
+      "route": "oral",
+      "source": "DailyMed setid=0c8ca614-58b2-4aa4-83d3-0387a8f782fd, label effective 20260522, read 2026-10-08",
+      "quote": "The safety and effectiveness of VITRAKVI in pediatric patients was established"
+    },
+    "CHEMBL1289601": {
+      "name": "LENVATINIB",
+      "verdict": "not_established",
+      "scope": "not established; studied in 232 patients aged 2 to <17 years with relapsed or refractory solid tumours",
+      "route": "oral",
+      "source": "DailyMed setid=f4bedd21-efde-44c6-9d9c-b48b78d7ed1e, label effective 20260630, read 2026-10-08",
+      "quote": "The safety and effectiveness of LENVIMA in pediatric patients have not been established."
+    },
+    "CHEMBL514": {
+      "name": "LOMUSTINE",
+      "verdict": "not_established",
+      "scope": "paediatric use, including dose, is not based on adequate and well-controlled studies",
+      "route": "oral",
+      "source": "DailyMed setid=3c3637fc-4499-4331-a3c4-6969fc86704e, label effective 20260212, read 2026-10-08",
+      "quote": "Pediatric use, including dose, is not based on adequate and well-controlled clinical studies."
+    },
+    "CHEMBL4298185": {
+      "name": "LONAPEGSOMATROPIN",
+      "verdict": "established",
+      "min_age_years": 1.0,
+      "scope": "growth failure due to inadequate secretion of endogenous growth hormone in patients 1 year and older weighing at least 11.5 kg; not indicated in Prader-Willi syndrome; not established under 1 year. Contraindicated in active malignancy (see the caution list)",
+      "route": "parenteral",
+      "source": "DailyMed setid=9229f871-bc61-4ddc-8122-d126d40e36ac, label effective 20260723, read 2026-10-08",
+      "quote": "Safety and effectiveness of SKYTROFA have been established in pediatric patients 1 year and older and who weigh at least 11.5 kg."
+    },
+    "CHEMBL427": {
+      "name": "MECHLORETHAMINE",
+      "verdict": "not_established",
+      "scope": "label read: Valchlor, a topical gel for cutaneous T-cell lymphoma; the only US label found, a topical product that does not describe the systemic drug; paediatric use not established",
+      "route": "topical",
+      "source": "openFDA setid=6a52e4c2-6a9f-4ebb-bc77-046b4f8bcd57, label effective 20241120, read 2026-10-08",
+      "quote": "Safety and effectiveness in pediatric patients have not been established."
+    },
+    "CHEMBL852": {
+      "name": "MELPHALAN",
+      "verdict": "not_established",
+      "scope": "label read: EVOMELA; paediatric patients were not included in the trials",
+      "route": "parenteral",
+      "source": "DailyMed setid=69f55869-dc11-408e-8fc7-47634269a52c, label effective 20260915, read 2026-10-08",
+      "quote": "Pediatric patients were not included in clinical trials."
+    },
+    "CHEMBL608533": {
+      "name": "MIDOSTAURIN",
+      "verdict": "not_established",
+      "scope": "label read: RYDAPT (found by brand name; a search by generic name returned nothing); studied in children with leukaemia, with prolonged grade 4 cytopenias when combined with chemotherapy",
+      "route": "oral",
+      "source": "DailyMed setid=11fa3fc9-6776-49a6-b1c1-653f627c3e58, label effective see setid, read 2026-10-08",
+      "quote": "Safety and effectiveness of RYDAPT have not been established in pediatric patients."
+    },
+    "CHEMBL58": {
+      "name": "MITOXANTRONE",
+      "verdict": "not_established",
+      "scope": "not established",
+      "route": "parenteral",
+      "source": "DailyMed setid=accf9569-4b57-4e83-a7db-4e890a75d1ba, label effective 20250714, read 2026-10-08",
+      "quote": "Safety and effectiveness in pediatric patients have not been established."
+    },
+    "CHEMBL502835": {
+      "name": "NINTEDANIB",
+      "verdict": "not_established",
+      "scope": "not established; effectiveness was not demonstrated in a randomised study in children aged 6 to 17 years with fibrosing interstitial lung disease; bone and tooth changes in young animals",
+      "route": "oral",
+      "source": "DailyMed setid=4ecf7f05-4a95-b98c-e063-6394a90ab896, label effective 20260730, read 2026-10-08",
+      "quote": "The safety and effectiveness of nintedanib capsules have not been established in pediatric patients"
+    },
+    "CHEMBL414804": {
+      "name": "OXALIPLATIN",
+      "verdict": "not_established",
+      "scope": "not established; assessed in four studies in patients aged 7 months to 22 years with solid tumours",
+      "route": "parenteral",
+      "source": "DailyMed setid=a6f89dc3-a594-4b5b-8728-272e20c1ecb5, label effective 20260824, read 2026-10-08",
+      "quote": "The safety and effectiveness of oxaliplatin in pediatrics have not been established."
+    },
+    "CHEMBL477772": {
+      "name": "PAZOPANIB",
+      "verdict": "not_established",
+      "scope": "not established and not indicated in paediatric patients (severe effects on organ growth in juvenile rats)",
+      "route": "oral",
+      "source": "DailyMed setid=b05ea49a-a764-5ff2-6e4a-26add69da9e2, label effective 20260916, read 2026-10-08",
+      "quote": "Pazopanib tablets are not indicated for use in pediatric patients"
+    },
+    "CHEMBL3813873": {
+      "name": "PEXIDARTINIB",
+      "verdict": "not_established",
+      "scope": "no paediatric use established",
+      "route": "oral",
+      "source": "DailyMed setid=7b0ec4bf-b2ac-49ee-96af-7740ad3f2e16, label effective 20250116, read 2026-10-08",
+      "quote": "The safety and effectiveness of TURALIO in pediatric patients have not been established."
+    },
+    "CHEMBL43452": {
+      "name": "POMALIDOMIDE",
+      "verdict": "not_established",
+      "scope": "not established; assessed in children aged 4 to <17 years with CNS tumours",
+      "route": "oral",
+      "source": "DailyMed setid=b8c3b7f3-7e72-47af-be23-133e7bb3db59, label effective 20260902, read 2026-10-08",
+      "quote": "The safety and effectiveness of pomalidomide have not been established in pediatric patients."
+    },
+    "CHEMBL576982": {
+      "name": "QUIZARTINIB",
+      "verdict": "not_established",
+      "scope": "no paediatric use established",
+      "route": "oral",
+      "source": "DailyMed setid=29cdbcfe-497d-4e78-bb7b-2d4acafe8e86, label effective 20260416, read 2026-10-08",
+      "quote": "Safety and effectiveness of VANFLYTA have not been established in pediatric patients."
+    },
+    "CHEMBL1946170": {
+      "name": "REGORAFENIB",
+      "verdict": "not_established",
+      "scope": "not established below 18 years; dentin and growth-plate findings in young animals",
+      "route": "oral",
+      "source": "DailyMed setid=824f19c9-0546-4a8a-8d8f-c4055c04f7c7, label effective 20260209, read 2026-10-08",
+      "quote": "The safety and efficacy of STIVARGA in pediatric patients less than 18 years of age have not been established."
+    },
+    "CHEMBL4216467": {
+      "name": "RIPRETINIB",
+      "verdict": "not_established",
+      "scope": "no paediatric use established; bone and tooth findings in rats",
+      "route": "oral",
+      "source": "DailyMed setid=9f18e462-03dd-4296-a02a-a0577e3ee78d, label effective 20250512, read 2026-10-08",
+      "quote": "The safety and effectiveness of QINLOCK in pediatric patients have not been established."
+    },
+    "CHEMBL3545185": {
+      "name": "SELINEXOR",
+      "verdict": "not_established",
+      "scope": "no paediatric use established",
+      "route": "oral",
+      "source": "DailyMed setid=f6dd2682-75a6-4863-90a8-a3197f6f78a8, label effective 20260512, read 2026-10-08",
+      "quote": "The safety and effectiveness of XPOVIO have not been established in pediatric patients."
+    },
+    "CHEMBL3707290": {
+      "name": "SOMAPACITAN",
+      "verdict": "established",
+      "min_age_years": 2.5,
+      "scope": "growth failure due to inadequate secretion of endogenous growth hormone, short stature born small for gestational age, growth failure associated with Noonan syndrome and idiopathic short stature, from 2.5 years; not established under 2.5 years",
+      "route": "parenteral",
+      "source": "DailyMed setid=eadd03b4-adc3-4b88-8a24-9d205c5b85aa, label effective 20260225, read 2026-10-08",
+      "quote": "The safety and effectiveness of SOGROYA have been established in pediatric patients 2.5 years of age and older"
+    },
+    "CHEMBL4297830": {
+      "name": "SOMATROGON",
+      "verdict": "established",
+      "min_age_years": 3.0,
+      "scope": "growth failure due to inadequate secretion of endogenous growth hormone in patients aged 3 years and older",
+      "route": "parenteral",
+      "source": "DailyMed setid=06dce529-b741-4a1b-8842-3ad77be6e308, label effective 20260814, read 2026-10-08",
+      "quote": "NGENLA have been established for the treatment of growth failure due to inadequate secretion of endogenous growth hormone (GH) in pediatric patients aged 3 years and older"
+    },
+    "CHEMBL1201621": {
+      "name": "SOMATROPIN",
+      "verdict": "established",
+      "min_age_years": null,
+      "scope": "label read: HUMATROPE; growth hormone deficiency, Turner syndrome, idiopathic short stature, SHOX deficiency and short stature in children born small for gestational age; the label states no minimum age (the SGA indication refers to no catch-up growth by 2 to 4 years of age)",
+      "route": "parenteral",
+      "source": "DailyMed setid=a774e1ae-3997-49ee-8b0e-99a2b315d409, label effective 20260820, read 2026-10-08",
+      "quote": "Safety and effectiveness of HUMATROPE in pediatric patients have been established in growth failure due to inadequate secretion of endogenous growth hormone"
+    },
+    "CHEMBL1336": {
+      "name": "SORAFENIB",
+      "verdict": "not_established",
+      "scope": "not established; growth-plate and bone-marrow findings in young dogs",
+      "route": "oral",
+      "source": "DailyMed setid=faa9d847-2cd5-6538-e053-6394a90aa92b, label effective 20260728, read 2026-10-08",
+      "quote": "The safety and effectiveness of sorafenib tablets have not been established in pediatric patients."
+    },
+    "CHEMBL535": {
+      "name": "SUNITINIB",
+      "verdict": "not_established",
+      "scope": "not established; poorly tolerated in children with dose-limiting cardiotoxicity",
+      "route": "oral",
+      "source": "DailyMed setid=a9479e5f-914f-46ca-95c1-327c66457e47, label effective 20250101, read 2026-10-08",
+      "quote": "The safety and effectiveness of sunitinib malate in pediatric patients have not been established."
+    },
+    "CHEMBL810": {
+      "name": "TEMOZOLOMIDE",
+      "verdict": "not_established",
+      "scope": "not established; assessed in two studies in patients aged 3 to 18 years",
+      "route": "oral",
+      "source": "DailyMed setid=9dff10ec-6a55-47b6-a458-b7c39e32dc55, label effective 20260929, read 2026-10-08",
+      "quote": "Safety and effectiveness of Temozolomide have not been established in pediatric patients."
+    },
+    "CHEMBL671": {
+      "name": "THIOTEPA",
+      "verdict": "established",
+      "min_age_years": 0.0833,
+      "scope": "prevention of graft rejection in paediatric patients undergoing allogeneic transplantation for class 3 beta-thalassaemia (studied from 1 month); not established in neonates, nor for breast, ovarian or bladder cancer",
+      "route": "parenteral",
+      "source": "DailyMed setid=6cd6ae89-c553-4328-9262-4363610a1f19, label effective 20260123, read 2026-10-08",
+      "quote": "The safety and effectiveness of thiotepa for prevention of graft rejection in pediatric patients undergoing allogeneic HSCT for class 3 beta-thalassemia was established"
+    },
+    "CHEMBL455186": {
+      "name": "TREOSULFAN",
+      "verdict": "established",
+      "min_age_years": 1.0,
+      "scope": "preparative regimen with fludarabine before allogeneic transplantation for AML or myelodysplastic syndrome in adult and paediatric patients 1 year of age and older (from the indications; the label has no paediatric-use section)",
+      "route": "parenteral",
+      "source": "DailyMed setid=2d06b03c-17aa-0492-e063-6294a90abd8f, label effective 20250131, read 2026-10-08",
+      "quote": "Use in combination with fludarabine as a preparative regimen for allogeneic hematopoietic stem cell transplantation in adult and pediatric patients 1 year of age and older"
+    },
+    "CHEMBL1096885": {
+      "name": "VALRUBICIN",
+      "verdict": "not_established",
+      "scope": "no paediatric use established",
+      "route": "intravesical",
+      "source": "DailyMed setid=8739ae02-e4c5-0fa2-e053-2a91aa0a1b74, label effective 20220630, read 2026-10-08",
+      "quote": "Safety and effectiveness in pediatric patients have not been established."
+    },
+    "CHEMBL24828": {
+      "name": "VANDETANIB",
+      "verdict": "not_established",
+      "scope": "no paediatric use established",
+      "route": "oral",
+      "source": "DailyMed setid=e5721cb8-4185-47b9-bbb3-1c587e558a03, label effective 20260423, read 2026-10-08",
+      "quote": "Safety and efficacy of CAPRELSA in pediatric patients have not been established."
+    },
+    "CHEMBL159": {
+      "name": "VINBLASTINE",
+      "verdict": "verify",
+      "min_age_years": null,
+      "scope": "the paediatric section only refers to the dosage section, which gives a paediatric dosage schedule; no minimum age and no statement of established effectiveness (implicit paediatric labelling)",
+      "route": "parenteral",
+      "source": "DailyMed setid=f073b58e-56d6-4c8d-a2ce-b37719402d77, label effective 20250415, read 2026-10-08",
+      "quote": "The dosage schedule for pediatric patients is indicated under DOSAGE AND ADMINISTRATION"
+    },
+    "CHEMBL90555": {
+      "name": "VINCRISTINE",
+      "verdict": "verify",
+      "min_age_years": null,
+      "scope": "the paediatric section only refers to the dosage section; the label gives paediatric dosing (including for patients weighing 10 kg or less) and warns of deaths in children under 13 years after doses ten times the recommended dose; no minimum age and no statement of established effectiveness (implicit paediatric labelling)",
+      "route": "parenteral",
+      "source": "DailyMed setid=b22e4c8e-dbe1-4d4b-a026-e1812974071c, label effective 20260217, read 2026-10-08",
+      "quote": "In pediatric patients under 13 years of age, death has occurred following doses of vincristine sulfate that were 10 times those recommended for therapy."
+    },
+    "CHEMBL553025": {
+      "name": "VINORELBINE",
+      "verdict": "not_established",
+      "scope": "not established; a single-arm study in patients aged 1 to 25 years with recurrent solid tumours",
+      "route": "parenteral",
+      "source": "DailyMed setid=10a70995-e04d-4044-b1dc-c9aa27460397, label effective 20240816, read 2026-10-08",
+      "quote": "The safety and effectiveness of vinorelbine in pediatric patients have not been established."
+    },
+    "CHEMBL1431": {
+      "name": "METFORMIN",
+      "verdict": "established",
+      "min_age_years": 10.0,
+      "scope": "type 2 diabetes mellitus in patients 10 to 16 years old (not established below 10 years); label read: a repackager's metformin hydrochloride tablets",
+      "route": "oral",
+      "source": "DailyMed setid=23aa50c5-28fe-4322-b5c6-1f1c48409b16, label effective 20260921, read 2026-10-08",
+      "quote": "The safety and effectiveness of metformin hydrochloride for the treatment of type 2 diabetes mellitus have been established in pediatric patients 10 to 16 years old."
+    },
+    "CHEMBL2103875": {
+      "name": "TRAMETINIB",
+      "verdict": "established",
+      "min_age_years": 1.0,
+      "scope": "in combination with dabrafenib, BRAF V600E-positive solid tumours and low-grade glioma from 1 year; not established as a single agent in paediatric patients",
+      "route": "oral",
+      "source": "DailyMed setid=0002ad27-779d-42ab-83b5-bc65453412a1, label effective 20260507, read 2026-10-08",
+      "quote": "The safety and effectiveness of MEKINIST as a single agent in pediatric patients have not been established."
+    },
+    "CHEMBL76": {
+      "name": "CHLOROQUINE",
+      "verdict": "verify",
+      "min_age_years": null,
+      "scope": "the paediatric section only refers to the warnings and the dosage section (paediatric dosing for malaria); no statement of established use and no minimum age (implicit paediatric labelling)",
+      "route": "oral",
+      "source": "DailyMed setid=eb02c52d-907c-43fb-aa8f-2f378a9087e7, label effective 20260929, read 2026-10-08",
+      "quote": "Pediatric Use See WARNINGS and DOSAGE AND ADMINISTRATION"
+    },
+    "CHEMBL288441": {
+      "name": "BOSUTINIB",
+      "verdict": "established",
+      "min_age_years": 1.0,
+      "scope": "chronic-phase Philadelphia-chromosome-positive chronic myelogenous leukaemia (newly diagnosed, or resistant or intolerant) from 1 year; no other paediatric indication; label read: Bosulif (Pfizer)",
+      "route": "oral",
+      "source": "DailyMed setid=adc84ad5-a04d-4fee-9ba8-91f7abd928e3, label effective 20260310, read 2026-10-08",
+      "quote": "The safety and effectiveness of BOSULIF have been established in pediatric patients 1 year of age and older with newly-diagnosed CP Ph+ CML and CP Ph+ CML that is resistant or intolerant to prior therapy."
+    },
+    "CHEMBL1469": {
+      "name": "PHENYLBUTANOIC ACID",
+      "verdict": "established",
+      "min_age_years": null,
+      "scope": "adjunctive therapy of urea cycle disorders, including neonatal-onset disease (presenting within the first 28 days of life); tablets are not recommended for neonates, infants and children up to 20 kg; label read: Buphenyl (sodium phenylbutyrate, Horizon)",
+      "route": "oral",
+      "source": "DailyMed setid=463a36fa-3eb2-4326-8bd0-c8c7a11bca3a, label effective 20241030, read 2026-10-08",
+      "quote": "It is indicated in all patients with neonatal-onset deficiency (complete enzymatic deficiency, presenting within the first 28 days of life)."
+    }
+  }
+}

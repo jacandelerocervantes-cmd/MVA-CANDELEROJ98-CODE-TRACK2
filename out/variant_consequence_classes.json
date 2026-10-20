@@ -1,0 +1,63 @@
+{
+  "genes": {
+    "BUB1B": {
+      "class_counts": {
+        "loss of function": 1,
+        "missense": 1
+      },
+      "decay_annotation": "not_annotated",
+      "n_loss_of_function": 1,
+      "n_variants_or_calls": 2
+    },
+    "CENPE": {
+      "class_counts": {
+        "structural call not overlapping coding sequence": 1
+      },
+      "decay_annotation": "not_applicable",
+      "n_loss_of_function": 0,
+      "n_variants_or_calls": 1
+    },
+    "DNAH10": {
+      "class_counts": {
+        "missense": 2
+      },
+      "decay_annotation": "not_applicable",
+      "n_loss_of_function": 0,
+      "n_variants_or_calls": 2
+    },
+    "IGBP1": {
+      "class_counts": {
+        "missense": 1
+      },
+      "decay_annotation": "not_applicable",
+      "n_loss_of_function": 0,
+      "n_variants_or_calls": 1
+    },
+    "IZUMO4": {
+      "class_counts": {
+        "in-frame": 1,
+        "missense": 1
+      },
+      "decay_annotation": "not_applicable",
+      "n_loss_of_function": 0,
+      "n_variants_or_calls": 2
+    },
+    "MAD1L1": {
+      "class_counts": {
+        "structural call not overlapping coding sequence": 2
+      },
+      "decay_annotation": "not_applicable",
+      "n_loss_of_function": 0,
+      "n_variants_or_calls": 2
+    },
+    "ZNF418": {
+      "class_counts": {
+        "missense": 1
+      },
+      "decay_annotation": "not_applicable",
+      "n_loss_of_function": 0,
+      "n_variants_or_calls": 1
+    }
+  },
+  "note": "Categorical classes and counts only. Predicted nonsense-mediated decay is not annotated in the Track 1 files, so loss-of-function variants are reported with decay_annotation = not_annotated; decay is not inferred."
+}

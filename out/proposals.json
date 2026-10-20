@@ -1,0 +1,1510 @@
+{
+ "age_groups": [
+  "0_to_under_3",
+  "3_to_under_12",
+  "12_and_older"
+ ],
+ "n_extrapolation": 3,
+ "n_main": 15,
+ "note": "FDA-approved drugs only. Hypotheses for follow-up; not medical advice and not dosing.",
+ "proposals": [
+  {
+   "acts_on": [
+    {
+     "gene": "ADRM1",
+     "role": "inhibits ADRM1 (curated mechanism)"
+    },
+    {
+     "gene": "PSMA1",
+     "role": "inhibits PSMA1 (curated mechanism)"
+    },
+    {
+     "gene": "PSMA2",
+     "role": "inhibits PSMA2 (curated mechanism)"
+    },
+    {
+     "gene": "PSMA3",
+     "role": "inhibits PSMA3 (curated mechanism)"
+    },
+    {
+     "gene": "PSMA4",
+     "role": "inhibits PSMA4 (curated mechanism)"
+    },
+    {
+     "gene": "PSMA5",
+     "role": "inhibits PSMA5 (curated mechanism)"
+    }
+   ],
+   "age_groups": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "approved_for": [
+    "Multiple Myeloma",
+    "Neoplasms"
+   ],
+   "arm": "main",
+   "cautions": {
+    "boxed_warning": false,
+    "broad_target_profile": true,
+    "excipient_alerts": [
+     "BETADEX SULFOBUTYL ETHER SODIUM"
+    ],
+    "label_caution": null,
+    "n_targets": 38
+   },
+   "drug_id": "CHEMBL451887",
+   "evidence": {
+    "L1_robust_proximity": true,
+    "L2_binding": true,
+    "L3_classes": [
+     "proteasome_inhibition"
+    ],
+    "L3_rationale": true,
+    "L4": {
+     "bub1b_only_call": "no_association",
+     "call": "no_association",
+     "diff_weak_minus_strong": 0.23,
+     "fdr_adjusted": 0.1975
+    },
+    "core": {
+     "L1_core": false,
+     "label": "proximity_by_generic_complex_only",
+     "robustness_count_core": 0
+    },
+    "expanded_best_z": -9.79,
+    "robustness_count_of_9": 9
+   },
+   "fda": {
+    "applications": [
+     "ANDA209330",
+     "ANDA209422",
+     "ANDA209425",
+     "ANDA209526",
+     "ANDA209528"
+    ],
+    "marketing_statuses": [
+     "Discontinued",
+     "None (Tentative Approval)",
+     "Prescription"
+    ],
+    "matched_name": "CARFILZOMIB",
+    "n_applications": 10
+   },
+   "hypothesis": "Carfilzomib (approved today for multiple myeloma, neoplasms) inhibits ADRM1 (curated mechanism) (and 5 more module proteins), a protein of the module of BUB1B, CENPE, MAD1L1: a hypothesis that it acts on the pathway disrupted by the submission's genes; the direction of effect for this patient is not established.",
+   "label_min_age_years": null,
+   "label_source": "heuristic",
+   "list": "tumour_context",
+   "name": "CARFILZOMIB",
+   "novelty": "curated_mechanism_already_near",
+   "tier": 1
+  },
+  {
+   "acts_on": [
+    {
+     "gene": "ADRM1",
+     "role": "inhibits ADRM1 (curated mechanism)"
+    },
+    {
+     "gene": "PSMA1",
+     "role": "inhibits PSMA1 (curated mechanism)"
+    },
+    {
+     "gene": "PSMA2",
+     "role": "inhibits PSMA2 (curated mechanism)"
+    },
+    {
+     "gene": "PSMA3",
+     "role": "inhibits PSMA3 (curated mechanism)"
+    },
+    {
+     "gene": "PSMA4",
+     "role": "inhibits PSMA4 (curated mechanism)"
+    },
+    {
+     "gene": "PSMA5",
+     "role": "inhibits PSMA5 (curated mechanism)"
+    }
+   ],
+   "age_groups": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "approved_for": [
+    "Multiple Myeloma"
+   ],
+   "arm": "main",
+   "cautions": {
+    "boxed_warning": false,
+    "broad_target_profile": true,
+    "excipient_alerts": [],
+    "label_caution": null,
+    "n_targets": 38
+   },
+   "drug_id": "CHEMBL3545432",
+   "evidence": {
+    "L1_robust_proximity": true,
+    "L2_binding": true,
+    "L3_classes": [
+     "proteasome_inhibition"
+    ],
+    "L3_rationale": true,
+    "L4": {
+     "bub1b_only_call": "no_association",
+     "call": "no_association",
+     "diff_weak_minus_strong": 0.27,
+     "fdr_adjusted": 0.0919
+    },
+    "core": {
+     "L1_core": false,
+     "label": "proximity_by_generic_complex_only",
+     "robustness_count_core": 0
+    },
+    "expanded_best_z": -9.7,
+    "robustness_count_of_9": 9
+   },
+   "fda": {
+    "applications": [
+     "NDA208462"
+    ],
+    "marketing_statuses": [
+     "Prescription"
+    ],
+    "matched_name": "IXAZOMIB CITRATE",
+    "n_applications": 1
+   },
+   "hypothesis": "Ixazomib Citrate (approved today for multiple myeloma) inhibits ADRM1 (curated mechanism) (and 5 more module proteins), a protein of the module of BUB1B, CENPE, MAD1L1: a hypothesis that it acts on the pathway disrupted by the submission's genes; the direction of effect for this patient is not established.",
+   "label_min_age_years": null,
+   "label_source": "heuristic",
+   "list": "tumour_context",
+   "name": "IXAZOMIB CITRATE",
+   "novelty": "curated_mechanism_already_near",
+   "tier": 1
+  },
+  {
+   "acts_on": [
+    {
+     "gene": "ADRM1",
+     "role": "inhibits ADRM1 (curated mechanism)"
+    },
+    {
+     "gene": "PSMA1",
+     "role": "inhibits PSMA1 (curated mechanism)"
+    },
+    {
+     "gene": "PSMA2",
+     "role": "inhibits PSMA2 (curated mechanism)"
+    },
+    {
+     "gene": "PSMA3",
+     "role": "inhibits PSMA3 (curated mechanism)"
+    },
+    {
+     "gene": "PSMA4",
+     "role": "inhibits PSMA4 (curated mechanism)"
+    },
+    {
+     "gene": "PSMA5",
+     "role": "inhibits PSMA5 (curated mechanism)"
+    }
+   ],
+   "age_groups": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "approved_for": [
+    "Neoplasms"
+   ],
+   "arm": "main",
+   "cautions": {
+    "boxed_warning": false,
+    "broad_target_profile": true,
+    "excipient_alerts": [],
+    "label_caution": null,
+    "n_targets": 44
+   },
+   "drug_id": "CHEMBL325041",
+   "evidence": {
+    "L1_robust_proximity": true,
+    "L2_binding": true,
+    "L3_classes": [
+     "proteasome_inhibition"
+    ],
+    "L3_rationale": true,
+    "L4": {
+     "bub1b_only_call": "no_association",
+     "call": "no_association",
+     "diff_weak_minus_strong": 0.22,
+     "fdr_adjusted": 0.0919
+    },
+    "core": {
+     "L1_core": false,
+     "label": "proximity_by_generic_complex_only",
+     "robustness_count_core": 0
+    },
+    "expanded_best_z": -9.21,
+    "robustness_count_of_9": 9
+   },
+   "fda": {
+    "applications": [
+     "ANDA202963",
+     "ANDA203654",
+     "ANDA204405",
+     "ANDA205160",
+     "ANDA205533"
+    ],
+    "marketing_statuses": [
+     "Discontinued",
+     "None (Tentative Approval)",
+     "Prescription"
+    ],
+    "matched_name": "BORTEZOMIB",
+    "n_applications": 30
+   },
+   "hypothesis": "Bortezomib (approved today for neoplasms) inhibits ADRM1 (curated mechanism) (and 5 more module proteins), a protein of the module of BUB1B, CENPE, MAD1L1: a hypothesis that it acts on the pathway disrupted by the submission's genes; the direction of effect for this patient is not established.",
+   "label_min_age_years": 21.0,
+   "label_source": "heuristic",
+   "list": "tumour_context",
+   "name": "BORTEZOMIB",
+   "novelty": "curated_mechanism_already_near",
+   "tier": 1
+  },
+  {
+   "acts_on": [
+    {
+     "gene": "TUBA1A",
+     "role": "stabilises TUBA1A (curated mechanism)"
+    },
+    {
+     "gene": "TUBA1B",
+     "role": "stabilises TUBA1B (curated mechanism)"
+    },
+    {
+     "gene": "TUBA1C",
+     "role": "stabilises TUBA1C (curated mechanism)"
+    },
+    {
+     "gene": "TUBA3D",
+     "role": "stabilises TUBA3D (curated mechanism)"
+    },
+    {
+     "gene": "TUBA3E",
+     "role": "stabilises TUBA3E (curated mechanism)"
+    },
+    {
+     "gene": "TUBA4A",
+     "role": "stabilises TUBA4A (curated mechanism)"
+    }
+   ],
+   "age_groups": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "approved_for": [
+    "Adenocarcinoma",
+    "Breast Neoplasms",
+    "Carcinoma, Non-Small-Cell Lung",
+    "Head and Neck Neoplasms",
+    "Prostatic Neoplasms",
+    "Squamous Cell Carcinoma of Head and Neck",
+    "Stomach Neoplasms"
+   ],
+   "arm": "main",
+   "cautions": {
+    "boxed_warning": true,
+    "broad_target_profile": false,
+    "excipient_alerts": [
+     "ALCOHOL",
+     "POLYSORBATE 80"
+    ],
+    "label_caution": null,
+    "n_targets": 15
+   },
+   "drug_id": "CHEMBL92",
+   "evidence": {
+    "L1_robust_proximity": true,
+    "L2_binding": true,
+    "L3_classes": [],
+    "L3_rationale": false,
+    "L4": {
+     "bub1b_only_call": "supports_resistance_when_SAC_weak",
+     "call": "supports_resistance_when_SAC_weak",
+     "diff_weak_minus_strong": 0.76,
+     "fdr_adjusted": 0.0005
+    },
+    "core": {
+     "L1_core": false,
+     "label": "proximity_by_generic_complex_only",
+     "robustness_count_core": 0
+    },
+    "expanded_best_z": -9.28,
+    "robustness_count_of_9": 9
+   },
+   "fda": {
+    "applications": [
+     "ANDA203170",
+     "ANDA203877",
+     "ANDA203892",
+     "ANDA204193",
+     "ANDA204490"
+    ],
+    "marketing_statuses": [
+     "Discontinued",
+     "Prescription"
+    ],
+    "matched_name": "DOCETAXEL",
+    "n_applications": 31
+   },
+   "hypothesis": "Docetaxel Anhydrous (approved today for adenocarcinoma, breast neoplasms, carcinoma, non-small-cell lung) stabilises TUBA1A (curated mechanism) (and 5 more module proteins), a protein of the module of BUB1B, CENPE, MAD1L1: a hypothesis that it acts on the pathway disrupted by the submission's genes; the direction of effect for this patient is not established.",
+   "label_min_age_years": null,
+   "label_source": "reviewed",
+   "list": "tumour_context",
+   "name": "DOCETAXEL ANHYDROUS",
+   "novelty": "curated_mechanism_already_near",
+   "tier": 2
+  },
+  {
+   "acts_on": [
+    {
+     "gene": "TUBA1A",
+     "role": "inhibits TUBA1A (curated mechanism)"
+    },
+    {
+     "gene": "TUBA1B",
+     "role": "inhibits TUBA1B (curated mechanism)"
+    },
+    {
+     "gene": "TUBA1C",
+     "role": "inhibits TUBA1C (curated mechanism)"
+    },
+    {
+     "gene": "TUBA3D",
+     "role": "inhibits TUBA3D (curated mechanism)"
+    },
+    {
+     "gene": "TUBA3E",
+     "role": "inhibits TUBA3E (curated mechanism)"
+    },
+    {
+     "gene": "TUBA4A",
+     "role": "inhibits TUBA4A (curated mechanism)"
+    }
+   ],
+   "age_groups": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "labelled",
+    "3_to_under_12": "partly (from 4 y)"
+   },
+   "approved_for": [
+    "Familial Mediterranean Fever",
+    "Gout"
+   ],
+   "arm": "main",
+   "cautions": {
+    "boxed_warning": false,
+    "broad_target_profile": false,
+    "excipient_alerts": [
+     "LACTOSE MONOHYDRATE"
+    ],
+    "label_caution": null,
+    "n_targets": 15
+   },
+   "drug_id": "CHEMBL107",
+   "evidence": {
+    "L1_robust_proximity": true,
+    "L2_binding": true,
+    "L3_classes": [],
+    "L3_rationale": false,
+    "L4": {
+     "bub1b_only_call": "supports_resistance_when_SAC_weak",
+     "call": "supports_resistance_when_SAC_weak",
+     "diff_weak_minus_strong": 0.7,
+     "fdr_adjusted": 0.0068
+    },
+    "core": {
+     "L1_core": false,
+     "label": "proximity_by_generic_complex_only",
+     "robustness_count_core": 0
+    },
+    "expanded_best_z": -9.21,
+    "robustness_count_of_9": 9
+   },
+   "fda": {
+    "applications": [
+     "ANDA040618",
+     "ANDA083221",
+     "ANDA083720",
+     "ANDA083734",
+     "ANDA084279"
+    ],
+    "marketing_statuses": [
+     "Discontinued",
+     "Prescription"
+    ],
+    "matched_name": "COLCHICINE",
+    "n_applications": 34
+   },
+   "hypothesis": "Colchicine (approved today for familial mediterranean fever, gout) inhibits TUBA1A (curated mechanism) (and 5 more module proteins), a protein of the module of BUB1B, CENPE, MAD1L1: a hypothesis that it acts on the pathway disrupted by the submission's genes; the direction of effect for this patient is not established.",
+   "label_min_age_years": 4.0,
+   "label_source": "reviewed",
+   "list": "constitutional_defect",
+   "name": "COLCHICINE",
+   "novelty": "curated_mechanism_already_near",
+   "tier": 2
+  },
+  {
+   "acts_on": [
+    {
+     "gene": "TUBA1A",
+     "role": "inhibits TUBA1A (curated mechanism)"
+    },
+    {
+     "gene": "TUBA1B",
+     "role": "inhibits TUBA1B (curated mechanism)"
+    },
+    {
+     "gene": "TUBA1C",
+     "role": "inhibits TUBA1C (curated mechanism)"
+    },
+    {
+     "gene": "TUBA3D",
+     "role": "inhibits TUBA3D (curated mechanism)"
+    },
+    {
+     "gene": "TUBA3E",
+     "role": "inhibits TUBA3E (curated mechanism)"
+    },
+    {
+     "gene": "TUBA4A",
+     "role": "inhibits TUBA4A (curated mechanism)"
+    }
+   ],
+   "age_groups": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "approved_for": [
+    "Neoplasms",
+    "Prostatic Neoplasms",
+    "Prostatic Neoplasms, Castration-Resistant"
+   ],
+   "arm": "main",
+   "cautions": {
+    "boxed_warning": true,
+    "broad_target_profile": false,
+    "excipient_alerts": [
+     "ALCOHOL",
+     "POLYSORBATE 80"
+    ],
+    "label_caution": null,
+    "n_targets": 15
+   },
+   "drug_id": "CHEMBL1201748",
+   "evidence": {
+    "L1_robust_proximity": true,
+    "L2_binding": true,
+    "L3_classes": [],
+    "L3_rationale": false,
+    "L4": {
+     "bub1b_only_call": "supports_resistance_when_SAC_weak",
+     "call": "supports_resistance_when_SAC_weak",
+     "diff_weak_minus_strong": 0.45,
+     "fdr_adjusted": 0.0135
+    },
+    "core": {
+     "L1_core": false,
+     "label": "proximity_by_generic_complex_only",
+     "robustness_count_core": 0
+    },
+    "expanded_best_z": -9.17,
+    "robustness_count_of_9": 9
+   },
+   "fda": {
+    "applications": [
+     "ANDA207381",
+     "ANDA207619",
+     "ANDA207693",
+     "ANDA207718",
+     "ANDA207735"
+    ],
+    "marketing_statuses": [
+     "Discontinued",
+     "None (Tentative Approval)",
+     "Prescription"
+    ],
+    "matched_name": "CABAZITAXEL",
+    "n_applications": 11
+   },
+   "hypothesis": "Cabazitaxel (approved today for neoplasms, prostatic neoplasms, prostatic neoplasms, castration-resistant) inhibits TUBA1A (curated mechanism) (and 5 more module proteins), a protein of the module of BUB1B, CENPE, MAD1L1: a hypothesis that it acts on the pathway disrupted by the submission's genes; the direction of effect for this patient is not established.",
+   "label_min_age_years": null,
+   "label_source": "reviewed",
+   "list": "tumour_context",
+   "name": "CABAZITAXEL",
+   "novelty": "curated_mechanism_already_near",
+   "tier": 2
+  },
+  {
+   "acts_on": [
+    {
+     "gene": "TUBA1A",
+     "role": "inhibits TUBA1A (curated mechanism)"
+    },
+    {
+     "gene": "TUBA1B",
+     "role": "inhibits TUBA1B (curated mechanism)"
+    },
+    {
+     "gene": "TUBA1C",
+     "role": "inhibits TUBA1C (curated mechanism)"
+    },
+    {
+     "gene": "TUBA3D",
+     "role": "inhibits TUBA3D (curated mechanism)"
+    },
+    {
+     "gene": "TUBA3E",
+     "role": "inhibits TUBA3E (curated mechanism)"
+    },
+    {
+     "gene": "TUBA4A",
+     "role": "inhibits TUBA4A (curated mechanism)"
+    }
+   ],
+   "age_groups": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "approved_for": [
+    "Breast Neoplasms",
+    "Neoplasms"
+   ],
+   "arm": "main",
+   "cautions": {
+    "boxed_warning": true,
+    "broad_target_profile": false,
+    "excipient_alerts": [],
+    "label_caution": null,
+    "n_targets": 16
+   },
+   "drug_id": "CHEMBL1743082",
+   "evidence": {
+    "L1_robust_proximity": true,
+    "L2_binding": true,
+    "L3_classes": [],
+    "L3_rationale": false,
+    "L4": {
+     "bub1b_only_call": "not_in_PRISM",
+     "call": "not_in_PRISM",
+     "diff_weak_minus_strong": null,
+     "fdr_adjusted": null
+    },
+    "core": {
+     "L1_core": false,
+     "label": "proximity_by_generic_complex_only",
+     "robustness_count_core": 0
+    },
+    "expanded_best_z": -9.04,
+    "robustness_count_of_9": 9
+   },
+   "fda": {
+    "applications": [
+     "BLA125427"
+    ],
+    "marketing_statuses": [
+     "Prescription"
+    ],
+    "matched_name": "TRASTUZUMAB EMTANSINE",
+    "n_applications": 1
+   },
+   "hypothesis": "Trastuzumab Emtansine (approved today for breast neoplasms, neoplasms) inhibits TUBA1A (curated mechanism) (and 5 more module proteins), a protein of the module of BUB1B, CENPE, MAD1L1: a hypothesis that it acts on the pathway disrupted by the submission's genes; the direction of effect for this patient is not established.",
+   "label_min_age_years": null,
+   "label_source": "heuristic",
+   "list": "tumour_context",
+   "name": "TRASTUZUMAB EMTANSINE",
+   "novelty": "curated_mechanism_already_near",
+   "tier": 2
+  },
+  {
+   "acts_on": [
+    {
+     "gene": "TUBA1A",
+     "role": "inhibits TUBA1A (curated mechanism)"
+    },
+    {
+     "gene": "TUBA1B",
+     "role": "inhibits TUBA1B (curated mechanism)"
+    },
+    {
+     "gene": "TUBA1C",
+     "role": "inhibits TUBA1C (curated mechanism)"
+    },
+    {
+     "gene": "TUBA3D",
+     "role": "inhibits TUBA3D (curated mechanism)"
+    },
+    {
+     "gene": "TUBA3E",
+     "role": "inhibits TUBA3E (curated mechanism)"
+    },
+    {
+     "gene": "TUBA4A",
+     "role": "inhibits TUBA4A (curated mechanism)"
+    }
+   ],
+   "age_groups": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "approved_for": [
+    "Breast Neoplasms",
+    "Neoplasms"
+   ],
+   "arm": "main",
+   "cautions": {
+    "boxed_warning": true,
+    "broad_target_profile": false,
+    "excipient_alerts": [
+     "ALCOHOL",
+     "POLYOXYL 35 CASTOR OIL"
+    ],
+    "label_caution": null,
+    "n_targets": 16
+   },
+   "drug_id": "CHEMBL1201752",
+   "evidence": {
+    "L1_robust_proximity": true,
+    "L2_binding": true,
+    "L3_classes": [],
+    "L3_rationale": false,
+    "L4": {
+     "bub1b_only_call": "no_association",
+     "call": "supports_resistance_when_SAC_weak",
+     "diff_weak_minus_strong": 0.45,
+     "fdr_adjusted": 0.0431
+    },
+    "core": {
+     "L1_core": false,
+     "label": "proximity_by_generic_complex_only",
+     "robustness_count_core": 0
+    },
+    "expanded_best_z": -8.98,
+    "robustness_count_of_9": 9
+   },
+   "fda": {
+    "applications": [
+     "NDA022065"
+    ],
+    "marketing_statuses": [
+     "Prescription"
+    ],
+    "matched_name": "IXABEPILONE",
+    "n_applications": 1
+   },
+   "hypothesis": "Ixabepilone (approved today for breast neoplasms, neoplasms) inhibits TUBA1A (curated mechanism) (and 5 more module proteins), a protein of the module of BUB1B, CENPE, MAD1L1: a hypothesis that it acts on the pathway disrupted by the submission's genes; the direction of effect for this patient is not established.",
+   "label_min_age_years": null,
+   "label_source": "heuristic",
+   "list": "tumour_context",
+   "name": "IXABEPILONE",
+   "novelty": "curated_mechanism_already_near",
+   "tier": 2
+  },
+  {
+   "acts_on": [
+    {
+     "gene": "TUBA1A",
+     "role": "inhibits TUBA1A (curated mechanism)"
+    },
+    {
+     "gene": "TUBA1B",
+     "role": "inhibits TUBA1B (curated mechanism)"
+    },
+    {
+     "gene": "TUBA1C",
+     "role": "inhibits TUBA1C (curated mechanism)"
+    },
+    {
+     "gene": "TUBA3D",
+     "role": "inhibits TUBA3D (curated mechanism)"
+    },
+    {
+     "gene": "TUBA3E",
+     "role": "inhibits TUBA3E (curated mechanism)"
+    },
+    {
+     "gene": "TUBA4A",
+     "role": "inhibits TUBA4A (curated mechanism)"
+    }
+   ],
+   "age_groups": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "approved_for": [
+    "Carcinoma, Ovarian Epithelial",
+    "Fallopian Tube Neoplasms",
+    "Neoplasms",
+    "Peritoneal Neoplasms"
+   ],
+   "arm": "main",
+   "cautions": {
+    "boxed_warning": true,
+    "broad_target_profile": false,
+    "excipient_alerts": [],
+    "label_caution": null,
+    "n_targets": 16
+   },
+   "drug_id": "CHEMBL3545132",
+   "evidence": {
+    "L1_robust_proximity": true,
+    "L2_binding": true,
+    "L3_classes": [],
+    "L3_rationale": false,
+    "L4": {
+     "bub1b_only_call": "not_in_PRISM",
+     "call": "not_in_PRISM",
+     "diff_weak_minus_strong": null,
+     "fdr_adjusted": null
+    },
+    "core": {
+     "L1_core": false,
+     "label": "proximity_by_generic_complex_only",
+     "robustness_count_core": 0
+    },
+    "expanded_best_z": -8.96,
+    "robustness_count_of_9": 9
+   },
+   "fda": {
+    "applications": [
+     "BLA761310"
+    ],
+    "marketing_statuses": [
+     "Prescription"
+    ],
+    "matched_name": "MIRVETUXIMAB SORAVTANSINE",
+    "n_applications": 1
+   },
+   "hypothesis": "Mirvetuximab Soravtansine (approved today for carcinoma, ovarian epithelial, fallopian tube neoplasms, neoplasms) inhibits TUBA1A (curated mechanism) (and 5 more module proteins), a protein of the module of BUB1B, CENPE, MAD1L1: a hypothesis that it acts on the pathway disrupted by the submission's genes; the direction of effect for this patient is not established.",
+   "label_min_age_years": null,
+   "label_source": "heuristic",
+   "list": "tumour_context",
+   "name": "MIRVETUXIMAB SORAVTANSINE",
+   "novelty": "curated_mechanism_already_near",
+   "tier": 2
+  },
+  {
+   "acts_on": [
+    {
+     "gene": "TUBA1A",
+     "role": "inhibits TUBA1A (curated mechanism)"
+    },
+    {
+     "gene": "TUBA1B",
+     "role": "inhibits TUBA1B (curated mechanism)"
+    },
+    {
+     "gene": "TUBA1C",
+     "role": "inhibits TUBA1C (curated mechanism)"
+    },
+    {
+     "gene": "TUBA3D",
+     "role": "inhibits TUBA3D (curated mechanism)"
+    },
+    {
+     "gene": "TUBA3E",
+     "role": "inhibits TUBA3E (curated mechanism)"
+    },
+    {
+     "gene": "TUBA4A",
+     "role": "inhibits TUBA4A (curated mechanism)"
+    }
+   ],
+   "age_groups": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "approved_for": [
+    "Breast Neoplasms",
+    "Carcinoma",
+    "Carcinoma, Non-Small-Cell Lung",
+    "Neoplasms",
+    "Ovarian Neoplasms",
+    "Pancreatic Neoplasms",
+    "Sarcoma, Kaposi"
+   ],
+   "arm": "main",
+   "cautions": {
+    "boxed_warning": true,
+    "broad_target_profile": false,
+    "excipient_alerts": [
+     "ALCOHOL",
+     "POLYOXYL 35 CASTOR OIL"
+    ],
+    "label_caution": null,
+    "n_targets": 16
+   },
+   "drug_id": "CHEMBL428647",
+   "evidence": {
+    "L1_robust_proximity": true,
+    "L2_binding": true,
+    "L3_classes": [],
+    "L3_rationale": false,
+    "L4": {
+     "bub1b_only_call": "supports_resistance_when_SAC_weak",
+     "call": "supports_resistance_when_SAC_weak",
+     "diff_weak_minus_strong": 0.59,
+     "fdr_adjusted": 0.0017
+    },
+    "core": {
+     "L1_core": false,
+     "label": "proximity_by_generic_complex_only",
+     "robustness_count_core": 0
+    },
+    "expanded_best_z": -8.91,
+    "robustness_count_of_9": 9
+   },
+   "fda": {
+    "applications": [
+     "ANDA075184",
+     "ANDA075190",
+     "ANDA075278",
+     "ANDA075297",
+     "ANDA075436"
+    ],
+    "marketing_statuses": [
+     "Discontinued",
+     "Prescription"
+    ],
+    "matched_name": "PACLITAXEL",
+    "n_applications": 24
+   },
+   "hypothesis": "Paclitaxel (approved today for breast neoplasms, carcinoma, carcinoma, non-small-cell lung) inhibits TUBA1A (curated mechanism) (and 5 more module proteins), a protein of the module of BUB1B, CENPE, MAD1L1: a hypothesis that it acts on the pathway disrupted by the submission's genes; the direction of effect for this patient is not established.",
+   "label_min_age_years": null,
+   "label_source": "reviewed",
+   "list": "tumour_context",
+   "name": "PACLITAXEL",
+   "novelty": "curated_mechanism_already_near",
+   "tier": 2
+  },
+  {
+   "acts_on": [
+    {
+     "gene": "TUBA1A",
+     "role": "inhibits TUBA1A (curated mechanism)"
+    },
+    {
+     "gene": "TUBA1B",
+     "role": "inhibits TUBA1B (curated mechanism)"
+    },
+    {
+     "gene": "TUBA1C",
+     "role": "inhibits TUBA1C (curated mechanism)"
+    },
+    {
+     "gene": "TUBA3D",
+     "role": "inhibits TUBA3D (curated mechanism)"
+    },
+    {
+     "gene": "TUBA3E",
+     "role": "inhibits TUBA3E (curated mechanism)"
+    },
+    {
+     "gene": "TUBA4A",
+     "role": "inhibits TUBA4A (curated mechanism)"
+    }
+   ],
+   "age_groups": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "approved_for": [
+    "Carcinoma, Transitional Cell",
+    "Neoplasms",
+    "Urologic Neoplasms"
+   ],
+   "arm": "main",
+   "cautions": {
+    "boxed_warning": true,
+    "broad_target_profile": false,
+    "excipient_alerts": [],
+    "label_caution": null,
+    "n_targets": 16
+   },
+   "drug_id": "CHEMBL3301589",
+   "evidence": {
+    "L1_robust_proximity": true,
+    "L2_binding": true,
+    "L3_classes": [],
+    "L3_rationale": false,
+    "L4": {
+     "bub1b_only_call": "not_in_PRISM",
+     "call": "not_in_PRISM",
+     "diff_weak_minus_strong": null,
+     "fdr_adjusted": null
+    },
+    "core": {
+     "L1_core": false,
+     "label": "proximity_by_generic_complex_only",
+     "robustness_count_core": 0
+    },
+    "expanded_best_z": -8.9,
+    "robustness_count_of_9": 9
+   },
+   "fda": {
+    "applications": [
+     "BLA761137"
+    ],
+    "marketing_statuses": [
+     "Prescription"
+    ],
+    "matched_name": "ENFORTUMAB VEDOTIN",
+    "n_applications": 1
+   },
+   "hypothesis": "Enfortumab Vedotin (approved today for carcinoma, transitional cell, neoplasms, urologic neoplasms) inhibits TUBA1A (curated mechanism) (and 5 more module proteins), a protein of the module of BUB1B, CENPE, MAD1L1: a hypothesis that it acts on the pathway disrupted by the submission's genes; the direction of effect for this patient is not established.",
+   "label_min_age_years": null,
+   "label_source": "heuristic",
+   "list": "tumour_context",
+   "name": "ENFORTUMAB VEDOTIN",
+   "novelty": "curated_mechanism_already_near",
+   "tier": 2
+  },
+  {
+   "acts_on": [
+    {
+     "gene": "TUBA1A",
+     "role": "inhibits TUBA1A (curated mechanism)"
+    },
+    {
+     "gene": "TUBA1B",
+     "role": "inhibits TUBA1B (curated mechanism)"
+    },
+    {
+     "gene": "TUBA1C",
+     "role": "inhibits TUBA1C (curated mechanism)"
+    },
+    {
+     "gene": "TUBA3D",
+     "role": "inhibits TUBA3D (curated mechanism)"
+    },
+    {
+     "gene": "TUBA3E",
+     "role": "inhibits TUBA3E (curated mechanism)"
+    },
+    {
+     "gene": "TUBA4A",
+     "role": "inhibits TUBA4A (curated mechanism)"
+    }
+   ],
+   "age_groups": {
+    "0_to_under_3": "partly (from 2 y)",
+    "12_and_older": "labelled",
+    "3_to_under_12": "labelled"
+   },
+   "approved_for": [
+    "Hodgkin Disease",
+    "Lymphoma, Large-Cell, Anaplastic",
+    "Lymphoma, Non-Hodgkin",
+    "Neoplasms"
+   ],
+   "arm": "main",
+   "cautions": {
+    "boxed_warning": true,
+    "broad_target_profile": false,
+    "excipient_alerts": [
+     "POLYSORBATE 80"
+    ],
+    "label_caution": null,
+    "n_targets": 16
+   },
+   "drug_id": "CHEMBL1742994",
+   "evidence": {
+    "L1_robust_proximity": true,
+    "L2_binding": true,
+    "L3_classes": [],
+    "L3_rationale": false,
+    "L4": {
+     "bub1b_only_call": "not_in_PRISM",
+     "call": "not_in_PRISM",
+     "diff_weak_minus_strong": null,
+     "fdr_adjusted": null
+    },
+    "core": {
+     "L1_core": false,
+     "label": "proximity_by_generic_complex_only",
+     "robustness_count_core": 0
+    },
+    "expanded_best_z": -8.35,
+    "robustness_count_of_9": 9
+   },
+   "fda": {
+    "applications": [
+     "BLA125388",
+     "BLA125399"
+    ],
+    "marketing_statuses": [
+     "Prescription"
+    ],
+    "matched_name": "BRENTUXIMAB VEDOTIN",
+    "n_applications": 2
+   },
+   "hypothesis": "Brentuximab Vedotin (approved today for hodgkin disease, lymphoma, large-cell, anaplastic, lymphoma, non-hodgkin) inhibits TUBA1A (curated mechanism) (and 5 more module proteins), a protein of the module of BUB1B, CENPE, MAD1L1: a hypothesis that it acts on the pathway disrupted by the submission's genes; the direction of effect for this patient is not established.",
+   "label_min_age_years": 2.0,
+   "label_source": "reviewed",
+   "list": "tumour_context",
+   "name": "BRENTUXIMAB VEDOTIN",
+   "novelty": "curated_mechanism_already_near",
+   "tier": 2
+  },
+  {
+   "acts_on": [
+    {
+     "gene": "TUBA1A",
+     "role": "inhibits TUBA1A (curated mechanism)"
+    },
+    {
+     "gene": "TUBA1B",
+     "role": "inhibits TUBA1B (curated mechanism)"
+    },
+    {
+     "gene": "TUBA1C",
+     "role": "inhibits TUBA1C (curated mechanism)"
+    },
+    {
+     "gene": "TUBA3D",
+     "role": "inhibits TUBA3D (curated mechanism)"
+    },
+    {
+     "gene": "TUBA3E",
+     "role": "inhibits TUBA3E (curated mechanism)"
+    },
+    {
+     "gene": "TUBA4A",
+     "role": "inhibits TUBA4A (curated mechanism)"
+    }
+   ],
+   "age_groups": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "approved_for": [
+    "Lymphoma, B-Cell",
+    "Lymphoma, Large B-Cell, Diffuse",
+    "Neoplasms"
+   ],
+   "arm": "main",
+   "cautions": {
+    "boxed_warning": false,
+    "broad_target_profile": false,
+    "excipient_alerts": [],
+    "label_caution": null,
+    "n_targets": 16
+   },
+   "drug_id": "CHEMBL3301582",
+   "evidence": {
+    "L1_robust_proximity": true,
+    "L2_binding": true,
+    "L3_classes": [],
+    "L3_rationale": false,
+    "L4": {
+     "bub1b_only_call": "not_in_PRISM",
+     "call": "not_in_PRISM",
+     "diff_weak_minus_strong": null,
+     "fdr_adjusted": null
+    },
+    "core": {
+     "L1_core": false,
+     "label": "proximity_by_generic_complex_only",
+     "robustness_count_core": 0
+    },
+    "expanded_best_z": -8.3,
+    "robustness_count_of_9": 9
+   },
+   "fda": {
+    "applications": [
+     "BLA761121"
+    ],
+    "marketing_statuses": [
+     "Prescription"
+    ],
+    "matched_name": "POLATUZUMAB VEDOTIN",
+    "n_applications": 1
+   },
+   "hypothesis": "Polatuzumab Vedotin (approved today for lymphoma, b-cell, lymphoma, large b-cell, diffuse, neoplasms) inhibits TUBA1A (curated mechanism) (and 5 more module proteins), a protein of the module of BUB1B, CENPE, MAD1L1: a hypothesis that it acts on the pathway disrupted by the submission's genes; the direction of effect for this patient is not established.",
+   "label_min_age_years": null,
+   "label_source": "heuristic",
+   "list": "tumour_context",
+   "name": "POLATUZUMAB VEDOTIN",
+   "novelty": "curated_mechanism_already_near",
+   "tier": 2
+  },
+  {
+   "acts_on": [
+    {
+     "gene": "TUBA1A",
+     "role": "inhibits TUBA1A (curated mechanism)"
+    },
+    {
+     "gene": "TUBA1B",
+     "role": "inhibits TUBA1B (curated mechanism)"
+    },
+    {
+     "gene": "TUBA1C",
+     "role": "inhibits TUBA1C (curated mechanism)"
+    },
+    {
+     "gene": "TUBA3D",
+     "role": "inhibits TUBA3D (curated mechanism)"
+    },
+    {
+     "gene": "TUBA3E",
+     "role": "inhibits TUBA3E (curated mechanism)"
+    },
+    {
+     "gene": "TUBA4A",
+     "role": "inhibits TUBA4A (curated mechanism)"
+    }
+   ],
+   "age_groups": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "approved_for": [
+    "Neoplasms",
+    "Uterine Cervical Neoplasms"
+   ],
+   "arm": "main",
+   "cautions": {
+    "boxed_warning": true,
+    "broad_target_profile": false,
+    "excipient_alerts": [],
+    "label_caution": null,
+    "n_targets": 16
+   },
+   "drug_id": "CHEMBL4297841",
+   "evidence": {
+    "L1_robust_proximity": true,
+    "L2_binding": true,
+    "L3_classes": [],
+    "L3_rationale": false,
+    "L4": {
+     "bub1b_only_call": "not_in_PRISM",
+     "call": "not_in_PRISM",
+     "diff_weak_minus_strong": null,
+     "fdr_adjusted": null
+    },
+    "core": {
+     "L1_core": false,
+     "label": "proximity_by_generic_complex_only",
+     "robustness_count_core": 0
+    },
+    "expanded_best_z": -7.98,
+    "robustness_count_of_9": 9
+   },
+   "fda": {
+    "applications": [
+     "BLA761208"
+    ],
+    "marketing_statuses": [
+     "Prescription"
+    ],
+    "matched_name": "TISOTUMAB VEDOTIN",
+    "n_applications": 1
+   },
+   "hypothesis": "Tisotumab Vedotin (approved today for neoplasms, uterine cervical neoplasms) inhibits TUBA1A (curated mechanism) (and 5 more module proteins), a protein of the module of BUB1B, CENPE, MAD1L1: a hypothesis that it acts on the pathway disrupted by the submission's genes; the direction of effect for this patient is not established.",
+   "label_min_age_years": null,
+   "label_source": "heuristic",
+   "list": "tumour_context",
+   "name": "TISOTUMAB VEDOTIN",
+   "novelty": "curated_mechanism_already_near",
+   "tier": 2
+  },
+  {
+   "acts_on": [
+    {
+     "gene": "XPO1",
+     "role": "inhibits XPO1 (curated mechanism)"
+    }
+   ],
+   "age_groups": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "approved_for": [
+    "Lymphoma, Large B-Cell, Diffuse",
+    "Multiple Myeloma",
+    "Neoplasms"
+   ],
+   "arm": "main",
+   "cautions": {
+    "boxed_warning": false,
+    "broad_target_profile": false,
+    "excipient_alerts": [
+     "POLYSORBATE 80"
+    ],
+    "label_caution": null,
+    "n_targets": 1
+   },
+   "drug_id": "CHEMBL3545185",
+   "evidence": {
+    "L1_robust_proximity": true,
+    "L2_binding": true,
+    "L3_classes": [],
+    "L3_rationale": false,
+    "L4": {
+     "bub1b_only_call": "no_association",
+     "call": "no_association",
+     "diff_weak_minus_strong": 0.09,
+     "fdr_adjusted": 0.5603
+    },
+    "core": {
+     "L1_core": true,
+     "label": "proximity_also_without_generic_complexes",
+     "robustness_count_core": 9
+    },
+    "expanded_best_z": -2.57,
+    "robustness_count_of_9": 9
+   },
+   "fda": {
+    "applications": [
+     "NDA212306"
+    ],
+    "marketing_statuses": [
+     "Prescription"
+    ],
+    "matched_name": "SELINEXOR",
+    "n_applications": 1
+   },
+   "hypothesis": "Selinexor (approved today for lymphoma, large b-cell, diffuse, multiple myeloma, neoplasms) inhibits XPO1 (curated mechanism), a protein of the module of BUB1B, CENPE, MAD1L1: a hypothesis that it acts on the pathway disrupted by the submission's genes; the direction of effect for this patient is not established.",
+   "label_min_age_years": null,
+   "label_source": "heuristic",
+   "list": "tumour_context",
+   "name": "SELINEXOR",
+   "novelty": "curated_mechanism_already_near",
+   "tier": 2
+  },
+  {
+   "acts_on": [
+    {
+     "gene": "FK506-binding protein 1A inhibitor",
+     "role": "FK506-binding protein 1A inhibitor (curated mechanism)"
+    }
+   ],
+   "age_groups": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "partly (from 13 y)",
+    "3_to_under_12": "not_labelled"
+   },
+   "approved_for": [
+    "Angiofibroma",
+    "Delayed Graft Function",
+    "Eye Diseases",
+    "Kidney Transplantation",
+    "Neoplasms",
+    "Tuberous Sclerosis"
+   ],
+   "arm": "extrapolation",
+   "cautions": {
+    "boxed_warning": true,
+    "broad_target_profile": false,
+    "excipient_alerts": [
+     "ALCOHOL",
+     "POLYSORBATE 80",
+     "PROPYLENE GLYCOL",
+     "SOYBEAN PHOSPHATIDYLCHOLINE"
+    ],
+    "n_targets": 1
+   },
+   "drug_id": "CHEMBL413",
+   "evidence": {
+    "L1_robust_proximity": false,
+    "L2_binding": true,
+    "L3_classes": [
+     "mtor_pathway"
+    ],
+    "L3_rationale": true,
+    "L4": {
+     "bub1b_only_call": "confounded_by_proliferation_or_lineage",
+     "call": "confounded_by_proliferation_or_lineage",
+     "diff_weak_minus_strong": 0.43,
+     "fdr_adjusted": 0.0068
+    },
+    "pmids": [
+     "31738183"
+    ]
+   },
+   "fda": {
+    "applications": [
+     "ANDA201578",
+     "ANDA201676",
+     "ANDA208691",
+     "ANDA211040",
+     "ANDA211212"
+    ],
+    "marketing_statuses": [
+     "Discontinued",
+     "Prescription"
+    ],
+    "matched_name": "SIROLIMUS",
+    "n_applications": 16
+   },
+   "hypothesis": "Sirolimus: FK506-binding protein 1A inhibitor. Rationale class: mtor_pathway (extrapolation; no drug was tested in the source mouse studies).",
+   "label_min_age_years": 13.0,
+   "label_source": "reviewed",
+   "list": "extrapolation",
+   "name": "SIROLIMUS",
+   "novelty": "extrapolation_from_mouse_or_cancer_cell_evidence",
+   "tier": null
+  },
+  {
+   "acts_on": [
+    {
+     "gene": "FK506-binding protein 1A inhibitor",
+     "role": "FK506-binding protein 1A inhibitor (curated mechanism)"
+    }
+   ],
+   "age_groups": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "approved_for": [
+    "Carcinoma, Renal Cell",
+    "Lymphoma, Mantle-Cell",
+    "Neoplasms"
+   ],
+   "arm": "extrapolation",
+   "cautions": {
+    "boxed_warning": false,
+    "broad_target_profile": false,
+    "excipient_alerts": [
+     "ALCOHOL",
+     "POLYSORBATE 80",
+     "PROPYLENE GLYCOL"
+    ],
+    "n_targets": 1
+   },
+   "drug_id": "CHEMBL1201182",
+   "evidence": {
+    "L1_robust_proximity": false,
+    "L2_binding": true,
+    "L3_classes": [
+     "mtor_pathway"
+    ],
+    "L3_rationale": true,
+    "L4": {
+     "bub1b_only_call": "no_association",
+     "call": "no_association",
+     "diff_weak_minus_strong": 0.09,
+     "fdr_adjusted": 0.124
+    },
+    "pmids": [
+     "31738183"
+    ]
+   },
+   "fda": {
+    "applications": [
+     "ANDA203153",
+     "ANDA207383",
+     "NDA022088"
+    ],
+    "marketing_statuses": [
+     "Prescription"
+    ],
+    "matched_name": "TEMSIROLIMUS",
+    "n_applications": 3
+   },
+   "hypothesis": "Temsirolimus: FK506-binding protein 1A inhibitor. Rationale class: mtor_pathway (extrapolation; no drug was tested in the source mouse studies).",
+   "label_min_age_years": null,
+   "label_source": "reviewed",
+   "list": "extrapolation",
+   "name": "TEMSIROLIMUS",
+   "novelty": "extrapolation_from_mouse_or_cancer_cell_evidence",
+   "tier": null
+  },
+  {
+   "acts_on": [
+    {
+     "gene": "FK506-binding protein 1A inhibitor",
+     "role": "FK506-binding protein 1A inhibitor (curated mechanism)"
+    }
+   ],
+   "age_groups": {
+    "0_to_under_3": "partly (from 1 y)",
+    "12_and_older": "labelled",
+    "3_to_under_12": "labelled"
+   },
+   "approved_for": [
+    "Angiomyolipoma",
+    "Astrocytoma",
+    "Breast Neoplasms",
+    "Carcinoma, Renal Cell",
+    "Neoplasms",
+    "Neuroendocrine Tumors",
+    "Pancreatic Neoplasms",
+    "Tuberous Sclerosis"
+   ],
+   "arm": "extrapolation",
+   "cautions": {
+    "boxed_warning": true,
+    "broad_target_profile": false,
+    "excipient_alerts": [
+     "LACTOSE MONOHYDRATE"
+    ],
+    "n_targets": 1
+   },
+   "drug_id": "CHEMBL1908360",
+   "evidence": {
+    "L1_robust_proximity": false,
+    "L2_binding": true,
+    "L3_classes": [
+     "mtor_pathway"
+    ],
+    "L3_rationale": true,
+    "L4": {
+     "bub1b_only_call": "no_association",
+     "call": "no_association",
+     "diff_weak_minus_strong": 0.03,
+     "fdr_adjusted": 0.9293
+    },
+    "pmids": [
+     "31738183"
+    ]
+   },
+   "fda": {
+    "applications": [
+     "ANDA205426",
+     "ANDA205432",
+     "ANDA205775",
+     "ANDA206133",
+     "ANDA207486"
+    ],
+    "marketing_statuses": [
+     "Discontinued",
+     "Prescription"
+    ],
+    "matched_name": "EVEROLIMUS",
+    "n_applications": 23
+   },
+   "hypothesis": "Everolimus: FK506-binding protein 1A inhibitor. Rationale class: mtor_pathway (extrapolation; no drug was tested in the source mouse studies).",
+   "label_min_age_years": 1.0,
+   "label_source": "reviewed",
+   "list": "extrapolation",
+   "name": "EVEROLIMUS",
+   "novelty": "extrapolation_from_mouse_or_cancer_cell_evidence",
+   "tier": null
+  }
+ ],
+ "variant": "e0_e1_e2"
+}

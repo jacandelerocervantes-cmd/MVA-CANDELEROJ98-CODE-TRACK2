@@ -1,0 +1,105 @@
+{
+ "evidence_from_submission": {
+  "clinvar": [
+   {
+    "classification": "Pathogenic/Likely pathogenic",
+    "clinvar_id": "533901",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "status": "in_clinvar",
+    "title": "NM_001211.6(BUB1B):[cDNA notation not published] (p.Leu737Ter)",
+    "variant": "[variant; coordinates not published]"
+   },
+   {
+    "classification": null,
+    "status": "other_allele_in_clinvar",
+    "variant": "[variant; coordinates not published]"
+   }
+  ],
+  "finding_types": [
+   "primary",
+   "secondary"
+  ],
+  "rows": [
+   1,
+   2,
+   3,
+   4
+  ]
+ },
+ "gene": "BUB1B",
+ "id": "sub_BUB1B",
+ "module_rule": "reactome_pathways_of_the_gene",
+ "pathways": [
+  {
+   "id": "R-HSA-141430",
+   "n_participants": 21,
+   "name": "Inactivation of APC/C via direct inhibition of the APC/C complex"
+  },
+  {
+   "id": "R-HSA-141444",
+   "n_participants": 94,
+   "name": "Amplification  of signal from unattached  kinetochores via a MAD2  inhibitory signal"
+  },
+  {
+   "id": "R-HSA-174184",
+   "n_participants": 60,
+   "name": "Cdc20:Phospho-APC/C mediated degradation of Cyclin A"
+  },
+  {
+   "id": "R-HSA-176409",
+   "n_participants": 63,
+   "name": "APC/C:Cdc20 mediated degradation of mitotic proteins"
+  },
+  {
+   "id": "R-HSA-179409",
+   "n_participants": 26,
+   "name": "APC-Cdc20 mediated degradation of Nek2A"
+  },
+  {
+   "id": "R-HSA-2467813",
+   "n_participants": 178,
+   "name": "Separation of Sister Chromatids"
+  },
+  {
+   "id": "R-HSA-2500257",
+   "n_participants": 127,
+   "name": "Resolution of Sister Chromatid Cohesion"
+  },
+  {
+   "id": "R-HSA-5663220",
+   "n_participants": 140,
+   "name": "RHO GTPases Activate Formins"
+  },
+  {
+   "id": "R-HSA-68877",
+   "n_participants": 204,
+   "name": "Mitotic Prometaphase"
+  },
+  {
+   "id": "R-HSA-9648025",
+   "n_participants": 117,
+   "name": "EML4 and NUDC in mitotic spindle formation"
+  }
+ ],
+ "seeds": {
+  "genes": [
+   "BUB1B"
+  ],
+  "reactome_pathways": [
+   "R-HSA-141430",
+   "R-HSA-141444",
+   "R-HSA-174184",
+   "R-HSA-176409",
+   "R-HSA-179409",
+   "R-HSA-2467813",
+   "R-HSA-2500257",
+   "R-HSA-5663220",
+   "R-HSA-68877",
+   "R-HSA-9648025"
+  ]
+ },
+ "status": "mechanism_candidate",
+ "uniprot": "O60566",
+ "weight": 1.0,
+ "weight_note": "Best epcr of the gene's rows in the Track 1 submission (the submission's own ranking value)."
+}

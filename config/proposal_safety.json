@@ -1,0 +1,257 @@
+{
+  "description": "Verbatim safety statements from the labels of the drugs proposed in section 4 of the report. Read on 2026-10-08 from DailyMed; each quote is re-checked against the cited set id by track2.verify_quotes (origin proposal_safety). A statement from a different label of the same drug is allowed and named in 'product'. Not a complete safety review: a pharmacist must read the whole label.",
+  "reviewed_on": "2026-10-08",
+  "entries": {
+    "SIROLIMUS": [
+      {
+        "setid": "9970e495-29c4-47b8-a3e9-c9b365abe400",
+        "product": "sirolimus tablets (REMEDYREPACK)",
+        "section": "boxed warning",
+        "quote": "Increased susceptibility to infection and the possible development of lymphoma and other malignancies may result from immunosuppression",
+        "flag": "boxed warning: immunosuppression, lymphoma and other malignancies"
+      },
+      {
+        "setid": "9970e495-29c4-47b8-a3e9-c9b365abe400",
+        "product": "sirolimus tablets (REMEDYREPACK)",
+        "section": "warnings 5.18",
+        "quote": "Patients on immunosuppressive therapy are at increased risk for skin cancer.",
+        "flag": "skin cancer"
+      },
+      {
+        "setid": "9970e495-29c4-47b8-a3e9-c9b365abe400",
+        "product": "sirolimus tablets (REMEDYREPACK)",
+        "section": "warnings",
+        "quote": "Mammalian target of rapamycin (mTOR) inhibitors such as sirolimus have been shown in vitroto inhibit production of certain growth factors that may affect angiogenesis, fibroblast proliferation, and vascular permeability.",
+        "flag": "cell growth and wound healing (mTOR class effect)"
+      },
+      {
+        "setid": "9970e495-29c4-47b8-a3e9-c9b365abe400",
+        "product": "sirolimus tablets (REMEDYREPACK)",
+        "section": "warnings, renal function",
+        "quote": "The rate of decline in renal function in these studies was greater in patients receiving sirolimus and cyclosporine compared with control therapies.",
+        "flag": "impaired renal function"
+      },
+      {
+        "setid": "9970e495-29c4-47b8-a3e9-c9b365abe400",
+        "product": "sirolimus tablets (REMEDYREPACK)",
+        "section": "warnings, lipids",
+        "quote": "Any patient who is administered sirolimus should be monitored for hyperlipidemia.",
+        "flag": "hyperlipidaemia"
+      }
+    ],
+    "EVEROLIMUS": [
+      {
+        "setid": "e082a024-7850-400b-a5c2-2a140612562a",
+        "product": "Zortress (Novartis)",
+        "section": "boxed warning",
+        "quote": "Increased susceptibility to infection and the possible development of malignancies, such as lymphoma and skin cancer, may result from immunosuppression",
+        "flag": "boxed warning (Zortress): immunosuppression, lymphoma and skin cancer"
+      },
+      {
+        "setid": "2150f73a-179b-4afc-b8ce-67c85cc72f04",
+        "product": "Afinitor / Afinitor Disperz (Novartis)",
+        "section": "warnings, infections",
+        "quote": "The incidence of serious infections was reported at a higher frequency in patients < 6 years of age",
+        "flag": "serious infections more frequent below 6 years"
+      },
+      {
+        "setid": "2150f73a-179b-4afc-b8ce-67c85cc72f04",
+        "product": "Afinitor / Afinitor Disperz (Novartis)",
+        "section": "warnings, vaccination",
+        "quote": "Complete recommended childhood vaccinations prior to starting treatment.",
+        "flag": "vaccines: complete childhood vaccination first"
+      },
+      {
+        "setid": "2150f73a-179b-4afc-b8ce-67c85cc72f04",
+        "product": "Afinitor / Afinitor Disperz (Novartis)",
+        "section": "warnings 5.6",
+        "quote": "Cases of renal failure (including acute renal failure), some with a fatal outcome, have occurred in patients taking AFINITOR.",
+        "flag": "renal failure, sometimes fatal"
+      }
+    ],
+    "METFORMIN": [
+      {
+        "setid": "23aa50c5-28fe-4322-b5c6-1f1c48409b16",
+        "product": "metformin hydrochloride tablets (A-S Medication Solutions)",
+        "section": "boxed warning",
+        "quote": "Postmarketing cases of metformin-associated lactic acidosis have resulted in death, hypothermia, hypotension, and resistant bradyarrhythmias.",
+        "flag": "boxed warning: lactic acidosis"
+      },
+      {
+        "setid": "23aa50c5-28fe-4322-b5c6-1f1c48409b16",
+        "product": "metformin hydrochloride tablets (A-S Medication Solutions)",
+        "section": "warnings 5.1",
+        "quote": "The risk of metformin accumulation and metformin-associated lactic acidosis increases with the severity of renal impairment because metformin is substantially excreted by the kidney.",
+        "flag": "higher risk with renal impairment"
+      },
+      {
+        "setid": "23aa50c5-28fe-4322-b5c6-1f1c48409b16",
+        "product": "metformin hydrochloride tablets (A-S Medication Solutions)",
+        "section": "contraindications",
+        "quote": "Metformin hydrochloride tablets are contraindicated in patients with an estimated glomerular filtration rate (eGFR) below 30 mL/minute/1.73 m2.",
+        "flag": "contraindicated with eGFR < 30"
+      }
+    ],
+    "TRAMETINIB": [
+      {
+        "setid": "0002ad27-779d-42ab-83b5-bc65453412a1",
+        "product": "Mekinist (Novartis)",
+        "section": "warnings 5.1",
+        "quote": "In the pooled safety population of MEKINIST administered with dabrafenib, non-cutaneous malignancies occurred in 1% of patients.",
+        "flag": "new malignancies (with dabrafenib)"
+      },
+      {
+        "setid": "0002ad27-779d-42ab-83b5-bc65453412a1",
+        "product": "Mekinist (Novartis)",
+        "section": "warnings 5.5",
+        "quote": "Cardiomyopathy, including cardiac failure, can occur with MEKINIST.",
+        "flag": "cardiomyopathy"
+      },
+      {
+        "setid": "0002ad27-779d-42ab-83b5-bc65453412a1",
+        "product": "Mekinist (Novartis)",
+        "section": "8.4 paediatric use, juvenile animal toxicity",
+        "quote": "In a repeat-dose toxicity study in juvenile rats, decreased bone length and corneal dystrophy were observed",
+        "flag": "shorter bone length in juvenile rats"
+      }
+    ],
+    "SELUMETINIB": [
+      {
+        "setid": "7d042c61-f28f-4ab5-ab10-d7558c0d49ff",
+        "product": "Koselugo (AstraZeneca)",
+        "section": "17 patient counselling information",
+        "quote": "KOSELUGO can cause ocular toxicity that can lead to blindness",
+        "flag": "ocular toxicity that can lead to blindness"
+      },
+      {
+        "setid": "7d042c61-f28f-4ab5-ab10-d7558c0d49ff",
+        "product": "Koselugo (AstraZeneca)",
+        "section": "17 patient counselling information",
+        "quote": "KOSELUGO can cause a reduction in LVEF",
+        "flag": "reduced left ventricular ejection fraction"
+      },
+      {
+        "setid": "7d042c61-f28f-4ab5-ab10-d7558c0d49ff",
+        "product": "Koselugo (AstraZeneca)",
+        "section": "nonclinical toxicology, mutagenicity",
+        "quote": "Selumetinib did result in an increase in micronucleated immature erythrocytes (chromosome aberrations) in mouse micronucleus studies, predominantly via an aneugenic mode of action",
+        "flag": "aneugenicity in the mouse micronucleus assay at high doses"
+      }
+    ],
+    "BORTEZOMIB": [
+      {
+        "setid": "b605b541-4bfd-db3e-9710-11c27f6dee6c",
+        "product": "bortezomib for injection (Apotex)",
+        "section": "contraindications",
+        "quote": "Fatal events have occurred with intrathecal administration of bortezomib for injection.",
+        "flag": "fatal intrathecal administration"
+      },
+      {
+        "setid": "b605b541-4bfd-db3e-9710-11c27f6dee6c",
+        "product": "bortezomib for injection (Apotex)",
+        "section": "2.7 dose modifications for peripheral neuropathy",
+        "quote": "Patients with pre-existing severe neuropathy should be treated with bortezomib for injection only after careful risk-benefit assessment.",
+        "flag": "peripheral neuropathy"
+      },
+      {
+        "setid": "b605b541-4bfd-db3e-9710-11c27f6dee6c",
+        "product": "bortezomib for injection (Apotex)",
+        "section": "nonclinical toxicology, mutagenicity",
+        "quote": "Bortezomib showed clastogenic activity (structural chromosomal aberrations) in the in vitro chromosomal aberration assay using Chinese hamster ovary cells.",
+        "flag": "clastogenic activity in vitro"
+      },
+      {
+        "setid": "b605b541-4bfd-db3e-9710-11c27f6dee6c",
+        "product": "bortezomib for injection (Apotex)",
+        "section": "nonclinical toxicology, mutagenicity",
+        "quote": "Bortezomib was not genotoxic when tested in the in vitro mutagenicity assay (Ames test) and in vivo micronucleus assay in mice.",
+        "flag": "counterpoint: not genotoxic in the Ames test or in vivo micronucleus assay"
+      }
+    ],
+    "CHLOROQUINE": [
+      {
+        "setid": "eb02c52d-907c-43fb-aa8f-2f378a9087e7",
+        "product": "chloroquine phosphate tablets (Amneal)",
+        "section": "warnings",
+        "quote": "Fatal and life-threatening cardiotoxicity, including cardiomyopathy and arrhythmias, have been reported with the use of chloroquine",
+        "flag": "fatal cardiotoxicity (cardiomyopathy, arrhythmias)"
+      },
+      {
+        "setid": "eb02c52d-907c-43fb-aa8f-2f378a9087e7",
+        "product": "chloroquine phosphate tablets (Amneal)",
+        "section": "warnings",
+        "quote": "Irreversible retinal damage has been observed in some patients who had received chloroquine.",
+        "flag": "irreversible retinopathy"
+      },
+      {
+        "setid": "eb02c52d-907c-43fb-aa8f-2f378a9087e7",
+        "product": "chloroquine phosphate tablets (Amneal)",
+        "section": "precautions",
+        "quote": "Chloroquine may cause hemolysis in glucose-6 phosphate dehydrogenase (G-6-PD) deficiency.",
+        "flag": "haemolysis in G6PD deficiency"
+      },
+      {
+        "setid": "eb02c52d-907c-43fb-aa8f-2f378a9087e7",
+        "product": "chloroquine phosphate tablets (Amneal)",
+        "section": "warnings",
+        "quote": "QT interval prolongation, torsades de pointes, and ventricular arrhythmias have been reported with the use of chloroquine.",
+        "flag": "QT prolongation and arrhythmias"
+      },
+      {
+        "setid": "eb02c52d-907c-43fb-aa8f-2f378a9087e7",
+        "product": "chloroquine phosphate tablets (Amneal)",
+        "section": "warnings",
+        "quote": "Preclinical data showed a potential risk of genotoxicity in some test systems ( PRECAUTIONS , Carcinogenesis, Mutagenesis, Impairment of Fertility ).",
+        "flag": "potential genotoxicity risk in some test systems"
+      }
+    ],
+    "SELINEXOR": [
+      {
+        "setid": "f6dd2682-75a6-4863-90a8-a3197f6f78a8",
+        "product": "Xpovio (Karyopharm)",
+        "section": "warnings 5.1",
+        "quote": "XPOVIO can cause life-threatening thrombocytopenia, potentially leading to hemorrhage.",
+        "flag": "life-threatening thrombocytopenia"
+      },
+      {
+        "setid": "f6dd2682-75a6-4863-90a8-a3197f6f78a8",
+        "product": "Xpovio (Karyopharm)",
+        "section": "warnings",
+        "quote": "Gastrointestinal Toxicity: Nausea, vomiting, diarrhea, anorexia, and weight loss may occur.",
+        "flag": "anorexia and weight loss"
+      }
+    ],
+    "BOSUTINIB": [
+      {
+        "setid": "adc84ad5-a04d-4fee-9ba8-91f7abd928e3",
+        "product": "Bosulif (Pfizer)",
+        "section": "warnings 5.6",
+        "quote": "Monitor renal function at baseline and during therapy with BOSULIF, with particular attention to those patients who have preexisting renal impairment or risk factors for renal dysfunction.",
+        "flag": "renal toxicity"
+      },
+      {
+        "setid": "adc84ad5-a04d-4fee-9ba8-91f7abd928e3",
+        "product": "Bosulif (Pfizer)",
+        "section": "adverse reactions, paediatric",
+        "quote": "The most common adverse reactions, in ≥20% of BOSULIF-treated pediatric patients were diarrhea, abdominal pain, vomiting, nausea, rash, fatigue, hepatic dysfunction, headache, pyrexia, decreased appetite, and constipation.",
+        "flag": "hepatic and gastrointestinal toxicity in children"
+      }
+    ],
+    "PHENYLBUTANOIC ACID": [
+      {
+        "setid": "463a36fa-3eb2-4326-8bd0-c8c7a11bca3a",
+        "product": "Buphenyl (Horizon)",
+        "section": "precautions",
+        "quote": "When given subcutaneously to rat pups, 190–474 mg/kg phenylacetate caused decreased proliferation and increased loss of neurons, and it reduced CNS myelin.",
+        "flag": "phenylacetate neurotoxicity in rat pups"
+      },
+      {
+        "setid": "463a36fa-3eb2-4326-8bd0-c8c7a11bca3a",
+        "product": "Buphenyl (Horizon)",
+        "section": "warnings",
+        "quote": "BUPHENYL should be used with great care, if at all, in patients with congestive heart failure or severe renal insufficiency, and in clinical states in which there is sodium retention with edema.",
+        "flag": "severe heart or kidney failure; sodium retention"
+      }
+    ]
+  }
+}

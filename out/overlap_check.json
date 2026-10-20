@@ -1,0 +1,57 @@
+{
+ "common_to_A_B1_B2": 920,
+ "reading": "The sets of the combination rule are tiny (3 and 4 drugs), so an overlap of zero is the expected result and is not informative. A and B1 (both driven by the phenotype terms, and both favoured by well-connected drugs) overlap more than chance, which shows the identifier join works; A and B2 are at or below chance.",
+ "rule_sets": {
+  "expected_overlap_A_and_B2": 0.013,
+  "observed_overlap_A_and_B2": 0,
+  "sizes": {
+   "A": 3,
+   "B1": 0,
+   "B2": 4,
+   "C": 0
+  }
+ },
+ "scored_by_A": 2128,
+ "scored_by_B1": 1130,
+ "scored_by_B2": 1130,
+ "top_n_A_vs_B1_positive_control": [
+  {
+   "expected_by_chance": 0.435,
+   "observed": 5,
+   "p_hypergeometric": 3.5967692096280666e-05,
+   "top_n": 20
+  },
+  {
+   "expected_by_chance": 2.717,
+   "observed": 7,
+   "p_hypergeometric": 0.01499475314413956,
+   "top_n": 50
+  },
+  {
+   "expected_by_chance": 10.87,
+   "observed": 18,
+   "p_hypergeometric": 0.0159015052901534,
+   "top_n": 100
+  }
+ ],
+ "top_n_A_vs_B2": [
+  {
+   "expected_by_chance": 0.435,
+   "observed": 0,
+   "p_hypergeometric": 1.0,
+   "top_n": 20
+  },
+  {
+   "expected_by_chance": 2.717,
+   "observed": 1,
+   "p_hypergeometric": 0.9434988118120724,
+   "top_n": 50
+  },
+  {
+   "expected_by_chance": 10.87,
+   "observed": 6,
+   "p_hypergeometric": 0.9737010138557849,
+   "top_n": 100
+  }
+ ]
+}

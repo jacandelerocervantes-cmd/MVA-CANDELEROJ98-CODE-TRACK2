@@ -1,0 +1,1643 @@
+{
+ "genes": [
+  {
+   "association_evidence": {
+    "evidence": "verified",
+    "n_hits": 25,
+    "pmid": "41979997",
+    "query": "(\"BRCA1\" OR \"BRCA1/BRCA2-containing complex, subunit 1\" OR \"BRCC1\" OR \"FANCS\" OR \"Fanconi anemia, complementation group S\" OR \"PPP1R53\" OR \"RNF53\" OR \"protein phosphatase 1, regulatory subunit 53\") AND (\"Fanconi anaemia\" OR \"Fanconi anemia\")",
+    "sentence": "Gene expression was comparable for RNA isolated from K2EDTA and Tempus tubes, whereas short-term lymphocyte culture resulted in a substantial increase in expression of clinically important genes including BRCA1, BRCA2, RAD51C, RAD51D, PALB2, CHEK2, and multiple Fanconi anaemia genes otherwise low expressed in whole blood.",
+    "source_text": "abstract",
+    "title": "Short-Term Lymphocyte Culture Improves the Diagnostic Yield of Targeted RNA NGS in Cancer Predisposition Testing.",
+    "year": "2026"
+   },
+   "disease_subtype": "group S",
+   "diseases": [
+    {
+     "id": "OMIM:617883",
+     "inheritance": "Autosomal recessive inheritance",
+     "name": "Fanconi anemia, complementation group S",
+     "source": "HPO",
+     "subtype": "group S"
+    },
+    {
+     "id": "ORPHA:84",
+     "inheritance": "not annotated",
+     "name": "Fanconi anemia",
+     "source": "HPO",
+     "subtype": null
+    },
+    {
+     "association_status": "Assessed",
+     "association_type": "Disease-causing germline mutation(s) (loss of function) in",
+     "id": "ORPHA:84",
+     "inheritance": "Autosomal recessive; X-linked recessive",
+     "name": "Fanconi anemia",
+     "orphanet_pmids": [
+      "29133208"
+     ],
+     "source": "Orphanet",
+     "subtype": null
+    }
+   ],
+   "hgnc_id": "HGNC:1100",
+   "inheritance_as_annotated": [
+    "Autosomal recessive inheritance",
+    "Autosomal recessive; X-linked recessive",
+    "not annotated"
+   ],
+   "mechanism_basis": {
+    "matched_terms": [
+     "DNA repair",
+     "DNA repair complex",
+     "double-strand break repair",
+     "double-strand break repair via homologous recombination",
+     "homologous recombination",
+     "positive regulation of DNA repair",
+     "regulation of DNA repair"
+    ],
+    "uniprot_accession": "P38398"
+   },
+   "mechanism_class": "DNA repair/replication",
+   "n_sources": 2,
+   "sources": [
+    "HPO (genes_to_phenotype.txt + phenotype.hpoa)",
+    "Orphanet (Orphadata en_product6 + en_product9_ages)"
+   ],
+   "symbol": "BRCA1",
+   "tier": "curated"
+  },
+  {
+   "association_evidence": {
+    "evidence": "verified",
+    "n_hits": 25,
+    "pmid": "41979997",
+    "query": "(\"BRCA1/BRCA2-containing complex, subunit 2\" OR \"BRCA2\" OR \"BRCC2\" OR \"FAD1\" OR \"XRCC11\") AND (\"Fanconi anaemia\" OR \"Fanconi anemia\")",
+    "sentence": "Gene expression was comparable for RNA isolated from K2EDTA and Tempus tubes, whereas short-term lymphocyte culture resulted in a substantial increase in expression of clinically important genes including BRCA1, BRCA2, RAD51C, RAD51D, PALB2, CHEK2, and multiple Fanconi anaemia genes otherwise low expressed in whole blood.",
+    "source_text": "abstract",
+    "title": "Short-Term Lymphocyte Culture Improves the Diagnostic Yield of Targeted RNA NGS in Cancer Predisposition Testing.",
+    "year": "2026"
+   },
+   "disease_subtype": "group D1",
+   "diseases": [
+    {
+     "id": "OMIM:605724",
+     "inheritance": "Autosomal recessive inheritance",
+     "name": "Fanconi anemia, complementation group D1",
+     "source": "HPO",
+     "subtype": "group D1"
+    },
+    {
+     "id": "ORPHA:84",
+     "inheritance": "not annotated",
+     "name": "Fanconi anemia",
+     "source": "HPO",
+     "subtype": null
+    },
+    {
+     "association_status": "Assessed",
+     "association_type": "Disease-causing germline mutation(s) in",
+     "id": "ORPHA:84",
+     "inheritance": "Autosomal recessive; X-linked recessive",
+     "name": "Fanconi anemia",
+     "orphanet_pmids": [
+      "20301575"
+     ],
+     "source": "Orphanet",
+     "subtype": null
+    }
+   ],
+   "hgnc_id": "HGNC:1101",
+   "inheritance_as_annotated": [
+    "Autosomal recessive inheritance",
+    "Autosomal recessive; X-linked recessive",
+    "not annotated"
+   ],
+   "mechanism_basis": {
+    "matched_terms": [
+     "DNA repair",
+     "DNA repair complex",
+     "double-strand break repair",
+     "double-strand break repair involved in meiotic recombination",
+     "double-strand break repair via homologous recombination"
+    ],
+    "uniprot_accession": "P51587"
+   },
+   "mechanism_class": "DNA repair/replication",
+   "n_sources": 2,
+   "sources": [
+    "HPO (genes_to_phenotype.txt + phenotype.hpoa)",
+    "Orphanet (Orphadata en_product6 + en_product9_ages)"
+   ],
+   "symbol": "BRCA2",
+   "tier": "curated"
+  },
+  {
+   "association_evidence": {
+    "evidence": "verified",
+    "n_hits": 25,
+    "pmid": "42457705",
+    "query": "(\"BACH1\" OR \"BRCA1 interacting protein 1\" OR \"BRCA1-associated C-terminal helicase\" OR \"BRCA1/BRCA2-associated helicase 1\" OR \"BRIP1\" OR \"FANCJ\" OR \"FANCJ helicase\") AND (\"Fanconi anaemia\" OR \"Fanconi anemia\")",
+    "sentence": "Together, these findings establish the structural basis of G4 recognition by FANCJ and provide mechanistic insights into how disease-associated mutations linked to Fanconi anemia and breast cancer impair helicase function.",
+    "source_text": "abstract",
+    "title": "Cryo-EM structures of human FANCJ reveal the mechanism of G-quadruplex unwinding and disease-associated mutations.",
+    "year": "2026"
+   },
+   "disease_subtype": "group J",
+   "diseases": [
+    {
+     "id": "OMIM:609054",
+     "inheritance": "Autosomal recessive inheritance",
+     "name": "Fanconi anemia, complementation group J",
+     "source": "HPO",
+     "subtype": "group J"
+    },
+    {
+     "id": "ORPHA:84",
+     "inheritance": "not annotated",
+     "name": "Fanconi anemia",
+     "source": "HPO",
+     "subtype": null
+    },
+    {
+     "association_status": "Assessed",
+     "association_type": "Disease-causing germline mutation(s) in",
+     "id": "ORPHA:84",
+     "inheritance": "Autosomal recessive; X-linked recessive",
+     "name": "Fanconi anemia",
+     "orphanet_pmids": [
+      "20301575"
+     ],
+     "source": "Orphanet",
+     "subtype": null
+    }
+   ],
+   "hgnc_id": "HGNC:20473",
+   "inheritance_as_annotated": [
+    "Autosomal recessive inheritance",
+    "Autosomal recessive; X-linked recessive",
+    "not annotated"
+   ],
+   "mechanism_basis": {
+    "matched_terms": [
+     "DNA repair",
+     "double-strand break repair",
+     "double-strand break repair involved in meiotic recombination",
+     "homologous recombination"
+    ],
+    "uniprot_accession": "Q9BX63"
+   },
+   "mechanism_class": "DNA repair/replication",
+   "n_sources": 2,
+   "sources": [
+    "HPO (genes_to_phenotype.txt + phenotype.hpoa)",
+    "Orphanet (Orphadata en_product6 + en_product9_ages)"
+   ],
+   "symbol": "BRIP1",
+   "tier": "curated"
+  },
+  {
+   "association_evidence": {
+    "evidence": "verified",
+    "pmid": "28766551",
+    "sentence": "We describe a novel autosomal recessive form of mitochondrial disease in a child with short stature, poor weight gain, and mild dysmorphic features with highly suspected Fanconi anemia due to a mutation in COX4I1 gene.",
+    "sentence_basis": "gene and disease term in the same sentence",
+    "source_text": "abstract",
+    "title": "Mutation in the COX4I1 gene is associated with short stature, poor weight gain and increased chromosomal breaks, simulating Fanconi anemia.",
+    "year": "2017"
+   },
+   "disease_subtype": "not assigned in sources",
+   "diseases": [
+    {
+     "id": null,
+     "inheritance": "not annotated",
+     "name": "Fanconi anaemia (proposed association)",
+     "source": "Europe PMC",
+     "subtype": null
+    }
+   ],
+   "hgnc_id": null,
+   "inheritance_as_annotated": [
+    "not annotated"
+   ],
+   "mechanism_basis": {
+    "matched_terms": [],
+    "uniprot_accession": "P13073"
+   },
+   "mechanism_class": "other",
+   "n_independent_papers": 1,
+   "n_sources": 1,
+   "proposing_pmids": [
+    "28766551"
+   ],
+   "sources": [
+    "Europe PMC literature (title/abstract search)"
+   ],
+   "symbol": "COX4I1",
+   "tier": "proposed, not curated"
+  },
+  {
+   "association_evidence": {
+    "evidence": "verified",
+    "n_hits": 25,
+    "pmid": "38644609",
+    "query": "(\"ERCC4\" OR \"FANCQ\" OR \"RAD1\" OR \"xeroderma pigmentosum, complementation group F\") AND (\"Fanconi anaemia\" OR \"Fanconi anemia\")",
+    "sentence": "The complementation Q group (FANCQ) subtype of Fanconi anemia (FA) caused by the ERCC4/XPF mutation is very rare.",
+    "source_text": "abstract",
+    "title": "Two siblings with Fanconi anemia (FANCQ, ERCC4/XPF) presenting with tumor-mimicking lesions in the brain and acute neurological deterioration.",
+    "year": "2024"
+   },
+   "disease_subtype": "group Q",
+   "diseases": [
+    {
+     "id": "OMIM:615272",
+     "inheritance": "Autosomal recessive inheritance",
+     "name": "Fanconi anemia, complementation group Q",
+     "source": "HPO",
+     "subtype": "group Q"
+    },
+    {
+     "id": "ORPHA:84",
+     "inheritance": "not annotated",
+     "name": "Fanconi anemia",
+     "source": "HPO",
+     "subtype": null
+    },
+    {
+     "association_status": "Assessed",
+     "association_type": "Disease-causing germline mutation(s) in",
+     "id": "ORPHA:84",
+     "inheritance": "Autosomal recessive; X-linked recessive",
+     "name": "Fanconi anemia",
+     "orphanet_pmids": [
+      "23623386"
+     ],
+     "source": "Orphanet",
+     "subtype": null
+    }
+   ],
+   "hgnc_id": "HGNC:3436",
+   "inheritance_as_annotated": [
+    "Autosomal recessive inheritance",
+    "Autosomal recessive; X-linked recessive",
+    "not annotated"
+   ],
+   "mechanism_basis": {
+    "matched_terms": [
+     "nucleotide-excision repair involved in interstrand cross-link repair"
+    ],
+    "uniprot_accession": "Q92889"
+   },
+   "mechanism_class": "DNA interstrand-crosslink repair",
+   "n_sources": 2,
+   "sources": [
+    "HPO (genes_to_phenotype.txt + phenotype.hpoa)",
+    "Orphanet (Orphadata en_product6 + en_product9_ages)"
+   ],
+   "symbol": "ERCC4",
+   "tier": "curated"
+  },
+  {
+   "association_evidence": {
+    "evidence": "verified",
+    "pmid": "38288163",
+    "sentence": "She was initially suspected to have mosaic Fanconi anemia but whole exome sequencing (WES) showed a likely pathogenic homozygous splice variant c.955 + 2_955+5del in the ESCO2 gene.",
+    "sentence_basis": "gene and disease term in the same sentence",
+    "source_text": "abstract",
+    "title": "Case report: The evolving phenotype of ESCO2 spectrum disorder in a 15-year-old Malaysian child.",
+    "year": "2023"
+   },
+   "disease_subtype": "not assigned in sources",
+   "diseases": [
+    {
+     "id": null,
+     "inheritance": "not annotated",
+     "name": "Fanconi anaemia (proposed association)",
+     "source": "Europe PMC",
+     "subtype": null
+    }
+   ],
+   "hgnc_id": null,
+   "inheritance_as_annotated": [
+    "not annotated"
+   ],
+   "mechanism_basis": {
+    "matched_terms": [
+     "regulation of DNA replication"
+    ],
+    "uniprot_accession": "Q56NI9"
+   },
+   "mechanism_class": "DNA repair/replication",
+   "n_independent_papers": 1,
+   "n_sources": 1,
+   "proposing_pmids": [
+    "38288163"
+   ],
+   "sources": [
+    "Europe PMC literature (title/abstract search)"
+   ],
+   "symbol": "ESCO2",
+   "tier": "proposed, not curated"
+  },
+  {
+   "association_evidence": {
+    "evidence": "verified",
+    "n_hits": 25,
+    "pmid": "40454474",
+    "query": "(\"FAAP100\" OR \"FLJ22175\" OR \"Fanconi anemia-associated protein, 100kDa\") AND (\"Fanconi anaemia\" OR \"Fanconi anemia\")",
+    "sentence": "In this issue of the JCI, two studies report three germline homozygous loss-of-function variants in FAAP100, a key component of the FA core complex, identified in three unrelated families.",
+    "source_text": "abstract",
+    "title": "Another Fanconi anemia gene joins the club.",
+    "year": "2025"
+   },
+   "disease_subtype": "group X",
+   "diseases": [
+    {
+     "id": "OMIM:621258",
+     "inheritance": "Autosomal recessive inheritance",
+     "name": "Fanconi anemia, complementation group X",
+     "source": "HPO",
+     "subtype": "group X"
+    },
+    {
+     "id": "ORPHA:84",
+     "inheritance": "not annotated",
+     "name": "Fanconi anemia",
+     "source": "HPO",
+     "subtype": null
+    },
+    {
+     "association_status": "Assessed",
+     "association_type": "Disease-causing germline mutation(s) (loss of function) in",
+     "id": "ORPHA:84",
+     "inheritance": "Autosomal recessive; X-linked recessive",
+     "name": "Fanconi anemia",
+     "orphanet_pmids": [
+      "40244696"
+     ],
+     "source": "Orphanet",
+     "subtype": null
+    }
+   ],
+   "hgnc_id": "HGNC:26171",
+   "inheritance_as_annotated": [
+    "Autosomal recessive inheritance",
+    "Autosomal recessive; X-linked recessive",
+    "not annotated"
+   ],
+   "mechanism_basis": {
+    "matched_terms": [
+     "interstrand cross-link repair"
+    ],
+    "uniprot_accession": "Q0VG06"
+   },
+   "mechanism_class": "DNA interstrand-crosslink repair",
+   "n_sources": 2,
+   "sources": [
+    "HPO (genes_to_phenotype.txt + phenotype.hpoa)",
+    "Orphanet (Orphadata en_product6 + en_product9_ages)"
+   ],
+   "symbol": "FAAP100",
+   "tier": "curated"
+  },
+  {
+   "association_evidence": {
+    "evidence": "verified",
+    "n_hits": 25,
+    "pmid": "42755940",
+    "query": "(\"FA-H\" OR \"FANCA\") AND (\"Fanconi anaemia\" OR \"Fanconi anemia\")",
+    "sentence": "Our findings suggest translation alterations may explain the pleiotropic clinical manifestations of FA by posing FANCA as a link between genome maintenance, ribosome biogenesis, and translation.",
+    "source_text": "abstract",
+    "title": "Integrative proteomics defines FANCA as a multifunctional hub linking DNA repair to translation.",
+    "year": "2026"
+   },
+   "disease_subtype": "not assigned in sources",
+   "diseases": [
+    {
+     "id": "OMIM:227650",
+     "inheritance": "Autosomal recessive inheritance",
+     "name": "Fanconi anemia",
+     "source": "HPO",
+     "subtype": null
+    },
+    {
+     "id": "ORPHA:84",
+     "inheritance": "not annotated",
+     "name": "Fanconi anemia",
+     "source": "HPO",
+     "subtype": null
+    },
+    {
+     "association_status": "Assessed",
+     "association_type": "Disease-causing germline mutation(s) in",
+     "id": "ORPHA:84",
+     "inheritance": "Autosomal recessive; X-linked recessive",
+     "name": "Fanconi anemia",
+     "orphanet_pmids": [
+      "20301575"
+     ],
+     "source": "Orphanet",
+     "subtype": null
+    }
+   ],
+   "hgnc_id": "HGNC:3582",
+   "inheritance_as_annotated": [
+    "Autosomal recessive inheritance",
+    "Autosomal recessive; X-linked recessive",
+    "not annotated"
+   ],
+   "mechanism_basis": {
+    "matched_terms": [
+     "interstrand cross-link repair"
+    ],
+    "uniprot_accession": "O15360"
+   },
+   "mechanism_class": "DNA interstrand-crosslink repair",
+   "n_sources": 2,
+   "sources": [
+    "HPO (genes_to_phenotype.txt + phenotype.hpoa)",
+    "Orphanet (Orphadata en_product6 + en_product9_ages)"
+   ],
+   "symbol": "FANCA",
+   "tier": "curated"
+  },
+  {
+   "association_evidence": {
+    "evidence": "verified",
+    "n_hits": 25,
+    "pmid": "20301575",
+    "query": "(\"FAAP95\" OR \"FANCB\" OR \"FLJ34064\") AND (\"Fanconi anaemia\" OR \"Fanconi anemia\")",
+    "sentence": "Genetic counseling FA is inherited in an autosomal recessive manner, an autosomal dominant manner (RAD51-related FA), or an X-linked manner (FANCB-related FA).",
+    "source_text": "abstract",
+    "title": "Fanconi Anemia",
+    "year": "1993"
+   },
+   "disease_subtype": "group B",
+   "diseases": [
+    {
+     "id": "OMIM:300514",
+     "inheritance": "X-linked recessive inheritance",
+     "name": "Fanconi anemia, complementation group B",
+     "source": "HPO",
+     "subtype": "group B"
+    },
+    {
+     "id": "ORPHA:84",
+     "inheritance": "not annotated",
+     "name": "Fanconi anemia",
+     "source": "HPO",
+     "subtype": null
+    },
+    {
+     "association_status": "Assessed",
+     "association_type": "Disease-causing germline mutation(s) in",
+     "id": "ORPHA:84",
+     "inheritance": "Autosomal recessive; X-linked recessive",
+     "name": "Fanconi anemia",
+     "orphanet_pmids": [
+      "20301575"
+     ],
+     "source": "Orphanet",
+     "subtype": null
+    }
+   ],
+   "hgnc_id": "HGNC:3583",
+   "inheritance_as_annotated": [
+    "Autosomal recessive; X-linked recessive",
+    "X-linked recessive inheritance",
+    "not annotated"
+   ],
+   "mechanism_basis": {
+    "matched_terms": [
+     "interstrand cross-link repair"
+    ],
+    "uniprot_accession": "Q8NB91"
+   },
+   "mechanism_class": "DNA interstrand-crosslink repair",
+   "n_sources": 2,
+   "sources": [
+    "HPO (genes_to_phenotype.txt + phenotype.hpoa)",
+    "Orphanet (Orphadata en_product6 + en_product9_ages)"
+   ],
+   "symbol": "FANCB",
+   "tier": "curated"
+  },
+  {
+   "association_evidence": {
+    "evidence": "verified",
+    "n_hits": 25,
+    "pmid": "42003887",
+    "query": "(\"FANCC\") AND (\"Fanconi anaemia\" OR \"Fanconi anemia\")",
+    "sentence": "Among its subtypes, FA complementation group C ( FANCC ) is associated with particularly severe hematologic and developmental manifestations.",
+    "source_text": "abstract",
+    "title": "CRISPR-Cas9-mediated homology-directed repair rescues the induced bone marrow failure in Fancc -/- mice.",
+    "year": "2026"
+   },
+   "disease_subtype": "group C",
+   "diseases": [
+    {
+     "id": "OMIM:227645",
+     "inheritance": "Autosomal recessive inheritance",
+     "name": "Fanconi anemia, complementation group C",
+     "source": "HPO",
+     "subtype": "group C"
+    },
+    {
+     "id": "ORPHA:84",
+     "inheritance": "not annotated",
+     "name": "Fanconi anemia",
+     "source": "HPO",
+     "subtype": null
+    },
+    {
+     "association_status": "Assessed",
+     "association_type": "Disease-causing germline mutation(s) in",
+     "id": "ORPHA:84",
+     "inheritance": "Autosomal recessive; X-linked recessive",
+     "name": "Fanconi anemia",
+     "orphanet_pmids": [
+      "20301575"
+     ],
+     "source": "Orphanet",
+     "subtype": null
+    }
+   ],
+   "hgnc_id": "HGNC:3584",
+   "inheritance_as_annotated": [
+    "Autosomal recessive inheritance",
+    "Autosomal recessive; X-linked recessive",
+    "not annotated"
+   ],
+   "mechanism_basis": {
+    "matched_terms": [
+     "interstrand cross-link repair"
+    ],
+    "uniprot_accession": "Q00597"
+   },
+   "mechanism_class": "DNA interstrand-crosslink repair",
+   "n_sources": 2,
+   "sources": [
+    "HPO (genes_to_phenotype.txt + phenotype.hpoa)",
+    "Orphanet (Orphadata en_product6 + en_product9_ages)"
+   ],
+   "symbol": "FANCC",
+   "tier": "curated"
+  },
+  {
+   "association_evidence": {
+    "evidence": "verified",
+    "n_hits": 25,
+    "pmid": "42062396",
+    "query": "(\"FA-D2\" OR \"FANCD2\") AND (\"Fanconi anaemia\" OR \"Fanconi anemia\")",
+    "sentence": "FA-D2 (FANCD2 -/- ) patient cells displayed increased aldehyde dehydrogenase activity compared to the FANCD2-complemented cells.",
+    "source_text": "abstract",
+    "title": "Differential regulation of retinoic acid metabolism in Fanconi anemia.",
+    "year": "2026"
+   },
+   "disease_subtype": "group D2",
+   "diseases": [
+    {
+     "id": "OMIM:227646",
+     "inheritance": "Autosomal recessive inheritance",
+     "name": "Fanconi anemia, complementation group D2",
+     "source": "HPO",
+     "subtype": "group D2"
+    },
+    {
+     "id": "ORPHA:84",
+     "inheritance": "not annotated",
+     "name": "Fanconi anemia",
+     "source": "HPO",
+     "subtype": null
+    },
+    {
+     "association_status": "Assessed",
+     "association_type": "Disease-causing germline mutation(s) in",
+     "id": "ORPHA:84",
+     "inheritance": "Autosomal recessive; X-linked recessive",
+     "name": "Fanconi anemia",
+     "orphanet_pmids": [
+      "20301575"
+     ],
+     "source": "Orphanet",
+     "subtype": null
+    }
+   ],
+   "hgnc_id": "HGNC:3585",
+   "inheritance_as_annotated": [
+    "Autosomal recessive inheritance",
+    "Autosomal recessive; X-linked recessive",
+    "not annotated"
+   ],
+   "mechanism_basis": {
+    "matched_terms": [
+     "interstrand cross-link repair"
+    ],
+    "uniprot_accession": "Q9BXW9"
+   },
+   "mechanism_class": "DNA interstrand-crosslink repair",
+   "n_sources": 2,
+   "sources": [
+    "HPO (genes_to_phenotype.txt + phenotype.hpoa)",
+    "Orphanet (Orphadata en_product6 + en_product9_ages)"
+   ],
+   "symbol": "FANCD2",
+   "tier": "curated"
+  },
+  {
+   "association_evidence": {
+    "evidence": "verified",
+    "n_hits": 25,
+    "pmid": "42143639",
+    "query": "(\"FANCE\") AND (\"Fanconi anaemia\" OR \"Fanconi anemia\")",
+    "sentence": "Combining RNA-Seq and functional assays, our study reveals a novel pathway by which AID inhibits HBV replication via downregulating the expression of Fanconi anemia complementation group E (FANCE).",
+    "source_text": "abstract",
+    "title": "Activation-induced cytidine deaminase (AID) suppresses the activity of HBV EnhII/CP by downregulating FANCE expression.",
+    "year": "2026"
+   },
+   "disease_subtype": "group E",
+   "diseases": [
+    {
+     "id": "OMIM:600901",
+     "inheritance": "Autosomal recessive inheritance",
+     "name": "Fanconi anemia, complementation group E",
+     "source": "HPO",
+     "subtype": "group E"
+    },
+    {
+     "id": "ORPHA:84",
+     "inheritance": "not annotated",
+     "name": "Fanconi anemia",
+     "source": "HPO",
+     "subtype": null
+    },
+    {
+     "association_status": "Assessed",
+     "association_type": "Disease-causing germline mutation(s) in",
+     "id": "ORPHA:84",
+     "inheritance": "Autosomal recessive; X-linked recessive",
+     "name": "Fanconi anemia",
+     "orphanet_pmids": [
+      "20301575"
+     ],
+     "source": "Orphanet",
+     "subtype": null
+    }
+   ],
+   "hgnc_id": "HGNC:3586",
+   "inheritance_as_annotated": [
+    "Autosomal recessive inheritance",
+    "Autosomal recessive; X-linked recessive",
+    "not annotated"
+   ],
+   "mechanism_basis": {
+    "matched_terms": [
+     "interstrand cross-link repair"
+    ],
+    "uniprot_accession": "Q9HB96"
+   },
+   "mechanism_class": "DNA interstrand-crosslink repair",
+   "n_sources": 2,
+   "sources": [
+    "HPO (genes_to_phenotype.txt + phenotype.hpoa)",
+    "Orphanet (Orphadata en_product6 + en_product9_ages)"
+   ],
+   "symbol": "FANCE",
+   "tier": "curated"
+  },
+  {
+   "association_evidence": {
+    "evidence": "verified",
+    "n_hits": 25,
+    "pmid": "40544182",
+    "query": "(\"FANCF\") AND (\"Fanconi anaemia\" OR \"Fanconi anemia\")",
+    "sentence": "We compared ataluren and amlexanox in rescuing FANCA, FANCC and FANCF protein synthesis in lymphoblastoid cell lines and fibroblasts obtained from FA patients with nonsense mutations.",
+    "source_text": "abstract",
+    "title": "Development of translational read-through-inducing drugs as novel therapeutic options for patients with Fanconi anemia.",
+    "year": "2025"
+   },
+   "disease_subtype": "group F",
+   "diseases": [
+    {
+     "id": "OMIM:603467",
+     "inheritance": "Autosomal recessive inheritance",
+     "name": "Fanconi anemia, complementation group F",
+     "source": "HPO",
+     "subtype": "group F"
+    },
+    {
+     "id": "ORPHA:84",
+     "inheritance": "not annotated",
+     "name": "Fanconi anemia",
+     "source": "HPO",
+     "subtype": null
+    },
+    {
+     "association_status": "Assessed",
+     "association_type": "Disease-causing germline mutation(s) in",
+     "id": "ORPHA:84",
+     "inheritance": "Autosomal recessive; X-linked recessive",
+     "name": "Fanconi anemia",
+     "orphanet_pmids": [
+      "20301575"
+     ],
+     "source": "Orphanet",
+     "subtype": null
+    }
+   ],
+   "hgnc_id": "HGNC:3587",
+   "inheritance_as_annotated": [
+    "Autosomal recessive inheritance",
+    "Autosomal recessive; X-linked recessive",
+    "not annotated"
+   ],
+   "mechanism_basis": {
+    "matched_terms": [
+     "interstrand cross-link repair"
+    ],
+    "uniprot_accession": "Q9NPI8"
+   },
+   "mechanism_class": "DNA interstrand-crosslink repair",
+   "n_sources": 2,
+   "sources": [
+    "HPO (genes_to_phenotype.txt + phenotype.hpoa)",
+    "Orphanet (Orphadata en_product6 + en_product9_ages)"
+   ],
+   "symbol": "FANCF",
+   "tier": "curated"
+  },
+  {
+   "association_evidence": {
+    "evidence": "verified",
+    "n_hits": 25,
+    "pmid": "40635081",
+    "query": "(\"DNA repair protein XRCC9\" OR \"FANCG\" OR \"X-ray repair complementing defective repair in Chinese hamster cells 9\" OR \"X-ray repair, complementing defective, in Chinese hamster, 9\") AND (\"Fanconi anaemia\" OR \"Fanconi anemia\")",
+    "sentence": "Background To ascertain role of the fanconi anemia complementation group G (FANCG) gene in prostate cancer (PCa) and the suitability of the FANCG gene as a prognostic biomarker for PCa.",
+    "source_text": "abstract",
+    "title": "Identification of FANCG as a prognostic factor for prostate cancer.",
+    "year": "2025"
+   },
+   "disease_subtype": "group G",
+   "diseases": [
+    {
+     "id": "OMIM:614082",
+     "inheritance": "not annotated",
+     "name": "Fanconi anemia, complementation group G",
+     "source": "HPO",
+     "subtype": "group G"
+    },
+    {
+     "id": "ORPHA:84",
+     "inheritance": "not annotated",
+     "name": "Fanconi anemia",
+     "source": "HPO",
+     "subtype": null
+    },
+    {
+     "association_status": "Assessed",
+     "association_type": "Disease-causing germline mutation(s) in",
+     "id": "ORPHA:84",
+     "inheritance": "Autosomal recessive; X-linked recessive",
+     "name": "Fanconi anemia",
+     "orphanet_pmids": [
+      "20301575"
+     ],
+     "source": "Orphanet",
+     "subtype": null
+    }
+   ],
+   "hgnc_id": "HGNC:3588",
+   "inheritance_as_annotated": [
+    "Autosomal recessive; X-linked recessive",
+    "not annotated"
+   ],
+   "mechanism_basis": {
+    "matched_terms": [
+     "interstrand cross-link repair"
+    ],
+    "uniprot_accession": "O15287"
+   },
+   "mechanism_class": "DNA interstrand-crosslink repair",
+   "n_sources": 2,
+   "sources": [
+    "HPO (genes_to_phenotype.txt + phenotype.hpoa)",
+    "Orphanet (Orphadata en_product6 + en_product9_ages)"
+   ],
+   "symbol": "FANCG",
+   "tier": "curated"
+  },
+  {
+   "association_evidence": {
+    "evidence": "verified",
+    "n_hits": 25,
+    "pmid": "42703308",
+    "query": "(\"FANCI\" OR \"FLJ10719\") AND (\"Fanconi anaemia\" OR \"Fanconi anemia\")",
+    "sentence": "Fanconi anemia group I protein (FANCI) is a core component of the Fanconi anemia (FA) pathway, but its expression pattern, clinical significance, and functional role in ESCC have not been comprehensively defined.",
+    "source_text": "abstract",
+    "title": "FANCI promotes esophageal squamous cell carcinoma progression and cell cycle regulation and interacts with FANCD2.",
+    "year": "2026"
+   },
+   "disease_subtype": "group I",
+   "diseases": [
+    {
+     "id": "OMIM:609053",
+     "inheritance": "Autosomal recessive inheritance",
+     "name": "Fanconi anemia, complementation group I",
+     "source": "HPO",
+     "subtype": "group I"
+    },
+    {
+     "id": "ORPHA:84",
+     "inheritance": "not annotated",
+     "name": "Fanconi anemia",
+     "source": "HPO",
+     "subtype": null
+    },
+    {
+     "association_status": "Assessed",
+     "association_type": "Disease-causing germline mutation(s) in",
+     "id": "ORPHA:84",
+     "inheritance": "Autosomal recessive; X-linked recessive",
+     "name": "Fanconi anemia",
+     "orphanet_pmids": [
+      "20301575"
+     ],
+     "source": "Orphanet",
+     "subtype": null
+    }
+   ],
+   "hgnc_id": "HGNC:25568",
+   "inheritance_as_annotated": [
+    "Autosomal recessive inheritance",
+    "Autosomal recessive; X-linked recessive",
+    "not annotated"
+   ],
+   "mechanism_basis": {
+    "matched_terms": [
+     "interstrand cross-link repair"
+    ],
+    "uniprot_accession": "Q9NVI1"
+   },
+   "mechanism_class": "DNA interstrand-crosslink repair",
+   "n_sources": 2,
+   "sources": [
+    "HPO (genes_to_phenotype.txt + phenotype.hpoa)",
+    "Orphanet (Orphadata en_product6 + en_product9_ages)"
+   ],
+   "symbol": "FANCI",
+   "tier": "curated"
+  },
+  {
+   "association_evidence": {
+    "evidence": "verified",
+    "n_hits": 25,
+    "pmid": "42056683",
+    "query": "(\"FAAP43\" OR \"FANCL\" OR \"FLJ10335\") AND (\"Fanconi anaemia\" OR \"Fanconi anemia\")",
+    "sentence": "Germline variants in Fanconi anemia pathway genes (FANCL, FANCC, NBN) were significantly enriched among patients with Group 3 and Group 4 MB, suggesting a potentially inherited susceptibility component.",
+    "source_text": "abstract",
+    "title": "Integrated Molecular Profiling Improves Subtype Classification and Reveals Inherited Susceptibility in Medulloblastoma: Insights From a Real-World Cohort.",
+    "year": "2026"
+   },
+   "disease_subtype": "group L",
+   "diseases": [
+    {
+     "id": "OMIM:614083",
+     "inheritance": "Autosomal recessive inheritance",
+     "name": "Fanconi anemia, complementation group L",
+     "source": "HPO",
+     "subtype": "group L"
+    },
+    {
+     "id": "ORPHA:84",
+     "inheritance": "not annotated",
+     "name": "Fanconi anemia",
+     "source": "HPO",
+     "subtype": null
+    },
+    {
+     "association_status": "Assessed",
+     "association_type": "Disease-causing germline mutation(s) in",
+     "id": "ORPHA:84",
+     "inheritance": "Autosomal recessive; X-linked recessive",
+     "name": "Fanconi anemia",
+     "orphanet_pmids": [
+      "20301575"
+     ],
+     "source": "Orphanet",
+     "subtype": null
+    }
+   ],
+   "hgnc_id": "HGNC:20748",
+   "inheritance_as_annotated": [
+    "Autosomal recessive inheritance",
+    "Autosomal recessive; X-linked recessive",
+    "not annotated"
+   ],
+   "mechanism_basis": {
+    "matched_terms": [
+     "interstrand cross-link repair"
+    ],
+    "uniprot_accession": "Q9NW38"
+   },
+   "mechanism_class": "DNA interstrand-crosslink repair",
+   "n_sources": 2,
+   "sources": [
+    "HPO (genes_to_phenotype.txt + phenotype.hpoa)",
+    "Orphanet (Orphadata en_product6 + en_product9_ages)"
+   ],
+   "symbol": "FANCL",
+   "tier": "curated"
+  },
+  {
+   "association_evidence": {
+    "evidence": "verified",
+    "n_hits": 25,
+    "pmid": "42606197",
+    "query": "(\"FAAP250\" OR \"FANCM\") AND (\"Fanconi anaemia\" OR \"Fanconi anemia\")",
+    "sentence": "The Fanconi anemia complementation group M protein (FANCM)-MHF complex is required for branched DNA recognition in the Fanconi anemia pathway, but structural analysis of the intact complex has been hindered by dissociation of FANCM from the FANCM-associated histone fold (MHF) heterotetramer under crystallization conditions.",
+    "source_text": "abstract",
+    "title": "Disulfide engineering of the FANCM-MHF complex reveals constraints on crosslink design in symmetric oligomers.",
+    "year": "2026"
+   },
+   "disease_subtype": "not assigned in sources",
+   "diseases": [
+    {
+     "id": "ORPHA:84",
+     "inheritance": "not annotated",
+     "name": "Fanconi anemia",
+     "source": "HPO",
+     "subtype": null
+    },
+    {
+     "association_status": "Assessed",
+     "association_type": "Disease-causing germline mutation(s) in",
+     "id": "ORPHA:84",
+     "inheritance": "Autosomal recessive; X-linked recessive",
+     "name": "Fanconi anemia",
+     "orphanet_pmids": [
+      "20301575"
+     ],
+     "source": "Orphanet",
+     "subtype": null
+    }
+   ],
+   "hgnc_id": "HGNC:23168",
+   "inheritance_as_annotated": [
+    "Autosomal recessive; X-linked recessive",
+    "not annotated"
+   ],
+   "mechanism_basis": {
+    "matched_terms": [
+     "interstrand cross-link repair"
+    ],
+    "uniprot_accession": "Q8IYD8"
+   },
+   "mechanism_class": "DNA interstrand-crosslink repair",
+   "n_sources": 2,
+   "sources": [
+    "HPO (genes_to_phenotype.txt + phenotype.hpoa)",
+    "Orphanet (Orphadata en_product6 + en_product9_ages)"
+   ],
+   "symbol": "FANCM",
+   "tier": "curated"
+  },
+  {
+   "association_evidence": {
+    "evidence": "verified",
+    "n_hits": 25,
+    "pmid": "38557443",
+    "query": "(\"FANCV\" OR \"MAD2B\" OR \"MAD2L2\" OR \"POLZ2\" OR \"REV7\" OR \"mitotic arrest deficient homolog-like 2\" OR \"polymerase (DNA-directed), zeta 2, accessory subunit\") AND (\"Fanconi anaemia\" OR \"Fanconi anemia\")",
+    "sentence": "REV7 is an abundant, multifunctional protein that is a known factor in cell cycle regulation and in several key DNA repair pathways including Trans-Lesion Synthesis (TLS), the Fanconi Anemia (FA) pathway, and DNA Double-Strand Break (DSB) repair pathway choice.",
+    "source_text": "abstract",
+    "title": "REV7-p53 interaction inhibits ATM-mediated DNA damage signaling.",
+    "year": "2024"
+   },
+   "disease_subtype": "group V",
+   "diseases": [
+    {
+     "id": "OMIM:617243",
+     "inheritance": "Autosomal recessive inheritance",
+     "name": "Fanconi anemia, complementation group V",
+     "source": "HPO",
+     "subtype": "group V"
+    },
+    {
+     "id": "ORPHA:84",
+     "inheritance": "not annotated",
+     "name": "Fanconi anemia",
+     "source": "HPO",
+     "subtype": null
+    },
+    {
+     "association_status": "Assessed",
+     "association_type": "Disease-causing germline mutation(s) in",
+     "id": "ORPHA:84",
+     "inheritance": "Autosomal recessive; X-linked recessive",
+     "name": "Fanconi anemia",
+     "orphanet_pmids": [
+      "27500492"
+     ],
+     "source": "Orphanet",
+     "subtype": null
+    }
+   ],
+   "hgnc_id": "HGNC:6764",
+   "inheritance_as_annotated": [
+    "Autosomal recessive inheritance",
+    "Autosomal recessive; X-linked recessive",
+    "not annotated"
+   ],
+   "mechanism_basis": {
+    "matched_terms": [
+     "mitotic spindle assembly checkpoint signaling"
+    ],
+    "uniprot_accession": "Q9UI95"
+   },
+   "mechanism_class": "spindle-assembly checkpoint",
+   "n_sources": 2,
+   "sources": [
+    "HPO (genes_to_phenotype.txt + phenotype.hpoa)",
+    "Orphanet (Orphadata en_product6 + en_product9_ages)"
+   ],
+   "symbol": "MAD2L2",
+   "tier": "curated"
+  },
+  {
+   "association_evidence": {
+    "evidence": "verified",
+    "pmid": "40047910",
+    "sentence": "Of these, 16 (48.5%) had DNA-repair deficiencies (DNA-RD), including eight with Fanconi anemia, six with NHEJ1 variants, and two with BRCA2 mutations.",
+    "sentence_basis": "gene and disease term in the same sentence",
+    "source_text": "abstract",
+    "title": "Genetic variants in NHEJ1 and related DNA repair disorders: insights into phenotypic heterogeneity and links to hypoplastic myelodysplastic syndromes and familial hematological malignancies susceptibility.",
+    "year": "2025"
+   },
+   "disease_subtype": "not assigned in sources",
+   "diseases": [
+    {
+     "id": null,
+     "inheritance": "not annotated",
+     "name": "Fanconi anaemia (proposed association)",
+     "source": "Europe PMC",
+     "subtype": null
+    }
+   ],
+   "hgnc_id": null,
+   "inheritance_as_annotated": [
+    "not annotated"
+   ],
+   "mechanism_basis": {
+    "matched_terms": [
+     "DNA repair",
+     "double-strand break repair via nonhomologous end joining"
+    ],
+    "uniprot_accession": "Q9H9Q4"
+   },
+   "mechanism_class": "DNA repair/replication",
+   "n_independent_papers": 1,
+   "n_sources": 1,
+   "proposing_pmids": [
+    "40047910"
+   ],
+   "sources": [
+    "Europe PMC literature (title/abstract search)"
+   ],
+   "symbol": "NHEJ1",
+   "tier": "proposed, not curated"
+  },
+  {
+   "association_evidence": {
+    "evidence": "unverified",
+    "n_hits": 25,
+    "query": "(\"FANCN\" OR \"FLJ21816\" OR \"Fanconi anemia, complementation group N\" OR \"PALB2\") AND (\"Fanconi anaemia\" OR \"Fanconi anemia\")",
+    "sentence": null
+   },
+   "disease_subtype": "group N",
+   "diseases": [
+    {
+     "id": "OMIM:610832",
+     "inheritance": "Autosomal recessive inheritance",
+     "name": "Fanconi anemia, complementation group N",
+     "source": "HPO",
+     "subtype": "group N"
+    },
+    {
+     "id": "ORPHA:84",
+     "inheritance": "not annotated",
+     "name": "Fanconi anemia",
+     "source": "HPO",
+     "subtype": null
+    },
+    {
+     "association_status": "Assessed",
+     "association_type": "Disease-causing germline mutation(s) in",
+     "id": "ORPHA:84",
+     "inheritance": "Autosomal recessive; X-linked recessive",
+     "name": "Fanconi anemia",
+     "orphanet_pmids": [
+      "20301575"
+     ],
+     "source": "Orphanet",
+     "subtype": null
+    }
+   ],
+   "hgnc_id": "HGNC:26144",
+   "inheritance_as_annotated": [
+    "Autosomal recessive inheritance",
+    "Autosomal recessive; X-linked recessive",
+    "not annotated"
+   ],
+   "mechanism_basis": {
+    "matched_terms": [
+     "DNA repair",
+     "DNA repair complex",
+     "double-strand break repair via homologous recombination"
+    ],
+    "uniprot_accession": "Q86YC2"
+   },
+   "mechanism_class": "DNA repair/replication",
+   "n_sources": 2,
+   "sources": [
+    "HPO (genes_to_phenotype.txt + phenotype.hpoa)",
+    "Orphanet (Orphadata en_product6 + en_product9_ages)"
+   ],
+   "symbol": "PALB2",
+   "tier": "curated"
+  },
+  {
+   "association_evidence": {
+    "evidence": "verified",
+    "n_hits": 25,
+    "pmid": "20301575",
+    "query": "(\"BRCA1/BRCA2-containing complex, subunit 5\" OR \"BRCC5\" OR \"FANCR\" OR \"HsRad51\" OR \"HsT16930\" OR \"RAD51\") AND (\"Fanconi anaemia\" OR \"Fanconi anemia\")",
+    "sentence": "Autosomal dominant FA: Given that all probands with RAD51-related FA reported to date whose parents have undergone molecular genetic testing have the disorder as a result of a de novo RAD51 pathogenic variant, the risk to other family members is presumed to be low.",
+    "source_text": "abstract",
+    "title": "Fanconi Anemia",
+    "year": "1993"
+   },
+   "disease_subtype": "group R",
+   "diseases": [
+    {
+     "id": "OMIM:617244",
+     "inheritance": "Autosomal dominant inheritance",
+     "name": "Fanconi anemia, complementation group R",
+     "source": "HPO",
+     "subtype": "group R"
+    },
+    {
+     "id": "ORPHA:84",
+     "inheritance": "not annotated",
+     "name": "Fanconi anemia",
+     "source": "HPO",
+     "subtype": null
+    },
+    {
+     "association_status": "Assessed",
+     "association_type": "Disease-causing germline mutation(s) in",
+     "id": "ORPHA:84",
+     "inheritance": "Autosomal recessive; X-linked recessive",
+     "name": "Fanconi anemia",
+     "orphanet_pmids": [
+      "26681308"
+     ],
+     "source": "Orphanet",
+     "subtype": null
+    }
+   ],
+   "hgnc_id": "HGNC:9817",
+   "inheritance_as_annotated": [
+    "Autosomal dominant inheritance",
+    "Autosomal recessive; X-linked recessive",
+    "not annotated"
+   ],
+   "mechanism_basis": {
+    "matched_terms": [
+     "interstrand cross-link repair"
+    ],
+    "uniprot_accession": "Q06609"
+   },
+   "mechanism_class": "DNA interstrand-crosslink repair",
+   "n_sources": 2,
+   "sources": [
+    "HPO (genes_to_phenotype.txt + phenotype.hpoa)",
+    "Orphanet (Orphadata en_product6 + en_product9_ages)"
+   ],
+   "symbol": "RAD51",
+   "tier": "curated"
+  },
+  {
+   "association_evidence": {
+    "evidence": "verified",
+    "n_hits": 25,
+    "pmid": "41979997",
+    "query": "(\"FANCO\" OR \"RAD51C\" OR \"RAD51L2\") AND (\"Fanconi anaemia\" OR \"Fanconi anemia\")",
+    "sentence": "Gene expression was comparable for RNA isolated from K2EDTA and Tempus tubes, whereas short-term lymphocyte culture resulted in a substantial increase in expression of clinically important genes including BRCA1, BRCA2, RAD51C, RAD51D, PALB2, CHEK2, and multiple Fanconi anaemia genes otherwise low expressed in whole blood.",
+    "source_text": "abstract",
+    "title": "Short-Term Lymphocyte Culture Improves the Diagnostic Yield of Targeted RNA NGS in Cancer Predisposition Testing.",
+    "year": "2026"
+   },
+   "disease_subtype": "group O",
+   "diseases": [
+    {
+     "id": "OMIM:613390",
+     "inheritance": "Autosomal recessive inheritance",
+     "name": "Fanconi anemia, complementation group O",
+     "source": "HPO",
+     "subtype": "group O"
+    },
+    {
+     "id": "ORPHA:84",
+     "inheritance": "not annotated",
+     "name": "Fanconi anemia",
+     "source": "HPO",
+     "subtype": null
+    },
+    {
+     "association_status": "Assessed",
+     "association_type": "Disease-causing germline mutation(s) in",
+     "id": "ORPHA:84",
+     "inheritance": "Autosomal recessive; X-linked recessive",
+     "name": "Fanconi anemia",
+     "orphanet_pmids": [
+      "20301575"
+     ],
+     "source": "Orphanet",
+     "subtype": null
+    }
+   ],
+   "hgnc_id": "HGNC:9820",
+   "inheritance_as_annotated": [
+    "Autosomal recessive inheritance",
+    "Autosomal recessive; X-linked recessive",
+    "not annotated"
+   ],
+   "mechanism_basis": {
+    "matched_terms": [
+     "DNA repair",
+     "double-strand break repair via homologous recombination"
+    ],
+    "uniprot_accession": "O43502"
+   },
+   "mechanism_class": "DNA repair/replication",
+   "n_sources": 2,
+   "sources": [
+    "HPO (genes_to_phenotype.txt + phenotype.hpoa)",
+    "Orphanet (Orphadata en_product6 + en_product9_ages)"
+   ],
+   "symbol": "RAD51C",
+   "tier": "curated"
+  },
+  {
+   "association_evidence": {
+    "evidence": "verified",
+    "n_hits": 25,
+    "pmid": "42615306",
+    "query": "(\"FANCW\" OR \"FLJ10520\" OR \"RFWD3\" OR \"RNF201\") AND (\"Fanconi anaemia\" OR \"Fanconi anemia\")",
+    "sentence": "Germline RFWD3 dysfunction disrupts genomic homeostasis, leading to hereditary non-neoplastic disorders, including Fanconi anemia and premature ovarian insufficiency, while somatic aberrations drive tumorigenesis across multiple organ systems.",
+    "source_text": "abstract",
+    "title": "RFWD3: A pivotal E3 ubiquitin ligase in DNA damage response, non-neoplastic disorders and multi-system tumorigenesis.",
+    "year": "2026"
+   },
+   "disease_subtype": "group W",
+   "diseases": [
+    {
+     "id": "OMIM:617784",
+     "inheritance": "Autosomal recessive inheritance",
+     "name": "Fanconi anemia, complementation group W",
+     "source": "HPO",
+     "subtype": "group W"
+    },
+    {
+     "id": "ORPHA:84",
+     "inheritance": "not annotated",
+     "name": "Fanconi anemia",
+     "source": "HPO",
+     "subtype": null
+    },
+    {
+     "association_status": "Assessed",
+     "association_type": "Disease-causing germline mutation(s) in",
+     "id": "ORPHA:84",
+     "inheritance": "Autosomal recessive; X-linked recessive",
+     "name": "Fanconi anemia",
+     "orphanet_pmids": [
+      "28691929"
+     ],
+     "source": "Orphanet",
+     "subtype": null
+    }
+   ],
+   "hgnc_id": "HGNC:25539",
+   "inheritance_as_annotated": [
+    "Autosomal recessive inheritance",
+    "Autosomal recessive; X-linked recessive",
+    "not annotated"
+   ],
+   "mechanism_basis": {
+    "matched_terms": [
+     "interstrand cross-link repair"
+    ],
+    "uniprot_accession": "Q6PCD5"
+   },
+   "mechanism_class": "DNA interstrand-crosslink repair",
+   "n_sources": 2,
+   "sources": [
+    "HPO (genes_to_phenotype.txt + phenotype.hpoa)",
+    "Orphanet (Orphadata en_product6 + en_product9_ages)"
+   ],
+   "symbol": "RFWD3",
+   "tier": "curated"
+  },
+  {
+   "association_evidence": {
+    "evidence": "verified",
+    "n_hits": 25,
+    "pmid": "40906985",
+    "query": "(\"FANCP\" OR \"Fanconi anemia, complementation group P\" OR \"KIAA1784\" OR \"KIAA1987\" OR \"SLX4\") AND (\"Fanconi anaemia\" OR \"Fanconi anemia\")",
+    "sentence": "Results We identified heterozygous germline P/LP variants in FA-related genes in 12.12% (8/66) of patients with GCTs, involving FANCA , BRCA2 , FANCD2 , FANCE , and SLX4 .",
+    "source_text": "abstract",
+    "title": "Heterozygous Germline Fanconi Anemia-Related Gene Mutations Increase Susceptibility to Germ Cell Tumors.",
+    "year": "2025"
+   },
+   "disease_subtype": "group P",
+   "diseases": [
+    {
+     "id": "OMIM:613951",
+     "inheritance": "Autosomal recessive inheritance",
+     "name": "Fanconi anemia, complementation group P",
+     "source": "HPO",
+     "subtype": "group P"
+    },
+    {
+     "id": "ORPHA:84",
+     "inheritance": "not annotated",
+     "name": "Fanconi anemia",
+     "source": "HPO",
+     "subtype": null
+    },
+    {
+     "association_status": "Assessed",
+     "association_type": "Disease-causing germline mutation(s) in",
+     "id": "ORPHA:84",
+     "inheritance": "Autosomal recessive; X-linked recessive",
+     "name": "Fanconi anemia",
+     "orphanet_pmids": [
+      "20301575"
+     ],
+     "source": "Orphanet",
+     "subtype": null
+    }
+   ],
+   "hgnc_id": "HGNC:23845",
+   "inheritance_as_annotated": [
+    "Autosomal recessive inheritance",
+    "Autosomal recessive; X-linked recessive",
+    "not annotated"
+   ],
+   "mechanism_basis": {
+    "matched_terms": [
+     "DNA repair",
+     "DNA replication",
+     "double-strand break repair via homologous recombination"
+    ],
+    "uniprot_accession": "Q8IY92"
+   },
+   "mechanism_class": "DNA repair/replication",
+   "n_sources": 2,
+   "sources": [
+    "HPO (genes_to_phenotype.txt + phenotype.hpoa)",
+    "Orphanet (Orphadata en_product6 + en_product9_ages)"
+   ],
+   "symbol": "SLX4",
+   "tier": "curated"
+  },
+  {
+   "association_evidence": {
+    "evidence": "verified",
+    "n_hits": 25,
+    "pmid": "41486508",
+    "query": "(\"FANCT\" OR \"HSPC150\" OR \"UBE2T\") AND (\"Fanconi anaemia\" OR \"Fanconi anemia\")",
+    "sentence": "Collectively, these findings uncover a previously unrecognised MAPK/ERK-UBE2T-FA axis in glioma and highlight BA as a potential adjuvant to overcome cisplatin resistance through transcriptional repression of UBE2T.",
+    "source_text": "abstract",
+    "title": "Betulinic Acid Suppresses UBE2T Expression via MAPK/ERK Inhibition to Block FANCI and FANCD2 Monoubiquitination in Glioblastoma.",
+    "year": "2026"
+   },
+   "disease_subtype": "group T",
+   "diseases": [
+    {
+     "id": "OMIM:616435",
+     "inheritance": "Autosomal recessive inheritance",
+     "name": "Fanconi anemia, complementation group T",
+     "source": "HPO",
+     "subtype": "group T"
+    },
+    {
+     "id": "ORPHA:84",
+     "inheritance": "not annotated",
+     "name": "Fanconi anemia",
+     "source": "HPO",
+     "subtype": null
+    },
+    {
+     "association_status": "Assessed",
+     "association_type": "Disease-causing germline mutation(s) in",
+     "id": "ORPHA:84",
+     "inheritance": "Autosomal recessive; X-linked recessive",
+     "name": "Fanconi anemia",
+     "orphanet_pmids": [
+      "26046368"
+     ],
+     "source": "Orphanet",
+     "subtype": null
+    }
+   ],
+   "hgnc_id": "HGNC:25009",
+   "inheritance_as_annotated": [
+    "Autosomal recessive inheritance",
+    "Autosomal recessive; X-linked recessive",
+    "not annotated"
+   ],
+   "mechanism_basis": {
+    "matched_terms": [
+     "DNA repair"
+    ],
+    "uniprot_accession": "Q9NPD8"
+   },
+   "mechanism_class": "DNA repair/replication",
+   "n_sources": 2,
+   "sources": [
+    "HPO (genes_to_phenotype.txt + phenotype.hpoa)",
+    "Orphanet (Orphadata en_product6 + en_product9_ages)"
+   ],
+   "symbol": "UBE2T",
+   "tier": "curated"
+  },
+  {
+   "association_evidence": {
+    "evidence": "verified",
+    "n_hits": 25,
+    "pmid": "42071175",
+    "query": "(\"DNA repair protein XRCC2\" OR \"FANCU\" OR \"RAD51-like\" OR \"XRCC2\") AND (\"Fanconi anaemia\" OR \"Fanconi anemia\")",
+    "sentence": "A role for the XRCC2 gene in FA was suspected in 2012 and confirmed in 2016, but only two affected individuals have been described thus far, and no long-term follow-up is available.",
+    "source_text": "abstract",
+    "title": "The Homozygous p.(Arg215Ter) Variant in XRCC2 Is Associated With Atypical Fanconi Anemia Without Major Hematological Abnormalities in Childhood.",
+    "year": "2026"
+   },
+   "disease_subtype": "group U",
+   "diseases": [
+    {
+     "id": "OMIM:617247",
+     "inheritance": "Autosomal recessive inheritance",
+     "name": "Fanconi anemia, complementation group U",
+     "source": "HPO",
+     "subtype": "group U"
+    },
+    {
+     "id": "ORPHA:84",
+     "inheritance": "not annotated",
+     "name": "Fanconi anemia",
+     "source": "HPO",
+     "subtype": null
+    },
+    {
+     "association_status": "Assessed",
+     "association_type": "Disease-causing germline mutation(s) in",
+     "id": "ORPHA:84",
+     "inheritance": "Autosomal recessive; X-linked recessive",
+     "name": "Fanconi anemia",
+     "orphanet_pmids": [
+      "22232082",
+      "27208205"
+     ],
+     "source": "Orphanet",
+     "subtype": null
+    }
+   ],
+   "hgnc_id": "HGNC:12829",
+   "inheritance_as_annotated": [
+    "Autosomal recessive inheritance",
+    "Autosomal recessive; X-linked recessive",
+    "not annotated"
+   ],
+   "mechanism_basis": {
+    "matched_terms": [
+     "DNA repair",
+     "double-strand break repair via homologous recombination"
+    ],
+    "uniprot_accession": "O43543"
+   },
+   "mechanism_class": "DNA repair/replication",
+   "n_sources": 2,
+   "sources": [
+    "HPO (genes_to_phenotype.txt + phenotype.hpoa)",
+    "Orphanet (Orphadata en_product6 + en_product9_ages)"
+   ],
+   "symbol": "XRCC2",
+   "tier": "curated"
+  }
+ ],
+ "header": {
+  "access_date": "2026-10-15",
+  "disease": "Fanconi anaemia",
+  "hpo_diseases_matched": {
+   "OMIM:227645": "Fanconi anemia, complementation group C",
+   "OMIM:227646": "Fanconi anemia, complementation group D2",
+   "OMIM:227650": "Fanconi anemia",
+   "OMIM:300514": "Fanconi anemia, complementation group B",
+   "OMIM:600901": "Fanconi anemia, complementation group E",
+   "OMIM:603467": "Fanconi anemia, complementation group F",
+   "OMIM:605724": "Fanconi anemia, complementation group D1",
+   "OMIM:609053": "Fanconi anemia, complementation group I",
+   "OMIM:609054": "Fanconi anemia, complementation group J",
+   "OMIM:610832": "Fanconi anemia, complementation group N",
+   "OMIM:613390": "Fanconi anemia, complementation group O",
+   "OMIM:613951": "Fanconi anemia, complementation group P",
+   "OMIM:614082": "Fanconi anemia, complementation group G",
+   "OMIM:614083": "Fanconi anemia, complementation group L",
+   "OMIM:615272": "Fanconi anemia, complementation group Q",
+   "OMIM:616435": "Fanconi anemia, complementation group T",
+   "OMIM:617243": "Fanconi anemia, complementation group V",
+   "OMIM:617244": "Fanconi anemia, complementation group R",
+   "OMIM:617247": "Fanconi anemia, complementation group U",
+   "OMIM:617784": "Fanconi anemia, complementation group W",
+   "OMIM:617883": "Fanconi anemia, complementation group S",
+   "OMIM:621258": "Fanconi anemia, complementation group X",
+   "ORPHA:84": "Fanconi anemia"
+  },
+  "identifiers": [],
+  "mechanism_rule": [
+   [
+    "DNA interstrand-crosslink repair",
+    "interstrand cross-?link repair"
+   ],
+   [
+    "spindle-assembly checkpoint",
+    "spindle assembly checkpoint|spindle checkpoint|mitotic checkpoint"
+   ],
+   [
+    "DNA repair/replication",
+    "DNA repair|DNA replication|double-strand break repair|homologous recombination"
+   ],
+   [
+    "kinetochore/microtubule attachment",
+    "kinetochore|attachment of spindle microtubules"
+   ],
+   [
+    "centrosome/centriole",
+    "centrosom|centriole"
+   ],
+   [
+    "sister-chromatid cohesion",
+    "sister chromatid cohesion|cohesin"
+   ],
+   [
+    "DNA repair/replication",
+    "DNA damage"
+   ],
+   [
+    "other",
+    "no rule matched"
+   ]
+  ],
+  "orphanet_disorders_matched": [
+   "ORPHA:84 Fanconi anemia"
+  ],
+  "search_terms": [
+   "Fanconi anaemia",
+   "Fanconi anemia"
+  ],
+  "sources": {
+   "Europe PMC": "https://www.ebi.ac.uk/europepmc/webservices/rest",
+   "HPO": {
+    "files": [
+     "phenotype.hpoa",
+     "genes_to_phenotype.txt",
+     "hp.obo"
+    ],
+    "hpo-version": "http://purl.obolibrary.org/obo/hp/releases/2026-09-01/hp.json",
+    "version": "2026-09-02"
+   },
+   "Orphanet": {
+    "error": null,
+    "urls": {
+     "gene_disease": "https://www.orphadata.com/data/xml/en_product6.xml",
+     "inheritance": "https://www.orphadata.com/data/xml/en_product9_ages.xml"
+    }
+   },
+   "UniProt": "https://rest.uniprot.org/uniprotkb/search"
+  },
+  "statement": "derived by code from public sources; association evidence is that of the cited sources"
+ },
+ "n_genes": 26,
+ "n_genes_by_mechanism_class": {
+  "DNA interstrand-crosslink repair": 14,
+  "DNA repair/replication": 10,
+  "other": 1,
+  "spindle-assembly checkpoint": 1
+ },
+ "n_genes_by_tier": {
+  "curated": 23,
+  "proposed, not curated": 3
+ },
+ "n_genes_with_verified_sentence": 25
+}

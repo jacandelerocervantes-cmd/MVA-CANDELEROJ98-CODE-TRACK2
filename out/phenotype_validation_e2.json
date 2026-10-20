@@ -1,0 +1,598 @@
+{
+ "e2_leave_causal_gene": true,
+ "modules": {
+  "MONDO_0004980": {
+   "causal_genes": [],
+   "n_drugs_excluded": 0,
+   "n_terms": 18,
+   "omim": [
+    "OMIM:603165"
+   ],
+   "rule": "annotated_to_at_least_2_terms",
+   "sizes": {
+    "min2_terms": 1258,
+    "min3_terms": 518,
+    "top100_information_content": 100
+   }
+  },
+  "MONDO_0005090": {
+   "causal_genes": [
+    "APOL2",
+    "CHI3L1",
+    "DAOA",
+    "DISC2",
+    "DRD3",
+    "HTR2A",
+    "MTHFR",
+    "RTN4R",
+    "SYN2"
+   ],
+   "n_drugs_excluded": 24,
+   "n_terms": 6,
+   "omim": [
+    "OMIM:181500"
+   ],
+   "rule": "annotated_to_at_least_2_terms",
+   "sizes": {
+    "min2_terms": 67,
+    "min3_terms": 7,
+    "top100_information_content": 91
+   }
+  },
+  "MONDO_0005147": {
+   "causal_genes": [
+    "HNF1A",
+    "IL6"
+   ],
+   "n_drugs_excluded": 1,
+   "n_terms": 8,
+   "omim": [
+    "OMIM:222100"
+   ],
+   "rule": "annotated_to_at_least_2_terms",
+   "sizes": {
+    "min2_terms": 177,
+    "min3_terms": 34,
+    "top100_information_content": 98
+   }
+  },
+  "MONDO_0005260": {
+   "causal_genes": [
+    "NLGN3",
+    "NLGN4X",
+    "SNRPN"
+   ],
+   "n_drugs_excluded": 0,
+   "n_terms": 12,
+   "omim": [
+    "OMIM:209850"
+   ],
+   "rule": "annotated_to_at_least_2_terms",
+   "sizes": {
+    "min2_terms": 1897,
+    "min3_terms": 1108,
+    "top100_information_content": 97
+   }
+  },
+  "MONDO_0005575": {
+   "causal_genes": [
+    "AKT1",
+    "APC",
+    "AURKA",
+    "AXIN2",
+    "BAX",
+    "BRAF",
+    "BUB1",
+    "BUB1B",
+    "CCND1",
+    "CTNNB1",
+    "DCC",
+    "DLC1",
+    "EP300",
+    "FGFR3",
+    "FLCN",
+    "MCC",
+    "MLH3",
+    "NRAS",
+    "PDGFRL",
+    "PIK3CA",
+    "PLA2G2A",
+    "PTPN12",
+    "PTPRJ",
+    "RAD54B",
+    "SRC",
+    "TLR2",
+    "TP53"
+   ],
+   "n_drugs_excluded": 17,
+   "n_terms": 6,
+   "omim": [
+    "OMIM:114500"
+   ],
+   "rule": "annotated_to_at_least_2_terms",
+   "sizes": {
+    "min2_terms": 33,
+    "min3_terms": 8,
+    "top100_information_content": 73
+   }
+  },
+  "MONDO_0007147": {
+   "causal_genes": [],
+   "n_drugs_excluded": 0,
+   "n_terms": 5,
+   "omim": [
+    "OMIM:107650"
+   ],
+   "rule": "annotated_to_at_least_2_terms",
+   "sizes": {
+    "min2_terms": 28,
+    "min3_terms": 2,
+    "top100_information_content": 100
+   }
+  },
+  "MONDO_0007661": {
+   "causal_genes": [
+    "HDC",
+    "SLITRK1"
+   ],
+   "n_drugs_excluded": 0,
+   "n_terms": 8,
+   "omim": [
+    "OMIM:137580"
+   ],
+   "rule": "annotated_to_at_least_2_terms",
+   "sizes": {
+    "min2_terms": 395,
+    "min3_terms": 161,
+    "top100_information_content": 98
+   }
+  },
+  "MONDO_0007915": {
+   "causal_genes": [
+    "DNASE1",
+    "FCGR2A",
+    "FCGR2B",
+    "TREX1"
+   ],
+   "n_drugs_excluded": 0,
+   "n_terms": 21,
+   "omim": [
+    "OMIM:152700"
+   ],
+   "rule": "annotated_to_at_least_2_terms",
+   "sizes": {
+    "min2_terms": 707,
+    "min3_terms": 277,
+    "top100_information_content": 96
+   }
+  },
+  "MONDO_0008383": {
+   "causal_genes": [
+    "CD244",
+    "CIITA",
+    "IL10",
+    "NFKBIL1",
+    "SLC22A4"
+   ],
+   "n_drugs_excluded": 0,
+   "n_terms": 16,
+   "omim": [
+    "OMIM:180300"
+   ],
+   "rule": "annotated_to_at_least_2_terms",
+   "sizes": {
+    "min2_terms": 456,
+    "min3_terms": 215,
+    "top100_information_content": 95
+   }
+  },
+  "MONDO_0008728": {
+   "causal_genes": [
+    "CYP21A2"
+   ],
+   "n_drugs_excluded": 0,
+   "n_terms": 12,
+   "omim": [
+    "OMIM:201910"
+   ],
+   "rule": "annotated_to_at_least_2_terms",
+   "sizes": {
+    "min2_terms": 1649,
+    "min3_terms": 603,
+    "top100_information_content": 99
+   }
+  },
+  "MONDO_0009061": {
+   "causal_genes": [
+    "CFTR",
+    "FCGR2A",
+    "TGFB1"
+   ],
+   "n_drugs_excluded": 7,
+   "n_terms": 31,
+   "omim": [
+    "OMIM:219700"
+   ],
+   "rule": "annotated_to_at_least_2_terms",
+   "sizes": {
+    "min2_terms": 1026,
+    "min3_terms": 581,
+    "top100_information_content": 97
+   }
+  },
+  "MONDO_0009688": {
+   "causal_genes": [],
+   "n_drugs_excluded": 0,
+   "n_terms": 14,
+   "omim": [
+    "OMIM:254200"
+   ],
+   "rule": "annotated_to_at_least_2_terms",
+   "sizes": {
+    "min2_terms": 1926,
+    "min3_terms": 1053,
+    "top100_information_content": 100
+   }
+  },
+  "MONDO_0009691": {
+   "causal_genes": [],
+   "n_drugs_excluded": 0,
+   "n_terms": 8,
+   "omim": [
+    "OMIM:254400"
+   ],
+   "rule": "annotated_to_at_least_2_terms",
+   "sizes": {
+    "min2_terms": 282,
+    "min3_terms": 100,
+    "top100_information_content": 100
+   }
+  },
+  "MONDO_0009891": {
+   "causal_genes": [
+    "JAK2"
+   ],
+   "n_drugs_excluded": 6,
+   "n_terms": 14,
+   "omim": [
+    "OMIM:263300"
+   ],
+   "rule": "annotated_to_at_least_2_terms",
+   "sizes": {
+    "min2_terms": 482,
+    "min3_terms": 163,
+    "top100_information_content": 99
+   }
+  },
+  "MONDO_0010602": {
+   "causal_genes": [
+    "F8"
+   ],
+   "n_drugs_excluded": 12,
+   "n_terms": 14,
+   "omim": [
+    "OMIM:134500",
+    "OMIM:306700"
+   ],
+   "rule": "annotated_to_at_least_2_terms",
+   "sizes": {
+    "min2_terms": 311,
+    "min3_terms": 157,
+    "top100_information_content": 99
+   }
+  },
+  "MONDO_0010604": {
+   "causal_genes": [
+    "F9"
+   ],
+   "n_drugs_excluded": 9,
+   "n_terms": 14,
+   "omim": [
+    "OMIM:306900"
+   ],
+   "rule": "annotated_to_at_least_2_terms",
+   "sizes": {
+    "min2_terms": 178,
+    "min3_terms": 83,
+    "top100_information_content": 99
+   }
+  },
+  "MONDO_0010679": {
+   "causal_genes": [
+    "DMD"
+   ],
+   "n_drugs_excluded": 1,
+   "n_terms": 30,
+   "omim": [
+    "OMIM:310200"
+   ],
+   "rule": "annotated_to_at_least_2_terms",
+   "sizes": {
+    "min2_terms": 2348,
+    "min3_terms": 1565,
+    "top100_information_content": 99
+   }
+  },
+  "MONDO_0011382": {
+   "causal_genes": [
+    "HBB"
+   ],
+   "n_drugs_excluded": 2,
+   "n_terms": 19,
+   "omim": [
+    "OMIM:603903"
+   ],
+   "rule": "annotated_to_at_least_2_terms",
+   "sizes": {
+    "min2_terms": 1029,
+    "min3_terms": 595,
+    "top100_information_content": 99
+   }
+  },
+  "MONDO_0011719": {
+   "causal_genes": [
+    "KIT",
+    "SDHB",
+    "SDHC"
+   ],
+   "n_drugs_excluded": 8,
+   "n_terms": 8,
+   "omim": [
+    "OMIM:606764"
+   ],
+   "rule": "annotated_to_at_least_2_terms",
+   "sizes": {
+    "min2_terms": 299,
+    "min3_terms": 42,
+    "top100_information_content": 97
+   }
+  }
+ },
+ "n_candidates": 19,
+ "primary": {
+  "excess_condition_met": false,
+  "excess_over_degree": {
+   "ci95_high": 0.2669240736521148,
+   "ci95_low": -0.08302375172325294,
+   "mean_excess_over_degree": 0.09450167237139799
+  },
+  "n_evaluable": 15,
+  "per_disease": {
+   "MONDO_0004980": {
+    "auc": 0.6807,
+    "auc_degree_only": 0.6468,
+    "n_known": 22,
+    "n_scorable": 1040
+   },
+   "MONDO_0005090": {
+    "auc": 0.4889,
+    "auc_degree_only": 0.575,
+    "n_known": 9,
+    "n_scorable": 1016
+   },
+   "MONDO_0005147": {
+    "auc": 0.7993,
+    "auc_degree_only": 0.3622,
+    "n_known": 6,
+    "n_scorable": 1039
+   },
+   "MONDO_0005260": {
+    "auc": 0.6365,
+    "auc_degree_only": 0.4073,
+    "n_known": 3,
+    "n_scorable": 1040
+   },
+   "MONDO_0005575": {
+    "auc": 0.6845,
+    "auc_degree_only": 0.8495,
+    "n_known": 5,
+    "n_scorable": 1023
+   },
+   "MONDO_0007147": {
+    "auc": 0.6239,
+    "auc_degree_only": 0.2943,
+    "n_known": 3,
+    "n_scorable": 1040
+   },
+   "MONDO_0007661": {
+    "auc": 0.8791,
+    "auc_degree_only": 0.4359,
+    "n_known": 3,
+    "n_scorable": 1040
+   },
+   "MONDO_0007915": {
+    "auc": 0.4729,
+    "auc_degree_only": 0.7826,
+    "n_known": 6,
+    "n_scorable": 1040
+   },
+   "MONDO_0008383": {
+    "auc": 0.6646,
+    "auc_degree_only": 0.4736,
+    "n_known": 40,
+    "n_scorable": 1040
+   },
+   "MONDO_0008728": {
+    "auc": 0.9013,
+    "auc_degree_only": 0.8576,
+    "n_known": 4,
+    "n_scorable": 1040
+   },
+   "MONDO_0009688": {
+    "auc": 0.4066,
+    "auc_degree_only": 0.4371,
+    "n_known": 4,
+    "n_scorable": 1040
+   },
+   "MONDO_0009691": {
+    "auc": 0.55,
+    "auc_degree_only": 0.7239,
+    "n_known": 4,
+    "n_scorable": 1040
+   },
+   "MONDO_0010602": {
+    "auc": 0.8198,
+    "auc_degree_only": 0.357,
+    "n_known": 7,
+    "n_scorable": 1028
+   },
+   "MONDO_0010604": {
+    "auc": 0.9248,
+    "auc_degree_only": 0.2059,
+    "n_known": 4,
+    "n_scorable": 1031
+   },
+   "MONDO_0010679": {
+    "auc": 0.1535,
+    "auc_degree_only": 0.86,
+    "n_known": 3,
+    "n_scorable": 1039
+   }
+  },
+  "summary": {
+   "ci95_high": 0.7450286036111434,
+   "ci95_low": 0.5389821643353776,
+   "mean_auc": 0.6457543433558339,
+   "median_auc": 0.6646,
+   "n_auc_above_0_5": 11,
+   "n_diseases": 15,
+   "permutation": {
+    "null_mean": 0.5381067375267646,
+    "null_sd": 0.03385600754411462,
+    "observed_mean_auc": 0.6457543433558339,
+    "p_one_sided": 0.002997002997002997,
+    "permutations": 1000
+   }
+  },
+  "test_is_valid": true,
+  "validated": true
+ },
+ "rule": {
+  "auc_min": 0.6,
+  "ci_lower_min": 0.5,
+  "min_hpo_terms": 5,
+  "min_known": 3,
+  "min_valid_diseases": 15,
+  "primary": "min2_terms",
+  "string_score": 700
+ },
+ "secondary_top100": {
+  "excess_condition_met": false,
+  "excess_over_degree": {
+   "ci95_high": 0.31658935900069746,
+   "ci95_low": -0.024052024499221027,
+   "mean_excess_over_degree": 0.145042813381886
+  },
+  "n_evaluable": 15,
+  "per_disease": {
+   "MONDO_0004980": {
+    "auc": 0.5379,
+    "auc_degree_only": 0.6468,
+    "n_known": 22,
+    "n_scorable": 1040
+   },
+   "MONDO_0005090": {
+    "auc": 0.4462,
+    "auc_degree_only": 0.575,
+    "n_known": 9,
+    "n_scorable": 1016
+   },
+   "MONDO_0005147": {
+    "auc": 0.8191,
+    "auc_degree_only": 0.3622,
+    "n_known": 6,
+    "n_scorable": 1039
+   },
+   "MONDO_0005260": {
+    "auc": 0.6461,
+    "auc_degree_only": 0.4073,
+    "n_known": 3,
+    "n_scorable": 1040
+   },
+   "MONDO_0005575": {
+    "auc": 0.6395,
+    "auc_degree_only": 0.8495,
+    "n_known": 5,
+    "n_scorable": 1023
+   },
+   "MONDO_0007147": {
+    "auc": 0.5391,
+    "auc_degree_only": 0.2943,
+    "n_known": 3,
+    "n_scorable": 1040
+   },
+   "MONDO_0007661": {
+    "auc": 0.9354,
+    "auc_degree_only": 0.4359,
+    "n_known": 3,
+    "n_scorable": 1040
+   },
+   "MONDO_0007915": {
+    "auc": 0.4123,
+    "auc_degree_only": 0.7826,
+    "n_known": 6,
+    "n_scorable": 1040
+   },
+   "MONDO_0008383": {
+    "auc": 0.7572,
+    "auc_degree_only": 0.4736,
+    "n_known": 40,
+    "n_scorable": 1040
+   },
+   "MONDO_0008728": {
+    "auc": 0.9211,
+    "auc_degree_only": 0.8576,
+    "n_known": 4,
+    "n_scorable": 1040
+   },
+   "MONDO_0009688": {
+    "auc": 0.8224,
+    "auc_degree_only": 0.4371,
+    "n_known": 4,
+    "n_scorable": 1040
+   },
+   "MONDO_0009691": {
+    "auc": 0.6856,
+    "auc_degree_only": 0.7239,
+    "n_known": 4,
+    "n_scorable": 1040
+   },
+   "MONDO_0010602": {
+    "auc": 0.9064,
+    "auc_degree_only": 0.357,
+    "n_known": 7,
+    "n_scorable": 1028
+   },
+   "MONDO_0010604": {
+    "auc": 0.9418,
+    "auc_degree_only": 0.2059,
+    "n_known": 4,
+    "n_scorable": 1031
+   },
+   "MONDO_0010679": {
+    "auc": 0.4344,
+    "auc_degree_only": 0.86,
+    "n_known": 3,
+    "n_scorable": 1039
+   }
+  },
+  "summary": {
+   "ci95_high": 0.7905998619188007,
+   "ci95_low": 0.5999649380228277,
+   "mean_auc": 0.6962954843663218,
+   "median_auc": 0.6855694980694981,
+   "n_auc_above_0_5": 12,
+   "n_diseases": 15,
+   "permutation": {
+    "null_mean": 0.5286470335794984,
+    "null_sd": 0.03147850992021613,
+    "observed_mean_auc": 0.6962954843663218,
+    "p_one_sided": 0.000999000999000999,
+    "permutations": 1000
+   }
+  },
+  "test_is_valid": true,
+  "validated": true
+ },
+ "verdict": "line B not validated"
+}

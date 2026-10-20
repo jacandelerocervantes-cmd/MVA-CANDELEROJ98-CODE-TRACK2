@@ -1,0 +1,26 @@
+{"synonyms_built": 1122, "seconds": 33}
+{"pairs": 5792, "pairs_with_drug_terms": 5792}
+{"queries_done": 250, "of": 5792, "seconds": 167}
+{"queries_done": 500, "of": 5792, "seconds": 276}
+{"queries_done": 750, "of": 5792, "seconds": 417}
+{"queries_done": 1000, "of": 5792, "seconds": 519}
+{"queries_done": 1250, "of": 5792, "seconds": 576}
+{"queries_done": 1500, "of": 5792, "seconds": 702}
+{"queries_done": 1750, "of": 5792, "seconds": 774}
+{"queries_done": 2000, "of": 5792, "seconds": 853}
+{"queries_done": 2250, "of": 5792, "seconds": 981}
+{"queries_done": 2500, "of": 5792, "seconds": 1052}
+{"queries_done": 2750, "of": 5792, "seconds": 1133}
+{"queries_done": 3000, "of": 5792, "seconds": 1267}
+{"queries_done": 3250, "of": 5792, "seconds": 1400}
+{"queries_done": 3500, "of": 5792, "seconds": 1515}
+{"queries_done": 3750, "of": 5792, "seconds": 1651}
+{"queries_done": 4000, "of": 5792, "seconds": 1803}
+{"queries_done": 4250, "of": 5792, "seconds": 1865}
+{"queries_done": 4500, "of": 5792, "seconds": 2016}
+{"queries_done": 4750, "of": 5792, "seconds": 2128}
+{"queries_done": 5000, "of": 5792, "seconds": 2276}
+{"queries_done": 5250, "of": 5792, "seconds": 2368}
+{"queries_done": 5500, "of": 5792, "seconds": 2443}
+{"queries_done": 5750, "of": 5792, "seconds": 2507}
+{"retrieve_done": true, "per_split": {"dev": {"pairs": 4442, "pairs_ge1_record": 2425, "records": 23086}, "heldout": {"pairs": 1350, "pairs_ge1_record": 515, "records": 4085}}, "seconds": 2518}

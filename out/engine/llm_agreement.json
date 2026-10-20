@@ -1,0 +1,1417 @@
+{
+ "annotators": [
+  "ai",
+  "rule",
+  "opus",
+  "sonnet"
+ ],
+ "blind_annotators_saw": "drug and sentence only, plus the guideline",
+ "guideline": "protocol/annotation_guideline.md",
+ "items": [
+  {
+   "ai": "harm",
+   "drug": "ACADESINE (AICAR)",
+   "id": 0,
+   "opus": "unclear",
+   "pmid": "21315436",
+   "reliability": "majority",
+   "sonnet": "unclear"
+  },
+  {
+   "ai": "no_effect",
+   "drug": "ADRENOCORTICOTROPIC HORMONE",
+   "id": 1,
+   "opus": "no_effect",
+   "pmid": "23916859",
+   "reliability": "robust",
+   "sonnet": "no_effect"
+  },
+  {
+   "ai": "unclear",
+   "drug": "ANTITHYMOCYTE GLOBULIN",
+   "id": 2,
+   "opus": "unclear",
+   "pmid": "31053147",
+   "reliability": "robust",
+   "sonnet": "unclear"
+  },
+  {
+   "ai": "harm",
+   "drug": "BORTEZOMIB",
+   "id": 3,
+   "opus": "benefit",
+   "pmid": "39247952",
+   "reliability": "majority",
+   "sonnet": "benefit"
+  },
+  {
+   "ai": "harm",
+   "drug": "BORTEZOMIB",
+   "id": 4,
+   "opus": "benefit",
+   "pmid": "39247952",
+   "reliability": "majority",
+   "sonnet": "benefit"
+  },
+  {
+   "ai": "harm",
+   "drug": "BORTEZOMIB",
+   "id": 5,
+   "opus": "benefit",
+   "pmid": "39247952",
+   "reliability": "majority",
+   "sonnet": "benefit"
+  },
+  {
+   "ai": "harm",
+   "drug": "BOSUTINIB",
+   "id": 6,
+   "opus": "benefit",
+   "pmid": "31980556",
+   "reliability": "majority",
+   "sonnet": "benefit"
+  },
+  {
+   "ai": "unclear",
+   "drug": "CARBOPLATIN",
+   "id": 7,
+   "opus": "benefit",
+   "pmid": "19458043",
+   "reliability": "majority",
+   "sonnet": "benefit"
+  },
+  {
+   "ai": "unclear",
+   "drug": "CHLOROQUINE",
+   "id": 8,
+   "opus": "unclear",
+   "pmid": "21315436",
+   "reliability": "robust",
+   "sonnet": "unclear"
+  },
+  {
+   "ai": "harm",
+   "drug": "CHLOROQUINE",
+   "id": 9,
+   "opus": "benefit",
+   "pmid": "21315436",
+   "reliability": "majority",
+   "sonnet": "benefit"
+  },
+  {
+   "ai": "harm",
+   "drug": "CHLOROQUINE",
+   "id": 10,
+   "opus": "benefit",
+   "pmid": "26404941",
+   "reliability": "majority",
+   "sonnet": "benefit"
+  },
+  {
+   "ai": "harm",
+   "drug": "CHLOROQUINE",
+   "id": 11,
+   "opus": "benefit",
+   "pmid": "34215848",
+   "reliability": "majority",
+   "sonnet": "benefit"
+  },
+  {
+   "ai": "unclear",
+   "drug": "CHLOROQUINE",
+   "id": 12,
+   "opus": "unclear",
+   "pmid": "34215848",
+   "reliability": "robust",
+   "sonnet": "unclear"
+  },
+  {
+   "ai": "unclear",
+   "drug": "CHLOROQUINE",
+   "id": 13,
+   "opus": "unclear",
+   "pmid": "26404941",
+   "reliability": "robust",
+   "sonnet": "unclear"
+  },
+  {
+   "ai": "harm",
+   "drug": "CHLOROQUINE",
+   "id": 14,
+   "opus": "benefit",
+   "pmid": "34215848",
+   "reliability": "majority",
+   "sonnet": "benefit"
+  },
+  {
+   "ai": "unclear",
+   "drug": "CHLOROQUINE",
+   "id": 15,
+   "opus": "benefit",
+   "pmid": "21315436",
+   "reliability": "majority",
+   "sonnet": "benefit"
+  },
+  {
+   "ai": "benefit",
+   "drug": "CHLOROQUINE",
+   "id": 16,
+   "opus": "benefit",
+   "pmid": "25637161",
+   "reliability": "robust",
+   "sonnet": "benefit"
+  },
+  {
+   "ai": "unclear",
+   "drug": "CHLOROQUINE",
+   "id": 17,
+   "opus": "benefit",
+   "pmid": "21315436",
+   "reliability": "majority",
+   "sonnet": "benefit"
+  },
+  {
+   "ai": "harm",
+   "drug": "CHLOROQUINE",
+   "id": 18,
+   "opus": "unclear",
+   "pmid": "21315436",
+   "reliability": "majority",
+   "sonnet": "unclear"
+  },
+  {
+   "ai": "benefit",
+   "drug": "CHLOROQUINE",
+   "id": 19,
+   "opus": "unclear",
+   "pmid": "21315436",
+   "reliability": "majority",
+   "sonnet": "unclear"
+  },
+  {
+   "ai": "no_effect",
+   "drug": "CHLOROTHIAZIDE",
+   "id": 20,
+   "opus": "no_effect",
+   "pmid": "10654327",
+   "reliability": "robust",
+   "sonnet": "no_effect"
+  },
+  {
+   "ai": "no_effect",
+   "drug": "COLCEMID",
+   "id": 21,
+   "opus": "no_effect",
+   "pmid": "10877982",
+   "reliability": "robust",
+   "sonnet": "no_effect"
+  },
+  {
+   "ai": "unclear",
+   "drug": "COLCEMID (DEMECOLCINE)",
+   "id": 22,
+   "opus": "no_effect",
+   "pmid": "10877982",
+   "reliability": "majority",
+   "sonnet": "no_effect"
+  },
+  {
+   "ai": "no_effect",
+   "drug": "CORTICOTROPIN",
+   "id": 23,
+   "opus": "no_effect",
+   "pmid": "23916859",
+   "reliability": "robust",
+   "sonnet": "no_effect"
+  },
+  {
+   "ai": "harm",
+   "drug": "DACTINOMYCIN",
+   "id": 24,
+   "opus": "harm",
+   "pmid": "31081598",
+   "reliability": "robust",
+   "sonnet": "harm"
+  },
+  {
+   "ai": "harm",
+   "drug": "DACTINOMYCIN",
+   "id": 25,
+   "opus": "harm",
+   "pmid": "31081598",
+   "reliability": "robust",
+   "sonnet": "harm"
+  },
+  {
+   "ai": "harm",
+   "drug": "DACTINOMYCIN",
+   "id": 26,
+   "opus": "harm",
+   "pmid": "31081598",
+   "reliability": "robust",
+   "sonnet": "harm"
+  },
+  {
+   "ai": "harm",
+   "drug": "DACTINOMYCIN",
+   "id": 27,
+   "opus": "harm",
+   "pmid": "31081598",
+   "reliability": "robust",
+   "sonnet": "harm"
+  },
+  {
+   "ai": "harm",
+   "drug": "DACTINOMYCIN",
+   "id": 28,
+   "opus": "harm",
+   "pmid": "31081598",
+   "reliability": "robust",
+   "sonnet": "harm"
+  },
+  {
+   "ai": "harm",
+   "drug": "DASATINIB",
+   "id": 29,
+   "opus": "benefit",
+   "pmid": "38357786",
+   "reliability": "majority",
+   "sonnet": "benefit"
+  },
+  {
+   "ai": "harm",
+   "drug": "DASATINIB ANHYDROUS",
+   "id": 30,
+   "opus": "harm",
+   "pmid": "42041544",
+   "reliability": "robust",
+   "sonnet": "harm"
+  },
+  {
+   "ai": "benefit",
+   "drug": "DASATINIB ANHYDROUS",
+   "id": 31,
+   "opus": "benefit",
+   "pmid": "25754370",
+   "reliability": "robust",
+   "sonnet": "benefit"
+  },
+  {
+   "ai": "benefit",
+   "drug": "DASATINIB ANHYDROUS",
+   "id": 32,
+   "opus": "benefit",
+   "pmid": "29988130",
+   "reliability": "robust",
+   "sonnet": "benefit"
+  },
+  {
+   "ai": "harm",
+   "drug": "DASATINIB ANHYDROUS",
+   "id": 33,
+   "opus": "harm",
+   "pmid": "38612842",
+   "reliability": "robust",
+   "sonnet": "harm"
+  },
+  {
+   "ai": "harm",
+   "drug": "DASATINIB ANHYDROUS",
+   "id": 34,
+   "opus": "harm",
+   "pmid": "38612842",
+   "reliability": "robust",
+   "sonnet": "harm"
+  },
+  {
+   "ai": "benefit",
+   "drug": "DENOSUMAB",
+   "id": 35,
+   "opus": "benefit",
+   "pmid": "42572248",
+   "reliability": "robust",
+   "sonnet": "benefit"
+  },
+  {
+   "ai": "benefit",
+   "drug": "ERIBULIN",
+   "id": 36,
+   "opus": "benefit",
+   "pmid": "25917079",
+   "reliability": "robust",
+   "sonnet": "benefit"
+  },
+  {
+   "ai": "no_effect",
+   "drug": "ETOPOSIDE",
+   "id": 37,
+   "opus": "harm",
+   "pmid": "39251587",
+   "reliability": "majority",
+   "sonnet": "harm"
+  },
+  {
+   "ai": "no_effect",
+   "drug": "ETOPOSIDE",
+   "id": 38,
+   "opus": "harm",
+   "pmid": "39251587",
+   "reliability": "majority",
+   "sonnet": "harm"
+  },
+  {
+   "ai": "harm",
+   "drug": "ETOPOSIDE",
+   "id": 39,
+   "opus": "harm",
+   "pmid": "26851014",
+   "reliability": "robust",
+   "sonnet": "harm"
+  },
+  {
+   "ai": "benefit",
+   "drug": "EVEROLIMUS",
+   "id": 40,
+   "opus": "benefit",
+   "pmid": "31308131",
+   "reliability": "robust",
+   "sonnet": "benefit"
+  },
+  {
+   "ai": "benefit",
+   "drug": "EVEROLIMUS",
+   "id": 41,
+   "opus": "benefit",
+   "pmid": "40313040",
+   "reliability": "robust",
+   "sonnet": "benefit"
+  },
+  {
+   "ai": "unclear",
+   "drug": "EVEROLIMUS",
+   "id": 42,
+   "opus": "no_effect",
+   "pmid": "23865768",
+   "reliability": "majority",
+   "sonnet": "no_effect"
+  },
+  {
+   "ai": "benefit",
+   "drug": "FASUDIL",
+   "id": 43,
+   "opus": "benefit",
+   "pmid": "42638456",
+   "reliability": "robust",
+   "sonnet": "benefit"
+  },
+  {
+   "ai": "harm",
+   "drug": "FISETIN",
+   "id": 44,
+   "opus": "unclear",
+   "pmid": "19395653",
+   "reliability": "majority",
+   "sonnet": "unclear"
+  },
+  {
+   "ai": "unclear",
+   "drug": "FLUDARABINE",
+   "id": 45,
+   "opus": "unclear",
+   "pmid": "31053147",
+   "reliability": "robust",
+   "sonnet": "unclear"
+  },
+  {
+   "ai": "harm",
+   "drug": "FUROSEMIDE",
+   "id": 46,
+   "opus": "harm",
+   "pmid": "19460127",
+   "reliability": "robust",
+   "sonnet": "harm"
+  },
+  {
+   "ai": "benefit",
+   "drug": "HYDROCHLOROTHIAZIDE",
+   "id": 47,
+   "opus": "benefit",
+   "pmid": "11433085",
+   "reliability": "robust",
+   "sonnet": "benefit"
+  },
+  {
+   "ai": "unclear",
+   "drug": "HYDROXYCHLOROQUINE",
+   "id": 48,
+   "opus": "unclear",
+   "pmid": "41057275",
+   "reliability": "majority",
+   "sonnet": "no_effect"
+  },
+  {
+   "ai": "benefit",
+   "drug": "MECASERMIN",
+   "id": 49,
+   "opus": "benefit",
+   "pmid": "33434161",
+   "reliability": "robust",
+   "sonnet": "benefit"
+  },
+  {
+   "ai": "harm",
+   "drug": "MECASERMIN",
+   "id": 50,
+   "opus": "harm",
+   "pmid": "33434161",
+   "reliability": "robust",
+   "sonnet": "harm"
+  },
+  {
+   "ai": "unclear",
+   "drug": "MECASERMIN",
+   "id": 51,
+   "opus": "unclear",
+   "pmid": "35434947",
+   "reliability": "robust",
+   "sonnet": "unclear"
+  },
+  {
+   "ai": "benefit",
+   "drug": "MECASERMIN",
+   "id": 52,
+   "opus": "benefit",
+   "pmid": "23612698",
+   "reliability": "robust",
+   "sonnet": "benefit"
+  },
+  {
+   "ai": "no_effect",
+   "drug": "MECASERMIN",
+   "id": 53,
+   "opus": "unclear",
+   "pmid": "12153610",
+   "reliability": "majority",
+   "sonnet": "unclear"
+  },
+  {
+   "ai": "unclear",
+   "drug": "METFORMIN",
+   "id": 54,
+   "opus": "benefit",
+   "pmid": "23900241",
+   "reliability": "majority",
+   "sonnet": "benefit"
+  },
+  {
+   "ai": "no_effect",
+   "drug": "METFORMIN",
+   "id": 55,
+   "opus": "no_effect",
+   "pmid": "40870444",
+   "reliability": "robust",
+   "sonnet": "no_effect"
+  },
+  {
+   "ai": "harm",
+   "drug": "METFORMIN",
+   "id": 56,
+   "opus": "benefit",
+   "pmid": "23900241",
+   "reliability": "majority",
+   "sonnet": "benefit"
+  },
+  {
+   "ai": "benefit",
+   "drug": "METFORMIN",
+   "id": 57,
+   "opus": "benefit",
+   "pmid": "40552127",
+   "reliability": "robust",
+   "sonnet": "benefit"
+  },
+  {
+   "ai": "unclear",
+   "drug": "METFORMIN",
+   "id": 58,
+   "opus": "benefit",
+   "pmid": "38904203",
+   "reliability": "majority",
+   "sonnet": "benefit"
+  },
+  {
+   "ai": "harm",
+   "drug": "METFORMIN",
+   "id": 59,
+   "opus": "harm",
+   "pmid": "35568294",
+   "reliability": "majority",
+   "sonnet": "unclear"
+  },
+  {
+   "ai": "harm",
+   "drug": "METFORMIN",
+   "id": 60,
+   "opus": "harm",
+   "pmid": "35568294",
+   "reliability": "majority",
+   "sonnet": "unclear"
+  },
+  {
+   "ai": "harm",
+   "drug": "NIACINAMIDE",
+   "id": 61,
+   "opus": "harm",
+   "pmid": "41724424",
+   "reliability": "robust",
+   "sonnet": "harm"
+  },
+  {
+   "ai": "harm",
+   "drug": "NIACINAMIDE",
+   "id": 62,
+   "opus": "harm",
+   "pmid": "41724424",
+   "reliability": "robust",
+   "sonnet": "harm"
+  },
+  {
+   "ai": "benefit",
+   "drug": "NIACINAMIDE",
+   "id": 63,
+   "opus": "benefit",
+   "pmid": "30327366",
+   "reliability": "robust",
+   "sonnet": "benefit"
+  },
+  {
+   "ai": "benefit",
+   "drug": "NICOTINAMIDE MONONUCLEOTIDE",
+   "id": 64,
+   "opus": "benefit",
+   "pmid": "24825348",
+   "reliability": "robust",
+   "sonnet": "benefit"
+  },
+  {
+   "ai": "unclear",
+   "drug": "OLAPARIB",
+   "id": 65,
+   "opus": "harm",
+   "pmid": "39251587",
+   "reliability": "majority",
+   "sonnet": "harm"
+  },
+  {
+   "ai": "no_effect",
+   "drug": "OLAPARIB",
+   "id": 66,
+   "opus": "harm",
+   "pmid": "39251587",
+   "reliability": "majority",
+   "sonnet": "harm"
+  },
+  {
+   "ai": "harm",
+   "drug": "OLAPARIB",
+   "id": 67,
+   "opus": "harm",
+   "pmid": "40794554",
+   "reliability": "robust",
+   "sonnet": "harm"
+  },
+  {
+   "ai": "no_effect",
+   "drug": "OLAPARIB",
+   "id": 68,
+   "opus": "no_effect",
+   "pmid": "40804462",
+   "reliability": "robust",
+   "sonnet": "no_effect"
+  },
+  {
+   "ai": "no_effect",
+   "drug": "OLAPARIB",
+   "id": 69,
+   "opus": "harm",
+   "pmid": "39251587",
+   "reliability": "majority",
+   "sonnet": "harm"
+  },
+  {
+   "ai": "no_effect",
+   "drug": "OLAPARIB",
+   "id": 70,
+   "opus": "no_effect",
+   "pmid": "40804462",
+   "reliability": "robust",
+   "sonnet": "no_effect"
+  },
+  {
+   "ai": "unclear",
+   "drug": "PACLITAXEL",
+   "id": 71,
+   "opus": "harm",
+   "pmid": "17234259",
+   "reliability": "majority",
+   "sonnet": "harm"
+  },
+  {
+   "ai": "unclear",
+   "drug": "PACLITAXEL",
+   "id": 72,
+   "opus": "harm",
+   "pmid": "39014450",
+   "reliability": "majority",
+   "sonnet": "harm"
+  },
+  {
+   "ai": "unclear",
+   "drug": "PACLITAXEL",
+   "id": 73,
+   "opus": "harm",
+   "pmid": "38987356",
+   "reliability": "majority",
+   "sonnet": "harm"
+  },
+  {
+   "ai": "unclear",
+   "drug": "PACLITAXEL",
+   "id": 74,
+   "opus": "harm",
+   "pmid": "19458043",
+   "reliability": "majority",
+   "sonnet": "harm"
+  },
+  {
+   "ai": "no_effect",
+   "drug": "PACLITAXEL",
+   "id": 75,
+   "opus": "unclear",
+   "pmid": "24670687",
+   "reliability": "majority",
+   "sonnet": "unclear"
+  },
+  {
+   "ai": "no_effect",
+   "drug": "PACLITAXEL",
+   "id": 76,
+   "opus": "unclear",
+   "pmid": "24670687",
+   "reliability": "majority",
+   "sonnet": "unclear"
+  },
+  {
+   "ai": "harm",
+   "drug": "PACLITAXEL",
+   "id": 77,
+   "opus": "harm",
+   "pmid": "39014450",
+   "reliability": "robust",
+   "sonnet": "harm"
+  },
+  {
+   "ai": "harm",
+   "drug": "PACLITAXEL",
+   "id": 78,
+   "opus": "harm",
+   "pmid": "38987356",
+   "reliability": "robust",
+   "sonnet": "harm"
+  },
+  {
+   "ai": "benefit",
+   "drug": "PHENYLBUTANOIC ACID",
+   "id": 79,
+   "opus": "benefit",
+   "pmid": "31356639",
+   "reliability": "robust",
+   "sonnet": "benefit"
+  },
+  {
+   "ai": "benefit",
+   "drug": "PHENYLBUTANOIC ACID",
+   "id": 80,
+   "opus": "benefit",
+   "pmid": "32820178",
+   "reliability": "robust",
+   "sonnet": "benefit"
+  },
+  {
+   "ai": "harm",
+   "drug": "POTASSIUM BROMATE",
+   "id": 81,
+   "opus": "harm",
+   "pmid": "27815460",
+   "reliability": "robust",
+   "sonnet": "harm"
+  },
+  {
+   "ai": "benefit",
+   "drug": "RUXOLITINIB",
+   "id": 82,
+   "opus": "benefit",
+   "pmid": "41288843",
+   "reliability": "robust",
+   "sonnet": "benefit"
+  },
+  {
+   "ai": "benefit",
+   "drug": "SELINEXOR",
+   "id": 83,
+   "opus": "benefit",
+   "pmid": "38589567",
+   "reliability": "robust",
+   "sonnet": "benefit"
+  },
+  {
+   "ai": "unclear",
+   "drug": "SELUMETINIB",
+   "id": 84,
+   "opus": "benefit",
+   "pmid": "39251587",
+   "reliability": "majority",
+   "sonnet": "benefit"
+  },
+  {
+   "ai": "benefit",
+   "drug": "SIROLIMUS",
+   "id": 85,
+   "opus": "unclear",
+   "pmid": "31738183",
+   "reliability": "majority",
+   "sonnet": "unclear"
+  },
+  {
+   "ai": "benefit",
+   "drug": "SIROLIMUS",
+   "id": 86,
+   "opus": "benefit",
+   "pmid": "32908143",
+   "reliability": "robust",
+   "sonnet": "benefit"
+  },
+  {
+   "ai": "no_effect",
+   "drug": "SIROLIMUS",
+   "id": 87,
+   "opus": "no_effect",
+   "pmid": "31697050",
+   "reliability": "robust",
+   "sonnet": "no_effect"
+  },
+  {
+   "ai": "benefit",
+   "drug": "SIROLIMUS",
+   "id": 88,
+   "opus": "benefit",
+   "pmid": "19587680",
+   "reliability": "robust",
+   "sonnet": "benefit"
+  },
+  {
+   "ai": "harm",
+   "drug": "SIROLIMUS",
+   "id": 89,
+   "opus": "harm",
+   "pmid": "41985884",
+   "reliability": "robust",
+   "sonnet": "harm"
+  },
+  {
+   "ai": "no_effect",
+   "drug": "SIROLIMUS",
+   "id": 90,
+   "opus": "no_effect",
+   "pmid": "42041544",
+   "reliability": "robust",
+   "sonnet": "no_effect"
+  },
+  {
+   "ai": "unclear",
+   "drug": "SIROLIMUS",
+   "id": 91,
+   "opus": "unclear",
+   "pmid": "nopmid-91",
+   "reliability": "robust",
+   "sonnet": "unclear"
+  },
+  {
+   "ai": "harm",
+   "drug": "SIROLIMUS",
+   "id": 92,
+   "opus": "unclear",
+   "pmid": "31697050",
+   "reliability": "majority",
+   "sonnet": "unclear"
+  },
+  {
+   "ai": "harm",
+   "drug": "SIROLIMUS",
+   "id": 93,
+   "opus": "harm",
+   "pmid": "42041544",
+   "reliability": "robust",
+   "sonnet": "harm"
+  },
+  {
+   "ai": "harm",
+   "drug": "SIROLIMUS",
+   "id": 94,
+   "opus": "harm",
+   "pmid": "42041544",
+   "reliability": "robust",
+   "sonnet": "harm"
+  },
+  {
+   "ai": "harm",
+   "drug": "SIROLIMUS",
+   "id": 95,
+   "opus": "harm",
+   "pmid": "42041544",
+   "reliability": "robust",
+   "sonnet": "harm"
+  },
+  {
+   "ai": "harm",
+   "drug": "SIROLIMUS",
+   "id": 96,
+   "opus": "harm",
+   "pmid": "42126807",
+   "reliability": "robust",
+   "sonnet": "harm"
+  },
+  {
+   "ai": "harm",
+   "drug": "SIROLIMUS",
+   "id": 97,
+   "opus": "harm",
+   "pmid": "42126807",
+   "reliability": "robust",
+   "sonnet": "harm"
+  },
+  {
+   "ai": "harm",
+   "drug": "SIROLIMUS",
+   "id": 98,
+   "opus": "harm",
+   "pmid": "42126807",
+   "reliability": "robust",
+   "sonnet": "harm"
+  },
+  {
+   "ai": "harm",
+   "drug": "SIROLIMUS",
+   "id": 99,
+   "opus": "unclear",
+   "pmid": "42126807",
+   "reliability": "majority",
+   "sonnet": "unclear"
+  },
+  {
+   "ai": "harm",
+   "drug": "SIROLIMUS",
+   "id": 100,
+   "opus": "unclear",
+   "pmid": "37152288",
+   "reliability": "majority",
+   "sonnet": "unclear"
+  },
+  {
+   "ai": "benefit",
+   "drug": "SIROLIMUS",
+   "id": 101,
+   "opus": "unclear",
+   "pmid": "41820377",
+   "reliability": "majority",
+   "sonnet": "unclear"
+  },
+  {
+   "ai": "unclear",
+   "drug": "SIROLIMUS",
+   "id": 102,
+   "opus": "unclear",
+   "pmid": "31738183",
+   "reliability": "robust",
+   "sonnet": "unclear"
+  },
+  {
+   "ai": "benefit",
+   "drug": "SIROLIMUS",
+   "id": 103,
+   "opus": "benefit",
+   "pmid": "31332166",
+   "reliability": "robust",
+   "sonnet": "benefit"
+  },
+  {
+   "ai": "benefit",
+   "drug": "SIROLIMUS",
+   "id": 104,
+   "opus": "benefit",
+   "pmid": "31312666",
+   "reliability": "robust",
+   "sonnet": "benefit"
+  },
+  {
+   "ai": "no_effect",
+   "drug": "SIROLIMUS",
+   "id": 105,
+   "opus": "no_effect",
+   "pmid": "33484480",
+   "reliability": "robust",
+   "sonnet": "no_effect"
+  },
+  {
+   "ai": "benefit",
+   "drug": "SIROLIMUS",
+   "id": 106,
+   "opus": "benefit",
+   "pmid": "23665330",
+   "reliability": "robust",
+   "sonnet": "benefit"
+  },
+  {
+   "ai": "harm",
+   "drug": "SIROLIMUS",
+   "id": 107,
+   "opus": "harm",
+   "pmid": "23865768",
+   "reliability": "majority",
+   "sonnet": "unclear"
+  },
+  {
+   "ai": "no_effect",
+   "drug": "SIROLIMUS",
+   "id": 108,
+   "opus": "no_effect",
+   "pmid": "33484480",
+   "reliability": "robust",
+   "sonnet": "no_effect"
+  },
+  {
+   "ai": "benefit",
+   "drug": "SIROLIMUS",
+   "id": 109,
+   "opus": "benefit",
+   "pmid": "31312666",
+   "reliability": "robust",
+   "sonnet": "benefit"
+  },
+  {
+   "ai": "harm",
+   "drug": "SIROLIMUS",
+   "id": 110,
+   "opus": "unclear",
+   "pmid": "35141499",
+   "reliability": "majority",
+   "sonnet": "harm"
+  },
+  {
+   "ai": "harm",
+   "drug": "SIROLIMUS",
+   "id": 111,
+   "opus": "harm",
+   "pmid": "35141499",
+   "reliability": "majority",
+   "sonnet": "unclear"
+  },
+  {
+   "ai": "harm",
+   "drug": "SIROLIMUS",
+   "id": 112,
+   "opus": "harm",
+   "pmid": "21380626",
+   "reliability": "robust",
+   "sonnet": "harm"
+  },
+  {
+   "ai": "harm",
+   "drug": "SIROLIMUS",
+   "id": 113,
+   "opus": "unclear",
+   "pmid": "41820377",
+   "reliability": "majority",
+   "sonnet": "unclear"
+  },
+  {
+   "ai": "no_effect",
+   "drug": "SODIUM CITRATE",
+   "id": 114,
+   "opus": "no_effect",
+   "pmid": "17039333",
+   "reliability": "robust",
+   "sonnet": "no_effect"
+  },
+  {
+   "ai": "no_effect",
+   "drug": "SOMATROPIN",
+   "id": 115,
+   "opus": "no_effect",
+   "pmid": "35434947",
+   "reliability": "robust",
+   "sonnet": "no_effect"
+  },
+  {
+   "ai": "benefit",
+   "drug": "SOMATROPIN",
+   "id": 116,
+   "opus": "unclear",
+   "pmid": "42780278",
+   "reliability": "majority",
+   "sonnet": "unclear"
+  },
+  {
+   "ai": "harm",
+   "drug": "SOMATROPIN",
+   "id": 117,
+   "opus": "harm",
+   "pmid": "39974721",
+   "reliability": "robust",
+   "sonnet": "harm"
+  },
+  {
+   "ai": "harm",
+   "drug": "SOMATROPIN",
+   "id": 118,
+   "opus": "unclear",
+   "pmid": "41758938",
+   "reliability": "majority",
+   "sonnet": "unclear"
+  },
+  {
+   "ai": "unclear",
+   "drug": "SOMATROPIN",
+   "id": 119,
+   "opus": "no_effect",
+   "pmid": "12116237",
+   "reliability": "majority",
+   "sonnet": "no_effect"
+  },
+  {
+   "ai": "benefit",
+   "drug": "SOMATROPIN",
+   "id": 120,
+   "opus": "benefit",
+   "pmid": "35282325",
+   "reliability": "robust",
+   "sonnet": "benefit"
+  },
+  {
+   "ai": "benefit",
+   "drug": "SOMATROPIN",
+   "id": 121,
+   "opus": "benefit",
+   "pmid": "22308854",
+   "reliability": "majority",
+   "sonnet": "harm"
+  },
+  {
+   "ai": "harm",
+   "drug": "SOMATROPIN",
+   "id": 122,
+   "opus": "harm",
+   "pmid": "35529328",
+   "reliability": "robust",
+   "sonnet": "harm"
+  },
+  {
+   "ai": "harm",
+   "drug": "TANESPIMYCIN (17-AAG)",
+   "id": 123,
+   "opus": "unclear",
+   "pmid": "21315436",
+   "reliability": "majority",
+   "sonnet": "unclear"
+  },
+  {
+   "ai": "benefit",
+   "drug": "TEMOZOLOMIDE",
+   "id": 124,
+   "opus": "benefit",
+   "pmid": "34343032",
+   "reliability": "robust",
+   "sonnet": "benefit"
+  },
+  {
+   "ai": "harm",
+   "drug": "TEMOZOLOMIDE",
+   "id": 125,
+   "opus": "benefit",
+   "pmid": "34343032",
+   "reliability": "majority",
+   "sonnet": "harm"
+  },
+  {
+   "ai": "no_effect",
+   "drug": "TEMSIROLIMUS",
+   "id": 126,
+   "opus": "no_effect",
+   "pmid": "38936378",
+   "reliability": "robust",
+   "sonnet": "no_effect"
+  },
+  {
+   "ai": "benefit",
+   "drug": "TRAMETINIB",
+   "id": 127,
+   "opus": "benefit",
+   "pmid": "39251587",
+   "reliability": "robust",
+   "sonnet": "benefit"
+  },
+  {
+   "ai": "benefit",
+   "drug": "TRAMETINIB",
+   "id": 128,
+   "opus": "benefit",
+   "pmid": "33158997",
+   "reliability": "robust",
+   "sonnet": "benefit"
+  },
+  {
+   "ai": "unclear",
+   "drug": "TREOSULFAN",
+   "id": 129,
+   "opus": "no_effect",
+   "pmid": "31053147",
+   "reliability": "majority",
+   "sonnet": "no_effect"
+  },
+  {
+   "ai": "unclear",
+   "drug": "TREOSULFAN",
+   "id": 130,
+   "opus": "benefit",
+   "pmid": "31053147",
+   "reliability": "majority",
+   "sonnet": "unclear"
+  },
+  {
+   "ai": "unclear",
+   "drug": "TREOSULFAN",
+   "id": 131,
+   "opus": "unclear",
+   "pmid": "31053147",
+   "reliability": "robust",
+   "sonnet": "unclear"
+  },
+  {
+   "ai": "unclear",
+   "drug": "TREOSULFAN",
+   "id": 132,
+   "opus": "benefit",
+   "pmid": "31053147",
+   "reliability": "majority",
+   "sonnet": "unclear"
+  },
+  {
+   "ai": "harm",
+   "drug": "TREOSULFAN",
+   "id": 133,
+   "opus": "harm",
+   "pmid": "31053147",
+   "reliability": "robust",
+   "sonnet": "harm"
+  },
+  {
+   "ai": "unclear",
+   "drug": "TREOSULFAN",
+   "id": 134,
+   "opus": "unclear",
+   "pmid": "31053147",
+   "reliability": "robust",
+   "sonnet": "unclear"
+  },
+  {
+   "ai": "benefit",
+   "drug": "UPCP (UNIQUE PROGERIN C-TERMINAL PEPTIDE)",
+   "id": 135,
+   "opus": "benefit",
+   "pmid": "37118121",
+   "reliability": "robust",
+   "sonnet": "benefit"
+  },
+  {
+   "ai": "unclear",
+   "drug": "VENETOCLAX",
+   "id": 136,
+   "opus": "benefit",
+   "pmid": "40856915",
+   "reliability": "majority",
+   "sonnet": "benefit"
+  },
+  {
+   "ai": "unclear",
+   "drug": "VINCRISTINE",
+   "id": 137,
+   "opus": "harm",
+   "pmid": "39698932",
+   "reliability": "majority",
+   "sonnet": "harm"
+  },
+  {
+   "ai": "benefit",
+   "drug": "VINCRISTINE",
+   "id": 138,
+   "opus": "benefit",
+   "pmid": "26851014",
+   "reliability": "robust",
+   "sonnet": "benefit"
+  }
+ ],
+ "label_counts": {
+  "ai": {
+   "benefit": 35,
+   "harm": 53,
+   "no_effect": 21,
+   "unclear": 30
+  },
+  "opus": {
+   "benefit": 51,
+   "harm": 42,
+   "no_effect": 18,
+   "unclear": 28
+  },
+  "rule": {
+   "benefit": 20,
+   "harm": 48,
+   "no_effect": 12,
+   "unclear": 59
+  },
+  "sonnet": {
+   "benefit": 47,
+   "harm": 41,
+   "no_effect": 19,
+   "unclear": 32
+  }
+ },
+ "n_papers": 81,
+ "n_sentences": 139,
+ "pairwise_agreement": {
+  "ai_vs_opus": {
+   "accuracy": {
+    "ci95": [
+     0.5234,
+     0.7453
+    ],
+    "estimate": 0.6331
+   },
+   "kappa": {
+    "ci95": [
+     0.3523,
+     0.6407
+    ],
+    "estimate": 0.4969
+   }
+  },
+  "ai_vs_rule": {
+   "accuracy": {
+    "ci95": [
+     0.3846,
+     0.6014
+    ],
+    "estimate": 0.4964
+   },
+   "kappa": {
+    "ci95": [
+     0.1601,
+     0.4416
+    ],
+    "estimate": 0.3077
+   }
+  },
+  "ai_vs_sonnet": {
+   "accuracy": {
+    "ci95": [
+     0.5,
+     0.7308
+    ],
+    "estimate": 0.6187
+   },
+   "kappa": {
+    "ci95": [
+     0.3214,
+     0.6282
+    ],
+    "estimate": 0.4791
+   }
+  },
+  "opus_vs_sonnet": {
+   "accuracy": {
+    "ci95": [
+     0.8725,
+     0.9758
+    ],
+    "estimate": 0.9281
+   },
+   "kappa": {
+    "ci95": [
+     0.823,
+     0.9654
+    ],
+    "estimate": 0.9005
+   }
+  },
+  "rule_vs_opus": {
+   "accuracy": {
+    "ci95": [
+     0.3775,
+     0.6142
+    ],
+    "estimate": 0.4892
+   },
+   "kappa": {
+    "ci95": [
+     0.1622,
+     0.4813
+    ],
+    "estimate": 0.3155
+   }
+  },
+  "rule_vs_sonnet": {
+   "accuracy": {
+    "ci95": [
+     0.3876,
+     0.641
+    ],
+    "estimate": 0.5108
+   },
+   "kappa": {
+    "ci95": [
+     0.1738,
+     0.5092
+    ],
+    "estimate": 0.3389
+   }
+  }
+ },
+ "reliability_by_original_label": {
+  "benefit": {
+   "majority": 5,
+   "robust": 30
+  },
+  "harm": {
+   "majority": 25,
+   "robust": 28
+  },
+  "no_effect": {
+   "majority": 7,
+   "robust": 14
+  },
+  "unclear": {
+   "majority": 20,
+   "robust": 10
+  }
+ },
+ "reliability_counts": {
+  "majority": 57,
+  "robust": 82,
+  "unresolved": 0
+ },
+ "semantic_annotators": [
+  "ai",
+  "opus",
+  "sonnet"
+ ]
+}

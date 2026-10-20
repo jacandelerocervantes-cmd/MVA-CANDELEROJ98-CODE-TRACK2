@@ -1,0 +1,59 @@
+{
+ "chembl_version": "ChEMBL_37",
+ "iterations": 1000,
+ "mechanism": "bub1b_sac_lof",
+ "n_approved_drugs": 2705,
+ "reactome_version": "97",
+ "sensitivity": {
+  "400": {
+   "n_pass": 16,
+   "n_scored": 1128,
+   "top10": [
+    "MIRVETUXIMAB SORAVTANSINE",
+    "PACLITAXEL",
+    "CABAZITAXEL",
+    "COLCHICINE",
+    "DOCETAXEL ANHYDROUS",
+    "VINFLUNINE",
+    "TRASTUZUMAB EMTANSINE",
+    "IXABEPILONE",
+    "BRENTUXIMAB VEDOTIN",
+    "TISOTUMAB VEDOTIN"
+   ]
+  },
+  "700": {
+   "n_pass": 1,
+   "n_scored": 1040,
+   "top10": [
+    "SELINEXOR",
+    "PACLITAXEL",
+    "MIRVETUXIMAB SORAVTANSINE",
+    "IXABEPILONE",
+    "COLCHICINE",
+    "DOCETAXEL ANHYDROUS",
+    "CABAZITAXEL",
+    "FIBRINOLYSIN, HUMAN",
+    "VINFLUNINE",
+    "TRASTUZUMAB EMTANSINE"
+   ]
+  },
+  "900": {
+   "n_pass": 1,
+   "n_scored": 905,
+   "top10": [
+    "SELINEXOR",
+    "ENSIFENTRINE",
+    "ROFLUMILAST",
+    "IBUDILAST",
+    "CRISABOROLE",
+    "AMLEXANOX",
+    "APREMILAST",
+    "DYPHYLLINE",
+    "VOCLOSPORIN",
+    "CABAZITAXEL"
+   ]
+  }
+ },
+ "string_version": "v12.0",
+ "universe_sha256": "c4df43ba87d3146b117faec7a9050fde3f87ad757004f3b852bcbe01ebbea29c"
+}

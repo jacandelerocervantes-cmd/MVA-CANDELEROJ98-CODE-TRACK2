@@ -1,0 +1,929 @@
+{
+ "errors_sources_not_obtained": {},
+ "gene": "BUB1B",
+ "generated": "2026-10-15",
+ "literature": {
+  "accessed": "2026-10-15",
+  "authors": "Suijkerbuijk SJ, van Osch MH, Bos FL, Hanks S, Rahman N, Kops GJ.",
+  "journal": null,
+  "pmcid": "PMC2887387",
+  "pmid_requested_in_task": "20530692",
+  "pmid_used": "20516114",
+  "quotes_verified_by_code": true,
+  "requested_pmid_resolves_to": "Overexpression of p73 as a tissue marker for high-risk gastritis.",
+  "sentences": {
+   "abundance_mechanism": {
+    "text": "Low protein abundance is the direct result of the absence of transcripts from truncating mutants combined with high protein turnover of missense mutants.",
+    "verified_verbatim_in_europepmc_abstract": true
+   },
+   "kinase_domain_location": {
+    "text": "In this group of missense mutants, the amino acid change consistently occurs in or near the BUBR1 kinase domain.",
+    "verified_verbatim_in_europepmc_abstract": true
+   }
+  },
+  "title": "Molecular causes for BUBR1 dysfunction in the human cancer predisposition syndrome mosaic variegated aneuploidy.",
+  "title_matches_expected": true,
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A20516114+AND+SRC%3AMED&resultType=core&format=json",
+  "year": "2010"
+ },
+ "method_constants": {
+  "buried_sasa_percentile_max": 25.0,
+  "conservation_window_half_width": 10,
+  "conserved_fraction_min": 0.75,
+  "contact_number_radius_A_cbeta": 10.0,
+  "fisher_window_half_width": 20,
+  "neighbour_radius_A": 8.0,
+  "nmd_rule_nt": [
+   50,
+   55
+  ],
+  "nmd_rule_text": "premature stop codon more than 50-55 nt upstream of the last exon-exon junction is expected to trigger NMD (standard rule)",
+  "plddt_confident_min": 70.0,
+  "relative_accessibility": "no tabulated maximum-ASA values are used; accessibility is expressed as the percentile of the residue's SASA among all residues of the same amino acid type in the same model",
+  "sasa_probe_radius_A": 1.4,
+  "sasa_sphere_points": 250,
+  "ss_heuristic": "CA-trace geometry: helix-like if d(i,i+3)<=5.8 A and d(i,i+4)<=6.8 A; strand-like if d(i-1,i+1)>=6.2 A and d(i,i+2)>=6.2 A; else coil. Heuristic (not DSSP); reported only where pLDDT>=70.",
+  "vdw_radii_A": {
+   "C": 1.7,
+   "N": 1.55,
+   "O": 1.52,
+   "S": 1.8
+  }
+ },
+ "scope": "protein-level; no patient-level data used",
+ "transcript": "NM_001211.6 / ENST00000287598",
+ "uniprot": "O60566",
+ "variant_Asn1002Lys": {
+  "clinvar_variant_record_present": [
+   {
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter"
+   }
+  ],
+  "clinvar_window": {
+   "accessed": "2026-10-15",
+   "classes_used": "P_LP = Pathogenic/Likely pathogenic/Pathogenic-LP; B_LB = Benign/Likely benign; VUS, conflicting and others excluded; the variant itself excluded",
+   "classification_counts_all_missense": {
+    "(none)": 5,
+    "Benign": 4,
+    "Benign/Likely benign": 3,
+    "Conflicting classifications of pathogenicity": 29,
+    "Likely benign": 28,
+    "Likely pathogenic": 1,
+    "Uncertain significance": 1425,
+    "not provided": 2
+   },
+   "fisher_odds_ratio": 0.0,
+   "fisher_p_two_sided": 1.0,
+   "fraction_pathogenic_in_window": 0.0,
+   "fraction_pathogenic_outside": 0.029411764705882353,
+   "in_window": {
+    "benign": 2,
+    "n": 2,
+    "pathogenic": 0
+   },
+   "interpretation_caveat": "ClinVar BUB1B missense records are dominated by VUS; the number of classified variants is small, so the test has little power and ascertainment of classified variants is not random",
+   "n_missense_records_parsed": 1497,
+   "n_other_classes_in_window": 60,
+   "outside_window": {
+    "benign": 33,
+    "n": 34,
+    "pathogenic": 1
+   },
+   "p_lp_protein_changes": [
+    "p.Gln467His"
+   ],
+   "sensitivity_adding_uniprot_MVA1_PCS_as_pathogenic": {
+    "fisher_odds_ratio": 2.357142857142857,
+    "fisher_p_two_sided": 0.4696539988655701,
+    "fraction_pathogenic_in_window": 0.3333333333333333,
+    "fraction_pathogenic_outside": 0.175,
+    "in_window": {
+     "benign": 2,
+     "n": 3,
+     "pathogenic": 1
+    },
+    "outside_window": {
+     "benign": 33,
+     "n": 40,
+     "pathogenic": 7
+    },
+    "window": [
+     982,
+     1022
+    ]
+   },
+   "source": "NCBI E-utilities ClinVar (esearch+esummary), BUB1B missense on NM_001211.x",
+   "window": [
+    982,
+    1022
+   ]
+  },
+  "conservation": {
+   "accessed": "2026-10-15",
+   "all_one2one_orthologs": {
+    "fraction_identical_at_position_of_aligned": 0.9666666666666667,
+    "mean_window_identity": 0.7765873015873009,
+    "n_aligned": 120,
+    "n_identical": 116,
+    "n_one2one_orthologs": 153,
+    "residue_counts_at_position": {
+     "D": 1,
+     "E": 1,
+     "L": 1,
+     "N": 116,
+     "S": 1
+    }
+   },
+   "n_homologies_total": 238,
+   "named_orthologs": [
+    {
+     "aligned_residue": "N",
+     "gene_symbol": "Bub1b",
+     "homology_type": "ortholog_one2one",
+     "identical_at_position": true,
+     "percent_identity_whole_protein": 74.9,
+     "species": "mus_musculus",
+     "target_id": "ENSMUSG00000040084",
+     "window_gaps": 0,
+     "window_identical": 18,
+     "window_identity_fraction": 0.8571428571428571,
+     "window_residues": 21
+    },
+    {
+     "aligned_residue": "N",
+     "gene_symbol": "Bub1b",
+     "homology_type": "ortholog_one2one",
+     "identical_at_position": true,
+     "percent_identity_whole_protein": 76.1,
+     "species": "rattus_norvegicus",
+     "target_id": "ENSRNOG00000007906",
+     "window_gaps": 0,
+     "window_identical": 15,
+     "window_identity_fraction": 0.7142857142857143,
+     "window_residues": 21
+    },
+    {
+     "aligned_residue": "N",
+     "gene_symbol": "BUB1B",
+     "homology_type": "ortholog_one2one",
+     "identical_at_position": true,
+     "percent_identity_whole_protein": 49.6,
+     "species": "gallus_gallus",
+     "target_id": "ENSGALG00010023017",
+     "window_gaps": 0,
+     "window_identical": 11,
+     "window_identity_fraction": 0.5238095238095238,
+     "window_residues": 21
+    },
+    {
+     "aligned_residue": "N",
+     "gene_symbol": "bub1b",
+     "homology_type": "ortholog_one2one",
+     "identical_at_position": true,
+     "percent_identity_whole_protein": 44.0,
+     "species": "xenopus_tropicalis",
+     "target_id": "ENSXETG00000000287",
+     "window_gaps": 1,
+     "window_identical": 11,
+     "window_identity_fraction": 0.5238095238095238,
+     "window_residues": 21
+    },
+    {
+     "aligned_residue": "-",
+     "gene_symbol": "bub1bb",
+     "homology_type": "ortholog_one2many",
+     "identical_at_position": false,
+     "percent_identity_whole_protein": 39.9,
+     "species": "danio_rerio",
+     "target_id": "ENSDARG00000074927",
+     "window_gaps": 20,
+     "window_identical": 0,
+     "window_identity_fraction": 0.0,
+     "window_residues": 21
+    },
+    {
+     "aligned_residue": "N",
+     "gene_symbol": "bub1ba",
+     "homology_type": "ortholog_one2many",
+     "identical_at_position": true,
+     "percent_identity_whole_protein": 18.3,
+     "species": "danio_rerio",
+     "target_id": "ENSDARG00000078825",
+     "window_gaps": 0,
+     "window_identical": 7,
+     "window_identity_fraction": 0.3333333333333333,
+     "window_residues": 21
+    },
+    {
+     "aligned_residue": "N",
+     "gene_symbol": "Bub1",
+     "homology_type": "ortholog_many2many",
+     "identical_at_position": true,
+     "percent_identity_whole_protein": 18.2,
+     "species": "drosophila_melanogaster",
+     "target_id": "FBgn0031696",
+     "window_gaps": 3,
+     "window_identical": 8,
+     "window_identity_fraction": 0.38095238095238093,
+     "window_residues": 21
+    },
+    {
+     "aligned_residue": "N",
+     "gene_symbol": "BubR1",
+     "homology_type": "ortholog_many2many",
+     "identical_at_position": true,
+     "percent_identity_whole_protein": 17.1,
+     "species": "drosophila_melanogaster",
+     "target_id": "FBgn0263855",
+     "window_gaps": 1,
+     "window_identical": 7,
+     "window_identity_fraction": 0.3333333333333333,
+     "window_residues": 21
+    },
+    {
+     "aligned_residue": "F",
+     "gene_symbol": "san-1",
+     "homology_type": "ortholog_many2many",
+     "identical_at_position": false,
+     "percent_identity_whole_protein": 18.5,
+     "species": "caenorhabditis_elegans",
+     "target_id": "WBGene00004721",
+     "window_gaps": 2,
+     "window_identical": 2,
+     "window_identity_fraction": 0.09523809523809523,
+     "window_residues": 21
+    },
+    {
+     "aligned_residue": "N",
+     "gene_symbol": "bub-1",
+     "homology_type": "ortholog_many2many",
+     "identical_at_position": true,
+     "percent_identity_whole_protein": 15.2,
+     "species": "caenorhabditis_elegans",
+     "target_id": "WBGene00000275",
+     "window_gaps": 2,
+     "window_identical": 4,
+     "window_identity_fraction": 0.19047619047619047,
+     "window_residues": 21
+    },
+    {
+     "aligned_residue": "-",
+     "gene_symbol": "MAD3",
+     "homology_type": "ortholog_many2many",
+     "identical_at_position": false,
+     "percent_identity_whole_protein": 25.4,
+     "species": "saccharomyces_cerevisiae",
+     "target_id": "YJL013C",
+     "window_gaps": 15,
+     "window_identical": 2,
+     "window_identity_fraction": 0.09523809523809523,
+     "window_residues": 21
+    },
+    {
+     "aligned_residue": "N",
+     "gene_symbol": "BUB1",
+     "homology_type": "ortholog_many2many",
+     "identical_at_position": true,
+     "percent_identity_whole_protein": 16.7,
+     "species": "saccharomyces_cerevisiae",
+     "target_id": "YGR188C",
+     "window_gaps": 3,
+     "window_identical": 4,
+     "window_identity_fraction": 0.19047619047619047,
+     "window_residues": 21
+    },
+    {
+     "aligned_residue": "N",
+     "gene_symbol": "BUB1B",
+     "homology_type": "ortholog_one2one",
+     "identical_at_position": true,
+     "percent_identity_whole_protein": 95.7,
+     "species": "pan_troglodytes",
+     "target_id": "ENSPTRG00000006913",
+     "window_gaps": 0,
+     "window_identical": 21,
+     "window_identity_fraction": 1.0,
+     "window_residues": 21
+    },
+    {
+     "aligned_residue": "N",
+     "gene_symbol": "BUB1B",
+     "homology_type": "ortholog_one2one",
+     "identical_at_position": true,
+     "percent_identity_whole_protein": 87.3,
+     "species": "bos_taurus",
+     "target_id": "ENSBTAG00000007237",
+     "window_gaps": 0,
+     "window_identical": 18,
+     "window_identity_fraction": 0.8571428571428571,
+     "window_residues": 21
+    }
+   ],
+   "url": "https://rest.ensembl.org/homology/id/human/ENSG00000156970?type=orthologues&format=full&sequence=protein&aligned=1",
+   "window": [
+    992,
+    1012
+   ]
+  },
+  "domain": [
+   766,
+   1050
+  ],
+  "domain_source": {
+   "accessed": "2026-10-15",
+   "description": "Protein kinase",
+   "source": "UniProt"
+  },
+  "known_pathogenic_missense_sources": {
+   "clinvar_P_LP": [
+    {
+     "label": "p.Gln467His",
+     "pos": 467,
+     "source": "ClinVar Likely pathogenic (criteria provided, single submitter)"
+    }
+   ],
+   "uniprot_MVA1_PCS": [
+    {
+     "label": "p.Arg36Gln",
+     "pos": 36,
+     "source": "UniProt natural variant: in PCS"
+    },
+    {
+     "label": "p.Arg550Gln",
+     "pos": 550,
+     "source": "UniProt natural variant: in MVA1"
+    },
+    {
+     "label": "p.Arg814His",
+     "pos": 814,
+     "source": "UniProt natural variant: in MVA1"
+    },
+    {
+     "label": "p.Leu844Phe",
+     "pos": 844,
+     "source": "UniProt natural variant: in MVA1"
+    },
+    {
+     "label": "p.Ile909Thr",
+     "pos": 909,
+     "source": "UniProt natural variant: in MVA1"
+    },
+    {
+     "label": "p.Gln921His",
+     "pos": 921,
+     "source": "UniProt natural variant: in MVA1"
+    },
+    {
+     "label": "p.Leu1012Pro",
+     "pos": 1012,
+     "source": "UniProt natural variant: in MVA1"
+    }
+   ]
+  },
+  "literature": {
+   "accessed": "2026-10-15",
+   "authors": "Suijkerbuijk SJ, van Osch MH, Bos FL, Hanks S, Rahman N, Kops GJ.",
+   "journal": null,
+   "pmcid": "PMC2887387",
+   "pmid_requested_in_task": "20530692",
+   "pmid_used": "20516114",
+   "quotes_verified_by_code": true,
+   "requested_pmid_resolves_to": "Overexpression of p73 as a tissue marker for high-risk gastritis.",
+   "sentences": {
+    "abundance_mechanism": {
+     "text": "Low protein abundance is the direct result of the absence of transcripts from truncating mutants combined with high protein turnover of missense mutants.",
+     "verified_verbatim_in_europepmc_abstract": true
+    },
+    "kinase_domain_location": {
+     "text": "In this group of missense mutants, the amino acid change consistently occurs in or near the BUBR1 kinase domain.",
+     "verified_verbatim_in_europepmc_abstract": true
+    }
+   },
+   "title": "Molecular causes for BUBR1 dysfunction in the human cancer predisposition syndrome mosaic variegated aneuploidy.",
+   "title_matches_expected": true,
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A20516114+AND+SRC%3AMED&resultType=core&format=json",
+   "year": "2010"
+  },
+  "mechanism": {
+   "clauses": [
+    {
+     "clause": "missense at a conserved position (Asn in 116/120 aligned one-to-one orthologs; mean +-10 window identity 0.78)",
+     "feature": "conservation",
+     "value": 0.9666666666666667
+    },
+    {
+     "clause": "lies in the protein kinase-like domain (766-1050, UniProt)",
+     "feature": "uniprot.domain",
+     "value": [
+      766,
+      1050
+     ]
+    },
+    {
+     "clause": "buried in the AlphaFold model (pLDDT 91.06, SASA 25.25 A2 = 8.0th percentile of Asn residues; 27 residues within 8 A)",
+     "feature": "structure.sasa_percentile_among_same_aa",
+     "value": 8.0
+    },
+    {
+     "clause": "nearest known pathogenic missense is p.Leu1012Pro (10 residues away, 12.32 A CA-CA); 0 within 8 A",
+     "feature": "structure.known_pathogenic_missense_distances",
+     "value": "p.Leu1012Pro"
+    },
+    {
+     "clause": "predicted effect on protein stability/abundance: expected (buried + conserved + confident model)",
+     "feature": "structure+conservation",
+     "value": "expected (buried + conserved + confident model)"
+    },
+    {
+     "clause": "ClinVar missense in +-20 residues: 0 P/LP vs 2 B/LB (Fisher p=1); regional signal not demonstrable",
+     "feature": "clinvar_window.fisher_p_two_sided",
+     "value": 1.0
+    }
+   ],
+   "predicted_stability_effect": "expected (buried + conserved + confident model)",
+   "statement": "missense at a conserved position (Asn in 116/120 aligned one-to-one orthologs; mean +-10 window identity 0.78); lies in the protein kinase-like domain (766-1050, UniProt); buried in the AlphaFold model (pLDDT 91.06, SASA 25.25 A2 = 8.0th percentile of Asn residues; 27 residues within 8 A); nearest known pathogenic missense is p.Leu1012Pro (10 residues away, 12.32 A CA-CA); 0 within 8 A; predicted effect on protein stability/abundance: expected (buried + conserved + confident model); ClinVar missense in +-20 residues: 0 P/LP vs 2 B/LB (Fisher p=1); regional signal not demonstrable.",
+   "what_would_test_it": [
+    "Western blot of BubR1 level in patient cells versus controls; in a compound-heterozygous state the truncating allele gives no protein, so residual BubR1 reflects the missense product",
+    "cycloheximide chase of BubR1 to test increased turnover (the mechanism reported for MVA1 missense mutants)",
+    "re-expression of Asn1002Lys versus wild-type BubR1 in BUB1B-depleted cells with a nocodazole mitotic-arrest (checkpoint) and chromosome alignment assay"
+   ]
+  },
+  "predictor_percentiles": {
+   "accessed": "2026-10-15",
+   "by_predictor": {
+    "AlphaMissense": {
+     "among_all_clinvar_missense": {
+      "fraction_at_least_as_damaging": 0.030810448760884127,
+      "n": 1493,
+      "n_at_least_as_damaging": 46,
+      "percentile_rank_of_variant_score": 96.9
+     },
+     "among_benign_likely_benign": {
+      "fraction_at_least_as_damaging": 0.0,
+      "n": 35,
+      "n_at_least_as_damaging": 0,
+      "percentile_rank_of_variant_score": 100.0
+     },
+     "among_pathogenic_likely_pathogenic": [
+      0.1236
+     ],
+     "direction": "higher = more damaging",
+     "variant_score": 0.923
+    },
+    "CADD": {
+     "among_all_clinvar_missense": {
+      "fraction_at_least_as_damaging": 0.29805760214333554,
+      "n": 1493,
+      "n_at_least_as_damaging": 445,
+      "percentile_rank_of_variant_score": 70.4
+     },
+     "among_benign_likely_benign": {
+      "fraction_at_least_as_damaging": 0.02857142857142857,
+      "n": 35,
+      "n_at_least_as_damaging": 1,
+      "percentile_rank_of_variant_score": 97.1
+     },
+     "among_pathogenic_likely_pathogenic": [
+      34
+     ],
+     "direction": "higher = more damaging",
+     "variant_score": 24.5
+    },
+    "PolyPhen2": {
+     "among_all_clinvar_missense": {
+      "fraction_at_least_as_damaging": 0.14037433155080214,
+      "n": 1496,
+      "n_at_least_as_damaging": 210,
+      "percentile_rank_of_variant_score": 86.6
+     },
+     "among_benign_likely_benign": {
+      "fraction_at_least_as_damaging": 0.0,
+      "n": 35,
+      "n_at_least_as_damaging": 0,
+      "percentile_rank_of_variant_score": 100.0
+     },
+     "among_pathogenic_likely_pathogenic": [
+      0.612
+     ],
+     "direction": "higher = more damaging",
+     "variant_score": 0.997
+    },
+    "REVEL": {
+     "among_all_clinvar_missense": {
+      "fraction_at_least_as_damaging": 0.07367716008037509,
+      "n": 1493,
+      "n_at_least_as_damaging": 110,
+      "percentile_rank_of_variant_score": 92.6
+     },
+     "among_benign_likely_benign": {
+      "fraction_at_least_as_damaging": 0.0,
+      "n": 35,
+      "n_at_least_as_damaging": 0,
+      "percentile_rank_of_variant_score": 100.0
+     },
+     "among_pathogenic_likely_pathogenic": [
+      0.132
+     ],
+     "direction": "higher = more damaging",
+     "variant_score": 0.472
+    },
+    "SIFT": {
+     "among_all_clinvar_missense": {
+      "fraction_at_least_as_damaging": 0.35762032085561496,
+      "n": 1496,
+      "n_at_least_as_damaging": 535,
+      "percentile_rank_of_variant_score": 68.0
+     },
+     "among_benign_likely_benign": {
+      "fraction_at_least_as_damaging": 0.02857142857142857,
+      "n": 35,
+      "n_at_least_as_damaging": 1,
+      "percentile_rank_of_variant_score": 97.1
+     },
+     "among_pathogenic_likely_pathogenic": [
+      0
+     ],
+     "direction": "lower = more damaging",
+     "variant_score": 0.01
+    }
+   },
+   "clinvar_scores_source": "Ensembl VEP REST (SIFT, PolyPhen-2, CADD PHRED, REVEL, AlphaMissense for ClinVar missense SNVs on ENST00000287598)",
+   "n_clinvar_missense_with_any_score": 1496,
+   "percentile_definition": "percentile_rank = percentage of ClinVar missense variants with a less damaging score (mid-rank for ties)",
+   "predictor_scores_source": "out/empirical/variant_calibration.json (inputs.scores)"
+  },
+  "reference_residue_is_Asn_in_UniProt": true,
+  "structure": {
+   "accessed": "2026-10-15",
+   "cbeta_contact_number_10A": 16,
+   "contact_number_percentile": 74.3,
+   "known_pathogenic_missense_distances": [
+    {
+     "ca_ca_distance_A": 12.32,
+     "min_heavy_atom_distance_A": 10.35,
+     "plddt_at_site": 95.3,
+     "position": 1012,
+     "sequence_distance_residues": 10,
+     "source": "UniProt natural variant: in MVA1",
+     "variant": "p.Leu1012Pro",
+     "within_8A_any_atom": false
+    },
+    {
+     "ca_ca_distance_A": 24.4,
+     "min_heavy_atom_distance_A": 19.71,
+     "plddt_at_site": 87.0,
+     "position": 909,
+     "sequence_distance_residues": 93,
+     "source": "UniProt natural variant: in MVA1",
+     "variant": "p.Ile909Thr",
+     "within_8A_any_atom": false
+    },
+    {
+     "ca_ca_distance_A": 25.7,
+     "min_heavy_atom_distance_A": 20.42,
+     "plddt_at_site": 85.9,
+     "position": 844,
+     "sequence_distance_residues": 158,
+     "source": "UniProt natural variant: in MVA1",
+     "variant": "p.Leu844Phe",
+     "within_8A_any_atom": false
+    },
+    {
+     "ca_ca_distance_A": 25.98,
+     "min_heavy_atom_distance_A": 24.01,
+     "plddt_at_site": 83.2,
+     "position": 921,
+     "sequence_distance_residues": 81,
+     "source": "UniProt natural variant: in MVA1",
+     "variant": "p.Gln921His",
+     "within_8A_any_atom": false
+    },
+    {
+     "ca_ca_distance_A": 27.96,
+     "min_heavy_atom_distance_A": 24.29,
+     "plddt_at_site": 90.2,
+     "position": 814,
+     "sequence_distance_residues": 188,
+     "source": "UniProt natural variant: in MVA1",
+     "variant": "p.Arg814His",
+     "within_8A_any_atom": false
+    },
+    {
+     "ca_ca_distance_A": 74.03,
+     "min_heavy_atom_distance_A": 64.83,
+     "plddt_at_site": 79.9,
+     "position": 36,
+     "sequence_distance_residues": 966,
+     "source": "UniProt natural variant: in PCS",
+     "variant": "p.Arg36Gln",
+     "within_8A_any_atom": false
+    },
+    {
+     "ca_ca_distance_A": 90.74,
+     "min_heavy_atom_distance_A": 89.38,
+     "plddt_at_site": 35.3,
+     "position": 550,
+     "sequence_distance_residues": 452,
+     "source": "UniProt natural variant: in MVA1",
+     "variant": "p.Arg550Gln",
+     "within_8A_any_atom": false
+    },
+    {
+     "ca_ca_distance_A": 137.57,
+     "min_heavy_atom_distance_A": 133.23,
+     "plddt_at_site": 42.8,
+     "position": 467,
+     "sequence_distance_residues": 535,
+     "source": "ClinVar Likely pathogenic (criteria provided, single submitter)",
+     "variant": "p.Gln467His",
+     "within_8A_any_atom": false
+    }
+   ],
+   "known_pathogenic_within_8A": [],
+   "metadata_accessed": "2026-10-15",
+   "model_file": "AF-O60566-F1-model_v6.pdb",
+   "model_id": "AF-O60566-F1",
+   "model_mean_plddt": 63.61,
+   "model_sequence_matches_uniprot": true,
+   "model_version": 6,
+   "n_residues_modelled": 1050,
+   "n_residues_within_8A": 27,
+   "n_same_aa_residues_in_model": 44,
+   "plddt": 91.06,
+   "plddt_confident": true,
+   "plddt_mean_pm10": 91.45,
+   "residues_within_8A": [
+    "Ile941",
+    "Asn944",
+    "Gln950",
+    "Leu953",
+    "Phe954",
+    "Val971",
+    "Phe972",
+    "Trp973",
+    "Asp974",
+    "Ser976",
+    "Phe977",
+    "Trp978",
+    "Lys979",
+    "Leu980",
+    "Asn994",
+    "Lys995",
+    "Phe996",
+    "Phe997",
+    "Val998",
+    "Arg999",
+    "Ile1000",
+    "Leu1001",
+    "Ala1003",
+    "Asn1004",
+    "Asp1005",
+    "Glu1006",
+    "Val1011"
+   ],
+   "sasa_A2": 25.25,
+   "sasa_percentile_among_same_aa": 8.0,
+   "sasa_relative_to_same_aa_p90": 0.172,
+   "sasa_same_aa_median_A2": 103.65526121594957,
+   "sasa_same_aa_p90_A2": 146.42344137903632,
+   "secondary_structure_heuristic": "helix-like",
+   "secondary_structure_heuristic_raw": "helix-like",
+   "url": "https://alphafold.ebi.ac.uk/files/AF-O60566-F1-model_v6.pdb"
+  },
+  "uniprot_secondary_structure_at_position": [],
+  "variant": "p.Asn1002Lys (NM_001211.6)"
+ },
+ "variant_Leu737Ter": {
+  "mechanism": {
+   "clauses": [
+    {
+     "clause": "predicted loss of function by nonsense-mediated decay (stop in exon 17 of 23, 746 nt upstream of the last exon-exon junction, beyond the 50-55 nt rule)",
+     "feature": "nmd.distance_class",
+     "value": "NMD_predicted: >55 nt upstream of the last exon-exon junction"
+    },
+    {
+     "clause": "any truncated product would lack residues 737-1050 (30% of the protein), including the kinase-like domain (750-1045, UniProt)",
+     "feature": "lost_features",
+     "value": [
+      "Catalytic domain of the Serine/Threonine kinase, Vertebrate Spindle assembly checkpoint protein BubR1 [cd14029, cdd] (750-1045)",
+      "Protein kinase (766-1050)",
+      "Proton acceptor (882-882)"
+     ]
+    },
+    {
+     "clause": "published MVA1 analysis attributes low BubR1 abundance in truncating mutants to absence of transcripts",
+     "feature": "literature.suijkerbuijk2010",
+     "value": "verified abstract sentence"
+    }
+   ],
+   "statement": "predicted loss of function by nonsense-mediated decay (stop in exon 17 of 23, 746 nt upstream of the last exon-exon junction, beyond the 50-55 nt rule); any truncated product would lack residues 737-1050 (30% of the protein), including the kinase-like domain (750-1045, UniProt); published MVA1 analysis attributes low BubR1 abundance in truncating mutants to absence of transcripts.",
+   "what_would_test_it": [
+    "RT-qPCR / allele-specific expression of BUB1B transcript in patient cells with and without an NMD inhibitor (cycloheximide or UPF1 knockdown): decay predicts recovery of the truncating-allele transcript on inhibition",
+    "Western blot of BubR1 (C-terminal and N-terminal epitope antibodies) in patient cells versus controls: loss of the full-length band and absence of a ~736-residue product support decay without a stable truncated protein"
+   ]
+  },
+  "nmd": {
+   "accessed": "2026-10-15",
+   "consistency_checks": {
+    "cds_length_from_exons_nt": 3153,
+    "cds_length_from_sequence_nt": 3153,
+    "ensembl_transcript_version": 11,
+    "mane_refseq_confirmed": true,
+    "n_exons": 23,
+    "refseq_xref": [
+     "NM_001211.6"
+    ],
+    "residue_1002_is_Asn": true,
+    "residue_737_is_Leu": true,
+    "translation_matches_uniprot": true
+   },
+   "distance_class": "NMD_predicted: >55 nt upstream of the last exon-exon junction",
+   "distance_to_last_junction_nt": 746,
+   "junctions_downstream_of_stop": 6,
+   "last_exon_length_nt": 560,
+   "n_exons": 23,
+   "nmd_predicted": true,
+   "rule_nt": [
+    50,
+    55
+   ],
+   "source": "Ensembl REST lookup/id (exon structure) + sequence/id (CDS)",
+   "stop_codon_split_by_junction": false,
+   "stop_exon_length_nt": 141,
+   "stop_exon_number": 17,
+   "stop_in_last_exon": false,
+   "url": "https://rest.ensembl.org/lookup/id/ENST00000287598?expand=1"
+  },
+  "truncated_product_features": {
+   "lost_entirely": [
+    {
+     "description": "Catalytic domain of the Serine/Threonine kinase, Vertebrate Spindle assembly checkpoint protein BubR1 [cd14029, cdd]",
+     "end": 1045,
+     "source": "InterPro",
+     "start": 750,
+     "type": "Domain"
+    },
+    {
+     "description": "Protein kinase",
+     "end": 1050,
+     "source": "UniProt",
+     "start": 766,
+     "type": "Domain"
+    },
+    {
+     "description": "",
+     "end": 780,
+     "source": "UniProt",
+     "start": 772,
+     "type": "Binding site"
+    },
+    {
+     "description": "",
+     "end": 795,
+     "source": "UniProt",
+     "start": 795,
+     "type": "Binding site"
+    },
+    {
+     "description": "Proton acceptor",
+     "end": 882,
+     "source": "UniProt",
+     "start": 882,
+     "type": "Active site"
+    }
+   ],
+   "lost_modified_residues": [
+    792,
+    1008,
+    1042,
+    1043
+   ],
+   "motif_scans_of_sequence": {
+    "KEN_positions_lost_by_truncation": [],
+    "KEN_tripeptide_start_positions": [
+     26,
+     304
+    ],
+    "note": "KEN, Gle2-binding sequence (GLEBS) and ABBA motifs are not annotated as features in the queried UniProt/InterPro records; KEN tripeptide occurrences below come from a plain sequence scan (positions of K), not from a functional annotation"
+   },
+   "natural_variants_in_lost_region": [
+    "in MVA1 @1012",
+    "in MVA1 @814",
+    "in MVA1 @844",
+    "in MVA1 @909",
+    "in MVA1 @921"
+   ],
+   "partially_lost": [],
+   "retained": [
+    {
+     "description": "Mad3/BUB1 hoMad3/BUB1 homology region 1 [SM00777, smart]",
+     "end": 179,
+     "source": "InterPro",
+     "start": 55,
+     "type": "Domain"
+    },
+    {
+     "description": "Mad3/Bub1 homology region 1 [IPR013212, interpro]",
+     "end": 226,
+     "source": "InterPro",
+     "start": 55,
+     "type": "Domain"
+    },
+    {
+     "description": "Mad3/BUB1 homology region 1 [PF08311, pfam]",
+     "end": 179,
+     "source": "InterPro",
+     "start": 57,
+     "type": "Repeat"
+    },
+    {
+     "description": "BUB1 N-terminal",
+     "end": 226,
+     "source": "UniProt",
+     "start": 62,
+     "type": "Domain"
+    },
+    {
+     "description": "BUB1 N-terminal domain profile [PS51489, profile]",
+     "end": 226,
+     "source": "InterPro",
+     "start": 62,
+     "type": "Domain"
+    },
+    {
+     "description": "Nuclear localization signal",
+     "end": 118,
+     "source": "UniProt",
+     "start": 111,
+     "type": "Motif"
+    },
+    {
+     "description": "Necessary for interaction with KNL1",
+     "end": 185,
+     "source": "UniProt",
+     "start": 152,
+     "type": "Region"
+    },
+    {
+     "description": "D-box",
+     "end": 232,
+     "source": "UniProt",
+     "start": 224,
+     "type": "Motif"
+    },
+    {
+     "description": "Disordered",
+     "end": 393,
+     "source": "UniProt",
+     "start": 368,
+     "type": "Region"
+    },
+    {
+     "description": "Disordered",
+     "end": 480,
+     "source": "UniProt",
+     "start": 456,
+     "type": "Region"
+    },
+    {
+     "description": "Cleavage; by caspase-3",
+     "end": 580,
+     "source": "UniProt",
+     "start": 579,
+     "type": "Site"
+    },
+    {
+     "description": "Cleavage; by caspase-3",
+     "end": 611,
+     "source": "UniProt",
+     "start": 610,
+     "type": "Site"
+    }
+   ],
+   "sources": {
+    "interpro": {
+     "accessed": "2026-10-15",
+     "url": "https://www.ebi.ac.uk/interpro/api/entry/all/protein/uniprot/O60566"
+    },
+    "uniprot": {
+     "accessed": "2026-10-15",
+     "url": "https://rest.uniprot.org/uniprotkb/O60566.json"
+    }
+   },
+   "truncated_product": {
+    "fraction_lost": 0.29904761904761906,
+    "lost_residues": [
+     737,
+     1050
+    ],
+    "n_lost": 314,
+    "retained_residues": [
+     1,
+     736
+    ]
+   }
+  },
+  "variant": "p.Leu737* (NM_001211.6)"
+ }
+}

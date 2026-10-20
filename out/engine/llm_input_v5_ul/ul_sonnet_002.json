@@ -1,0 +1,707 @@
+{
+ "items": [
+  {
+   "disease": "neurofibromatosis",
+   "drug": "bevacizumab",
+   "id": "ho5-00652",
+   "pmid": "41053457",
+   "sentence": "Efficacy of first line of bevacizumab in patients with neurofibromatosis 2-related vestibular schwannomas."
+  },
+  {
+   "disease": "malignant hyperthermia of anesthesia",
+   "drug": "propofol",
+   "id": "ho5-00653",
+   "pmid": "39600453",
+   "sentence": "To avoid inhalational anesthetics, total intravenous anesthesia (TIVA) is required in patients with a predisposition to malignant hyperthermia (MH)."
+  },
+  {
+   "disease": "nephropathic cystinosis",
+   "drug": "calcium",
+   "id": "ho5-00654",
+   "pmid": "35695380",
+   "sentence": "High levels of glucose, calcium, albumin, and protein were excreted at 6 mo of age, consistent with the onset of Fanconi syndrome, with a progressive diminution of urine urea and creatinine from 9 mo of age, indicative of chronic kidney disease."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "eribulin",
+   "id": "ho5-00658",
+   "pmid": "42268523",
+   "sentence": "Methods The JBCRG-M06/EMERALD trial (NCT03264547, UMIN000027938) compared eribulin with a taxane, each combined with trastuzumab and pertuzumab, in patients with human epidermal growth factor receptor type 2 (HER2)-positive LABC/MBC."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "inavolisib",
+   "id": "ho5-00666",
+   "pmid": "42202490",
+   "sentence": "Safety analyses of the INAVO120 randomised phase III trial of inavolisib or placebo with palbociclib-fulvestrant in patients with PIK3CA-mutated, hormone receptor-positive, HER2-negative, endocrine-resistant advanced breast cancer."
+  },
+  {
+   "disease": "situs inversus",
+   "drug": "azithromycin",
+   "id": "ho5-00672",
+   "pmid": "34261178",
+   "sentence": "The first international randomized controlled trial in PCD has recently been conducted showing azithromycin is effective in reducing exacerbations."
+  },
+  {
+   "disease": "classic Hodgkin lymphoma",
+   "drug": "brentuximab vedotin",
+   "id": "ho5-00673",
+   "pmid": "42636147",
+   "sentence": "Incidence of clinically significant chemotherapy induced nausea and vomiting with brentuximab vedotin and AVD in comparison with ABVD using standard anti-emetic prophylaxis."
+  },
+  {
+   "disease": "classic Hodgkin lymphoma",
+   "drug": "pembrolizumab",
+   "id": "ho5-00678",
+   "pmid": "39672641",
+   "sentence": "Both nivolumab and pembrolizumab have high efficacy in CHL allowing for reduction of chemotherapy and possibly the use of radiotherapy based on short-term follow-up."
+  },
+  {
+   "disease": "Fabry disease",
+   "drug": "carbamazepine",
+   "id": "ho5-00697",
+   "pmid": "35059891",
+   "sentence": "We report a 33-year-old man has been taking carbamazepine intermittently for around 10 years whenever he experiences pain and paresthesia in his fingers."
+  },
+  {
+   "disease": "malignant hyperthermia of anesthesia",
+   "drug": "enflurane",
+   "id": "ho5-00700",
+   "pmid": "3711829",
+   "sentence": "A healthy, 15-year-old male received a thiopental, nitrous oxide, oxygen, enflurane anesthetic for appendectomy."
+  },
+  {
+   "disease": "hypopituitarism",
+   "drug": "potassium chloride",
+   "id": "ho5-00703",
+   "pmid": "PMC:PMC9625746",
+   "sentence": "Initial presentation was significant for hypotension with BP of 95/64, hyponatremia [sodium 127(136 - 145 mmol/L)], chloride was 90 (98 - 107 mmol/L), potassium 5.9 (3.4 - 5.3 mmol/L) consistent with acute adrenal crisis."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "tilmanocept",
+   "id": "ho5-00705",
+   "pmid": "34962630",
+   "sentence": "Technetium-99m-labeled Tilmanocept or Lymphoseek® (Cardinal Health, Dublin, Ohio) is a soluble, synthetic molecule with a small diameter (7 nm), which is comprised of technetium-99m chelated to a dextran backbone containing multiple units of mannose ligands with a high affinity for CD206, a receptor located on the surface of macrophages and dendritic cells that are found in high concentration in lymph nodes."
+  },
+  {
+   "disease": "hypopituitarism",
+   "drug": "calcium",
+   "id": "ho5-00712",
+   "pmid": "31292841",
+   "sentence": "Reduced sweating and altered phosphor-calcium homeostasis are occasionally reported in subjects with GH deficiency (GHD), mostly in the setting of hypopituitarism, therefore associated to other hormonal deficiencies."
+  },
+  {
+   "disease": "pituitary gigantism",
+   "drug": "octreotide",
+   "id": "ho5-00717",
+   "pmid": "10090543",
+   "sentence": "Until mid-puberty, his growth rate was under reasonable control, with high-dose octreotide injections every 8 h combined with a dopamine agonist."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "goserelin",
+   "id": "ho5-00725",
+   "pmid": "PPR:PPR1118558",
+   "sentence": "This study aimed to explore the clinical efficacy and adverse effects of goserelin and leuprolide in the postoperative adjuvant treatment of premenopausal breast cancer."
+  },
+  {
+   "disease": "CINCA syndrome",
+   "drug": "canakinumab",
+   "id": "ho5-00726",
+   "pmid": "28118536",
+   "sentence": "The difference in inhibition of CSF biomarkers between 2 IL-1 blocking agents, anakinra and canakinumab, suggests differences in efficacy in the intrathecal compartment, with anakinra being more effective."
+  },
+  {
+   "disease": "polycystic kidney disease",
+   "drug": "tamoxifen",
+   "id": "ho5-00729",
+   "pmid": "37538309",
+   "sentence": "Methods Pkd1 flox/flox mice with and without Cre (CAGG-ER) were given tamoxifen to induce global gene deletion ( Pkd1 KO)."
+  },
+  {
+   "disease": "phenylketonuria",
+   "drug": "sapropterin",
+   "id": "ho5-00735",
+   "pmid": "42451139",
+   "sentence": "Sapropterin was prescribed in two pregnancies."
+  },
+  {
+   "disease": "polycystic kidney disease",
+   "drug": "calcium",
+   "id": "ho5-00737",
+   "pmid": "40763312",
+   "sentence": "We found that hyperosmolality resulted in the phosphorylation of microtubule-associated protein 4 (MAP4) in a PC1-dependent manner, which then elicited ER-localized PC2 calcium signals."
+  },
+  {
+   "disease": "pituitary gigantism",
+   "drug": "octreotide",
+   "id": "ho5-00740",
+   "pmid": "10090543",
+   "sentence": "Suppression of GH secretion in pituitary gigantism by continuous subcutaneous octreotide infusion in a pubertal boy."
+  },
+  {
+   "disease": "neurofibromatosis",
+   "drug": "methylphenidate",
+   "id": "ho5-00742",
+   "pmid": "20826448",
+   "sentence": "Similar to children with NF1, the attention system dysfunction in these mice is reversed by treatment with methylphenidate (MPH), suggesting a defect in brain catecholamine homeostasis."
+  },
+  {
+   "disease": "classic Hodgkin lymphoma",
+   "drug": "brentuximab vedotin",
+   "id": "ho5-00747",
+   "pmid": "42118882",
+   "sentence": "What is the reimbursement recommendation for brentuximab vedotin?"
+  },
+  {
+   "disease": "classic Hodgkin lymphoma",
+   "drug": "dacarbazine",
+   "id": "ho5-00750",
+   "pmid": "41948566",
+   "sentence": "The standard of care for patients with cHL includes a backbone of doxorubicin, vinblastine, and dacarbazine (AVD) based therapies in combination with either bleomycin, brentuximab vedotin (BV), or nivolumab."
+  },
+  {
+   "disease": "classic Hodgkin lymphoma",
+   "drug": "prednisolone",
+   "id": "ho5-00756",
+   "pmid": "42375921",
+   "sentence": "Furthermore, this case emphasizes the necessity of obtaining a definitive tissue diagnosis before initiating corticosteroid therapy, which can mask lymphoproliferative architecture and obscure pathologic findings."
+  },
+  {
+   "disease": "erythropoietic protoporphyria",
+   "drug": "aminolevulinic acid",
+   "id": "ho5-00760",
+   "pmid": "38254627",
+   "sentence": "Acute intermittent porphyria (AIP) is characterized by acute neurovisceral attacks that are precipitated by the induction of hepatic 5-aminolevulinic acid synthase 1 (ALAS1)."
+  },
+  {
+   "disease": "severe early-childhood-onset retinal dystrophy",
+   "drug": "retinol",
+   "id": "ho5-00772",
+   "pmid": "14684738",
+   "sentence": "Lecithin-retinol acyltransferase (LRAT), an enzyme present mainly in the retinal pigmented epithelial cells and liver, converts all-trans-retinol into all-trans-retinyl esters."
+  },
+  {
+   "disease": "hypopituitarism",
+   "drug": "estradiol",
+   "id": "ho5-00783",
+   "pmid": "34941101",
+   "sentence": "Low levels of growth hormone (GH), insulin-like growth factor-1 (IGF-1), triiodothyronine (T3), thyroxine (T4), follicle-stimulating hormone, luteinizing hormone, estradiol, and testosterone, and high levels of thyroid-stimulating hormone, prolactin, and cortisol."
+  },
+  {
+   "disease": "classic Hodgkin lymphoma",
+   "drug": "pembrolizumab",
+   "id": "ho5-00786",
+   "pmid": "39672641",
+   "sentence": "In this review article, we highlight recent trials enrolling patients with relapse and refractory classic Hodgkin lymphoma receiving monotherapy with PD-1 inhibitors as well as PD-1 and chemotherapy regimens."
+  },
+  {
+   "disease": "cystinosis",
+   "drug": "parathyroid hormone",
+   "id": "ho5-00790",
+   "pmid": "39049782",
+   "sentence": "Patients with CKD stages 1 to 3 showed reduced z-scores for serum phosphate and calcium and suppressed fibroblast growth factor 23 (FGF23) and parathyroid hormone levels, in conjunction with elevated bone-specific alkaline phosphatase levels."
+  },
+  {
+   "disease": "neurofibromatosis",
+   "drug": "trametinib",
+   "id": "ho5-00791",
+   "pmid": "40301031",
+   "sentence": "The patient was treated with a combination of oral dabrafenib and trametinib therapy."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "anastrozole",
+   "id": "ho5-00797",
+   "pmid": "41214676",
+   "sentence": "Background The MONARCH 3 trial has demonstrated that Anastrozole combined with Abemaciclib is safe and effective for the treatment of postmenopausal hormone receptor-positive advanced breast cancer."
+  },
+  {
+   "disease": "neurofibromatosis",
+   "drug": "etoposide",
+   "id": "ho5-00798",
+   "pmid": "41216086",
+   "sentence": "Consolidation therapy included high-dose chemotherapy with etoposide, carboplatin, and melphalan, followed by autologous peripheral blood stem cell transplantation."
+  },
+  {
+   "disease": "neurofibromatosis",
+   "drug": "selumetinib",
+   "id": "ho5-00804",
+   "pmid": "32504375",
+   "sentence": "Selumetinib has been granted orphan drug status as adjuvant treatment for thyroid cancer (in the USA) and as treatment for neurofibromatosis type 1 (in the USA and the EU) and, based on the results of the phase II SPRINT trial, was recently approved in the USA in paediatric patients with neurofibromatosis type 1 and symptomatic, inoperable plexiform neurofibromas."
+  },
+  {
+   "disease": "acquired polycythemia vera",
+   "drug": "tyrosine",
+   "id": "ho5-00810",
+   "pmid": "40781941",
+   "sentence": "Comparison of depressive symptoms between patients with myeloproliferative neoplasms without the Philadelphia chromosome treated with interferon alpha and patients with chronic myelogenous leukemia treated with tyrosine kinase inhibitors."
+  },
+  {
+   "disease": "sitosterolemia",
+   "drug": "ezetimibe",
+   "id": "ho5-00811",
+   "pmid": "41080978",
+   "sentence": "The patient was treated with statin, ezetimibe, and low plant sterol diet, and after 9 months his plasma sterol levels improved."
+  },
+  {
+   "disease": "tuberous sclerosis",
+   "drug": "zinc chloride",
+   "id": "ho5-00819",
+   "pmid": "34381067",
+   "sentence": "Unkempt is a conserved zinc finger/RING domain protein that regulates neurogenesis downstream of mTOR signaling in Drosophila."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "anastrozole",
+   "id": "ho5-00826",
+   "pmid": "41214676",
+   "sentence": "This study aims to evaluate the cost-effectiveness of Anastrozole combined with Abemaciclib versus Anastrozole used alone for patients in China."
+  },
+  {
+   "disease": "classic Hodgkin lymphoma",
+   "drug": "pembrolizumab",
+   "id": "ho5-00827",
+   "pmid": "39672641",
+   "sentence": "We also highlight frontline trials utilizing PD-1 inhibitors with chemotherapy with or without radiotherapy."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "arsenic trioxide",
+   "id": "ho5-00838",
+   "pmid": "AGR:IND609298361",
+   "sentence": "Herein, GBM-derived exosomes (GBM-Exos) co-encapsulate ferroptosis inducer arsenic trioxide (ATO) and NIR photosensitizer IR780, modified with superparamagnetic iron oxide nanoparticle (SPION), to construct homologous magnetic targeted immune vesicles (Sp-Exo/AI) for reinvigorating anti-tumor immunity."
+  },
+  {
+   "disease": "acquired polycythemia vera",
+   "drug": "hydroxyurea",
+   "id": "ho5-00840",
+   "pmid": "41487987",
+   "sentence": "Treatment for polycythemia vera included hydroxyurea."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "trastuzumab deruxtecan",
+   "id": "ho5-00846",
+   "pmid": "41788864",
+   "sentence": "Trastuzumab deruxtecan (T-DXd) is a HER2-targeted antibody-drug conjugate with proven efficacy in metastatic breast cancer, but interstitial lung disease (ILD) and drug-induced pneumonitis are potentially life-threatening toxicities."
+  },
+  {
+   "disease": "situs inversus",
+   "drug": "fluorescein",
+   "id": "ho5-00851",
+   "pmid": "37678612",
+   "sentence": "Fifteen eyes had a clear view to the fundus and all showed tessellated myopic fundus, avascular peripheral retina evident clinically or on fluorescein angiography, and rudimentary fovea."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "decitabine",
+   "id": "ho5-00853",
+   "pmid": "PPR:PPR1261751",
+   "sentence": "This screen identified Decitabine, a DNA hypomethylating agent, that enhanced tumor immunogenicity across a broad range of mouse and human breast cancer cell lines, including bone-derived lines."
+  },
+  {
+   "disease": "acquired polycythemia vera",
+   "drug": "apixaban",
+   "id": "ho5-00855",
+   "pmid": "34317515",
+   "sentence": "Transcatheter Heart Valve Thrombosis in a Patient With Polycythemia Vera Despite Apixaban Therapy for Atrial Fibrillation."
+  },
+  {
+   "disease": "polycystic kidney disease",
+   "drug": "caffeine",
+   "id": "ho5-00864",
+   "pmid": "30591038",
+   "sentence": "Relationship between caffeine intake and autosomal dominant polycystic kidney disease progression: a retrospective analysis using the CRISP cohort."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "exemestane",
+   "id": "ho5-00873",
+   "pmid": "42467326",
+   "sentence": "Green synthesized cobalt doped graphene quantum dots derived from Boswellia serrata for dual ligand targeted bioimaging and delivery of exemestane."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "fulvestrant",
+   "id": "ho5-00874",
+   "pmid": "41802242",
+   "sentence": "Methods This phase III randomized trial (VIKTORIA-1; ClinicalTrials.gov identifier: NCT05501886) evaluated the efficacy of gedatolisib-based therapy, comparing gedatolisib, palbociclib, and fulvestrant (gedatolisib triplet) and gedatolisib plus fulvestrant (gedatolisib doublet) with fulvestrant monotherapy in patients with hormone receptor-positive, human epidermal growth factor receptor 2-negative (HER2-), PIK3CA wild-type (WT) advanced breast cancer."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "pertuzumab",
+   "id": "ho5-00875",
+   "pmid": "42808915",
+   "sentence": "Objective To evaluate the prognostic value of the PET-derived SUVmax-lactate dehydrogenase-albumin-lymphocyte (SUV-LAL) index in human epidermal growth factor receptor 2 (HER2)-positive metastatic breast cancer treated with pertuzumab."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "doxorubicin",
+   "id": "ho5-00878",
+   "pmid": "40993338",
+   "sentence": "The reduced DLG5 promotes doxorubicin resistance in breast cancer cells MCF-7 through regulating autophagy."
+  },
+  {
+   "disease": "Fabry disease",
+   "drug": "carbamazepine",
+   "id": "ho5-00886",
+   "pmid": "12360745",
+   "sentence": "Medical management is symptomatic and consists of partial pain relief with analgesic drugs (gabapentin, carbamazepine), whereas renal transplantation or dialysis is available for patients experiencing end-stage renal failure."
+  },
+  {
+   "disease": "autosomal dominant familial periodic fever",
+   "drug": "anakinra",
+   "id": "ho5-00888",
+   "pmid": "40881584",
+   "sentence": "We report a case wherein a novel intravenous Anakinra desensitization protocol was applied for a child with hypersensitivity and needle phobia."
+  },
+  {
+   "disease": "pituitary gigantism",
+   "drug": "dopamine",
+   "id": "ho5-00897",
+   "pmid": "16061823",
+   "sentence": "Treatment with a dopamine agonist, cabergoline, normalized serum prolactin, but GH secretion was resistant to both somatostatin analogue, octreotide and cabergoline."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "medroxyprogesterone acetate",
+   "id": "ho5-00898",
+   "pmid": "40378875",
+   "sentence": "Progestogens (norethisterone acetate, medroxyprogesterone acetate, dydrogesterone, micronized progesterone, levonorgestrel, drospirenone, and trimegestone) added to estrogen for endometrial protection are reviewed."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "copper",
+   "id": "ho5-00899",
+   "pmid": "42741866",
+   "sentence": "Targeting copper homeostasis, particularly at the mitochondrial level, represents a promising yet underexplored therapeutic strategy."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "bevacizumab",
+   "id": "ho5-00902",
+   "pmid": "42851435",
+   "sentence": "In these four patients, the addition of bevacizumab and intrathecal therapy was associated with rapid alleviation of central nervous system symptoms and a numerically longer overall survival (9.0-20.2 months) compared with historical data."
+  },
+  {
+   "disease": "Fabry disease",
+   "drug": "pegunigalsidase alfa",
+   "id": "ho5-00906",
+   "pmid": "37940383",
+   "sentence": "Head-to-head trial of pegunigalsidase alfa versus agalsidase beta in patients with Fabry disease and deteriorating renal function: results from the 2-year randomised phase III BALANCE study."
+  },
+  {
+   "disease": "erythropoietic protoporphyria",
+   "drug": "afamelanotide",
+   "id": "ho5-00908",
+   "pmid": "37109595",
+   "sentence": "Recently, we showed that liver function tests (LFTs) improved during afamelanotide treatment when compared to before treatment."
+  },
+  {
+   "disease": "nephropathic cystinosis",
+   "drug": "cysteamine",
+   "id": "ho5-00911",
+   "pmid": "35835062",
+   "sentence": "We performed a retrospective multicenter study to investigate the impact of initiating cysteamine treatment within the first 2 months of life in some infants and comparing two different levels of adherence in patients diagnosed at the typical age."
+  },
+  {
+   "disease": "tyrosinemia",
+   "drug": "atezolizumab",
+   "id": "ho5-00917",
+   "pmid": "39446998",
+   "sentence": "Individuals with delayed diagnosis or lack of treatment present with ocular, skin, and variable cognitive manifestations."
+  },
+  {
+   "disease": "Stargardt disease",
+   "drug": "amino acids",
+   "id": "ho5-00924",
+   "pmid": "9781034",
+   "sentence": "Conversely, all mutations identified in FFM were missense mutations affecting uncharged amino acids."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "sacituzumab govitecan",
+   "id": "ho5-00926",
+   "pmid": "42780764",
+   "sentence": "Results The primary dataset included 3,962 T-DM1, 6,452 T-DXd, and 3,115 sacituzumab govitecan reports."
+  },
+  {
+   "disease": "acquired polycythemia vera",
+   "drug": "pacritinib",
+   "id": "ho5-00928",
+   "pmid": "42650032",
+   "sentence": "Although FDA-approved JAK1/JAK2 inhibitors ruxolitinib, fedratinib pacritinib and momelotinib effectively reduce splenomegaly and symptom burden and have demonstrated survival benefits in clinical trials, their ability to eliminate malignant clones or induce durable disease modification remains limited, and disease progression continues to occur in most patients."
+  },
+  {
+   "disease": "neurofibromatosis",
+   "drug": "regorafenib",
+   "id": "ho5-00932",
+   "pmid": "40092932",
+   "sentence": "The patient underwent successful tumor resection and was discharged home with postoperative regorafenib therapy."
+  },
+  {
+   "disease": "erythropoietic protoporphyria",
+   "drug": "afamelanotide",
+   "id": "ho5-00941",
+   "pmid": "37109595",
+   "sentence": "Skin symptoms are mitigated through the application of the controlled-release implant afamelanotide, an α-MSH analog, every sixty days."
+  },
+  {
+   "disease": "hypopituitarism",
+   "drug": "hydrocortisone",
+   "id": "ho5-00954",
+   "pmid": "40567294",
+   "sentence": "Hydrocortisone therapy was administered to 81.8% of the patients, leading to clinical stabilisation."
+  },
+  {
+   "disease": "neurofibromatosis",
+   "drug": "lamotrigine",
+   "id": "ho5-00962",
+   "pmid": "39340758",
+   "sentence": "Lamotrigine for cognitive deficits associated with neurofibromatosis type 1: A phase II randomized placebo-controlled trial."
+  },
+  {
+   "disease": "congenital alveolar capillary dysplasia",
+   "drug": "sildenafil",
+   "id": "ho5-00968",
+   "pmid": "23407133",
+   "sentence": "Support treatment, inhaled nitric oxide, oral sildenafil and nebulized iloprost were used with no clinical improvement."
+  },
+  {
+   "disease": "CINCA syndrome",
+   "drug": "colchicine",
+   "id": "ho5-00969",
+   "pmid": "17588171",
+   "sentence": "The efficacy of anakinra in an adolescent with colchicine-resistant familial Mediterranean fever."
+  },
+  {
+   "disease": "malignant hyperthermia of anesthesia",
+   "drug": "verapamil",
+   "id": "ho5-00976",
+   "pmid": "1267120",
+   "sentence": "The treatment (ice packs, treatment of acidosis, glucose-insulin, methylprednisolone, lidocaine, verapamil, muscular relaxation and oxygen breathing) was effective."
+  },
+  {
+   "disease": "acquired polycythemia vera",
+   "drug": "mechlorethamine",
+   "id": "ho5-00978",
+   "pmid": "31643828",
+   "sentence": "Given parenterally in combination with other antineoplastic agents it was associated with low rates of serum enzyme elevations during therapy, but mechlorethamine has not been implicated specifically in cases of acute, clinically apparent injury."
+  },
+  {
+   "disease": "polycystic kidney disease",
+   "drug": "tamoxifen",
+   "id": "ho5-00992",
+   "pmid": "40493450",
+   "sentence": "Tamoxifen-inducible, global Pkd1 knockout mice were fed either a low casein (6%), high casein (60%), or high wheat-gluten (60%) protein diet for 6 wk."
+  },
+  {
+   "disease": "neurofibromatosis",
+   "drug": "pemetrexed",
+   "id": "ho5-00994",
+   "pmid": "41250253",
+   "sentence": "The Association Between Age and Outcomes of Bevacizumab Treatment in NF2-Related Schwannomatosis."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "inavolisib",
+   "id": "ho5-01006",
+   "pmid": "PPR:PPR1259248",
+   "sentence": "We describe a 76-year-old woman with metastatic hormone receptor-positive, HER2-negative breast cancer and previously well-controlled type 2 diabetes who developed DKA approximately two weeks after initiation of inavolisib combined with palbociclib and fulvestrant for newly diagnosed pulmonary metastases."
+  },
+  {
+   "disease": "cystinosis",
+   "drug": "calcium",
+   "id": "ho5-01014",
+   "pmid": "PPR:PPR364007",
+   "sentence": "High levels of glucose, calcium, albumin and protein are excreted at 6-months of age, consistent with the onset of Fanconi syndrome, with a progressive diminution of urine urea and creatinine from 9-months of age, indicative of chronic kidney disease."
+  },
+  {
+   "disease": "neurofibromatosis",
+   "drug": "brigatinib",
+   "id": "ho5-01023",
+   "pmid": "PMC:PMC6217088",
+   "sentence": "REDUCTION OF TUMOR BURDEN AND HEARING LOSS WITH A MULTIPLE RECEPTOR TYROSINE KINASE INHIBITOR BRIGATINIB IN A GENETICALLY ENGINEERED MOUSE MODEL OF NEUROFIBROMATOSIS TYPE 2"
+  },
+  {
+   "disease": "classic Hodgkin lymphoma",
+   "drug": "adenosine",
+   "id": "ho5-01028",
+   "pmid": "42009828",
+   "sentence": "CD73, an ectoenzyme involved in adenosine production, plays a key role in immunosuppression and tumor progression."
+  },
+  {
+   "disease": "tuberous sclerosis",
+   "drug": "temozolomide",
+   "id": "ho5-01032",
+   "pmid": "32419643",
+   "sentence": "Further the half maximal inhibitory concentration (IC 50 ) of chemotherapeutic agent temozolomide was significantly reduced in the presence of WT1-AS ."
+  },
+  {
+   "disease": "tuberous sclerosis",
+   "drug": "aspirin",
+   "id": "ho5-01041",
+   "pmid": "38317805",
+   "sentence": "Aspirin-exacerbated respiratory disease is associated with variants in filaggrin, epithelial integrity, and cellular interactions."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "tilmanocept",
+   "id": "ho5-01063",
+   "pmid": "23504141",
+   "sentence": "Comparative evaluation of [(99m)tc]tilmanocept for sentinel lymph node mapping in breast cancer patients: results of two phase 3 trials."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "trastuzumab deruxtecan",
+   "id": "ho5-01077",
+   "pmid": "42009233",
+   "sentence": "In this study, physical (SEC-UV, DLS, nano-DSF), chemical (LCHRMS) and affinity (ELISA, BLI) analyses are used to compare different post-reconstitution study times to the 〈 48 h reconstituted T-DXd."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "trastuzumab deruxtecan",
+   "id": "ho5-01080",
+   "pmid": "41788864",
+   "sentence": "Trastuzumab Deruxtecan-Induced Pneumonitis: Case Series."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "tamoxifen",
+   "id": "ho5-01087",
+   "pmid": "42617046",
+   "sentence": "We investigated whether FGFR1 modulates the IFN response through the cyclic GMP-AMP synthase (cGAS)-stimulator of IFN genes (STING) pathway in tamoxifen-resistant breast cancer."
+  },
+  {
+   "disease": "malignant hyperthermia of anesthesia",
+   "drug": "verapamil",
+   "id": "ho5-01092",
+   "pmid": "6732027",
+   "sentence": "Pietrain pigs susceptible to malignant hyperthermia (MH; porcine stress syndrome) were treated with the slow-channel calcium blocker verapamil and then subjected to halothane testing."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "medroxyprogesterone acetate",
+   "id": "ho5-01095",
+   "pmid": "42073518",
+   "sentence": "Background: Oral progestogens, including megestrol acetate (MA) and medroxyprogesterone acetate (MPA), have largely been superseded by aromatase inhibitors, tamoxifen, and selective oestrogen receptor degraders (SERDs) in oestrogen receptor-positive (ER-positive) metastatic breast cancer."
+  },
+  {
+   "disease": "Berardinelli-Seip congenital lipodystrophy",
+   "drug": "pioglitazone",
+   "id": "ho5-01102",
+   "pmid": "33880995",
+   "sentence": "Successful long-term use of pioglitazone in Berardinelli-Seip lipodystrophy-associated diabetes."
+  },
+  {
+   "disease": "autosomal dominant familial periodic fever",
+   "drug": "anakinra",
+   "id": "ho5-01122",
+   "pmid": "40881584",
+   "sentence": "Successfully Overcoming Allergy to Anakinra Through Intravenous Desensitization in a Child \"Case Report\"."
+  },
+  {
+   "disease": "familial male-limited precocious puberty",
+   "drug": "anastrozole",
+   "id": "ho5-01128",
+   "pmid": "21158211",
+   "sentence": "Methods This was a multicenter, open-label, single-arm, 12-month, Phase II pilot trial in 14 males (2-9 years) with testotoxicosis treated with bicalutamide (12.5, 25, 50, or 100 mg) and anastrozole (0.5 or 1 mg) daily."
+  },
+  {
+   "disease": "epidermodysplasia verruciformis",
+   "drug": "imiquimod",
+   "id": "ho5-01131",
+   "pmid": "26954321",
+   "sentence": "Treatment of Imiquimod Resistant Epidermodysplasia Verruciformis With Ingenol Mebutate."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "alpelisib",
+   "id": "ho5-01134",
+   "pmid": "40303291",
+   "sentence": "The SGK3/GSK3β/β-catenin signaling promotes breast cancer stemness and confers resistance to alpelisib therapy."
+  },
+  {
+   "disease": "polycystic kidney disease",
+   "drug": "caffeine",
+   "id": "ho5-01135",
+   "pmid": "28386880",
+   "sentence": "Background Previous in vitro experiments of human polycystic kidney disease (PKD) cells reported that caffeine is a risk factor for the promotion of cyst enlargement in patients with autosomal dominant PKD (ADPKD)."
+  },
+  {
+   "disease": "nephrogenic syndrome of inappropriate antidiuresis",
+   "drug": "ibuprofen",
+   "id": "ho5-01138",
+   "pmid": "17410467",
+   "sentence": "The rebamipide group took ibuprofen, 1800 mg/day, and rebamipide, 100 mg t.i.d., for 7 days."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "olaparib",
+   "id": "ho5-01139",
+   "pmid": "42798981",
+   "sentence": "Defactinib also enhanced olaparib-induced inhibition in other BRCA-proficient breast cancer cell proliferation."
+  },
+  {
+   "disease": "nephropathic cystinosis",
+   "drug": "urea",
+   "id": "ho5-01149",
+   "pmid": "35695380",
+   "sentence": "High levels of glucose, calcium, albumin, and protein were excreted at 6 mo of age, consistent with the onset of Fanconi syndrome, with a progressive diminution of urine urea and creatinine from 9 mo of age, indicative of chronic kidney disease."
+  },
+  {
+   "disease": "Fabry disease",
+   "drug": "oxygen",
+   "id": "ho5-01153",
+   "pmid": "PPR:PPR707405",
+   "sentence": "Gb3-accumulation has been reported to induce oxidative stress and/or the formation reactive oxygen species (ROS)."
+  },
+  {
+   "disease": "malignant hyperthermia of anesthesia",
+   "drug": "caffeine",
+   "id": "ho5-01157",
+   "pmid": "PPR:PPR1073252",
+   "sentence": "The advent of next-generation sequencing (NGS) has transformed MH diagnostics, offering new opportunities for perioperative risk assessment as caffeine-halothane contracture testing declines."
+  },
+  {
+   "disease": "acquired polycythemia vera",
+   "drug": "fedratinib",
+   "id": "ho5-01160",
+   "pmid": "36416738",
+   "sentence": "Standard treatment consists of anemia-oriented therapies, hydroxyurea, and JAK inhibitors such as ruxolitinib, fedratinib, and pacritinib."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "tucatinib",
+   "id": "ho5-01169",
+   "pmid": "41824101",
+   "sentence": "Introduction Tucatinib, a small molecule HER2 inhibitor, was approved in inoperable or metastatic HER2 + breast cancer."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "levonorgestrel",
+   "id": "ho5-01174",
+   "pmid": "40378875",
+   "sentence": "Progestogens (norethisterone acetate, medroxyprogesterone acetate, dydrogesterone, micronized progesterone, levonorgestrel, drospirenone, and trimegestone) added to estrogen for endometrial protection are reviewed."
+  },
+  {
+   "disease": "neurofibromatosis",
+   "drug": "losartan",
+   "id": "ho5-01176",
+   "pmid": "37905291",
+   "sentence": "Pre-clinical data suggests that hearing loss can be prevented following treatment with the angiotensin receptor blocker (ARB), losartan, in an animal model of NF-2."
+  },
+  {
+   "disease": "hypopituitarism",
+   "drug": "levothyroxine",
+   "id": "ho5-01180",
+   "pmid": "42488375",
+   "sentence": "A 13-year-old boy with obesity, normal fasting glucose, and hypopituitarism receiving levothyroxine, hydrocortisone, and desmopressin replacement therapies following treatment of a suprasellar nongerminomatous germ cell tumor initiated treatment with lonapegsomatropin at 0.23 mg/kg/week."
+  }
+ ],
+ "n_items": 100,
+ "shard": 2,
+ "split": "heldout"
+}

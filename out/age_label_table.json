@@ -1,0 +1,4463 @@
+{
+ "aviso": "hypotheses, not advice: label support by age group; not a treatment or dose recommendation. The age of the patient is unknown and no age band is assumed. Verbatim label sentences; any dose figure is printed as in the label and is not dosing information.",
+ "avisos": [],
+ "entradas_propuestas_para_config_NO_ESCRITAS": {
+  "CHEMBL159": {
+   "clasificador": "UNKNOWN",
+   "frase_candidata": "Pediatric Use The dosage schedule for pediatric patients is indicated under DOSAGE AND ADMINISTRATION .",
+   "min_age_years": null,
+   "name": "VINBLASTINE",
+   "source": "DailyMed setid=f073b58e-56d6-4c8d-a2ce-b37719402d77, leído 2026-10-14",
+   "verdict": "PENDIENTE (established | not_established | verify)"
+  },
+  "CHEMBL160": {
+   "clasificador": "UNKNOWN",
+   "frase_candidata": "Pediatric Use Although no adequate and well-controlled studies have been conducted in children, patients as young as 6 months of age have received cyclosporine with no unusual adverse effects.",
+   "min_age_years": 0.5,
+   "name": "CYCLOSPORINE",
+   "source": "DailyMed setid=5e5926a7-1de0-4b54-a5c0-286b6200ff82, leído 2026-10-14",
+   "verdict": "PENDIENTE (established | not_established | verify)"
+  },
+  "CHEMBL76": {
+   "clasificador": "UNKNOWN",
+   "frase_candidata": "Pediatric Use See WARNINGS and DOSAGE AND ADMINISTRATION .",
+   "min_age_years": null,
+   "name": "CHLOROQUINE",
+   "source": "DailyMed setid=eb02c52d-907c-43fb-aa8f-2f378a9087e7, leído 2026-10-14",
+   "verdict": "PENDIENTE (established | not_established | verify)"
+  },
+  "CHEMBL820": {
+   "clasificador": "UNKNOWN",
+   "frase_candidata": "8.4 Pediatric Use The effectiveness of Busulfan Injection in the treatment of CML has not been specifically studied in pediatric patients.",
+   "min_age_years": 0.4166666666666667,
+   "name": "BUSULFAN",
+   "source": "DailyMed setid=086a715e-4958-4bb5-9ebd-86171e6b6203, leído 2026-10-14",
+   "verdict": "PENDIENTE (established | not_established | verify)"
+  },
+  "CHEMBL90555": {
+   "clasificador": "UNKNOWN",
+   "frase_candidata": "Pediatric Use See DOSAGE AND ADMINISTRATION section.",
+   "min_age_years": null,
+   "name": "VINCRISTINE",
+   "source": "DailyMed setid=b22e4c8e-dbe1-4d4b-a026-e1812974071c, leído 2026-10-14",
+   "verdict": "PENDIENTE (established | not_established | verify)"
+  }
+ },
+ "estados": {
+  "adult_only": "adults only",
+  "age_not_stated": "labelled for children without a stated minimum age",
+  "labelled": "the label supports use across the whole group",
+  "not_labelled": "paediatric use not established",
+  "partly": "from a stated minimum age inside the group (reported)",
+  "verify": "label mixed or unreadable, or its paediatric section only refers to another section without stating established use: verify by hand"
+ },
+ "farmacos": [
+  {
+   "advertencias_pediatricas": [],
+   "bandas_etiqueta": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": null,
+    "estado": "NOT_ESTABLISHED",
+    "nota": null
+   },
+   "drug_id": "CHEMBL4204794",
+   "edad_minima_usada_anios": null,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20260914",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "645c887c-8cd4-4623-8da9-ac223d71a8b9",
+    "titulo": "Ayvakit [BLUEPRINT MEDICINES CORPORATION]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "645c887c-8cd4-4623-8da9-ac223d71a8b9",
+    "texto_literal": "8.4 Pediatric Use The safety and effectiveness of AYVAKIT in pediatric patients have not been established.",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "AVAPRITINIB",
+   "nota": null,
+   "origen": [
+    "class_analysis:supported_in_two_usable_lines"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "no paediatric use established",
+    "source": "DailyMed setid=645c887c-8cd4-4623-8da9-ac223d71a8b9, label effective 20260914, read 2026-10-08",
+    "verdict": "not_established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [],
+   "bandas_etiqueta": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": null,
+    "estado": "NOT_ESTABLISHED",
+    "nota": null
+   },
+   "drug_id": "CHEMBL487253",
+   "edad_minima_usada_anios": null,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20260909",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "085dd54c-4212-d879-afef-ee52732a48c0",
+    "titulo": "Bendamustine Hydrochloride [APOTEX CORP]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "085dd54c-4212-d879-afef-ee52732a48c0",
+    "texto_literal": "8.4 Pediatric Use Safety and effectiveness in pediatric patients have not been established.",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "BENDAMUSTINE",
+   "nota": null,
+   "origen": [
+    "caution_list:c_quimioterapia_genotoxica"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "not established; a trial in patients aged 1 to 19 years with relapsed or refractory acute leukaemia showed no treatment response",
+    "source": "DailyMed setid=085dd54c-4212-d879-afef-ee52732a48c0, label effective 20260909, read 2026-10-08",
+    "verdict": "not_established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [],
+   "bandas_etiqueta": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": 21.0,
+    "estado": "NOT_ESTABLISHED",
+    "nota": null
+   },
+   "drug_id": "CHEMBL325041",
+   "edad_minima_usada_anios": 21.0,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20260909",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "b605b541-4bfd-db3e-9710-11c27f6dee6c",
+    "titulo": "BORTEZOMIB [APOTEX CORP]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "b605b541-4bfd-db3e-9710-11c27f6dee6c",
+    "texto_literal": "8.4 Pediatric Use Safety and effectiveness have not been established in pediatric patients.",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "BORTEZOMIB",
+   "nota": null,
+   "origen": [
+    "caution_list:d_proteasoma",
+    "proposals_review2:proposed"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "not established; studied with chemotherapy in paediatric and young adult lymphoid malignancies",
+    "source": "DailyMed setid=b605b541-4bfd-db3e-9710-11c27f6dee6c, label effective 20260909, read 2026-10-08",
+    "verdict": "not_established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [],
+   "bandas_etiqueta": {
+    "adolescent": "LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "LABELLED_USE",
+    "infant": "LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": 1.0,
+    "estado": "MIXED",
+    "nota": "MIXED is recorded as verify"
+   },
+   "drug_id": "CHEMBL288441",
+   "edad_minima_usada_anios": 1.0,
+   "estado_por_grupo": {
+    "0_to_under_3": "partly (from 1 y)",
+    "12_and_older": "labelled",
+    "3_to_under_12": "labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20260310",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "adc84ad5-a04d-4fee-9ba8-91f7abd928e3",
+    "titulo": "BOSULIF [PFIZER LABORATORIES DIV PFIZER INC]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "adc84ad5-a04d-4fee-9ba8-91f7abd928e3",
+    "texto_literal": "8.4 Pediatric Use The safety and effectiveness of BOSULIF have been established in pediatric patients 1 year of age and older with newly-diagnosed CP Ph+ CML and CP Ph+ CML that is resistant or intolerant to prior therapy.",
+    "truncada": false
+   },
+   "labelled_for_group": [
+    "12_and_older",
+    "3_to_under_12"
+   ],
+   "manual_review_required": false,
+   "name": "BOSUTINIB",
+   "nota": null,
+   "origen": [
+    "proposals_review2:proposed"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": 1.0,
+    "scope": "chronic-phase Philadelphia-chromosome-positive chronic myelogenous leukaemia (newly diagnosed, or resistant or intolerant) from 1 year; no other paediatric indication; label read: Bosulif (Pfizer)",
+    "source": "DailyMed setid=adc84ad5-a04d-4fee-9ba8-91f7abd928e3, label effective 20260310, read 2026-10-08",
+    "verdict": "established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "086a715e-4958-4bb5-9ebd-86171e6b6203",
+     "texto_literal": "All 24 patients experienced neutropenia (absolute neutrophil count (ANC) less than 0.5 x 109/L) and thrombocytopenia (platelet transfusions or platelet count less than 20,000/mm3).",
+     "truncada": false
+    }
+   ],
+   "bandas_etiqueta": {
+    "adolescent": "UNKNOWN",
+    "adult": "LABELLED",
+    "child": "UNKNOWN",
+    "infant": "UNKNOWN",
+    "neonate": "UNKNOWN"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": 0.4166666666666667,
+    "estado": "UNKNOWN",
+    "nota": null
+   },
+   "drug_id": "CHEMBL820",
+   "edad_minima_usada_anios": 0.4166666666666667,
+   "estado_por_grupo": {
+    "0_to_under_3": "verify",
+    "12_and_older": "verify",
+    "3_to_under_12": "verify"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20260729",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "086a715e-4958-4bb5-9ebd-86171e6b6203",
+    "titulo": "Busulfan [SAGENT PHARMACEUTICALS]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "086a715e-4958-4bb5-9ebd-86171e6b6203",
+    "texto_literal": "8.4 Pediatric Use The effectiveness of Busulfan Injection in the treatment of CML has not been specifically studied in pediatric patients.",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": true,
+   "name": "BUSULFAN",
+   "nota": null,
+   "origen": [
+    "caution_list:c_quimioterapia_genotoxica"
+   ],
+   "origen_del_perfil": "heuristic",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "label (injection): effectiveness in the labelled indication (conditioning before transplantation for CML) not studied in children; a 24-patient pharmacokinetic study (5 months to 16 years) supports a suggested paediatric dosing nomogram; no statement that paediatric use is established",
+    "source": "DailyMed setid=086a715e-4958-4bb5-9ebd-86171e6b6203, label effective see setid, read 2026-10-08",
+    "verdict": "verify"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "ec6892c8-01e1-6a8b-e053-2995a90a956f",
+     "texto_literal": "The maximum tolerated dose (MTD) was 30 mg/m 2 intravenously over 1 hour on Day 1 of a 21 day cycle in pediatric patients with solid tumors based on the dose-limiting toxicity (DLT) of febrile neutropenia.",
+     "truncada": false
+    }
+   ],
+   "bandas_etiqueta": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": null,
+    "estado": "MIXED",
+    "nota": "MIXED is recorded as verify"
+   },
+   "drug_id": "CHEMBL1201748",
+   "edad_minima_usada_anios": null,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20221101",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "ec6892c8-01e1-6a8b-e053-2995a90a956f",
+    "titulo": "cabazitaxel [ACCORD HEALTHCARE INC.]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "ec6892c8-01e1-6a8b-e053-2995a90a956f",
+    "texto_literal": "8.4 Pediatric Use The safety and effectiveness of cabazitaxel in pediatric patients have not been established.",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "CABAZITAXEL",
+   "nota": null,
+   "origen": [
+    "caution_list:a_tubulina"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "label states safety and effectiveness in paediatric patients have not been established (a dose-finding study is described)",
+    "source": "DailyMed setid=ec6892c8-01e1-6a8b-e053-2995a90a956f, label effective 20221101, read 2026-10-08",
+    "verdict": "not_established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "3850cce2-6137-42e5-a792-d318c4a4b3b5",
+     "texto_literal": "Physeal widening has been observed in children with open growth plates when treated with CABOMETYX.",
+     "truncada": false
+    },
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "3850cce2-6137-42e5-a792-d318c4a4b3b5",
+     "texto_literal": "Based on the limited available data of the effects of CABOMETYX on longitudinal growth, physeal and longitudinal growth monitoring is recommended in children with open growth plates.",
+     "truncada": false
+    },
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "3850cce2-6137-42e5-a792-d318c4a4b3b5",
+     "texto_literal": "Juvenile Animal Toxicity Data Juvenile rats were administered cabozantinib at doses of 1 or 2 mg/kg/day from Postnatal Day 12 (comparable to less than 2 years in humans) through Postnatal Day 35 or 70.",
+     "truncada": false
+    },
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "3850cce2-6137-42e5-a792-d318c4a4b3b5",
+     "texto_literal": "Targets were generally similar to those seen in adult animals, occurred at both doses, and included the kidney (nephropathy, glomerulonephritis), reproductive organs, gastrointestinal tract (cystic dilatation and hyperplasia in Brunner’s gland and inflammation of duodenum; and epithelial hyperplasia of colon and cecum), bone marrow (hypocellularity and lymphoid depletion), and liver.",
+     "truncada": false
+    }
+   ],
+   "bandas_etiqueta": {
+    "adolescent": "LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": 12.0,
+    "estado": "MIXED",
+    "nota": "MIXED is recorded as verify"
+   },
+   "drug_id": "CHEMBL2105717",
+   "edad_minima_usada_anios": 12.0,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "labelled",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20251019",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "3850cce2-6137-42e5-a792-d318c4a4b3b5",
+    "titulo": "CABOMETYX [EXELIXIS, INC.]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "3850cce2-6137-42e5-a792-d318c4a4b3b5",
+    "texto_literal": "8.4 Pediatric Use The safety and effectiveness of CABOMETYX for the treatment of differentiated thyroid cancer (DTC) and neuroendocrine tumors (NETs) have been established in pediatric patients aged 12 years and older.",
+    "truncada": false
+   },
+   "labelled_for_group": [
+    "12_and_older"
+   ],
+   "manual_review_required": false,
+   "name": "CABOZANTINIB",
+   "nota": null,
+   "origen": [
+    "class_analysis:supported_in_two_usable_lines"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": 12.0,
+    "scope": "differentiated thyroid cancer and neuroendocrine tumours in patients aged 12 years and older (CABOMETYX); physeal widening seen in children with open growth plates",
+    "source": "DailyMed setid=3850cce2-6137-42e5-a792-d318c4a4b3b5, label effective 20251019, read 2026-10-08",
+    "verdict": "established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [],
+   "bandas_etiqueta": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": null,
+    "estado": "NOT_ESTABLISHED",
+    "nota": null
+   },
+   "drug_id": "CHEMBL3188267",
+   "edad_minima_usada_anios": null,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20251215",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "455892c3-d144-4ba8-9ab4-79cabff9876d",
+    "titulo": "TABRECTA [NOVARTIS PHARMACEUTICALS CORPORATION]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "455892c3-d144-4ba8-9ab4-79cabff9876d",
+    "texto_literal": "8.4 Pediatric Use Safety and effectiveness of TABRECTA in pediatric patients have not been established.",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "CAPMATINIB",
+   "nota": null,
+   "origen": [
+    "class_analysis:supported_in_two_usable_lines"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "no paediatric use established",
+    "source": "DailyMed setid=455892c3-d144-4ba8-9ab4-79cabff9876d, label effective 20251215, read 2026-10-08",
+    "verdict": "not_established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "4c89cedc-e48b-445c-ad05-54dbe60e4fb0",
+     "texto_literal": "Pediatric Use Safety and effectiveness in pediatric patients have not been established (seeWARNINGS : \"audiologic toxicity\").",
+     "truncada": false
+    }
+   ],
+   "bandas_etiqueta": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": null,
+    "estado": "NOT_ESTABLISHED",
+    "nota": null
+   },
+   "drug_id": "CHEMBL1351",
+   "edad_minima_usada_anios": null,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20260721",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "4c89cedc-e48b-445c-ad05-54dbe60e4fb0",
+    "titulo": "CARBOPLATIN [NATCO PHARMA USA LLC]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "4c89cedc-e48b-445c-ad05-54dbe60e4fb0",
+    "texto_literal": "Pediatric Use Safety and effectiveness in pediatric patients have not been established (seeWARNINGS : \"audiologic toxicity\").",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "CARBOPLATIN",
+   "nota": null,
+   "origen": [
+    "caution_list:c_quimioterapia_genotoxica"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "not established; the label refers to audiologic toxicity",
+    "source": "DailyMed setid=4c89cedc-e48b-445c-ad05-54dbe60e4fb0, label effective 20260721, read 2026-10-08",
+    "verdict": "not_established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [],
+   "bandas_etiqueta": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": null,
+    "estado": "NOT_ESTABLISHED",
+    "nota": null
+   },
+   "drug_id": "CHEMBL451887",
+   "edad_minima_usada_anios": null,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20250618",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "ea66eb30-e665-4693-99a1-a9d3b4bbe2d6",
+    "titulo": "KYPROLIS [ONYX PHARMACEUTICALS, INC.]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "ea66eb30-e665-4693-99a1-a9d3b4bbe2d6",
+    "texto_literal": "8.4 Pediatric Use The safety and effectiveness of Kyprolis in pediatric patients have not been established.",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "CARFILZOMIB",
+   "nota": null,
+   "origen": [
+    "caution_list:d_proteasoma"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "not established; evaluated with chemotherapy in 124 patients aged 1 to <17 years with relapsed or refractory ALL",
+    "source": "DailyMed setid=ea66eb30-e665-4693-99a1-a9d3b4bbe2d6, label effective 20250618, read 2026-10-08",
+    "verdict": "not_established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [],
+   "bandas_etiqueta": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": null,
+    "estado": "UNKNOWN",
+    "nota": null
+   },
+   "drug_id": "CHEMBL513",
+   "edad_minima_usada_anios": null,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20260409",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "b9b47082-32ee-4abb-a7b2-52292894d3f8",
+    "titulo": "CARMUSTINE [HERITAGE PHARMACEUTICALS INC. D/B/A AVET PHARMACEUTICALS INC.]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": null,
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "CARMUSTINE",
+   "nota": "the DailyMed label read has no readable paediatric-use section; the status comes from the manual review in config (another reading, e.g. openFDA)",
+   "origen": [
+    "caution_list:c_quimioterapia_genotoxica"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "label read: carmustine for injection (Heritage/Avet), intravenous; paediatric use not established",
+    "source": "DailyMed setid=b9b47082-32ee-4abb-a7b2-52292894d3f8, label effective 20260409, read 2026-10-09",
+    "verdict": "not_established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [],
+   "bandas_etiqueta": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": null,
+    "estado": "NOT_ESTABLISHED",
+    "nota": null
+   },
+   "drug_id": "CHEMBL2403108",
+   "edad_minima_usada_anios": null,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20251215",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "fff5d805-4ffd-4e8e-8e63-6f129697563e",
+    "titulo": "ZYKADIA [NOVARTIS PHARMACEUTICALS CORPORATION]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "fff5d805-4ffd-4e8e-8e63-6f129697563e",
+    "texto_literal": "8.4 Pediatric Use The safety and effectiveness of ZYKADIA in pediatric patients have not been established.",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "CERITINIB",
+   "nota": null,
+   "origen": [
+    "four_lines_review2:b2_counted_as_prespecified:one_line_only"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "no paediatric use established",
+    "source": "DailyMed setid=fff5d805-4ffd-4e8e-8e63-6f129697563e, label effective 20251215, read 2026-10-08",
+    "verdict": "not_established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [],
+   "bandas_etiqueta": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": null,
+    "estado": "NOT_ESTABLISHED",
+    "nota": null
+   },
+   "drug_id": "CHEMBL515",
+   "edad_minima_usada_anios": null,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20250108",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "58a3c995-5ad6-465d-8437-5970c9088213",
+    "titulo": "LEUKERAN [WAYLIS THERAPEUTICS LLC]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "58a3c995-5ad6-465d-8437-5970c9088213",
+    "texto_literal": "Pediatric Use The safety and effectiveness in pediatric patients have not been established.",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "CHLORAMBUCIL",
+   "nota": null,
+   "origen": [
+    "caution_list:c_quimioterapia_genotoxica"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "no paediatric use established",
+    "source": "openFDA setid=58a3c995-5ad6-465d-8437-5970c9088213, label effective 20250108, read 2026-10-08",
+    "verdict": "not_established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [],
+   "bandas_etiqueta": {
+    "adolescent": "UNKNOWN",
+    "adult": "LABELLED",
+    "child": "UNKNOWN",
+    "infant": "UNKNOWN",
+    "neonate": "UNKNOWN"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": null,
+    "estado": "UNKNOWN",
+    "nota": null
+   },
+   "drug_id": "CHEMBL76",
+   "edad_minima_usada_anios": null,
+   "estado_por_grupo": {
+    "0_to_under_3": "verify",
+    "12_and_older": "verify",
+    "3_to_under_12": "verify"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20260929",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "eb02c52d-907c-43fb-aa8f-2f378a9087e7",
+    "titulo": "Chloroquine Phosphate [AMNEAL PHARMACEUTICALS OF NEW YORK LLC]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "eb02c52d-907c-43fb-aa8f-2f378a9087e7",
+    "texto_literal": "Pediatric Use See WARNINGS and DOSAGE AND ADMINISTRATION .",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": true,
+   "name": "CHLOROQUINE",
+   "nota": null,
+   "origen": [
+    "proposals_review2:proposed"
+   ],
+   "origen_del_perfil": "heuristic",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "the paediatric section only refers to the warnings and the dosage section (paediatric dosing for malaria); no statement of established use and no minimum age (implicit paediatric labelling)",
+    "source": "DailyMed setid=eb02c52d-907c-43fb-aa8f-2f378a9087e7, label effective 20260929, read 2026-10-08",
+    "verdict": "verify"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [],
+   "bandas_etiqueta": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": 5.0,
+    "estado": "ESTABLISHED",
+    "nota": null
+   },
+   "drug_id": "CHEMBL11359",
+   "edad_minima_usada_anios": 5.0,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20260624",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "508496cb-3441-46b3-a4fe-e0d440e6adc6",
+    "titulo": "Cisplatin [WG CRITICAL CARE, LLC]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "508496cb-3441-46b3-a4fe-e0d440e6adc6",
+    "texto_literal": "8.4 Pediatric Use Ototoxic effects may be more severe and detrimental in pediatric patients receiving cisplatin for injection, particularly in patients less than 5 years of age.",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "CISPLATIN",
+   "nota": null,
+   "origen": [
+    "caution_list:c_quimioterapia_genotoxica"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "no paediatric indication; the label's paediatric statement is an ototoxicity warning (more severe in patients under 5 years). The earlier heuristic 'established from 5 years' misread that warning",
+    "source": "DailyMed setid=508496cb-3441-46b3-a4fe-e0d440e6adc6, label effective 20260624, read 2026-10-08",
+    "verdict": "not_established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [],
+   "bandas_etiqueta": {
+    "adolescent": "LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": null,
+    "estado": "NOT_ESTABLISHED",
+    "nota": null
+   },
+   "drug_id": "CHEMBL107",
+   "edad_minima_usada_anios": 4.0,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "labelled",
+    "3_to_under_12": "partly (from 4 y)"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20250701",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "0f69b9c6-8c00-45e2-b950-34dc5ae62352",
+    "titulo": "colchicine [PROFICIENT RX LP]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "0f69b9c6-8c00-45e2-b950-34dc5ae62352",
+    "texto_literal": "8.4 Pediatric Use The safety and efficacy of colchicine in children of all ages with FMF has been evaluated in uncontrolled studies.",
+    "truncada": false
+   },
+   "labelled_for_group": [
+    "12_and_older"
+   ],
+   "manual_review_required": false,
+   "name": "COLCHICINE",
+   "nota": null,
+   "origen": [
+    "caution_list:a_tubulina"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": 4.0,
+    "scope": "Familial Mediterranean fever in adults and children 4 years or older (the label's paediatric-use text says the safety and efficacy in children of all ages with FMF were evaluated in uncontrolled studies); not established for gout",
+    "source": "openFDA setid=0f69b9c6-8c00-45e2-b950-34dc5ae62352, label effective 20250701, read 2026-10-08",
+    "verdict": "established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [],
+   "bandas_etiqueta": {
+    "adolescent": "UNKNOWN",
+    "adult": "LABELLED",
+    "child": "UNKNOWN",
+    "infant": "UNKNOWN",
+    "neonate": "UNKNOWN"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": 0.5,
+    "estado": "UNKNOWN",
+    "nota": null
+   },
+   "drug_id": "CHEMBL160",
+   "edad_minima_usada_anios": 0.5,
+   "estado_por_grupo": {
+    "0_to_under_3": "verify",
+    "12_and_older": "verify",
+    "3_to_under_12": "verify"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20260710",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "5e5926a7-1de0-4b54-a5c0-286b6200ff82",
+    "titulo": "Sandimmune [NOVARTIS PHARMACEUTICALS CORPORATION]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "5e5926a7-1de0-4b54-a5c0-286b6200ff82",
+    "texto_literal": "Pediatric Use Although no adequate and well-controlled studies have been conducted in children, patients as young as 6 months of age have received cyclosporine with no unusual adverse effects.",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": true,
+   "name": "CYCLOSPORINE",
+   "nota": null,
+   "origen": [
+    "four_lines_review2:b2_counted_as_prespecified:one_line_only",
+    "four_lines_review2:b2_held_exploratory:one_line_only"
+   ],
+   "origen_del_perfil": "heuristic",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "systemic labels (Sandimmune; Neoral and Gengraf): no adequate and well-controlled studies in children, but transplant recipients from 6 months (Sandimmune) or 1 year (Neoral, Gengraf) have received it; not established below 18 years for juvenile rheumatoid arthritis or psoriasis. The earlier automatic read used an ophthalmic emulsion label, the wrong product",
+    "source": "DailyMed setid=5e5926a7-1de0-4b54-a5c0-286b6200ff82, label effective see setid, read 2026-10-08",
+    "verdict": "verify"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [],
+   "bandas_etiqueta": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": null,
+    "estado": "UNKNOWN",
+    "nota": null
+   },
+   "drug_id": "CHEMBL476",
+   "edad_minima_usada_anios": null,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20250922",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "0d81315c-7021-4091-b703-ad135390c936",
+    "titulo": "Dacarbazine [HIKMA PHARMACEUTICALS USA INC.]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": null,
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "DACARBAZINE",
+   "nota": "the DailyMed label read has no readable paediatric-use section; the status comes from the manual review in config (another reading, e.g. openFDA)",
+   "origen": [
+    "caution_list:c_quimioterapia_genotoxica"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "the label contains no paediatric statement (no mention of children or paediatric patients); adult indications only, so paediatric use is not labelled",
+    "source": "DailyMed setid=0d81315c-7021-4091-b703-ad135390c936, label effective 20250922, read 2026-10-08",
+    "verdict": "not_established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "9705fa12-499e-41a3-8fb4-f6df0858b851",
+     "texto_literal": "Pediatric Patients: Although appropriate studies with daunorubicin hydrochloride have not been performed in the pediatric population, cardiotoxicity may be more frequent and occur at lower cumulative doses in children.",
+     "truncada": false
+    }
+   ],
+   "bandas_etiqueta": {
+    "adolescent": "AGE_NOT_STATED",
+    "adult": "LABELLED",
+    "child": "AGE_NOT_STATED",
+    "infant": "AGE_NOT_STATED",
+    "neonate": "AGE_NOT_STATED"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": null,
+    "estado": "UNKNOWN",
+    "nota": null
+   },
+   "drug_id": "CHEMBL178",
+   "edad_minima_usada_anios": null,
+   "estado_por_grupo": {
+    "0_to_under_3": "age_not_stated",
+    "12_and_older": "age_not_stated",
+    "3_to_under_12": "age_not_stated"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20260119",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "9705fa12-499e-41a3-8fb4-f6df0858b851",
+    "titulo": "Daunorubicin Hydrochloride [HISUN PHARMACEUTICALS USA, INC.]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "9705fa12-499e-41a3-8fb4-f6df0858b851",
+    "texto_literal": "Pediatric Patients: Although appropriate studies with daunorubicin hydrochloride have not been performed in the pediatric population, cardiotoxicity may be more frequent and occur at lower cumulative doses in children.",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "DAUNORUBICIN",
+   "nota": null,
+   "origen": [
+    "caution_list:c_quimioterapia_genotoxica"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "remission induction in acute lymphocytic leukaemia of children and adults (a minimum age is not stated); the paediatric-use text says appropriate studies were not performed in children and that cardiotoxicity may be more frequent and occur at lower cumulative doses in children",
+    "source": "DailyMed setid=9705fa12-499e-41a3-8fb4-f6df0858b851, label effective 20260119, read 2026-10-08",
+    "verdict": "established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [],
+   "bandas_etiqueta": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": null,
+    "estado": "NOT_ESTABLISHED",
+    "nota": null
+   },
+   "drug_id": "CHEMBL517",
+   "edad_minima_usada_anios": null,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20260318",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "31e79459-107f-4d69-a163-90014f1c4772",
+    "titulo": "Disopyramide Phosphate [MYLAN PHARMACEUTICALS INC.]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "31e79459-107f-4d69-a163-90014f1c4772",
+    "texto_literal": "Pediatric Use Safety and effectiveness in pediatric patients have not been established (see Dosage and Administration ).",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "DISOPYRAMIDE",
+   "nota": null,
+   "origen": [
+    "four_lines_review2:b2_counted_as_prespecified:one_line_only",
+    "four_lines_review2:b2_held_exploratory:one_line_only"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "no paediatric use established",
+    "source": "DailyMed setid=31e79459-107f-4d69-a163-90014f1c4772, label effective 20260318, read 2026-10-08",
+    "verdict": "not_established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "2fb017fd-e55e-43ef-9024-07f2d412b37b",
+     "texto_literal": "8.4 Pediatric Use The alcohol content of docetaxel injection should be taken into account when given to pediatric patients [see Warnings and Precautions (5.13)].",
+     "truncada": false
+    },
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "2fb017fd-e55e-43ef-9024-07f2d412b37b",
+     "texto_literal": "The primary dose limiting toxicity was neutropenia.",
+     "truncada": false
+    }
+   ],
+   "bandas_etiqueta": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": null,
+    "estado": "MIXED",
+    "nota": "MIXED is recorded as verify"
+   },
+   "drug_id": "CHEMBL92",
+   "edad_minima_usada_anios": null,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20260715",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "2fb017fd-e55e-43ef-9024-07f2d412b37b",
+    "titulo": "Docetaxel [MYLAN INSTITUTIONAL LLC]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "2fb017fd-e55e-43ef-9024-07f2d412b37b",
+    "texto_literal": "8.4 Pediatric Use The alcohol content of docetaxel injection should be taken into account when given to pediatric patients [see Warnings and Precautions (5.13)].",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "DOCETAXEL ANHYDROUS",
+   "nota": null,
+   "origen": [
+    "caution_list:a_tubulina"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "label states paediatric efficacy has not been established (safety profile described only)",
+    "source": "DailyMed setid=2fb017fd-e55e-43ef-9024-07f2d412b37b, label effective 20260715, read 2026-10-08",
+    "verdict": "not_established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [],
+   "bandas_etiqueta": {
+    "adolescent": "AGE_NOT_STATED",
+    "adult": "LABELLED",
+    "child": "AGE_NOT_STATED",
+    "infant": "AGE_NOT_STATED",
+    "neonate": "AGE_NOT_STATED"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": 2.0,
+    "estado": "UNKNOWN",
+    "nota": null
+   },
+   "drug_id": "CHEMBL53463",
+   "edad_minima_usada_anios": null,
+   "estado_por_grupo": {
+    "0_to_under_3": "age_not_stated",
+    "12_and_older": "age_not_stated",
+    "3_to_under_12": "age_not_stated"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20260505",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "1fd148fb-0fbc-4b6f-b790-23546fb46a71",
+    "titulo": "Doxorubicin Hydrochloride [PFIZER LABORATORIES DIV PFIZER INC]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "1fd148fb-0fbc-4b6f-b790-23546fb46a71",
+    "texto_literal": "8.4 Pediatric Use Based on postmarketing reports, pediatric patients treated with doxorubicin hydrochloride are at risk for developing late cardiovascular dysfunction.",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "DOXORUBICIN",
+   "nota": null,
+   "origen": [
+    "caution_list:c_quimioterapia_genotoxica"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "label read: conventional doxorubicin hydrochloride injection (the earlier automatic read used the liposomal product, where paediatric use is not established). The indications include childhood cancers (metastatic Wilms' tumor, metastatic neuroblastoma) and the label gives paediatric safety information (late cardiovascular dysfunction, especially under 5 years) without a minimum age or a statement of established effectiveness",
+    "source": "DailyMed setid=1fd148fb-0fbc-4b6f-b790-23546fb46a71, label effective see setid, read 2026-10-08",
+    "verdict": "established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "c7c71b0c-2549-4495-86b6-c2807fa54908",
+     "texto_literal": "Juvenile Animal Toxicity Data In a 13-week juvenile rat toxicology study, animals were dosed daily from post-natal day 7 to day 97 (approximately equivalent to neonate to adulthood).",
+     "truncada": false
+    }
+   ],
+   "bandas_etiqueta": {
+    "adolescent": "LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "LABELLED_USE",
+    "infant": "LABELLED_USE",
+    "neonate": "LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": 0.08333333333333333,
+    "estado": "MIXED",
+    "nota": "MIXED is recorded as verify"
+   },
+   "drug_id": "CHEMBL1983268",
+   "edad_minima_usada_anios": 0.0833,
+   "estado_por_grupo": {
+    "0_to_under_3": "partly (from 0.0833 y)",
+    "12_and_older": "labelled",
+    "3_to_under_12": "labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20251204",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "c7c71b0c-2549-4495-86b6-c2807fa54908",
+    "titulo": "Rozlytrek [GENENTECH, INC.]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "c7c71b0c-2549-4495-86b6-c2807fa54908",
+    "texto_literal": "8.4 Pediatric Use The safety and effectiveness of ROZLYTREK have been established in pediatric patients older than 1 month of age [Clinical Studies (14.2)].",
+    "truncada": false
+   },
+   "labelled_for_group": [
+    "12_and_older",
+    "3_to_under_12"
+   ],
+   "manual_review_required": false,
+   "name": "ENTRECTINIB",
+   "nota": null,
+   "origen": [
+    "class_analysis:supported_in_two_usable_lines"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": 0.0833,
+    "scope": "solid tumours with an NTRK gene fusion in patients older than 1 month; not established in paediatric ROS1-positive NSCLC",
+    "source": "DailyMed setid=c7c71b0c-2549-4495-86b6-c2807fa54908, label effective 20251204, read 2026-10-08",
+    "verdict": "established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "f7ec5ec1-fb05-4c78-b821-9aea638cf144",
+     "texto_literal": "Pediatric patients may be at greater risk for anthracycline-induced acute manifestations of cardiotoxicity and for chronic CHF.",
+     "truncada": false
+    }
+   ],
+   "bandas_etiqueta": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": null,
+    "estado": "NOT_ESTABLISHED",
+    "nota": null
+   },
+   "drug_id": "CHEMBL417",
+   "edad_minima_usada_anios": null,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20080611",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "f7ec5ec1-fb05-4c78-b821-9aea638cf144",
+    "titulo": "epirubicin hydrochloride [OTN GENERICS INC.]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "f7ec5ec1-fb05-4c78-b821-9aea638cf144",
+    "texto_literal": "Pediatric Use The safety and effectiveness of epirubicin in pediatric patients have not been established in adequate and well-controlled clinical trials.",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "EPIRUBICIN",
+   "nota": null,
+   "origen": [
+    "caution_list:c_quimioterapia_genotoxica"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "not established; paediatric patients may be at greater risk of anthracycline cardiotoxicity",
+    "source": "DailyMed setid=f7ec5ec1-fb05-4c78-b821-9aea638cf144, label effective 20080611, read 2026-10-08",
+    "verdict": "not_established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [],
+   "bandas_etiqueta": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": null,
+    "estado": "NOT_ESTABLISHED",
+    "nota": null
+   },
+   "drug_id": "CHEMBL1683590",
+   "edad_minima_usada_anios": null,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20260910",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "64bf3c30-f06a-3615-ca5e-eb4154d371d0",
+    "titulo": "eribulin mesylate [APOTEX CORP.]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "64bf3c30-f06a-3615-ca5e-eb4154d371d0",
+    "texto_literal": "8.4 Pediatric Use The safety and effectiveness of eribulin mesylate in pediatric patients have not been established.",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "ERIBULIN",
+   "nota": null,
+   "origen": [
+    "caution_list:a_tubulina"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "not established",
+    "source": "DailyMed setid=64bf3c30-f06a-3615-ca5e-eb4154d371d0, label effective 20260910, read 2026-10-08",
+    "verdict": "not_established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [],
+   "bandas_etiqueta": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": null,
+    "estado": "UNKNOWN",
+    "nota": null
+   },
+   "drug_id": "CHEMBL44657",
+   "edad_minima_usada_anios": null,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20260714",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "fe870629-104d-4d67-a7c6-f53bc588121e",
+    "titulo": "Etoposide [FRESENIUS KABI USA, LLC]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": null,
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "ETOPOSIDE",
+   "nota": "the DailyMed label read has no readable paediatric-use section; the status comes from the manual review in config (another reading, e.g. openFDA)",
+   "origen": [
+    "caution_list:c_quimioterapia_genotoxica"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "label read: etoposide injection. It has no paediatric-use section; it reports pharmacokinetics and anaphylactic-like reactions in children and has adult indications only, so paediatric use is not labelled",
+    "source": "DailyMed setid=fe870629-104d-4d67-a7c6-f53bc588121e, label effective 20260714, read 2026-10-08",
+    "verdict": "not_established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [],
+   "bandas_etiqueta": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": null,
+    "estado": "UNKNOWN",
+    "nota": null
+   },
+   "drug_id": "CHEMBL1200645",
+   "edad_minima_usada_anios": null,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20260731",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "7499fc35-fae8-44ad-bbab-9a1a589bf3ee",
+    "titulo": "ETOPOPHOS [H2-PHARMA, LLC]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": null,
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "ETOPOSIDE PHOSPHATE",
+   "nota": "the DailyMed label read has no readable paediatric-use section; the status comes from the manual review in config (another reading, e.g. openFDA)",
+   "origen": [
+    "caution_list:c_quimioterapia_genotoxica"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "label read: ETOPOPHOS (the earlier automatic read used the etoposide injection label)",
+    "source": "DailyMed setid=7499fc35-fae8-44ad-bbab-9a1a589bf3ee, label effective see setid, read 2026-10-08",
+    "verdict": "not_established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "2150f73a-179b-4afc-b8ce-67c85cc72f04",
+     "texto_literal": "Two fatal cases due to infections were reported in pediatric patients.",
+     "truncada": false
+    }
+   ],
+   "bandas_etiqueta": {
+    "adolescent": "LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "LABELLED_USE",
+    "infant": "LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": 1.0,
+    "estado": "MIXED",
+    "nota": "MIXED is recorded as verify"
+   },
+   "drug_id": "CHEMBL1908360",
+   "edad_minima_usada_anios": 1.0,
+   "estado_por_grupo": {
+    "0_to_under_3": "partly (from 1 y)",
+    "12_and_older": "labelled",
+    "3_to_under_12": "labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20260601",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "2150f73a-179b-4afc-b8ce-67c85cc72f04",
+    "titulo": "Afinitor [NOVARTIS PHARMACEUTICALS CORPORATION]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "2150f73a-179b-4afc-b8ce-67c85cc72f04",
+    "texto_literal": "8.4 Pediatric Use TSC-Associated SEGA The safety and effectiveness of AFINITOR/AFINITOR DISPERZ have been established in pediatric patients age 1 year and older with TSC-associated SEGA that requires therapeutic intervention but cannot be curatively resected.",
+    "truncada": false
+   },
+   "labelled_for_group": [
+    "12_and_older",
+    "3_to_under_12"
+   ],
+   "manual_review_required": false,
+   "name": "EVEROLIMUS",
+   "nota": null,
+   "origen": [
+    "proposals_review2:proposed"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": 1.0,
+    "scope": "label read: AFINITOR and AFINITOR DISPERZ; TSC-associated subependymal giant cell astrocytoma from 1 year (not established below 1 year); the ZORTRESS label (transplantation) says paediatric use below 18 years is not established",
+    "source": "DailyMed setid=2150f73a-179b-4afc-b8ce-67c85cc72f04, label effective 20260601, read 2026-10-08",
+    "verdict": "established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [],
+   "bandas_etiqueta": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": null,
+    "estado": "NOT_ESTABLISHED",
+    "nota": null
+   },
+   "drug_id": "CHEMBL3301622",
+   "edad_minima_usada_anios": null,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20261001",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "b5ff59aa-9c0d-49a8-9053-1f179b482383",
+    "titulo": "Xospata [ASTELLAS PHARMA US, INC.]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "b5ff59aa-9c0d-49a8-9053-1f179b482383",
+    "texto_literal": "8.4 Pediatric Use Safety and effectiveness in pediatric patients have not been established.",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "GILTERITINIB",
+   "nota": null,
+   "origen": [
+    "class_analysis:supported_in_two_usable_lines"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "no paediatric use established",
+    "source": "DailyMed setid=b5ff59aa-9c0d-49a8-9053-1f179b482383, label effective 20261001, read 2026-10-08",
+    "verdict": "not_established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [],
+   "bandas_etiqueta": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": null,
+    "estado": "NOT_ESTABLISHED",
+    "nota": null
+   },
+   "drug_id": "CHEMBL1117",
+   "edad_minima_usada_anios": null,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20250509",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "d31254be-6bd2-4ac1-acab-bc00e2209d28",
+    "titulo": "Idarubicin Hydrochloride [MEITHEAL PHARMACEUTICALS INC.]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "d31254be-6bd2-4ac1-acab-bc00e2209d28",
+    "texto_literal": "Pediatric Use Safety and effectiveness in children have not been established.",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "IDARUBICIN",
+   "nota": null,
+   "origen": [
+    "caution_list:c_quimioterapia_genotoxica"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "not established",
+    "source": "DailyMed setid=d31254be-6bd2-4ac1-acab-bc00e2209d28, label effective 20250509, read 2026-10-08",
+    "verdict": "not_established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "91e433a9-6800-43a6-ac13-a49a04a5aecd",
+     "texto_literal": "Renal rickets and growth retardation in pediatric patients treated with ifosfamide have been reported.",
+     "truncada": false
+    }
+   ],
+   "bandas_etiqueta": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": null,
+    "estado": "NOT_ESTABLISHED",
+    "nota": null
+   },
+   "drug_id": "CHEMBL1024",
+   "edad_minima_usada_anios": null,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20241202",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "91e433a9-6800-43a6-ac13-a49a04a5aecd",
+    "titulo": "IFOSFAMIDE [BAXTER HEALTHCARE COMPANY]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "91e433a9-6800-43a6-ac13-a49a04a5aecd",
+    "texto_literal": "8.4 Pediatric Use Safety and effectiveness have not been established in pediatric patients.",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "IFOSFAMIDE",
+   "nota": null,
+   "origen": [
+    "caution_list:c_quimioterapia_genotoxica"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "not established; renal rickets, growth retardation and infertility reported in paediatric patients",
+    "source": "openFDA setid=91e433a9-6800-43a6-ac13-a49a04a5aecd, label effective 20241202, read 2026-10-08",
+    "verdict": "not_established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "241f0b1e-8b95-470d-876f-bf1804daaf18",
+     "texto_literal": "8.4 Pediatric Use The alcohol content of IXEMPRA should be taken into account when given to pediatric patients [see Warnings and Precautions ( 5.6 )].",
+     "truncada": false
+    }
+   ],
+   "bandas_etiqueta": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": null,
+    "estado": "NOT_ESTABLISHED",
+    "nota": null
+   },
+   "drug_id": "CHEMBL1201752",
+   "edad_minima_usada_anios": null,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20251204",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "241f0b1e-8b95-470d-876f-bf1804daaf18",
+    "titulo": "IXEMPRA [R-PHARM US OPERATING, LLC]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "241f0b1e-8b95-470d-876f-bf1804daaf18",
+    "texto_literal": "8.4 Pediatric Use The alcohol content of IXEMPRA should be taken into account when given to pediatric patients [see Warnings and Precautions ( 5.6 )].",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "IXABEPILONE",
+   "nota": null,
+   "origen": [
+    "caution_list:a_tubulina"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "not established; the alcohol content should be considered in paediatric patients",
+    "source": "DailyMed setid=241f0b1e-8b95-470d-876f-bf1804daaf18, label effective 20251204, read 2026-10-08",
+    "verdict": "not_established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [],
+   "bandas_etiqueta": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": null,
+    "estado": "NOT_ESTABLISHED",
+    "nota": null
+   },
+   "drug_id": "CHEMBL3545432",
+   "edad_minima_usada_anios": null,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20260811",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "038f2461-834b-4488-9ebd-863c83eef5a7",
+    "titulo": "NINLARO [TAKEDA PHARMACEUTICALS AMERICA, INC.]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "038f2461-834b-4488-9ebd-863c83eef5a7",
+    "texto_literal": "8.4 Pediatric Use Safety and effectiveness of NINLARO have not been established in pediatric patients.",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "IXAZOMIB CITRATE",
+   "nota": null,
+   "origen": [
+    "caution_list:d_proteasoma"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "no paediatric use established",
+    "source": "DailyMed setid=038f2461-834b-4488-9ebd-863c83eef5a7, label effective 20260811, read 2026-10-08",
+    "verdict": "not_established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "0c8ca614-58b2-4aa4-83d3-0387a8f782fd",
+     "texto_literal": "Juvenile Animal Toxicity Data Larotrectinib was administered in a juvenile toxicity study in rats at twice daily doses of 0.2, 2 and 7.5 mg/kg from postnatal day (PND) 7 to 27 and at twice daily doses of 0.6, 6 and 22.5mg/kg between PND 28 and 70.",
+     "truncada": false
+    },
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "0c8ca614-58b2-4aa4-83d3-0387a8f782fd",
+     "texto_literal": "The doses of 2/6 mg/kg twice daily [approximately 0.7 times the human exposure (AUC) at the clinical dose of 100 mg twice daily] and 7.5/22.5 mg/kg twice daily (approximately 4 times the human exposure at the clinical dose of 100 mg twice daily) resulted in mortality between PND 9 to 99; a definitive cause of death was not identified in the majority of cases.",
+     "truncada": false
+    }
+   ],
+   "bandas_etiqueta": {
+    "adolescent": "AGE_NOT_STATED",
+    "adult": "LABELLED",
+    "child": "AGE_NOT_STATED",
+    "infant": "AGE_NOT_STATED",
+    "neonate": "AGE_NOT_STATED"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": 0.03333333333333333,
+    "estado": "UNKNOWN",
+    "nota": null
+   },
+   "drug_id": "CHEMBL3889654",
+   "edad_minima_usada_anios": null,
+   "estado_por_grupo": {
+    "0_to_under_3": "age_not_stated",
+    "12_and_older": "age_not_stated",
+    "3_to_under_12": "age_not_stated"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20260522",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "0c8ca614-58b2-4aa4-83d3-0387a8f782fd",
+    "titulo": "VITRAKVI [BAYER HEALTHCARE PHARMACEUTICALS INC.]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "0c8ca614-58b2-4aa4-83d3-0387a8f782fd",
+    "texto_literal": "8.4 Pediatric Use The safety and effectiveness of VITRAKVI in pediatric patients was established based upon data from three multicenter, open-label, single-arm clinical trials in adult or pediatric patients.",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "LAROTRECTINIB",
+   "nota": null,
+   "origen": [
+    "class_analysis:supported_in_two_usable_lines"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "solid tumours with an NTRK gene fusion; the label states that safety and effectiveness were established in paediatric patients and gives no minimum age (safety was evaluated from under 1 month of age); the age is not assumed",
+    "source": "DailyMed setid=0c8ca614-58b2-4aa4-83d3-0387a8f782fd, label effective 20260522, read 2026-10-08",
+    "verdict": "established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "f4bedd21-efde-44c6-9d9c-b48b78d7ed1e",
+     "texto_literal": "Juvenile Animal Data Daily oral administration of lenvatinib mesylate to juvenile rats for 8 weeks starting on postnatal day 21 (approximately equal to a human pediatric age of 2 years) resulted in growth retardation (decreased body weight gain, decreased food consumption, and decreases in the width and/or length of the femur and tibia) and secondary delays in physical development and reproductive organ immaturity at doses greater than or equal to 2 mg/kg (approximately 1.2 to 5 times the human exposure based on AUC at the recommended clinical dose of 24 mg).",
+     "truncada": false
+    },
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "f4bedd21-efde-44c6-9d9c-b48b78d7ed1e",
+     "texto_literal": "In general, the toxicologic profile of lenvatinib was similar between juvenile and adult rats, though toxicities including broken teeth at all dose levels and mortality at the 10 mg/kg/day dose level (attributed to primary duodenal lesions) occurred at earlier treatment time-points in juvenile rats.",
+     "truncada": false
+    }
+   ],
+   "bandas_etiqueta": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": null,
+    "estado": "NOT_ESTABLISHED",
+    "nota": null
+   },
+   "drug_id": "CHEMBL1289601",
+   "edad_minima_usada_anios": null,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20260630",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "f4bedd21-efde-44c6-9d9c-b48b78d7ed1e",
+    "titulo": "Lenvima [EISAI INC.]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "f4bedd21-efde-44c6-9d9c-b48b78d7ed1e",
+    "texto_literal": "8.4 Pediatric Use The safety and effectiveness of LENVIMA in pediatric patients have not been established.",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "LENVATINIB",
+   "nota": null,
+   "origen": [
+    "class_analysis:supported_in_two_usable_lines"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "not established; studied in 232 patients aged 2 to <17 years with relapsed or refractory solid tumours",
+    "source": "DailyMed setid=f4bedd21-efde-44c6-9d9c-b48b78d7ed1e, label effective 20260630, read 2026-10-08",
+    "verdict": "not_established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [],
+   "bandas_etiqueta": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": null,
+    "estado": "UNKNOWN",
+    "nota": null
+   },
+   "drug_id": "CHEMBL514",
+   "edad_minima_usada_anios": null,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20260212",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "3c3637fc-4499-4331-a3c4-6969fc86704e",
+    "titulo": "Lomustine [WILSHIRE PHARMACEUTICALS, INC.]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "3c3637fc-4499-4331-a3c4-6969fc86704e",
+    "texto_literal": "8.4 Pediatric Use Pediatric use, including dose, is not based on adequate and well-controlled clinical studies.",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "LOMUSTINE",
+   "nota": null,
+   "origen": [
+    "caution_list:c_quimioterapia_genotoxica"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "paediatric use, including dose, is not based on adequate and well-controlled studies",
+    "source": "DailyMed setid=3c3637fc-4499-4331-a3c4-6969fc86704e, label effective 20260212, read 2026-10-08",
+    "verdict": "not_established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "9229f871-bc61-4ddc-8122-d126d40e36ac",
+     "texto_literal": "Use of somatropin in pediatric patients with Prader-Willi syndrome has been associated with reports of sudden death.",
+     "truncada": false
+    }
+   ],
+   "bandas_etiqueta": {
+    "adolescent": "LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "LABELLED_USE",
+    "infant": "LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": 1.0,
+    "estado": "MIXED",
+    "nota": "MIXED is recorded as verify"
+   },
+   "drug_id": "CHEMBL4298185",
+   "edad_minima_usada_anios": 1.0,
+   "estado_por_grupo": {
+    "0_to_under_3": "partly (from 1 y)",
+    "12_and_older": "labelled",
+    "3_to_under_12": "labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20260723",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "9229f871-bc61-4ddc-8122-d126d40e36ac",
+    "titulo": "Skytrofa [ASCENDIS PHARMA ENDOCRINOLOGY, INC.]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "9229f871-bc61-4ddc-8122-d126d40e36ac",
+    "texto_literal": "8.4 Pediatric Use Safety and effectiveness of SKYTROFA have been established in pediatric patients 1 year and older and who weigh at least 11.5 kg.",
+    "truncada": false
+   },
+   "labelled_for_group": [
+    "12_and_older",
+    "3_to_under_12"
+   ],
+   "manual_review_required": false,
+   "name": "LONAPEGSOMATROPIN",
+   "nota": null,
+   "origen": [
+    "caution_list:e_hormona_crecimiento"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": 1.0,
+    "scope": "growth failure due to inadequate secretion of endogenous growth hormone in patients 1 year and older weighing at least 11.5 kg; not indicated in Prader-Willi syndrome; not established under 1 year. Contraindicated in active malignancy (see the caution list)",
+    "source": "DailyMed setid=9229f871-bc61-4ddc-8122-d126d40e36ac, label effective 20260723, read 2026-10-08",
+    "verdict": "established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [],
+   "bandas_etiqueta": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": null,
+    "estado": "NOT_ESTABLISHED",
+    "nota": null
+   },
+   "drug_id": "CHEMBL852",
+   "edad_minima_usada_anios": null,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20260915",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "69f55869-dc11-408e-8fc7-47634269a52c",
+    "titulo": "EVOMELA [ACROTECH BIOPHARMA INC]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "69f55869-dc11-408e-8fc7-47634269a52c",
+    "texto_literal": "8.4 Pediatric Use Pediatric patients were not included in clinical trials.",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "MELPHALAN",
+   "nota": null,
+   "origen": [
+    "caution_list:c_quimioterapia_genotoxica"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "label read: EVOMELA; paediatric patients were not included in the trials",
+    "source": "DailyMed setid=69f55869-dc11-408e-8fc7-47634269a52c, label effective 20260915, read 2026-10-08",
+    "verdict": "not_established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [],
+   "bandas_etiqueta": {
+    "adolescent": "LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": null,
+    "estado": "MIXED",
+    "nota": "MIXED is recorded as verify"
+   },
+   "drug_id": "CHEMBL1431",
+   "edad_minima_usada_anios": 10.0,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "labelled",
+    "3_to_under_12": "partly (from 10 y)"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20260921",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "23aa50c5-28fe-4322-b5c6-1f1c48409b16",
+    "titulo": "Metformin Hydrochloride [A-S MEDICATION SOLUTIONS]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "23aa50c5-28fe-4322-b5c6-1f1c48409b16",
+    "texto_literal": "8.4 Pediatric Use The safety and effectiveness of metformin hydrochloride for the treatment of type 2 diabetes mellitus have been established in pediatric patients 10 to 16 years old.",
+    "truncada": false
+   },
+   "labelled_for_group": [
+    "12_and_older"
+   ],
+   "manual_review_required": false,
+   "name": "METFORMIN",
+   "nota": null,
+   "origen": [
+    "proposals_review2:proposed"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": 10.0,
+    "scope": "type 2 diabetes mellitus in patients 10 to 16 years old (not established below 10 years); label read: a repackager's metformin hydrochloride tablets",
+    "source": "DailyMed setid=23aa50c5-28fe-4322-b5c6-1f1c48409b16, label effective 20260921, read 2026-10-08",
+    "verdict": "established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "11fa3fc9-6776-49a6-b1c1-653f627c3e58",
+     "texto_literal": "Prolonged Grade 4 neutropenia and thrombocytopenia occurred in 2 of the 4 pediatric patients with AML who received midostaurin in combination with chemotherapy, including anthracyclines, fludarabine, and cytarabine [see Warnings and Precautions (5.3)].",
+     "truncada": false
+    },
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "11fa3fc9-6776-49a6-b1c1-653f627c3e58",
+     "texto_literal": "Grade 4 thrombocytopenia lasted for 44 days in one patient and Grade 4 thrombocytopenia and Grade 4 neutropenia lasted for 51 days and 46 days, respectively, in the other patient.",
+     "truncada": false
+    },
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "11fa3fc9-6776-49a6-b1c1-653f627c3e58",
+     "texto_literal": "These two patients were coadministered an azole antifungal (a strong CYP3A4 inhibitor), which may increase midostaurin concentrations and subsequently, the risk of toxicity [see Drug Interactions (7.1)].",
+     "truncada": false
+    }
+   ],
+   "bandas_etiqueta": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": 0.5,
+    "estado": "MIXED",
+    "nota": "MIXED is recorded as verify"
+   },
+   "drug_id": "CHEMBL608533",
+   "edad_minima_usada_anios": 0.5,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20260608",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "11fa3fc9-6776-49a6-b1c1-653f627c3e58",
+    "titulo": "RYDAPT [NOVARTIS PHARMACEUTICALS CORPORATION]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "11fa3fc9-6776-49a6-b1c1-653f627c3e58",
+    "texto_literal": "8.4 Pediatric Use Safety and effectiveness of RYDAPT have not been established in pediatric patients.",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "MIDOSTAURIN",
+   "nota": null,
+   "origen": [
+    "class_analysis:supported_in_two_usable_lines"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "label read: RYDAPT (found by brand name; a search by generic name returned nothing); studied in children with leukaemia, with prolonged grade 4 cytopenias when combined with chemotherapy",
+    "source": "DailyMed setid=11fa3fc9-6776-49a6-b1c1-653f627c3e58, label effective see setid, read 2026-10-08",
+    "verdict": "not_established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [],
+   "bandas_etiqueta": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": null,
+    "estado": "NOT_ESTABLISHED",
+    "nota": null
+   },
+   "drug_id": "CHEMBL58",
+   "edad_minima_usada_anios": null,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20250714",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "accf9569-4b57-4e83-a7db-4e890a75d1ba",
+    "titulo": "Mitoxantrone [HOSPIRA, INC.]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "accf9569-4b57-4e83-a7db-4e890a75d1ba",
+    "texto_literal": "Pediatric Use Safety and effectiveness in pediatric patients have not been established.",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "MITOXANTRONE",
+   "nota": null,
+   "origen": [
+    "caution_list:c_quimioterapia_genotoxica"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "not established",
+    "source": "DailyMed setid=accf9569-4b57-4e83-a7db-4e890a75d1ba, label effective 20250714, read 2026-10-08",
+    "verdict": "not_established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [],
+   "bandas_etiqueta": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": null,
+    "estado": "MIXED",
+    "nota": "MIXED is recorded as verify"
+   },
+   "drug_id": "CHEMBL1201607",
+   "edad_minima_usada_anios": null,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20251031",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "ef653c36-dd4b-4e71-9d2d-40b8fea24b67",
+    "titulo": "TYRUKO [SANDOZ INC]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "ef653c36-dd4b-4e71-9d2d-40b8fea24b67",
+    "texto_literal": "8.4 Pediatric Use Safety and effectiveness in pediatric patients with multiple sclerosis or Crohn's disease below the age of 18 years have not been established.",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "NATALIZUMAB",
+   "nota": null,
+   "origen": [
+    "four_lines_review2:b2_counted_as_prespecified:one_line_only"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "not indicated in patients under 18 years (multiple sclerosis, Crohn's disease)",
+    "source": "DailyMed setid=ef653c36-dd4b-4e71-9d2d-40b8fea24b67, label effective 20251031, read 2026-10-08",
+    "verdict": "not_established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "4ecf7f05-4a95-b98c-e063-6394a90ab896",
+     "texto_literal": "Animal Toxicity Data In repeat-dose toxicology studies, young animals (mice, rats, and monkeys) dosed with nintedanib showed changes in the bone and fast-growing teeth.",
+     "truncada": false
+    },
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "4ecf7f05-4a95-b98c-e063-6394a90ab896",
+     "texto_literal": "Bone changes include thickening of the growth plate in all species.",
+     "truncada": false
+    }
+   ],
+   "bandas_etiqueta": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": null,
+    "estado": "MIXED",
+    "nota": "MIXED is recorded as verify"
+   },
+   "drug_id": "CHEMBL502835",
+   "edad_minima_usada_anios": null,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20260730",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "4ecf7f05-4a95-b98c-e063-6394a90ab896",
+    "titulo": "Nintedanib [GOLDEN STATE MEDICAL SUPPLY, INC.]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "4ecf7f05-4a95-b98c-e063-6394a90ab896",
+    "texto_literal": "8.4 Pediatric Use The safety and effectiveness of nintedanib capsules have not been established in pediatric patients for the treatment of fibrosing interstitial lung diseases.",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "NINTEDANIB",
+   "nota": null,
+   "origen": [
+    "class_analysis:supported_in_two_usable_lines"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "not established; effectiveness was not demonstrated in a randomised study in children aged 6 to 17 years with fibrosing interstitial lung disease; bone and tooth changes in young animals",
+    "source": "DailyMed setid=4ecf7f05-4a95-b98c-e063-6394a90ab896, label effective 20260730, read 2026-10-08",
+    "verdict": "not_established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "a6f89dc3-a594-4b5b-8728-272e20c1ecb5",
+     "texto_literal": "The dose limiting toxicity (DLT) was sensory neuropathy at a dose of 110 mg/m2.",
+     "truncada": false
+    },
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "a6f89dc3-a594-4b5b-8728-272e20c1ecb5",
+     "texto_literal": "The DLT was sensory neuropathy at a dose of 160 mg/m2.",
+     "truncada": false
+    },
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "a6f89dc3-a594-4b5b-8728-272e20c1ecb5",
+     "texto_literal": "The most common adverse reactions reported were: leukopenia (67%, grade 3 to 4: 12%), anemia (65%, grade 3 to 4: 5%), thrombocytopenia (65%, grade 3 to 4: 26%), vomiting (65%, grade 3 to 4: 7%), neutropenia (58%, grade 3 to 4: 16%), and sensory neuropathy (40%, grade 3 to 4: 5%).",
+     "truncada": false
+    },
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "a6f89dc3-a594-4b5b-8728-272e20c1ecb5",
+     "texto_literal": "The most common adverse reactions reported were: sensory neuropathy (52%, grade 3 to 4: 12%), thrombocytopenia (37%, grade 3 to 4: 17%), anemia (37%, grade 3 to 4: 9%), vomiting (26%, grade 3 to 4: 4%), increased ALT (24%, grade 3 to 4: 6%), increased AST (24%, grade 3 to 4: 2%), and nausea (23%, grade 3 to 4: 3%).",
+     "truncada": false
+    }
+   ],
+   "bandas_etiqueta": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": 0.5833333333333334,
+    "estado": "NOT_ESTABLISHED",
+    "nota": null
+   },
+   "drug_id": "CHEMBL414804",
+   "edad_minima_usada_anios": 0.5833333333333334,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20260824",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "a6f89dc3-a594-4b5b-8728-272e20c1ecb5",
+    "titulo": "Oxaliplatin [GLAND PHARMA LIMITED]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "a6f89dc3-a594-4b5b-8728-272e20c1ecb5",
+    "texto_literal": "8.4 Pediatric Use The safety and effectiveness of oxaliplatin in pediatrics have not been established.",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "OXALIPLATIN",
+   "nota": null,
+   "origen": [
+    "caution_list:c_quimioterapia_genotoxica"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "not established; assessed in four studies in patients aged 7 months to 22 years with solid tumours",
+    "source": "DailyMed setid=a6f89dc3-a594-4b5b-8728-272e20c1ecb5, label effective 20260824, read 2026-10-08",
+    "verdict": "not_established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "0c12c77c-5fd4-48dc-a318-e96892233992",
+     "texto_literal": "There have been reports of central nervous system (CNS) toxicity (rarely associated with death) in a clinical trial in pediatric patients in which paclitaxel was infused intravenously over 3 hours at doses ranging from 350 mg/m2 to 420 mg/m2.",
+     "truncada": false
+    },
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "0c12c77c-5fd4-48dc-a318-e96892233992",
+     "texto_literal": "The toxicity is most likely attributable to the high dose of the ethanol component of the paclitaxel vehicle given over a short infusion time.",
+     "truncada": false
+    }
+   ],
+   "bandas_etiqueta": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": null,
+    "estado": "NOT_ESTABLISHED",
+    "nota": null
+   },
+   "drug_id": "CHEMBL428647",
+   "edad_minima_usada_anios": null,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20240624",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "0c12c77c-5fd4-48dc-a318-e96892233992",
+    "titulo": "Paclitaxel [ALEMBIC PHARMACEUTICALS INC.]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "0c12c77c-5fd4-48dc-a318-e96892233992",
+    "texto_literal": "Pediatric Use The safety and effectiveness of paclitaxel in pediatric patients have not been established.",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "PACLITAXEL",
+   "nota": null,
+   "origen": [
+    "caution_list:a_tubulina"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "safety and effectiveness in paediatric patients have not been established; central nervous system toxicity was reported in a paediatric trial (attributed to the ethanol in the vehicle)",
+    "source": "openFDA setid=0c12c77c-5fd4-48dc-a318-e96892233992, label effective 20240624, read 2026-10-08",
+    "verdict": "not_established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "b05ea49a-a764-5ff2-6e4a-26add69da9e2",
+     "texto_literal": "Administration of pazopanib to juvenile rats < 21 days old resulted in toxicity to the lungs, liver, heart, and kidney and in death at doses significantly lower than the clinically recommended dose or doses tolerated in older animals (see Juvenile Animal Toxicity Data).",
+     "truncada": false
+    },
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "b05ea49a-a764-5ff2-6e4a-26add69da9e2",
+     "texto_literal": "Juvenile Animal Toxicity Data In rats, weaning occurs at Day 21 postpartum which approximately equates to a human pediatric age of 2 years.",
+     "truncada": false
+    },
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "b05ea49a-a764-5ff2-6e4a-26add69da9e2",
+     "texto_literal": "In repeat-dose toxicology studies in rats, including 4-week, 13-week, and 26-week administration, toxicities in bone, teeth, and nail beds were observed at doses greater than or equal to 3 mg/kg/day (approximately 0.07-fold the AUC at the MRHD of 800 mg/day).",
+     "truncada": false
+    },
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "b05ea49a-a764-5ff2-6e4a-26add69da9e2",
+     "texto_literal": "Hypertrophy of epiphyseal growth plates, nail abnormalities (including broken, overgrown, or absent nails) and tooth abnormalities in growing incisor teeth (including excessively long, brittle, broken, and missing teeth, and dentine and enamel degeneration and thinning) were observed in rats at doses greater than or equal to 30 mg/kg/day (approximately 0.35-fold the AUC at the MRHD of 800 mg/day) at 26 weeks, with the onset of tooth and nail bed alterations noted clinically after 4 to 6 weeks.",
+     "truncada": false
+    }
+   ],
+   "bandas_etiqueta": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": 1.0,
+    "estado": "MIXED",
+    "nota": "MIXED is recorded as verify"
+   },
+   "drug_id": "CHEMBL477772",
+   "edad_minima_usada_anios": 1.0,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20260916",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "b05ea49a-a764-5ff2-6e4a-26add69da9e2",
+    "titulo": "Pazopanib [APOTEX CORP.]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "b05ea49a-a764-5ff2-6e4a-26add69da9e2",
+    "texto_literal": "8.4 Pediatric Use The safety and effectiveness of pazopanib tablets in pediatric patients have not been established.",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "PAZOPANIB",
+   "nota": null,
+   "origen": [
+    "class_analysis:supported_in_two_usable_lines"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "not established and not indicated in paediatric patients (severe effects on organ growth in juvenile rats)",
+    "source": "DailyMed setid=b05ea49a-a764-5ff2-6e4a-26add69da9e2, label effective 20260916, read 2026-10-08",
+    "verdict": "not_established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [],
+   "bandas_etiqueta": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": null,
+    "estado": "NOT_ESTABLISHED",
+    "nota": null
+   },
+   "drug_id": "CHEMBL3813873",
+   "edad_minima_usada_anios": null,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20250116",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "7b0ec4bf-b2ac-49ee-96af-7740ad3f2e16",
+    "titulo": "Turalio [DAIICHI SANKYO INC.]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "7b0ec4bf-b2ac-49ee-96af-7740ad3f2e16",
+    "texto_literal": "8.4 Pediatric Use The safety and effectiveness of TURALIO in pediatric patients have not been established.",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "PEXIDARTINIB",
+   "nota": null,
+   "origen": [
+    "class_analysis:supported_in_two_usable_lines"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "no paediatric use established",
+    "source": "DailyMed setid=7b0ec4bf-b2ac-49ee-96af-7740ad3f2e16, label effective 20250116, read 2026-10-08",
+    "verdict": "not_established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [],
+   "bandas_etiqueta": {
+    "adolescent": "AGE_NOT_STATED",
+    "adult": "LABELLED",
+    "child": "AGE_NOT_STATED",
+    "infant": "AGE_NOT_STATED",
+    "neonate": "AGE_NOT_STATED"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": null,
+    "estado": "NOT_ESTABLISHED",
+    "nota": null
+   },
+   "drug_id": "CHEMBL1469",
+   "edad_minima_usada_anios": null,
+   "estado_por_grupo": {
+    "0_to_under_3": "age_not_stated",
+    "12_and_older": "age_not_stated",
+    "3_to_under_12": "age_not_stated"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20241030",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "463a36fa-3eb2-4326-8bd0-c8c7a11bca3a",
+    "titulo": "BUPHENYL [HORIZON THERAPEUTICS USA, INC.]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "463a36fa-3eb2-4326-8bd0-c8c7a11bca3a",
+    "texto_literal": "Pediatric Use The use of tablets for neonates, infants and children to the weight of 20 kg is not recommended.",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "PHENYLBUTANOIC ACID",
+   "nota": null,
+   "origen": [
+    "proposals_review2:proposed"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "adjunctive therapy of urea cycle disorders, including neonatal-onset disease (presenting within the first 28 days of life); tablets are not recommended for neonates, infants and children up to 20 kg; label read: Buphenyl (sodium phenylbutyrate, Horizon)",
+    "source": "DailyMed setid=463a36fa-3eb2-4326-8bd0-c8c7a11bca3a, label effective 20241030, read 2026-10-08",
+    "verdict": "established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [],
+   "bandas_etiqueta": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": null,
+    "estado": "MIXED",
+    "nota": "MIXED is recorded as verify"
+   },
+   "drug_id": "CHEMBL43452",
+   "edad_minima_usada_anios": null,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20260902",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "b8c3b7f3-7e72-47af-be23-133e7bb3db59",
+    "titulo": "pomalidomide [NOVADOZ PHARMACEUTICALS LLC]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "b8c3b7f3-7e72-47af-be23-133e7bb3db59",
+    "texto_literal": "8.4 Pediatric Use The safety and effectiveness of pomalidomide have not been established in pediatric patients.",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "POMALIDOMIDE",
+   "nota": null,
+   "origen": [
+    "four_lines_review2:b2_counted_as_prespecified:one_line_only",
+    "four_lines_review2:b2_held_exploratory:one_line_only"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "not established; assessed in children aged 4 to <17 years with CNS tumours",
+    "source": "DailyMed setid=b8c3b7f3-7e72-47af-be23-133e7bb3db59, label effective 20260902, read 2026-10-08",
+    "verdict": "not_established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [],
+   "bandas_etiqueta": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": null,
+    "estado": "NOT_ESTABLISHED",
+    "nota": null
+   },
+   "drug_id": "CHEMBL576982",
+   "edad_minima_usada_anios": null,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20260416",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "29cdbcfe-497d-4e78-bb7b-2d4acafe8e86",
+    "titulo": "VANFLYTA [DAIICHI SANKYO INC.]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "29cdbcfe-497d-4e78-bb7b-2d4acafe8e86",
+    "texto_literal": "8.4 Pediatric Use Safety and effectiveness of VANFLYTA have not been established in pediatric patients.",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "QUIZARTINIB",
+   "nota": null,
+   "origen": [
+    "class_analysis:supported_in_two_usable_lines"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "no paediatric use established",
+    "source": "DailyMed setid=29cdbcfe-497d-4e78-bb7b-2d4acafe8e86, label effective 20260416, read 2026-10-08",
+    "verdict": "not_established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "824f19c9-0546-4a8a-8d8f-c4055c04f7c7",
+     "texto_literal": "Administration of regorafenib in these animals also led to persistent growth and thickening of the femoral epiphyseal growth plate.",
+     "truncada": false
+    }
+   ],
+   "bandas_etiqueta": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": 18.0,
+    "estado": "MIXED",
+    "nota": "MIXED is recorded as verify"
+   },
+   "drug_id": "CHEMBL1946170",
+   "edad_minima_usada_anios": 18.0,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20260209",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "824f19c9-0546-4a8a-8d8f-c4055c04f7c7",
+    "titulo": "Stivarga [BAYER HEALTHCARE PHARMACEUTICALS INC.]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "824f19c9-0546-4a8a-8d8f-c4055c04f7c7",
+    "texto_literal": "8.4 Pediatric Use The safety and efficacy of STIVARGA in pediatric patients less than 18 years of age have not been established.",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "REGORAFENIB",
+   "nota": null,
+   "origen": [
+    "class_analysis:supported_in_two_usable_lines"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "not established below 18 years; dentin and growth-plate findings in young animals",
+    "source": "DailyMed setid=824f19c9-0546-4a8a-8d8f-c4055c04f7c7, label effective 20260209, read 2026-10-08",
+    "verdict": "not_established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "9f18e462-03dd-4296-a02a-a0577e3ee78d",
+     "texto_literal": "Animal Toxicity Data In 13-week repeat-dose studies in rats there were dose-dependent findings of increased osteoblastic surface and decreased trabeculae of the femur at doses ≥30 mg/kg/day (approximately one half of the human exposure at the recommended dose of 150 mg).",
+     "truncada": false
+    }
+   ],
+   "bandas_etiqueta": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": null,
+    "estado": "NOT_ESTABLISHED",
+    "nota": null
+   },
+   "drug_id": "CHEMBL4216467",
+   "edad_minima_usada_anios": null,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20250512",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "9f18e462-03dd-4296-a02a-a0577e3ee78d",
+    "titulo": "QINLOCK [DECIPHERA PHARMACEUTICALS, LLC]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "9f18e462-03dd-4296-a02a-a0577e3ee78d",
+    "texto_literal": "8.4 Pediatric Use The safety and effectiveness of QINLOCK in pediatric patients have not been established.",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "RIPRETINIB",
+   "nota": null,
+   "origen": [
+    "class_analysis:supported_in_two_usable_lines"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "no paediatric use established; bone and tooth findings in rats",
+    "source": "DailyMed setid=9f18e462-03dd-4296-a02a-a0577e3ee78d, label effective 20250512, read 2026-10-08",
+    "verdict": "not_established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [],
+   "bandas_etiqueta": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": null,
+    "estado": "NOT_ESTABLISHED",
+    "nota": null
+   },
+   "drug_id": "CHEMBL3545185",
+   "edad_minima_usada_anios": null,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20260512",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "f6dd2682-75a6-4863-90a8-a3197f6f78a8",
+    "titulo": "XPOVIO [KARYOPHARM THERAPEUTICS INC.]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "f6dd2682-75a6-4863-90a8-a3197f6f78a8",
+    "texto_literal": "8.4 Pediatric Use The safety and effectiveness of XPOVIO have not been established in pediatric patients.",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "SELINEXOR",
+   "nota": null,
+   "origen": [
+    "four_lines_review2:b2_counted_as_prespecified:one_line_only"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "no paediatric use established",
+    "source": "DailyMed setid=f6dd2682-75a6-4863-90a8-a3197f6f78a8, label effective 20260512, read 2026-10-08",
+    "verdict": "not_established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "7fa848ba-a59c-4144-9f52-64d090f4d828",
+     "texto_literal": "Juvenile Animal Toxicity Data In a juvenile rat toxicity study, animals were dosed daily with selpercatinib from post-natal day 21 to day 70 (approximately equivalent to a human child to late adolescent).",
+     "truncada": false
+    },
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "7fa848ba-a59c-4144-9f52-64d090f4d828",
+     "texto_literal": "Growth plate changes were associated with impairment of bone modeling, resulting in decreased femur length and with reduction in bone mineral density.",
+     "truncada": false
+    },
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "7fa848ba-a59c-4144-9f52-64d090f4d828",
+     "texto_literal": "Selpercatinib also induced reversible hypocellularity of bone marrow in males at ≥30 mg/kg (approximately equivalent to or greater than the adult human exposure at the clinical dose of 160 mg twice daily), and reversible alterations of dentin composition at ≥50 mg/kg (approximately 3 times the adult human exposure at the clinical dose of 160 mg twice daily).",
+     "truncada": false
+    },
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "7fa848ba-a59c-4144-9f52-64d090f4d828",
+     "texto_literal": "Similar effects in irregular thickening of growth plates in adult rats and minipigs, and tooth dysplasia and malocclusion, resulting in tooth loss in adult rats were observed in repeat dose studies of up to 13-week duration with selpercatinib.",
+     "truncada": false
+    }
+   ],
+   "bandas_etiqueta": {
+    "adolescent": "LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": 2.0,
+    "estado": "MIXED",
+    "nota": "MIXED is recorded as verify"
+   },
+   "drug_id": "CHEMBL4559134",
+   "edad_minima_usada_anios": 2.0,
+   "estado_por_grupo": {
+    "0_to_under_3": "partly (from 2 y)",
+    "12_and_older": "labelled",
+    "3_to_under_12": "labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20260911",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "7fa848ba-a59c-4144-9f52-64d090f4d828",
+    "titulo": "RETEVMO [ELI LILLY AND COMPANY]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "7fa848ba-a59c-4144-9f52-64d090f4d828",
+    "texto_literal": "8.4 Pediatric Use The safety and effectiveness of RETEVMO have been established in pediatric patients aged 2 years and older for the treatment of: advanced or metastatic medullary thyroid cancer (MTC) with a RET mutation who require systemic therapy advanced or metastatic thyroid cancer with a RET gene fusion who require systemic therapy and are radioactive iodine-refractory (if radioactive iodine is appropriate) locally advanced or metastatic solid tumors with a RET gene fusion that have progressed on or following prior systemic treatment or who have no satisfactory alternative treatment opti",
+    "truncada": true
+   },
+   "labelled_for_group": [
+    "12_and_older",
+    "3_to_under_12"
+   ],
+   "manual_review_required": false,
+   "name": "SELPERCATINIB",
+   "nota": null,
+   "origen": [
+    "class_analysis:supported_in_two_usable_lines"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": 2.0,
+    "scope": "RET-mutant medullary thyroid cancer and RET fusion-positive thyroid cancer needing systemic therapy",
+    "source": "DailyMed setid=7fa848ba-a59c-4144-9f52-64d090f4d828, label effective 20260911, read 2026-10-08",
+    "verdict": "established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "7d042c61-f28f-4ab5-ab10-d7558c0d49ff",
+     "texto_literal": "Animal Toxicity Data In 3-month general toxicology studies, male rats receiving selumetinib at doses ≥ 10 mg/kg daily (~60-times the human exposure based on AUC at the clinical dose of 25 mg/m2 twice daily) showed growth plate dysplasia.",
+     "truncada": false
+    }
+   ],
+   "bandas_etiqueta": {
+    "adolescent": "LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "LABELLED_USE",
+    "infant": "LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": 1.0,
+    "estado": "MIXED",
+    "nota": "MIXED is recorded as verify"
+   },
+   "drug_id": "CHEMBL1614701",
+   "edad_minima_usada_anios": 1.0,
+   "estado_por_grupo": {
+    "0_to_under_3": "partly (from 1 y)",
+    "12_and_older": "labelled",
+    "3_to_under_12": "labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20260526",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "7d042c61-f28f-4ab5-ab10-d7558c0d49ff",
+    "titulo": "KOSELUGO [ASTRAZENECA PHARMACEUTICALS LP]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "7d042c61-f28f-4ab5-ab10-d7558c0d49ff",
+    "texto_literal": "8.4 Pediatric Use The safety and effectiveness have been established in pediatric patients 1 year of age and older with NF1 who have inoperable PN and the information on this use is discussed throughout the labeling.",
+    "truncada": false
+   },
+   "labelled_for_group": [
+    "12_and_older",
+    "3_to_under_12"
+   ],
+   "manual_review_required": false,
+   "name": "SELUMETINIB",
+   "nota": null,
+   "origen": [
+    "proposals_review2:proposed"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": 1.0,
+    "scope": "neurofibromatosis type 1 with symptomatic, inoperable plexiform neurofibromas, from 1 year (not established below 1 year); growth plate dysplasia in young rats",
+    "source": "DailyMed setid=7d042c61-f28f-4ab5-ab10-d7558c0d49ff, label effective 20260526, read 2026-10-08",
+    "verdict": "established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [],
+   "bandas_etiqueta": {
+    "adolescent": "LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": 18.0,
+    "estado": "MIXED",
+    "nota": "MIXED is recorded as verify"
+   },
+   "drug_id": "CHEMBL413",
+   "edad_minima_usada_anios": 13.0,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "partly (from 13 y)",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20260911",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "9970e495-29c4-47b8-a3e9-c9b365abe400",
+    "titulo": "sirolimus [REMEDYREPACK INC.]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "9970e495-29c4-47b8-a3e9-c9b365abe400",
+    "texto_literal": "8.4 Pediatric Use Renal Transplant The safety and efficacy of sirolimus in pediatric patients <13 years have not been established.",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "SIROLIMUS",
+   "nota": null,
+   "origen": [
+    "proposals_review2:proposed"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": 13.0,
+    "scope": "prophylaxis of organ rejection in renal transplantation in children 13 years and older at low to moderate immunologic risk (not established below 13 years); label read: a repackager's sirolimus tablets",
+    "source": "DailyMed setid=9970e495-29c4-47b8-a3e9-c9b365abe400, label effective 20260911, read 2026-10-08",
+    "verdict": "established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "eadd03b4-adc3-4b88-8a24-9d205c5b85aa",
+     "texto_literal": "Risks in pediatric patients associated with growth hormone use include: •Sudden death in pediatric patients with Prader-Willi Syndrome.",
+     "truncada": false
+    },
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "eadd03b4-adc3-4b88-8a24-9d205c5b85aa",
+     "texto_literal": "[see Warnings and Precautions (5.13)] •Increased risk of second neoplasm in pediatric cancer survivors treated with radiation to the brain and/or head [see Warnings and Precautions (5.3)] •Slipped capital femoral epiphysis in pediatric patients [see Warnings and Precautions (5.9)] •Progression of preexisting scoliosis in pediatric patients [see Warnings and Precautions (5.10)] •Pancreatitis [see Warnings and Precautions (5.11)]",
+     "truncada": false
+    }
+   ],
+   "bandas_etiqueta": {
+    "adolescent": "LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": 2.0,
+    "estado": "MIXED",
+    "nota": "MIXED is recorded as verify"
+   },
+   "drug_id": "CHEMBL3707290",
+   "edad_minima_usada_anios": 2.5,
+   "estado_por_grupo": {
+    "0_to_under_3": "partly (from 2.5 y)",
+    "12_and_older": "labelled",
+    "3_to_under_12": "labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20260225",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "eadd03b4-adc3-4b88-8a24-9d205c5b85aa",
+    "titulo": "SOGROYA [NOVO NORDISK]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "eadd03b4-adc3-4b88-8a24-9d205c5b85aa",
+    "texto_literal": "8.4 Pediatric Use The safety and effectiveness of SOGROYA have been established in pediatric patients 2.5 years of age and older for the treatment of: •Growth failure due to inadequate secretion of endogenous GH.",
+    "truncada": false
+   },
+   "labelled_for_group": [
+    "12_and_older",
+    "3_to_under_12"
+   ],
+   "manual_review_required": false,
+   "name": "SOMAPACITAN",
+   "nota": null,
+   "origen": [
+    "caution_list:e_hormona_crecimiento"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": 2.5,
+    "scope": "growth failure due to inadequate secretion of endogenous growth hormone, short stature born small for gestational age, growth failure associated with Noonan syndrome and idiopathic short stature, from 2.5 years; not established under 2.5 years",
+    "source": "DailyMed setid=eadd03b4-adc3-4b88-8a24-9d205c5b85aa, label effective 20260225, read 2026-10-08",
+    "verdict": "established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "06dce529-b741-4a1b-8842-3ad77be6e308",
+     "texto_literal": "Risks in pediatric patients associated with growth hormone use include: •Increased risk of second neoplasm in pediatric cancer survivors treated with radiation to the brain and/or head [see Warnings and Precautions (5.3)] •Slipped capital femoral epiphysis [see Warnings and Precautions (5.9)] •Progression of preexisting scoliosis [see Warnings and Precautions (5.10)] •Pancreatitis [see Warnings and Precautions (5.11)] •Sudden death in pediatric patients with Prader-Willi Syndrome.",
+     "truncada": false
+    }
+   ],
+   "bandas_etiqueta": {
+    "adolescent": "LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": 3.0,
+    "estado": "ESTABLISHED",
+    "nota": null
+   },
+   "drug_id": "CHEMBL4297830",
+   "edad_minima_usada_anios": 3.0,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "labelled",
+    "3_to_under_12": "labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20260814",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "06dce529-b741-4a1b-8842-3ad77be6e308",
+    "titulo": "Ngenla [PFIZER LABORATORIES DIV PFIZER INC]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "06dce529-b741-4a1b-8842-3ad77be6e308",
+    "texto_literal": "8.4 Pediatric Use The safety and effectiveness of NGENLA have been established for the treatment of growth failure due to inadequate secretion of endogenous growth hormone (GH) in pediatric patients aged 3 years and older [see Clinical Studies (14.1)].",
+    "truncada": false
+   },
+   "labelled_for_group": [
+    "12_and_older",
+    "3_to_under_12"
+   ],
+   "manual_review_required": false,
+   "name": "SOMATROGON",
+   "nota": null,
+   "origen": [
+    "caution_list:e_hormona_crecimiento"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": 3.0,
+    "scope": "growth failure due to inadequate secretion of endogenous growth hormone in patients aged 3 years and older",
+    "source": "DailyMed setid=06dce529-b741-4a1b-8842-3ad77be6e308, label effective 20260814, read 2026-10-08",
+    "verdict": "established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [],
+   "bandas_etiqueta": {
+    "adolescent": "AGE_NOT_STATED",
+    "adult": "LABELLED",
+    "child": "AGE_NOT_STATED",
+    "infant": "AGE_NOT_STATED",
+    "neonate": "AGE_NOT_STATED"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": 2.0,
+    "estado": "ESTABLISHED",
+    "nota": null
+   },
+   "drug_id": "CHEMBL1201621",
+   "edad_minima_usada_anios": null,
+   "estado_por_grupo": {
+    "0_to_under_3": "age_not_stated",
+    "12_and_older": "age_not_stated",
+    "3_to_under_12": "age_not_stated"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20260820",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "a774e1ae-3997-49ee-8b0e-99a2b315d409",
+    "titulo": "HUMATROPE [ELI LILLY AND COMPANY]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "a774e1ae-3997-49ee-8b0e-99a2b315d409",
+    "texto_literal": "8.4 Pediatric Use Safety and effectiveness of HUMATROPE in pediatric patients have been established in growth failure due to inadequate secretion of endogenous growth hormone, short stature associated with Turner syndrome, idiopathic short stature (ISS), short stature or growth failure in SHOX deficiency, and short stature in children born small for gestational age (SGA) with no catch-up growth by 2 years to 4 years of age.",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "SOMATROPIN",
+   "nota": null,
+   "origen": [
+    "caution_list:e_hormona_crecimiento"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "label read: HUMATROPE; growth hormone deficiency, Turner syndrome, idiopathic short stature, SHOX deficiency and short stature in children born small for gestational age; the label states no minimum age (the SGA indication refers to no catch-up growth by 2 to 4 years of age)",
+    "source": "DailyMed setid=a774e1ae-3997-49ee-8b0e-99a2b315d409, label effective 20260820, read 2026-10-08",
+    "verdict": "established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [],
+   "bandas_etiqueta": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": null,
+    "estado": "UNKNOWN",
+    "nota": null
+   },
+   "drug_id": "CHEMBL1336",
+   "edad_minima_usada_anios": null,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20260728",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "faa9d847-2cd5-6538-e053-6394a90aa92b",
+    "titulo": "sorafenib [GOLDEN STATE MEDICAL SUPPLY, INC.]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": null,
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "SORAFENIB",
+   "nota": "the DailyMed label read has no readable paediatric-use section; the status comes from the manual review in config (another reading, e.g. openFDA)",
+   "origen": [
+    "class_analysis:supported_in_two_usable_lines"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "not established; growth-plate and bone-marrow findings in young dogs",
+    "source": "DailyMed setid=faa9d847-2cd5-6538-e053-6394a90aa92b, label effective 20260728, read 2026-10-08",
+    "verdict": "not_established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "a9479e5f-914f-46ca-95c1-327c66457e47",
+     "texto_literal": "The occurrence of dose-limiting cardiotoxicity prompted an amendment of the NCT00387920 study to exclude patients with previous exposure to anthracyclines or cardiac radiation.",
+     "truncada": false
+    },
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "a9479e5f-914f-46ca-95c1-327c66457e47",
+     "texto_literal": "The effect on open tibial growth plates in pediatric patients who received sunitinib malate has not been adequately studied.",
+     "truncada": false
+    },
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "a9479e5f-914f-46ca-95c1-327c66457e47",
+     "texto_literal": "See Juvenile Animal Toxicity Data below.",
+     "truncada": false
+    },
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "a9479e5f-914f-46ca-95c1-327c66457e47",
+     "texto_literal": "Juvenile Animal Toxicity Data Physeal dysplasia was present in cynomolgus monkeys with open growth plates treated with sunitinib for ≥3 months (3 month dosing 2, 6, 12 mg/kg/day; 8 cycles of dosing 0.3, 1.5, 6.0 mg/kg/day) at doses that were >0.4 times the combined AUC (the combined systemic exposure of sunitinib plus its active metabolite) in patients administered the RDD of 50 mg.",
+     "truncada": false
+    }
+   ],
+   "bandas_etiqueta": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": 2.0,
+    "estado": "MIXED",
+    "nota": "MIXED is recorded as verify"
+   },
+   "drug_id": "CHEMBL535",
+   "edad_minima_usada_anios": 2.0,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20250101",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "a9479e5f-914f-46ca-95c1-327c66457e47",
+    "titulo": "Sunitinib Malate [TEVA PHARMACEUTICALS USA, INC.]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "a9479e5f-914f-46ca-95c1-327c66457e47",
+    "texto_literal": "8.4 Pediatric Use The safety and effectiveness of sunitinib malate in pediatric patients have not been established.",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "SUNITINIB",
+   "nota": null,
+   "origen": [
+    "class_analysis:supported_in_two_usable_lines"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "not established; poorly tolerated in children with dose-limiting cardiotoxicity",
+    "source": "DailyMed setid=a9479e5f-914f-46ca-95c1-327c66457e47, label effective 20250101, read 2026-10-08",
+    "verdict": "not_established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [],
+   "bandas_etiqueta": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": null,
+    "estado": "MIXED",
+    "nota": "MIXED is recorded as verify"
+   },
+   "drug_id": "CHEMBL810",
+   "edad_minima_usada_anios": null,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20260929",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "9dff10ec-6a55-47b6-a458-b7c39e32dc55",
+    "titulo": "Temozolomide [OPKO PHARMACEUTICALS, LLC]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "9dff10ec-6a55-47b6-a458-b7c39e32dc55",
+    "texto_literal": "8.4 Pediatric Use Safety and effectiveness of Temozolomide have not been established in pediatric patients.",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "TEMOZOLOMIDE",
+   "nota": null,
+   "origen": [
+    "caution_list:c_quimioterapia_genotoxica"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "not established; assessed in two studies in patients aged 3 to 18 years",
+    "source": "DailyMed setid=9dff10ec-6a55-47b6-a458-b7c39e32dc55, label effective 20260929, read 2026-10-08",
+    "verdict": "not_established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [],
+   "bandas_etiqueta": {
+    "adolescent": "LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "LABELLED_USE",
+    "infant": "LABELLED_USE",
+    "neonate": "LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": 0.08333333333333333,
+    "estado": "MIXED",
+    "nota": "MIXED is recorded as verify"
+   },
+   "drug_id": "CHEMBL671",
+   "edad_minima_usada_anios": 0.0833,
+   "estado_por_grupo": {
+    "0_to_under_3": "partly (from 0.0833 y)",
+    "12_and_older": "labelled",
+    "3_to_under_12": "labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20260123",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "6cd6ae89-c553-4328-9262-4363610a1f19",
+    "titulo": "Thiotepa [GLAND PHARMA LIMITED]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "6cd6ae89-c553-4328-9262-4363610a1f19",
+    "texto_literal": "8.4 Pediatric Use The safety and effectiveness of thiotepa for prevention of graft rejection in pediatric patients undergoing allogeneic HSCT for class 3 beta-thalassemia was established in one prospective study and one retrospective study [see Clinical Studies (14)] that included 1 infant (1 month to 1 year), 23 children (2 to 11 years) and 13 adolescents (12 to 16 years) who received thiotepa as part of their preparative regimen.",
+    "truncada": false
+   },
+   "labelled_for_group": [
+    "12_and_older",
+    "3_to_under_12"
+   ],
+   "manual_review_required": false,
+   "name": "THIOTEPA",
+   "nota": null,
+   "origen": [
+    "caution_list:c_quimioterapia_genotoxica"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": 0.0833,
+    "scope": "prevention of graft rejection in paediatric patients undergoing allogeneic transplantation for class 3 beta-thalassaemia (studied from 1 month); not established in neonates, nor for breast, ovarian or bladder cancer",
+    "source": "DailyMed setid=6cd6ae89-c553-4328-9262-4363610a1f19, label effective 20260123, read 2026-10-08",
+    "verdict": "established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "0002ad27-779d-42ab-83b5-bc65453412a1",
+     "texto_literal": "Juvenile Animal Toxicity Data In a repeat-dose toxicity study in juvenile rats, decreased bone length and corneal dystrophy were observed at doses resulting in exposures as low as 0.3 times the human exposure at the recommended adult dose based on AUC.",
+     "truncada": false
+    }
+   ],
+   "bandas_etiqueta": {
+    "adolescent": "LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "LABELLED_USE",
+    "infant": "LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": 1.0,
+    "estado": "MIXED",
+    "nota": "MIXED is recorded as verify"
+   },
+   "drug_id": "CHEMBL2103875",
+   "edad_minima_usada_anios": 1.0,
+   "estado_por_grupo": {
+    "0_to_under_3": "partly (from 1 y)",
+    "12_and_older": "labelled",
+    "3_to_under_12": "labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20260507",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "0002ad27-779d-42ab-83b5-bc65453412a1",
+    "titulo": "Mekinist [NOVARTIS PHARMACEUTICALS CORPORATION]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "0002ad27-779d-42ab-83b5-bc65453412a1",
+    "texto_literal": "8.4 Pediatric Use BRAF V600E Mutation-Positive Unresectable or Metastatic Solid Tumors and LGG The safety and effectiveness of MEKINIST in combination with dabrafenib have been established in pediatric patients 1 year of age and older with unresectable or metastatic solid tumors with BRAF V600E mutation who have progressed following prior treatment and have no satisfactory alternative treatment options; or with LGG with BRAF V600E mutation who require systemic therapy.",
+    "truncada": false
+   },
+   "labelled_for_group": [
+    "12_and_older",
+    "3_to_under_12"
+   ],
+   "manual_review_required": false,
+   "name": "TRAMETINIB",
+   "nota": null,
+   "origen": [
+    "proposals_review2:proposed"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": 1.0,
+    "scope": "in combination with dabrafenib, BRAF V600E-positive solid tumours and low-grade glioma from 1 year; not established as a single agent in paediatric patients",
+    "source": "DailyMed setid=0002ad27-779d-42ab-83b5-bc65453412a1, label effective 20260507, read 2026-10-08",
+    "verdict": "established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [],
+   "bandas_etiqueta": {
+    "adolescent": "LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "LABELLED_USE",
+    "infant": "LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": null,
+    "estado": "UNKNOWN",
+    "nota": null
+   },
+   "drug_id": "CHEMBL455186",
+   "edad_minima_usada_anios": 1.0,
+   "estado_por_grupo": {
+    "0_to_under_3": "partly (from 1 y)",
+    "12_and_older": "labelled",
+    "3_to_under_12": "labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20250131",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "2d06b03c-17aa-0492-e063-6294a90abd8f",
+    "titulo": "GRAFAPEX [MEDEXUS PHARMA, INC.]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": null,
+   "labelled_for_group": [
+    "12_and_older",
+    "3_to_under_12"
+   ],
+   "manual_review_required": false,
+   "name": "TREOSULFAN",
+   "nota": "the DailyMed label read has no readable paediatric-use section; the status comes from the manual review in config (another reading, e.g. openFDA)",
+   "origen": [
+    "caution_list:c_quimioterapia_genotoxica"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": 1.0,
+    "scope": "preparative regimen with fludarabine before allogeneic transplantation for AML or myelodysplastic syndrome in adult and paediatric patients 1 year of age and older (from the indications; the label has no paediatric-use section)",
+    "source": "DailyMed setid=2d06b03c-17aa-0492-e063-6294a90abd8f, label effective 20250131, read 2026-10-08",
+    "verdict": "established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [],
+   "bandas_etiqueta": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": null,
+    "estado": "NOT_ESTABLISHED",
+    "nota": null
+   },
+   "drug_id": "CHEMBL1096885",
+   "edad_minima_usada_anios": null,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20220630",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "8739ae02-e4c5-0fa2-e053-2a91aa0a1b74",
+    "titulo": "Valrubicin Intravesical Solution [HIKMA PHARMACEUTICALS USA INC.]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "8739ae02-e4c5-0fa2-e053-2a91aa0a1b74",
+    "texto_literal": "8.4 Pediatric Use Safety and effectiveness in pediatric patients have not been established.",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "VALRUBICIN",
+   "nota": null,
+   "origen": [
+    "caution_list:c_quimioterapia_genotoxica"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "no paediatric use established",
+    "source": "DailyMed setid=8739ae02-e4c5-0fa2-e053-2a91aa0a1b74, label effective 20220630, read 2026-10-08",
+    "verdict": "not_established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [],
+   "bandas_etiqueta": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": null,
+    "estado": "NOT_ESTABLISHED",
+    "nota": null
+   },
+   "drug_id": "CHEMBL24828",
+   "edad_minima_usada_anios": null,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20260423",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "e5721cb8-4185-47b9-bbb3-1c587e558a03",
+    "titulo": "CAPRELSA [GENZYME CORPORATION]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "e5721cb8-4185-47b9-bbb3-1c587e558a03",
+    "texto_literal": "8.4 Pediatric Use Safety and efficacy of CAPRELSA in pediatric patients have not been established.",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "VANDETANIB",
+   "nota": null,
+   "origen": [
+    "class_analysis:supported_in_two_usable_lines"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "no paediatric use established",
+    "source": "DailyMed setid=e5721cb8-4185-47b9-bbb3-1c587e558a03, label effective 20260423, read 2026-10-08",
+    "verdict": "not_established"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [],
+   "bandas_etiqueta": {
+    "adolescent": "UNKNOWN",
+    "adult": "LABELLED",
+    "child": "UNKNOWN",
+    "infant": "UNKNOWN",
+    "neonate": "UNKNOWN"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": null,
+    "estado": "UNKNOWN",
+    "nota": null
+   },
+   "drug_id": "CHEMBL159",
+   "edad_minima_usada_anios": null,
+   "estado_por_grupo": {
+    "0_to_under_3": "verify",
+    "12_and_older": "verify",
+    "3_to_under_12": "verify"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20250415",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "f073b58e-56d6-4c8d-a2ce-b37719402d77",
+    "titulo": "Vinblastine Sulfate [FRESENIUS KABI USA, LLC]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "f073b58e-56d6-4c8d-a2ce-b37719402d77",
+    "texto_literal": "Pediatric Use The dosage schedule for pediatric patients is indicated under DOSAGE AND ADMINISTRATION .",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": true,
+   "name": "VINBLASTINE",
+   "nota": null,
+   "origen": [
+    "caution_list:a_tubulina"
+   ],
+   "origen_del_perfil": "heuristic",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "the paediatric section only refers to the dosage section, which gives a paediatric dosage schedule; no minimum age and no statement of established effectiveness (implicit paediatric labelling)",
+    "source": "DailyMed setid=f073b58e-56d6-4c8d-a2ce-b37719402d77, label effective 20250415, read 2026-10-08",
+    "verdict": "verify"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [],
+   "bandas_etiqueta": {
+    "adolescent": "UNKNOWN",
+    "adult": "LABELLED",
+    "child": "UNKNOWN",
+    "infant": "UNKNOWN",
+    "neonate": "UNKNOWN"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": null,
+    "estado": "UNKNOWN",
+    "nota": null
+   },
+   "drug_id": "CHEMBL90555",
+   "edad_minima_usada_anios": null,
+   "estado_por_grupo": {
+    "0_to_under_3": "verify",
+    "12_and_older": "verify",
+    "3_to_under_12": "verify"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20260217",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "b22e4c8e-dbe1-4d4b-a026-e1812974071c",
+    "titulo": "VinCRIStine Sulfate [HOSPIRA, INC.]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "b22e4c8e-dbe1-4d4b-a026-e1812974071c",
+    "texto_literal": "Pediatric Use See DOSAGE AND ADMINISTRATION section.",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": true,
+   "name": "VINCRISTINE",
+   "nota": null,
+   "origen": [
+    "caution_list:a_tubulina"
+   ],
+   "origen_del_perfil": "heuristic",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "the paediatric section only refers to the dosage section; the label gives paediatric dosing (including for patients weighing 10 kg or less) and warns of deaths in children under 13 years after doses ten times the recommended dose; no minimum age and no statement of established effectiveness (implicit paediatric labelling)",
+    "source": "DailyMed setid=b22e4c8e-dbe1-4d4b-a026-e1812974071c, label effective 20260217, read 2026-10-08",
+    "verdict": "verify"
+   },
+   "revision_manual_en_config": true
+  },
+  {
+   "advertencias_pediatricas": [
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "10a70995-e04d-4044-b1dc-c9aa27460397",
+     "texto_literal": "The most significant grade 3 or 4 hematological adverse reactions were neutropenia (70%) and anemia (33%).",
+     "truncada": false
+    },
+    {
+     "fecha_lectura": "2026-10-14",
+     "fuente": "DailyMed",
+     "seccion": "pediatric_use",
+     "setid": "10a70995-e04d-4044-b1dc-c9aa27460397",
+     "texto_literal": "The most significant grade 3 or 4 non-hematological adverse reactions were motor (15%) or cranial (13%) neuropathy, hypoxia (13%) and dyspnea (11%).",
+     "truncada": false
+    }
+   ],
+   "bandas_etiqueta": {
+    "adolescent": "NO_LABELLED_USE",
+    "adult": "LABELLED",
+    "child": "NO_LABELLED_USE",
+    "infant": "NO_LABELLED_USE",
+    "neonate": "NO_LABELLED_USE"
+   },
+   "clasificador_automatico": {
+    "edad_minima_anios": null,
+    "estado": "NOT_ESTABLISHED",
+    "nota": null
+   },
+   "drug_id": "CHEMBL553025",
+   "edad_minima_usada_anios": null,
+   "estado_por_grupo": {
+    "0_to_under_3": "not_labelled",
+    "12_and_older": "adult_only",
+    "3_to_under_12": "not_labelled"
+   },
+   "etiqueta": {
+    "fecha_etiqueta": "20240816",
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "setid": "10a70995-e04d-4044-b1dc-c9aa27460397",
+    "titulo": "Vinorelbine [SAGENT PHARMACEUTICALS]"
+   },
+   "fallos_lectura": null,
+   "frase_literal_sustento": {
+    "fecha_lectura": "2026-10-14",
+    "fuente": "DailyMed",
+    "seccion": "pediatric_use",
+    "setid": "10a70995-e04d-4044-b1dc-c9aa27460397",
+    "texto_literal": "8.4 Pediatric Use The safety and effectiveness of vinorelbine in pediatric patients have not been established.",
+    "truncada": false
+   },
+   "labelled_for_group": [],
+   "manual_review_required": false,
+   "name": "VINORELBINE",
+   "nota": null,
+   "origen": [
+    "caution_list:a_tubulina"
+   ],
+   "origen_del_perfil": "reviewed",
+   "revision_manual": {
+    "min_age_years": null,
+    "scope": "not established; a single-arm study in patients aged 1 to 25 years with recurrent solid tumours",
+    "source": "DailyMed setid=10a70995-e04d-4044-b1dc-c9aa27460397, label effective 20240816, read 2026-10-08",
+    "verdict": "not_established"
+   },
+   "revision_manual_en_config": true
+  }
+ ],
+ "fecha_lectura": "2026-10-14",
+ "grupos": [
+  "0_to_under_3",
+  "3_to_under_12",
+  "12_and_older"
+ ],
+ "n_farmacos": 70,
+ "nombres_sin_correspondencia_en_universo": [],
+ "protocolo": "protocol/addendum_review2.md E15 (+E14)",
+ "resumen_por_grupo": {
+  "0_to_under_3": {
+   "labelled": [
+    "DAUNORUBICIN",
+    "DOXORUBICIN",
+    "LAROTRECTINIB",
+    "PHENYLBUTANOIC ACID",
+    "SOMATROPIN"
+   ],
+   "not_labelled_or_adult_only": [
+    "AVAPRITINIB",
+    "BENDAMUSTINE",
+    "BORTEZOMIB",
+    "CABAZITAXEL",
+    "CABOZANTINIB",
+    "CAPMATINIB",
+    "CARBOPLATIN",
+    "CARFILZOMIB",
+    "CARMUSTINE",
+    "CERITINIB",
+    "CHLORAMBUCIL",
+    "CISPLATIN",
+    "COLCHICINE",
+    "DACARBAZINE",
+    "DISOPYRAMIDE",
+    "DOCETAXEL ANHYDROUS",
+    "EPIRUBICIN",
+    "ERIBULIN",
+    "ETOPOSIDE",
+    "ETOPOSIDE PHOSPHATE",
+    "GILTERITINIB",
+    "IDARUBICIN",
+    "IFOSFAMIDE",
+    "IXABEPILONE",
+    "IXAZOMIB CITRATE",
+    "LENVATINIB",
+    "LOMUSTINE",
+    "MELPHALAN",
+    "METFORMIN",
+    "MIDOSTAURIN",
+    "MITOXANTRONE",
+    "NATALIZUMAB",
+    "NINTEDANIB",
+    "OXALIPLATIN",
+    "PACLITAXEL",
+    "PAZOPANIB",
+    "PEXIDARTINIB",
+    "POMALIDOMIDE",
+    "QUIZARTINIB",
+    "REGORAFENIB",
+    "RIPRETINIB",
+    "SELINEXOR",
+    "SIROLIMUS",
+    "SOMATROGON",
+    "SORAFENIB",
+    "SUNITINIB",
+    "TEMOZOLOMIDE",
+    "VALRUBICIN",
+    "VANDETANIB",
+    "VINORELBINE"
+   ],
+   "partly": [
+    "BOSUTINIB",
+    "ENTRECTINIB",
+    "EVEROLIMUS",
+    "LONAPEGSOMATROPIN",
+    "SELPERCATINIB",
+    "SELUMETINIB",
+    "SOMAPACITAN",
+    "THIOTEPA",
+    "TRAMETINIB",
+    "TREOSULFAN"
+   ],
+   "verify": [
+    "BUSULFAN",
+    "CHLOROQUINE",
+    "CYCLOSPORINE",
+    "VINBLASTINE",
+    "VINCRISTINE"
+   ]
+  },
+  "12_and_older": {
+   "labelled": [
+    "BOSUTINIB",
+    "CABOZANTINIB",
+    "COLCHICINE",
+    "DAUNORUBICIN",
+    "DOXORUBICIN",
+    "ENTRECTINIB",
+    "EVEROLIMUS",
+    "LAROTRECTINIB",
+    "LONAPEGSOMATROPIN",
+    "METFORMIN",
+    "PHENYLBUTANOIC ACID",
+    "SELPERCATINIB",
+    "SELUMETINIB",
+    "SOMAPACITAN",
+    "SOMATROGON",
+    "SOMATROPIN",
+    "THIOTEPA",
+    "TRAMETINIB",
+    "TREOSULFAN"
+   ],
+   "not_labelled_or_adult_only": [
+    "AVAPRITINIB",
+    "BENDAMUSTINE",
+    "BORTEZOMIB",
+    "CABAZITAXEL",
+    "CAPMATINIB",
+    "CARBOPLATIN",
+    "CARFILZOMIB",
+    "CARMUSTINE",
+    "CERITINIB",
+    "CHLORAMBUCIL",
+    "CISPLATIN",
+    "DACARBAZINE",
+    "DISOPYRAMIDE",
+    "DOCETAXEL ANHYDROUS",
+    "EPIRUBICIN",
+    "ERIBULIN",
+    "ETOPOSIDE",
+    "ETOPOSIDE PHOSPHATE",
+    "GILTERITINIB",
+    "IDARUBICIN",
+    "IFOSFAMIDE",
+    "IXABEPILONE",
+    "IXAZOMIB CITRATE",
+    "LENVATINIB",
+    "LOMUSTINE",
+    "MELPHALAN",
+    "MIDOSTAURIN",
+    "MITOXANTRONE",
+    "NATALIZUMAB",
+    "NINTEDANIB",
+    "OXALIPLATIN",
+    "PACLITAXEL",
+    "PAZOPANIB",
+    "PEXIDARTINIB",
+    "POMALIDOMIDE",
+    "QUIZARTINIB",
+    "REGORAFENIB",
+    "RIPRETINIB",
+    "SELINEXOR",
+    "SORAFENIB",
+    "SUNITINIB",
+    "TEMOZOLOMIDE",
+    "VALRUBICIN",
+    "VANDETANIB",
+    "VINORELBINE"
+   ],
+   "partly": [
+    "SIROLIMUS"
+   ],
+   "verify": [
+    "BUSULFAN",
+    "CHLOROQUINE",
+    "CYCLOSPORINE",
+    "VINBLASTINE",
+    "VINCRISTINE"
+   ]
+  },
+  "3_to_under_12": {
+   "labelled": [
+    "BOSUTINIB",
+    "DAUNORUBICIN",
+    "DOXORUBICIN",
+    "ENTRECTINIB",
+    "EVEROLIMUS",
+    "LAROTRECTINIB",
+    "LONAPEGSOMATROPIN",
+    "PHENYLBUTANOIC ACID",
+    "SELPERCATINIB",
+    "SELUMETINIB",
+    "SOMAPACITAN",
+    "SOMATROGON",
+    "SOMATROPIN",
+    "THIOTEPA",
+    "TRAMETINIB",
+    "TREOSULFAN"
+   ],
+   "not_labelled_or_adult_only": [
+    "AVAPRITINIB",
+    "BENDAMUSTINE",
+    "BORTEZOMIB",
+    "CABAZITAXEL",
+    "CABOZANTINIB",
+    "CAPMATINIB",
+    "CARBOPLATIN",
+    "CARFILZOMIB",
+    "CARMUSTINE",
+    "CERITINIB",
+    "CHLORAMBUCIL",
+    "CISPLATIN",
+    "DACARBAZINE",
+    "DISOPYRAMIDE",
+    "DOCETAXEL ANHYDROUS",
+    "EPIRUBICIN",
+    "ERIBULIN",
+    "ETOPOSIDE",
+    "ETOPOSIDE PHOSPHATE",
+    "GILTERITINIB",
+    "IDARUBICIN",
+    "IFOSFAMIDE",
+    "IXABEPILONE",
+    "IXAZOMIB CITRATE",
+    "LENVATINIB",
+    "LOMUSTINE",
+    "MELPHALAN",
+    "MIDOSTAURIN",
+    "MITOXANTRONE",
+    "NATALIZUMAB",
+    "NINTEDANIB",
+    "OXALIPLATIN",
+    "PACLITAXEL",
+    "PAZOPANIB",
+    "PEXIDARTINIB",
+    "POMALIDOMIDE",
+    "QUIZARTINIB",
+    "REGORAFENIB",
+    "RIPRETINIB",
+    "SELINEXOR",
+    "SIROLIMUS",
+    "SORAFENIB",
+    "SUNITINIB",
+    "TEMOZOLOMIDE",
+    "VALRUBICIN",
+    "VANDETANIB",
+    "VINORELBINE"
+   ],
+   "partly": [
+    "COLCHICINE",
+    "METFORMIN"
+   ],
+   "verify": [
+    "BUSULFAN",
+    "CHLOROQUINE",
+    "CYCLOSPORINE",
+    "VINBLASTINE",
+    "VINCRISTINE"
+   ]
+  }
+ },
+ "sin_etiqueta_legible": []
+}

@@ -1,0 +1,59 @@
+{
+ "direction": {
+  "accuracy": {
+   "ci95": [
+    0.9243,
+    0.9434
+   ],
+   "estimate": 0.9337
+  },
+  "counts_opus": {
+   "benefit": 638,
+   "harm": 192,
+   "no_effect": 89,
+   "unclear": 2477
+  },
+  "counts_sonnet": {
+   "benefit": 711,
+   "harm": 176,
+   "no_effect": 102,
+   "unclear": 2407
+  },
+  "kappa": {
+   "ci95": [
+    0.8282,
+    0.8699
+   ],
+   "estimate": 0.8494
+  }
+ },
+ "n_items": 3396,
+ "n_papers": 1633,
+ "relevance": {
+  "accuracy": {
+   "ci95": [
+    0.8195,
+    0.8554
+   ],
+   "estimate": 0.8375
+  },
+  "counts_opus": {
+   "no": 2584,
+   "unclear": 573,
+   "yes": 239
+  },
+  "counts_sonnet": {
+   "no": 2597,
+   "unclear": 157,
+   "yes": 642
+  },
+  "kappa": {
+   "ci95": [
+    0.5621,
+    0.6203
+   ],
+   "estimate": 0.5906
+  }
+ },
+ "split": "heldout"
+}

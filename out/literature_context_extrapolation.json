@@ -1,0 +1,725 @@
+{
+ "drugs": {
+  "CHEMBL1059": [],
+  "CHEMBL107": [
+   {
+    "claim_level": "cancer cells and one clinical trial (taxanes); nothing verified in MVA or for non-taxane agents",
+    "class": "microtubule_targeting",
+    "direction_hint": "unknown_possibly_unfavourable_in_weak_checkpoint_context",
+    "note": "For taxanes, reduced BubR1 and a weakened spindle checkpoint were found in a paclitaxel-resistant ovarian cancer line, and high chromosomal instability was associated with taxane resistance in an ovarian cancer trial. Another study found that paclitaxel kills breast tumour cells through chromosome missegregation on multipolar spindles rather than through mitotic arrest, so the dependence on the checkpoint is disputed. The direction of effect in a BUB1B-deficient child is therefore unknown; the evidence found concerns taxanes only.",
+    "pmids": [
+     "17234259",
+     "19458043",
+     "24670687"
+    ],
+    "pmids_verified": {
+     "17234259": "Weakened spindle checkpoint with reduced BubR1 expression in paclitaxel-resistant ovarian carcinoma cell line SKOV3-TR30.",
+     "19458043": "Chromosomal instability determines taxane response.",
+     "24670687": "Cytotoxicity of paclitaxel in breast cancer is due to chromosome missegregation on multipolar spindles."
+    }
+   }
+  ],
+  "CHEMBL1100": [],
+  "CHEMBL1200686": [
+   {
+    "claim_level": "mouse genetics (correlation); no drug tested in BubR1 mice was found",
+    "class": "mtor_pathway",
+    "direction_hint": "extrapolation_from_mouse_for_growth_and_muscle_findings",
+    "note": "In mice with BubR1 mutations, a predisposition to sarcopenia correlated with mTORC1 hyperactivity. The proband has muscle atrophy and growth restriction among the findings, which makes mTOR-pathway drugs a hypothesis by extension; no BubR1 mouse study treated with an mTOR inhibitor was found.",
+    "pmids": [
+     "31738183"
+    ],
+    "pmids_verified": {
+     "31738183": "BubR1 allelic effects drive phenotypic heterogeneity in mosaic-variegated aneuploidy progeria syndrome."
+    }
+   }
+  ],
+  "CHEMBL1200983": [],
+  "CHEMBL1201182": [
+   {
+    "claim_level": "mouse genetics (correlation); no drug tested in BubR1 mice was found",
+    "class": "mtor_pathway",
+    "direction_hint": "extrapolation_from_mouse_for_growth_and_muscle_findings",
+    "note": "In mice with BubR1 mutations, a predisposition to sarcopenia correlated with mTORC1 hyperactivity. The proband has muscle atrophy and growth restriction among the findings, which makes mTOR-pathway drugs a hypothesis by extension; no BubR1 mouse study treated with an mTOR inhibitor was found.",
+    "pmids": [
+     "31738183"
+    ],
+    "pmids_verified": {
+     "31738183": "BubR1 allelic effects drive phenotypic heterogeneity in mosaic-variegated aneuploidy progeria syndrome."
+    }
+   },
+   {
+    "claim_level": "case reports",
+    "class": "mva_tumour_case_reports",
+    "direction_hint": "reported_not_recommended",
+    "note": "Published case reports describe rhabdomyosarcoma and Wilms tumours in children with premature chromatid separation / MVA, including reduced-intensity chemotherapy and haematopoietic stem cell transplantation. These are individual case reports; the statement is that such management has been reported, not that it is recommended.",
+    "pmids": [
+     "31184400",
+     "31081598",
+     "31053147"
+    ],
+    "pmids_verified": {
+     "31053147": "Hematopoietic stem cell transplantation in a patient with type 1 mosaic variegated aneuploidy syndrome.",
+     "31081598": "Long-term remission of bilateral Wilms tumors that developed from premature separation of chromatids/mosaic variegated aneuploidy syndrome due to bilateral nephrectomy and peritoneal dialysis.",
+     "31184400": "Rhabdomyosarcoma with premature chromatid separation-mosaic variegated aneuploidy syndrome: Reduced-intensity chemotherapy."
+    }
+   }
+  ],
+  "CHEMBL1201567": [],
+  "CHEMBL1201748": [
+   {
+    "claim_level": "cancer cells and one clinical trial (taxanes); nothing verified in MVA or for non-taxane agents",
+    "class": "microtubule_targeting",
+    "direction_hint": "unknown_possibly_unfavourable_in_weak_checkpoint_context",
+    "note": "For taxanes, reduced BubR1 and a weakened spindle checkpoint were found in a paclitaxel-resistant ovarian cancer line, and high chromosomal instability was associated with taxane resistance in an ovarian cancer trial. Another study found that paclitaxel kills breast tumour cells through chromosome missegregation on multipolar spindles rather than through mitotic arrest, so the dependence on the checkpoint is disputed. The direction of effect in a BUB1B-deficient child is therefore unknown; the evidence found concerns taxanes only.",
+    "pmids": [
+     "17234259",
+     "19458043",
+     "24670687"
+    ],
+    "pmids_verified": {
+     "17234259": "Weakened spindle checkpoint with reduced BubR1 expression in paclitaxel-resistant ovarian carcinoma cell line SKOV3-TR30.",
+     "19458043": "Chromosomal instability determines taxane response.",
+     "24670687": "Cytotoxicity of paclitaxel in breast cancer is due to chromosome missegregation on multipolar spindles."
+    }
+   },
+   {
+    "claim_level": "case reports",
+    "class": "mva_tumour_case_reports",
+    "direction_hint": "reported_not_recommended",
+    "note": "Published case reports describe rhabdomyosarcoma and Wilms tumours in children with premature chromatid separation / MVA, including reduced-intensity chemotherapy and haematopoietic stem cell transplantation. These are individual case reports; the statement is that such management has been reported, not that it is recommended.",
+    "pmids": [
+     "31184400",
+     "31081598",
+     "31053147"
+    ],
+    "pmids_verified": {
+     "31053147": "Hematopoietic stem cell transplantation in a patient with type 1 mosaic variegated aneuploidy syndrome.",
+     "31081598": "Long-term remission of bilateral Wilms tumors that developed from premature separation of chromatids/mosaic variegated aneuploidy syndrome due to bilateral nephrectomy and peritoneal dialysis.",
+     "31184400": "Rhabdomyosarcoma with premature chromatid separation-mosaic variegated aneuploidy syndrome: Reduced-intensity chemotherapy."
+    }
+   }
+  ],
+  "CHEMBL1201752": [
+   {
+    "claim_level": "cancer cells and one clinical trial (taxanes); nothing verified in MVA or for non-taxane agents",
+    "class": "microtubule_targeting",
+    "direction_hint": "unknown_possibly_unfavourable_in_weak_checkpoint_context",
+    "note": "For taxanes, reduced BubR1 and a weakened spindle checkpoint were found in a paclitaxel-resistant ovarian cancer line, and high chromosomal instability was associated with taxane resistance in an ovarian cancer trial. Another study found that paclitaxel kills breast tumour cells through chromosome missegregation on multipolar spindles rather than through mitotic arrest, so the dependence on the checkpoint is disputed. The direction of effect in a BUB1B-deficient child is therefore unknown; the evidence found concerns taxanes only.",
+    "pmids": [
+     "17234259",
+     "19458043",
+     "24670687"
+    ],
+    "pmids_verified": {
+     "17234259": "Weakened spindle checkpoint with reduced BubR1 expression in paclitaxel-resistant ovarian carcinoma cell line SKOV3-TR30.",
+     "19458043": "Chromosomal instability determines taxane response.",
+     "24670687": "Cytotoxicity of paclitaxel in breast cancer is due to chromosome missegregation on multipolar spindles."
+    }
+   },
+   {
+    "claim_level": "case reports",
+    "class": "mva_tumour_case_reports",
+    "direction_hint": "reported_not_recommended",
+    "note": "Published case reports describe rhabdomyosarcoma and Wilms tumours in children with premature chromatid separation / MVA, including reduced-intensity chemotherapy and haematopoietic stem cell transplantation. These are individual case reports; the statement is that such management has been reported, not that it is recommended.",
+    "pmids": [
+     "31184400",
+     "31081598",
+     "31053147"
+    ],
+    "pmids_verified": {
+     "31053147": "Hematopoietic stem cell transplantation in a patient with type 1 mosaic variegated aneuploidy syndrome.",
+     "31081598": "Long-term remission of bilateral Wilms tumors that developed from premature separation of chromatids/mosaic variegated aneuploidy syndrome due to bilateral nephrectomy and peritoneal dialysis.",
+     "31184400": "Rhabdomyosarcoma with premature chromatid separation-mosaic variegated aneuploidy syndrome: Reduced-intensity chemotherapy."
+    }
+   }
+  ],
+  "CHEMBL1237132": [],
+  "CHEMBL12610": [],
+  "CHEMBL139": [],
+  "CHEMBL1428": [],
+  "CHEMBL1480": [],
+  "CHEMBL1628502": [],
+  "CHEMBL1648": [],
+  "CHEMBL1726": [],
+  "CHEMBL1742994": [
+   {
+    "claim_level": "cancer cells and one clinical trial (taxanes); nothing verified in MVA or for non-taxane agents",
+    "class": "microtubule_targeting",
+    "direction_hint": "unknown_possibly_unfavourable_in_weak_checkpoint_context",
+    "note": "For taxanes, reduced BubR1 and a weakened spindle checkpoint were found in a paclitaxel-resistant ovarian cancer line, and high chromosomal instability was associated with taxane resistance in an ovarian cancer trial. Another study found that paclitaxel kills breast tumour cells through chromosome missegregation on multipolar spindles rather than through mitotic arrest, so the dependence on the checkpoint is disputed. The direction of effect in a BUB1B-deficient child is therefore unknown; the evidence found concerns taxanes only.",
+    "pmids": [
+     "17234259",
+     "19458043",
+     "24670687"
+    ],
+    "pmids_verified": {
+     "17234259": "Weakened spindle checkpoint with reduced BubR1 expression in paclitaxel-resistant ovarian carcinoma cell line SKOV3-TR30.",
+     "19458043": "Chromosomal instability determines taxane response.",
+     "24670687": "Cytotoxicity of paclitaxel in breast cancer is due to chromosome missegregation on multipolar spindles."
+    }
+   },
+   {
+    "claim_level": "case reports",
+    "class": "mva_tumour_case_reports",
+    "direction_hint": "reported_not_recommended",
+    "note": "Published case reports describe rhabdomyosarcoma and Wilms tumours in children with premature chromatid separation / MVA, including reduced-intensity chemotherapy and haematopoietic stem cell transplantation. These are individual case reports; the statement is that such management has been reported, not that it is recommended.",
+    "pmids": [
+     "31184400",
+     "31081598",
+     "31053147"
+    ],
+    "pmids_verified": {
+     "31053147": "Hematopoietic stem cell transplantation in a patient with type 1 mosaic variegated aneuploidy syndrome.",
+     "31081598": "Long-term remission of bilateral Wilms tumors that developed from premature separation of chromatids/mosaic variegated aneuploidy syndrome due to bilateral nephrectomy and peritoneal dialysis.",
+     "31184400": "Rhabdomyosarcoma with premature chromatid separation-mosaic variegated aneuploidy syndrome: Reduced-intensity chemotherapy."
+    }
+   }
+  ],
+  "CHEMBL1743041": [
+   {
+    "claim_level": "case reports",
+    "class": "mva_tumour_case_reports",
+    "direction_hint": "reported_not_recommended",
+    "note": "Published case reports describe rhabdomyosarcoma and Wilms tumours in children with premature chromatid separation / MVA, including reduced-intensity chemotherapy and haematopoietic stem cell transplantation. These are individual case reports; the statement is that such management has been reported, not that it is recommended.",
+    "pmids": [
+     "31184400",
+     "31081598",
+     "31053147"
+    ],
+    "pmids_verified": {
+     "31053147": "Hematopoietic stem cell transplantation in a patient with type 1 mosaic variegated aneuploidy syndrome.",
+     "31081598": "Long-term remission of bilateral Wilms tumors that developed from premature separation of chromatids/mosaic variegated aneuploidy syndrome due to bilateral nephrectomy and peritoneal dialysis.",
+     "31184400": "Rhabdomyosarcoma with premature chromatid separation-mosaic variegated aneuploidy syndrome: Reduced-intensity chemotherapy."
+    }
+   }
+  ],
+  "CHEMBL1743070": [],
+  "CHEMBL1743082": [
+   {
+    "claim_level": "cancer cells and one clinical trial (taxanes); nothing verified in MVA or for non-taxane agents",
+    "class": "microtubule_targeting",
+    "direction_hint": "unknown_possibly_unfavourable_in_weak_checkpoint_context",
+    "note": "For taxanes, reduced BubR1 and a weakened spindle checkpoint were found in a paclitaxel-resistant ovarian cancer line, and high chromosomal instability was associated with taxane resistance in an ovarian cancer trial. Another study found that paclitaxel kills breast tumour cells through chromosome missegregation on multipolar spindles rather than through mitotic arrest, so the dependence on the checkpoint is disputed. The direction of effect in a BUB1B-deficient child is therefore unknown; the evidence found concerns taxanes only.",
+    "pmids": [
+     "17234259",
+     "19458043",
+     "24670687"
+    ],
+    "pmids_verified": {
+     "17234259": "Weakened spindle checkpoint with reduced BubR1 expression in paclitaxel-resistant ovarian carcinoma cell line SKOV3-TR30.",
+     "19458043": "Chromosomal instability determines taxane response.",
+     "24670687": "Cytotoxicity of paclitaxel in breast cancer is due to chromosome missegregation on multipolar spindles."
+    }
+   },
+   {
+    "claim_level": "case reports",
+    "class": "mva_tumour_case_reports",
+    "direction_hint": "reported_not_recommended",
+    "note": "Published case reports describe rhabdomyosarcoma and Wilms tumours in children with premature chromatid separation / MVA, including reduced-intensity chemotherapy and haematopoietic stem cell transplantation. These are individual case reports; the statement is that such management has been reported, not that it is recommended.",
+    "pmids": [
+     "31184400",
+     "31081598",
+     "31053147"
+    ],
+    "pmids_verified": {
+     "31053147": "Hematopoietic stem cell transplantation in a patient with type 1 mosaic variegated aneuploidy syndrome.",
+     "31081598": "Long-term remission of bilateral Wilms tumors that developed from premature separation of chromatids/mosaic variegated aneuploidy syndrome due to bilateral nephrectomy and peritoneal dialysis.",
+     "31184400": "Rhabdomyosarcoma with premature chromatid separation-mosaic variegated aneuploidy syndrome: Reduced-intensity chemotherapy."
+    }
+   }
+  ],
+  "CHEMBL189963": [
+   {
+    "claim_level": "case reports",
+    "class": "mva_tumour_case_reports",
+    "direction_hint": "reported_not_recommended",
+    "note": "Published case reports describe rhabdomyosarcoma and Wilms tumours in children with premature chromatid separation / MVA, including reduced-intensity chemotherapy and haematopoietic stem cell transplantation. These are individual case reports; the statement is that such management has been reported, not that it is recommended.",
+    "pmids": [
+     "31184400",
+     "31081598",
+     "31053147"
+    ],
+    "pmids_verified": {
+     "31053147": "Hematopoietic stem cell transplantation in a patient with type 1 mosaic variegated aneuploidy syndrome.",
+     "31081598": "Long-term remission of bilateral Wilms tumors that developed from premature separation of chromatids/mosaic variegated aneuploidy syndrome due to bilateral nephrectomy and peritoneal dialysis.",
+     "31184400": "Rhabdomyosarcoma with premature chromatid separation-mosaic variegated aneuploidy syndrome: Reduced-intensity chemotherapy."
+    }
+   }
+  ],
+  "CHEMBL1908360": [
+   {
+    "claim_level": "mouse genetics (correlation); no drug tested in BubR1 mice was found",
+    "class": "mtor_pathway",
+    "direction_hint": "extrapolation_from_mouse_for_growth_and_muscle_findings",
+    "note": "In mice with BubR1 mutations, a predisposition to sarcopenia correlated with mTORC1 hyperactivity. The proband has muscle atrophy and growth restriction among the findings, which makes mTOR-pathway drugs a hypothesis by extension; no BubR1 mouse study treated with an mTOR inhibitor was found.",
+    "pmids": [
+     "31738183"
+    ],
+    "pmids_verified": {
+     "31738183": "BubR1 allelic effects drive phenotypic heterogeneity in mosaic-variegated aneuploidy progeria syndrome."
+    }
+   },
+   {
+    "claim_level": "case reports",
+    "class": "mva_tumour_case_reports",
+    "direction_hint": "reported_not_recommended",
+    "note": "Published case reports describe rhabdomyosarcoma and Wilms tumours in children with premature chromatid separation / MVA, including reduced-intensity chemotherapy and haematopoietic stem cell transplantation. These are individual case reports; the statement is that such management has been reported, not that it is recommended.",
+    "pmids": [
+     "31184400",
+     "31081598",
+     "31053147"
+    ],
+    "pmids_verified": {
+     "31053147": "Hematopoietic stem cell transplantation in a patient with type 1 mosaic variegated aneuploidy syndrome.",
+     "31081598": "Long-term remission of bilateral Wilms tumors that developed from premature separation of chromatids/mosaic variegated aneuploidy syndrome due to bilateral nephrectomy and peritoneal dialysis.",
+     "31184400": "Rhabdomyosarcoma with premature chromatid separation-mosaic variegated aneuploidy syndrome: Reduced-intensity chemotherapy."
+    }
+   }
+  ],
+  "CHEMBL193": [],
+  "CHEMBL2103875": [
+   {
+    "claim_level": "case reports",
+    "class": "mva_tumour_case_reports",
+    "direction_hint": "reported_not_recommended",
+    "note": "Published case reports describe rhabdomyosarcoma and Wilms tumours in children with premature chromatid separation / MVA, including reduced-intensity chemotherapy and haematopoietic stem cell transplantation. These are individual case reports; the statement is that such management has been reported, not that it is recommended.",
+    "pmids": [
+     "31184400",
+     "31081598",
+     "31053147"
+    ],
+    "pmids_verified": {
+     "31053147": "Hematopoietic stem cell transplantation in a patient with type 1 mosaic variegated aneuploidy syndrome.",
+     "31081598": "Long-term remission of bilateral Wilms tumors that developed from premature separation of chromatids/mosaic variegated aneuploidy syndrome due to bilateral nephrectomy and peritoneal dialysis.",
+     "31184400": "Rhabdomyosarcoma with premature chromatid separation-mosaic variegated aneuploidy syndrome: Reduced-intensity chemotherapy."
+    }
+   }
+  ],
+  "CHEMBL2107333": [],
+  "CHEMBL2107857": [],
+  "CHEMBL2110725": [
+   {
+    "claim_level": "cancer cells and one clinical trial (taxanes); nothing verified in MVA or for non-taxane agents",
+    "class": "microtubule_targeting",
+    "direction_hint": "unknown_possibly_unfavourable_in_weak_checkpoint_context",
+    "note": "For taxanes, reduced BubR1 and a weakened spindle checkpoint were found in a paclitaxel-resistant ovarian cancer line, and high chromosomal instability was associated with taxane resistance in an ovarian cancer trial. Another study found that paclitaxel kills breast tumour cells through chromosome missegregation on multipolar spindles rather than through mitotic arrest, so the dependence on the checkpoint is disputed. The direction of effect in a BUB1B-deficient child is therefore unknown; the evidence found concerns taxanes only.",
+    "pmids": [
+     "17234259",
+     "19458043",
+     "24670687"
+    ],
+    "pmids_verified": {
+     "17234259": "Weakened spindle checkpoint with reduced BubR1 expression in paclitaxel-resistant ovarian carcinoma cell line SKOV3-TR30.",
+     "19458043": "Chromosomal instability determines taxane response.",
+     "24670687": "Cytotoxicity of paclitaxel in breast cancer is due to chromosome missegregation on multipolar spindles."
+    }
+   },
+   {
+    "claim_level": "case reports",
+    "class": "mva_tumour_case_reports",
+    "direction_hint": "reported_not_recommended",
+    "note": "Published case reports describe rhabdomyosarcoma and Wilms tumours in children with premature chromatid separation / MVA, including reduced-intensity chemotherapy and haematopoietic stem cell transplantation. These are individual case reports; the statement is that such management has been reported, not that it is recommended.",
+    "pmids": [
+     "31184400",
+     "31081598",
+     "31053147"
+    ],
+    "pmids_verified": {
+     "31053147": "Hematopoietic stem cell transplantation in a patient with type 1 mosaic variegated aneuploidy syndrome.",
+     "31081598": "Long-term remission of bilateral Wilms tumors that developed from premature separation of chromatids/mosaic variegated aneuploidy syndrome due to bilateral nephrectomy and peritoneal dialysis.",
+     "31184400": "Rhabdomyosarcoma with premature chromatid separation-mosaic variegated aneuploidy syndrome: Reduced-intensity chemotherapy."
+    }
+   }
+  ],
+  "CHEMBL2146883": [
+   {
+    "claim_level": "case reports",
+    "class": "mva_tumour_case_reports",
+    "direction_hint": "reported_not_recommended",
+    "note": "Published case reports describe rhabdomyosarcoma and Wilms tumours in children with premature chromatid separation / MVA, including reduced-intensity chemotherapy and haematopoietic stem cell transplantation. These are individual case reports; the statement is that such management has been reported, not that it is recommended.",
+    "pmids": [
+     "31184400",
+     "31081598",
+     "31053147"
+    ],
+    "pmids_verified": {
+     "31053147": "Hematopoietic stem cell transplantation in a patient with type 1 mosaic variegated aneuploidy syndrome.",
+     "31081598": "Long-term remission of bilateral Wilms tumors that developed from premature separation of chromatids/mosaic variegated aneuploidy syndrome due to bilateral nephrectomy and peritoneal dialysis.",
+     "31184400": "Rhabdomyosarcoma with premature chromatid separation-mosaic variegated aneuploidy syndrome: Reduced-intensity chemotherapy."
+    }
+   }
+  ],
+  "CHEMBL249856": [],
+  "CHEMBL25": [],
+  "CHEMBL256997": [],
+  "CHEMBL3187723": [
+   {
+    "claim_level": "case reports",
+    "class": "mva_tumour_case_reports",
+    "direction_hint": "reported_not_recommended",
+    "note": "Published case reports describe rhabdomyosarcoma and Wilms tumours in children with premature chromatid separation / MVA, including reduced-intensity chemotherapy and haematopoietic stem cell transplantation. These are individual case reports; the statement is that such management has been reported, not that it is recommended.",
+    "pmids": [
+     "31184400",
+     "31081598",
+     "31053147"
+    ],
+    "pmids_verified": {
+     "31053147": "Hematopoietic stem cell transplantation in a patient with type 1 mosaic variegated aneuploidy syndrome.",
+     "31081598": "Long-term remission of bilateral Wilms tumors that developed from premature separation of chromatids/mosaic variegated aneuploidy syndrome due to bilateral nephrectomy and peritoneal dialysis.",
+     "31184400": "Rhabdomyosarcoma with premature chromatid separation-mosaic variegated aneuploidy syndrome: Reduced-intensity chemotherapy."
+    }
+   }
+  ],
+  "CHEMBL325041": [
+   {
+    "claim_level": "yeast and cancer cell lines; nothing verified for proteasome inhibitors in BUB1B-deficient cells",
+    "class": "proteasome_inhibition",
+    "direction_hint": "tumour_context_vulnerability_hypothesis",
+    "note": "Aneuploidy causes proteotoxic stress in yeast, and compounds that interfere with protein folding or autophagy (17-AAG, chloroquine) and energy stress (AICAR) were selectively toxic to aneuploid cells. This supports a proteotoxic-stress rationale for tumour-directed use; it does not show benefit for the constitutional defect, and no paper on proteasome inhibitors in BUB1B-deficient cells was verified.",
+    "pmids": [
+     "23222101",
+     "21315436"
+    ],
+    "pmids_verified": {
+     "21315436": "Identification of aneuploidy-selective antiproliferation compounds.",
+     "23222101": "Aneuploidy causes proteotoxic stress in yeast."
+    }
+   },
+   {
+    "claim_level": "case reports",
+    "class": "mva_tumour_case_reports",
+    "direction_hint": "reported_not_recommended",
+    "note": "Published case reports describe rhabdomyosarcoma and Wilms tumours in children with premature chromatid separation / MVA, including reduced-intensity chemotherapy and haematopoietic stem cell transplantation. These are individual case reports; the statement is that such management has been reported, not that it is recommended.",
+    "pmids": [
+     "31184400",
+     "31081598",
+     "31053147"
+    ],
+    "pmids_verified": {
+     "31053147": "Hematopoietic stem cell transplantation in a patient with type 1 mosaic variegated aneuploidy syndrome.",
+     "31081598": "Long-term remission of bilateral Wilms tumors that developed from premature separation of chromatids/mosaic variegated aneuploidy syndrome due to bilateral nephrectomy and peritoneal dialysis.",
+     "31184400": "Rhabdomyosarcoma with premature chromatid separation-mosaic variegated aneuploidy syndrome: Reduced-intensity chemotherapy."
+    }
+   }
+  ],
+  "CHEMBL3301582": [
+   {
+    "claim_level": "cancer cells and one clinical trial (taxanes); nothing verified in MVA or for non-taxane agents",
+    "class": "microtubule_targeting",
+    "direction_hint": "unknown_possibly_unfavourable_in_weak_checkpoint_context",
+    "note": "For taxanes, reduced BubR1 and a weakened spindle checkpoint were found in a paclitaxel-resistant ovarian cancer line, and high chromosomal instability was associated with taxane resistance in an ovarian cancer trial. Another study found that paclitaxel kills breast tumour cells through chromosome missegregation on multipolar spindles rather than through mitotic arrest, so the dependence on the checkpoint is disputed. The direction of effect in a BUB1B-deficient child is therefore unknown; the evidence found concerns taxanes only.",
+    "pmids": [
+     "17234259",
+     "19458043",
+     "24670687"
+    ],
+    "pmids_verified": {
+     "17234259": "Weakened spindle checkpoint with reduced BubR1 expression in paclitaxel-resistant ovarian carcinoma cell line SKOV3-TR30.",
+     "19458043": "Chromosomal instability determines taxane response.",
+     "24670687": "Cytotoxicity of paclitaxel in breast cancer is due to chromosome missegregation on multipolar spindles."
+    }
+   },
+   {
+    "claim_level": "case reports",
+    "class": "mva_tumour_case_reports",
+    "direction_hint": "reported_not_recommended",
+    "note": "Published case reports describe rhabdomyosarcoma and Wilms tumours in children with premature chromatid separation / MVA, including reduced-intensity chemotherapy and haematopoietic stem cell transplantation. These are individual case reports; the statement is that such management has been reported, not that it is recommended.",
+    "pmids": [
+     "31184400",
+     "31081598",
+     "31053147"
+    ],
+    "pmids_verified": {
+     "31053147": "Hematopoietic stem cell transplantation in a patient with type 1 mosaic variegated aneuploidy syndrome.",
+     "31081598": "Long-term remission of bilateral Wilms tumors that developed from premature separation of chromatids/mosaic variegated aneuploidy syndrome due to bilateral nephrectomy and peritoneal dialysis.",
+     "31184400": "Rhabdomyosarcoma with premature chromatid separation-mosaic variegated aneuploidy syndrome: Reduced-intensity chemotherapy."
+    }
+   }
+  ],
+  "CHEMBL3301589": [
+   {
+    "claim_level": "cancer cells and one clinical trial (taxanes); nothing verified in MVA or for non-taxane agents",
+    "class": "microtubule_targeting",
+    "direction_hint": "unknown_possibly_unfavourable_in_weak_checkpoint_context",
+    "note": "For taxanes, reduced BubR1 and a weakened spindle checkpoint were found in a paclitaxel-resistant ovarian cancer line, and high chromosomal instability was associated with taxane resistance in an ovarian cancer trial. Another study found that paclitaxel kills breast tumour cells through chromosome missegregation on multipolar spindles rather than through mitotic arrest, so the dependence on the checkpoint is disputed. The direction of effect in a BUB1B-deficient child is therefore unknown; the evidence found concerns taxanes only.",
+    "pmids": [
+     "17234259",
+     "19458043",
+     "24670687"
+    ],
+    "pmids_verified": {
+     "17234259": "Weakened spindle checkpoint with reduced BubR1 expression in paclitaxel-resistant ovarian carcinoma cell line SKOV3-TR30.",
+     "19458043": "Chromosomal instability determines taxane response.",
+     "24670687": "Cytotoxicity of paclitaxel in breast cancer is due to chromosome missegregation on multipolar spindles."
+    }
+   },
+   {
+    "claim_level": "case reports",
+    "class": "mva_tumour_case_reports",
+    "direction_hint": "reported_not_recommended",
+    "note": "Published case reports describe rhabdomyosarcoma and Wilms tumours in children with premature chromatid separation / MVA, including reduced-intensity chemotherapy and haematopoietic stem cell transplantation. These are individual case reports; the statement is that such management has been reported, not that it is recommended.",
+    "pmids": [
+     "31184400",
+     "31081598",
+     "31053147"
+    ],
+    "pmids_verified": {
+     "31053147": "Hematopoietic stem cell transplantation in a patient with type 1 mosaic variegated aneuploidy syndrome.",
+     "31081598": "Long-term remission of bilateral Wilms tumors that developed from premature separation of chromatids/mosaic variegated aneuploidy syndrome due to bilateral nephrectomy and peritoneal dialysis.",
+     "31184400": "Rhabdomyosarcoma with premature chromatid separation-mosaic variegated aneuploidy syndrome: Reduced-intensity chemotherapy."
+    }
+   }
+  ],
+  "CHEMBL3301610": [
+   {
+    "claim_level": "case reports",
+    "class": "mva_tumour_case_reports",
+    "direction_hint": "reported_not_recommended",
+    "note": "Published case reports describe rhabdomyosarcoma and Wilms tumours in children with premature chromatid separation / MVA, including reduced-intensity chemotherapy and haematopoietic stem cell transplantation. These are individual case reports; the statement is that such management has been reported, not that it is recommended.",
+    "pmids": [
+     "31184400",
+     "31081598",
+     "31053147"
+    ],
+    "pmids_verified": {
+     "31053147": "Hematopoietic stem cell transplantation in a patient with type 1 mosaic variegated aneuploidy syndrome.",
+     "31081598": "Long-term remission of bilateral Wilms tumors that developed from premature separation of chromatids/mosaic variegated aneuploidy syndrome due to bilateral nephrectomy and peritoneal dialysis.",
+     "31184400": "Rhabdomyosarcoma with premature chromatid separation-mosaic variegated aneuploidy syndrome: Reduced-intensity chemotherapy."
+    }
+   }
+  ],
+  "CHEMBL343448": [
+   {
+    "claim_level": "case reports",
+    "class": "mva_tumour_case_reports",
+    "direction_hint": "reported_not_recommended",
+    "note": "Published case reports describe rhabdomyosarcoma and Wilms tumours in children with premature chromatid separation / MVA, including reduced-intensity chemotherapy and haematopoietic stem cell transplantation. These are individual case reports; the statement is that such management has been reported, not that it is recommended.",
+    "pmids": [
+     "31184400",
+     "31081598",
+     "31053147"
+    ],
+    "pmids_verified": {
+     "31053147": "Hematopoietic stem cell transplantation in a patient with type 1 mosaic variegated aneuploidy syndrome.",
+     "31081598": "Long-term remission of bilateral Wilms tumors that developed from premature separation of chromatids/mosaic variegated aneuploidy syndrome due to bilateral nephrectomy and peritoneal dialysis.",
+     "31184400": "Rhabdomyosarcoma with premature chromatid separation-mosaic variegated aneuploidy syndrome: Reduced-intensity chemotherapy."
+    }
+   }
+  ],
+  "CHEMBL3545110": [],
+  "CHEMBL3545132": [
+   {
+    "claim_level": "cancer cells and one clinical trial (taxanes); nothing verified in MVA or for non-taxane agents",
+    "class": "microtubule_targeting",
+    "direction_hint": "unknown_possibly_unfavourable_in_weak_checkpoint_context",
+    "note": "For taxanes, reduced BubR1 and a weakened spindle checkpoint were found in a paclitaxel-resistant ovarian cancer line, and high chromosomal instability was associated with taxane resistance in an ovarian cancer trial. Another study found that paclitaxel kills breast tumour cells through chromosome missegregation on multipolar spindles rather than through mitotic arrest, so the dependence on the checkpoint is disputed. The direction of effect in a BUB1B-deficient child is therefore unknown; the evidence found concerns taxanes only.",
+    "pmids": [
+     "17234259",
+     "19458043",
+     "24670687"
+    ],
+    "pmids_verified": {
+     "17234259": "Weakened spindle checkpoint with reduced BubR1 expression in paclitaxel-resistant ovarian carcinoma cell line SKOV3-TR30.",
+     "19458043": "Chromosomal instability determines taxane response.",
+     "24670687": "Cytotoxicity of paclitaxel in breast cancer is due to chromosome missegregation on multipolar spindles."
+    }
+   },
+   {
+    "claim_level": "case reports",
+    "class": "mva_tumour_case_reports",
+    "direction_hint": "reported_not_recommended",
+    "note": "Published case reports describe rhabdomyosarcoma and Wilms tumours in children with premature chromatid separation / MVA, including reduced-intensity chemotherapy and haematopoietic stem cell transplantation. These are individual case reports; the statement is that such management has been reported, not that it is recommended.",
+    "pmids": [
+     "31184400",
+     "31081598",
+     "31053147"
+    ],
+    "pmids_verified": {
+     "31053147": "Hematopoietic stem cell transplantation in a patient with type 1 mosaic variegated aneuploidy syndrome.",
+     "31081598": "Long-term remission of bilateral Wilms tumors that developed from premature separation of chromatids/mosaic variegated aneuploidy syndrome due to bilateral nephrectomy and peritoneal dialysis.",
+     "31184400": "Rhabdomyosarcoma with premature chromatid separation-mosaic variegated aneuploidy syndrome: Reduced-intensity chemotherapy."
+    }
+   }
+  ],
+  "CHEMBL3545432": [
+   {
+    "claim_level": "yeast and cancer cell lines; nothing verified for proteasome inhibitors in BUB1B-deficient cells",
+    "class": "proteasome_inhibition",
+    "direction_hint": "tumour_context_vulnerability_hypothesis",
+    "note": "Aneuploidy causes proteotoxic stress in yeast, and compounds that interfere with protein folding or autophagy (17-AAG, chloroquine) and energy stress (AICAR) were selectively toxic to aneuploid cells. This supports a proteotoxic-stress rationale for tumour-directed use; it does not show benefit for the constitutional defect, and no paper on proteasome inhibitors in BUB1B-deficient cells was verified.",
+    "pmids": [
+     "23222101",
+     "21315436"
+    ],
+    "pmids_verified": {
+     "21315436": "Identification of aneuploidy-selective antiproliferation compounds.",
+     "23222101": "Aneuploidy causes proteotoxic stress in yeast."
+    }
+   }
+  ],
+  "CHEMBL3894860": [],
+  "CHEMBL3989944": [],
+  "CHEMBL408513": [
+   {
+    "claim_level": "case reports",
+    "class": "mva_tumour_case_reports",
+    "direction_hint": "reported_not_recommended",
+    "note": "Published case reports describe rhabdomyosarcoma and Wilms tumours in children with premature chromatid separation / MVA, including reduced-intensity chemotherapy and haematopoietic stem cell transplantation. These are individual case reports; the statement is that such management has been reported, not that it is recommended.",
+    "pmids": [
+     "31184400",
+     "31081598",
+     "31053147"
+    ],
+    "pmids_verified": {
+     "31053147": "Hematopoietic stem cell transplantation in a patient with type 1 mosaic variegated aneuploidy syndrome.",
+     "31081598": "Long-term remission of bilateral Wilms tumors that developed from premature separation of chromatids/mosaic variegated aneuploidy syndrome due to bilateral nephrectomy and peritoneal dialysis.",
+     "31184400": "Rhabdomyosarcoma with premature chromatid separation-mosaic variegated aneuploidy syndrome: Reduced-intensity chemotherapy."
+    }
+   }
+  ],
+  "CHEMBL413": [
+   {
+    "claim_level": "mouse genetics (correlation); no drug tested in BubR1 mice was found",
+    "class": "mtor_pathway",
+    "direction_hint": "extrapolation_from_mouse_for_growth_and_muscle_findings",
+    "note": "In mice with BubR1 mutations, a predisposition to sarcopenia correlated with mTORC1 hyperactivity. The proband has muscle atrophy and growth restriction among the findings, which makes mTOR-pathway drugs a hypothesis by extension; no BubR1 mouse study treated with an mTOR inhibitor was found.",
+    "pmids": [
+     "31738183"
+    ],
+    "pmids_verified": {
+     "31738183": "BubR1 allelic effects drive phenotypic heterogeneity in mosaic-variegated aneuploidy progeria syndrome."
+    }
+   },
+   {
+    "claim_level": "case reports",
+    "class": "mva_tumour_case_reports",
+    "direction_hint": "reported_not_recommended",
+    "note": "Published case reports describe rhabdomyosarcoma and Wilms tumours in children with premature chromatid separation / MVA, including reduced-intensity chemotherapy and haematopoietic stem cell transplantation. These are individual case reports; the statement is that such management has been reported, not that it is recommended.",
+    "pmids": [
+     "31184400",
+     "31081598",
+     "31053147"
+    ],
+    "pmids_verified": {
+     "31053147": "Hematopoietic stem cell transplantation in a patient with type 1 mosaic variegated aneuploidy syndrome.",
+     "31081598": "Long-term remission of bilateral Wilms tumors that developed from premature separation of chromatids/mosaic variegated aneuploidy syndrome due to bilateral nephrectomy and peritoneal dialysis.",
+     "31184400": "Rhabdomyosarcoma with premature chromatid separation-mosaic variegated aneuploidy syndrome: Reduced-intensity chemotherapy."
+    }
+   }
+  ],
+  "CHEMBL428647": [
+   {
+    "claim_level": "cancer cells and one clinical trial (taxanes); nothing verified in MVA or for non-taxane agents",
+    "class": "microtubule_targeting",
+    "direction_hint": "unknown_possibly_unfavourable_in_weak_checkpoint_context",
+    "note": "For taxanes, reduced BubR1 and a weakened spindle checkpoint were found in a paclitaxel-resistant ovarian cancer line, and high chromosomal instability was associated with taxane resistance in an ovarian cancer trial. Another study found that paclitaxel kills breast tumour cells through chromosome missegregation on multipolar spindles rather than through mitotic arrest, so the dependence on the checkpoint is disputed. The direction of effect in a BUB1B-deficient child is therefore unknown; the evidence found concerns taxanes only.",
+    "pmids": [
+     "17234259",
+     "19458043",
+     "24670687"
+    ],
+    "pmids_verified": {
+     "17234259": "Weakened spindle checkpoint with reduced BubR1 expression in paclitaxel-resistant ovarian carcinoma cell line SKOV3-TR30.",
+     "19458043": "Chromosomal instability determines taxane response.",
+     "24670687": "Cytotoxicity of paclitaxel in breast cancer is due to chromosome missegregation on multipolar spindles."
+    }
+   },
+   {
+    "claim_level": "case reports",
+    "class": "mva_tumour_case_reports",
+    "direction_hint": "reported_not_recommended",
+    "note": "Published case reports describe rhabdomyosarcoma and Wilms tumours in children with premature chromatid separation / MVA, including reduced-intensity chemotherapy and haematopoietic stem cell transplantation. These are individual case reports; the statement is that such management has been reported, not that it is recommended.",
+    "pmids": [
+     "31184400",
+     "31081598",
+     "31053147"
+    ],
+    "pmids_verified": {
+     "31053147": "Hematopoietic stem cell transplantation in a patient with type 1 mosaic variegated aneuploidy syndrome.",
+     "31081598": "Long-term remission of bilateral Wilms tumors that developed from premature separation of chromatids/mosaic variegated aneuploidy syndrome due to bilateral nephrectomy and peritoneal dialysis.",
+     "31184400": "Rhabdomyosarcoma with premature chromatid separation-mosaic variegated aneuploidy syndrome: Reduced-intensity chemotherapy."
+    }
+   }
+  ],
+  "CHEMBL43064": [],
+  "CHEMBL43452": [],
+  "CHEMBL451887": [
+   {
+    "claim_level": "yeast and cancer cell lines; nothing verified for proteasome inhibitors in BUB1B-deficient cells",
+    "class": "proteasome_inhibition",
+    "direction_hint": "tumour_context_vulnerability_hypothesis",
+    "note": "Aneuploidy causes proteotoxic stress in yeast, and compounds that interfere with protein folding or autophagy (17-AAG, chloroquine) and energy stress (AICAR) were selectively toxic to aneuploid cells. This supports a proteotoxic-stress rationale for tumour-directed use; it does not show benefit for the constitutional defect, and no paper on proteasome inhibitors in BUB1B-deficient cells was verified.",
+    "pmids": [
+     "23222101",
+     "21315436"
+    ],
+    "pmids_verified": {
+     "21315436": "Identification of aneuploidy-selective antiproliferation compounds.",
+     "23222101": "Aneuploidy causes proteotoxic stress in yeast."
+    }
+   },
+   {
+    "claim_level": "case reports",
+    "class": "mva_tumour_case_reports",
+    "direction_hint": "reported_not_recommended",
+    "note": "Published case reports describe rhabdomyosarcoma and Wilms tumours in children with premature chromatid separation / MVA, including reduced-intensity chemotherapy and haematopoietic stem cell transplantation. These are individual case reports; the statement is that such management has been reported, not that it is recommended.",
+    "pmids": [
+     "31184400",
+     "31081598",
+     "31053147"
+    ],
+    "pmids_verified": {
+     "31053147": "Hematopoietic stem cell transplantation in a patient with type 1 mosaic variegated aneuploidy syndrome.",
+     "31081598": "Long-term remission of bilateral Wilms tumors that developed from premature separation of chromatids/mosaic variegated aneuploidy syndrome due to bilateral nephrectomy and peritoneal dialysis.",
+     "31184400": "Rhabdomyosarcoma with premature chromatid separation-mosaic variegated aneuploidy syndrome: Reduced-intensity chemotherapy."
+    }
+   }
+  ],
+  "CHEMBL4594230": [],
+  "CHEMBL467": [
+   {
+    "claim_level": "case reports",
+    "class": "mva_tumour_case_reports",
+    "direction_hint": "reported_not_recommended",
+    "note": "Published case reports describe rhabdomyosarcoma and Wilms tumours in children with premature chromatid separation / MVA, including reduced-intensity chemotherapy and haematopoietic stem cell transplantation. These are individual case reports; the statement is that such management has been reported, not that it is recommended.",
+    "pmids": [
+     "31184400",
+     "31081598",
+     "31053147"
+    ],
+    "pmids_verified": {
+     "31053147": "Hematopoietic stem cell transplantation in a patient with type 1 mosaic variegated aneuploidy syndrome.",
+     "31081598": "Long-term remission of bilateral Wilms tumors that developed from premature separation of chromatids/mosaic variegated aneuploidy syndrome due to bilateral nephrectomy and peritoneal dialysis.",
+     "31184400": "Rhabdomyosarcoma with premature chromatid separation-mosaic variegated aneuploidy syndrome: Reduced-intensity chemotherapy."
+    }
+   }
+  ],
+  "CHEMBL473": [],
+  "CHEMBL527": [],
+  "CHEMBL563": [],
+  "CHEMBL585": [],
+  "CHEMBL589586": [],
+  "CHEMBL848": [],
+  "CHEMBL92": [
+   {
+    "claim_level": "cancer cells and one clinical trial (taxanes); nothing verified in MVA or for non-taxane agents",
+    "class": "microtubule_targeting",
+    "direction_hint": "unknown_possibly_unfavourable_in_weak_checkpoint_context",
+    "note": "For taxanes, reduced BubR1 and a weakened spindle checkpoint were found in a paclitaxel-resistant ovarian cancer line, and high chromosomal instability was associated with taxane resistance in an ovarian cancer trial. Another study found that paclitaxel kills breast tumour cells through chromosome missegregation on multipolar spindles rather than through mitotic arrest, so the dependence on the checkpoint is disputed. The direction of effect in a BUB1B-deficient child is therefore unknown; the evidence found concerns taxanes only.",
+    "pmids": [
+     "17234259",
+     "19458043",
+     "24670687"
+    ],
+    "pmids_verified": {
+     "17234259": "Weakened spindle checkpoint with reduced BubR1 expression in paclitaxel-resistant ovarian carcinoma cell line SKOV3-TR30.",
+     "19458043": "Chromosomal instability determines taxane response.",
+     "24670687": "Cytotoxicity of paclitaxel in breast cancer is due to chromosome missegregation on multipolar spindles."
+    }
+   }
+  ],
+  "CHEMBL940": []
+ },
+ "pmids_not_found": []
+}

@@ -1,0 +1,29 @@
+drug_id,name,is_new,class,robustness,robustness_count,scorable_before,curated_best_z,expanded_best_z,n_module_proteins_linked,promiscuous,oral,parenteral,topical,pediatric_status,min_age_years
+CHEMBL451887,CARFILZOMIB,False,antineoplastic_tumour_context,robust,9,True,-9.79,-9.79,32,True,False,True,False,NOT_ESTABLISHED,
+CHEMBL3545432,IXAZOMIB CITRATE,False,constitutional_hypothesis,robust,9,True,-9.7,-9.7,32,True,True,False,False,NOT_ESTABLISHED,
+CHEMBL92,DOCETAXEL ANHYDROUS,False,constitutional_hypothesis,robust,9,True,-9.28,-9.28,15,True,False,True,False,MIXED,
+CHEMBL107,COLCHICINE,False,constitutional_hypothesis,robust,9,True,-9.21,-9.21,15,True,True,False,False,UNKNOWN,4.0
+CHEMBL325041,BORTEZOMIB,False,antineoplastic_tumour_context,robust,9,True,-9.42,-9.21,33,True,False,False,False,NOT_ESTABLISHED,21.0
+CHEMBL1201748,CABAZITAXEL,False,antineoplastic_tumour_context,robust,9,True,-9.17,-9.17,15,True,False,True,False,MIXED,
+CHEMBL2110725,VINFLUNINE,False,antineoplastic_tumour_context,robust,9,True,-9.06,-9.06,15,True,False,False,False,UNKNOWN,
+CHEMBL1743082,TRASTUZUMAB EMTANSINE,False,antineoplastic_tumour_context,robust,9,True,-9.04,-9.04,15,True,False,True,False,NOT_ESTABLISHED,
+CHEMBL1201752,IXABEPILONE,False,antineoplastic_tumour_context,robust,9,True,-8.85,-8.98,15,True,False,True,False,NOT_ESTABLISHED,
+CHEMBL3545132,MIRVETUXIMAB SORAVTANSINE,False,antineoplastic_tumour_context,robust,9,True,-8.96,-8.96,15,True,False,True,False,NOT_ESTABLISHED,
+CHEMBL428647,PACLITAXEL,False,antineoplastic_tumour_context,robust,9,True,-9.06,-8.91,15,True,False,True,False,UNKNOWN,
+CHEMBL3301589,ENFORTUMAB VEDOTIN,False,antineoplastic_tumour_context,robust,9,True,-8.9,-8.9,15,True,False,True,False,NOT_ESTABLISHED,
+CHEMBL1742994,BRENTUXIMAB VEDOTIN,False,antineoplastic_tumour_context,robust,9,True,-8.35,-8.35,15,True,False,True,False,MIXED,2.0
+CHEMBL3301582,POLATUZUMAB VEDOTIN,False,antineoplastic_tumour_context,robust,9,True,-8.3,-8.3,15,True,False,True,False,NOT_ESTABLISHED,
+CHEMBL4297841,TISOTUMAB VEDOTIN,False,antineoplastic_tumour_context,robust,9,True,-7.98,-7.98,15,True,False,True,False,NOT_ESTABLISHED,
+CHEMBL2103830,FOSTAMATINIB,True,constitutional_hypothesis,robust,9,True,0.01,-2.9,2,False,True,False,False,NOT_ESTABLISHED,18.0
+CHEMBL3545185,SELINEXOR,False,antineoplastic_tumour_context,robust,9,True,-2.57,-2.57,1,False,True,False,False,NOT_ESTABLISHED,
+CHEMBL1201607,NATALIZUMAB,False,constitutional_hypothesis,robust,9,True,-1.93,-1.93,1,False,False,True,False,MIXED,
+CHEMBL571546,TIRBANIBULIN,False,constitutional_hypothesis,robust,9,True,-6.25,-1.64,1,False,False,False,True,NOT_ESTABLISHED,18.0
+CHEMBL178,DAUNORUBICIN,True,antineoplastic_tumour_context,intermediate,6,True,-1.4,-2.7,1,False,False,True,False,MIXED,
+CHEMBL1614701,SELUMETINIB,True,antineoplastic_tumour_context,intermediate,6,False,,-2.59,2,False,True,False,False,MIXED,1.0
+CHEMBL218394,BOCEPREVIR,True,constitutional_hypothesis,fragile,2,False,,-4.71,4,False,True,False,False,,
+CHEMBL231813,TELAPREVIR,True,constitutional_hypothesis,fragile,0,False,,-3.22,3,False,True,False,False,,
+CHEMBL501849,SIMEPREVIR,True,constitutional_hypothesis,fragile,0,False,,-2.68,1,False,True,False,False,,
+CHEMBL267495,NALFURAFINE,True,constitutional_hypothesis,fragile,0,False,,-2.58,2,False,True,False,False,,
+CHEMBL70,MORPHINE,True,constitutional_hypothesis,fragile,0,False,,-2.21,1,False,True,True,False,,
+CHEMBL56337,EPALRESTAT,True,constitutional_hypothesis,fragile,0,False,,-2.19,1,False,True,False,False,,
+CHEMBL344159,TOLVAPTAN,True,constitutional_hypothesis,fragile,0,True,-1.84,-2.14,0,False,True,False,False,,

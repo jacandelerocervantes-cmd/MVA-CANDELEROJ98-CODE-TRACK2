@@ -1,0 +1,509 @@
+{
+  "agreement": {
+    "learned_oof_vs_ai": {
+      "accuracy": {
+        "ci95": [
+          0.2548,
+          0.4651
+        ],
+        "estimate": 0.3525
+      },
+      "kappa": {
+        "ci95": [
+          -0.0574,
+          0.188
+        ],
+        "estimate": 0.0568
+      },
+      "kappa_benefit": {
+        "ci95": [
+          0.0784,
+          0.4449
+        ],
+        "estimate": 0.2583
+      },
+      "kappa_harm": {
+        "ci95": [
+          -0.2514,
+          0.1082
+        ],
+        "estimate": -0.0806
+      },
+      "kappa_no_effect": {
+        "ci95": [
+          -0.0955,
+          -0.0129
+        ],
+        "estimate": -0.0508
+      },
+      "kappa_unclear": {
+        "ci95": [
+          -0.1146,
+          0.3005
+        ],
+        "estimate": 0.0639
+      },
+      "recall_benefit": {
+        "ci95": [
+          0.4118,
+          0.7436
+        ],
+        "estimate": 0.5714
+      },
+      "recall_harm": {
+        "ci95": [
+          0.2931,
+          0.6512
+        ],
+        "estimate": 0.4717
+      },
+      "recall_no_effect": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "estimate": 0.0
+      },
+      "recall_unclear": {
+        "ci95": [
+          0.0,
+          0.3333
+        ],
+        "estimate": 0.1333
+      }
+    },
+    "rule_vs_ai": {
+      "accuracy": {
+        "ci95": [
+          0.3846,
+          0.6014
+        ],
+        "estimate": 0.4964
+      },
+      "kappa": {
+        "ci95": [
+          0.1601,
+          0.4416
+        ],
+        "estimate": 0.3077
+      },
+      "kappa_benefit": {
+        "ci95": [
+          0.3953,
+          0.7301
+        ],
+        "estimate": 0.5771
+      },
+      "kappa_harm": {
+        "ci95": [
+          0.2129,
+          0.6162
+        ],
+        "estimate": 0.4254
+      },
+      "kappa_no_effect": {
+        "ci95": [
+          0.0171,
+          0.5532
+        ],
+        "estimate": 0.2851
+      },
+      "kappa_unclear": {
+        "ci95": [
+          -0.1941,
+          0.2018
+        ],
+        "estimate": 0.0084
+      },
+      "recall_benefit": {
+        "ci95": [
+          0.3421,
+          0.6765
+        ],
+        "estimate": 0.5143
+      },
+      "recall_harm": {
+        "ci95": [
+          0.4,
+          0.7869
+        ],
+        "estimate": 0.6038
+      },
+      "recall_no_effect": {
+        "ci95": [
+          0.0645,
+          0.5833
+        ],
+        "estimate": 0.2857
+      },
+      "recall_unclear": {
+        "ci95": [
+          0.1538,
+          0.6572
+        ],
+        "estimate": 0.4333
+      }
+    },
+    "rule_vs_learned_oof": {
+      "accuracy": {
+        "ci95": [
+          0.2329,
+          0.4389
+        ],
+        "estimate": 0.3309
+      },
+      "kappa": {
+        "ci95": [
+          -0.0408,
+          0.2084
+        ],
+        "estimate": 0.0781
+      },
+      "kappa_benefit": {
+        "ci95": [
+          0.1046,
+          0.5023
+        ],
+        "estimate": 0.2896
+      },
+      "kappa_harm": {
+        "ci95": [
+          -0.2634,
+          0.1546
+        ],
+        "estimate": -0.0626
+      },
+      "kappa_no_effect": {
+        "ci95": [
+          -0.0366,
+          0.506
+        ],
+        "estimate": 0.2162
+      },
+      "kappa_unclear": {
+        "ci95": [
+          -0.1162,
+          0.1695
+        ],
+        "estimate": 0.0158
+      },
+      "recall_benefit": {
+        "ci95": [
+          0.5385,
+          0.9412
+        ],
+        "estimate": 0.75
+      },
+      "recall_harm": {
+        "ci95": [
+          0.2745,
+          0.7059
+        ],
+        "estimate": 0.4792
+      },
+      "recall_no_effect": {
+        "ci95": [
+          0.0,
+          0.4444
+        ],
+        "estimate": 0.1667
+      },
+      "recall_unclear": {
+        "ci95": [
+          0.0152,
+          0.2076
+        ],
+        "estimate": 0.1017
+      }
+    }
+  },
+  "bootstrap_resamples": 2000,
+  "folds": "StratifiedGroupKFold(5) grouped by PMID",
+  "label_counts": {
+    "ai": {
+      "benefit": 35,
+      "harm": 53,
+      "no_effect": 21,
+      "unclear": 30
+    },
+    "learned_oof": {
+      "benefit": 49,
+      "harm": 73,
+      "no_effect": 4,
+      "unclear": 13
+    },
+    "rule": {
+      "benefit": 20,
+      "harm": 48,
+      "no_effect": 12,
+      "unclear": 59
+    }
+  },
+  "label_mapping": {
+    "may_harm": "harm",
+    "may_help": "benefit",
+    "no_effect": "no_effect",
+    "selectively_kills_aneuploid_cells": "harm",
+    "unclear": "unclear"
+  },
+  "lexicon_version": "v1, written before looking at any discordant sentence; not tuned afterwards",
+  "most_discordant_20": [
+    {
+      "distinct_labels": 3,
+      "drug": "COLCEMID",
+      "labels": {
+        "ai": "no_effect",
+        "ai_4class": "no_effect",
+        "learned_oof": "harm",
+        "rule": "unclear"
+      },
+      "pmid": "10877982",
+      "sentence_120": "These findings indicate that the infants' cells were insensitive to the colcemid-induced mitotic-spindle checkpoint."
+    },
+    {
+      "distinct_labels": 3,
+      "drug": "FUROSEMIDE",
+      "labels": {
+        "ai": "may_harm",
+        "ai_4class": "harm",
+        "learned_oof": "no_effect",
+        "rule": "unclear"
+      },
+      "pmid": "19460127",
+      "sentence_120": "We suggest that in preterm infants, furosemide should be prescribed with caution and close monitoring of calcium excreti"
+    },
+    {
+      "distinct_labels": 3,
+      "drug": "CHLOROQUINE",
+      "labels": {
+        "ai": "unclear",
+        "ai_4class": "unclear",
+        "learned_oof": "benefit",
+        "rule": "harm"
+      },
+      "pmid": "21315436",
+      "sentence_120": "Compounds that cause lethality in aneuploid, but not euploid, cells could therefore provide new cancer therapies. We hav"
+    },
+    {
+      "distinct_labels": 3,
+      "drug": "CHLOROQUINE",
+      "labels": {
+        "ai": "unclear",
+        "ai_4class": "unclear",
+        "learned_oof": "benefit",
+        "rule": "harm"
+      },
+      "pmid": "21315436",
+      "sentence_120": "Compounds that cause lethality in aneuploid, but not euploid, cells could therefore provide new cancer therapies. We hav"
+    },
+    {
+      "distinct_labels": 3,
+      "drug": "CHLOROQUINE",
+      "labels": {
+        "ai": "unclear",
+        "ai_4class": "unclear",
+        "learned_oof": "benefit",
+        "rule": "harm"
+      },
+      "pmid": "21315436",
+      "sentence_120": "We have identified the energy stress-inducing agent AICAR, the protein folding inhibitor 17-AAG, and the autophagy inhib"
+    },
+    {
+      "distinct_labels": 3,
+      "drug": "SOMATROPIN",
+      "labels": {
+        "ai": "may_help",
+        "ai_4class": "benefit",
+        "learned_oof": "harm",
+        "rule": "unclear"
+      },
+      "pmid": "22308854",
+      "sentence_120": "GH may have increased FH."
+    },
+    {
+      "distinct_labels": 3,
+      "drug": "SIROLIMUS",
+      "labels": {
+        "ai": "may_help",
+        "ai_4class": "benefit",
+        "learned_oof": "harm",
+        "rule": "unclear"
+      },
+      "pmid": "23665330",
+      "sentence_120": "In this study, we provide evidence that rapamycin (sirolimus) abrogates growth of RMS development in a RMS xenograft mou"
+    },
+    {
+      "distinct_labels": 3,
+      "drug": "ADRENOCORTICOTROPIC HORMONE",
+      "labels": {
+        "ai": "no_effect",
+        "ai_4class": "no_effect",
+        "learned_oof": "harm",
+        "rule": "unclear"
+      },
+      "pmid": "23916859",
+      "sentence_120": "Seizures were refractory to conventional antiepileptics and treatment with adrenocorticotropic hormone."
+    },
+    {
+      "distinct_labels": 3,
+      "drug": "CORTICOTROPIN",
+      "labels": {
+        "ai": "no_effect",
+        "ai_4class": "no_effect",
+        "learned_oof": "harm",
+        "rule": "unclear"
+      },
+      "pmid": "23916859",
+      "sentence_120": "Seizures were refractory to conventional antiepileptics and treatment with adrenocorticotropic hormone."
+    },
+    {
+      "distinct_labels": 3,
+      "drug": "PACLITAXEL",
+      "labels": {
+        "ai": "no_effect",
+        "ai_4class": "no_effect",
+        "learned_oof": "harm",
+        "rule": "unclear"
+      },
+      "pmid": "24670687",
+      "sentence_120": "Contrary to the previous hypothesis, we find that mitotic arrest is dispensable for tumor regression in patients."
+    },
+    {
+      "distinct_labels": 3,
+      "drug": "PACLITAXEL",
+      "labels": {
+        "ai": "no_effect",
+        "ai_4class": "no_effect",
+        "learned_oof": "harm",
+        "rule": "unclear"
+      },
+      "pmid": "24670687",
+      "sentence_120": "Contrary to the previous hypothesis, we find that mitotic arrest is dispensable for tumor regression in patients."
+    },
+    {
+      "distinct_labels": 3,
+      "drug": "CHLOROQUINE",
+      "labels": {
+        "ai": "unclear",
+        "ai_4class": "unclear",
+        "learned_oof": "harm",
+        "rule": "no_effect"
+      },
+      "pmid": "26404941",
+      "sentence_120": "Our initial efforts to address this question led to the remarkable finding that many cancer cell lines do not experience"
+    },
+    {
+      "distinct_labels": 3,
+      "drug": "VINCRISTINE",
+      "labels": {
+        "ai": "may_help",
+        "ai_4class": "benefit",
+        "learned_oof": "harm",
+        "rule": "unclear"
+      },
+      "pmid": "26851014",
+      "sentence_120": "Volasertib showed synergistic activity with vincristine but antagonistic effects with etoposide."
+    },
+    {
+      "distinct_labels": 3,
+      "drug": "DASATINIB ANHYDROUS",
+      "labels": {
+        "ai": "may_help",
+        "ai_4class": "benefit",
+        "learned_oof": "harm",
+        "rule": "unclear"
+      },
+      "pmid": "29988130",
+      "sentence_120": "The senolytic cocktail, dasatinib plus quercetin, which causes selective elimination of senescent cells, decreased the n"
+    },
+    {
+      "distinct_labels": 3,
+      "drug": "TREOSULFAN",
+      "labels": {
+        "ai": "unclear",
+        "ai_4class": "unclear",
+        "learned_oof": "harm",
+        "rule": "no_effect"
+      },
+      "pmid": "31053147",
+      "sentence_120": "The engraftment occurred, and no severe toxicity was observed soon after the HSCT, but on day + 47, graft rejection was "
+    },
+    {
+      "distinct_labels": 3,
+      "drug": "SIROLIMUS",
+      "labels": {
+        "ai": "may_help",
+        "ai_4class": "benefit",
+        "learned_oof": "harm",
+        "rule": "unclear"
+      },
+      "pmid": "31738183",
+      "sentence_120": "Additionally, mice carrying monoallelic BubR1 mutations were prone to select MVA-related pathologies later in life, with"
+    },
+    {
+      "distinct_labels": 3,
+      "drug": "SIROLIMUS",
+      "labels": {
+        "ai": "may_help",
+        "ai_4class": "benefit",
+        "learned_oof": "harm",
+        "rule": "unclear"
+      },
+      "pmid": "32908143",
+      "sentence_120": "We demonstrate that chronic mTORC1 inhibition with rapamycin is overwhelmingly, but not entirely, positive for aging mou"
+    },
+    {
+      "distinct_labels": 3,
+      "drug": "MECASERMIN",
+      "labels": {
+        "ai": "may_help",
+        "ai_4class": "benefit",
+        "learned_oof": "harm",
+        "rule": "no_effect"
+      },
+      "pmid": "33434161",
+      "sentence_120": "In most NPP children with SPIGFD, with or without LS, rhIGF1 therapy promotes linear growth."
+    },
+    {
+      "distinct_labels": 3,
+      "drug": "MECASERMIN",
+      "labels": {
+        "ai": "may_harm",
+        "ai_4class": "harm",
+        "learned_oof": "benefit",
+        "rule": "unclear"
+      },
+      "pmid": "33434161",
+      "sentence_120": "Treatment-emergent AEs were experienced by 65.3% of patients; hypoglycaemia was most common."
+    },
+    {
+      "distinct_labels": 3,
+      "drug": "SIROLIMUS",
+      "labels": {
+        "ai": "no_effect",
+        "ai_4class": "no_effect",
+        "learned_oof": "harm",
+        "rule": "unclear"
+      },
+      "pmid": "33484480",
+      "sentence_120": "Here, we show that rapamycin, while significantly lowering mTOR signaling, failed to improve life span nor healthspan of"
+    }
+  ],
+  "n_all_three_differ": 33,
+  "n_papers": 81,
+  "n_sentences": 139,
+  "rule_design_distribution": {
+    "in vitro": 13,
+    "none": 125,
+    "randomised trial": 1
+  },
+  "rule_system_distribution": {
+    "human cells": 16,
+    "human patients": 30,
+    "in vitro biochemical": 1,
+    "invertebrate or yeast": 2,
+    "mouse or rat": 20,
+    "review or unspecified": 70
+  },
+  "seed": 20261015
+}

@@ -1,0 +1,28 @@
+{
+  "id": "bub1b_down_growth_mtor_ampk",
+  "gene": "BUB1B",
+  "effect": "downstream_consequence_of_bub1b_loss",
+  "disease": "Mosaic variegated aneuploidy syndrome 1 (MVA1)",
+  "pathway": "Growth signalling (mTORC1 and AMPK energy sensing)",
+  "derived_from": "growth restriction and muscle wasting phenotype (hypothesis)",
+  "status": "mechanism_candidate",
+  "evidence_level": "downstream_consequence_hypothesis_literature_supported",
+  "seeds": {
+    "reactome_pathways": [
+      "R-HSA-166208",
+      "R-HSA-380972"
+    ],
+    "genes": [
+      "MTOR",
+      "RPTOR",
+      "TSC1",
+      "TSC2",
+      "PRKAA1",
+      "PRKAA2"
+    ],
+    "gene_source": "Core components of the pathway; documented in docs/mechanism_screen.md"
+  },
+  "hypothesis_note": "Consequence of the primary mechanism, not an independent genetic finding; its relevance for this patient is a hypothesis.",
+  "weight": 0.5,
+  "weight_note": "Author's convention: 1.0 for the primary mechanism (pathogenic variant with matching phenotype); 0.5 for downstream consequences (hypotheses)."
+}

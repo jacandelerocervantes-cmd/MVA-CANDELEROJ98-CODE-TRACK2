@@ -1,0 +1,2706 @@
+{
+ "code": "track2.fda_approval_check.check (unmodified)",
+ "confirmed": [
+  "ABEMACICLIB",
+  "ACAMPROSATE",
+  "ACYCLOVIR",
+  "ADAPALENE",
+  "AMBRISENTAN",
+  "AMIODARONE",
+  "AMISULPRIDE",
+  "AMPHETAMINE",
+  "AMPHOTERICIN B",
+  "APROCITENTAN",
+  "ATROPINE",
+  "AURANOFIN",
+  "AXITINIB",
+  "BENZONATATE",
+  "BETAMETHASONE",
+  "BINIMETINIB",
+  "BOSENTAN",
+  "BUMETANIDE",
+  "CALCITRIOL",
+  "CARBIDOPA ANHYDROUS",
+  "CEFIXIME",
+  "CENOBAMATE",
+  "CHENODIOL",
+  "CHLOROTHIAZIDE",
+  "CLEMASTINE",
+  "CRIZOTINIB",
+  "DABRAFENIB",
+  "DASATINIB ANHYDROUS",
+  "DICLOFENAC",
+  "DIFLORASONE DIACETATE",
+  "DOBUTAMINE",
+  "DRONEDARONE",
+  "DROSPIRENONE",
+  "EDARAVONE",
+  "ENZALUTAMIDE",
+  "EPLERENONE",
+  "ERDAFITINIB",
+  "ESLICARBAZEPINE",
+  "ESTRADIOL CYPIONATE",
+  "ESTRADIOL VALERATE",
+  "ESTRIOL",
+  "ETHACRYNIC ACID",
+  "ETODOLAC",
+  "FLUCYTOSINE",
+  "FLUMAZENIL",
+  "FLUPHENAZINE",
+  "FLUVOXAMINE",
+  "FRUQUINTINIB",
+  "FUROSEMIDE",
+  "FUTIBATINIB",
+  "GALLIUM NITRATE",
+  "HOMATROPINE",
+  "HYDROCHLOROTHIAZIDE",
+  "HYDROXYCHLOROQUINE",
+  "ISOTRETINOIN",
+  "KETOPROFEN",
+  "LAZERTINIB",
+  "LENALIDOMIDE",
+  "LEVOFLOXACIN ANHYDROUS",
+  "LIDOCAINE",
+  "LORAZEPAM",
+  "LOSARTAN",
+  "LOXAPINE",
+  "MACITENTAN",
+  "MAVACAMTEN",
+  "MECAMYLAMINE",
+  "METHADONE",
+  "METHOTREXATE",
+  "MIRTAZAPINE",
+  "MOLINDONE",
+  "NELFINAVIR",
+  "NERATINIB",
+  "NIACIN",
+  "NIACINAMIDE",
+  "NICARDIPINE",
+  "NIFEDIPINE",
+  "NIMODIPINE",
+  "NIROGACESTAT",
+  "NITAZOXANIDE",
+  "NIZATIDINE",
+  "OXCARBAZEPINE",
+  "OXYBUTYNIN",
+  "PEMETREXED",
+  "PEMIGATINIB",
+  "PENICILLIN G",
+  "PHENOXYBENZAMINE",
+  "PIMOZIDE",
+  "PRALSETINIB",
+  "PRAZIQUANTEL",
+  "PREDNISOLONE",
+  "PRIMIDONE",
+  "PROPOFOL",
+  "PYRIMETHAMINE",
+  "QUININE",
+  "RALOXIFENE",
+  "RANOLAZINE",
+  "RITLECITINIB",
+  "RUFINAMIDE",
+  "RUXOLITINIB",
+  "SALMETEROL",
+  "SCOPOLAMINE",
+  "SODIUM CITRATE",
+  "SONIDEGIB",
+  "SPARSENTAN",
+  "SUFENTANIL",
+  "SULFACETAMIDE",
+  "TAZAROTENE",
+  "TEDIZOLID",
+  "TEMAZEPAM",
+  "THONZONIUM",
+  "TIGECYCLINE",
+  "TIVOZANIB",
+  "TOFACITINIB",
+  "TORSEMIDE",
+  "TOVORAFENIB",
+  "TRAMADOL",
+  "TRETINOIN",
+  "TRIAMTERENE",
+  "TRICLABENDAZOLE",
+  "TRIFLUOPERAZINE",
+  "URSODIOL",
+  "VECURONIUM",
+  "VENETOCLAX",
+  "VERAPAMIL"
+ ],
+ "drugs": {
+  "ABEMACICLIB": {
+   "applications": [
+    "ANDA220238",
+    "NDA208716",
+    "NDA208855"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "VERZENIO"
+   ],
+   "found_by": "products.active_ingredients.name",
+   "marketing_statuses": [
+    "None (Tentative Approval)",
+    "Prescription"
+   ],
+   "n_records": 3
+  },
+  "ACAMPROSATE": {
+   "applications": [
+    "ANDA200142",
+    "ANDA202229",
+    "ANDA205995",
+    "ANDA218984",
+    "ANDA219904"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "ACAMPROSATE CALCIUM"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 5
+  },
+  "ACYCLOVIR": {
+   "applications": [
+    "ANDA074738",
+    "ANDA074889",
+    "ANDA074891",
+    "ANDA074930",
+    "ANDA075090",
+    "ANDA075211"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "ACYCLOVIR",
+    "ACYCLOVIR SODIUM",
+    "XERESE",
+    "ZOVIRAX"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Prescription"
+   ],
+   "n_records": 47
+  },
+  "ADAPALENE": {
+   "applications": [
+    "ANDA090824",
+    "ANDA090962",
+    "ANDA091314",
+    "ANDA200298",
+    "ANDA201000",
+    "ANDA204593"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "ADAPALENE",
+    "ADAPALENE AND BENZOYL PEROXIDE",
+    "CABTREO",
+    "DIFFERIN"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Over-the-counter",
+    "Prescription"
+   ],
+   "n_records": 25
+  },
+  "ALFACALCIDOL": {
+   "applications": [],
+   "confirmed": false,
+   "example_brands": [],
+   "found_by": null,
+   "marketing_statuses": [],
+   "n_records": 0
+  },
+  "AMBRISENTAN": {
+   "applications": [
+    "ANDA208252",
+    "ANDA208354",
+    "ANDA208441",
+    "ANDA210058",
+    "ANDA210701",
+    "ANDA210715"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "AMBRISENTAN",
+    "LETAIRIS"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Prescription"
+   ],
+   "n_records": 9
+  },
+  "AMIODARONE": {
+   "applications": [
+    "ANDA075135",
+    "ANDA075389",
+    "ANDA075424",
+    "ANDA075761",
+    "ANDA076217",
+    "ANDA076362"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "AMIODARONE HYDROCHLORIDE",
+    "NEXTERONE",
+    "PACERONE"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Prescription"
+   ],
+   "n_records": 16
+  },
+  "AMISULPRIDE": {
+   "applications": [
+    "NDA209510"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "BARHEMSYS"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 1
+  },
+  "AMPHETAMINE": {
+   "applications": [
+    "ANDA040422",
+    "ANDA040439",
+    "ANDA040440",
+    "ANDA040444",
+    "ANDA040480",
+    "ANDA077302"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "ADDERALL XR 10",
+    "ADDERALL XR 15",
+    "ADDERALL XR 20",
+    "ADDERALL XR 25"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 36
+  },
+  "AMPHOTERICIN B": {
+   "applications": [
+    "ANDA063206",
+    "ANDA212514",
+    "ANDA214010",
+    "ANDA215354"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "AMPHOTERICIN B"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 4
+  },
+  "APROCITENTAN": {
+   "applications": [
+    "NDA217686"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "TRYVIO"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 1
+  },
+  "ATALUREN": {
+   "applications": [],
+   "confirmed": false,
+   "example_brands": [],
+   "found_by": null,
+   "marketing_statuses": [],
+   "n_records": 0
+  },
+  "ATROPINE": {
+   "applications": [
+    "ANDA086727",
+    "ANDA087708",
+    "ANDA207128",
+    "ANDA210819",
+    "ANDA211362",
+    "ANDA212461"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "ATROPINE SULFATE",
+    "DIPHENOXYLATE HYDROCHLORIDE AND ATROPINE SULFATE",
+    "DUODOTE",
+    "ISOPTO ATROPINE"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Prescription"
+   ],
+   "n_records": 34
+  },
+  "AURANOFIN": {
+   "applications": [
+    "NDA018689"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "RIDAURA"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 1
+  },
+  "AXITINIB": {
+   "applications": [
+    "NDA202324"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "INLYTA"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 1
+  },
+  "BENZONATATE": {
+   "applications": [
+    "ANDA040597",
+    "ANDA040627",
+    "ANDA040682",
+    "ANDA081297",
+    "ANDA091133",
+    "ANDA202765"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "BENZONATATE"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 9
+  },
+  "BETAMETHASONE": {
+   "applications": [
+    "ANDA070069",
+    "ANDA070275",
+    "ANDA070885",
+    "ANDA071012",
+    "ANDA071467",
+    "ANDA072041"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "BETA-VAL",
+    "BETAMETHASONE ACETATE AND BETAMETHASONE SODIUM PHOSPHATE",
+    "BETAMETHASONE DIPROPIONATE",
+    "BETAMETHASONE VALERATE"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Prescription"
+   ],
+   "n_records": 52
+  },
+  "BINIMETINIB": {
+   "applications": [
+    "NDA210498"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "MEKTOVI"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 1
+  },
+  "BOSENTAN": {
+   "applications": [
+    "ANDA207110",
+    "ANDA207760",
+    "ANDA209324",
+    "ANDA213154",
+    "ANDA213981",
+    "NDA021290"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "BOSENTAN",
+    "TRACLEER"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 7
+  },
+  "BUMETANIDE": {
+   "applications": [
+    "ANDA074225",
+    "ANDA074441",
+    "ANDA074700",
+    "ANDA079196",
+    "ANDA202900",
+    "ANDA209724"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "BUMETANIDE",
+    "BUMEX",
+    "ENBUMYST"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 20
+  },
+  "BUTABARBITAL": {
+   "applications": [],
+   "confirmed": false,
+   "example_brands": [],
+   "found_by": null,
+   "marketing_statuses": [],
+   "n_records": 0
+  },
+  "CALCITRIOL": {
+   "applications": [
+    "ANDA075765",
+    "ANDA076242",
+    "ANDA076917",
+    "ANDA091174",
+    "ANDA091356",
+    "ANDA203289"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "CALCITRIOL",
+    "ROCALTROL",
+    "VECTICAL"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Prescription"
+   ],
+   "n_records": 13
+  },
+  "CARBENOXOLONE": {
+   "applications": [],
+   "confirmed": false,
+   "example_brands": [],
+   "found_by": null,
+   "marketing_statuses": [],
+   "n_records": 0
+  },
+  "CARBIDOPA ANHYDROUS": {
+   "applications": [
+    "ANDA073589",
+    "ANDA073607",
+    "ANDA073618",
+    "ANDA074260",
+    "ANDA075091",
+    "ANDA076521"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "CARBIDOPA",
+    "CARBIDOPA AND LEVODOPA",
+    "CARBIDOPA, LEVODOPA AND ENTACAPONE",
+    "CREXONT"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Prescription"
+   ],
+   "n_records": 32
+  },
+  "CEFIXIME": {
+   "applications": [
+    "ANDA065129",
+    "ANDA065355",
+    "ANDA204835",
+    "ANDA206358",
+    "ANDA210574",
+    "ANDA217607"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "CEFIXIME",
+    "SUPRAX"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Prescription"
+   ],
+   "n_records": 7
+  },
+  "CENOBAMATE": {
+   "applications": [
+    "NDA212839"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "XCOPRI"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 1
+  },
+  "CHENODIOL": {
+   "applications": [
+    "ANDA091019",
+    "NDA219488"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "CHENODIOL",
+    "CTEXLI"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 2
+  },
+  "CHLOROTHIAZIDE": {
+   "applications": [
+    "ANDA090896",
+    "ANDA091546",
+    "ANDA202462",
+    "ANDA202561",
+    "ANDA218630",
+    "NDA011870"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "CHLOROTHIAZIDE SODIUM"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Prescription"
+   ],
+   "n_records": 6
+  },
+  "CHLORPROTHIXENE": {
+   "applications": [],
+   "confirmed": false,
+   "example_brands": [],
+   "found_by": null,
+   "marketing_statuses": [],
+   "n_records": 0
+  },
+  "CLEMASTINE": {
+   "applications": [
+    "ANDA073283",
+    "ANDA073399",
+    "ANDA074884"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "CLEMASTINE FUMARATE"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 3
+  },
+  "COPANLISIB": {
+   "applications": [],
+   "confirmed": false,
+   "example_brands": [],
+   "found_by": null,
+   "marketing_statuses": [],
+   "n_records": 0
+  },
+  "CRIZOTINIB": {
+   "applications": [
+    "NDA202570",
+    "NDA217581"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "XALKORI"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 2
+  },
+  "DABRAFENIB": {
+   "applications": [
+    "NDA202806",
+    "NDA217514"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "TAFINLAR"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 2
+  },
+  "DAPRODUSTAT": {
+   "applications": [],
+   "confirmed": false,
+   "example_brands": [],
+   "found_by": null,
+   "marketing_statuses": [],
+   "n_records": 0
+  },
+  "DASATINIB ANHYDROUS": {
+   "applications": [
+    "ANDA202103",
+    "ANDA203180",
+    "ANDA211094",
+    "ANDA213383",
+    "ANDA214350",
+    "ANDA216261"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "DASATINIB",
+    "PHYRAGO",
+    "SPRYCEL"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 11
+  },
+  "DESERPIDINE": {
+   "applications": [],
+   "confirmed": false,
+   "example_brands": [],
+   "found_by": null,
+   "marketing_statuses": [],
+   "n_records": 0
+  },
+  "DEXKETOPROFEN": {
+   "applications": [],
+   "confirmed": false,
+   "example_brands": [],
+   "found_by": null,
+   "marketing_statuses": [],
+   "n_records": 0
+  },
+  "DICLOFENAC": {
+   "applications": [
+    "ANDA074514",
+    "ANDA075185",
+    "ANDA075219",
+    "ANDA075229",
+    "ANDA075281",
+    "ANDA075463"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "ARTHROTEC",
+    "CAMBIA",
+    "CATAFLAM",
+    "DICLOFENAC POTASSIUM"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Over-the-counter",
+    "Prescription"
+   ],
+   "n_records": 62
+  },
+  "DIDANOSINE": {
+   "applications": [],
+   "confirmed": false,
+   "example_brands": [],
+   "found_by": null,
+   "marketing_statuses": [],
+   "n_records": 0
+  },
+  "DIFLORASONE DIACETATE": {
+   "applications": [
+    "ANDA075331",
+    "ANDA075508",
+    "ANDA207440"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "DIFLORASONE DIACETATE"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 3
+  },
+  "DOBUTAMINE": {
+   "applications": [
+    "ANDA074086",
+    "ANDA074277",
+    "ANDA216131",
+    "NDA020201",
+    "NDA020255"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "DOBUTAMINE HYDROCHLORIDE",
+    "DOBUTAMINE HYDROCHLORIDE IN DEXTROSE 5% IN PLASTIC CONTAINER"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 5
+  },
+  "DRONEDARONE": {
+   "applications": [
+    "NDA022425"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "MULTAQ"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 1
+  },
+  "DROSPIRENONE": {
+   "applications": [
+    "ANDA078833",
+    "ANDA079221",
+    "ANDA090114",
+    "ANDA201661",
+    "ANDA201663",
+    "ANDA202131"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "ANGELIQ",
+    "BEYAZ",
+    "DROSPIRENONE AND ETHINYL ESTRADIOL",
+    "DROSPIRENONE, ETHINYL ESTRADIOL AND LEVOMEFOLATE CALCIUM"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 22
+  },
+  "DYDROGESTERONE": {
+   "applications": [],
+   "confirmed": false,
+   "example_brands": [],
+   "found_by": null,
+   "marketing_statuses": [],
+   "n_records": 0
+  },
+  "EDARAVONE": {
+   "applications": [
+    "ANDA216199",
+    "ANDA216902",
+    "NDA215446"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "EDARAVONE",
+    "RADICAVA ORS"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Prescription"
+   ],
+   "n_records": 3
+  },
+  "ENZALUTAMIDE": {
+   "applications": [
+    "NDA203415",
+    "NDA213674"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "XTANDI"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 2
+  },
+  "EPLERENONE": {
+   "applications": [
+    "ANDA206922",
+    "ANDA207842",
+    "ANDA208283",
+    "ANDA213812",
+    "ANDA214663",
+    "NDA021437"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "EPLERENONE",
+    "INSPRA"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Prescription"
+   ],
+   "n_records": 6
+  },
+  "ERDAFITINIB": {
+   "applications": [
+    "NDA212018"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "BALVERSA"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 1
+  },
+  "ESLICARBAZEPINE": {
+   "applications": [
+    "ANDA211186",
+    "ANDA211199",
+    "ANDA211219",
+    "ANDA211227",
+    "ANDA211238",
+    "ANDA211246"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "APTIOM",
+    "ESLICARBAZEPINE ACETATE"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 8
+  },
+  "ESTRADIOL CYPIONATE": {
+   "applications": [
+    "ANDA085470"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "DEPO-ESTRADIOL"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Prescription"
+   ],
+   "n_records": 1
+  },
+  "ESTRADIOL VALERATE": {
+   "applications": [
+    "ANDA090920",
+    "ANDA203723",
+    "ANDA216656",
+    "NDA009402",
+    "NDA022252"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "DELESTROGEN",
+    "ESTRADIOL VALERATE",
+    "NATAZIA"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Prescription"
+   ],
+   "n_records": 5
+  },
+  "ESTRIOL": {
+   "applications": [
+    "ANDA075357"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "MINOXIDIL (FOR MEN)",
+    "MINOXIDIL (FOR WOMEN)"
+   ],
+   "found_by": "openfda.substance_name",
+   "marketing_statuses": [
+    "Over-the-counter"
+   ],
+   "n_records": 1
+  },
+  "ETHACRYNIC ACID": {
+   "applications": [
+    "ANDA205609",
+    "ANDA208805",
+    "ANDA211232",
+    "ANDA211719",
+    "ANDA211809",
+    "ANDA212417"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "EDECRIN",
+    "ETHACRYNIC ACID"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Prescription"
+   ],
+   "n_records": 7
+  },
+  "ETODOLAC": {
+   "applications": [
+    "ANDA075074",
+    "ANDA075078",
+    "ANDA075126",
+    "ANDA075665",
+    "ANDA076174",
+    "ANDA091134"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "ETODOLAC"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Prescription"
+   ],
+   "n_records": 12
+  },
+  "FLUCYTOSINE": {
+   "applications": [
+    "ANDA201566",
+    "ANDA204652",
+    "ANDA212632",
+    "ANDA213665",
+    "ANDA218005",
+    "NDA017001"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "ANCOBON",
+    "FLUCYTOSINE"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 6
+  },
+  "FLUMAZENIL": {
+   "applications": [
+    "ANDA076755",
+    "ANDA076955",
+    "ANDA078527"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "FLUMAZENIL"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 3
+  },
+  "FLUPHENAZINE": {
+   "applications": [
+    "ANDA040146",
+    "ANDA071413",
+    "ANDA074531",
+    "ANDA074725",
+    "ANDA075918",
+    "ANDA089556"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "FLUPHENAZINE DECANOATE",
+    "FLUPHENAZINE HYDROCHLORIDE"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Prescription"
+   ],
+   "n_records": 26
+  },
+  "FLUVOXAMINE": {
+   "applications": [
+    "ANDA075900",
+    "ANDA091476",
+    "ANDA091482",
+    "ANDA212182",
+    "ANDA217024",
+    "ANDA217917"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "FLUVOXAMINE MALEATE",
+    "LUVOX"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Prescription"
+   ],
+   "n_records": 9
+  },
+  "FRUQUINTINIB": {
+   "applications": [
+    "NDA217564"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "FRUZAQLA"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 1
+  },
+  "FUROSEMIDE": {
+   "applications": [
+    "ANDA070017",
+    "ANDA070086",
+    "ANDA070433",
+    "ANDA070434",
+    "ANDA076796",
+    "ANDA077293"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "FUROSCIX",
+    "FUROSCIX READYFLOW (AUTOINJECTOR)",
+    "FUROSEMIDE",
+    "LASIX ONYU"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Prescription"
+   ],
+   "n_records": 28
+  },
+  "FUTIBATINIB": {
+   "applications": [
+    "NDA214801"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "LYTGOBI"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Prescription"
+   ],
+   "n_records": 1
+  },
+  "GALLIUM NITRATE": {
+   "applications": [
+    "NDA018058",
+    "NDA210828",
+    "NDA212642",
+    "NDA212643",
+    "NDA215841"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "GALLIUM CITRATE GA 67",
+    "GALLIUM GA 68 EDOTREOTIDE",
+    "GALLIUM GA 68 GOZETOTIDE",
+    "LOCAMETZ"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 5
+  },
+  "GLUCOSAMINE": {
+   "applications": [],
+   "confirmed": false,
+   "example_brands": [],
+   "found_by": null,
+   "marketing_statuses": [],
+   "n_records": 0
+  },
+  "HALOPROGIN": {
+   "applications": [],
+   "confirmed": false,
+   "example_brands": [],
+   "found_by": null,
+   "marketing_statuses": [],
+   "n_records": 0
+  },
+  "HEXYLCAINE": {
+   "applications": [],
+   "confirmed": false,
+   "example_brands": [],
+   "found_by": null,
+   "marketing_statuses": [],
+   "n_records": 0
+  },
+  "HOMATROPINE": {
+   "applications": [
+    "ANDA091528",
+    "ANDA203535",
+    "ANDA207176",
+    "ANDA207487",
+    "NDA005213"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "HOMATROPINE METHYLBROMIDE AND HYDROCODONE BITARTRATE",
+    "HYCODAN",
+    "HYDROCODONE BITARTRATE AND HOMATROPINE METHYLBROMIDE"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Prescription"
+   ],
+   "n_records": 5
+  },
+  "HYDROCHLOROTHIAZIDE": {
+   "applications": [
+    "ANDA040412",
+    "ANDA040702",
+    "ANDA040707",
+    "ANDA040780",
+    "ANDA040907",
+    "ANDA071111"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "AMILORIDE HYDROCHLORIDE AND HYDROCHLOROTHIAZIDE",
+    "AMLODIPINE BESYLATE, VALSARTAN AND HYDROCHLOROTHIAZIDE",
+    "ATACAND HCT",
+    "BENAZEPRIL HYDROCHLORIDE AND HYDROCHLOROTHIAZIDE"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "None (Tentative Approval)",
+    "Prescription"
+   ],
+   "n_records": 100
+  },
+  "HYDROXYCHLOROQUINE": {
+   "applications": [
+    "ANDA040081",
+    "ANDA040150",
+    "ANDA040274",
+    "ANDA040657",
+    "ANDA040766",
+    "ANDA201691"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "HYDROXYCHLOROQUINE SULFATE",
+    "PLAQUENIL",
+    "SOVUNA"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 13
+  },
+  "INFIGRATINIB": {
+   "applications": [],
+   "confirmed": false,
+   "example_brands": [],
+   "found_by": null,
+   "marketing_statuses": [],
+   "n_records": 0
+  },
+  "ISOTRETINOIN": {
+   "applications": [
+    "ANDA075945",
+    "ANDA076135",
+    "ANDA076356",
+    "ANDA076485",
+    "ANDA202099",
+    "ANDA205063"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "ABSORICA",
+    "ABSORICA LD",
+    "AMNESTEEM",
+    "CLARAVIS"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Prescription"
+   ],
+   "n_records": 14
+  },
+  "KETOPROFEN": {
+   "applications": [
+    "ANDA074014",
+    "ANDA075679"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "KETOPROFEN"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Prescription"
+   ],
+   "n_records": 2
+  },
+  "LAZERTINIB": {
+   "applications": [
+    "NDA219008"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "LAZCLUZE"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 1
+  },
+  "LENALIDOMIDE": {
+   "applications": [
+    "ANDA201452",
+    "ANDA209348",
+    "ANDA210154",
+    "ANDA210435",
+    "ANDA210480",
+    "ANDA211846"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "LENALIDOMIDE",
+    "REVLIMID"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 16
+  },
+  "LEVOFLOXACIN ANHYDROUS": {
+   "applications": [
+    "ANDA076710",
+    "ANDA076890",
+    "ANDA077652",
+    "ANDA078282",
+    "ANDA078424",
+    "ANDA090343"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "LEVOFLOXACIN",
+    "LEVOFLOXACIN IN DEXTROSE 5% IN PLASTIC CONTAINER"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Prescription"
+   ],
+   "n_records": 18
+  },
+  "LIDOCAINE": {
+   "applications": [
+    "ANDA040078",
+    "ANDA040302",
+    "ANDA040433",
+    "ANDA040708",
+    "ANDA040710",
+    "ANDA040911"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "AKTEN",
+    "BONDLIDO",
+    "FLAVALTA",
+    "GLYDO"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Prescription"
+   ],
+   "n_records": 72
+  },
+  "LORAZEPAM": {
+   "applications": [
+    "ANDA071591",
+    "ANDA072755",
+    "ANDA072926",
+    "ANDA072927",
+    "ANDA072928",
+    "ANDA074243"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "ATIVAN",
+    "LORAZEPAM",
+    "LORAZEPAM INTENSOL"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Prescription"
+   ],
+   "n_records": 18
+  },
+  "LOSARTAN": {
+   "applications": [
+    "ANDA077157",
+    "ANDA078232",
+    "ANDA078243",
+    "ANDA078245",
+    "ANDA090083",
+    "ANDA090382"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "ARBLI",
+    "COZAAR",
+    "HYZAAR",
+    "LOSARTAN POTASSIUM"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 23
+  },
+  "LOXAPINE": {
+   "applications": [
+    "ANDA072062",
+    "ANDA072204",
+    "ANDA072205",
+    "ANDA072206",
+    "ANDA076868",
+    "ANDA090695"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "LOXAPINE SUCCINATE"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 6
+  },
+  "MACITENTAN": {
+   "applications": [
+    "ANDA211000",
+    "ANDA211026",
+    "ANDA211107",
+    "ANDA211120",
+    "ANDA211123",
+    "ANDA211128"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "MACITENTAN",
+    "OPSUMIT",
+    "OPSYNVI"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 14
+  },
+  "MASOPROCOL": {
+   "applications": [],
+   "confirmed": false,
+   "example_brands": [],
+   "found_by": null,
+   "marketing_statuses": [],
+   "n_records": 0
+  },
+  "MAVACAMTEN": {
+   "applications": [
+    "NDA214998"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "CAMZYOS"
+   ],
+   "found_by": "products.active_ingredients.name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 1
+  },
+  "MECAMYLAMINE": {
+   "applications": [
+    "ANDA204054"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "MECAMYLAMINE HYDROCHLORIDE"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 1
+  },
+  "MESTRANOL": {
+   "applications": [],
+   "confirmed": false,
+   "example_brands": [],
+   "found_by": null,
+   "marketing_statuses": [],
+   "n_records": 0
+  },
+  "METHADONE": {
+   "applications": [
+    "ANDA040088",
+    "ANDA040180",
+    "ANDA040241",
+    "ANDA040517",
+    "ANDA074184",
+    "ANDA077142"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "METHADONE HYDROCHLORIDE",
+    "METHADONE HYDROCHLORIDE INTENSOL",
+    "METHADOSE"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Prescription"
+   ],
+   "n_records": 26
+  },
+  "METHOTREXATE": {
+   "applications": [
+    "ANDA040054",
+    "ANDA040263",
+    "ANDA040266",
+    "ANDA040385",
+    "ANDA040632",
+    "ANDA040716"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "JYLAMVO",
+    "METHOTREXATE PRESERVATIVE FREE",
+    "METHOTREXATE SODIUM",
+    "METHOTREXATE SODIUM PRESERVATIVE FREE"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Prescription"
+   ],
+   "n_records": 26
+  },
+  "METHYSERGIDE": {
+   "applications": [],
+   "confirmed": false,
+   "example_brands": [],
+   "found_by": null,
+   "marketing_statuses": [],
+   "n_records": 0
+  },
+  "MIRTAZAPINE": {
+   "applications": [
+    "ANDA076122",
+    "ANDA076541",
+    "ANDA076921",
+    "ANDA077376",
+    "ANDA205798",
+    "ANDA216751"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "MIRTAZAPINE",
+    "REMERON",
+    "REMERON SOLTAB"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Prescription"
+   ],
+   "n_records": 9
+  },
+  "MOLINDONE": {
+   "applications": [
+    "ANDA090453"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "MOLINDONE HYDROCHLORIDE"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 1
+  },
+  "NELFINAVIR": {
+   "applications": [
+    "NDA020779",
+    "NDA021503"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "VIRACEPT"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 2
+  },
+  "NERATINIB": {
+   "applications": [
+    "NDA208051"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "NERLYNX"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 1
+  },
+  "NIACIN": {
+   "applications": [
+    "ANDA040378",
+    "ANDA090892",
+    "ANDA200484",
+    "ANDA201273",
+    "ANDA203899",
+    "ANDA204178"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "NIACIN",
+    "NIACOR"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 8
+  },
+  "NIACINAMIDE": {
+   "applications": [
+    "ANDA210273",
+    "ANDA210456",
+    "ANDA210671",
+    "ANDA210672",
+    "NDA021265"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "INFUVITE PEDIATRIC",
+    "INFUVITE PEDIATRIC (PHARMACY BULK PACKAGE)",
+    "MULTIPLE VITAMINS INJECTION ADULT",
+    "MULTIPLE VITAMINS INJECTION PEDIATRIC"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 5
+  },
+  "NICARDIPINE": {
+   "applications": [
+    "ANDA074670",
+    "ANDA074928",
+    "ANDA090534",
+    "ANDA090664",
+    "ANDA090671",
+    "ANDA211121"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "CARDENE",
+    "CARDENE IN 0.83% SODIUM CHLORIDE IN PLASTIC CONTAINER",
+    "CARDENE IN 0.86% SODIUM CHLORIDE IN PLASTIC CONTAINER",
+    "CARDENE IN 4.8% DEXTROSE IN PLASTIC CONTAINER"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Prescription"
+   ],
+   "n_records": 18
+  },
+  "NICLOSAMIDE": {
+   "applications": [],
+   "confirmed": false,
+   "example_brands": [],
+   "found_by": null,
+   "marketing_statuses": [],
+   "n_records": 0
+  },
+  "NIFEDIPINE": {
+   "applications": [
+    "ANDA075269",
+    "ANDA075289",
+    "ANDA076070",
+    "ANDA077127",
+    "ANDA202644",
+    "ANDA202987"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "NIFEDIPINE"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 14
+  },
+  "NIMODIPINE": {
+   "applications": [
+    "ANDA076740",
+    "ANDA077811",
+    "ANDA216937",
+    "NDA203340"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "NIMODIPINE",
+    "NYMALIZE"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Prescription"
+   ],
+   "n_records": 4
+  },
+  "NIROGACESTAT": {
+   "applications": [
+    "NDA217677"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "OGSIVEO"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Prescription"
+   ],
+   "n_records": 1
+  },
+  "NITAZOXANIDE": {
+   "applications": [
+    "ANDA213820",
+    "ANDA214844",
+    "ANDA218701"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "NITAZOXANIDE"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 3
+  },
+  "NIZATIDINE": {
+   "applications": [
+    "ANDA075616",
+    "ANDA076178",
+    "ANDA077314",
+    "ANDA090576"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "NIZATIDINE"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Prescription"
+   ],
+   "n_records": 4
+  },
+  "OXCARBAZEPINE": {
+   "applications": [
+    "ANDA077747",
+    "ANDA077794",
+    "ANDA077802",
+    "ANDA078005",
+    "ANDA078069",
+    "ANDA202961"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "OXCARBAZEPINE",
+    "TRILEPTAL"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Prescription"
+   ],
+   "n_records": 23
+  },
+  "OXYBUTYNIN": {
+   "applications": [
+    "ANDA071655",
+    "ANDA074520",
+    "ANDA074625",
+    "ANDA075039",
+    "ANDA075079",
+    "ANDA078503"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "OXYBUTYNIN CHLORIDE",
+    "OXYTROL",
+    "OXYTROL FOR WOMEN"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Over-the-counter",
+    "Prescription"
+   ],
+   "n_records": 21
+  },
+  "PEMETREXED": {
+   "applications": [
+    "ANDA090384",
+    "ANDA202596",
+    "ANDA203485",
+    "ANDA203774",
+    "ANDA204890",
+    "ANDA208696"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "ALIMTA",
+    "AXTLE",
+    "PEMETREXED",
+    "PEMETREXED DISODIUM"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Prescription"
+   ],
+   "n_records": 21
+  },
+  "PEMIGATINIB": {
+   "applications": [
+    "NDA213736"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "PEMAZYRE"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 1
+  },
+  "PENICILLIN G": {
+   "applications": [
+    "ANDA060657",
+    "ANDA065068",
+    "ANDA065079",
+    "ANDA065448",
+    "NDA050138",
+    "NDA050141"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "BICILLIN C-R",
+    "BICILLIN C-R 900/300",
+    "BICILLIN L-A",
+    "PENICILLIN G POTASSIUM"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Prescription"
+   ],
+   "n_records": 7
+  },
+  "PHENACEMIDE": {
+   "applications": [],
+   "confirmed": false,
+   "example_brands": [],
+   "found_by": null,
+   "marketing_statuses": [],
+   "n_records": 0
+  },
+  "PHENOXYBENZAMINE": {
+   "applications": [
+    "ANDA204551",
+    "ANDA212568",
+    "ANDA215042",
+    "ANDA215600"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "PHENOXYBENZAMINE HYDROCHLORIDE"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 4
+  },
+  "PIMOZIDE": {
+   "applications": [
+    "ANDA204521",
+    "ANDA219897"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "PIMOZIDE"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 2
+  },
+  "PLICAMYCIN": {
+   "applications": [],
+   "confirmed": false,
+   "example_brands": [],
+   "found_by": null,
+   "marketing_statuses": [],
+   "n_records": 0
+  },
+  "PRALSETINIB": {
+   "applications": [
+    "NDA213721"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "GAVRETO"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 1
+  },
+  "PRAZIQUANTEL": {
+   "applications": [
+    "ANDA208820",
+    "NDA018714"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "PRAZIQUANTEL"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Prescription"
+   ],
+   "n_records": 2
+  },
+  "PREDNISOLONE": {
+   "applications": [
+    "ANDA040070",
+    "ANDA040323",
+    "ANDA040571",
+    "ANDA040775",
+    "ANDA074449",
+    "ANDA075988"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "OMNIPRED",
+    "ORAPRED ODT",
+    "PEDIAPRED",
+    "PRED FORTE"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 23
+  },
+  "PRIMIDONE": {
+   "applications": [
+    "ANDA040586",
+    "ANDA040862",
+    "ANDA040866",
+    "ANDA083551",
+    "ANDA084903",
+    "ANDA214896"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "MYSOLINE",
+    "PRIMIDONE"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Prescription"
+   ],
+   "n_records": 8
+  },
+  "PROPOFOL": {
+   "applications": [
+    "ANDA074848",
+    "ANDA075102",
+    "ANDA077908",
+    "ANDA205067",
+    "ANDA205576",
+    "ANDA206408"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "DIPRIVAN",
+    "PROPOFOL"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Prescription"
+   ],
+   "n_records": 9
+  },
+  "PYRIMETHAMINE": {
+   "applications": [
+    "ANDA207127",
+    "ANDA215506",
+    "ANDA216983",
+    "NDA008578"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "DARAPRIM",
+    "PYRIMETHAMINE"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 4
+  },
+  "QUININE": {
+   "applications": [
+    "ANDA091661",
+    "ANDA203112",
+    "ANDA203729",
+    "ANDA204372"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "QUININE SULFATE"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 4
+  },
+  "RACECADOTRIL": {
+   "applications": [],
+   "confirmed": false,
+   "example_brands": [],
+   "found_by": null,
+   "marketing_statuses": [],
+   "n_records": 0
+  },
+  "RALOXIFENE": {
+   "applications": [
+    "ANDA090842",
+    "ANDA204310",
+    "ANDA206384",
+    "ANDA208206",
+    "ANDA211324",
+    "NDA020815"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "EVISTA",
+    "RALOXIFENE HYDROCHLORIDE"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 6
+  },
+  "RANOLAZINE": {
+   "applications": [
+    "ANDA201046",
+    "ANDA209081",
+    "ANDA209953",
+    "ANDA210054",
+    "ANDA210188",
+    "ANDA211082"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "RANOLAZINE"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Prescription"
+   ],
+   "n_records": 17
+  },
+  "RILMENIDINE": {
+   "applications": [],
+   "confirmed": false,
+   "example_brands": [],
+   "found_by": null,
+   "marketing_statuses": [],
+   "n_records": 0
+  },
+  "RITLECITINIB": {
+   "applications": [
+    "NDA215830"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "LITFULO"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 1
+  },
+  "RUFINAMIDE": {
+   "applications": [
+    "ANDA204964",
+    "ANDA204988",
+    "ANDA204993",
+    "ANDA205075",
+    "ANDA207363",
+    "ANDA211388"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "BANZEL",
+    "RUFINAMIDE"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Prescription"
+   ],
+   "n_records": 15
+  },
+  "RUXOLITINIB": {
+   "applications": [
+    "NDA202192",
+    "NDA215309",
+    "NDA217180"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "JAKAFI",
+    "JAKAFI XR",
+    "OPZELURA"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 3
+  },
+  "SALMETEROL": {
+   "applications": [
+    "ANDA203433",
+    "ANDA208891",
+    "ANDA213087",
+    "ANDA213948",
+    "ANDA214464",
+    "NDA020692"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "ADVAIR DISKUS 100/50",
+    "ADVAIR DISKUS 250/50",
+    "ADVAIR DISKUS 500/50",
+    "ADVAIR HFA"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 8
+  },
+  "SCOPOLAMINE": {
+   "applications": [
+    "ANDA078830",
+    "ANDA203753",
+    "ANDA208769",
+    "ANDA212342",
+    "ANDA215329",
+    "ANDA217893"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "SCOPOLAMINE",
+    "TRANSDERM SCOP"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 8
+  },
+  "SODIUM CITRATE": {
+   "applications": [
+    "ANDA091387"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "BALANCED SALT"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 1
+  },
+  "SONIDEGIB": {
+   "applications": [
+    "NDA205266"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "ODOMZO"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 1
+  },
+  "SPARSENTAN": {
+   "applications": [
+    "NDA216403"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "FILSPARI"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 1
+  },
+  "SUFENTANIL": {
+   "applications": [
+    "ANDA074534"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "SUFENTANIL CITRATE"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 1
+  },
+  "SULFACETAMIDE": {
+   "applications": [
+    "ANDA040066",
+    "ANDA074449",
+    "ANDA078649",
+    "NDA019931"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "KLARON",
+    "SULFACETAMIDE SODIUM",
+    "SULFACETAMIDE SODIUM AND PREDNISOLONE SODIUM PHOSPHATE"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 4
+  },
+  "TACALCITOL": {
+   "applications": [],
+   "confirmed": false,
+   "example_brands": [],
+   "found_by": null,
+   "marketing_statuses": [],
+   "n_records": 0
+  },
+  "TAZAROTENE": {
+   "applications": [
+    "ANDA208258",
+    "ANDA208662",
+    "ANDA213079",
+    "ANDA213644",
+    "ANDA214136",
+    "ANDA215433"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "ARAZLO",
+    "AVAGE",
+    "DUOBRII",
+    "FABIOR"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 12
+  },
+  "TEDIZOLID": {
+   "applications": [
+    "NDA205435",
+    "NDA205436"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "SIVEXTRO"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 2
+  },
+  "TEMAZEPAM": {
+   "applications": [
+    "ANDA071456",
+    "ANDA071457",
+    "ANDA071620",
+    "ANDA201781",
+    "ANDA203482",
+    "ANDA211542"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "RESTORIL",
+    "TEMAZEPAM"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 7
+  },
+  "THONZONIUM": {
+   "applications": [
+    "NDA050356"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "COLY-MYCIN S"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 1
+  },
+  "TIGECYCLINE": {
+   "applications": [
+    "ANDA091620",
+    "ANDA204439",
+    "ANDA206335",
+    "ANDA214020",
+    "NDA021821",
+    "NDA211158"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "TIGECYCLINE",
+    "TYGACIL"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 6
+  },
+  "TIVOZANIB": {
+   "applications": [
+    "ANDA220437",
+    "NDA212904"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "FOTIVDA"
+   ],
+   "found_by": "products.active_ingredients.name",
+   "marketing_statuses": [
+    "None (Tentative Approval)",
+    "Prescription"
+   ],
+   "n_records": 2
+  },
+  "TOFACITINIB": {
+   "applications": [
+    "ANDA209633",
+    "ANDA209829",
+    "ANDA214264",
+    "ANDA215356",
+    "ANDA216001",
+    "ANDA216878"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "TOFACITINIB CITRATE"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "None (Tentative Approval)",
+    "Prescription"
+   ],
+   "n_records": 18
+  },
+  "TORSEMIDE": {
+   "applications": [
+    "ANDA076346",
+    "ANDA076894",
+    "ANDA076943",
+    "ANDA078249",
+    "ANDA079234",
+    "NDA213218"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "SOAANZ",
+    "TORSEMIDE"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Prescription"
+   ],
+   "n_records": 6
+  },
+  "TOVORAFENIB": {
+   "applications": [
+    "NDA217700",
+    "NDA218033"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "OJEMDA"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 2
+  },
+  "TRAMADOL": {
+   "applications": [
+    "ANDA075968",
+    "ANDA075977",
+    "ANDA076003",
+    "ANDA090485",
+    "ANDA091498",
+    "ANDA091607"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "CONZIP",
+    "TRAMADOL HYDROCHLORIDE",
+    "TRAMADOL HYDROCHLORIDE AND ACETAMINOPHEN"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Prescription"
+   ],
+   "n_records": 16
+  },
+  "TRETINOIN": {
+   "applications": [
+    "ANDA075213",
+    "ANDA075264",
+    "ANDA075265",
+    "ANDA075529",
+    "ANDA075589",
+    "ANDA201687"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "ATRALIN",
+    "AVITA",
+    "CLINDAMYCIN PHOSPHATE AND TRETINOIN",
+    "RENOVA"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 39
+  },
+  "TRIAMTERENE": {
+   "applications": [
+    "ANDA071251",
+    "ANDA071851",
+    "ANDA073449",
+    "ANDA074821",
+    "ANDA201407",
+    "ANDA208358"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "DYRENIUM",
+    "TRIAMTERENE",
+    "TRIAMTERENE AND HYDROCHLOROTHIAZIDE"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Prescription"
+   ],
+   "n_records": 12
+  },
+  "TRICHLORMETHIAZIDE": {
+   "applications": [],
+   "confirmed": false,
+   "example_brands": [],
+   "found_by": null,
+   "marketing_statuses": [],
+   "n_records": 0
+  },
+  "TRICLABENDAZOLE": {
+   "applications": [
+    "NDA208711"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "EGATEN"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 1
+  },
+  "TRIDIHEXETHYL": {
+   "applications": [],
+   "confirmed": false,
+   "example_brands": [],
+   "found_by": null,
+   "marketing_statuses": [],
+   "n_records": 0
+  },
+  "TRIFLUOPERAZINE": {
+   "applications": [
+    "ANDA040209",
+    "ANDA085785",
+    "ANDA085786",
+    "ANDA085788",
+    "ANDA085789"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "TRIFLUOPERAZINE HYDROCHLORIDE"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 5
+  },
+  "TRIOXSALEN": {
+   "applications": [],
+   "confirmed": false,
+   "example_brands": [],
+   "found_by": null,
+   "marketing_statuses": [],
+   "n_records": 0
+  },
+  "URSODIOL": {
+   "applications": [
+    "ANDA075517",
+    "ANDA079082",
+    "ANDA090801",
+    "ANDA202540",
+    "ANDA205789",
+    "ANDA210344"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "ACTIGALL",
+    "URSODIOL"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Prescription"
+   ],
+   "n_records": 16
+  },
+  "VECURONIUM": {
+   "applications": [
+    "ANDA074688",
+    "ANDA079001",
+    "ANDA090243",
+    "ANDA203725",
+    "ANDA205390",
+    "ANDA206670"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "VECURONIUM BROMIDE"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Prescription"
+   ],
+   "n_records": 6
+  },
+  "VENETOCLAX": {
+   "applications": [
+    "NDA208573"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "VENCLEXTA"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Prescription"
+   ],
+   "n_records": 1
+  },
+  "VERAPAMIL": {
+   "applications": [
+    "ANDA070737",
+    "ANDA070738",
+    "ANDA070994",
+    "ANDA070995",
+    "ANDA071881",
+    "ANDA072924"
+   ],
+   "confirmed": true,
+   "example_brands": [
+    "TRANDOLAPRIL AND VERAPAMIL HYDROCHLORIDE",
+    "VERAPAMIL HYDROCHLORIDE",
+    "VERELAN",
+    "VERELAN PM"
+   ],
+   "found_by": "openfda.generic_name",
+   "marketing_statuses": [
+    "Discontinued",
+    "Prescription"
+   ],
+   "n_records": 26
+  },
+  "VERNAKALANT": {
+   "applications": [],
+   "confirmed": false,
+   "example_brands": [],
+   "found_by": null,
+   "marketing_statuses": [],
+   "n_records": 0
+  }
+ },
+ "n_confirmed": 124,
+ "n_drugs": 152,
+ "not_confirmed": [
+  "ALFACALCIDOL",
+  "ATALUREN",
+  "BUTABARBITAL",
+  "CARBENOXOLONE",
+  "CHLORPROTHIXENE",
+  "COPANLISIB",
+  "DAPRODUSTAT",
+  "DESERPIDINE",
+  "DEXKETOPROFEN",
+  "DIDANOSINE",
+  "DYDROGESTERONE",
+  "GLUCOSAMINE",
+  "HALOPROGIN",
+  "HEXYLCAINE",
+  "INFIGRATINIB",
+  "MASOPROCOL",
+  "MESTRANOL",
+  "METHYSERGIDE",
+  "NICLOSAMIDE",
+  "PHENACEMIDE",
+  "PLICAMYCIN",
+  "RACECADOTRIL",
+  "RILMENIDINE",
+  "TACALCITOL",
+  "TRICHLORMETHIAZIDE",
+  "TRIDIHEXETHYL",
+  "TRIOXSALEN",
+  "VERNAKALANT"
+ ],
+ "rule": "an NDA, BLA or ANDA record with a product marketed as Prescription or Over-the-counter",
+ "source": "Drugs@FDA through openFDA (https://api.fda.gov/drug/drugsfda.json)"
+}

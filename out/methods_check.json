@@ -1,0 +1,60 @@
+{
+  "abstract_word_count": 500,
+  "answer_length_characters": {
+    "1": 108,
+    "10": 645,
+    "11": 3294,
+    "2": 7130,
+    "3": 3341,
+    "4": 1445,
+    "5": 2044,
+    "6": 1322,
+    "7": 2570,
+    "8": 5,
+    "9": 3286
+  },
+  "answered_questions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "md_equals_xlsx": {
+    "1": true,
+    "10": true,
+    "11": true,
+    "2": true,
+    "3": true,
+    "4": true,
+    "5": true,
+    "6": true,
+    "7": true,
+    "8": true,
+    "9": true
+  },
+  "md_equals_xlsx_all": true,
+  "privacy_scan": {
+    "matches": {
+      "cdna_notation": [],
+      "genomic_coordinate": [],
+      "local_path": [],
+      "sample_id": []
+    },
+    "passed": true
+  },
+  "required_phrases_present": {
+    "23 November 2026": true,
+    "CC BY 4.0": true,
+    "GitHub link: provided with the submission": true,
+    "age is unknown": true,
+    "embargo": true,
+    "hypotheses": true
+  }
+}

@@ -1,0 +1,1003 @@
+{
+ "labels": {
+  "AVAPRITINIB": {
+   "drug_id": "CHEMBL4204794",
+   "effective": "20260914",
+   "marketing": {
+    "products": [],
+    "status": "not_found"
+   },
+   "origin": "DailyMed",
+   "setid": "645c887c-8cd4-4623-8da9-ac223d71a8b9",
+   "title": "These highlights do not include all the information needed to use AYVAKIT safely and effectively. See full prescribing information for AYVAKIT. AYVAKIT® (avapri",
+   "version": "15"
+  },
+  "BENDAMUSTINE": {
+   "drug_id": "CHEMBL487253",
+   "effective": "20260909",
+   "marketing": {
+    "products": [
+     "Prescription"
+    ],
+    "status": "Prescription (1)"
+   },
+   "origin": "DailyMed",
+   "setid": "085dd54c-4212-d879-afef-ee52732a48c0",
+   "title": "These highlights do not include all the information needed to use BENDAMUSTINE HYDROCHLORIDE INJECTION safely and effectively. See full prescribing information ",
+   "version": "9"
+  },
+  "BORTEZOMIB": {
+   "drug_id": "CHEMBL325041",
+   "effective": "20260909",
+   "marketing": {
+    "products": [
+     "Prescription"
+    ],
+    "status": "Prescription (1)"
+   },
+   "origin": "DailyMed",
+   "setid": "b605b541-4bfd-db3e-9710-11c27f6dee6c",
+   "title": "These highlights do not include all the information needed to use BORTEZOMIB FOR INJECTION safely and effectively. See full prescribing information for BORTEZOM",
+   "version": "7"
+  },
+  "BOSUTINIB": {
+   "drug_id": "CHEMBL288441",
+   "effective": "20260310",
+   "marketing": {
+    "products": [
+     "Prescription"
+    ],
+    "status": "Prescription (5)"
+   },
+   "origin": "DailyMed",
+   "setid": "adc84ad5-a04d-4fee-9ba8-91f7abd928e3",
+   "title": "These highlights do not include all the information needed to use BOSULIF safely and effectively. See full prescribing information for BOSULIF. BOSULIF® (bosuti",
+   "version": "32"
+  },
+  "BUSULFAN": {
+   "drug_id": "CHEMBL820",
+   "effective": "20260729",
+   "marketing": {
+    "products": [
+     "Prescription"
+    ],
+    "status": "Prescription (1)"
+   },
+   "origin": "DailyMed",
+   "setid": "086a715e-4958-4bb5-9ebd-86171e6b6203",
+   "title": "These highlights do not include all the information needed to use BUSULFAN INJECTION safely and effectively. See full prescribing information for BUSULFAN INJEC",
+   "version": "7"
+  },
+  "CABAZITAXEL": {
+   "drug_id": "CHEMBL1201748",
+   "effective": "20221101",
+   "marketing": {
+    "products": [],
+    "status": "not_found"
+   },
+   "origin": "DailyMed",
+   "setid": "ec6892c8-01e1-6a8b-e053-2995a90a956f",
+   "title": "These highlights do not include all the information needed to use CABAZITAXEL INJECTION safely and effectively. See full prescribing information for CABAZITAXEL",
+   "version": "1"
+  },
+  "CABOZANTINIB": {
+   "drug_id": "CHEMBL2105717",
+   "effective": "20251019",
+   "marketing": {
+    "products": [
+     "Prescription"
+    ],
+    "status": "Prescription (3)"
+   },
+   "origin": "DailyMed",
+   "setid": "3850cce2-6137-42e5-a792-d318c4a4b3b5",
+   "title": "These highlights do not include all the information needed to use CABOMETYX safely and effectively. See full prescribing information for CABOMETYX. CABOMETYX® (",
+   "version": "18"
+  },
+  "CAPMATINIB": {
+   "drug_id": "CHEMBL3188267",
+   "effective": "20251215",
+   "marketing": {
+    "products": [
+     "Prescription"
+    ],
+    "status": "Prescription (2)"
+   },
+   "origin": "DailyMed",
+   "setid": "455892c3-d144-4ba8-9ab4-79cabff9876d",
+   "title": "These highlights do not include all the information needed to use TABRECTA safely and effectively. See full prescribing information for TABRECTA. TABRECTA® (cap",
+   "version": "17"
+  },
+  "CARBOPLATIN": {
+   "drug_id": "CHEMBL1351",
+   "effective": "20260721",
+   "marketing": {
+    "products": [
+     "Prescription"
+    ],
+    "status": "Prescription (4)"
+   },
+   "origin": "DailyMed",
+   "setid": "4c89cedc-e48b-445c-ad05-54dbe60e4fb0",
+   "title": "CARBOplatin Injection Rx Only",
+   "version": "1"
+  },
+  "CARFILZOMIB": {
+   "drug_id": "CHEMBL451887",
+   "effective": "20250618",
+   "marketing": {
+    "products": [
+     "Prescription"
+    ],
+    "status": "Prescription (3)"
+   },
+   "origin": "DailyMed",
+   "setid": "ea66eb30-e665-4693-99a1-a9d3b4bbe2d6",
+   "title": "These highlights do not include all the information needed to use KYPROLIS safely and effectively. See full prescribing information for KYPROLIS. KYPROLIS® (car",
+   "version": "59"
+  },
+  "CERITINIB": {
+   "drug_id": "CHEMBL2403108",
+   "effective": "20251215",
+   "marketing": {
+    "products": [
+     "Prescription"
+    ],
+    "status": "Prescription (1)"
+   },
+   "origin": "DailyMed",
+   "setid": "fff5d805-4ffd-4e8e-8e63-6f129697563e",
+   "title": "These highlights do not include all the information needed to use ZYKADIA safely and effectively. See full prescribing information for ZYKADIA. ZYKADIA® (ceriti",
+   "version": "21"
+  },
+  "CHLORAMBUCIL": {
+   "drug_id": "CHEMBL515",
+   "effective": "20250108",
+   "marketing": {
+    "products": [
+     "Prescription"
+    ],
+    "status": "Prescription (1)"
+   },
+   "origin": "openFDA",
+   "setid": "58a3c995-5ad6-465d-8437-5970c9088213",
+   "title": "LEUKERAN® (chlorambucil) Tablets",
+   "version": "2"
+  },
+  "CHLOROQUINE": {
+   "drug_id": "CHEMBL76",
+   "effective": "20260929",
+   "marketing": {
+    "products": [],
+    "status": "not_found"
+   },
+   "origin": "DailyMed",
+   "setid": "eb02c52d-907c-43fb-aa8f-2f378a9087e7",
+   "title": "Chloroquine Phosphate Tablets, USP (250 mg and 500 mg) Rx only",
+   "version": "12"
+  },
+  "CISPLATIN": {
+   "drug_id": "CHEMBL11359",
+   "effective": "20260624",
+   "marketing": {
+    "products": [
+     "Discontinued",
+     "Prescription"
+    ],
+    "status": "Discontinued (2), Prescription (2)"
+   },
+   "origin": "DailyMed",
+   "setid": "508496cb-3441-46b3-a4fe-e0d440e6adc6",
+   "title": "These highlights do not include all the information needed to use CISPLATIN INJECTION safely and effectively. See full prescribing information for CISPLATIN INJ",
+   "version": "4"
+  },
+  "COLCHICINE": {
+   "drug_id": "CHEMBL107",
+   "effective": "20250701",
+   "marketing": {
+    "products": [],
+    "status": "not_found"
+   },
+   "origin": "openFDA",
+   "setid": "0f69b9c6-8c00-45e2-b950-34dc5ae62352",
+   "title": "These highlights do not include all the information needed to use COLCHICINE TABLETS safely and effectively. See full prescribing information for COLCHICINE TAB",
+   "version": "4"
+  },
+  "CYCLOSPORINE": {
+   "also_read": [
+    {
+     "effective": "20260810",
+     "marketing": {
+      "products": [
+       "Discontinued",
+       "Prescription"
+      ],
+      "status": "Discontinued (1), Prescription (3)"
+     },
+     "product": "Neoral",
+     "setid": "94461af3-11f1-4670-95d4-2965b9538ae3",
+     "title": "NEORAL® Soft Gelatin Capsules (cyclosporine capsules, USP) MODIFIED NEORAL® Oral Solution (cyclosporine oral solution, USP) MODIFIED Rx only Prescribing Informa",
+     "version": "30"
+    },
+    {
+     "effective": "20240821",
+     "marketing": {
+      "products": [
+       "Discontinued",
+       "Prescription"
+      ],
+      "status": "Discontinued (1), Prescription (2)"
+     },
+     "product": "Gengraf",
+     "setid": "e896cbfe-4745-4088-82a3-8dc10b75c41f",
+     "title": "GENGRAF ® Capsules (cyclosporine capsules, USP [MODIFIED])",
+     "version": "1256"
+    }
+   ],
+   "drug_id": "CHEMBL160",
+   "effective": "20260710",
+   "marketing": {
+    "products": [
+     "Prescription"
+    ],
+    "status": "Prescription (4)"
+   },
+   "origin": "DailyMed",
+   "setid": "5e5926a7-1de0-4b54-a5c0-286b6200ff82",
+   "title": "Sandimmune® (cyclosporine capsules), for oral useSandimmune® (cyclosporine injection), for intravenous use Prescribing Information",
+   "version": "37"
+  },
+  "DACARBAZINE": {
+   "drug_id": "CHEMBL476",
+   "effective": "20250922",
+   "marketing": {
+    "products": [
+     "Prescription"
+    ],
+    "status": "Prescription (2)"
+   },
+   "origin": "DailyMed",
+   "setid": "0d81315c-7021-4091-b703-ad135390c936",
+   "title": "Dacarbazine for Injection, USP",
+   "version": "6"
+  },
+  "DAUNORUBICIN": {
+   "drug_id": "CHEMBL178",
+   "effective": "20260119",
+   "marketing": {
+    "products": [
+     "Prescription"
+    ],
+    "status": "Prescription (1)"
+   },
+   "origin": "DailyMed",
+   "setid": "9705fa12-499e-41a3-8fb4-f6df0858b851",
+   "title": "DAUNORUBICIN HYDROCHLORIDE INJECTION Rx ONLY",
+   "version": "13"
+  },
+  "DISOPYRAMIDE": {
+   "drug_id": "CHEMBL517",
+   "effective": "20260318",
+   "marketing": {
+    "products": [
+     "Prescription"
+    ],
+    "status": "Prescription (2)"
+   },
+   "origin": "DailyMed",
+   "setid": "31e79459-107f-4d69-a163-90014f1c4772",
+   "title": "Disopyramide phosphate capsules",
+   "version": "5"
+  },
+  "DOCETAXEL ANHYDROUS": {
+   "drug_id": "CHEMBL92",
+   "effective": "20260715",
+   "marketing": {
+    "products": [],
+    "status": "not_found"
+   },
+   "origin": "DailyMed",
+   "setid": "2fb017fd-e55e-43ef-9024-07f2d412b37b",
+   "title": "These highlights do not include all the information needed to use DOCETAXEL INJECTION safely and effectively. See full prescribing information for DOCETAXEL INJ",
+   "version": "9"
+  },
+  "DOXORUBICIN": {
+   "drug_id": "CHEMBL53463",
+   "effective": "20260505",
+   "marketing": {
+    "products": [
+     "Discontinued",
+     "Prescription"
+    ],
+    "status": "Discontinued (1), Prescription (2)"
+   },
+   "origin": "DailyMed",
+   "setid": "1fd148fb-0fbc-4b6f-b790-23546fb46a71",
+   "title": "These highlights do not include all the information needed to use DOXORUBICIN HYDROCHLORIDE safely and effectively. See full prescribing information for DOXORUB",
+   "version": "28"
+  },
+  "ENTRECTINIB": {
+   "drug_id": "CHEMBL1983268",
+   "effective": "20251204",
+   "marketing": {
+    "products": [
+     "Prescription"
+    ],
+    "status": "Prescription (3)"
+   },
+   "origin": "DailyMed",
+   "setid": "c7c71b0c-2549-4495-86b6-c2807fa54908",
+   "title": "These highlights do not include all the information needed to use ROZLYTREK® safely and effectively. See full prescribing information for ROZLYTREK. ROZLYTREK® ",
+   "version": "18"
+  },
+  "EPIRUBICIN": {
+   "drug_id": "CHEMBL417",
+   "effective": "20080611",
+   "marketing": {
+    "products": [],
+    "status": "not_found"
+   },
+   "origin": "DailyMed",
+   "setid": "f7ec5ec1-fb05-4c78-b821-9aea638cf144",
+   "title": "Epirubicin Hydrochloride Injection",
+   "version": "1"
+  },
+  "ERIBULIN": {
+   "drug_id": "CHEMBL1683590",
+   "effective": "20260910",
+   "marketing": {
+    "products": [],
+    "status": "not_found"
+   },
+   "origin": "DailyMed",
+   "setid": "64bf3c30-f06a-3615-ca5e-eb4154d371d0",
+   "title": "These highlights do not include all the information needed to use ERIBULIN MESYLATE INJECTION safely and effectively. See full prescribing information for ERIBU",
+   "version": "2"
+  },
+  "ETOPOSIDE": {
+   "drug_id": "CHEMBL44657",
+   "effective": "20260714",
+   "marketing": {
+    "products": [
+     "Prescription"
+    ],
+    "status": "Prescription (1)"
+   },
+   "origin": "DailyMed",
+   "setid": "fe870629-104d-4d67-a7c6-f53bc588121e",
+   "title": "Etoposide Injection, USP",
+   "version": "7"
+  },
+  "ETOPOSIDE PHOSPHATE": {
+   "drug_id": "CHEMBL1200645",
+   "effective": "20260731",
+   "marketing": {
+    "products": [
+     "Prescription"
+    ],
+    "status": "Prescription (1)"
+   },
+   "origin": "DailyMed",
+   "setid": "7499fc35-fae8-44ad-bbab-9a1a589bf3ee",
+   "title": "These highlights do not include all the information needed to use ETOPOPHOS safely and effectively. See full prescribing information for ETOPOPHOS. ETOPOPHOS® (",
+   "version": "23"
+  },
+  "EVEROLIMUS": {
+   "also_read": [
+    {
+     "effective": "20260916",
+     "marketing": {
+      "products": [],
+      "status": "not_found"
+     },
+     "product": "Zortress",
+     "setid": "e082a024-7850-400b-a5c2-2a140612562a",
+     "title": "These highlights do not include all the information needed to use ZORTRESS safely and effectively. See full prescribing information for ZORTRESS. ZORTRESS® (eve",
+     "version": "30"
+    }
+   ],
+   "drug_id": "CHEMBL1908360",
+   "effective": "20260601",
+   "marketing": {
+    "products": [
+     "Prescription"
+    ],
+    "status": "Prescription (7)"
+   },
+   "origin": "DailyMed",
+   "setid": "2150f73a-179b-4afc-b8ce-67c85cc72f04",
+   "title": "These highlights do not include all the information needed to use AFINITOR/AFINITOR DISPERZ safely and effectively. See full prescribing information for AFINITO",
+   "version": "67"
+  },
+  "GILTERITINIB": {
+   "drug_id": "CHEMBL3301622",
+   "effective": "20261001",
+   "marketing": {
+    "products": [],
+    "status": "not_found"
+   },
+   "origin": "DailyMed",
+   "setid": "b5ff59aa-9c0d-49a8-9053-1f179b482383",
+   "title": "These highlights do not include all the information needed to use XOSPATA safely and effectively. See full prescribing information for XOSPATA. XOSPATA® (gilter",
+   "version": "11"
+  },
+  "IDARUBICIN": {
+   "drug_id": "CHEMBL1117",
+   "effective": "20250509",
+   "marketing": {
+    "products": [
+     "Prescription"
+    ],
+    "status": "Prescription (3)"
+   },
+   "origin": "DailyMed",
+   "setid": "d31254be-6bd2-4ac1-acab-bc00e2209d28",
+   "title": "IDArubicin Hydrochloride Injection, USPFor Intravenous Use Onlymeitheal®Rx Only",
+   "version": "1"
+  },
+  "IFOSFAMIDE": {
+   "drug_id": "CHEMBL1024",
+   "effective": "20241202",
+   "marketing": {
+    "products": [
+     "Discontinued",
+     "Prescription"
+    ],
+    "status": "Discontinued (2), Prescription (2)"
+   },
+   "origin": "openFDA",
+   "setid": "91e433a9-6800-43a6-ac13-a49a04a5aecd",
+   "title": "These highlights do not include all the information needed to use Ifosfamide for Injection safely and effectively. See full prescribing information for Ifosfami",
+   "version": "17"
+  },
+  "IXABEPILONE": {
+   "drug_id": "CHEMBL1201752",
+   "effective": "20251204",
+   "marketing": {
+    "products": [
+     "Prescription"
+    ],
+    "status": "Prescription (2)"
+   },
+   "origin": "DailyMed",
+   "setid": "241f0b1e-8b95-470d-876f-bf1804daaf18",
+   "title": "These highlights do not include all the information needed to use IXEMPRA ® safely and effectively. See full prescribing information for IXEMPRA ®. IXEMPRA ® Ki",
+   "version": "13"
+  },
+  "IXAZOMIB CITRATE": {
+   "drug_id": "CHEMBL3545432",
+   "effective": "20260811",
+   "marketing": {
+    "products": [
+     "Prescription"
+    ],
+    "status": "Prescription (3)"
+   },
+   "origin": "DailyMed",
+   "setid": "038f2461-834b-4488-9ebd-863c83eef5a7",
+   "title": "These highlights do not include all the information needed to use NINLARO® safely and effectively. See full prescribing information for NINLARO. NINLARO (ixazom",
+   "version": "18"
+  },
+  "LAROTRECTINIB": {
+   "drug_id": "CHEMBL3889654",
+   "effective": "20260522",
+   "marketing": {
+    "products": [
+     "Prescription"
+    ],
+    "status": "Prescription (3)"
+   },
+   "origin": "DailyMed",
+   "setid": "0c8ca614-58b2-4aa4-83d3-0387a8f782fd",
+   "title": "These highlights do not include all the information needed to use VITRAKVI safely and effectively. See full prescribing information for VITRAKVI. VITRAKVI® (lar",
+   "version": "21"
+  },
+  "LENVATINIB": {
+   "drug_id": "CHEMBL1289601",
+   "effective": "20260630",
+   "marketing": {
+    "products": [],
+    "status": "not_found"
+   },
+   "origin": "DailyMed",
+   "setid": "f4bedd21-efde-44c6-9d9c-b48b78d7ed1e",
+   "title": "These highlights do not include all the information needed to use LENVIMA safely and effectively. See full prescribing information for LENVIMA . LENVIMA ® ( len",
+   "version": "80"
+  },
+  "LOMUSTINE": {
+   "drug_id": "CHEMBL514",
+   "effective": "20260212",
+   "marketing": {
+    "products": [
+     "Discontinued",
+     "Prescription"
+    ],
+    "status": "Discontinued (1), Prescription (3)"
+   },
+   "origin": "DailyMed",
+   "setid": "3c3637fc-4499-4331-a3c4-6969fc86704e",
+   "title": "These highlights do not include all the information needed to use LOMUSTINE CAPSULES safely and effectively. See full prescribing information for LOMUSTINE CAPS",
+   "version": "2"
+  },
+  "LONAPEGSOMATROPIN": {
+   "drug_id": "CHEMBL4298185",
+   "effective": "20260723",
+   "marketing": {
+    "products": [
+     "Prescription"
+    ],
+    "status": "Prescription (9)"
+   },
+   "origin": "DailyMed",
+   "setid": "9229f871-bc61-4ddc-8122-d126d40e36ac",
+   "title": "These highlights do not include all the information needed to use SKYTROFA® safely and effectively. See full prescribing information for SKYTROFA®. SKYTROFA® (l",
+   "version": "13"
+  },
+  "MECHLORETHAMINE": {
+   "drug_id": "CHEMBL427",
+   "effective": "20241120",
+   "marketing": {
+    "products": [
+     "Prescription"
+    ],
+    "status": "Prescription (1)"
+   },
+   "origin": "openFDA",
+   "setid": "6a52e4c2-6a9f-4ebb-bc77-046b4f8bcd57",
+   "title": "These highlights do not include all the information needed to use VALCHLOR ® safely and effectively. See full prescribing information for VALCHLOR. VALCHLOR (me",
+   "version": "12"
+  },
+  "MELPHALAN": {
+   "drug_id": "CHEMBL852",
+   "effective": "20260915",
+   "marketing": {
+    "products": [],
+    "status": "not_found"
+   },
+   "origin": "DailyMed",
+   "setid": "69f55869-dc11-408e-8fc7-47634269a52c",
+   "title": "These highlights do not include all the information needed to use EVOMELA® safely and effectively. See full prescribing information for EVOMELA. EVOMELA (melpha",
+   "version": "8"
+  },
+  "METFORMIN": {
+   "drug_id": "CHEMBL1431",
+   "effective": "20260921",
+   "marketing": {
+    "products": [],
+    "status": "not_found"
+   },
+   "origin": "DailyMed",
+   "setid": "23aa50c5-28fe-4322-b5c6-1f1c48409b16",
+   "title": "These highlights do not include all the information needed to use METFORMIN HYDROCHLORIDE TABLETS safely and effectively. See full prescribing information for M",
+   "version": "43"
+  },
+  "MIDOSTAURIN": {
+   "drug_id": "CHEMBL608533",
+   "effective": "20260608",
+   "marketing": {
+    "products": [
+     "Prescription"
+    ],
+    "status": "Prescription (1)"
+   },
+   "origin": "DailyMed",
+   "setid": "11fa3fc9-6776-49a6-b1c1-653f627c3e58",
+   "title": "These highlights do not include all the information needed to use RYDAPT safely and effectively. See full prescribing information for RYDAPT. RYDAPT® (midostaur",
+   "version": "15"
+  },
+  "MITOXANTRONE": {
+   "drug_id": "CHEMBL58",
+   "effective": "20250714",
+   "marketing": {
+    "products": [
+     "Prescription"
+    ],
+    "status": "Prescription (3)"
+   },
+   "origin": "DailyMed",
+   "setid": "accf9569-4b57-4e83-a7db-4e890a75d1ba",
+   "title": "MitoXANTRONE Injection, USP (concentrate)",
+   "version": "25"
+  },
+  "NATALIZUMAB": {
+   "drug_id": "CHEMBL1201607",
+   "effective": "20251031",
+   "marketing": {
+    "products": [
+     "Prescription"
+    ],
+    "status": "Prescription (1)"
+   },
+   "origin": "DailyMed",
+   "setid": "ef653c36-dd4b-4e71-9d2d-40b8fea24b67",
+   "title": "These highlights do not include all the information needed to use TYRUKO® safely and effectively. See full prescribing information for TYRUKO. TYRUKO (natalizum",
+   "version": "13"
+  },
+  "NINTEDANIB": {
+   "drug_id": "CHEMBL502835",
+   "effective": "20260730",
+   "marketing": {
+    "products": [],
+    "status": "not_found"
+   },
+   "origin": "DailyMed",
+   "setid": "4ecf7f05-4a95-b98c-e063-6394a90ab896",
+   "title": "NINTEDANIB CAPSULES. These highlights do not include all the information needed to use NINTEDANIB CAPSULES safely and effectively. See full prescribing informat",
+   "version": "3"
+  },
+  "OXALIPLATIN": {
+   "drug_id": "CHEMBL414804",
+   "effective": "20260824",
+   "marketing": {
+    "products": [
+     "Discontinued",
+     "Prescription"
+    ],
+    "status": "Discontinued (1), Prescription (2)"
+   },
+   "origin": "DailyMed",
+   "setid": "a6f89dc3-a594-4b5b-8728-272e20c1ecb5",
+   "title": "These highlights do not include all the information needed to use OXALIPLATIN INJECTION safely and effectively. See full prescribing information for OXALIPLATIN",
+   "version": "11"
+  },
+  "PACLITAXEL": {
+   "drug_id": "CHEMBL428647",
+   "effective": "20240624",
+   "marketing": {
+    "products": [
+     "Prescription"
+    ],
+    "status": "Prescription (1)"
+   },
+   "origin": "openFDA",
+   "setid": "0c12c77c-5fd4-48dc-a318-e96892233992",
+   "title": "Paclitaxel Injection, USP (Patient Information Included) Rx Only",
+   "version": "4"
+  },
+  "PAZOPANIB": {
+   "drug_id": "CHEMBL477772",
+   "effective": "20260916",
+   "marketing": {
+    "products": [],
+    "status": "not_found"
+   },
+   "origin": "DailyMed",
+   "setid": "b05ea49a-a764-5ff2-6e4a-26add69da9e2",
+   "title": "These highlights do not include all the information needed to use PAZOPANIB TABLETS safely and effectively. See full prescribing information for PAZOPANIB TABLE",
+   "version": "5"
+  },
+  "PEXIDARTINIB": {
+   "drug_id": "CHEMBL3813873",
+   "effective": "20250116",
+   "marketing": {
+    "products": [
+     "Discontinued",
+     "Prescription"
+    ],
+    "status": "Discontinued (1), Prescription (1)"
+   },
+   "origin": "DailyMed",
+   "setid": "7b0ec4bf-b2ac-49ee-96af-7740ad3f2e16",
+   "title": "These highlights do not include all the information needed to use TURALIO safely and effectively. See full prescribing information for TURALIO. TURALIO® (pexida",
+   "version": "8"
+  },
+  "PHENYLBUTANOIC ACID": {
+   "drug_id": "CHEMBL1469",
+   "effective": "20241030",
+   "marketing": {
+    "products": [
+     "Discontinued"
+    ],
+    "status": "Discontinued (2)"
+   },
+   "origin": "DailyMed",
+   "setid": "463a36fa-3eb2-4326-8bd0-c8c7a11bca3a",
+   "title": "BUPHENYL® (sodium phenylbutyrate) Tablets BUPHENYL® (sodium phenylbutyrate) Powder",
+   "version": "9"
+  },
+  "POMALIDOMIDE": {
+   "drug_id": "CHEMBL43452",
+   "effective": "20260902",
+   "marketing": {
+    "products": [],
+    "status": "not_found"
+   },
+   "origin": "DailyMed",
+   "setid": "b8c3b7f3-7e72-47af-be23-133e7bb3db59",
+   "title": "These highlights do not include all the information needed to use POMALIDOMIDE CAPSULES safely and effectively. See full prescribing information for POMALIDOMID",
+   "version": "1"
+  },
+  "QUIZARTINIB": {
+   "drug_id": "CHEMBL576982",
+   "effective": "20260416",
+   "marketing": {
+    "products": [
+     "Prescription"
+    ],
+    "status": "Prescription (2)"
+   },
+   "origin": "DailyMed",
+   "setid": "29cdbcfe-497d-4e78-bb7b-2d4acafe8e86",
+   "title": "These highlights do not include all the information needed to use VANFLYTA safely and effectively. See full prescribing information for VANFLYTA. VANFLYTA® (qui",
+   "version": "11"
+  },
+  "REGORAFENIB": {
+   "drug_id": "CHEMBL1946170",
+   "effective": "20260209",
+   "marketing": {
+    "products": [
+     "Prescription"
+    ],
+    "status": "Prescription (1)"
+   },
+   "origin": "DailyMed",
+   "setid": "824f19c9-0546-4a8a-8d8f-c4055c04f7c7",
+   "title": "These highlights do not include all the information needed to use STIVARGA safely and effectively. See full prescribing information for STIVARGA.STIVARGA® (rego",
+   "version": "36"
+  },
+  "RIPRETINIB": {
+   "drug_id": "CHEMBL4216467",
+   "effective": "20250512",
+   "marketing": {
+    "products": [
+     "Prescription"
+    ],
+    "status": "Prescription (1)"
+   },
+   "origin": "DailyMed",
+   "setid": "9f18e462-03dd-4296-a02a-a0577e3ee78d",
+   "title": "These highlights do not include all the information needed to use QINLOCK safely and effectively. See full prescribing information for QINLOCK. QINLOCK® (ripret",
+   "version": "9"
+  },
+  "SELINEXOR": {
+   "drug_id": "CHEMBL3545185",
+   "effective": "20260512",
+   "marketing": {
+    "products": [
+     "Prescription"
+    ],
+    "status": "Prescription (6)"
+   },
+   "origin": "DailyMed",
+   "setid": "f6dd2682-75a6-4863-90a8-a3197f6f78a8",
+   "title": "These highlights do not include all the information needed to use XPOVIO safely and effectively. See full prescribing information for XPOVIO. XPOVIO® (selinexor",
+   "version": "18"
+  },
+  "SELPERCATINIB": {
+   "drug_id": "CHEMBL4559134",
+   "effective": "20260911",
+   "marketing": {
+    "products": [],
+    "status": "not_found"
+   },
+   "origin": "DailyMed",
+   "setid": "7fa848ba-a59c-4144-9f52-64d090f4d828",
+   "title": "These highlights do not include all the information needed to use RETEVMO safely and effectively. See full prescribing information for RETEVMO. RETEVMO® (selper",
+   "version": "25"
+  },
+  "SELUMETINIB": {
+   "drug_id": "CHEMBL1614701",
+   "effective": "20260526",
+   "marketing": {
+    "products": [
+     "Prescription"
+    ],
+    "status": "Prescription (6)"
+   },
+   "origin": "DailyMed",
+   "setid": "7d042c61-f28f-4ab5-ab10-d7558c0d49ff",
+   "title": "These highlights do not include all the information needed to use KOSELUGO safely and effectively. See full prescribing information for KOSELUGO.KOSELUGO® (selu",
+   "version": "17"
+  },
+  "SIROLIMUS": {
+   "drug_id": "CHEMBL413",
+   "effective": "20260911",
+   "marketing": {
+    "products": [],
+    "status": "not_found"
+   },
+   "origin": "DailyMed",
+   "setid": "9970e495-29c4-47b8-a3e9-c9b365abe400",
+   "title": "These highlights do not include all the information needed to use SIROLIMUS TABLETS safely and effectively. See full prescribing information for SIROLIMUS TABLE",
+   "version": "3"
+  },
+  "SOMAPACITAN": {
+   "drug_id": "CHEMBL3707290",
+   "effective": "20260225",
+   "marketing": {
+    "products": [
+     "Prescription"
+    ],
+    "status": "Prescription (1)"
+   },
+   "origin": "DailyMed",
+   "setid": "eadd03b4-adc3-4b88-8a24-9d205c5b85aa",
+   "title": "These highlights do not include all the information needed to use SOGROYA safely and effectively. See full prescribing information for SOGROYA.SOGROYA® (somapac",
+   "version": "8"
+  },
+  "SOMATROGON": {
+   "drug_id": "CHEMBL4297830",
+   "effective": "20260814",
+   "marketing": {
+    "products": [
+     "Prescription"
+    ],
+    "status": "Prescription (2)"
+   },
+   "origin": "DailyMed",
+   "setid": "06dce529-b741-4a1b-8842-3ad77be6e308",
+   "title": "These highlights do not include all the information needed to use NGENLA safely and effectively. See full prescribing information for NGENLA. NGENLA (somatrogon",
+   "version": "14"
+  },
+  "SOMATROPIN": {
+   "drug_id": "CHEMBL1201621",
+   "effective": "20260820",
+   "marketing": {
+    "products": [
+     "Discontinued",
+     "Prescription"
+    ],
+    "status": "Discontinued (1), Prescription (4)"
+   },
+   "origin": "DailyMed",
+   "setid": "a774e1ae-3997-49ee-8b0e-99a2b315d409",
+   "title": "These highlights do not include all the information needed to use HUMATROPE safely and effectively. See full prescribing information for HUMATROPE.HUMATROPE® (s",
+   "version": "45"
+  },
+  "SORAFENIB": {
+   "drug_id": "CHEMBL1336",
+   "effective": "20260728",
+   "marketing": {
+    "products": [],
+    "status": "not_found"
+   },
+   "origin": "DailyMed",
+   "setid": "faa9d847-2cd5-6538-e053-6394a90aa92b",
+   "title": "SORAFENIB TABLETS. These highlights do not include all the information needed to use SORAFENIB TABLETS safely and effectively. See full prescribing information ",
+   "version": "10"
+  },
+  "SUNITINIB": {
+   "drug_id": "CHEMBL535",
+   "effective": "20250101",
+   "marketing": {
+    "products": [
+     "Prescription"
+    ],
+    "status": "Prescription (4)"
+   },
+   "origin": "DailyMed",
+   "setid": "a9479e5f-914f-46ca-95c1-327c66457e47",
+   "title": "These highlights do not include all the information needed to use SUNITINIB MALATE CAPSULES safely and effectively. See full prescribing information for SUNITIN",
+   "version": "5"
+  },
+  "TEMOZOLOMIDE": {
+   "drug_id": "CHEMBL810",
+   "effective": "20260929",
+   "marketing": {
+    "products": [],
+    "status": "not_found"
+   },
+   "origin": "DailyMed",
+   "setid": "9dff10ec-6a55-47b6-a458-b7c39e32dc55",
+   "title": "These highlights do not include all the information needed to use TEMOZOLOMIDE CAPSULES safely and effectively. See full prescribing information for TEMOZOLOMID",
+   "version": "7"
+  },
+  "THIOTEPA": {
+   "drug_id": "CHEMBL671",
+   "effective": "20260123",
+   "marketing": {
+    "products": [
+     "Prescription"
+    ],
+    "status": "Prescription (2)"
+   },
+   "origin": "DailyMed",
+   "setid": "6cd6ae89-c553-4328-9262-4363610a1f19",
+   "title": "These highlights do not include all the information needed to use THIOTEPA FOR INJECTION safely and effectively. See full prescribing information for THIOTEPA F",
+   "version": "7"
+  },
+  "TRAMETINIB": {
+   "drug_id": "CHEMBL2103875",
+   "effective": "20260507",
+   "marketing": {
+    "products": [
+     "Discontinued",
+     "Prescription"
+    ],
+    "status": "Discontinued (1), Prescription (5)"
+   },
+   "origin": "DailyMed",
+   "setid": "0002ad27-779d-42ab-83b5-bc65453412a1",
+   "title": "These highlights do not include all the information needed to use MEKINIST safely and effectively. See full prescribing information for MEKINIST. MEKINIST® (tra",
+   "version": "35"
+  },
+  "TREOSULFAN": {
+   "drug_id": "CHEMBL455186",
+   "effective": "20250131",
+   "marketing": {
+    "products": [
+     "Prescription"
+    ],
+    "status": "Prescription (2)"
+   },
+   "origin": "DailyMed",
+   "setid": "2d06b03c-17aa-0492-e063-6294a90abd8f",
+   "title": "These highlights do not include all the information needed to use GRAFAPEX™ safely and effectively. See full prescribing information for GRAFAPEX. GRAFAPEX (tre",
+   "version": "1"
+  },
+  "VALRUBICIN": {
+   "drug_id": "CHEMBL1096885",
+   "effective": "20220630",
+   "marketing": {
+    "products": [
+     "Prescription"
+    ],
+    "status": "Prescription (1)"
+   },
+   "origin": "DailyMed",
+   "setid": "8739ae02-e4c5-0fa2-e053-2a91aa0a1b74",
+   "title": "These highlights do not include all the information needed to use VALRUBICIN INTRAVESICAL SOLUTION safely and effectively. See full prescribing information for ",
+   "version": "2"
+  },
+  "VANDETANIB": {
+   "drug_id": "CHEMBL24828",
+   "effective": "20260423",
+   "marketing": {
+    "products": [
+     "Prescription"
+    ],
+    "status": "Prescription (2)"
+   },
+   "origin": "DailyMed",
+   "setid": "e5721cb8-4185-47b9-bbb3-1c587e558a03",
+   "title": "These highlights do not include all the information needed to use CAPRELSA safely and effectively. See full prescribing information for CAPRELSA.CAPRELSA® (vand",
+   "version": "14"
+  },
+  "VINBLASTINE": {
+   "drug_id": "CHEMBL159",
+   "effective": "20250415",
+   "marketing": {
+    "products": [
+     "Prescription"
+    ],
+    "status": "Prescription (1)"
+   },
+   "origin": "DailyMed",
+   "setid": "f073b58e-56d6-4c8d-a2ce-b37719402d77",
+   "title": "vinBLAStine Sulfate",
+   "version": "5"
+  },
+  "VINCRISTINE": {
+   "drug_id": "CHEMBL90555",
+   "effective": "20260217",
+   "marketing": {
+    "products": [
+     "Prescription"
+    ],
+    "status": "Prescription (1)"
+   },
+   "origin": "DailyMed",
+   "setid": "b22e4c8e-dbe1-4d4b-a026-e1812974071c",
+   "title": "VinCRIStine Sulfate Injection, USP",
+   "version": "16"
+  },
+  "VINORELBINE": {
+   "drug_id": "CHEMBL553025",
+   "effective": "20240816",
+   "marketing": {
+    "products": [
+     "Prescription"
+    ],
+    "status": "Prescription (1)"
+   },
+   "origin": "DailyMed",
+   "setid": "10a70995-e04d-4044-b1dc-c9aa27460397",
+   "title": "These highlights do not include all the information needed to use VINORELBINE INJECTION safely and effectively. See full prescribing information for VINORELBINE",
+   "version": "10"
+  }
+ },
+ "n_labels": 70,
+ "n_with_marketing_status": 52,
+ "note": "marketing status comes from openFDA drugsfda for the products linked to the set id; not_found means the lookup returned nothing, not that the product is withdrawn",
+ "read_on": "2026-10-08"
+}

@@ -1,0 +1,110 @@
+{
+  "description": "Gene-level extract of the Track 1 output used by track2.differential and track2.variant_level_consequence; no positions, alleles, genotype calls or read metrics.",
+  "differential": {
+    "phenotype": {
+      "ranks": {
+        "BUB1B": 14,
+        "DNAH10": 4254,
+        "IGBP1": 2730,
+        "IZUMO4": null,
+        "ZNF418": null
+      },
+      "scores": {
+        "BUB1B": 0.5566,
+        "DNAH10": 0.0236,
+        "IGBP1": 0.1414,
+        "IZUMO4": 0.0,
+        "ZNF418": 0.0
+      }
+    },
+    "ranking": {
+      "BUB1B": {
+        "log10_joint_rarity": 9.5,
+        "n_high_impact": 1,
+        "phenotype_score": 0.557,
+        "type": "compound_het"
+      },
+      "DNAH10": {
+        "log10_joint_rarity": 7.42,
+        "n_high_impact": 0,
+        "phenotype_score": 0.024,
+        "type": "compound_het"
+      },
+      "IGBP1": {
+        "log10_joint_rarity": 4.11,
+        "n_high_impact": 0,
+        "phenotype_score": 0.141,
+        "type": "hemizygous"
+      },
+      "IZUMO4": {
+        "log10_joint_rarity": 8.22,
+        "n_high_impact": 0,
+        "phenotype_score": 0.0,
+        "type": "compound_het"
+      },
+      "ZNF418": {
+        "log10_joint_rarity": 6.32,
+        "n_high_impact": 0,
+        "phenotype_score": 0.0,
+        "type": "homozygous"
+      }
+    },
+    "structural": {
+      "BUB1B": [
+        "primary",
+        "secondary"
+      ],
+      "CENPE": [
+        "secondary"
+      ],
+      "DNAH10": [
+        "secondary"
+      ],
+      "IGBP1": [
+        "secondary"
+      ],
+      "MAD1L1": [
+        "secondary"
+      ]
+    }
+  },
+  "variant_level": {
+    "decay_states": {
+      "BUB1B": "not_annotated",
+      "CENPE": "not_annotated",
+      "DNAH10": "not_annotated",
+      "IGBP1": "not_annotated",
+      "MAD1L1": "not_annotated"
+    },
+    "phenotype_has_decay": false,
+    "snv_classes": {
+      "BUB1B": [
+        "loss of function",
+        "missense"
+      ],
+      "DNAH10": [
+        "missense",
+        "missense"
+      ],
+      "IGBP1": [
+        "missense"
+      ],
+      "IZUMO4": [
+        "missense",
+        "in-frame"
+      ],
+      "ZNF418": [
+        "missense"
+      ]
+    },
+    "sv_classes": {
+      "CENPE": [
+        "structural call not overlapping coding sequence"
+      ],
+      "MAD1L1": [
+        "structural call not overlapping coding sequence",
+        "structural call not overlapping coding sequence"
+      ]
+    }
+  }
+}

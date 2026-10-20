@@ -1,0 +1,1512 @@
+{
+ "BUB1B": {
+  "drugs": {
+   "CHEMBL107": {
+    "call": "supports_resistance_when_SAC_weak",
+    "in_prism": true,
+    "n_rows_tested": 1,
+    "name": "COLCHICINE",
+    "rows": [
+     {
+      "adjusted_coef_per_sd": -0.25820504955802803,
+      "coef_lineage_prolif_per_sd": -0.37557275239647253,
+      "diff_weak_minus_strong": 0.6318127785040628,
+      "drug_id": "CHEMBL107",
+      "fdr": 0.0020354406452851724,
+      "fdr_adjusted": 0.010669519058915226,
+      "fdr_lineage_prolif": 0.01813942120534839,
+      "n_strong": 120,
+      "n_weak": 131,
+      "p": 0.0003914308933240716,
+      "p_adjusted": 0.003282928941204685,
+      "p_lineage_prolif": 0.004186020278157321,
+      "prism_name": "COLCHICINE",
+      "prism_row": "BRD:BRD-K00259736-001-16-4",
+      "prolif_coef_per_sd": 0.186010946604722,
+      "spearman_all_lines": -0.1610321530254372,
+      "tested": true
+     }
+    ]
+   },
+   "CHEMBL1201182": {
+    "call": "no_association",
+    "in_prism": true,
+    "n_rows_tested": 1,
+    "name": "TEMSIROLIMUS",
+    "rows": [
+     {
+      "adjusted_coef_per_sd": -0.10733983626616939,
+      "coef_lineage_prolif_per_sd": -0.04512193561278072,
+      "diff_weak_minus_strong": 0.1746860432652862,
+      "drug_id": "CHEMBL1201182",
+      "fdr": 0.13684248527141948,
+      "fdr_adjusted": 0.03250580036847976,
+      "fdr_lineage_prolif": 0.5714106501291315,
+      "n_strong": 119,
+      "n_weak": 133,
+      "p": 0.05789489761483132,
+      "p_adjusted": 0.011252007819858379,
+      "p_lineage_prolif": 0.4920931831034593,
+      "prism_name": "TEMSIROLIMUS",
+      "prism_row": "BRD:BRD-K42898655-001-01-8",
+      "prolif_coef_per_sd": -0.09579234450353202,
+      "spearman_all_lines": -0.08106285879331664,
+      "tested": true
+     }
+    ]
+   },
+   "CHEMBL1201607": {
+    "call": "not_in_PRISM",
+    "in_prism": false,
+    "n_rows_tested": 0,
+    "name": "NATALIZUMAB",
+    "rows": []
+   },
+   "CHEMBL1201748": {
+    "call": "supports_resistance_when_SAC_weak",
+    "in_prism": true,
+    "n_rows_tested": 1,
+    "name": "CABAZITAXEL",
+    "rows": [
+     {
+      "adjusted_coef_per_sd": -0.24534317938441025,
+      "coef_lineage_prolif_per_sd": -0.31660236436226424,
+      "diff_weak_minus_strong": 0.4172721059595843,
+      "drug_id": "CHEMBL1201748",
+      "fdr": 0.023958984504653624,
+      "fdr_adjusted": 0.010669519058915226,
+      "fdr_lineage_prolif": 0.029652927689897184,
+      "n_strong": 118,
+      "n_weak": 131,
+      "p": 0.007371995232201115,
+      "p_adjusted": 0.002560407356191219,
+      "p_lineage_prolif": 0.009123977750737595,
+      "prism_name": "CABAZITAXEL",
+      "prism_row": "BRD:BRD-K06858286-001-01-3",
+      "prolif_coef_per_sd": 0.11299817805604795,
+      "spearman_all_lines": -0.11812771314767767,
+      "tested": true
+     }
+    ]
+   },
+   "CHEMBL1201752": {
+    "call": "no_association",
+    "in_prism": true,
+    "n_rows_tested": 1,
+    "name": "IXABEPILONE",
+    "rows": [
+     {
+      "adjusted_coef_per_sd": -0.15366478455975136,
+      "coef_lineage_prolif_per_sd": -0.312032191982822,
+      "diff_weak_minus_strong": 0.19448241316796588,
+      "drug_id": "CHEMBL1201752",
+      "fdr": 0.36013657116991393,
+      "fdr_adjusted": 0.08701920901779199,
+      "fdr_lineage_prolif": 0.019475117535697226,
+      "n_strong": 118,
+      "n_weak": 131,
+      "p": 0.1939196921684152,
+      "p_adjusted": 0.04016271185436554,
+      "p_lineage_prolif": 0.005243300874995407,
+      "prism_name": "IXABEPILONE",
+      "prism_row": "BRD:BRD-K03601870-001-01-2",
+      "prolif_coef_per_sd": 0.25112872828714883,
+      "spearman_all_lines": -0.0757565448009168,
+      "tested": true
+     }
+    ]
+   },
+   "CHEMBL1614701": {
+    "call": "supports_sensitivity_when_SAC_weak",
+    "in_prism": true,
+    "n_rows_tested": 1,
+    "name": "SELUMETINIB",
+    "rows": [
+     {
+      "adjusted_coef_per_sd": 0.10482347028080075,
+      "coef_lineage_prolif_per_sd": 0.25717881187651814,
+      "diff_weak_minus_strong": -0.5825882537025054,
+      "drug_id": "CHEMBL1614701",
+      "fdr": 4.521787369601415e-05,
+      "fdr_adjusted": 0.12423311300575318,
+      "fdr_lineage_prolif": 0.014518810248007932,
+      "n_strong": 120,
+      "n_weak": 133,
+      "p": 3.4782979766164728e-06,
+      "p_adjusted": 0.06211655650287659,
+      "p_lineage_prolif": 0.002259563688803066,
+      "prism_name": "SELUMETINIB",
+      "prism_row": "BRD:BRD-K57080016-001-15-9",
+      "prolif_coef_per_sd": -0.24159279528972583,
+      "spearman_all_lines": 0.18665328791923227,
+      "tested": true
+     }
+    ]
+   },
+   "CHEMBL1742994": {
+    "call": "not_in_PRISM",
+    "in_prism": false,
+    "n_rows_tested": 0,
+    "name": "BRENTUXIMAB VEDOTIN",
+    "rows": []
+   },
+   "CHEMBL1743082": {
+    "call": "not_in_PRISM",
+    "in_prism": false,
+    "n_rows_tested": 0,
+    "name": "TRASTUZUMAB EMTANSINE",
+    "rows": []
+   },
+   "CHEMBL178": {
+    "call": "no_association",
+    "in_prism": true,
+    "n_rows_tested": 2,
+    "name": "DAUNORUBICIN",
+    "rows": [
+     {
+      "adjusted_coef_per_sd": -0.09383870413752073,
+      "coef_lineage_prolif_per_sd": -0.24623086914646822,
+      "diff_weak_minus_strong": 0.1758848113154472,
+      "drug_id": "CHEMBL178",
+      "fdr": 0.40456211511719264,
+      "fdr_adjusted": 0.3048170006896869,
+      "fdr_lineage_prolif": 0.06555415983256188,
+      "n_strong": 115,
+      "n_weak": 125,
+      "p": 0.2510120535568281,
+      "p_adjusted": 0.2110271543236294,
+      "p_lineage_prolif": 0.027734452236853106,
+      "prism_name": "DAUNORUBICIN",
+      "prism_row": "BRD:BRD-K43389675-003-16-7",
+      "prolif_coef_per_sd": 0.24116552409029202,
+      "spearman_all_lines": -0.04673700001322625,
+      "tested": true
+     },
+     {
+      "adjusted_coef_per_sd": -0.12490814667742453,
+      "coef_lineage_prolif_per_sd": -0.17542560419777503,
+      "diff_weak_minus_strong": 0.033076664371105124,
+      "drug_id": "CHEMBL178",
+      "fdr": 0.8924802840718505,
+      "fdr_adjusted": 0.17496263198952908,
+      "fdr_lineage_prolif": 0.20399837455841857,
+      "n_strong": 118,
+      "n_weak": 133,
+      "p": 0.8238279545278621,
+      "p_adjusted": 0.09421064799436182,
+      "p_lineage_prolif": 0.11769136993754918,
+      "prism_name": "DAUNORUBICIN",
+      "prism_row": "BRD:BRD-K43389675-003-20-9",
+      "prolif_coef_per_sd": 0.08010705518368866,
+      "spearman_all_lines": -0.036734918545674386,
+      "tested": true
+     }
+    ]
+   },
+   "CHEMBL1908360": {
+    "call": "no_association",
+    "in_prism": true,
+    "n_rows_tested": 1,
+    "name": "EVEROLIMUS",
+    "rows": [
+     {
+      "adjusted_coef_per_sd": -0.008037914359251391,
+      "coef_lineage_prolif_per_sd": 0.11350452728049895,
+      "diff_weak_minus_strong": 0.017136055374285503,
+      "drug_id": "CHEMBL1908360",
+      "fdr": 0.8945370835351008,
+      "fdr_adjusted": 0.8758289921766365,
+      "fdr_lineage_prolif": 0.19308897715393444,
+      "n_strong": 118,
+      "n_weak": 131,
+      "p": 0.8601318110914431,
+      "p_adjusted": 0.8638459772971271,
+      "p_lineage_prolif": 0.1039709876982724,
+      "prism_name": "EVEROLIMUS",
+      "prism_row": "BRD:BRD-K13514097-001-05-3",
+      "prolif_coef_per_sd": -0.19273409408266046,
+      "spearman_all_lines": -0.009857026913663811,
+      "tested": true
+     }
+    ]
+   },
+   "CHEMBL2103830": {
+    "call": "no_association",
+    "in_prism": true,
+    "n_rows_tested": 1,
+    "name": "FOSTAMATINIB",
+    "rows": [
+     {
+      "adjusted_coef_per_sd": -0.058617651851971125,
+      "coef_lineage_prolif_per_sd": -0.11395726904929636,
+      "diff_weak_minus_strong": 0.17176387180926625,
+      "drug_id": "CHEMBL2103830",
+      "fdr": 0.14466583591281396,
+      "fdr_adjusted": 0.292060197016297,
+      "fdr_lineage_prolif": 0.1791150846146373,
+      "n_strong": 119,
+      "n_weak": 132,
+      "p": 0.06676884734437567,
+      "p_adjusted": 0.18898112833995684,
+      "p_lineage_prolif": 0.08955754230731865,
+      "prism_name": "FOSTAMATINIB",
+      "prism_row": "BRD:BRD-K85178109-001-02-3",
+      "prolif_coef_per_sd": 0.08765903270821257,
+      "spearman_all_lines": -0.08029317971114902,
+      "tested": true
+     }
+    ]
+   },
+   "CHEMBL2110725": {
+    "call": "supports_resistance_when_SAC_weak",
+    "in_prism": true,
+    "n_rows_tested": 2,
+    "name": "VINFLUNINE",
+    "rows": [
+     {
+      "adjusted_coef_per_sd": -0.24475125952634166,
+      "coef_lineage_prolif_per_sd": -0.37224311122646275,
+      "diff_weak_minus_strong": 0.5736636578148943,
+      "drug_id": "CHEMBL2110725",
+      "fdr": 6.076555460115864e-05,
+      "fdr_adjusted": 0.0011961747607716375,
+      "fdr_lineage_prolif": 0.001931085621587134,
+      "n_strong": 114,
+      "n_weak": 131,
+      "p": 7.011410146287536e-06,
+      "p_adjusted": 0.00011879270588192742,
+      "p_lineage_prolif": 0.00014854504781439492,
+      "prism_name": "VINFLUNINE",
+      "prism_row": "BRD:BRD-K64120610-001-01-4",
+      "prolif_coef_per_sd": 0.19714087541335623,
+      "spearman_all_lines": -0.1989697025923899,
+      "tested": true
+     },
+     {
+      "adjusted_coef_per_sd": -0.2993279291101482,
+      "coef_lineage_prolif_per_sd": -0.4536688184247484,
+      "diff_weak_minus_strong": 0.7871720717776762,
+      "drug_id": "CHEMBL2110725",
+      "fdr": 1.3128438065996869e-05,
+      "fdr_adjusted": 0.0011961747607716375,
+      "fdr_lineage_prolif": 0.001931085621587134,
+      "n_strong": 103,
+      "n_weak": 112,
+      "p": 5.049399256152642e-07,
+      "p_adjusted": 0.0001380201647044197,
+      "p_lineage_prolif": 9.31631889120287e-05,
+      "prism_name": "VINFLUNINE",
+      "prism_row": "BRD:BRD-K64120610-046-01-9",
+      "prolif_coef_per_sd": 0.24564696478337733,
+      "spearman_all_lines": -0.21314954176525996,
+      "tested": true
+     }
+    ]
+   },
+   "CHEMBL218394": {
+    "call": "no_association",
+    "in_prism": true,
+    "n_rows_tested": 1,
+    "name": "BOCEPREVIR",
+    "rows": [
+     {
+      "adjusted_coef_per_sd": -0.01676647910674624,
+      "coef_lineage_prolif_per_sd": -0.04634380264840085,
+      "diff_weak_minus_strong": 0.0787380904550332,
+      "drug_id": "CHEMBL218394",
+      "fdr": 0.40456211511719264,
+      "fdr_adjusted": 0.7572635352746879,
+      "fdr_lineage_prolif": 0.5287993493017444,
+      "n_strong": 120,
+      "n_weak": 132,
+      "p": 0.26452138296124134,
+      "p_adjusted": 0.6518543757078804,
+      "p_lineage_prolif": 0.40676873023211113,
+      "prism_name": "BOCEPREVIR",
+      "prism_row": "BRD:BRD-A09735281-001-02-5",
+      "prolif_coef_per_sd": 0.047010069004209766,
+      "spearman_all_lines": -0.052844201171142365,
+      "tested": true
+     }
+    ]
+   },
+   "CHEMBL231813": {
+    "call": "no_association",
+    "in_prism": true,
+    "n_rows_tested": 1,
+    "name": "TELAPREVIR",
+    "rows": [
+     {
+      "adjusted_coef_per_sd": 0.005887652869782246,
+      "coef_lineage_prolif_per_sd": 0.05269423687354184,
+      "diff_weak_minus_strong": 0.049017990012153144,
+      "drug_id": "CHEMBL231813",
+      "fdr": 0.6100138501254918,
+      "fdr_adjusted": 0.8758289921766365,
+      "fdr_lineage_prolif": 0.3651739019409498,
+      "n_strong": 115,
+      "n_weak": 125,
+      "p": 0.44573034553045987,
+      "p_adjusted": 0.8488286654540425,
+      "p_lineage_prolif": 0.25281270134373446,
+      "prism_name": "TELAPREVIR",
+      "prism_row": "BRD:BRD-K72912098-001-02-3",
+      "prolif_coef_per_sd": -0.07407293125260082,
+      "spearman_all_lines": -0.034155678087517856,
+      "tested": true
+     }
+    ]
+   },
+   "CHEMBL267495": {
+    "call": "no_association",
+    "in_prism": true,
+    "n_rows_tested": 1,
+    "name": "NALFURAFINE",
+    "rows": [
+     {
+      "adjusted_coef_per_sd": 0.002922647388963034,
+      "coef_lineage_prolif_per_sd": 0.01927052173050555,
+      "diff_weak_minus_strong": -0.028931373956447265,
+      "drug_id": "CHEMBL267495",
+      "fdr": 0.6100138501254918,
+      "fdr_adjusted": 0.8758289921766365,
+      "fdr_lineage_prolif": 0.5714106501291315,
+      "n_strong": 114,
+      "n_weak": 131,
+      "p": 0.4576316943413664,
+      "p_adjusted": 0.8758289921766365,
+      "p_lineage_prolif": 0.5054786520373087,
+      "prism_name": "NALFURAFINE",
+      "prism_row": "BRD:BRD-K89272869-003-01-8",
+      "prolif_coef_per_sd": -0.025278746961960915,
+      "spearman_all_lines": 0.04669092064816407,
+      "tested": true
+     }
+    ]
+   },
+   "CHEMBL325041": {
+    "call": "no_association",
+    "in_prism": true,
+    "n_rows_tested": 1,
+    "name": "BORTEZOMIB",
+    "rows": [
+     {
+      "adjusted_coef_per_sd": -0.09343482995604402,
+      "coef_lineage_prolif_per_sd": -0.13510829324830861,
+      "diff_weak_minus_strong": -0.09880035180446178,
+      "drug_id": "CHEMBL325041",
+      "fdr": 0.6100138501254918,
+      "fdr_adjusted": 0.292060197016297,
+      "fdr_lineage_prolif": 0.3177155315316199,
+      "n_strong": 120,
+      "n_weak": 132,
+      "p": 0.5011071665300173,
+      "p_adjusted": 0.1909624365106557,
+      "p_lineage_prolif": 0.2077370783091361,
+      "prism_name": "BORTEZOMIB",
+      "prism_row": "BRD:BRD-K88510285-001-11-1",
+      "prolif_coef_per_sd": 0.06607757028210415,
+      "spearman_all_lines": -0.0023672739379553137,
+      "tested": true
+     }
+    ]
+   },
+   "CHEMBL3301582": {
+    "call": "not_in_PRISM",
+    "in_prism": false,
+    "n_rows_tested": 0,
+    "name": "POLATUZUMAB VEDOTIN",
+    "rows": []
+   },
+   "CHEMBL3301589": {
+    "call": "not_in_PRISM",
+    "in_prism": false,
+    "n_rows_tested": 0,
+    "name": "ENFORTUMAB VEDOTIN",
+    "rows": []
+   },
+   "CHEMBL344159": {
+    "call": "no_association",
+    "in_prism": true,
+    "n_rows_tested": 1,
+    "name": "TOLVAPTAN",
+    "rows": [
+     {
+      "adjusted_coef_per_sd": -0.01007736552581459,
+      "coef_lineage_prolif_per_sd": -0.039721167323931765,
+      "diff_weak_minus_strong": -0.003192181105167176,
+      "drug_id": "CHEMBL344159",
+      "fdr": 0.9394430402307212,
+      "fdr_adjusted": 0.7572635352746879,
+      "fdr_lineage_prolif": 0.3177155315316199,
+      "n_strong": 120,
+      "n_weak": 132,
+      "p": 0.9394430402307212,
+      "p_adjusted": 0.6287794413553317,
+      "p_lineage_prolif": 0.20465885960535862,
+      "prism_name": "TOLVAPTAN",
+      "prism_row": "BRD:BRD-A82035391-001-02-7",
+      "prolif_coef_per_sd": 0.047115729255015226,
+      "spearman_all_lines": -0.014044149702620619,
+      "tested": true
+     }
+    ]
+   },
+   "CHEMBL3545132": {
+    "call": "not_in_PRISM",
+    "in_prism": false,
+    "n_rows_tested": 0,
+    "name": "MIRVETUXIMAB SORAVTANSINE",
+    "rows": []
+   },
+   "CHEMBL3545185": {
+    "call": "no_association",
+    "in_prism": true,
+    "n_rows_tested": 1,
+    "name": "SELINEXOR",
+    "rows": [
+     {
+      "adjusted_coef_per_sd": -0.03380732811338666,
+      "coef_lineage_prolif_per_sd": -0.06758150882790649,
+      "diff_weak_minus_strong": -0.19054068542099944,
+      "drug_id": "CHEMBL3545185",
+      "fdr": 0.40456211511719264,
+      "fdr_adjusted": 0.7572635352746879,
+      "fdr_lineage_prolif": 0.6076539311194917,
+      "n_strong": 119,
+      "n_weak": 133,
+      "p": 0.2574436709262305,
+      "p_adjusted": 0.6698869735122239,
+      "p_lineage_prolif": 0.5842826260764343,
+      "prism_name": "SELINEXOR",
+      "prism_row": "BRD:BRD-K21361524-001-01-1",
+      "prolif_coef_per_sd": 0.05199963226585713,
+      "spearman_all_lines": 0.03531255340023243,
+      "tested": true
+     }
+    ]
+   },
+   "CHEMBL3545432": {
+    "call": "no_association",
+    "in_prism": true,
+    "n_rows_tested": 1,
+    "name": "IXAZOMIB CITRATE",
+    "rows": [
+     {
+      "adjusted_coef_per_sd": -0.11137575243717174,
+      "coef_lineage_prolif_per_sd": -0.26029372076491114,
+      "diff_weak_minus_strong": 0.09328313584795644,
+      "drug_id": "CHEMBL3545432",
+      "fdr": 0.6100138501254918,
+      "fdr_adjusted": 0.2357191882856027,
+      "fdr_lineage_prolif": 0.05153578002076157,
+      "n_strong": 118,
+      "n_weak": 131,
+      "p": 0.5396276366494736,
+      "p_adjusted": 0.13599183939554002,
+      "p_lineage_prolif": 0.019821453854139064,
+      "prism_name": "IXAZOMIB",
+      "prism_row": "BRD:BRD-K78659596-001-03-9",
+      "prolif_coef_per_sd": 0.23770249108709596,
+      "spearman_all_lines": -0.03525409917539746,
+      "tested": true
+     }
+    ]
+   },
+   "CHEMBL413": {
+    "call": "confounded_by_proliferation_or_lineage",
+    "in_prism": true,
+    "n_rows_tested": 2,
+    "name": "SIROLIMUS",
+    "rows": [
+     {
+      "adjusted_coef_per_sd": -0.10714007415089347,
+      "coef_lineage_prolif_per_sd": -0.042650265405634005,
+      "diff_weak_minus_strong": 0.198081815247465,
+      "drug_id": "CHEMBL413",
+      "fdr": 0.07864946279577516,
+      "fdr_adjusted": 0.04952892972468635,
+      "fdr_lineage_prolif": 0.5758890836952592,
+      "n_strong": 118,
+      "n_weak": 131,
+      "p": 0.030249793382990445,
+      "p_adjusted": 0.019049588355648597,
+      "p_lineage_prolif": 0.5315899234110084,
+      "prism_name": "SIROLIMUS",
+      "prism_row": "BRD:BRD-A79768653-001-12-0",
+      "prolif_coef_per_sd": -0.10293847250683463,
+      "spearman_all_lines": -0.09816471598815052,
+      "tested": true
+     },
+     {
+      "adjusted_coef_per_sd": -0.17035642517220267,
+      "coef_lineage_prolif_per_sd": -0.06975706759706146,
+      "diff_weak_minus_strong": 0.47213258702820526,
+      "drug_id": "CHEMBL413",
+      "fdr": 0.00017085441936103696,
+      "fdr_adjusted": 0.008909443558949534,
+      "fdr_lineage_prolif": 0.5287993493017444,
+      "n_strong": 115,
+      "n_weak": 125,
+      "p": 2.628529528631338e-05,
+      "p_adjusted": 0.001713354530567218,
+      "p_lineage_prolif": 0.3864613226233986,
+      "prism_name": "SIROLIMUS",
+      "prism_row": "BRD:BRD-K84937637-001-09-9",
+      "prolif_coef_per_sd": -0.15920173318182396,
+      "spearman_all_lines": -0.17427277790622103,
+      "tested": true
+     }
+    ]
+   },
+   "CHEMBL428647": {
+    "call": "supports_resistance_when_SAC_weak",
+    "in_prism": true,
+    "n_rows_tested": 1,
+    "name": "PACLITAXEL",
+    "rows": [
+     {
+      "adjusted_coef_per_sd": -0.2521818537915871,
+      "coef_lineage_prolif_per_sd": -0.26291610984489466,
+      "diff_weak_minus_strong": 0.4010149187338772,
+      "drug_id": "CHEMBL428647",
+      "fdr": 0.04589715848923703,
+      "fdr_adjusted": 0.010669519058915226,
+      "fdr_lineage_prolif": 0.08092493565820452,
+      "n_strong": 120,
+      "n_weak": 131,
+      "p": 0.01588747793858205,
+      "p_adjusted": 0.002881564083864773,
+      "p_lineage_prolif": 0.0373499703037867,
+      "prism_name": "PACLITAXEL",
+      "prism_row": "BRD:BRD-K62008436-001-22-1",
+      "prolif_coef_per_sd": 0.017012253637798458,
+      "spearman_all_lines": -0.10310442266936416,
+      "tested": true
+     }
+    ]
+   },
+   "CHEMBL4297841": {
+    "call": "not_in_PRISM",
+    "in_prism": false,
+    "n_rows_tested": 0,
+    "name": "TISOTUMAB VEDOTIN",
+    "rows": []
+   },
+   "CHEMBL451887": {
+    "call": "no_association",
+    "in_prism": true,
+    "n_rows_tested": 1,
+    "name": "CARFILZOMIB",
+    "rows": [
+     {
+      "adjusted_coef_per_sd": -0.05367864436780197,
+      "coef_lineage_prolif_per_sd": -0.04859473834920871,
+      "diff_weak_minus_strong": -0.10085050528438444,
+      "drug_id": "CHEMBL451887",
+      "fdr": 0.6100138501254918,
+      "fdr_adjusted": 0.6369960411356805,
+      "fdr_lineage_prolif": 0.6654613397040249,
+      "n_strong": 116,
+      "n_weak": 129,
+      "p": 0.4953891322942088,
+      "p_adjusted": 0.46549710698376656,
+      "p_lineage_prolif": 0.6654613397040249,
+      "prism_name": "CARFILZOMIB",
+      "prism_row": "BRD:BRD-K15179879-001-03-2",
+      "prolif_coef_per_sd": -0.007988954088576694,
+      "spearman_all_lines": 0.006919202586527987,
+      "tested": true
+     }
+    ]
+   },
+   "CHEMBL501849": {
+    "call": "no_association",
+    "in_prism": true,
+    "n_rows_tested": 1,
+    "name": "SIMEPREVIR",
+    "rows": [
+     {
+      "adjusted_coef_per_sd": -0.01216065315489892,
+      "coef_lineage_prolif_per_sd": -0.02892005619664539,
+      "diff_weak_minus_strong": -0.032851647195766595,
+      "drug_id": "CHEMBL501849",
+      "fdr": 0.6100138501254918,
+      "fdr_adjusted": 0.7572635352746879,
+      "fdr_lineage_prolif": 0.5714106501291315,
+      "n_strong": 120,
+      "n_weak": 131,
+      "p": 0.5228584382990746,
+      "p_adjusted": 0.6686201920287203,
+      "p_lineage_prolif": 0.49604971385265384,
+      "prism_name": "SIMEPREVIR",
+      "prism_row": "BRD:BRD-A68493689-001-01-9",
+      "prolif_coef_per_sd": 0.026561245972552036,
+      "spearman_all_lines": 0.03356383175188322,
+      "tested": true
+     }
+    ]
+   },
+   "CHEMBL56337": {
+    "call": "no_association",
+    "in_prism": true,
+    "n_rows_tested": 1,
+    "name": "EPALRESTAT",
+    "rows": [
+     {
+      "adjusted_coef_per_sd": -0.0390067961792809,
+      "coef_lineage_prolif_per_sd": -0.07340839347798173,
+      "diff_weak_minus_strong": 0.05849008632737775,
+      "drug_id": "CHEMBL56337",
+      "fdr": 0.3085135850567797,
+      "fdr_adjusted": 0.08701920901779199,
+      "fdr_lineage_prolif": 0.03387335851794154,
+      "n_strong": 114,
+      "n_weak": 131,
+      "p": 0.15425679252838986,
+      "p_adjusted": 0.03845467615263894,
+      "p_lineage_prolif": 0.011725393333133612,
+      "prism_name": "EPALRESTAT",
+      "prism_row": "BRD:BRD-K98054437-001-09-9",
+      "prolif_coef_per_sd": 0.053195250650494026,
+      "spearman_all_lines": -0.0668835314971814,
+      "tested": true
+     }
+    ]
+   },
+   "CHEMBL571546": {
+    "call": "not_in_PRISM",
+    "in_prism": false,
+    "n_rows_tested": 0,
+    "name": "TIRBANIBULIN",
+    "rows": []
+   },
+   "CHEMBL70": {
+    "call": "not_in_PRISM",
+    "in_prism": false,
+    "n_rows_tested": 0,
+    "name": "MORPHINE",
+    "rows": []
+   },
+   "CHEMBL92": {
+    "call": "supports_resistance_when_SAC_weak",
+    "in_prism": true,
+    "n_rows_tested": 2,
+    "name": "DOCETAXEL ANHYDROUS",
+    "rows": [
+     {
+      "adjusted_coef_per_sd": -0.29052716735572354,
+      "coef_lineage_prolif_per_sd": -0.3742786354520004,
+      "diff_weak_minus_strong": 0.5060025772791332,
+      "drug_id": "CHEMBL92",
+      "fdr": 0.005976934409209564,
+      "fdr_adjusted": 0.0026225108352671816,
+      "fdr_lineage_prolif": 0.014518810248007932,
+      "n_strong": 116,
+      "n_weak": 129,
+      "p": 0.0016091746486333442,
+      "p_adjusted": 0.0004034632054257202,
+      "p_lineage_prolif": 0.0027920788938476794,
+      "prism_name": "DOCETAXEL",
+      "prism_row": "BRD:BRD-K30577245-001-04-3",
+      "prolif_coef_per_sd": 0.1316087730624811,
+      "spearman_all_lines": -0.13022405896643166,
+      "tested": true
+     },
+     {
+      "adjusted_coef_per_sd": -0.35468235576705687,
+      "coef_lineage_prolif_per_sd": -0.4486243081698179,
+      "diff_weak_minus_strong": 0.5695478342072531,
+      "drug_id": "CHEMBL92",
+      "fdr": 0.005976934409209564,
+      "fdr_adjusted": 0.000784858823237538,
+      "fdr_lineage_prolif": 0.0034576052794409277,
+      "n_strong": 118,
+      "n_weak": 131,
+      "p": 0.001473277288038367,
+      "p_adjusted": 3.0186877816828384e-05,
+      "p_lineage_prolif": 0.00039895445532010706,
+      "prism_name": "DOCETAXEL",
+      "prism_row": "BRD:BRD-K30577245-341-01-9",
+      "prolif_coef_per_sd": 0.1489670344649464,
+      "spearman_all_lines": -0.16408658430600914,
+      "tested": true
+     }
+    ]
+   }
+  },
+  "fdr": 0.1,
+  "n_candidates": 31,
+  "n_cell_lines": 895,
+  "n_in_prism": 22,
+  "n_strong": 224,
+  "n_weak": 224,
+  "proliferation_genes": [
+   "MKI67",
+   "TOP2A",
+   "PCNA",
+   "MCM2",
+   "MCM6",
+   "RRM2"
+  ],
+  "score": "BUB1B",
+  "spearman_score_vs_proliferation": 0.7738563059155292,
+  "strong_threshold": 0.7095835504696828,
+  "weak_threshold": -0.3206030568474805
+ },
+ "mean_all": {
+  "drugs": {
+   "CHEMBL107": {
+    "call": "supports_resistance_when_SAC_weak",
+    "in_prism": true,
+    "n_rows_tested": 1,
+    "name": "COLCHICINE",
+    "rows": [
+     {
+      "adjusted_coef_per_sd": -0.35463655736866806,
+      "coef_lineage_prolif_per_sd": -0.6490058872606835,
+      "diff_weak_minus_strong": 0.6993693880172644,
+      "drug_id": "CHEMBL107",
+      "fdr": 0.00046443348494732285,
+      "fdr_adjusted": 0.006806559586192056,
+      "fdr_lineage_prolif": 0.002337839729044759,
+      "n_strong": 131,
+      "n_weak": 124,
+      "p": 7.14513053765112e-05,
+      "p_adjusted": 0.0015418121532465312,
+      "p_lineage_prolif": 0.0005395014759334059,
+      "prism_name": "COLCHICINE",
+      "prism_row": "BRD:BRD-K00259736-001-16-4",
+      "prolif_coef_per_sd": 0.3383435637821538,
+      "spearman_all_lines": -0.14972513188637837,
+      "tested": true
+     }
+    ]
+   },
+   "CHEMBL1201182": {
+    "call": "no_association",
+    "in_prism": true,
+    "n_rows_tested": 1,
+    "name": "TEMSIROLIMUS",
+    "rows": [
+     {
+      "adjusted_coef_per_sd": -0.09802138533082065,
+      "coef_lineage_prolif_per_sd": 0.07262018538305182,
+      "diff_weak_minus_strong": 0.09196716661212692,
+      "drug_id": "CHEMBL1201182",
+      "fdr": 0.34684055990954826,
+      "fdr_adjusted": 0.12399597049351643,
+      "fdr_lineage_prolif": 0.5232821901346227,
+      "n_strong": 131,
+      "n_weak": 127,
+      "p": 0.2934804737696177,
+      "p_adjusted": 0.07153613682318255,
+      "p_lineage_prolif": 0.44277723780621925,
+      "prism_name": "TEMSIROLIMUS",
+      "prism_row": "BRD:BRD-K42898655-001-01-8",
+      "prolif_coef_per_sd": -0.1913586899979189,
+      "spearman_all_lines": -0.027392466463891773,
+      "tested": true
+     }
+    ]
+   },
+   "CHEMBL1201607": {
+    "call": "not_in_PRISM",
+    "in_prism": false,
+    "n_rows_tested": 0,
+    "name": "NATALIZUMAB",
+    "rows": []
+   },
+   "CHEMBL1201748": {
+    "call": "supports_resistance_when_SAC_weak",
+    "in_prism": true,
+    "n_rows_tested": 1,
+    "name": "CABAZITAXEL",
+    "rows": [
+     {
+      "adjusted_coef_per_sd": -0.3017514885240262,
+      "coef_lineage_prolif_per_sd": -0.447965937880577,
+      "diff_weak_minus_strong": 0.4492753771481066,
+      "drug_id": "CHEMBL1201748",
+      "fdr": 0.014961175917472501,
+      "fdr_adjusted": 0.01345923566526469,
+      "fdr_lineage_prolif": 0.025897940022579936,
+      "n_strong": 130,
+      "n_weak": 125,
+      "p": 0.0046034387438376925,
+      "p_adjusted": 0.003623640371417417,
+      "p_lineage_prolif": 0.009960746162530745,
+      "prism_name": "CABAZITAXEL",
+      "prism_row": "BRD:BRD-K06858286-001-01-3",
+      "prolif_coef_per_sd": 0.16829844100557967,
+      "spearman_all_lines": -0.10996399316849242,
+      "tested": true
+     }
+    ]
+   },
+   "CHEMBL1201752": {
+    "call": "supports_resistance_when_SAC_weak",
+    "in_prism": true,
+    "n_rows_tested": 1,
+    "name": "IXABEPILONE",
+    "rows": [
+     {
+      "adjusted_coef_per_sd": -0.23217457416735504,
+      "coef_lineage_prolif_per_sd": -0.5996331616249462,
+      "diff_weak_minus_strong": 0.45002243329847147,
+      "drug_id": "CHEMBL1201752",
+      "fdr": 0.011505970059790923,
+      "fdr_adjusted": 0.04310878837124143,
+      "fdr_lineage_prolif": 0.001476745331920695,
+      "n_strong": 130,
+      "n_weak": 125,
+      "p": 0.00309776116994371,
+      "p_adjusted": 0.014922272897737418,
+      "p_lineage_prolif": 0.00017039369214469558,
+      "prism_name": "IXABEPILONE",
+      "prism_row": "BRD:BRD-K03601870-001-01-2",
+      "prolif_coef_per_sd": 0.42295893241315774,
+      "spearman_all_lines": -0.0907198828055595,
+      "tested": true
+     }
+    ]
+   },
+   "CHEMBL1614701": {
+    "call": "no_association",
+    "in_prism": true,
+    "n_rows_tested": 1,
+    "name": "SELUMETINIB",
+    "rows": [
+     {
+      "adjusted_coef_per_sd": 0.0787774997237275,
+      "coef_lineage_prolif_per_sd": 0.261449400834594,
+      "diff_weak_minus_strong": -0.2314077476377544,
+      "drug_id": "CHEMBL1614701",
+      "fdr": 0.16251247984385062,
+      "fdr_adjusted": 0.3715363376946607,
+      "fdr_lineage_prolif": 0.05706452462644428,
+      "n_strong": 132,
+      "n_weak": 127,
+      "p": 0.06894156789382472,
+      "p_adjusted": 0.27150732369994435,
+      "p_lineage_prolif": 0.030727051721931534,
+      "prism_name": "SELUMETINIB",
+      "prism_row": "BRD:BRD-K57080016-001-15-9",
+      "prolif_coef_per_sd": -0.21043738936233997,
+      "spearman_all_lines": 0.10247784946866426,
+      "tested": true
+     }
+    ]
+   },
+   "CHEMBL1742994": {
+    "call": "not_in_PRISM",
+    "in_prism": false,
+    "n_rows_tested": 0,
+    "name": "BRENTUXIMAB VEDOTIN",
+    "rows": []
+   },
+   "CHEMBL1743082": {
+    "call": "not_in_PRISM",
+    "in_prism": false,
+    "n_rows_tested": 0,
+    "name": "TRASTUZUMAB EMTANSINE",
+    "rows": []
+   },
+   "CHEMBL178": {
+    "call": "no_association",
+    "in_prism": true,
+    "n_rows_tested": 2,
+    "name": "DAUNORUBICIN",
+    "rows": [
+     {
+      "adjusted_coef_per_sd": -0.10793270989495318,
+      "coef_lineage_prolif_per_sd": -0.37101763888099865,
+      "diff_weak_minus_strong": 0.17587095094791083,
+      "drug_id": "CHEMBL178",
+      "fdr": 0.31467479238819757,
+      "fdr_adjusted": 0.3715363376946607,
+      "fdr_lineage_prolif": 0.04686760557452007,
+      "n_strong": 123,
+      "n_weak": 117,
+      "p": 0.23661050157668742,
+      "p_adjusted": 0.26167308562288477,
+      "p_lineage_prolif": 0.021631202572855415,
+      "prism_name": "DAUNORUBICIN",
+      "prism_row": "BRD:BRD-K43389675-003-16-7",
+      "prolif_coef_per_sd": 0.2999231736052427,
+      "spearman_all_lines": -0.06826278437870278,
+      "tested": true
+     },
+     {
+      "adjusted_coef_per_sd": -0.19063588443603055,
+      "coef_lineage_prolif_per_sd": -0.35923223290838086,
+      "diff_weak_minus_strong": 0.2219592209731771,
+      "drug_id": "CHEMBL178",
+      "fdr": 0.20865213274150626,
+      "fdr_adjusted": 0.09194331273281756,
+      "fdr_lineage_prolif": 0.05042865338509227,
+      "n_strong": 131,
+      "n_weak": 126,
+      "p": 0.13642639448483102,
+      "p_adjusted": 0.04478389994128125,
+      "p_lineage_prolif": 0.02521432669254613,
+      "prism_name": "DAUNORUBICIN",
+      "prism_row": "BRD:BRD-K43389675-003-20-9",
+      "prolif_coef_per_sd": 0.19426401012163175,
+      "spearman_all_lines": -0.06215511583466592,
+      "tested": true
+     }
+    ]
+   },
+   "CHEMBL1908360": {
+    "call": "no_association",
+    "in_prism": true,
+    "n_rows_tested": 1,
+    "name": "EVEROLIMUS",
+    "rows": [
+     {
+      "adjusted_coef_per_sd": -0.00799405950645591,
+      "coef_lineage_prolif_per_sd": 0.20582775077264806,
+      "diff_weak_minus_strong": 0.029557681603742364,
+      "drug_id": "CHEMBL1908360",
+      "fdr": 0.7554668762846849,
+      "fdr_adjusted": 0.9293131343070101,
+      "fdr_lineage_prolif": 0.06806005664371521,
+      "n_strong": 130,
+      "n_weak": 125,
+      "p": 0.7554668762846849,
+      "p_adjusted": 0.8935703214490482,
+      "p_lineage_prolif": 0.03926541729445108,
+      "prism_name": "EVEROLIMUS",
+      "prism_row": "BRD:BRD-K13514097-001-05-3",
+      "prolif_coef_per_sd": -0.24611710731276965,
+      "spearman_all_lines": 0.023334384892360244,
+      "tested": true
+     }
+    ]
+   },
+   "CHEMBL2103830": {
+    "call": "no_association",
+    "in_prism": true,
+    "n_rows_tested": 1,
+    "name": "FOSTAMATINIB",
+    "rows": [
+     {
+      "adjusted_coef_per_sd": -0.1060785858506476,
+      "coef_lineage_prolif_per_sd": -0.2696775919508482,
+      "diff_weak_minus_strong": 0.15028580167971614,
+      "drug_id": "CHEMBL2103830",
+      "fdr": 0.20865213274150626,
+      "fdr_adjusted": 0.11637900531874361,
+      "fdr_lineage_prolif": 0.016171030889043314,
+      "n_strong": 130,
+      "n_weak": 126,
+      "p": 0.11149680915253883,
+      "p_adjusted": 0.06266561824855425,
+      "p_lineage_prolif": 0.004975701812013327,
+      "prism_name": "FOSTAMATINIB",
+      "prism_row": "BRD:BRD-K85178109-001-02-3",
+      "prolif_coef_per_sd": 0.18802060806299983,
+      "spearman_all_lines": -0.06697125670437978,
+      "tested": true
+     }
+    ]
+   },
+   "CHEMBL2110725": {
+    "call": "supports_resistance_when_SAC_weak",
+    "in_prism": true,
+    "n_rows_tested": 2,
+    "name": "VINFLUNINE",
+    "rows": [
+     {
+      "adjusted_coef_per_sd": -0.3573021075597043,
+      "coef_lineage_prolif_per_sd": -0.72026641076448,
+      "diff_weak_minus_strong": 0.6887797653492823,
+      "drug_id": "CHEMBL2110725",
+      "fdr": 8.642942016354791e-06,
+      "fdr_adjusted": 0.00028040431816848716,
+      "fdr_lineage_prolif": 9.251008227239189e-06,
+      "n_strong": 125,
+      "n_weak": 125,
+      "p": 3.324208467828766e-07,
+      "p_adjusted": 1.0784781468018738e-05,
+      "p_lineage_prolif": 3.558080087399688e-07,
+      "prism_name": "VINFLUNINE",
+      "prism_row": "BRD:BRD-K64120610-001-01-4",
+      "prolif_coef_per_sd": 0.4074426626996515,
+      "spearman_all_lines": -0.21428940972177757,
+      "tested": true
+     },
+     {
+      "adjusted_coef_per_sd": -0.37328682410949315,
+      "coef_lineage_prolif_per_sd": -0.6836852693263387,
+      "diff_weak_minus_strong": 0.6030674695693148,
+      "drug_id": "CHEMBL2110725",
+      "fdr": 0.0005548531614363838,
+      "fdr_adjusted": 0.0014913527810586989,
+      "fdr_lineage_prolif": 0.0004444735809732322,
+      "n_strong": 118,
+      "n_weak": 99,
+      "p": 0.00010670253104545843,
+      "p_adjusted": 0.00017207916704523447,
+      "p_lineage_prolif": 3.41902754594794e-05,
+      "prism_name": "VINFLUNINE",
+      "prism_row": "BRD:BRD-K64120610-046-01-9",
+      "prolif_coef_per_sd": 0.3602370985419988,
+      "spearman_all_lines": -0.1765345589099162,
+      "tested": true
+     }
+    ]
+   },
+   "CHEMBL218394": {
+    "call": "no_association",
+    "in_prism": true,
+    "n_rows_tested": 1,
+    "name": "BOCEPREVIR",
+    "rows": [
+     {
+      "adjusted_coef_per_sd": -0.032570328275845176,
+      "coef_lineage_prolif_per_sd": -0.10753755973371795,
+      "diff_weak_minus_strong": 0.1104073505366052,
+      "drug_id": "CHEMBL218394",
+      "fdr": 0.20865213274150626,
+      "fdr_adjusted": 0.582545188925435,
+      "fdr_lineage_prolif": 0.24607443107201424,
+      "n_strong": 131,
+      "n_weak": 125,
+      "p": 0.13038390559847524,
+      "p_adjusted": 0.49292285216767584,
+      "p_lineage_prolif": 0.17982362270647193,
+      "prism_name": "BOCEPREVIR",
+      "prism_row": "BRD:BRD-A09735281-001-02-5",
+      "prolif_coef_per_sd": 0.08635021580941514,
+      "spearman_all_lines": -0.06629028209793457,
+      "tested": true
+     }
+    ]
+   },
+   "CHEMBL231813": {
+    "call": "confounded_by_proliferation_or_lineage",
+    "in_prism": true,
+    "n_rows_tested": 1,
+    "name": "TELAPREVIR",
+    "rows": [
+     {
+      "adjusted_coef_per_sd": -0.030582865987722137,
+      "coef_lineage_prolif_per_sd": -0.01670004476637082,
+      "diff_weak_minus_strong": 0.13045682242576614,
+      "drug_id": "CHEMBL231813",
+      "fdr": 0.09576164988490916,
+      "fdr_adjusted": 0.5603160769414444,
+      "fdr_lineage_prolif": 0.8019875988228993,
+      "n_strong": 123,
+      "n_weak": 117,
+      "p": 0.03683140380188814,
+      "p_adjusted": 0.43960355548541297,
+      "p_lineage_prolif": 0.8019875988228993,
+      "prism_name": "TELAPREVIR",
+      "prism_row": "BRD:BRD-K72912098-001-02-3",
+      "prolif_coef_per_sd": -0.015826751518414693,
+      "spearman_all_lines": -0.06463290486412714,
+      "tested": true
+     }
+    ]
+   },
+   "CHEMBL267495": {
+    "call": "no_association",
+    "in_prism": true,
+    "n_rows_tested": 1,
+    "name": "NALFURAFINE",
+    "rows": [
+     {
+      "adjusted_coef_per_sd": -0.0004435049913691979,
+      "coef_lineage_prolif_per_sd": 0.020363397069575705,
+      "diff_weak_minus_strong": -0.036047136567018516,
+      "drug_id": "CHEMBL267495",
+      "fdr": 0.34911240767514035,
+      "fdr_adjusted": 0.9852146414285579,
+      "fdr_lineage_prolif": 0.6533690083099866,
+      "n_strong": 125,
+      "n_weak": 125,
+      "p": 0.30883020678954726,
+      "p_adjusted": 0.9852146414285579,
+      "p_lineage_prolif": 0.6274786493112212,
+      "prism_name": "NALFURAFINE",
+      "prism_row": "BRD:BRD-K89272869-003-01-8",
+      "prolif_coef_per_sd": -0.02335662075688843,
+      "spearman_all_lines": 0.046782875231073814,
+      "tested": true
+     }
+    ]
+   },
+   "CHEMBL325041": {
+    "call": "no_association",
+    "in_prism": true,
+    "n_rows_tested": 1,
+    "name": "BORTEZOMIB",
+    "rows": [
+     {
+      "adjusted_coef_per_sd": -0.18279028162673405,
+      "coef_lineage_prolif_per_sd": -0.38979049295754253,
+      "diff_weak_minus_strong": 0.2249745711182669,
+      "drug_id": "CHEMBL325041",
+      "fdr": 0.20865213274150626,
+      "fdr_adjusted": 0.09194331273281756,
+      "fdr_lineage_prolif": 0.026620571722045894,
+      "n_strong": 129,
+      "n_weak": 126,
+      "p": 0.13064599270296143,
+      "p_adjusted": 0.04487351462085216,
+      "p_lineage_prolif": 0.011262549574711725,
+      "prism_name": "BORTEZOMIB",
+      "prism_row": "BRD:BRD-K88510285-001-11-1",
+      "prolif_coef_per_sd": 0.23778063806662253,
+      "spearman_all_lines": -0.042143497629175845,
+      "tested": true
+     }
+    ]
+   },
+   "CHEMBL3301582": {
+    "call": "not_in_PRISM",
+    "in_prism": false,
+    "n_rows_tested": 0,
+    "name": "POLATUZUMAB VEDOTIN",
+    "rows": []
+   },
+   "CHEMBL3301589": {
+    "call": "not_in_PRISM",
+    "in_prism": false,
+    "n_rows_tested": 0,
+    "name": "ENFORTUMAB VEDOTIN",
+    "rows": []
+   },
+   "CHEMBL344159": {
+    "call": "no_association",
+    "in_prism": true,
+    "n_rows_tested": 1,
+    "name": "TOLVAPTAN",
+    "rows": [
+     {
+      "adjusted_coef_per_sd": -0.013607579350880139,
+      "coef_lineage_prolif_per_sd": -0.06829963770790384,
+      "diff_weak_minus_strong": -0.013018408414693386,
+      "drug_id": "CHEMBL344159",
+      "fdr": 0.7554668762846849,
+      "fdr_adjusted": 0.6891226789164681,
+      "fdr_lineage_prolif": 0.185865384815605,
+      "n_strong": 131,
+      "n_weak": 125,
+      "p": 0.7528457262757295,
+      "p_adjusted": 0.6096085236568756,
+      "p_lineage_prolif": 0.12867603564157268,
+      "prism_name": "TOLVAPTAN",
+      "prism_row": "BRD:BRD-A82035391-001-02-7",
+      "prolif_coef_per_sd": 0.06299647126283416,
+      "spearman_all_lines": 0.005938426998549835,
+      "tested": true
+     }
+    ]
+   },
+   "CHEMBL3545132": {
+    "call": "not_in_PRISM",
+    "in_prism": false,
+    "n_rows_tested": 0,
+    "name": "MIRVETUXIMAB SORAVTANSINE",
+    "rows": []
+   },
+   "CHEMBL3545185": {
+    "call": "no_association",
+    "in_prism": true,
+    "n_rows_tested": 1,
+    "name": "SELINEXOR",
+    "rows": [
+     {
+      "adjusted_coef_per_sd": -0.07638722614284091,
+      "coef_lineage_prolif_per_sd": -0.20863916395599158,
+      "diff_weak_minus_strong": 0.08885118339025633,
+      "drug_id": "CHEMBL3545185",
+      "fdr": 0.6469895178030495,
+      "fdr_adjusted": 0.5603160769414444,
+      "fdr_lineage_prolif": 0.29808215266126287,
+      "n_strong": 131,
+      "n_weak": 127,
+      "p": 0.5972210933566611,
+      "p_adjusted": 0.45256298522193583,
+      "p_lineage_prolif": 0.24075866176486618,
+      "prism_name": "SELINEXOR",
+      "prism_row": "BRD:BRD-K21361524-001-01-1",
+      "prolif_coef_per_sd": 0.14830827836228888,
+      "spearman_all_lines": -0.0044100099211372805,
+      "tested": true
+     }
+    ]
+   },
+   "CHEMBL3545432": {
+    "call": "no_association",
+    "in_prism": true,
+    "n_rows_tested": 1,
+    "name": "IXAZOMIB CITRATE",
+    "rows": [
+     {
+      "adjusted_coef_per_sd": -0.19453789127323037,
+      "coef_lineage_prolif_per_sd": -0.5677739624715856,
+      "diff_weak_minus_strong": 0.26590969235040873,
+      "drug_id": "CHEMBL3545432",
+      "fdr": 0.16251247984385062,
+      "fdr_adjusted": 0.09194331273281756,
+      "fdr_lineage_prolif": 0.0019268603160014553,
+      "n_strong": 130,
+      "n_weak": 123,
+      "p": 0.07500575992793106,
+      "p_adjusted": 0.041090269423341735,
+      "p_lineage_prolif": 0.0003705500607695106,
+      "prism_name": "IXAZOMIB",
+      "prism_row": "BRD:BRD-K78659596-001-03-9",
+      "prolif_coef_per_sd": 0.4322765929384358,
+      "spearman_all_lines": -0.07831417173286263,
+      "tested": true
+     }
+    ]
+   },
+   "CHEMBL413": {
+    "call": "confounded_by_proliferation_or_lineage",
+    "in_prism": true,
+    "n_rows_tested": 2,
+    "name": "SIROLIMUS",
+    "rows": [
+     {
+      "adjusted_coef_per_sd": -0.07994235992136225,
+      "coef_lineage_prolif_per_sd": 0.11700651373675748,
+      "diff_weak_minus_strong": 0.10615658629153965,
+      "drug_id": "CHEMBL413",
+      "fdr": 0.31467479238819757,
+      "fdr_adjusted": 0.26175306129318465,
+      "fdr_lineage_prolif": 0.29808215266126287,
+      "n_strong": 130,
+      "n_weak": 123,
+      "p": 0.2541604092366211,
+      "p_adjusted": 0.17114623238400534,
+      "p_lineage_prolif": 0.23061051007297312,
+      "prism_name": "SIROLIMUS",
+      "prism_row": "BRD:BRD-A79768653-001-12-0",
+      "prolif_coef_per_sd": -0.22810332295762742,
+      "spearman_all_lines": -0.02660520642947229,
+      "tested": true
+     },
+     {
+      "adjusted_coef_per_sd": -0.2200573271629367,
+      "coef_lineage_prolif_per_sd": -0.076548471066646,
+      "diff_weak_minus_strong": 0.432058771914253,
+      "drug_id": "CHEMBL413",
+      "fdr": 0.00046443348494732285,
+      "fdr_adjusted": 0.006806559586192056,
+      "fdr_lineage_prolif": 0.5771884801690803,
+      "n_strong": 123,
+      "n_weak": 117,
+      "p": 6.815667997185054e-05,
+      "p_adjusted": 0.0015707445198904744,
+      "p_lineage_prolif": 0.5105898093803403,
+      "prism_name": "SIROLIMUS",
+      "prism_row": "BRD:BRD-K84937637-001-09-9",
+      "prolif_coef_per_sd": -0.1636035622669234,
+      "spearman_all_lines": -0.16172477869651766,
+      "tested": true
+     }
+    ]
+   },
+   "CHEMBL428647": {
+    "call": "supports_resistance_when_SAC_weak",
+    "in_prism": true,
+    "n_rows_tested": 1,
+    "name": "PACLITAXEL",
+    "rows": [
+     {
+      "adjusted_coef_per_sd": -0.3929323138243502,
+      "coef_lineage_prolif_per_sd": -0.584328233467959,
+      "diff_weak_minus_strong": 0.5853175444608363,
+      "drug_id": "CHEMBL428647",
+      "fdr": 0.003259290095312914,
+      "fdr_adjusted": 0.0017258035605256933,
+      "fdr_lineage_prolif": 0.004454042863885862,
+      "n_strong": 131,
+      "n_weak": 124,
+      "p": 0.000752143868149134,
+      "p_adjusted": 0.0002655082400808759,
+      "p_lineage_prolif": 0.001199165386430809,
+      "prism_name": "PACLITAXEL",
+      "prism_row": "BRD:BRD-K62008436-001-22-1",
+      "prolif_coef_per_sd": 0.21998751557893753,
+      "spearman_all_lines": -0.13102676469162555,
+      "tested": true
+     }
+    ]
+   },
+   "CHEMBL4297841": {
+    "call": "not_in_PRISM",
+    "in_prism": false,
+    "n_rows_tested": 0,
+    "name": "TISOTUMAB VEDOTIN",
+    "rows": []
+   },
+   "CHEMBL451887": {
+    "call": "no_association",
+    "in_prism": true,
+    "n_rows_tested": 1,
+    "name": "CARFILZOMIB",
+    "rows": [
+     {
+      "adjusted_coef_per_sd": -0.14524950038999257,
+      "coef_lineage_prolif_per_sd": -0.29248157577741124,
+      "diff_weak_minus_strong": 0.23103738186622502,
+      "drug_id": "CHEMBL451887",
+      "fdr": 0.20865213274150626,
+      "fdr_adjusted": 0.19745658114887343,
+      "fdr_lineage_prolif": 0.10388418305869916,
+      "n_strong": 123,
+      "n_weak": 122,
+      "p": 0.1189398647871097,
+      "p_adjusted": 0.12151174224546057,
+      "p_lineage_prolif": 0.06792427353838022,
+      "prism_name": "CARFILZOMIB",
+      "prism_row": "BRD:BRD-K15179879-001-03-2",
+      "prolif_coef_per_sd": 0.16895524356669367,
+      "spearman_all_lines": -0.03980826706997747,
+      "tested": true
+     }
+    ]
+   },
+   "CHEMBL501849": {
+    "call": "no_association",
+    "in_prism": true,
+    "n_rows_tested": 1,
+    "name": "SIMEPREVIR",
+    "rows": [
+     {
+      "adjusted_coef_per_sd": -0.009378189015498042,
+      "coef_lineage_prolif_per_sd": -0.029476143958914777,
+      "diff_weak_minus_strong": -0.059408396677536834,
+      "drug_id": "CHEMBL501849",
+      "fdr": 0.31467479238819757,
+      "fdr_adjusted": 0.8621924445075339,
+      "fdr_lineage_prolif": 0.6533690083099866,
+      "n_strong": 131,
+      "n_weak": 124,
+      "p": 0.25351521696380747,
+      "p_adjusted": 0.7958699487761851,
+      "p_lineage_prolif": 0.6282394310672947,
+      "prism_name": "SIMEPREVIR",
+      "prism_row": "BRD:BRD-A68493689-001-01-9",
+      "prolif_coef_per_sd": 0.023100279172369134,
+      "spearman_all_lines": 0.035034013166613,
+      "tested": true
+     }
+    ]
+   },
+   "CHEMBL56337": {
+    "call": "no_association",
+    "in_prism": true,
+    "n_rows_tested": 1,
+    "name": "EPALRESTAT",
+    "rows": [
+     {
+      "adjusted_coef_per_sd": -0.048124852055616035,
+      "coef_lineage_prolif_per_sd": -0.11262507260489646,
+      "diff_weak_minus_strong": 0.05528846410190376,
+      "drug_id": "CHEMBL56337",
+      "fdr": 0.26105848021054234,
+      "fdr_adjusted": 0.09194331273281756,
+      "fdr_lineage_prolif": 0.022046413004120944,
+      "n_strong": 125,
+      "n_weak": 125,
+      "p": 0.18073279399191391,
+      "p_adjusted": 0.045971656366408785,
+      "p_lineage_prolif": 0.0076314506552726345,
+      "prism_name": "EPALRESTAT",
+      "prism_row": "BRD:BRD-K98054437-001-09-9",
+      "prolif_coef_per_sd": 0.07240420441700371,
+      "spearman_all_lines": -0.06329484910532593,
+      "tested": true
+     }
+    ]
+   },
+   "CHEMBL571546": {
+    "call": "not_in_PRISM",
+    "in_prism": false,
+    "n_rows_tested": 0,
+    "name": "TIRBANIBULIN",
+    "rows": []
+   },
+   "CHEMBL70": {
+    "call": "not_in_PRISM",
+    "in_prism": false,
+    "n_rows_tested": 0,
+    "name": "MORPHINE",
+    "rows": []
+   },
+   "CHEMBL92": {
+    "call": "supports_resistance_when_SAC_weak",
+    "in_prism": true,
+    "n_rows_tested": 2,
+    "name": "DOCETAXEL ANHYDROUS",
+    "rows": [
+     {
+      "adjusted_coef_per_sd": -0.2932099803776218,
+      "coef_lineage_prolif_per_sd": -0.3360603095305382,
+      "diff_weak_minus_strong": 0.43725568295498984,
+      "drug_id": "CHEMBL92",
+      "fdr": 0.022628983549683287,
+      "fdr_adjusted": 0.017102061961780345,
+      "fdr_lineage_prolif": 0.09876408943044196,
+      "n_strong": 123,
+      "n_weak": 122,
+      "p": 0.007833109690274984,
+      "p_adjusted": 0.0052621729113170295,
+      "p_lineage_prolif": 0.06077790118796428,
+      "prism_name": "DOCETAXEL",
+      "prism_row": "BRD:BRD-K30577245-001-04-3",
+      "prolif_coef_per_sd": 0.04917262614069273,
+      "spearman_all_lines": -0.10259867769840333,
+      "tested": true
+     },
+     {
+      "adjusted_coef_per_sd": -0.44499384992531393,
+      "coef_lineage_prolif_per_sd": -0.6565031439265518,
+      "diff_weak_minus_strong": 0.7555296260631872,
+      "drug_id": "CHEMBL92",
+      "fdr": 0.000347381246195831,
+      "fdr_adjusted": 0.0005252311254838766,
+      "fdr_lineage_prolif": 0.0019083582260793833,
+      "n_strong": 130,
+      "n_weak": 125,
+      "p": 2.672163432275623e-05,
+      "p_adjusted": 4.0402394267990506e-05,
+      "p_lineage_prolif": 0.00029359357324298203,
+      "prism_name": "DOCETAXEL",
+      "prism_row": "BRD:BRD-K30577245-341-01-9",
+      "prolif_coef_per_sd": 0.24345531235284967,
+      "spearman_all_lines": -0.16635214173565258,
+      "tested": true
+     }
+    ]
+   }
+  },
+  "fdr": 0.1,
+  "n_candidates": 31,
+  "n_cell_lines": 895,
+  "n_in_prism": 22,
+  "n_strong": 224,
+  "n_weak": 224,
+  "proliferation_genes": [
+   "MKI67",
+   "TOP2A",
+   "PCNA",
+   "MCM2",
+   "MCM6",
+   "RRM2"
+  ],
+  "score": "mean_all",
+  "spearman_score_vs_proliferation": 0.8096028089631863,
+  "strong_threshold": 0.5660988888055338,
+  "weak_threshold": -0.25861286022919067
+ }
+}

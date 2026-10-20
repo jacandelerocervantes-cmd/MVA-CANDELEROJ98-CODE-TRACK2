@@ -1,0 +1,1582 @@
+{
+ "addendum_hash_file": "348e82a44803a23e1e064219751d4e48579faa48cadcf0f6766902a257e0708b",
+ "addendum_sha256": "348e82a44803a23e1e064219751d4e48579faa48cadcf0f6766902a257e0708b",
+ "association_datasource_settings": [
+  {
+   "id": "clinical_precedence",
+   "propagate": false,
+   "weight": 0
+  }
+ ],
+ "chembl_version": "ChEMBL_37",
+ "decision": {
+  "rule": "mean AUC >= 0.6 and 95% bootstrap CI lower bound > 0.5 at STRING threshold 700",
+  "supported_across_diseases": true,
+  "verdict": "supported across diseases"
+ },
+ "diseases": [
+  {
+   "analyses": {
+    "400": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.34044857907480564,
+      "mean_percentile": 0.6590045592705166,
+      "median_percentile": 0.6795212765957447,
+      "n_known": 7,
+      "n_scorable": 1128
+     },
+     "module_nodes": 293
+    },
+    "700": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.40672106209376296,
+      "mean_percentile": 0.5931318681318681,
+      "median_percentile": 0.49230769230769234,
+      "n_known": 7,
+      "n_scorable": 1040
+     },
+     "module_nodes": 283
+    },
+    "900": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.5040786058583612,
+      "mean_percentile": 0.49650092081031305,
+      "median_percentile": 0.34861878453038675,
+      "n_known": 6,
+      "n_scorable": 905
+     },
+     "module_nodes": 259
+    },
+    "consensus": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.46116054875787915,
+      "mean_percentile": 0.539134438305709,
+      "median_percentile": 0.4732044198895028,
+      "n_known": 6,
+      "n_scorable": 905
+     }
+    }
+   },
+   "efo_id": "EFO_0000544",
+   "n_ot_targets_score_ge_0_5": 298,
+   "name": "infection"
+  },
+  {
+   "analyses": {
+    "400": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.7131610219845514,
+      "mean_percentile": 0.28841607565011823,
+      "median_percentile": 0.24689716312056736,
+      "n_known": 6,
+      "n_scorable": 1128
+     },
+     "module_nodes": 329
+    },
+    "700": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.7429951690821256,
+      "mean_percentile": 0.2586538461538462,
+      "median_percentile": 0.3798076923076923,
+      "n_known": 5,
+      "n_scorable": 1040
+     },
+     "module_nodes": 271
+    },
+    "900": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.38622222222222224,
+      "mean_percentile": 0.6137016574585635,
+      "median_percentile": 0.9922651933701657,
+      "n_known": 5,
+      "n_scorable": 905
+     },
+     "module_nodes": 238
+    },
+    "consensus": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.6538888888888889,
+      "mean_percentile": 0.3475138121546961,
+      "median_percentile": 0.5204419889502763,
+      "n_known": 5,
+      "n_scorable": 905
+     }
+    }
+   },
+   "efo_id": "EFO_0004269",
+   "n_ot_targets_score_ge_0_5": 361,
+   "name": "cardiac arrhythmia"
+  },
+  {
+   "analyses": {
+    "400": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.5839174206703198,
+      "mean_percentile": 0.41704660587639314,
+      "median_percentile": 0.08776595744680851,
+      "n_known": 7,
+      "n_scorable": 1128
+     },
+     "module_nodes": 148
+    },
+    "700": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.7707094454432305,
+      "mean_percentile": 0.2315934065934066,
+      "median_percentile": 0.09423076923076923,
+      "n_known": 7,
+      "n_scorable": 1040
+     },
+     "module_nodes": 131
+    },
+    "900": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.8428253261215399,
+      "mean_percentile": 0.16037884767166535,
+      "median_percentile": 0.026519337016574586,
+      "n_known": 7,
+      "n_scorable": 905
+     },
+     "module_nodes": 114
+    },
+    "consensus": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.7203308940502704,
+      "mean_percentile": 0.28192580899763214,
+      "median_percentile": 0.08839779005524862,
+      "n_known": 7,
+      "n_scorable": 905
+     }
+    }
+   },
+   "efo_id": "EFO_0004272",
+   "n_ot_targets_score_ge_0_5": 156,
+   "name": "anemia (phenotype)"
+  },
+  {
+   "analyses": {
+    "400": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.6452946509519493,
+      "mean_percentile": 0.35836879432624114,
+      "median_percentile": 0.2872340425531915,
+      "n_known": 25,
+      "n_scorable": 1128
+     },
+     "module_nodes": 133
+    },
+    "700": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.679427985122483,
+      "mean_percentile": 0.32502090301003345,
+      "median_percentile": 0.30625,
+      "n_known": 23,
+      "n_scorable": 1040
+     },
+     "module_nodes": 129
+    },
+    "900": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.6876866055801503,
+      "mean_percentile": 0.3174284279256655,
+      "median_percentile": 0.28342541436464086,
+      "n_known": 22,
+      "n_scorable": 905
+     },
+     "module_nodes": 119
+    },
+    "consensus": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.7041593740347987,
+      "mean_percentile": 0.30135610246107486,
+      "median_percentile": 0.20552486187845304,
+      "n_known": 22,
+      "n_scorable": 905
+     }
+    }
+   },
+   "efo_id": "EFO_0803536",
+   "n_ot_targets_score_ge_0_5": 136,
+   "name": "multiple sclerosis symptom measurement"
+  },
+  {
+   "analyses": {
+    "400": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.7058111380145279,
+      "mean_percentile": 0.29590932117527863,
+      "median_percentile": 0.17375886524822695,
+      "n_known": 7,
+      "n_scorable": 1128
+     },
+     "module_nodes": 771
+    },
+    "700": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.7683752417794971,
+      "mean_percentile": 0.23365384615384613,
+      "median_percentile": 0.15096153846153845,
+      "n_known": 6,
+      "n_scorable": 1040
+     },
+     "module_nodes": 684
+    },
+    "900": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.7563817980022197,
+      "mean_percentile": 0.2453038674033149,
+      "median_percentile": 0.11712707182320442,
+      "n_known": 4,
+      "n_scorable": 905
+     },
+     "module_nodes": 590
+    },
+    "consensus": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.7547169811320755,
+      "mean_percentile": 0.24696132596685083,
+      "median_percentile": 0.12900552486187844,
+      "n_known": 4,
+      "n_scorable": 905
+     }
+    }
+   },
+   "efo_id": "MONDO_0001056",
+   "n_ot_targets_score_ge_0_5": 820,
+   "name": "gastric cancer"
+  },
+  {
+   "analyses": {
+    "400": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.9213169642857143,
+      "mean_percentile": 0.08211436170212766,
+      "median_percentile": 0.07712765957446809,
+      "n_known": 8,
+      "n_scorable": 1128
+     },
+     "module_nodes": 125
+    },
+    "700": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.9056838611533674,
+      "mean_percentile": 0.09752747252747253,
+      "median_percentile": 0.08846153846153847,
+      "n_known": 7,
+      "n_scorable": 1040
+     },
+     "module_nodes": 111
+    },
+    "900": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.9328666878778238,
+      "mean_percentile": 0.07103393843725335,
+      "median_percentile": 0.06850828729281767,
+      "n_known": 7,
+      "n_scorable": 905
+     },
+     "module_nodes": 94
+    },
+    "consensus": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.9475819280941775,
+      "mean_percentile": 0.05643251775848461,
+      "median_percentile": 0.04143646408839779,
+      "n_known": 7,
+      "n_scorable": 905
+     }
+    }
+   },
+   "efo_id": "MONDO_0001531",
+   "n_ot_targets_score_ge_0_5": 130,
+   "name": "blood coagulation disease"
+  },
+  {
+   "analyses": {
+    "400": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.6440291166633878,
+      "mean_percentile": 0.3593509096515572,
+      "median_percentile": 0.21365248226950354,
+      "n_known": 23,
+      "n_scorable": 1128
+     },
+     "module_nodes": 95
+    },
+    "700": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.6540007144132881,
+      "mean_percentile": 0.3497377622377622,
+      "median_percentile": 0.2514423076923077,
+      "n_known": 22,
+      "n_scorable": 1040
+     },
+     "module_nodes": 87
+    },
+    "900": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.6606867054770108,
+      "mean_percentile": 0.3432393137539983,
+      "median_percentile": 0.21878453038674034,
+      "n_known": 19,
+      "n_scorable": 905
+     },
+     "module_nodes": 75
+    },
+    "consensus": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.655370084353095,
+      "mean_percentile": 0.3484443152079093,
+      "median_percentile": 0.23977900552486187,
+      "n_known": 19,
+      "n_scorable": 905
+     }
+    }
+   },
+   "efo_id": "MONDO_0002009",
+   "n_ot_targets_score_ge_0_5": 97,
+   "name": "major depressive disorder"
+  },
+  {
+   "analyses": {
+    "400": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.7243303571428571,
+      "mean_percentile": 0.27770390070921985,
+      "median_percentile": 0.22118794326241137,
+      "n_known": 8,
+      "n_scorable": 1128
+     },
+     "module_nodes": 128
+    },
+    "700": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.6617005813953488,
+      "mean_percentile": 0.34002403846153845,
+      "median_percentile": 0.33365384615384613,
+      "n_known": 8,
+      "n_scorable": 1040
+     },
+     "module_nodes": 118
+    },
+    "900": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.6800827235125676,
+      "mean_percentile": 0.32186266771902133,
+      "median_percentile": 0.0718232044198895,
+      "n_known": 7,
+      "n_scorable": 905
+     },
+     "module_nodes": 103
+    },
+    "consensus": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.6988545975182946,
+      "mean_percentile": 0.30323599052880823,
+      "median_percentile": 0.17845303867403314,
+      "n_known": 7,
+      "n_scorable": 905
+     }
+    }
+   },
+   "efo_id": "MONDO_0002050",
+   "n_ot_targets_score_ge_0_5": 132,
+   "name": "depressive disorder"
+  },
+  {
+   "analyses": {
+    "400": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.918209044624139,
+      "mean_percentile": 0.08779550827423167,
+      "median_percentile": 0.03590425531914894,
+      "n_known": 15,
+      "n_scorable": 1128
+     },
+     "module_nodes": 82
+    },
+    "700": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.9067967479674797,
+      "mean_percentile": 0.09955128205128204,
+      "median_percentile": 0.028846153846153848,
+      "n_known": 15,
+      "n_scorable": 1040
+     },
+     "module_nodes": 63
+    },
+    "900": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.9045692883895131,
+      "mean_percentile": 0.10268876611418049,
+      "median_percentile": 0.04751381215469613,
+      "n_known": 15,
+      "n_scorable": 905
+     },
+     "module_nodes": 55
+    },
+    "consensus": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.9202247191011236,
+      "mean_percentile": 0.08729281767955802,
+      "median_percentile": 0.041988950276243095,
+      "n_known": 15,
+      "n_scorable": 905
+     }
+    }
+   },
+   "efo_id": "MONDO_0002146",
+   "n_ot_targets_score_ge_0_5": 91,
+   "name": "hypogonadism"
+  },
+  {
+   "analyses": {
+    "400": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.7970489868188078,
+      "mean_percentile": 0.20945112550107925,
+      "median_percentile": 0.09131205673758866,
+      "n_known": 23,
+      "n_scorable": 1128
+     },
+     "module_nodes": 229
+    },
+    "700": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.840016074298982,
+      "mean_percentile": 0.1676573426573427,
+      "median_percentile": 0.10096153846153846,
+      "n_known": 22,
+      "n_scorable": 1040
+     },
+     "module_nodes": 198
+    },
+    "900": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.85344383815505,
+      "mean_percentile": 0.155700652938222,
+      "median_percentile": 0.08232044198895028,
+      "n_known": 22,
+      "n_scorable": 905
+     },
+     "module_nodes": 171
+    },
+    "consensus": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.8311798620405642,
+      "mean_percentile": 0.17742340532395784,
+      "median_percentile": 0.10966850828729283,
+      "n_known": 22,
+      "n_scorable": 905
+     }
+    }
+   },
+   "efo_id": "MONDO_0002280",
+   "n_ot_targets_score_ge_0_5": 243,
+   "name": "anemia"
+  },
+  {
+   "analyses": {
+    "400": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.4697973747929145,
+      "mean_percentile": 0.5304584599797366,
+      "median_percentile": 0.6524822695035462,
+      "n_known": 7,
+      "n_scorable": 1128
+     },
+     "module_nodes": 396
+    },
+    "700": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.5036647766560641,
+      "mean_percentile": 0.4968406593406594,
+      "median_percentile": 0.5028846153846154,
+      "n_known": 7,
+      "n_scorable": 1040
+     },
+     "module_nodes": 348
+    },
+    "900": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.5933821189945911,
+      "mean_percentile": 0.40789265982636147,
+      "median_percentile": 0.3834254143646409,
+      "n_known": 7,
+      "n_scorable": 905
+     },
+     "module_nodes": 303
+    },
+    "consensus": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.5203627107858734,
+      "mean_percentile": 0.4803472770323599,
+      "median_percentile": 0.48839779005524864,
+      "n_known": 7,
+      "n_scorable": 905
+     }
+    }
+   },
+   "efo_id": "MONDO_0002406",
+   "n_ot_targets_score_ge_0_5": 418,
+   "name": "dermatitis"
+  },
+  {
+   "analyses": {
+    "400": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.7156862745098039,
+      "mean_percentile": 0.2859042553191489,
+      "median_percentile": 0.13430851063829788,
+      "n_known": 6,
+      "n_scorable": 1128
+     },
+     "module_nodes": 342
+    },
+    "700": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.6979710144927537,
+      "mean_percentile": 0.30346153846153845,
+      "median_percentile": 0.11730769230769231,
+      "n_known": 5,
+      "n_scorable": 1040
+     },
+     "module_nodes": 235
+    },
+    "900": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.7572142064372919,
+      "mean_percentile": 0.24447513812154698,
+      "median_percentile": 0.15082872928176796,
+      "n_known": 4,
+      "n_scorable": 905
+     },
+     "module_nodes": 163
+    },
+    "consensus": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.7918978912319645,
+      "mean_percentile": 0.20994475138121546,
+      "median_percentile": 0.14558011049723757,
+      "n_known": 4,
+      "n_scorable": 905
+     }
+    }
+   },
+   "efo_id": "MONDO_0002525",
+   "n_ot_targets_score_ge_0_5": 383,
+   "name": "inherited lipid metabolism disorder"
+  },
+  {
+   "analyses": {
+    "400": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.8821109123434705,
+      "mean_percentile": 0.12171985815602837,
+      "median_percentile": 0.07358156028368794,
+      "n_known": 10,
+      "n_scorable": 1128
+     },
+     "module_nodes": 121
+    },
+    "700": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.8136893203883495,
+      "mean_percentile": 0.18980769230769234,
+      "median_percentile": 0.03461538461538462,
+      "n_known": 10,
+      "n_scorable": 1040
+     },
+     "module_nodes": 119
+    },
+    "900": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.8284970238095238,
+      "mean_percentile": 0.1753222836095764,
+      "median_percentile": 0.07845303867403315,
+      "n_known": 9,
+      "n_scorable": 905
+     },
+     "module_nodes": 110
+    },
+    "consensus": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.8743179563492064,
+      "mean_percentile": 0.12995702885205648,
+      "median_percentile": 0.06353591160220995,
+      "n_known": 9,
+      "n_scorable": 905
+     }
+    }
+   },
+   "efo_id": "MONDO_0004948",
+   "n_ot_targets_score_ge_0_5": 123,
+   "name": "B-cell chronic lymphocytic leukemia"
+  },
+  {
+   "analyses": {
+    "400": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.747492801112104,
+      "mean_percentile": 0.25492513790386134,
+      "median_percentile": 0.14184397163120568,
+      "n_known": 9,
+      "n_scorable": 1128
+     },
+     "module_nodes": 342
+    },
+    "700": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.6067102713178295,
+      "mean_percentile": 0.39459134615384617,
+      "median_percentile": 0.13846153846153847,
+      "n_known": 8,
+      "n_scorable": 1040
+     },
+     "module_nodes": 327
+    },
+    "900": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.7076041998090996,
+      "mean_percentile": 0.2945540647198106,
+      "median_percentile": 0.05303867403314917,
+      "n_known": 7,
+      "n_scorable": 905
+     },
+     "module_nodes": 294
+    },
+    "consensus": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.6963092586700604,
+      "mean_percentile": 0.3057616416732439,
+      "median_percentile": 0.11767955801104972,
+      "n_known": 7,
+      "n_scorable": 905
+     }
+    }
+   },
+   "efo_id": "MONDO_0004967",
+   "n_ot_targets_score_ge_0_5": 349,
+   "name": "acute lymphoblastic leukemia"
+  },
+  {
+   "analyses": {
+    "400": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.863198519029839,
+      "mean_percentile": 0.14658229395940328,
+      "median_percentile": 0.06471631205673758,
+      "n_known": 29,
+      "n_scorable": 1128
+     },
+     "module_nodes": 160
+    },
+    "700": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.9115081171294189,
+      "mean_percentile": 0.0992603550295858,
+      "median_percentile": 0.07163461538461538,
+      "n_known": 26,
+      "n_scorable": 1040
+     },
+     "module_nodes": 148
+    },
+    "900": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.8962107289752341,
+      "mean_percentile": 0.11572460688482789,
+      "median_percentile": 0.09889502762430939,
+      "n_known": 26,
+      "n_scorable": 905
+     },
+     "module_nodes": 132
+    },
+    "consensus": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.9007832326944955,
+      "mean_percentile": 0.11128346791330218,
+      "median_percentile": 0.08093922651933702,
+      "n_known": 26,
+      "n_scorable": 905
+     }
+    }
+   },
+   "efo_id": "MONDO_0004979",
+   "n_ot_targets_score_ge_0_5": 171,
+   "name": "asthma"
+  },
+  {
+   "analyses": {
+    "400": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.7587128061811607,
+      "mean_percentile": 0.2467762733720181,
+      "median_percentile": 0.3266843971631206,
+      "n_known": 22,
+      "n_scorable": 1128
+     },
+     "module_nodes": 65
+    },
+    "700": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.7608055009823183,
+      "mean_percentile": 0.24519230769230768,
+      "median_percentile": 0.2125,
+      "n_known": 22,
+      "n_scorable": 1040
+     },
+     "module_nodes": 60
+    },
+    "900": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.7796252445176568,
+      "mean_percentile": 0.22772476142641887,
+      "median_percentile": 0.16795580110497238,
+      "n_known": 22,
+      "n_scorable": 905
+     },
+     "module_nodes": 55
+    },
+    "consensus": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.7658035622361783,
+      "mean_percentile": 0.24121044701155195,
+      "median_percentile": 0.22154696132596685,
+      "n_known": 22,
+      "n_scorable": 905
+     }
+    }
+   },
+   "efo_id": "MONDO_0004980",
+   "n_ot_targets_score_ge_0_5": 71,
+   "name": "atopic eczema"
+  },
+  {
+   "analyses": {
+    "400": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.49830810329474623,
+      "mean_percentile": 0.5021276595744681,
+      "median_percentile": 0.30939716312056736,
+      "n_known": 5,
+      "n_scorable": 1128
+     },
+     "module_nodes": 217
+    },
+    "700": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.4871497584541063,
+      "mean_percentile": 0.5132692307692308,
+      "median_percentile": 0.6403846153846153,
+      "n_known": 5,
+      "n_scorable": 1040
+     },
+     "module_nodes": 189
+    },
+    "900": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.3411111111111111,
+      "mean_percentile": 0.6585635359116022,
+      "median_percentile": 0.6983425414364641,
+      "n_known": 5,
+      "n_scorable": 905
+     },
+     "module_nodes": 172
+    },
+    "consensus": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.4152222222222222,
+      "mean_percentile": 0.5848618784530386,
+      "median_percentile": 0.6386740331491713,
+      "n_known": 5,
+      "n_scorable": 905
+     }
+    }
+   },
+   "efo_id": "MONDO_0004981",
+   "n_ot_targets_score_ge_0_5": 228,
+   "name": "atrial fibrillation"
+  },
+  {
+   "analyses": {
+    "400": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.5797268435251799,
+      "mean_percentile": 0.42184729609929084,
+      "median_percentile": 0.39937943262411346,
+      "n_known": 16,
+      "n_scorable": 1128
+     },
+     "module_nodes": 1511
+    },
+    "700": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.6391325536062378,
+      "mean_percentile": 0.36322115384615383,
+      "median_percentile": 0.33798076923076925,
+      "n_known": 14,
+      "n_scorable": 1040
+     },
+     "module_nodes": 1325
+    },
+    "900": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.6480577587960138,
+      "mean_percentile": 0.3542943244600703,
+      "median_percentile": 0.10718232044198896,
+      "n_known": 11,
+      "n_scorable": 905
+     },
+     "module_nodes": 1133
+    },
+    "consensus": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.5334045149481391,
+      "mean_percentile": 0.46755399296835765,
+      "median_percentile": 0.39337016574585637,
+      "n_known": 11,
+      "n_scorable": 905
+     }
+    }
+   },
+   "efo_id": "MONDO_0004989",
+   "n_ot_targets_score_ge_0_5": 1592,
+   "name": "breast carcinoma"
+  },
+  {
+   "analyses": {
+    "400": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.5731008717310088,
+      "mean_percentile": 0.42948098001289486,
+      "median_percentile": 0.4109042553191489,
+      "n_known": 33,
+      "n_scorable": 1128
+     },
+     "module_nodes": 7588
+    },
+    "700": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.5236074749480907,
+      "mean_percentile": 0.47762237762237764,
+      "median_percentile": 0.5461538461538461,
+      "n_known": 33,
+      "n_scorable": 1040
+     },
+     "module_nodes": 5683
+    },
+    "900": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.551247508673507,
+      "mean_percentile": 0.4510604170379612,
+      "median_percentile": 0.4375690607734807,
+      "n_known": 31,
+      "n_scorable": 905
+     },
+     "module_nodes": 4413
+    },
+    "consensus": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.5681885288255702,
+      "mean_percentile": 0.4346996970237035,
+      "median_percentile": 0.41104972375690607,
+      "n_known": 31,
+      "n_scorable": 905
+     }
+    }
+   },
+   "efo_id": "MONDO_0004992",
+   "n_ot_targets_score_ge_0_5": 8660,
+   "name": "cancer"
+  },
+  {
+   "analyses": {
+    "400": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.4851576546680986,
+      "mean_percentile": 0.5142461172457132,
+      "median_percentile": 0.5159574468085106,
+      "n_known": 79,
+      "n_scorable": 1128
+     },
+     "module_nodes": 2577
+    },
+    "700": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.5475630311117353,
+      "mean_percentile": 0.45557029177718833,
+      "median_percentile": 0.5048076923076923,
+      "n_known": 58,
+      "n_scorable": 1040
+     },
+     "module_nodes": 2101
+    },
+    "900": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.6408654970760234,
+      "mean_percentile": 0.3674696132596685,
+      "median_percentile": 0.3679558011049724,
+      "n_known": 50,
+      "n_scorable": 905
+     },
+     "module_nodes": 1726
+    },
+    "consensus": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.5734502923976608,
+      "mean_percentile": 0.43116022099447515,
+      "median_percentile": 0.4994475138121547,
+      "n_known": 50,
+      "n_scorable": 905
+     }
+    }
+   },
+   "efo_id": "MONDO_0004995",
+   "n_ot_targets_score_ge_0_5": 2785,
+   "name": "cardiovascular disorder"
+  },
+  {
+   "analyses": {
+    "400": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.621307072515667,
+      "mean_percentile": 0.3803191489361702,
+      "median_percentile": 0.08156028368794327,
+      "n_known": 11,
+      "n_scorable": 1128
+     },
+     "module_nodes": 150
+    },
+    "700": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.6135259298524605,
+      "mean_percentile": 0.3881555944055944,
+      "median_percentile": 0.1548076923076923,
+      "n_known": 11,
+      "n_scorable": 1040
+     },
+     "module_nodes": 135
+    },
+    "900": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.6347366280252186,
+      "mean_percentile": 0.36745354093420385,
+      "median_percentile": 0.13922651933701657,
+      "n_known": 11,
+      "n_scorable": 905
+     },
+     "module_nodes": 121
+    },
+    "consensus": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.5969086841570063,
+      "mean_percentile": 0.40482169763937714,
+      "median_percentile": 0.12596685082872927,
+      "n_known": 11,
+      "n_scorable": 905
+     }
+    }
+   },
+   "efo_id": "MONDO_0005002",
+   "n_ot_targets_score_ge_0_5": 158,
+   "name": "chronic obstructive pulmonary disease"
+  },
+  {
+   "analyses": {
+    "400": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.7617849655585505,
+      "mean_percentile": 0.2421394799054374,
+      "median_percentile": 0.11436170212765957,
+      "n_known": 15,
+      "n_scorable": 1128
+     },
+     "module_nodes": 207
+    },
+    "700": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.7376093294460642,
+      "mean_percentile": 0.2653846153846154,
+      "median_percentile": 0.06153846153846154,
+      "n_known": 11,
+      "n_scorable": 1040
+     },
+     "module_nodes": 184
+    },
+    "900": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.7364831349206349,
+      "mean_percentile": 0.2664211172498466,
+      "median_percentile": 0.08397790055248619,
+      "n_known": 9,
+      "n_scorable": 905
+     },
+     "module_nodes": 150
+    },
+    "consensus": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.8209945436507936,
+      "mean_percentile": 0.1827501534683855,
+      "median_percentile": 0.06408839779005525,
+      "n_known": 9,
+      "n_scorable": 905
+     }
+    }
+   },
+   "efo_id": "MONDO_0005010",
+   "n_ot_targets_score_ge_0_5": 220,
+   "name": "coronary artery disorder"
+  },
+  {
+   "analyses": {
+    "400": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.8295917827076825,
+      "mean_percentile": 0.17581873174801835,
+      "median_percentile": 0.13652482269503546,
+      "n_known": 17,
+      "n_scorable": 1128
+     },
+     "module_nodes": 21
+    },
+    "700": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.87359619140625,
+      "mean_percentile": 0.13263221153846155,
+      "median_percentile": 0.11586538461538462,
+      "n_known": 16,
+      "n_scorable": 1040
+     },
+     "module_nodes": 19
+    },
+    "900": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.830561797752809,
+      "mean_percentile": 0.1754696132596685,
+      "median_percentile": 0.09392265193370165,
+      "n_known": 15,
+      "n_scorable": 905
+     },
+     "module_nodes": 16
+    },
+    "consensus": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.9087640449438202,
+      "mean_percentile": 0.0985635359116022,
+      "median_percentile": 0.11160220994475138,
+      "n_known": 15,
+      "n_scorable": 905
+     }
+    }
+   },
+   "efo_id": "MONDO_0005011",
+   "n_ot_targets_score_ge_0_5": 21,
+   "name": "Crohn disease"
+  },
+  {
+   "analyses": {
+    "400": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.7157206176722906,
+      "mean_percentile": 0.29466721222040365,
+      "median_percentile": 0.1848404255319149,
+      "n_known": 52,
+      "n_scorable": 1128
+     },
+     "module_nodes": 701
+    },
+    "700": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.7522807306575506,
+      "mean_percentile": 0.2600863422291994,
+      "median_percentile": 0.17307692307692307,
+      "n_known": 49,
+      "n_scorable": 1040
+     },
+     "module_nodes": 585
+    },
+    "900": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.7966692238844137,
+      "mean_percentile": 0.21568446899938615,
+      "median_percentile": 0.1723756906077348,
+      "n_known": 36,
+      "n_scorable": 905
+     },
+     "module_nodes": 474
+    },
+    "consensus": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.7651834803733538,
+      "mean_percentile": 0.24591774094536525,
+      "median_percentile": 0.22099447513812154,
+      "n_known": 36,
+      "n_scorable": 905
+     }
+    }
+   },
+   "efo_id": "MONDO_0005015",
+   "n_ot_targets_score_ge_0_5": 758,
+   "name": "diabetes mellitus"
+  },
+  {
+   "analyses": {
+    "400": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.880830516658619,
+      "mean_percentile": 0.13244214259051887,
+      "median_percentile": 0.05407801418439716,
+      "n_known": 38,
+      "n_scorable": 1128
+     },
+     "module_nodes": 494
+    },
+    "700": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.9152003098716246,
+      "mean_percentile": 0.09965277777777778,
+      "median_percentile": 0.049519230769230774,
+      "n_known": 36,
+      "n_scorable": 1040
+     },
+     "module_nodes": 389
+    },
+    "900": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.9523945267958951,
+      "mean_percentile": 0.062154696132596686,
+      "median_percentile": 0.05027624309392265,
+      "n_known": 28,
+      "n_scorable": 905
+     },
+     "module_nodes": 304
+    },
+    "consensus": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.9564261280338817,
+      "mean_percentile": 0.05824782951854774,
+      "median_percentile": 0.049171270718232046,
+      "n_known": 28,
+      "n_scorable": 905
+     }
+    }
+   },
+   "efo_id": "MONDO_0005027",
+   "n_ot_targets_score_ge_0_5": 531,
+   "name": "epilepsy"
+  },
+  {
+   "analyses": {
+    "400": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.3341951438848921,
+      "mean_percentile": 0.6638962765957447,
+      "median_percentile": 0.6365248226950355,
+      "n_known": 16,
+      "n_scorable": 1128
+     },
+     "module_nodes": 145
+    },
+    "700": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.28377065111758987,
+      "mean_percentile": 0.7144230769230769,
+      "median_percentile": 0.8490384615384615,
+      "n_known": 11,
+      "n_scorable": 1040
+     },
+     "module_nodes": 114
+    },
+    "900": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.45643729189789123,
+      "mean_percentile": 0.5439226519337016,
+      "median_percentile": 0.46574585635359117,
+      "n_known": 4,
+      "n_scorable": 905
+     },
+     "module_nodes": 83
+    },
+    "consensus": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.2789955604883463,
+      "mean_percentile": 0.7205801104972375,
+      "median_percentile": 0.711878453038674,
+      "n_known": 4,
+      "n_scorable": 905
+     }
+    }
+   },
+   "efo_id": "MONDO_0005041",
+   "n_ot_targets_score_ge_0_5": 167,
+   "name": "glaucoma"
+  },
+  {
+   "analyses": {
+    "400": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.6314932321354495,
+      "mean_percentile": 0.37606092314847106,
+      "median_percentile": 0.24911347517730498,
+      "n_known": 61,
+      "n_scorable": 1128
+     },
+     "module_nodes": 301
+    },
+    "700": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.7143095715240004,
+      "mean_percentile": 0.29482600732600733,
+      "median_percentile": 0.12307692307692308,
+      "n_known": 42,
+      "n_scorable": 1040
+     },
+     "module_nodes": 256
+    },
+    "900": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.7992841223745526,
+      "mean_percentile": 0.21251218719532014,
+      "median_percentile": 0.05801104972375691,
+      "n_known": 34,
+      "n_scorable": 905
+     },
+     "module_nodes": 208
+    },
+    "consensus": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.7786351050178969,
+      "mean_percentile": 0.23238544036399086,
+      "median_percentile": 0.09419889502762431,
+      "n_known": 34,
+      "n_scorable": 905
+     }
+    }
+   },
+   "efo_id": "MONDO_0005044",
+   "n_ot_targets_score_ge_0_5": 324,
+   "name": "hypertensive disorder"
+  },
+  {
+   "analyses": {
+    "400": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.6077558804831532,
+      "mean_percentile": 0.39641298417894166,
+      "median_percentile": 0.4166666666666667,
+      "n_known": 39,
+      "n_scorable": 1128
+     },
+     "module_nodes": 2995
+    },
+    "700": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.5778744846541457,
+      "mean_percentile": 0.4253768191268191,
+      "median_percentile": 0.41634615384615387,
+      "n_known": 37,
+      "n_scorable": 1040
+     },
+     "module_nodes": 2508
+    },
+    "900": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.6732994501981844,
+      "mean_percentile": 0.3341467157765501,
+      "median_percentile": 0.20828729281767955,
+      "n_known": 36,
+      "n_scorable": 905
+     },
+     "module_nodes": 2089
+    },
+    "consensus": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.6019370924434215,
+      "mean_percentile": 0.402670349907919,
+      "median_percentile": 0.4116022099447514,
+      "n_known": 36,
+      "n_scorable": 905
+     }
+    }
+   },
+   "efo_id": "MONDO_0005046",
+   "n_ot_targets_score_ge_0_5": 3188,
+   "name": "immune system disorder"
+  },
+  {
+   "analyses": {
+    "400": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.8623677838664457,
+      "mean_percentile": 0.1403242147922999,
+      "median_percentile": 0.08111702127659574,
+      "n_known": 7,
+      "n_scorable": 1128
+     },
+     "module_nodes": 880
+    },
+    "700": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.7337159452357903,
+      "mean_percentile": 0.2683379120879121,
+      "median_percentile": 0.1778846153846154,
+      "n_known": 7,
+      "n_scorable": 1040
+     },
+     "module_nodes": 821
+    },
+    "900": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.6027680559974546,
+      "mean_percentile": 0.398579321231255,
+      "median_percentile": 0.3281767955801105,
+      "n_known": 7,
+      "n_scorable": 905
+     },
+     "module_nodes": 722
+    },
+    "consensus": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.7073655742920776,
+      "mean_percentile": 0.29479084451460136,
+      "median_percentile": 0.2408839779005525,
+      "n_known": 7,
+      "n_scorable": 905
+     }
+    }
+   },
+   "efo_id": "MONDO_0005059",
+   "n_ot_targets_score_ge_0_5": 915,
+   "name": "leukemia"
+  },
+  {
+   "analyses": {
+    "400": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.860909904777407,
+      "mean_percentile": 0.1430528691166989,
+      "median_percentile": 0.10726950354609929,
+      "n_known": 11,
+      "n_scorable": 1128
+     },
+     "module_nodes": 717
+    },
+    "700": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.7664988073151339,
+      "mean_percentile": 0.23680069930069927,
+      "median_percentile": 0.17692307692307693,
+      "n_known": 11,
+      "n_scorable": 1040
+     },
+     "module_nodes": 672
+    },
+    "900": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.6827333740085418,
+      "mean_percentile": 0.3200401808136615,
+      "median_percentile": 0.3281767955801105,
+      "n_known": 11,
+      "n_scorable": 905
+     },
+     "module_nodes": 600
+    },
+    "consensus": {
+     "evaluable": true,
+     "metrics": {
+      "auc": 0.757423225544031,
+      "mean_percentile": 0.246258161727775,
+      "median_percentile": 0.17569060773480663,
+      "n_known": 11,
+      "n_scorable": 905
+     }
+    }
+   },
+   "efo_id": "MONDO_0005062",
+   "n_ot_targets_score_ge_0_5": 734,
+   "name": "lymphoma"
+  }
+ ],
+ "n_diseases_selected": 30,
+ "summary": {
+  "400": {
+   "ci95_high": 0.7432231136189764,
+   "ci95_low": 0.6298691804188268,
+   "mean_auc": 0.6890938780559849,
+   "median_auc": 0.7144236482471777,
+   "n_auc_above_0_5": 25,
+   "n_diseases": 30,
+   "permutation": {
+    "null_mean": 0.5161508240119579,
+    "null_sd": 0.014639504782805016,
+    "observed_mean_auc": 0.6890938780559849,
+    "p_one_sided": 0.000999000999000999,
+    "permutations": 1000
+   }
+  },
+  "700": {
+   "ci95_high": 0.7461364132245684,
+   "ci95_low": 0.636997976298967,
+   "mean_auc": 0.693220355097236,
+   "median_auc": 0.7240127583798954,
+   "n_auc_above_0_5": 27,
+   "n_diseases": 30,
+   "permutation": {
+    "null_mean": 0.5324823548496447,
+    "null_sd": 0.015320603881846655,
+    "observed_mean_auc": 0.693220355097236,
+    "p_one_sided": 0.000999000999000999,
+    "permutations": 1000
+   }
+  },
+  "900": {
+   "ci95_high": 0.7560060426548046,
+   "ci95_low": 0.6483146861019718,
+   "mean_auc": 0.7039342268417369,
+   "median_auc": 0.6976454026946249,
+   "n_auc_above_0_5": 27,
+   "n_diseases": 30,
+   "permutation": {
+    "null_mean": 0.5383054373002897,
+    "null_sd": 0.015180478357481162,
+    "observed_mean_auc": 0.7039342268417369,
+    "p_one_sided": 0.000999000999000999,
+    "permutations": 1000
+   }
+  },
+  "consensus": {
+   "ci95_high": 0.761546826105321,
+   "ci95_low": 0.6458295337646232,
+   "mean_auc": 0.7053280495759057,
+   "median_auc": 0.713848234171174,
+   "n_auc_above_0_5": 27,
+   "n_diseases": 30,
+   "permutation": {
+    "null_mean": 0.5369879284537885,
+    "null_sd": 0.016264084791848824,
+    "observed_mean_auc": 0.7053280495759057,
+    "p_one_sided": 0.000999000999000999,
+    "permutations": 1000
+   }
+  }
+ }
+}

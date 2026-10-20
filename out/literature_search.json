@@ -1,0 +1,1050 @@
+{
+ "drugs": {
+  "CHEMBL108": {
+   "counts": {
+    "SCN10A": 0,
+    "SCN11A": 0,
+    "SCN1A": 1,
+    "SCN2A": 0,
+    "SCN3A": 0,
+    "SCN4A": 0,
+    "SCN5A": 1,
+    "SCN7A": 0,
+    "SCN8A": 0,
+    "SCN9A": 0
+   },
+   "n_papers_any_target": 2,
+   "name": "CARBAMAZEPINE",
+   "supported_by": [
+    "A"
+   ],
+   "target_genes": [
+    "SCN10A",
+    "SCN11A",
+    "SCN1A",
+    "SCN2A",
+    "SCN3A",
+    "SCN4A",
+    "SCN5A",
+    "SCN7A",
+    "SCN8A",
+    "SCN9A"
+   ]
+  },
+  "CHEMBL109": {
+   "counts": {
+    "ALDH5A1": 0
+   },
+   "n_papers_any_target": 0,
+   "name": "VALPROIC ACID",
+   "supported_by": [
+    "A"
+   ],
+   "target_genes": [
+    "ALDH5A1"
+   ]
+  },
+  "CHEMBL1112": {
+   "counts": {
+    "DRD2": 0,
+    "HTR1A": 0,
+    "HTR2A": 0
+   },
+   "n_papers_any_target": 0,
+   "name": "ARIPIPRAZOLE",
+   "supported_by": [
+    "A"
+   ],
+   "target_genes": [
+    "DRD2",
+    "HTR1A",
+    "HTR2A"
+   ]
+  },
+  "CHEMBL1113": {
+   "counts": {
+    "DRD1": 0,
+    "DRD2": 0,
+    "DRD3": 0,
+    "DRD4": 0,
+    "DRD5": 0,
+    "SLC6A2": 0,
+    "SLC6A4": 0
+   },
+   "n_papers_any_target": 0,
+   "name": "AMOXAPINE",
+   "supported_by": [
+    "A"
+   ],
+   "target_genes": [
+    "DRD1",
+    "DRD2",
+    "DRD3",
+    "DRD4",
+    "DRD5",
+    "SLC6A2",
+    "SLC6A4"
+   ]
+  },
+  "CHEMBL11359": {
+   "counts": {},
+   "n_papers_any_target": 0,
+   "name": "CISPLATIN",
+   "supported_by": [
+    "A"
+   ],
+   "target_genes": []
+  },
+  "CHEMBL1200986": {
+   "counts": {
+    "DRD2": 0,
+    "DRD3": 0,
+    "DRD4": 0,
+    "HTR2A": 0
+   },
+   "n_papers_any_target": 0,
+   "name": "HALOPERIDOL DECANOATE",
+   "supported_by": [
+    "A"
+   ],
+   "target_genes": [
+    "DRD2",
+    "DRD3",
+    "DRD4",
+    "HTR2A"
+   ]
+  },
+  "CHEMBL1201087": {
+   "counts": {
+    "DRD2": 0
+   },
+   "n_papers_any_target": 0,
+   "name": "CABERGOLINE",
+   "supported_by": [
+    "A"
+   ],
+   "target_genes": [
+    "DRD2"
+   ]
+  },
+  "CHEMBL128": {
+   "counts": {
+    "HTR1B": 0,
+    "HTR1D": 0
+   },
+   "n_papers_any_target": 0,
+   "name": "SUMATRIPTAN",
+   "supported_by": [
+    "A"
+   ],
+   "target_genes": [
+    "HTR1B",
+    "HTR1D"
+   ]
+  },
+  "CHEMBL1393": {
+   "counts": {
+    "NR3C2": 0
+   },
+   "n_papers_any_target": 0,
+   "name": "SPIRONOLACTONE",
+   "supported_by": [
+    "A"
+   ],
+   "target_genes": [
+    "NR3C2"
+   ]
+  },
+  "CHEMBL14376": {
+   "counts": {
+    "DRD2": 0,
+    "HTR2A": 0
+   },
+   "n_papers_any_target": 0,
+   "name": "ILOPERIDONE",
+   "supported_by": [
+    "A"
+   ],
+   "target_genes": [
+    "DRD2",
+    "HTR2A"
+   ]
+  },
+  "CHEMBL1508": {
+   "counts": {},
+   "n_papers_any_target": 0,
+   "name": "ESCITALOPRAM",
+   "supported_by": [
+    "A"
+   ],
+   "target_genes": []
+  },
+  "CHEMBL16": {
+   "counts": {
+    "SCN10A": 0,
+    "SCN11A": 0,
+    "SCN1A": 1,
+    "SCN2A": 0,
+    "SCN3A": 0,
+    "SCN4A": 0,
+    "SCN5A": 1,
+    "SCN7A": 0,
+    "SCN8A": 0,
+    "SCN9A": 0
+   },
+   "n_papers_any_target": 2,
+   "name": "PHENYTOIN",
+   "supported_by": [
+    "A"
+   ],
+   "target_genes": [
+    "SCN10A",
+    "SCN11A",
+    "SCN1A",
+    "SCN2A",
+    "SCN3A",
+    "SCN4A",
+    "SCN5A",
+    "SCN7A",
+    "SCN8A",
+    "SCN9A"
+   ]
+  },
+  "CHEMBL1621": {
+   "counts": {
+    "DRD2": 0,
+    "HTR2A": 0
+   },
+   "n_papers_any_target": 0,
+   "name": "PALIPERIDONE",
+   "supported_by": [
+    "A"
+   ],
+   "target_genes": [
+    "DRD2",
+    "HTR2A"
+   ]
+  },
+  "CHEMBL1628227": {
+   "counts": {
+    "HRH1": 0
+   },
+   "n_papers_any_target": 0,
+   "name": "DOXEPIN",
+   "supported_by": [
+    "A"
+   ],
+   "target_genes": [
+    "HRH1"
+   ]
+  },
+  "CHEMBL17860": {
+   "counts": {},
+   "n_papers_any_target": 0,
+   "name": "LOFEXIDINE",
+   "supported_by": [
+    "A"
+   ],
+   "target_genes": []
+  },
+  "CHEMBL190461": {
+   "counts": {
+    "CNR1": 0
+   },
+   "n_papers_any_target": 0,
+   "name": "CANNABIDIOL",
+   "supported_by": [
+    "A"
+   ],
+   "target_genes": [
+    "CNR1"
+   ]
+  },
+  "CHEMBL2104993": {
+   "counts": {},
+   "n_papers_any_target": 0,
+   "name": "VORTIOXETINE",
+   "supported_by": [
+    "A"
+   ],
+   "target_genes": []
+  },
+  "CHEMBL2146883": {
+   "counts": {
+    "MAP2K1": 1,
+    "MAP2K2": 0
+   },
+   "n_papers_any_target": 1,
+   "name": "COBIMETINIB",
+   "supported_by": [
+    "B"
+   ],
+   "target_genes": [
+    "MAP2K1",
+    "MAP2K2"
+   ]
+  },
+  "CHEMBL2219425": {
+   "counts": {
+    "DRD2": 0,
+    "HTR1A": 0,
+    "HTR2A": 0
+   },
+   "n_papers_any_target": 0,
+   "name": "ARIPIPRAZOLE LAUROXIL",
+   "supported_by": [
+    "A"
+   ],
+   "target_genes": [
+    "DRD2",
+    "HTR1A",
+    "HTR2A"
+   ]
+  },
+  "CHEMBL27": {
+   "counts": {},
+   "n_papers_any_target": 0,
+   "name": "PROPRANOLOL",
+   "supported_by": [
+    "A"
+   ],
+   "target_genes": []
+  },
+  "CHEMBL3545185": {
+   "counts": {
+    "XPO1": 0
+   },
+   "n_papers_any_target": 0,
+   "name": "SELINEXOR",
+   "supported_by": [
+    "B"
+   ],
+   "target_genes": [
+    "XPO1"
+   ]
+  },
+  "CHEMBL3545311": {
+   "counts": {
+    "ALK": 18,
+    "EGFR": 131
+   },
+   "n_papers_any_target": 149,
+   "name": "BRIGATINIB",
+   "supported_by": [
+    "B"
+   ],
+   "target_genes": [
+    "ALK",
+    "EGFR"
+   ]
+  },
+  "CHEMBL42": {
+   "counts": {
+    "DRD2": 0,
+    "HTR2A": 0
+   },
+   "n_papers_any_target": 0,
+   "name": "CLOZAPINE",
+   "supported_by": [
+    "A"
+   ],
+   "target_genes": [
+    "DRD2",
+    "HTR2A"
+   ]
+  },
+  "CHEMBL4302413": {
+   "counts": {},
+   "n_papers_any_target": 0,
+   "name": "COPPER OXODOTREOTIDE",
+   "supported_by": [
+    "A"
+   ],
+   "target_genes": []
+  },
+  "CHEMBL445": {
+   "counts": {},
+   "n_papers_any_target": 0,
+   "name": "NORTRIPTYLINE",
+   "supported_by": [
+    "A"
+   ],
+   "target_genes": []
+  },
+  "CHEMBL490": {
+   "counts": {},
+   "n_papers_any_target": 0,
+   "name": "PAROXETINE",
+   "supported_by": [
+    "A"
+   ],
+   "target_genes": []
+  },
+  "CHEMBL493": {
+   "counts": {},
+   "n_papers_any_target": 0,
+   "name": "BROMOCRIPTINE",
+   "supported_by": [
+    "A"
+   ],
+   "target_genes": []
+  },
+  "CHEMBL500": {
+   "counts": {
+    "ADRB1": 0,
+    "ADRB2": 2
+   },
+   "n_papers_any_target": 2,
+   "name": "PINDOLOL",
+   "supported_by": [
+    "A"
+   ],
+   "target_genes": [
+    "ADRB1",
+    "ADRB2"
+   ]
+  },
+  "CHEMBL53": {
+   "counts": {},
+   "n_papers_any_target": 0,
+   "name": "APOMORPHINE",
+   "supported_by": [
+    "A"
+   ],
+   "target_genes": []
+  },
+  "CHEMBL59": {
+   "counts": {},
+   "n_papers_any_target": 0,
+   "name": "DOPAMINE",
+   "supported_by": [
+    "A"
+   ],
+   "target_genes": []
+  },
+  "CHEMBL6": {
+   "counts": {
+    "PTGS1": 2,
+    "PTGS2": 4
+   },
+   "n_papers_any_target": 6,
+   "name": "INDOMETHACIN",
+   "supported_by": [
+    "A"
+   ],
+   "target_genes": [
+    "PTGS1",
+    "PTGS2"
+   ]
+  },
+  "CHEMBL608533": {
+   "counts": {
+    "FLT3": 5,
+    "KDR": 3,
+    "KIT": 117,
+    "PDGFRA": 5,
+    "PDGFRB": 2,
+    "PRKCA": 2,
+    "PRKCB": 0,
+    "PRKCD": 1,
+    "PRKCE": 0,
+    "PRKCG": 0,
+    "PRKCH": 1,
+    "PRKCI": 0,
+    "PRKCQ": 1,
+    "PRKCZ": 0,
+    "PRKD1": 0,
+    "PRKD3": 0
+   },
+   "n_papers_any_target": 137,
+   "name": "MIDOSTAURIN",
+   "supported_by": [
+    "B"
+   ],
+   "target_genes": [
+    "FLT3",
+    "KDR",
+    "KIT",
+    "PDGFRA",
+    "PDGFRB",
+    "PRKCA",
+    "PRKCB",
+    "PRKCD",
+    "PRKCE",
+    "PRKCG",
+    "PRKCH",
+    "PRKCI",
+    "PRKCQ",
+    "PRKCZ",
+    "PRKD1",
+    "PRKD3"
+   ]
+  },
+  "CHEMBL621": {
+   "counts": {},
+   "n_papers_any_target": 0,
+   "name": "TRAZODONE",
+   "supported_by": [
+    "A"
+   ],
+   "target_genes": []
+  },
+  "CHEMBL629": {
+   "counts": {},
+   "n_papers_any_target": 0,
+   "name": "AMITRIPTYLINE",
+   "supported_by": [
+    "A"
+   ],
+   "target_genes": []
+  },
+  "CHEMBL643": {
+   "counts": {},
+   "n_papers_any_target": 0,
+   "name": "PROMETHAZINE",
+   "supported_by": [
+    "A"
+   ],
+   "target_genes": []
+  },
+  "CHEMBL644": {
+   "counts": {},
+   "n_papers_any_target": 0,
+   "name": "TRIMIPRAMINE",
+   "supported_by": [
+    "A"
+   ],
+   "target_genes": []
+  },
+  "CHEMBL708": {
+   "counts": {},
+   "n_papers_any_target": 0,
+   "name": "ZIPRASIDONE",
+   "supported_by": [
+    "A"
+   ],
+   "target_genes": []
+  },
+  "CHEMBL71": {
+   "counts": {
+    "DRD2": 0,
+    "DRD3": 0,
+    "DRD4": 0,
+    "HTR2A": 0
+   },
+   "n_papers_any_target": 0,
+   "name": "CHLORPROMAZINE",
+   "supported_by": [
+    "A"
+   ],
+   "target_genes": [
+    "DRD2",
+    "DRD3",
+    "DRD4",
+    "HTR2A"
+   ]
+  },
+  "CHEMBL715": {
+   "counts": {
+    "DRD2": 0,
+    "DRD3": 0,
+    "DRD4": 0,
+    "HTR2A": 0,
+    "HTR2C": 0
+   },
+   "n_papers_any_target": 0,
+   "name": "OLANZAPINE",
+   "supported_by": [
+    "A"
+   ],
+   "target_genes": [
+    "DRD2",
+    "DRD3",
+    "DRD4",
+    "HTR2A",
+    "HTR2C"
+   ]
+  },
+  "CHEMBL716": {
+   "counts": {},
+   "n_papers_any_target": 0,
+   "name": "QUETIAPINE",
+   "supported_by": [
+    "A"
+   ],
+   "target_genes": []
+  },
+  "CHEMBL72": {
+   "counts": {},
+   "n_papers_any_target": 0,
+   "name": "DESIPRAMINE",
+   "supported_by": [
+    "A"
+   ],
+   "target_genes": []
+  },
+  "CHEMBL741": {
+   "counts": {
+    "SCN10A": 0,
+    "SCN11A": 0,
+    "SCN1A": 1,
+    "SCN2A": 0,
+    "SCN3A": 0,
+    "SCN4A": 0,
+    "SCN5A": 1,
+    "SCN7A": 0,
+    "SCN8A": 0,
+    "SCN9A": 0
+   },
+   "n_papers_any_target": 2,
+   "name": "LAMOTRIGINE",
+   "supported_by": [
+    "A"
+   ],
+   "target_genes": [
+    "SCN10A",
+    "SCN11A",
+    "SCN1A",
+    "SCN2A",
+    "SCN3A",
+    "SCN4A",
+    "SCN5A",
+    "SCN7A",
+    "SCN8A",
+    "SCN9A"
+   ]
+  },
+  "CHEMBL750": {
+   "counts": {
+    "SCN10A": 0,
+    "SCN11A": 0,
+    "SCN1A": 1,
+    "SCN2A": 0,
+    "SCN3A": 0,
+    "SCN4A": 0,
+    "SCN5A": 1,
+    "SCN7A": 0,
+    "SCN8A": 0,
+    "SCN9A": 0
+   },
+   "n_papers_any_target": 2,
+   "name": "ZONISAMIDE",
+   "supported_by": [
+    "A"
+   ],
+   "target_genes": [
+    "SCN10A",
+    "SCN11A",
+    "SCN1A",
+    "SCN2A",
+    "SCN3A",
+    "SCN4A",
+    "SCN5A",
+    "SCN7A",
+    "SCN8A",
+    "SCN9A"
+   ]
+  },
+  "CHEMBL85": {
+   "counts": {
+    "DRD2": 0,
+    "HTR2A": 0,
+    "HTR2C": 0
+   },
+   "n_papers_any_target": 0,
+   "name": "RISPERIDONE",
+   "supported_by": [
+    "A"
+   ],
+   "target_genes": [
+    "DRD2",
+    "HTR2A",
+    "HTR2C"
+   ]
+  }
+ },
+ "genes": {
+  "ADRB1": {
+   "count": 0,
+   "pmids": [],
+   "titles": {}
+  },
+  "ADRB2": {
+   "count": 2,
+   "pmids": [
+    "28959563",
+    "31485619"
+   ],
+   "titles": {
+    "28959563": "Transcriptomics analysis and hormonal changes of male and female neonatal rats treated chronically with a low dose of acrylamide in their drinking water.",
+    "31485619": "Integrative genomics analysis of hub genes and their relationship with prognosis and signaling pathways in esophageal squamous cell carcinoma."
+   }
+  },
+  "ALDH5A1": {
+   "count": 0,
+   "pmids": [],
+   "titles": {}
+  },
+  "ALK": {
+   "count": 18,
+   "pmids": [
+    "29670052",
+    "34885137",
+    "35478149",
+    "23199529",
+    "19052027"
+   ],
+   "titles": {
+    "19052027": "Would a morphomolecular approach help in defining pseudosarcomatous myofibroblastic proliferations? A study of a heart polypoid lesion.",
+    "23199529": "Oncogene alterations in endometrial carcinosarcomas.",
+    "29670052": "Aneuploid CTC and CEC.",
+    "34885137": "Mad2 Induced Aneuploidy Contributes to Eml4-Alk Driven Lung Cancer by Generating an Immunosuppressive Environment.",
+    "35478149": "ALK Protein Expression Patterns in Squamous Cell Carcinoma of the Oral Cavity."
+   }
+  },
+  "CNR1": {
+   "count": 0,
+   "pmids": [],
+   "titles": {}
+  },
+  "DRD1": {
+   "count": 0,
+   "pmids": [],
+   "titles": {}
+  },
+  "DRD2": {
+   "count": 0,
+   "pmids": [],
+   "titles": {}
+  },
+  "DRD3": {
+   "count": 0,
+   "pmids": [],
+   "titles": {}
+  },
+  "DRD4": {
+   "count": 0,
+   "pmids": [],
+   "titles": {}
+  },
+  "DRD5": {
+   "count": 0,
+   "pmids": [],
+   "titles": {}
+  },
+  "EGFR": {
+   "count": 131,
+   "pmids": [
+    "23933273",
+    "25503139",
+    "18167133",
+    "29335443",
+    "8012996"
+   ],
+   "titles": {
+    "18167133": "Understanding tumor endothelial cell abnormalities to develop ideal anti-angiogenic therapies.",
+    "23933273": "Antagonistic functional duality of cancer genes.",
+    "25503139": "Numerical and structural chromosomal anomalies in undifferentiated pleomorphic sarcoma.",
+    "29335443": "Elucidating the genomic architecture of Asian EGFR-mutant lung adenocarcinoma through multi-region exome sequencing.",
+    "8012996": "Prognostic factors and response to therapy in breast cancer."
+   }
+  },
+  "FLT3": {
+   "count": 5,
+   "pmids": [
+    "35130342",
+    "18927438",
+    "25405759",
+    "30873408",
+    "19908318"
+   ],
+   "titles": {
+    "18927438": "Specific JAK2 mutation (JAK2R683) and multiple gene deletions in Down syndrome acute lymphoblastic leukemia.",
+    "19908318": "Modeling interactions between leukemia-specific chromosomal changes, somatic mutations, and gene expression patterns during progression of core-binding factor leukemias.",
+    "25405759": "MDM4 overexpressed in acute myeloid leukemia patients with complex karyotype and wild-type TP53.",
+    "30873408": "Enigmatic Ladies of the Rings: How Cohesin Dysfunction Affects Myeloid Neoplasms Insurgence.",
+    "35130342": "Molecular profile of FLT3-mutated relapsed/refractory patients with AML in the phase 3 ADMIRAL study of gilteritinib."
+   }
+  },
+  "HRH1": {
+   "count": 0,
+   "pmids": [],
+   "titles": {}
+  },
+  "HTR1A": {
+   "count": 0,
+   "pmids": [],
+   "titles": {}
+  },
+  "HTR1B": {
+   "count": 0,
+   "pmids": [],
+   "titles": {}
+  },
+  "HTR1D": {
+   "count": 0,
+   "pmids": [],
+   "titles": {}
+  },
+  "HTR2A": {
+   "count": 0,
+   "pmids": [],
+   "titles": {}
+  },
+  "HTR2C": {
+   "count": 0,
+   "pmids": [],
+   "titles": {}
+  },
+  "KDR": {
+   "count": 3,
+   "pmids": [
+    "35722368",
+    "30048249",
+    "28386563"
+   ],
+   "titles": {
+    "28386563": "The Effect of Phototherapy on Cancer Predisposition Genes of Diabetic and Normal Human Skin Fibroblasts.",
+    "30048249": "Dual compartmental targeting of cell cycle and angiogenic kinases in colorectal cancer models.",
+    "35722368": "Identification of genetic polymorphisms in unexplained recurrent spontaneous abortion based on whole exome sequencing."
+   }
+  },
+  "KIT": {
+   "count": 117,
+   "pmids": [
+    "24384850",
+    "23933273",
+    "9439438",
+    "30506207",
+    "32977361"
+   ],
+   "titles": {
+    "23933273": "Antagonistic functional duality of cancer genes.",
+    "24384850": "Smooth muscle tumors of soft tissue and non-uterine viscera: biology and prognosis.",
+    "30506207": "Isolation of Cell-Free DNA from Maternal Plasma.",
+    "32977361": "BUB1B promotes hepatocellular carcinoma progression via activation of the mTORC1 signaling pathway.",
+    "9439438": "Immunoassay of human chorionic gonadotropin, its free subunits, and metabolites."
+   }
+  },
+  "MAP2K1": {
+   "count": 1,
+   "pmids": [
+    "24444598"
+   ],
+   "titles": {
+    "24444598": "Digital multiplexed mRNA analysis of functionally important genes in single human oocytes and correlation of changes in transcript levels with oocyte protein expression."
+   }
+  },
+  "MAP2K2": {
+   "count": 0,
+   "pmids": [],
+   "titles": {}
+  },
+  "NR3C2": {
+   "count": 0,
+   "pmids": [],
+   "titles": {}
+  },
+  "PDGFRA": {
+   "count": 5,
+   "pmids": [
+    "41379737",
+    "28386563",
+    "23199529",
+    "15545668",
+    "42540549"
+   ],
+   "titles": {
+    "15545668": "KIT and platelet-derived growth factor receptor alpha tyrosine kinase gene mutations and KIT amplifications in human solid tumors.",
+    "23199529": "Oncogene alterations in endometrial carcinosarcomas.",
+    "28386563": "The Effect of Phototherapy on Cancer Predisposition Genes of Diabetic and Normal Human Skin Fibroblasts.",
+    "41379737": "Erratum.",
+    "42540549": "Chromosomal instability is associated with paradoxical cGAS upregulation and impaired STING signaling shaping the immune microenvironment in glioblastoma."
+   }
+  },
+  "PDGFRB": {
+   "count": 2,
+   "pmids": [
+    "39388031",
+    "39243928"
+   ],
+   "titles": {
+    "39243928": "Transcriptomic landscape of quiescent and proliferating human corneal stromal fibroblasts.",
+    "39388031": "High-Grade Progression, Sarcomatous Transformation, and/or Metastasis of Pituitary Neuroendocrine Neoplasms (PitNENs): The UCSF Experience."
+   }
+  },
+  "PRKCA": {
+   "count": 2,
+   "pmids": [
+    "27434648",
+    "39029376"
+   ],
+   "titles": {
+    "27434648": "Hypomethylation and Genetic Instability in Monosomy Blastocysts May Contribute to Decreased Implantation Potential.",
+    "39029376": "Identification of novel biomarkers and potential molecular targets for uterine cancer using network-based approach."
+   }
+  },
+  "PRKCB": {
+   "count": 0,
+   "pmids": [],
+   "titles": {}
+  },
+  "PRKCD": {
+   "count": 1,
+   "pmids": [
+    "39361997"
+   ],
+   "titles": {
+    "39361997": "Novel insights into the circadian modulation of lipid metabolism in chicken livers revealed by RNA sequencing and weighted gene co-expression network analysis."
+   }
+  },
+  "PRKCE": {
+   "count": 0,
+   "pmids": [],
+   "titles": {}
+  },
+  "PRKCG": {
+   "count": 0,
+   "pmids": [],
+   "titles": {}
+  },
+  "PRKCH": {
+   "count": 1,
+   "pmids": [
+    "32939436"
+   ],
+   "titles": {
+    "32939436": "Novel Mutations and Genes That Impact on Growth in Short Stature of Undefined Aetiology: The EPIGROW Study."
+   }
+  },
+  "PRKCI": {
+   "count": 0,
+   "pmids": [],
+   "titles": {}
+  },
+  "PRKCQ": {
+   "count": 1,
+   "pmids": [
+    "22458412"
+   ],
+   "titles": {
+    "22458412": "Screening and functional analysis of differentially expressed genes in EBV-transformed lymphoblasts."
+   }
+  },
+  "PRKCZ": {
+   "count": 0,
+   "pmids": [],
+   "titles": {}
+  },
+  "PRKD1": {
+   "count": 0,
+   "pmids": [],
+   "titles": {}
+  },
+  "PRKD3": {
+   "count": 0,
+   "pmids": [],
+   "titles": {}
+  },
+  "PTGS1": {
+   "count": 2,
+   "pmids": [
+    "28959563",
+    "19846757"
+   ],
+   "titles": {
+    "19846757": "Polyploidy impairs human aortic endothelial cell function and is prevented by nicotinamide phosphoribosyltransferase.",
+    "28959563": "Transcriptomics analysis and hormonal changes of male and female neonatal rats treated chronically with a low dose of acrylamide in their drinking water."
+   }
+  },
+  "PTGS2": {
+   "count": 4,
+   "pmids": [
+    "16397240",
+    "40846007",
+    "30710230",
+    "39506684"
+   ],
+   "titles": {
+    "16397240": "Aneuploidy-dependent massive deregulation of the cellular transcriptome and apparent divergence of the Wnt/beta-catenin signaling pathway in human rectal carcinomas.",
+    "30710230": "An integrated investigation of oocyte developmental competence: expression of key genes in human cumulus cells, morphokinetics of early divisions, blastulation, and euploidy.",
+    "39506684": "Transcriptome analysis identifies the NR4A subfamily involved in the alleviating effect of folic acid on mastitis induced by high concentration of Staphylococcus aureus lipoteichoic acid.",
+    "40846007": "Comprehensive transcriptomic analysis of the hypothalamic-pituitary-ovarian axis reveals the role of Aurora Kinase B in regulating follicular granulosa cell development and steroid hormone synthesis in Wuding chickens."
+   }
+  },
+  "SCN10A": {
+   "count": 0,
+   "pmids": [],
+   "titles": {}
+  },
+  "SCN11A": {
+   "count": 0,
+   "pmids": [],
+   "titles": {}
+  },
+  "SCN1A": {
+   "count": 1,
+   "pmids": [
+    "41192949"
+   ],
+   "titles": {
+    "41192949": "Fetal Isolated Unilateral Multicystic Dysplastic Kidney Identified on Second Trimester Ultrasound: Genetic Investigation Results at a Single Referral Center."
+   }
+  },
+  "SCN2A": {
+   "count": 0,
+   "pmids": [],
+   "titles": {}
+  },
+  "SCN3A": {
+   "count": 0,
+   "pmids": [],
+   "titles": {}
+  },
+  "SCN4A": {
+   "count": 0,
+   "pmids": [],
+   "titles": {}
+  },
+  "SCN5A": {
+   "count": 1,
+   "pmids": [
+    "38884729"
+   ],
+   "titles": {
+    "38884729": "Human Genetics of Ventricular Septal Defect."
+   }
+  },
+  "SCN7A": {
+   "count": 0,
+   "pmids": [],
+   "titles": {}
+  },
+  "SCN8A": {
+   "count": 0,
+   "pmids": [],
+   "titles": {}
+  },
+  "SCN9A": {
+   "count": 0,
+   "pmids": [],
+   "titles": {}
+  },
+  "SLC6A2": {
+   "count": 0,
+   "pmids": [],
+   "titles": {}
+  },
+  "SLC6A4": {
+   "count": 0,
+   "pmids": [],
+   "titles": {}
+  },
+  "XPO1": {
+   "count": 0,
+   "pmids": [],
+   "titles": {}
+  }
+ },
+ "query_topic": "(\"spindle assembly checkpoint\"[Title/Abstract] OR BUBR1[Title/Abstract] OR BUB1B[Title/Abstract] OR \"mosaic variegated aneuploidy\"[Title/Abstract] OR \"chromosome missegregation\"[Title/Abstract] OR aneuploidy[Title/Abstract])"
+}

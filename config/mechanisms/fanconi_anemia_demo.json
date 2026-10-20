@@ -1,0 +1,17 @@
+{
+  "id": "fanconi_anemia_demo",
+  "gene": "FANC genes",
+  "effect": "loss_of_function",
+  "disease": "Fanconi anemia (exploratory replication demo)",
+  "pathway": "Fanconi anemia pathway (interstrand crosslink repair)",
+  "status": "replication_demo",
+  "evidence_level": "external_disease_for_scalability_demo",
+  "seeds": {
+    "reactome_pathways": [
+      "R-HSA-6783310"
+    ],
+    "genes": [],
+    "gene_source": "Reactome Fanconi Anemia Pathway"
+  },
+  "hypothesis_note": "Used only to test generalization with published positive controls (metformin, oxymetholone)."
+}

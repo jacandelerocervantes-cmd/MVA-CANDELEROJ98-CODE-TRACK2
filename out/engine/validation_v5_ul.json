@@ -1,0 +1,84 @@
+{
+ "delta_sd_fraction": {
+  "conservative_default": 0.0,
+  "status": "UNVALIDATED",
+  "value": 0.5
+ },
+ "label": "post hoc development (engine v5 ULTRALIGHT), extends the pre-registered v4 programme; not a pre-registered primary result",
+ "manifest_items": 1281,
+ "n_diseases": 42,
+ "n_groups": 27,
+ "outcome": "not informative",
+ "protocol": "protocol\\addendum_engine_v5_ultralight.md",
+ "protocol_sha256": "7bd042ea4e8255117a9de15503b37c54cc4b698e6efb2cdb10e896adb06a777b",
+ "quality_gate": {
+  "accuracy": 0.9,
+  "gate": 0.6,
+  "gate_passed": true,
+  "kappa": 0.8442049094927896,
+  "n_overlap": 400
+ },
+ "status": "complete: HELD-OUT scored once; cannot change the pre-registered v4 outcome",
+ "table": {
+  "0.01": {
+   "auc_difference": {
+    "ci95": [
+     -6e-06,
+     0.004482
+    ],
+    "estimate": 0.001859,
+    "n_diseases": 27,
+    "p_boot_le_0": 0.0405
+   },
+   "auc_prior_only": {
+    "ci95": [
+     0.671488,
+     0.826177
+    ],
+    "estimate": 0.752578,
+    "n_diseases": 27
+   },
+   "auc_score": {
+    "ci95": [
+     0.673256,
+     0.828226
+    ],
+    "estimate": 0.754437,
+    "n_diseases": 27
+   },
+   "coverage_share_pairs_B1": 0.0026666666666666666,
+   "informative": false,
+   "supported": false
+  },
+  "0.03": {
+   "auc_difference": {
+    "ci95": [
+     0.001645,
+     0.008918
+    ],
+    "estimate": 0.005072,
+    "n_diseases": 27,
+    "p_boot_le_0": 0.0
+   },
+   "auc_prior_only": {
+    "ci95": [
+     0.671488,
+     0.826177
+    ],
+    "estimate": 0.752578,
+    "n_diseases": 27
+   },
+   "auc_score": {
+    "ci95": [
+     0.676929,
+     0.830606
+    ],
+    "estimate": 0.757651,
+    "n_diseases": 27
+   },
+   "coverage_share_pairs_B1": 0.010074074074074074,
+   "informative": true,
+   "supported": true
+  }
+ }
+}

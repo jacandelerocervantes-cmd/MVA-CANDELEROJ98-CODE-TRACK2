@@ -1,0 +1,27 @@
+{
+  "id": "bub1b_down_p53_senescence",
+  "gene": "BUB1B",
+  "effect": "downstream_consequence_of_bub1b_loss",
+  "disease": "Mosaic variegated aneuploidy syndrome 1 (MVA1)",
+  "pathway": "p53 response and cellular senescence",
+  "derived_from": "p53 response and senescence",
+  "status": "mechanism_candidate",
+  "evidence_level": "downstream_consequence_hypothesis_literature_supported",
+  "seeds": {
+    "reactome_pathways": [
+      "R-HSA-2559583",
+      "R-HSA-69541",
+      "R-HSA-6804116"
+    ],
+    "genes": [
+      "TP53",
+      "MDM2",
+      "CDKN1A",
+      "CDKN2A"
+    ],
+    "gene_source": "Core components of the pathway; documented in docs/mechanism_screen.md"
+  },
+  "hypothesis_note": "Consequence of the primary mechanism, not an independent genetic finding; its relevance for this patient is a hypothesis.",
+  "weight": 0.5,
+  "weight_note": "Author's convention: 1.0 for the primary mechanism (pathogenic variant with matching phenotype); 0.5 for downstream consequences (hypotheses)."
+}

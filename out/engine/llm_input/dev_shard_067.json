@@ -1,0 +1,707 @@
+{
+ "items": [
+  {
+   "disease": "atypical juvenile parkinsonism",
+   "drug": "sirolimus",
+   "id": "dev-06600",
+   "pmid": "35637650",
+   "sentence": "The targeted drugs or molecular compounds were enalapril, sildenafil, and fenofibrate target for VEGFA; losartan target for NPHS1; halofuginone, deferoxamine, curcumin, and sirolimus target for WT1; and purpurogallin target for TNNT2."
+  },
+  {
+   "disease": "multiple endocrine neoplasia",
+   "drug": "tyrosine",
+   "id": "dev-06601",
+   "pmid": "39716145",
+   "sentence": "Existing therapeutic solutions, primarily tyrosine kinase inhibitors such as selpercatinib, vandetanib, and cabozantinib, have shown moderate efficacy but are accompanied by increased risks of side effects and resistance."
+  },
+  {
+   "disease": "benign recurrent intrahepatic cholestasis",
+   "drug": "ritonavir",
+   "id": "dev-06602",
+   "pmid": "34497279",
+   "sentence": "In the present work we have examined the in vitro interactions of some key repurposed drugs advocated to treat COVID-19 (lopinavir, ritonavir, ivermectin, remdesivir and favipiravir), with the key drug transporters of hepatocytes."
+  },
+  {
+   "disease": "Laron syndrome",
+   "drug": "gemcitabine",
+   "id": "dev-06603",
+   "pmid": "PPR:PPR852663",
+   "sentence": "Growth Hormone Receptor Antagonist Markedly Improves Gemcitabine Response in a Mouse Xenograft Model of Human Pancreatic Cancer"
+  },
+  {
+   "disease": "autoimmune thrombocytopenic",
+   "drug": "amino acids",
+   "id": "dev-06604",
+   "pmid": "1663579",
+   "sentence": "Another cDNA, TPP2, represents the type 2A class of phosphatases and codes for a 34.5-kDa protein of 303 amino acids."
+  },
+  {
+   "disease": "hereditary angioedema",
+   "drug": "riboflavin",
+   "id": "dev-06605",
+   "pmid": "38167092",
+   "sentence": "This might be caused by the photosensitizer riboflavin in DMEM-F12."
+  },
+  {
+   "disease": "absence epilepsy",
+   "drug": "flumazenil",
+   "id": "dev-06606",
+   "pmid": "35440709",
+   "sentence": "In contrast, the inhibitory interneuron marker parvalbumin covaried with GABA A receptor-subunit genes GABRA1, GABRB2 and GABRG2, and their distribution tracked [ 11 C]flumazenil binding."
+  },
+  {
+   "disease": "squamous cell carcinoma",
+   "drug": "etoposide",
+   "id": "dev-06607",
+   "pmid": "35369571",
+   "sentence": "We further revealed that RNF6 expression in both Y-79 and SO-Rb50 cells could render cells resistant to multiple anti-cancer drugs including carboplatin, vincristine and etoposide, an implication of RNF6 as a biomarker for RB drug resistance."
+  },
+  {
+   "disease": "Becker muscular dystrophy",
+   "drug": "viltolarsen",
+   "id": "dev-06608",
+   "pmid": "38376743",
+   "sentence": "Evolving Role of Viltolarsen for Treatment of Duchenne Muscular Dystrophy."
+  },
+  {
+   "disease": "hyperargininemia",
+   "drug": "amiloride",
+   "id": "dev-06609",
+   "pmid": "36014374",
+   "sentence": "Most notable are the antihypertensive drugs candesartan, irbesartan, indapamide, and amiloride, the antiemetic rolapitant, the anti-angina ivabradine, and the antidiabetic metformin which have minimal side effects."
+  },
+  {
+   "disease": "beta thalassemia",
+   "drug": "deferasirox",
+   "id": "dev-06610",
+   "pmid": "20301769",
+   "sentence": "Iron chelation therapy with deferasirox orally or desferrioxamine subcutaneously is recommended after ten to 12 transfusions."
+  },
+  {
+   "disease": "Cushing disease due to pituitary adenoma",
+   "drug": "vemurafenib",
+   "id": "dev-06611",
+   "pmid": "39839763",
+   "sentence": "Two of 15 patients (13%) discontinued therapy due to toxicities, and 2 other patients switched within drug class from vemurafenib to dabrafenib due to toxicities."
+  },
+  {
+   "disease": "hereditary hypophosphatemic rickets",
+   "drug": "denosumab",
+   "id": "dev-06612",
+   "pmid": "33289915",
+   "sentence": "Under volume loading, calcium-low-diet, Denosumab for blocking calcium resorption from bone and Ketoconazol to inhibit activation of Vitamin D a normalization of the calcium levels as well as an improvement of renal function could be observed."
+  },
+  {
+   "disease": "neonatal intrahepatic cholestasis due to citrin deficiency",
+   "drug": "sodium benzoate",
+   "id": "dev-06613",
+   "pmid": "39583614",
+   "sentence": "We report an acute presentation of a female patient in her late fifties with a background of noncirrhotic hyperammonemia of unknown etiology, controlled with oral sodium benzoate."
+  },
+  {
+   "disease": "cyclic hematopoiesis",
+   "drug": "methylprednisolone",
+   "id": "dev-06614",
+   "pmid": "37118811",
+   "sentence": "Case 1 was treated with methylprednisolone and hydroxychloroquine sulphate for 2 years, making neutrophil level return to normal."
+  },
+  {
+   "disease": "prolactin producing pituitary gland tumor",
+   "drug": "parathyroid hormone",
+   "id": "dev-06615",
+   "pmid": "37795364",
+   "sentence": "After parathyroidectomy to remove one parathyroid gland, the patient suffered from persistent high levels of serum calcium and parathyroid hormone, which returned to normal at up to 8 months after ultrasound-guided microwave ablation (MWA) for bilateral parathyroid glands, suggesting an acceptable short-term prognosis."
+  },
+  {
+   "disease": "dominant beta-thalassemia",
+   "drug": "oxygen",
+   "id": "dev-06616",
+   "pmid": "39092799",
+   "sentence": "We report a new low-affinity hemoglobinopathy (Hemoglobin Oviedo) in a family with isolated low oxygen saturation (89-92%) caused by a previously undescribed variant (NM_000518.5: c.115A > G;p.Thr39Ala) in the hemoglobin subunit β encoding gene ( HBB gene) located on chromosome 11."
+  },
+  {
+   "disease": "neonatal intrahepatic cholestasis due to citrin deficiency",
+   "drug": "urea",
+   "id": "dev-06617",
+   "pmid": "38497870",
+   "sentence": "Background This study aimed to evaluate clinical, biochemical, and genotypic findings of patients diagnosed with urea cycle mitochondrial transporter disorders."
+  },
+  {
+   "disease": "orthostatic hypotension",
+   "drug": "norepinephrine",
+   "id": "dev-06618",
+   "pmid": "33845730",
+   "sentence": "Such persistent HSC activation could be mediated by norepinephrine (NE), a reaction product of dopamine beta-hydroxylase (DBH)."
+  },
+  {
+   "disease": "thrombocythemia",
+   "drug": "ruxolitinib",
+   "id": "dev-06619",
+   "pmid": "38152053",
+   "sentence": "Lastly, we describe two patients with JMML and SH2B3 mutations who were treated with the JAK1/2 inhibitor ruxolitinib."
+  },
+  {
+   "disease": "carbamoyl phosphate synthetase I deficiency disease",
+   "drug": "urea",
+   "id": "dev-06620",
+   "pmid": "31366360",
+   "sentence": "High ammonia levels in the brain are a major contributor to the decreased neural function that occurs in several pathological conditions such as hepatic encephalopathy when liver urea cycle function is compromised."
+  },
+  {
+   "disease": "citrullinemia",
+   "drug": "glycine",
+   "id": "dev-06621",
+   "pmid": "39098527",
+   "sentence": "Here, we propose that the purinosome is located proximally to the mitochondrial transporters SLC25A13 and SLC25A38, facilitating the uptake of glycine, aspartate, and glutamate, essential factors for purine synthesis."
+  },
+  {
+   "disease": "carbamoyl phosphate synthetase I deficiency disease",
+   "drug": "valproic acid",
+   "id": "dev-06622",
+   "pmid": "30931853",
+   "sentence": "Valproic Acid and the Liver Injury in Patients with Epilepsy: An Update."
+  },
+  {
+   "disease": "familial Mediterranean fever",
+   "drug": "colchicine",
+   "id": "dev-06623",
+   "pmid": "36045426",
+   "sentence": "The patients were divided into two groups, including group 1 (n = 36) receiving prednisolone plus colchicine and group 2 (n = 31) receiving prednisolone plus cimetidine."
+  },
+  {
+   "disease": "acute neonatal citrullinemia type I",
+   "drug": "urea",
+   "id": "dev-06624",
+   "pmid": "PPR:PPR396338",
+   "sentence": "We also provide evidence that metastatic renal cancer cells reactivate argininosuccinate synthase (ASS1), a urea cycle enzyme suppressed in primary ccRCC, to enable invasion in vitro and metastasis in vivo ."
+  },
+  {
+   "disease": "Diamond-Blackfan anemia",
+   "drug": "azacitidine",
+   "id": "dev-06625",
+   "pmid": "39665979",
+   "sentence": "He was initially diagnosed as donor-derived myelodysplastic syndrome (MDS) and treated with azacitidine, followed by secondary transplantation using unrelated BM, providing durable complete remission."
+  },
+  {
+   "disease": "Niemann-Pick disease",
+   "drug": "tapinarof",
+   "id": "dev-06626",
+   "pmid": "37004877",
+   "sentence": "Tapinarof, an AHR ligand approved for the treatment of psoriasis, increased UGCG RNA, protein, and its lipid metabolites hexosylceramides as well as increased the RNA expression of ABCA12, GBA1, and SMPD1."
+  },
+  {
+   "disease": "symptomatic form of hemophilia in female carriers",
+   "drug": "lamotrigine",
+   "id": "dev-06627",
+   "pmid": "38659559",
+   "sentence": "The patient was treated with carbamazepine but liver dysfunction was observed; therefore, treatment was attempted with lacosamide (LCM) and lamotrigine."
+  },
+  {
+   "disease": "familial Mediterranean fever",
+   "drug": "canakinumab",
+   "id": "dev-06628",
+   "pmid": "37834916",
+   "sentence": "Background: To investigate the clinical features of Japanese patients with Familial Mediterranean Fever (FMF), we evaluated the frequency of attacks, treatment responses, and adverse effects in 27 patients with FMF treated with colchicine or canakinumab in a real-world clinical setting."
+  },
+  {
+   "disease": "hemophagocytic lymphohistiocytosis",
+   "drug": "thrombin",
+   "id": "dev-06629",
+   "pmid": "37538498",
+   "sentence": "In contrast, GPCR-mediated spikes in [Ca 2+ ] i in response to thrombin and U46619 were unaffected by FLNA."
+  },
+  {
+   "disease": "hereditary late onset Parkinson disease",
+   "drug": "levodopa",
+   "id": "dev-06630",
+   "pmid": "39132902",
+   "sentence": "Background Levodopa-induced dyskinesia (LID) is a common adverse effect of levodopa, one of the main therapeutics used to treat the motor symptoms of Parkinson's disease (PD)."
+  },
+  {
+   "disease": "cerebrotendinous xanthomatosis",
+   "drug": "metformin",
+   "id": "dev-06631",
+   "pmid": "37802808",
+   "sentence": "Fifty db/db mice were randomly divided into a model group(M group), a metformin group(YX group), a high-dose Puerariae Lobatae Radix group(YGG group), a medium-dose Puerariae Lobatae Radix group(YGZ group), and a low-dose Puerariae Lobatae Radix group(YGD group)."
+  },
+  {
+   "disease": "Noonan syndrome",
+   "drug": "trametinib",
+   "id": "dev-06632",
+   "pmid": "36901951",
+   "sentence": "We performed a structural analysis to validate that the MEK inhibitor trametinib could block this mutation."
+  },
+  {
+   "disease": "hypoalphalipoproteinemia",
+   "drug": "atorvastatin",
+   "id": "dev-06633",
+   "pmid": "39201292",
+   "sentence": "Atorvastatin upregulated ABCA1 mRNA, and metformin downregulated miR-26a-5p in CAD patients."
+  },
+  {
+   "disease": "familial Mediterranean fever",
+   "drug": "aminosalicylic acid",
+   "id": "dev-06634",
+   "pmid": "37176572",
+   "sentence": "Among patients with intestinal BD without MEFV gene mutations (four patients), three (75%) were controlled by the administration of 5-aminosalicylic acid with or without colchicine, and one (25%) required TNF inhibitors."
+  },
+  {
+   "disease": "testicular germ cell tumor",
+   "drug": "imatinib",
+   "id": "dev-06635",
+   "pmid": "36233032",
+   "sentence": "Inhibition of KITLG's effects by imatinib prevented AGE-medicated EndoMT in GECs, supporting the belief that KITLG is a critical factor for GEC injury."
+  },
+  {
+   "disease": "thrombocythemia",
+   "drug": "ruxolitinib",
+   "id": "dev-06636",
+   "pmid": "38841874",
+   "sentence": "We prospectively measured changes in JAK2 and CALR VAF in 77 patients with polycythemia vera and essential thrombocythemia, treated with ruxolitinib for a median of 8 years, and assessed correlation with complete clinical and hematological response (CCHR) and outcomes."
+  },
+  {
+   "disease": "absence epilepsy",
+   "drug": "sevoflurane",
+   "id": "dev-06637",
+   "pmid": "39372140",
+   "sentence": "Additionally, mice were exposed to sevoflurane for 2 h on postnatal days 5-7, and changes in behaviour related to autism were evaluated."
+  },
+  {
+   "disease": "absence epilepsy",
+   "drug": "valproic acid",
+   "id": "dev-06638",
+   "pmid": "31582559",
+   "sentence": "Through high-resolution in vivo calcium imaging of the brain, we showed that this phenotype is associated with widespread increases in neuronal activity that can be effectively alleviated by the anti-epileptic drug valproic acid."
+  },
+  {
+   "disease": "postural orthostatic tachycardia syndrome",
+   "drug": "fluoxetine",
+   "id": "dev-06639",
+   "pmid": "22480387",
+   "sentence": "Association of common variations in the norepinephrine transporter gene with response to olanzapine-fluoxetine combination versus continued-fluoxetine treatment in patients with treatment-resistant depression: a candidate gene analysis."
+  },
+  {
+   "disease": "multiple endocrine neoplasia",
+   "drug": "tyrosine",
+   "id": "dev-06640",
+   "pmid": "39628994",
+   "sentence": "Pralsetinib and selpercatinib have been approved as specific tyrosine kinase inhibitors (TKIs) for the treatment of patients with non-small cell lung cancer (NSCLC) harboring rearranged during transfection ( RET ) fusion and mutation."
+  },
+  {
+   "disease": "adult-onset citrullinemia type I",
+   "drug": "amino acids",
+   "id": "dev-06641",
+   "pmid": "PPR:PPR396338",
+   "sentence": "Nitrogen partitioning between branched-chain amino acids and urea cycle enzymes sustains renal cancer progression"
+  },
+  {
+   "disease": "familial isolated deficiency of vitamin E",
+   "drug": "caffeine",
+   "id": "dev-06642",
+   "pmid": "1147018",
+   "sentence": "Mechanical activity of mammalian heart muscle: variable onset, species differences, and the effect of caffeine."
+  },
+  {
+   "disease": "argininosuccinic aciduria",
+   "drug": "urea",
+   "id": "dev-06643",
+   "pmid": "37371829",
+   "sentence": "Argininosuccinic aciduria (ASA) is a metabolic disorder caused by a deficiency in argininosuccinate lyase (ASL), which cleaves argininosuccinic acid to arginine and fumarate in the urea cycle."
+  },
+  {
+   "disease": "familial intrahepatic cholestasis",
+   "drug": "cholestyramine",
+   "id": "dev-06644",
+   "pmid": "37762919",
+   "sentence": "Rifampicin and cholestyramine were effective against attacks."
+  },
+  {
+   "disease": "hypoalphalipoproteinemia",
+   "drug": "prednisone",
+   "id": "dev-06645",
+   "pmid": "37520890",
+   "sentence": "Results Higher ABCA1-CEC associated with (i) more calcified plaques at baseline only in patients with CRP>7 mg/L (median) (p-interaction = 0.001) and methotrexate nonusers (p-interaction = 0.037), and more partially-calcified plaques only in bDMARD nonusers (p-interaction = 0.029); (ii) fewer new calcified plaques in patients with below-median but not higher time-averaged CRP (p-interaction = 0.028); (iii) fewer new total and calcified plaques in prednisone unexposed but not patients exposed to prednisone during follow-up (p-interaction = 0.034 and 0.004) and (iv) more new plaques in baseline bDMARD nonusers and fewer in bDMARD users (p-interaction ≤ 0.001)."
+  },
+  {
+   "disease": "hypoalphalipoproteinemia",
+   "drug": "methotrexate",
+   "id": "dev-06646",
+   "pmid": "37520890",
+   "sentence": "Results Higher ABCA1-CEC associated with (i) more calcified plaques at baseline only in patients with CRP>7 mg/L (median) (p-interaction = 0.001) and methotrexate nonusers (p-interaction = 0.037), and more partially-calcified plaques only in bDMARD nonusers (p-interaction = 0.029); (ii) fewer new calcified plaques in patients with below-median but not higher time-averaged CRP (p-interaction = 0.028); (iii) fewer new total and calcified plaques in prednisone unexposed but not patients exposed to prednisone during follow-up (p-interaction = 0.034 and 0.004) and (iv) more new plaques in baseline bDMARD nonusers and fewer in bDMARD users (p-interaction ≤ 0.001)."
+  },
+  {
+   "disease": "hyperammonemia due to N-acetylglutamate synthase deficiency",
+   "drug": "glutamine",
+   "id": "dev-06647",
+   "pmid": "28888854",
+   "sentence": "Quantitation of phenylbutyrate metabolites by UPLC-MS/MS demonstrates inverse correlation of phenylacetate:phenylacetylglutamine ratio with plasma glutamine levels."
+  },
+  {
+   "disease": "beta-thalassemia intermedia",
+   "drug": "hydroxyurea",
+   "id": "dev-06648",
+   "pmid": "20301551",
+   "sentence": "In children, the spleen can become engorged with blood cells in a \"splenic sequestration.\" The spleen is particularly vulnerable to infarction and the majority of individuals with SCD who are not on hydroxyurea or transfusion therapy become functionally asplenic in early childhood, increasing their risk for certain types of bacterial infections, primarily encapsulated organisms."
+  },
+  {
+   "disease": "X-linked adrenal hypoplasia congenita",
+   "drug": "hydrocortisone",
+   "id": "dev-06649",
+   "pmid": "39468683",
+   "sentence": "Labs were consistent with adrenal crisis, he was stabilized with stress dose hydrocortisone (HC), insulin, and antibiotics, and he was admitted to the Pediatric Intensive Care Unit."
+  },
+  {
+   "disease": "myelomonocytic leukemia",
+   "drug": "cobimetinib",
+   "id": "dev-06650",
+   "pmid": "39202410",
+   "sentence": "We evaluated the efficacy of the highly specific MEK inhibitor, cobimetinib, in canine HS and HHS cell lines."
+  },
+  {
+   "disease": "goiter, multinodular 1, with or without Sertoli-Leydig cell tumors",
+   "drug": "paclitaxel",
+   "id": "dev-06651",
+   "pmid": "39721753",
+   "sentence": "Methods This open-label, multicenter single-arm investigator-initiated phase II study conducted at three US hospitals tested up to four cycles of atezolizumab, carboplatin, and nab-paclitaxel prior to surgery."
+  },
+  {
+   "disease": "chondrocalcinosis",
+   "drug": "calcium",
+   "id": "dev-06652",
+   "pmid": "32366894",
+   "sentence": "Differences in intracellular localisation of ANKH mutants that relate to mechanisms of calcium pyrophosphate deposition disease and craniometaphyseal dysplasia."
+  },
+  {
+   "disease": "Duchenne muscular dystrophy",
+   "drug": "enalapril",
+   "id": "dev-06653",
+   "pmid": "39342355",
+   "sentence": "We found moderate- to high-quality evidence that cardiac medication (i.e., ACE inhibitors [enalapril and perindopril], β-blockers [carvedilol], and mineralocorticoid receptor antagonists [eplerenone]) are significantly associated with preserved left ventricular ejection fraction (LVEF), left ventricular end-systolic volume (LVESV), and left ventricular circumferential strain (LVCS)."
+  },
+  {
+   "disease": "atypical juvenile parkinsonism",
+   "drug": "fenofibrate",
+   "id": "dev-06654",
+   "pmid": "35637650",
+   "sentence": "The targeted drugs or molecular compounds were enalapril, sildenafil, and fenofibrate target for VEGFA; losartan target for NPHS1; halofuginone, deferoxamine, curcumin, and sirolimus target for WT1; and purpurogallin target for TNNT2."
+  },
+  {
+   "disease": "gastrointestinal stromal tumor",
+   "drug": "regorafenib",
+   "id": "dev-06655",
+   "pmid": "37105265",
+   "sentence": "Patients and methods VOYAGER (N = 476) compared avapritinib with regorafenib in patients with KIT/PDGFRA-mutant GIST previously treated with imatinib and one or two additional TKIs (NCT03465722)."
+  },
+  {
+   "disease": "McLeod neuroacanthocytosis syndrome",
+   "drug": "dopamine",
+   "id": "dev-06656",
+   "pmid": "20301528",
+   "sentence": "Management Treatment of manifestations: The following recommendations apply to affected males (although symptomatic heterozygous females may undergo the same procedures, no scientific data are available): use of dopamine antagonists (e.g., tiapride, clozapine, quetiapine) and the dopamine depletory (tetrabenazine) to ameliorate chorea; assessment of cardiac involvement initially with cardiac MRI (if available), Holter electrocardiogram (EKG), echocardiography, cardiac biomarkers, and specialized electrophysiological investigations (if indicated); consideration of placement of prophylactic cardiac pacemaker / implantable cardioverter-defibrillator; treatment of psychiatric problems and seizures based on clinical findings; long-term and continuous multidisciplinary psychosocial support for affected individuals and their families."
+  },
+  {
+   "disease": "von Willebrand disease",
+   "drug": "emicizumab",
+   "id": "dev-06657",
+   "pmid": "39530919",
+   "sentence": "For example, FVIII replacement or antibody-based FVIII bypassing strategies (e.g. emicizumab) may prove useful in some cases or in initial treatment of certain VWD patients, including those with type 2N or 3 VWD, or those with inhibitors."
+  },
+  {
+   "disease": "Cushing disease due to pituitary adenoma",
+   "drug": "octreotide",
+   "id": "dev-06658",
+   "pmid": "PMC:PMC9625674",
+   "sentence": "Methods We developed a human pituitary adenoma organoid model (hPITOiPSC) from induced pluripotent stem cells treated with the glucocorticoid receptor (GR) antagonist mifepristone, and co-treated them with or without SSTR agonists pasireotide or octreotide."
+  },
+  {
+   "disease": "adult-onset citrullinemia type I",
+   "drug": "urea",
+   "id": "dev-06659",
+   "pmid": "PPR:PPR850122",
+   "sentence": "Argininosuccinate synthase 1 (ASS1) is a key enzyme in the urea cycle that converts citrulline and aspartic acid to argininosuccinate."
+  },
+  {
+   "disease": "myotonia congenita",
+   "drug": "bumetanide",
+   "id": "dev-06660",
+   "pmid": "11014932",
+   "sentence": "In addition, other forms of Bartter's syndrome have been defined with mutations involving the bumetanide-sensitive sodium-potassium-chloride co-transporter (NKCC2) and the potassium channel ROMK."
+  },
+  {
+   "disease": "von Willebrand disease",
+   "drug": "histamine",
+   "id": "dev-06661",
+   "pmid": "38660863",
+   "sentence": "Histamine stimulated human umbilical vein endothelial cells (HUVECs) were incubated with ADAMTS13 and various N- and C-terminally truncated mutants."
+  },
+  {
+   "disease": "Lennox-Gastaut syndrome",
+   "drug": "oxcarbazepine",
+   "id": "dev-06662",
+   "pmid": "36287100",
+   "sentence": "Both wild type and variant exhibited sensitivity to block by oxcarbazepine, partially correcting electrophysiological abnormalities of the SCN1A p.R1636Q variant."
+  },
+  {
+   "disease": "X-linked adrenal hypoplasia congenita",
+   "drug": "estriol",
+   "id": "dev-06663",
+   "pmid": "30129976",
+   "sentence": "We review a patient with AHC in which prenatal estriol levels were low, presenting with early-onset mineralocorticoid deficiency in the newborn period followed by glucocorticoid deficiency 2 years later."
+  },
+  {
+   "disease": "squamous cell carcinoma",
+   "drug": "abiraterone",
+   "id": "dev-06664",
+   "pmid": "38547419",
+   "sentence": "1L treatment patterns were similar between intact PTEN and PTEN LOF subgroups, with abiraterone and enzalutamide being the two most common treatments in both groups."
+  },
+  {
+   "disease": "Noonan syndrome",
+   "drug": "panitumumab",
+   "id": "dev-06665",
+   "pmid": "38131395",
+   "sentence": "The highest drug resistance observed in all patients was against Cetuximab and Panitumumab, and the highest drug resistance was found in the right colon group (53.1%)."
+  },
+  {
+   "disease": "squamous cell carcinoma",
+   "drug": "oxygen",
+   "id": "dev-06666",
+   "pmid": "37897534",
+   "sentence": "Mechanistically, overproduction of cytosolic reactive oxygen species caused p16 Ink4a promoter hypermethylation, aberrant p53/p21 Cip1/Waf1 signaling axis and accelerated p27 Kip1 protein degradation, thereby leading to the failure of senescence induction in Wwox-deficient cells after serial passage in culture."
+  },
+  {
+   "disease": "testicular germ cell tumor",
+   "drug": "irinotecan",
+   "id": "dev-06667",
+   "pmid": "35847381",
+   "sentence": "After a partial resection of the tumor at the extramedullary invasion site, the patient was administered anlotinib 12 mg p.o. once every day (days 1-14, 21-day cycle) in combination with irinotecan chemotherapy (days 1 and 8, 21-day cycle)."
+  },
+  {
+   "disease": "cerebrotendinous xanthomatosis",
+   "drug": "bortezomib",
+   "id": "dev-06668",
+   "pmid": "38779454",
+   "sentence": "Furthermore, pharmacologic analysis identified that compounds including disulfiram, niclosamide and bortezomib exhibited efficacy against PDCs."
+  },
+  {
+   "disease": "pulmonary venoocclusive disease",
+   "drug": "tadalafil",
+   "id": "dev-06669",
+   "pmid": "36653758",
+   "sentence": "Her treatment regimen included PAH-targeted therapies (tadalafil and macitentan) in combination with hydroxychloroquine."
+  },
+  {
+   "disease": "hyperammonemia due to N-acetylglutamate synthase deficiency",
+   "drug": "carglumic acid",
+   "id": "dev-06670",
+   "pmid": "30443462",
+   "sentence": "Carglumic Acid Treatment of a Patient with Recurrent Valproic Acid-induced Hyperammonemia: A Rare Case Report."
+  },
+  {
+   "disease": "Lennox-Gastaut syndrome",
+   "drug": "valproic acid",
+   "id": "dev-06671",
+   "pmid": "37451178",
+   "sentence": "The aim of this study was to explore the association of SCN1A polymorphisms with efficacy and adverse drug reactions (ADRs) related to valproic acid (VPA) among Chinese children with epilepsy."
+  },
+  {
+   "disease": "inherited isolated adrenal insufficiency due to partial CYP11A1 deficiency",
+   "drug": "nitric oxide",
+   "id": "dev-06672",
+   "pmid": "39715797",
+   "sentence": "Results showed that the induction of diabetes led to testicular and pancreatic redox status deterioration showing a reduction in reduced glutathione (GSH) as well as elevation of malondialdehyde (MDA), and nitric oxide (NO) levels."
+  },
+  {
+   "disease": "juvenile Huntington disease",
+   "drug": "citalopram",
+   "id": "dev-06673",
+   "pmid": "37947344",
+   "sentence": "Aim We investigated the association between 5-HTT availability and 5-HTT- and 5-HT1AR-enriched functional connectivity (FC) after an acute citalopram challenge."
+  },
+  {
+   "disease": "McLeod neuroacanthocytosis syndrome",
+   "drug": "acetic acid",
+   "id": "dev-06674",
+   "pmid": "PPR:PPR170108",
+   "sentence": "Acetic acid was obtained as a main byproduct in all the fermentations."
+  },
+  {
+   "disease": "prolactin producing pituitary gland tumor",
+   "drug": "temozolomide",
+   "id": "dev-06675",
+   "pmid": "30521183",
+   "sentence": "Standard pituitary medical therapies such as somatostatin analogues have limited efficacy in APT/PC, whereas temozolomide yields a clear survival benefit."
+  },
+  {
+   "disease": "hyperammonemia due to N-acetylglutamate synthase deficiency",
+   "drug": "nitrogen",
+   "id": "dev-06676",
+   "pmid": "12633501",
+   "sentence": "In prokaryotes, lower eukaryotes and plants it is the first intermediate in the biosynthesis of arginine, whereas in ureotelic (excreting nitrogen mostly in the form of urea) vertebrates, it is an essential allosteric cofactor for carbamyl phosphate synthetase I (CPSI), the first enzyme of the urea cycle."
+  },
+  {
+   "disease": "postural orthostatic tachycardia syndrome",
+   "drug": "norepinephrine",
+   "id": "dev-06677",
+   "pmid": "37156838",
+   "sentence": "Venlafaxine antagonizes the noradrenaline-promoted colon cancer progression by inhibiting the norepinephrine transporter."
+  },
+  {
+   "disease": "Cushing disease due to pituitary adenoma",
+   "drug": "tyrosine",
+   "id": "dev-06678",
+   "pmid": "39315762",
+   "sentence": "Mutations in b-raf proto-oncogene, serine/threonine kinase (BRAF), cluster of differentiation 274 (CD274), neurotrophin receptor tyrosine kinase 1 (NTRK1), and rearranged during transfection (RET) occurred only in plasma."
+  },
+  {
+   "disease": "Cushing disease due to pituitary adenoma",
+   "drug": "vemurafenib",
+   "id": "dev-06679",
+   "pmid": "28809522",
+   "sentence": "Vemurafenib is a kinase inhibitor used in the treatment of individuals with unresectable or metastatic melanoma with the BRAF V600E variant or Erdheim-Chester disease with a BRAF V600 variation."
+  },
+  {
+   "disease": "homozygous familial hypercholesterolemia",
+   "drug": "adenosine",
+   "id": "dev-06680",
+   "pmid": "36981027",
+   "sentence": "ABCG5 and ABCG8 are two key adenosine triphosphate-binding cassette (ABC) proteins that regulate whole-body sterol trafficking."
+  },
+  {
+   "disease": "cystinuria",
+   "drug": "calcium",
+   "id": "dev-06681",
+   "pmid": "15021200",
+   "sentence": "Purpose of review To emphasize an exploration of mechanisms of kidney stone disease based on a molecular understanding of excess urinary excretions of calcium, oxalate, cystine, and uric acid."
+  },
+  {
+   "disease": "Parkinson disease",
+   "drug": "levodopa",
+   "id": "dev-06682",
+   "pmid": "33841314",
+   "sentence": "Mutations of three genes, PRKN, PINK1 , and DJ-1 cause pure phenotypes usually characterized by levodopa-responsive Parkinson's disease."
+  },
+  {
+   "disease": "cystinuria",
+   "drug": "amino acids",
+   "id": "dev-06683",
+   "pmid": "28812535",
+   "sentence": "For SLC7A9, many mutations swap hydrophobic amino acids for charged amino acids or vice versa, while others affect known functional sites."
+  },
+  {
+   "disease": "systemic lupus erythematosus (disease)",
+   "drug": "methotrexate",
+   "id": "dev-06684",
+   "pmid": "34017081",
+   "sentence": "A better response to methotrexate therapy was found in HLA-DRB1 SE non-carriers, and CD28 TT patients."
+  },
+  {
+   "disease": "multiple endocrine neoplasia",
+   "drug": "parathyroid hormone",
+   "id": "dev-06685",
+   "pmid": "39507119",
+   "sentence": "RET mutation analysis aids in identifying MEN2A symptoms and monitoring levels of calcium, thyroid hormones, calcitonin, normetanephrine, fractionated metanephrines, and parathyroid hormone."
+  },
+  {
+   "disease": "adult-onset citrullinemia type I",
+   "drug": "glutamine",
+   "id": "dev-06686",
+   "pmid": "32814773",
+   "sentence": "Concomitantly, these data elucidate proteomic changes that facilitate oxaloacetate production by enhancing glutamine and pyruvate anaplerosis and altering lipid metabolism to recycle citrate for oxidative glutaminolysis."
+  },
+  {
+   "disease": "sickle cell anemia",
+   "drug": "oxygen",
+   "id": "dev-06687",
+   "pmid": "37602010",
+   "sentence": "A Hemoglobin Variant Causing an Unexplained Low Oxygen Saturation by Pulse Oximetry: Two Case Reports."
+  },
+  {
+   "disease": "myeloid leukemia",
+   "drug": "tamoxifen",
+   "id": "dev-06688",
+   "pmid": "38834136",
+   "sentence": "We employed several tamoxifen-inducible Cre-ER T2 murine model systems to study the effects of constitutively active Kras G12D -driven myeloid leukemia (Kras) development together with heterozygous (3aHet) or homozygous Dnmt3a deletion (3aKO)."
+  },
+  {
+   "disease": "orthostatic hypotension",
+   "drug": "etoposide",
+   "id": "dev-06689",
+   "pmid": "38721737",
+   "sentence": "We recommended immediate initiation of full-dose chemotherapy (etoposide monotherapy for 5 days as part of the first course), avoiding leukapheresis and prephase chemotherapy."
+  },
+  {
+   "disease": "sickle cell anemia",
+   "drug": "ketoprofen",
+   "id": "dev-06690",
+   "pmid": "36849127",
+   "sentence": "The mixture of hyoscine N-butyl bromide (HBB) and ketoprofen (KTP) is commonly used for the handling of abdominal spasms and pain relief."
+  },
+  {
+   "disease": "Noonan syndrome",
+   "drug": "cetuximab",
+   "id": "dev-06691",
+   "pmid": "38183801",
+   "sentence": "Vaccination represents an alternative to the administration of anti-EGFR monoclonal antibodies, such as cetuximab or panitumumab."
+  },
+  {
+   "disease": "myeloid leukemia",
+   "drug": "carboplatin",
+   "id": "dev-06692",
+   "pmid": "38084551",
+   "sentence": "Here, we describe a rare case of a 48-year-old female with ovarian cancer who developed AML with CBFB/MYH11 fusion, less than two years after exposure to paclitaxel and carboplatin chemotherapy."
+  },
+  {
+   "disease": "beta thalassemia",
+   "drug": "folic acid",
+   "id": "dev-06693",
+   "pmid": "20301608",
+   "sentence": "Folic acid supplementation is required."
+  },
+  {
+   "disease": "Cushing disease due to pituitary adenoma",
+   "drug": "pasireotide",
+   "id": "dev-06694",
+   "pmid": "PPR:PPR541836",
+   "sentence": "Relacorilant sensitized PitNET organoid responsiveness to pasireotide."
+  },
+  {
+   "disease": "Becker muscular dystrophy",
+   "drug": "vamorolone",
+   "id": "dev-06695",
+   "pmid": "39233679",
+   "sentence": "Background and objectives Several recent clinical studies have indicated that vamorolone is comparable in effectiveness to glucocorticosteroids for treating Duchenne muscular dystrophy (DMD)."
+  },
+  {
+   "disease": "hemophagocytic lymphohistiocytosis",
+   "drug": "levonorgestrel",
+   "id": "dev-06696",
+   "pmid": "38922360",
+   "sentence": "Long-Term Follow-up of Levonorgestrel Intrauterine Device for Atypical Hyperplasia and Early Endometrial Cancer Reveals Relapse Characterized by Immune Exhaustion."
+  },
+  {
+   "disease": "adult-onset citrullinemia type I",
+   "drug": "pemetrexed",
+   "id": "dev-06697",
+   "pmid": "30796035",
+   "sentence": "A Phase I Study of Pegylated Arginine Deiminase (Pegargiminase), Cisplatin, and Pemetrexed in Argininosuccinate Synthetase 1-Deficient Recurrent High-grade Glioma."
+  },
+  {
+   "disease": "temporal arteritis",
+   "drug": "etodolac",
+   "id": "dev-06698",
+   "pmid": "38451034",
+   "sentence": "Diclofenac was the causative drug in 29, celecoxib in 7, ibuprofen in 5, etodolac and meloxicam each in 4."
+  },
+  {
+   "disease": "Lennox-Gastaut syndrome",
+   "drug": "stiripentol",
+   "id": "dev-06699",
+   "pmid": "PPR:PPR729660",
+   "sentence": "Our findings are consistent with some systemic symptoms of Dravet syndrome, with the benefits of treatments which may modulate the astrocyte-neuron lactate shuttle such as Stiripentol and ketogenic dietary regimes, and with the efficacy of intrathecal delivery of therapeutics."
+  }
+ ],
+ "n_items": 100,
+ "shard": 67,
+ "split": "dev"
+}

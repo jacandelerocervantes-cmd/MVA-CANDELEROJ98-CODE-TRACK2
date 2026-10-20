@@ -1,0 +1,1254 @@
+{
+ "n_evaluated": 200,
+ "per_disease": {
+  "27292": {
+   "auc": 0.5459,
+   "degree": 214,
+   "n_known": 3,
+   "name": "glycogen storage disease"
+  },
+  "27522": {
+   "auc": 0.631,
+   "degree": 240,
+   "n_known": 3,
+   "name": "Noonan syndrome"
+  },
+  "27581": {
+   "auc": 0.9185,
+   "degree": 24,
+   "n_known": 3,
+   "name": "von Willebrand disease"
+  },
+  "27700": {
+   "auc": 0.8094,
+   "degree": 71,
+   "n_known": 6,
+   "name": "sclerosing cholangitis"
+  },
+  "27843": {
+   "auc": 0.8276,
+   "degree": 58,
+   "n_known": 3,
+   "name": "acute intermittent porphyria"
+  },
+  "27933": {
+   "auc": 0.949,
+   "degree": 547,
+   "n_known": 56,
+   "name": "anxiety disorder"
+  },
+  "28158": {
+   "auc": 0.8987,
+   "degree": 140,
+   "n_known": 22,
+   "name": "inflammatory bowel disease"
+  },
+  "28208": {
+   "auc": 0.849,
+   "degree": 274,
+   "n_known": 49,
+   "name": "type 2 diabetes mellitus"
+  },
+  "28426": {
+   "auc": 0.9332,
+   "degree": 152,
+   "n_known": 3,
+   "name": "multiple endocrine neoplasia"
+  },
+  "28478": {
+   "auc": 0.9438,
+   "degree": 34,
+   "n_known": 8,
+   "name": "autoimmune disease"
+  },
+  "28640": {
+   "auc": 0.8735,
+   "degree": 152,
+   "n_known": 11,
+   "name": "nonpapillary renal cell carcinoma"
+  },
+  "28772": {
+   "auc": 0.3815,
+   "degree": 133,
+   "n_known": 7,
+   "name": "Gaucher disease"
+  },
+  "29173": {
+   "auc": 0.9654,
+   "degree": 72,
+   "n_known": 3,
+   "name": "small cell lung carcinoma"
+  },
+  "29194": {
+   "auc": 0.9932,
+   "degree": 68,
+   "n_known": 4,
+   "name": "gastrointestinal stromal tumor"
+  },
+  "29361": {
+   "auc": 0.9114,
+   "degree": 84,
+   "n_known": 7,
+   "name": "acute promyelocytic leukemia"
+  },
+  "29375": {
+   "auc": 0.5701,
+   "degree": 241,
+   "n_known": 4,
+   "name": "squamous cell carcinoma"
+  },
+  "29528": {
+   "auc": 0.4281,
+   "degree": 5,
+   "n_known": 3,
+   "name": "Peyronie disease"
+  },
+  "29614": {
+   "auc": 0.7288,
+   "degree": 82,
+   "n_known": 32,
+   "name": "osteoporosis"
+  },
+  "29854": {
+   "auc": 0.8534,
+   "degree": 35,
+   "n_known": 17,
+   "name": "hereditary angioedema"
+  },
+  "30324": {
+   "auc": 0.93,
+   "degree": 6,
+   "n_known": 5,
+   "name": "blepharospasm"
+  },
+  "30715": {
+   "auc": 0.8806,
+   "degree": 22,
+   "n_known": 3,
+   "name": "Wernicke-Korsakoff syndrome"
+  },
+  "30749": {
+   "auc": 0.9824,
+   "degree": 306,
+   "n_known": 3,
+   "name": "thyroid gland carcinoma"
+  },
+  "30800": {
+   "auc": 0.935,
+   "degree": 139,
+   "n_known": 24,
+   "name": "juvenile arthritis due to defect in LACC1"
+  },
+  "30813": {
+   "auc": 0.9366,
+   "degree": 57,
+   "n_known": 10,
+   "name": "Addison disease"
+  },
+  "30990": {
+   "auc": 0.9133,
+   "degree": 28,
+   "n_known": 14,
+   "name": "mycosis fungoides and variants"
+  },
+  "31137": {
+   "auc": 0.7783,
+   "degree": 45,
+   "n_known": 7,
+   "name": "juvenile Paget disease"
+  },
+  "31380": {
+   "auc": 0.7878,
+   "degree": 312,
+   "n_known": 6,
+   "name": "diffuse gastric adenocarcinoma"
+  },
+  "31408": {
+   "auc": 0.93,
+   "degree": 104,
+   "n_known": 22,
+   "name": "X-linked parkinsonism-spasticity syndrome"
+  },
+  "31745": {
+   "auc": 0.7412,
+   "degree": 14,
+   "n_known": 3,
+   "name": "aromatase excess syndrome"
+  },
+  "32326": {
+   "auc": 0.2498,
+   "degree": 23,
+   "n_known": 7,
+   "name": "amoebiasis due to Entamoeba histolytica"
+  },
+  "32456": {
+   "auc": 0.9879,
+   "degree": 22,
+   "n_known": 12,
+   "name": "cutis verticis gyrata"
+  },
+  "32503": {
+   "auc": 0.4528,
+   "degree": 84,
+   "n_known": 4,
+   "name": "human African trypanosomiasis"
+  },
+  "32537": {
+   "auc": 0.7825,
+   "degree": 42,
+   "n_known": 6,
+   "name": "idiopathic bronchiectasis"
+  },
+  "32584": {
+   "auc": 0.9594,
+   "degree": 53,
+   "n_known": 8,
+   "name": "inherited isolated adrenal insufficiency due to partial CYP11A1 deficiency"
+  },
+  "32617": {
+   "auc": 0.8071,
+   "degree": 1168,
+   "n_known": 17,
+   "name": "hereditary breast ovarian cancer syndrome"
+  },
+  "32649": {
+   "auc": 0.8088,
+   "degree": 37,
+   "n_known": 8,
+   "name": "meningococcal infection"
+  },
+  "32664": {
+   "auc": 0.8472,
+   "degree": 42,
+   "n_known": 3,
+   "name": "fusariosis"
+  },
+  "32729": {
+   "auc": 0.9016,
+   "degree": 23,
+   "n_known": 4,
+   "name": "botulism"
+  },
+  "32875": {
+   "auc": 0.8268,
+   "degree": 56,
+   "n_known": 11,
+   "name": "Zollinger-Ellison syndrome"
+  },
+  "32990": {
+   "auc": 0.8266,
+   "degree": 32,
+   "n_known": 3,
+   "name": "precocious puberty"
+  },
+  "33115": {
+   "auc": 0.9556,
+   "degree": 50,
+   "n_known": 10,
+   "name": "absence epilepsy"
+  },
+  "33193": {
+   "auc": 0.8794,
+   "degree": 52,
+   "n_known": 3,
+   "name": "plague"
+  },
+  "33210": {
+   "auc": 0.8257,
+   "degree": 26,
+   "n_known": 7,
+   "name": "pneumocystosis"
+  },
+  "33216": {
+   "auc": 0.8514,
+   "degree": 59,
+   "n_known": 6,
+   "name": "aspergillosis"
+  },
+  "33225": {
+   "auc": 0.5051,
+   "degree": 99,
+   "n_known": 3,
+   "name": "systemic sclerosis"
+  },
+  "33241": {
+   "auc": 0.9297,
+   "degree": 122,
+   "n_known": 22,
+   "name": "hereditary late onset Parkinson disease"
+  },
+  "33294": {
+   "auc": 0.8879,
+   "degree": 39,
+   "n_known": 17,
+   "name": "follicular lymphoma"
+  },
+  "33296": {
+   "auc": 0.9568,
+   "degree": 21,
+   "n_known": 3,
+   "name": "familial papillary or follicular thyroid carcinoma"
+  },
+  "33297": {
+   "auc": 0.9075,
+   "degree": 63,
+   "n_known": 4,
+   "name": "listeriosis"
+  },
+  "33314": {
+   "auc": 0.8108,
+   "degree": 35,
+   "n_known": 17,
+   "name": "leptospirosis"
+  },
+  "33324": {
+   "auc": 0.9003,
+   "degree": 30,
+   "n_known": 9,
+   "name": "narcolepsy-cataplexy syndrome"
+  },
+  "33526": {
+   "auc": 0.7487,
+   "degree": 12,
+   "n_known": 10,
+   "name": "idiopathic uveitis"
+  },
+  "33590": {
+   "auc": 0.5657,
+   "degree": 23,
+   "n_known": 5,
+   "name": "polycythemia (disease)"
+  },
+  "33601": {
+   "auc": 0.176,
+   "degree": 21,
+   "n_known": 3,
+   "name": "gastritis"
+  },
+  "33618": {
+   "auc": 0.9542,
+   "degree": 168,
+   "n_known": 14,
+   "name": "atrial fibrillation (disease)"
+  },
+  "33643": {
+   "auc": 0.873,
+   "degree": 167,
+   "n_known": 11,
+   "name": "renal cell carcinoma (disease)"
+  },
+  "33649": {
+   "auc": 0.7228,
+   "degree": 36,
+   "n_known": 26,
+   "name": "exanthem (disease)"
+  },
+  "33651": {
+   "auc": 0.6121,
+   "degree": 6,
+   "n_known": 33,
+   "name": "seborrheic dermatitis"
+  },
+  "33656": {
+   "auc": 0.8582,
+   "degree": 22,
+   "n_known": 18,
+   "name": "hypercalcemia disease"
+  },
+  "33659": {
+   "auc": 0.8344,
+   "degree": 35,
+   "n_known": 11,
+   "name": "hyperinsulinism (disease)"
+  },
+  "33670": {
+   "auc": 0.8176,
+   "degree": 8,
+   "n_known": 9,
+   "name": "endocarditis"
+  },
+  "33677": {
+   "auc": 0.7241,
+   "degree": 12,
+   "n_known": 24,
+   "name": "constipation disorder"
+  },
+  "33680": {
+   "auc": 0.8419,
+   "degree": 179,
+   "n_known": 11,
+   "name": "endometriosis (disease)"
+  },
+  "35520": {
+   "auc": 0.7676,
+   "degree": 14,
+   "n_known": 9,
+   "name": "spotted fever"
+  },
+  "35535": {
+   "auc": 0.5303,
+   "degree": 2,
+   "n_known": 23,
+   "name": "tinea corporis"
+  },
+  "35548": {
+   "auc": 0.5385,
+   "degree": 38,
+   "n_known": 9,
+   "name": "skin disease caused by infection"
+  },
+  "35552": {
+   "auc": 0.7779,
+   "degree": 83,
+   "n_known": 20,
+   "name": "pneumonia"
+  },
+  "35583": {
+   "auc": 0.8473,
+   "degree": 20,
+   "n_known": 18,
+   "name": "phosphorus metabolism disease"
+  },
+  "35588": {
+   "auc": 0.7917,
+   "degree": 11,
+   "n_known": 9,
+   "name": "typhus"
+  },
+  "35601": {
+   "auc": 0.7716,
+   "degree": 13,
+   "n_known": 11,
+   "name": "syphilis"
+  },
+  "35735": {
+   "auc": 0.9013,
+   "degree": 24,
+   "n_known": 3,
+   "name": "sympathetic paraganglioma"
+  },
+  "35738": {
+   "auc": 0.9912,
+   "degree": 84,
+   "n_known": 3,
+   "name": "endometrial carcinoma (disease)"
+  },
+  "35823": {
+   "auc": 0.9595,
+   "degree": 78,
+   "n_known": 8,
+   "name": "eye disease"
+  },
+  "35878": {
+   "auc": 0.8275,
+   "degree": 11,
+   "n_known": 9,
+   "name": "bacterial meningitis"
+  },
+  "35895": {
+   "auc": 0.9009,
+   "degree": 27,
+   "n_known": 3,
+   "name": "small intestine cancer"
+  },
+  "35916": {
+   "auc": 0.4014,
+   "degree": 22,
+   "n_known": 14,
+   "name": "dry eye syndrome"
+  },
+  "35992": {
+   "auc": 0.9345,
+   "degree": 8,
+   "n_known": 10,
+   "name": "tendinitis"
+  },
+  "36000": {
+   "auc": 0.7879,
+   "degree": 314,
+   "n_known": 6,
+   "name": "gastric neoplasm"
+  },
+  "36034": {
+   "auc": 0.8382,
+   "degree": 61,
+   "n_known": 4,
+   "name": "hyperthyroidism"
+  },
+  "36035": {
+   "auc": 0.9097,
+   "degree": 41,
+   "n_known": 103,
+   "name": "hypertension"
+  },
+  "36043": {
+   "auc": 0.9392,
+   "degree": 58,
+   "n_known": 6,
+   "name": "primary ovarian failure"
+  },
+  "36117": {
+   "auc": 0.7988,
+   "degree": 8,
+   "n_known": 39,
+   "name": "streptococcal infection"
+  },
+  "36129": {
+   "auc": 0.7621,
+   "degree": 60,
+   "n_known": 32,
+   "name": "atopic eczema"
+  },
+  "36149": {
+   "auc": 0.9026,
+   "degree": 29,
+   "n_known": 3,
+   "name": "heart cancer"
+  },
+  "36170": {
+   "auc": 0.8017,
+   "degree": 7,
+   "n_known": 4,
+   "name": "peritoneum cancer"
+  },
+  "36198": {
+   "auc": 0.5054,
+   "degree": 7,
+   "n_known": 3,
+   "name": "impetigo"
+  },
+  "36199": {
+   "auc": 0.44,
+   "degree": 7,
+   "n_known": 8,
+   "name": "vaginitis (disease)"
+  },
+  "36223": {
+   "auc": 0.6868,
+   "degree": 170,
+   "n_known": 5,
+   "name": "malignant colon neoplasm"
+  },
+  "36249": {
+   "auc": 0.9227,
+   "degree": 6,
+   "n_known": 5,
+   "name": "intestinal infectious disease"
+  },
+  "36266": {
+   "auc": 0.7617,
+   "degree": 15,
+   "n_known": 3,
+   "name": "hepatic encephalopathy"
+  },
+  "36398": {
+   "auc": 0.6837,
+   "degree": 9,
+   "n_known": 4,
+   "name": "angle-closure glaucoma"
+  },
+  "36432": {
+   "auc": 0.8673,
+   "degree": 115,
+   "n_known": 24,
+   "name": "congestive heart failure"
+  },
+  "36436": {
+   "auc": 0.9362,
+   "degree": 8,
+   "n_known": 11,
+   "name": "tenosynovitis"
+  },
+  "36536": {
+   "auc": 0.922,
+   "degree": 43,
+   "n_known": 3,
+   "name": "adenosarcoma"
+  },
+  "36581": {
+   "auc": 0.6839,
+   "degree": 193,
+   "n_known": 5,
+   "name": "colonic neoplasm"
+  },
+  "36644": {
+   "auc": 0.7881,
+   "degree": 76,
+   "n_known": 14,
+   "name": "skin disease"
+  },
+  "36665": {
+   "auc": 0.8925,
+   "degree": 16,
+   "n_known": 3,
+   "name": "cervical carcinoma"
+  },
+  "36893": {
+   "auc": 0.7611,
+   "degree": 12,
+   "n_known": 3,
+   "name": "biliary tract disease"
+  },
+  "36924": {
+   "auc": 0.7186,
+   "degree": 54,
+   "n_known": 23,
+   "name": "dermatitis"
+  },
+  "36944": {
+   "auc": 0.9372,
+   "degree": 52,
+   "n_known": 3,
+   "name": "thyroid cancer"
+  },
+  "37038": {
+   "auc": 0.9914,
+   "degree": 78,
+   "n_known": 3,
+   "name": "endometrium neoplasm"
+  },
+  "37150": {
+   "auc": 0.8225,
+   "degree": 144,
+   "n_known": 15,
+   "name": "malignant non-dysgerminomatous germ cell tumor of ovary"
+  },
+  "37273": {
+   "auc": 0.7879,
+   "degree": 317,
+   "n_known": 6,
+   "name": "gastric carcinoma"
+  },
+  "37423": {
+   "auc": 0.8227,
+   "degree": 142,
+   "n_known": 15,
+   "name": "ovarian clear cell adenocarcinoma"
+  },
+  "37574": {
+   "auc": 0.7883,
+   "degree": 10,
+   "n_known": 34,
+   "name": "bacterial pneumonia"
+  },
+  "37607": {
+   "auc": 0.7809,
+   "degree": 6,
+   "n_known": 12,
+   "name": "iridocyclitis (disease)"
+  },
+  "37609": {
+   "auc": 0.8142,
+   "degree": 4,
+   "n_known": 7,
+   "name": "iritis (disease)"
+  },
+  "37612": {
+   "auc": 0.8256,
+   "degree": 5,
+   "n_known": 12,
+   "name": "external ear disease"
+  },
+  "37640": {
+   "auc": 0.7741,
+   "degree": 5,
+   "n_known": 10,
+   "name": "actinomycosis"
+  },
+  "37659": {
+   "auc": 0.6946,
+   "degree": 122,
+   "n_known": 7,
+   "name": "heart failure"
+  },
+  "37703": {
+   "auc": 0.9349,
+   "degree": 301,
+   "n_known": 31,
+   "name": "neurotic disorder"
+  },
+  "37710": {
+   "auc": 0.6472,
+   "degree": 9,
+   "n_known": 4,
+   "name": "injury"
+  },
+  "37743": {
+   "auc": 0.7777,
+   "degree": 20,
+   "n_known": 23,
+   "name": "hepatitis C virus infection"
+  },
+  "37753": {
+   "auc": 0.791,
+   "degree": 24,
+   "n_known": 5,
+   "name": "opiate dependence"
+  },
+  "37768": {
+   "auc": 0.8481,
+   "degree": 13,
+   "n_known": 24,
+   "name": "migraine disorder"
+  },
+  "37784": {
+   "auc": 0.8913,
+   "degree": 56,
+   "n_known": 16,
+   "name": "Crohn disease"
+  },
+  "37787": {
+   "auc": 0.7553,
+   "degree": 10,
+   "n_known": 47,
+   "name": "staphylococcal infection"
+  },
+  "37811": {
+   "auc": 0.8243,
+   "degree": 31,
+   "n_known": 16,
+   "name": "rhinitis"
+  },
+  "37830": {
+   "auc": 0.7764,
+   "degree": 36,
+   "n_known": 33,
+   "name": "bronchitis"
+  },
+  "37855": {
+   "auc": 0.8361,
+   "degree": 5,
+   "n_known": 3,
+   "name": "myiasis"
+  },
+  "37892": {
+   "auc": 0.6268,
+   "degree": 4,
+   "n_known": 10,
+   "name": "cutaneous candidiasis"
+  },
+  "37893": {
+   "auc": 0.4331,
+   "degree": 6,
+   "n_known": 8,
+   "name": "vulvovaginitis"
+  },
+  "38003": {
+   "auc": 0.9293,
+   "degree": 17,
+   "n_known": 5,
+   "name": "basal ganglia disease"
+  },
+  "38496": {
+   "auc": 0.9165,
+   "degree": 41,
+   "n_known": 9,
+   "name": "inherited aplastic anemia"
+  },
+  "38515": {
+   "auc": 0.9425,
+   "degree": 16,
+   "n_known": 8,
+   "name": "chronic primary adrenal insufficiency"
+  },
+  "38641": {
+   "auc": 0.9175,
+   "degree": 39,
+   "n_known": 3,
+   "name": "hereditary hemochromatosis"
+  },
+  "38916": {
+   "auc": 0.8656,
+   "degree": 5,
+   "n_known": 3,
+   "name": "pituitary dwarfism"
+  },
+  "39111": {
+   "auc": 0.8991,
+   "degree": 5,
+   "n_known": 12,
+   "name": "acquired angioedema"
+  },
+  "39124": {
+   "auc": 0.8912,
+   "degree": 177,
+   "n_known": 17,
+   "name": "therapy related acute myeloid leukemia and myelodysplastic syndrome"
+  },
+  "39245": {
+   "auc": 0.778,
+   "degree": 15,
+   "n_known": 15,
+   "name": "panuveitis (disease)"
+  },
+  "39491": {
+   "auc": 0.6664,
+   "degree": 10,
+   "n_known": 4,
+   "name": "neuromuscular junction disease"
+  },
+  "39524": {
+   "auc": 0.9571,
+   "degree": 17,
+   "n_known": 17,
+   "name": "psoriatic arthritis"
+  },
+  "39535": {
+   "auc": 0.792,
+   "degree": 4,
+   "n_known": 3,
+   "name": "von Willebrand disease (hereditary or acquired)"
+  },
+  "39537": {
+   "auc": 0.8212,
+   "degree": 2,
+   "n_known": 10,
+   "name": "gastrin secretion abnormality"
+  },
+  "39603": {
+   "auc": 0.8226,
+   "degree": 142,
+   "n_known": 15,
+   "name": "malignant sex cord stromal tumor of ovary"
+  },
+  "39609": {
+   "auc": 0.7309,
+   "degree": 9,
+   "n_known": 74,
+   "name": "pharyngitis"
+  },
+  "39773": {
+   "auc": 0.8356,
+   "degree": 83,
+   "n_known": 42,
+   "name": "allergic asthma"
+  },
+  "39808": {
+   "auc": 0.7959,
+   "degree": 5,
+   "n_known": 11,
+   "name": "trichinosis"
+  },
+  "39821": {
+   "auc": 0.945,
+   "degree": 37,
+   "n_known": 3,
+   "name": "keloid"
+  },
+  "39824": {
+   "auc": 0.9188,
+   "degree": 3,
+   "n_known": 4,
+   "name": "infectious diarrheal disease"
+  },
+  "39828": {
+   "auc": 0.8225,
+   "degree": 2,
+   "n_known": 12,
+   "name": "rosacea"
+  },
+  "83753": {
+   "auc": 0.5063,
+   "degree": 2,
+   "n_known": 24,
+   "name": "tinea pedis"
+  },
+  "83760": {
+   "auc": 0.9352,
+   "degree": 291,
+   "n_known": 30,
+   "name": "dysthymic disorder"
+  },
+  "83773": {
+   "auc": 0.9052,
+   "degree": 3,
+   "n_known": 12,
+   "name": "non-histaminic angioedema"
+  },
+  "83776": {
+   "auc": 0.7288,
+   "degree": 67,
+   "n_known": 32,
+   "name": "postmenopausal osteoporosis"
+  },
+  "83783": {
+   "auc": 0.7829,
+   "degree": 4,
+   "n_known": 15,
+   "name": "enterobiasis"
+  },
+  "83786": {
+   "auc": 0.9133,
+   "degree": 1,
+   "n_known": 14,
+   "name": "localized pagetoid reticulosis"
+  },
+  "83789": {
+   "auc": 0.9512,
+   "degree": 2,
+   "n_known": 9,
+   "name": "serum sickness"
+  },
+  "83790": {
+   "auc": 0.8923,
+   "degree": 11,
+   "n_known": 21,
+   "name": "gout"
+  },
+  "83793": {
+   "auc": 0.9094,
+   "degree": 23,
+   "n_known": 21,
+   "name": "Hodgkin's paragranuloma"
+  },
+  "83796": {
+   "auc": 0.8771,
+   "degree": 50,
+   "n_known": 26,
+   "name": "lymphosarcoma"
+  },
+  "83799": {
+   "auc": 0.763,
+   "degree": 4,
+   "n_known": 23,
+   "name": "chronic hepatitis C virus infection"
+  },
+  "83801": {
+   "auc": 0.908,
+   "degree": 2,
+   "n_known": 5,
+   "name": "paratyphoid fever"
+  },
+  "83805": {
+   "auc": 0.7618,
+   "degree": 14,
+   "n_known": 3,
+   "name": "hepatic coma"
+  },
+  "83813": {
+   "auc": 0.8243,
+   "degree": 23,
+   "n_known": 5,
+   "name": "hereditary persistence of fetal hemoglobin"
+  },
+  "83816": {
+   "auc": 0.8225,
+   "degree": 140,
+   "n_known": 15,
+   "name": "ovarian carcinosarcoma"
+  },
+  "83817": {
+   "auc": 0.8226,
+   "degree": 138,
+   "n_known": 15,
+   "name": "hereditary site-specific ovarian cancer syndrome"
+  },
+  "83819": {
+   "auc": 0.8226,
+   "degree": 138,
+   "n_known": 15,
+   "name": "malignant dysgerminomatous germ cell tumor of ovary"
+  },
+  "83820": {
+   "auc": 0.8226,
+   "degree": 140,
+   "n_known": 15,
+   "name": "maligant granulosa cell tumor of ovary"
+  },
+  "83825": {
+   "auc": 0.9006,
+   "degree": 2,
+   "n_known": 6,
+   "name": "metastasis from malignant tumor of colon"
+  },
+  "83829": {
+   "auc": 0.8132,
+   "degree": 2,
+   "n_known": 17,
+   "name": "infectious otitis media"
+  },
+  "83830": {
+   "auc": 0.6398,
+   "degree": 5,
+   "n_known": 22,
+   "name": "ocular hypertension"
+  },
+  "83844": {
+   "auc": 0.8128,
+   "degree": 10,
+   "n_known": 6,
+   "name": "IgG4-related sclerosing cholangitis"
+  },
+  "83846": {
+   "auc": 0.7848,
+   "degree": 3,
+   "n_known": 4,
+   "name": "pneumococcal meningitis"
+  },
+  "83850": {
+   "auc": 0.8448,
+   "degree": 4,
+   "n_known": 3,
+   "name": "hirudiniasis"
+  },
+  "83851": {
+   "auc": 0.7514,
+   "degree": 5,
+   "n_known": 11,
+   "name": "Plasmodium falciparum malaria"
+  },
+  "83859": {
+   "auc": 0.8913,
+   "degree": 174,
+   "n_known": 17,
+   "name": "acute myeloid leukemia with t(9;11)(p22;q23)"
+  },
+  "83860": {
+   "auc": 0.8913,
+   "degree": 174,
+   "n_known": 17,
+   "name": "acute myeloid leukemia with inv3(p21;q26.2) or t(3;3)(p21;q26.2)"
+  },
+  "83869": {
+   "auc": 0.8596,
+   "degree": 510,
+   "n_known": 3,
+   "name": "fibrolamellar hepatocellular carcinoma"
+  },
+  "83883": {
+   "auc": 0.738,
+   "degree": 2,
+   "n_known": 6,
+   "name": "intermittent vascular claudication"
+  },
+  "83897": {
+   "auc": 0.7943,
+   "degree": 1,
+   "n_known": 67,
+   "name": "common cold"
+  },
+  "83904": {
+   "auc": 0.9935,
+   "degree": 3,
+   "n_known": 4,
+   "name": "social phobia"
+  },
+  "83911": {
+   "auc": 0.7136,
+   "degree": 105,
+   "n_known": 7,
+   "name": "Reye syndrome"
+  },
+  "83922": {
+   "auc": 0.7729,
+   "degree": 3,
+   "n_known": 3,
+   "name": "obstructive jaundice"
+  },
+  "83928": {
+   "auc": 0.95,
+   "degree": 105,
+   "n_known": 9,
+   "name": "partial motor epilepsy"
+  },
+  "83938": {
+   "auc": 0.353,
+   "degree": 3,
+   "n_known": 13,
+   "name": "xerophthalmia"
+  },
+  "83962": {
+   "auc": 0.944,
+   "degree": 1,
+   "n_known": 5,
+   "name": "Prinzmetal angina"
+  },
+  "83966": {
+   "auc": 0.8904,
+   "degree": 5,
+   "n_known": 7,
+   "name": "maxillary sinusitis"
+  },
+  "83970": {
+   "auc": 0.7812,
+   "degree": 1,
+   "n_known": 10,
+   "name": "erythrasma"
+  },
+  "83971": {
+   "auc": 0.7977,
+   "degree": 1,
+   "n_known": 18,
+   "name": "necrotizing ulcerative gingivitis"
+  },
+  "83973": {
+   "auc": 0.7084,
+   "degree": 1,
+   "n_known": 3,
+   "name": "scarlet fever"
+  },
+  "83977": {
+   "auc": 0.8516,
+   "degree": 6,
+   "n_known": 9,
+   "name": "neurocirculatory asthenia"
+  },
+  "83987": {
+   "auc": 0.6808,
+   "degree": 2,
+   "n_known": 7,
+   "name": "esophageal candidiasis"
+  },
+  "83991": {
+   "auc": 0.8451,
+   "degree": 3,
+   "n_known": 5,
+   "name": "black piedra"
+  },
+  "83993": {
+   "auc": 0.914,
+   "degree": 1,
+   "n_known": 3,
+   "name": "blastomycosis"
+  },
+  "84005": {
+   "auc": 0.7852,
+   "degree": 2,
+   "n_known": 19,
+   "name": "rhinoscleroma"
+  },
+  "84007": {
+   "auc": 0.8091,
+   "degree": 3,
+   "n_known": 17,
+   "name": "lymphogranuloma venereum"
+  },
+  "84008": {
+   "auc": 0.9572,
+   "degree": 5,
+   "n_known": 3,
+   "name": "trigonitis"
+  },
+  "84009": {
+   "auc": 0.7872,
+   "degree": 2,
+   "n_known": 21,
+   "name": "escherichia coli infection"
+  },
+  "84014": {
+   "auc": 0.802,
+   "degree": 1,
+   "n_known": 18,
+   "name": "Mycoplasma pneumoniae pneumonia"
+  },
+  "84028": {
+   "auc": 0.8146,
+   "degree": 1,
+   "n_known": 19,
+   "name": "neurodermatitis"
+  },
+  "84030": {
+   "auc": 0.8358,
+   "degree": 7,
+   "n_known": 20,
+   "name": "discoid lupus erythematosus"
+  },
+  "84066": {
+   "auc": 0.5019,
+   "degree": 1,
+   "n_known": 3,
+   "name": "cyanide poisoning"
+  },
+  "84075": {
+   "auc": 0.5947,
+   "degree": 3,
+   "n_known": 4,
+   "name": "ascorbic acid deficiency"
+  },
+  "84076": {
+   "auc": 0.7312,
+   "degree": 2,
+   "n_known": 12,
+   "name": "cat-scratch disease"
+  },
+  "84080": {
+   "auc": 0.8607,
+   "degree": 3,
+   "n_known": 4,
+   "name": "gonococcal epididymo-orchitis"
+  },
+  "84081": {
+   "auc": 0.7608,
+   "degree": 1,
+   "n_known": 8,
+   "name": "rickettsialpox"
+  },
+  "84082": {
+   "auc": 0.7608,
+   "degree": 1,
+   "n_known": 8,
+   "name": "Japanese spotted fever"
+  },
+  "84155": {
+   "auc": 0.9495,
+   "degree": 57,
+   "n_known": 6,
+   "name": "Epstein-Barr virus-positive diffuse large B-cell lymphoma of the elderly"
+  },
+  "84166": {
+   "auc": 0.5367,
+   "degree": 3,
+   "n_known": 3,
+   "name": "herpes labialis"
+  }
+ },
+ "post_hoc_by_disease_degree": {
+  "highest_degree_third": {
+   "degree_range": [
+    52,
+    1168
+   ],
+   "mean_auc": 0.8302,
+   "n": 66
+  },
+  "lowest_degree_third": {
+   "degree_range": [
+    1,
+    8
+   ],
+   "mean_auc": 0.7721,
+   "n": 67
+  },
+  "middle_third": {
+   "degree_range": [
+    9,
+    52
+   ],
+   "mean_auc": 0.8049,
+   "n": 67
+  }
+ },
+ "rule": {
+  "auc_min": 0.7,
+  "ci_lower_min": 0.55,
+  "min_drugs": 3,
+  "n_diseases": 200,
+  "seed": 20261007
+ },
+ "summary": {
+  "ci95_high": 0.8211720125,
+  "ci95_low": 0.782054275,
+  "mean_auc": 0.802257,
+  "median_auc": 0.82265,
+  "n_auc_above_0_5": 191,
+  "n_diseases": 200,
+  "permutation": {
+   "null_mean": 0.7731941833169865,
+   "null_sd": 0.0022872577616727522,
+   "observed_mean_auc": 0.8022563429439304,
+   "p_one_sided": 0.000999000999000999,
+   "permutations": 1000
+  }
+ },
+ "validated": true
+}

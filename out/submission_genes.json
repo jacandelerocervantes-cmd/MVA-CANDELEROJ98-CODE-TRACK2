@@ -1,0 +1,121 @@
+{
+ "genes": [
+  {
+   "clinvar": [
+    {
+     "classification": "Pathogenic/Likely pathogenic",
+     "clinvar_id": "533901",
+     "review_status": "criteria provided, multiple submitters, no conflicts",
+     "status": "in_clinvar",
+     "title": "NM_001211.6(BUB1B):[cDNA notation not published] (p.Leu737Ter)",
+     "variant": "[variant; coordinates not published]"
+    },
+    {
+     "classification": null,
+     "status": "other_allele_in_clinvar",
+     "variant": "[variant; coordinates not published]"
+    }
+   ],
+   "finding_types": [
+    "primary",
+    "secondary"
+   ],
+   "gene": "BUB1B",
+   "modellable": true,
+   "module_rule": "reactome_pathways_of_the_gene",
+   "module_size_in_network": 277,
+   "n_pathways": 10,
+   "rows": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "weight_epcr": 1.0
+  },
+  {
+   "clinvar": [],
+   "finding_types": [
+    "secondary"
+   ],
+   "gene": "CENPE",
+   "modellable": true,
+   "module_rule": "reactome_pathways_of_the_gene",
+   "module_size_in_network": 401,
+   "n_pathways": 10,
+   "rows": [
+    5
+   ],
+   "weight_epcr": 0.1377
+  },
+  {
+   "clinvar": [],
+   "finding_types": [
+    "secondary"
+   ],
+   "gene": "MAD1L1",
+   "modellable": true,
+   "module_rule": "reactome_pathways_of_the_gene",
+   "module_size_in_network": 275,
+   "n_pathways": 6,
+   "rows": [
+    6,
+    8,
+    9
+   ],
+   "weight_epcr": 0.1261
+  },
+  {
+   "clinvar": [
+    {
+     "classification": "Uncertain significance",
+     "clinvar_id": "3859683",
+     "review_status": "criteria provided, single submitter",
+     "status": "in_clinvar",
+     "title": "NM_001551.3(IGBP1):[cDNA notation not published] (p.Met151Leu)",
+     "variant": "[variant; coordinates not published]"
+    }
+   ],
+   "finding_types": [
+    "secondary"
+   ],
+   "gene": "IGBP1",
+   "modellable": true,
+   "module_rule": "string_physical_neighbours_2nd_order",
+   "module_size_in_network": 107,
+   "n_pathways": 0,
+   "rows": [
+    7
+   ],
+   "weight_epcr": 0.0986
+  },
+  {
+   "clinvar": [
+    {
+     "classification": null,
+     "status": "not_in_clinvar",
+     "variant": "[variant; coordinates not published]"
+    },
+    {
+     "classification": null,
+     "status": "not_in_clinvar",
+     "variant": "[variant; coordinates not published]"
+    }
+   ],
+   "finding_types": [
+    "secondary"
+   ],
+   "gene": "DNAH10",
+   "modellable": false,
+   "module_rule": "not_in_network",
+   "module_size_in_network": 0,
+   "n_pathways": 0,
+   "rows": [
+    10
+   ],
+   "weight_epcr": 0.0236
+  }
+ ],
+ "n_modellable": 4,
+ "submission_sha256": "264a0a43f75997ca04603a3c6292cc8aa8ef305e16297ec90fdf5a96fbf51c92"
+}

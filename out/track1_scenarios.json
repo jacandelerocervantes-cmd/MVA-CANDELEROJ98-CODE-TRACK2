@@ -1,0 +1,74 @@
+{
+ "variants": {
+  "original_links": {
+   "robust_in_all_schemes": [
+    "FOSTAMATINIB",
+    "SELINEXOR",
+    "TIRBANIBULIN"
+   ],
+   "scheme_robust": {
+    "W1_epcr": [
+     "BRIGATINIB",
+     "FOSTAMATINIB",
+     "SELINEXOR",
+     "TIRBANIBULIN"
+    ],
+    "W2_equal": [
+     "FOSTAMATINIB",
+     "SELINEXOR",
+     "TIRBANIBULIN"
+    ],
+    "W3_pathogenic_gene_only": [
+     "BRIGATINIB",
+     "FOSTAMATINIB",
+     "MIDOSTAURIN",
+     "SELINEXOR",
+     "TIRBANIBULIN"
+    ]
+   }
+  },
+  "two_record_links_no_predicted": {
+   "robust_in_all_schemes": [
+    "CERITINIB",
+    "SELINEXOR",
+    "TIRBANIBULIN"
+   ],
+   "scheme_robust": {
+    "W1_epcr": [
+     "CERITINIB",
+     "NATALIZUMAB",
+     "SELINEXOR",
+     "TIRBANIBULIN"
+    ],
+    "W2_equal": [
+     "CERITINIB",
+     "SELINEXOR",
+     "TIRBANIBULIN"
+    ],
+    "W3_pathogenic_gene_only": [
+     "CERITINIB",
+     "NATALIZUMAB",
+     "SELINEXOR",
+     "TIRBANIBULIN"
+    ]
+   }
+  }
+ },
+ "weights": {
+  "W1_epcr": {
+   "sub_BUB1B": 1.0,
+   "sub_CENPE": 0.1377,
+   "sub_IGBP1": 0.0986,
+   "sub_MAD1L1": 0.1261
+  },
+  "W2_equal": {
+   "sub_BUB1B": 1.0,
+   "sub_CENPE": 1.0,
+   "sub_IGBP1": 1.0,
+   "sub_MAD1L1": 1.0
+  },
+  "W3_pathogenic_gene_only": {
+   "sub_BUB1B": 1.0
+  }
+ }
+}

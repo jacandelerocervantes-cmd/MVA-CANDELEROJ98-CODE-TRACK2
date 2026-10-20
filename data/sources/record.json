@@ -1,0 +1,92 @@
+{
+ "depmap_covariates/OmicsDefaultModelProfiles.csv": {
+  "bytes": 82655,
+  "licence": "CC BY 4.0 (figshare article 25880521)",
+  "sha256": "1be4a67ee7ad7fb88ac2dbc467eb53cdd94806f7458433ced3331641756be321",
+  "url": "figshare article 25880521"
+ },
+ "depmap_covariates/OmicsProfiles.csv": {
+  "bytes": 214983,
+  "licence": "CC BY 4.0 (figshare article 25880521)",
+  "sha256": "e0125eebaca48c4f084218e372ca2da70a2de3ab3f6756462f3daecc258ea4aa",
+  "url": "figshare article 25880521"
+ },
+ "depmap_covariates/OmicsSignatures.csv": {
+  "bytes": 122751,
+  "licence": "CC BY 4.0 (figshare article 25880521)",
+  "sha256": "8779769e208244eb6f9e80e3a88e853c231cdec24706f35b6b76745342f31eec",
+  "url": "figshare article 25880521"
+ },
+ "depmap_covariates/OmicsSomaticMutationsMatrixDamaging.csv": {
+  "bytes": 135585447,
+  "licence": "CC BY 4.0 (figshare article 25880521)",
+  "sha256": "4f2e80d9fbf282600920dd16a9ad4782fb565ad9406cf1fd1dc5a8137d7fee46",
+  "url": "figshare article 25880521"
+ },
+ "depmap_covariates/OmicsSomaticMutationsMatrixHotspot.csv": {
+  "bytes": 3874822,
+  "licence": "CC BY 4.0 (figshare article 25880521)",
+  "sha256": "a767624f6ee1997d2d6644f37796bbe486f58687c4c297ccd1972050b9c73468",
+  "url": "figshare article 25880521"
+ },
+ "depmap_crispr/CRISPRGeneEffect.csv": {
+  "bytes": 419330454,
+  "licence": "CC BY 4.0 (figshare article 25880521)",
+  "sha256": "d155149181308f8e16b6a4677cde3e5af1ddef68ada1947486ae8c0bcb231452",
+  "url": "figshare article 25880521"
+ },
+ "hpo_annotations/phenotype.hpoa": {
+  "bytes": 35816037,
+  "licence": "HPO licence, https://hpo.jax.org/app/license",
+  "sha256": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
+  "url": "https://github.com/obophenotype/human-phenotype-ontology/releases/download/v2026-09-01/phenotype.hpoa"
+ },
+ "hpo_ontology/genes_to_phenotype.txt": {
+  "bytes": 20821704,
+  "licence": "HPO licence, https://hpo.jax.org/app/license",
+  "sha256": "507a17bff9c49e6329fbd88b1f91734fa7e9fdea5c06304044c0892eb6ab248c",
+  "url": "https://github.com/obophenotype/human-phenotype-ontology/releases/download/v2026-09-01/genes_to_phenotype.txt"
+ },
+ "hpo_ontology/hp.obo": {
+  "bytes": 10863613,
+  "licence": "HPO licence, https://hpo.jax.org/app/license",
+  "sha256": "93dace952fcb3ec4728818857f6ba76bc2d5312f4d83266519b8694b8e798f22",
+  "url": "https://github.com/obophenotype/human-phenotype-ontology/releases/download/v2026-09-01/hp.obo"
+ },
+ "mgi/HMD_HumanPhenotype.rpt": {
+  "bytes": 1989958,
+  "licence": "MGI data use terms, https://www.informatics.jax.org/mgihome/other/copyright.shtml",
+  "sha256": "3caceb612e6c9054a714044589fb3dd960d84f24bff5cdf0bab2b4381358c0a7",
+  "url": "https://www.informatics.jax.org/downloads/reports/HMD_HumanPhenotype.rpt"
+ },
+ "mgi/MGI_GenePheno.rpt": {
+  "bytes": 37670092,
+  "licence": "MGI data use terms, https://www.informatics.jax.org/mgihome/other/copyright.shtml",
+  "sha256": "238553efc90803b48835f122d7a22b4e05236d46815335ad40e8c2a3dce3f232",
+  "url": "https://www.informatics.jax.org/downloads/reports/MGI_GenePheno.rpt"
+ },
+ "mondo/mondo.obo": {
+  "bytes": 53320617,
+  "licence": "CC BY 4.0 (monarch-initiative/mondo; 'latest' release, so the SHA-256 recorded identifies the file used)",
+  "sha256": "2631e8e165d41def1a46749adb1ce0a336c8aba7f6bc0978729592cee8fed60b",
+  "url": "https://github.com/monarch-initiative/mondo/releases/latest/download/mondo.obo"
+ },
+ "omnipath/omnipath_interactions.tsv": {
+  "bytes": 18496044,
+  "licence": "per resource, https://omnipathdb.org/info",
+  "sha256": "6d9f6c99f6efbec6c5dfab0e0cc72ba0e69841df13afd283e17e056d224375fc",
+  "url": "https://omnipathdb.org/interactions?datasets=omnipath,pathwayextra,kinaseextra&genesymbols=yes&fields=sources,references,curation_effort&format=tsv"
+ },
+ "primekg/edges.csv": {
+  "bytes": 386582390,
+  "licence": "CC0 1.0 (Harvard Dataverse record doi:10.7910/DVN/IXA7BM)",
+  "sha256": "57c405049d0adb5ee9070d8b3fbb38f55a053b5c8d45b8b5af1ce23ee5d3ad7c",
+  "url": "https://dataverse.harvard.edu/api/access/datafile/6180616"
+ },
+ "primekg/nodes.tab": {
+  "bytes": 7869553,
+  "licence": "CC0 1.0 (Harvard Dataverse record doi:10.7910/DVN/IXA7BM)",
+  "sha256": "301644c421b436fb6d5f548954a5d77749d87ff8ecbf27d42f41c07a075a2ad3",
+  "url": "https://dataverse.harvard.edu/api/access/datafile/6180617?format=original"
+ }
+}

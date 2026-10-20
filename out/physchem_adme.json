@@ -1,0 +1,2280 @@
+{
+ "CHEMBL107": {
+  "drug_id": "CHEMBL107",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 0,
+  "measured_adme": {
+   "F (%)": {
+    "median": 45.0,
+    "n": 2
+   },
+   "Fu (no unit)": {
+    "median": 0.61,
+    "n": 4
+   },
+   "Papp (10^-6 cm/s)": {
+    "median": 0.3,
+    "n": 1
+   },
+   "Papp (nm/s)": {
+    "median": 109.95,
+    "n": 2
+   },
+   "Papp (ucm/s)": {
+    "median": 2.4,
+    "n": 11
+   },
+   "T1/2 (hr)": {
+    "median": 14.0,
+    "n": 5
+   }
+  },
+  "measured_affinity_to_mechanism_targets": {
+   "CHEMBL2095182": {
+    "median_pactivity": 5.58,
+    "n": 56
+   }
+  },
+  "molecule_type": "Small molecule",
+  "name": "COLCHICINE",
+  "properties": {
+   "alogp": "2.87",
+   "aromatic_rings": 2,
+   "full_mwt": "399.44",
+   "hba": 6,
+   "hbd": 1,
+   "heavy_atoms": 29,
+   "num_ro5_violations": 0,
+   "psa": "83.09",
+   "qed_weighted": "0.83",
+   "rtb": 5
+  },
+  "routes": {
+   "oral": true,
+   "parenteral": false,
+   "topical": false
+  }
+ },
+ "CHEMBL1096": {
+  "drug_id": "CHEMBL1096",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 0,
+  "measured_adme": {},
+  "measured_affinity_to_mechanism_targets": {},
+  "molecule_type": "Small molecule",
+  "name": "AMLEXANOX",
+  "properties": {
+   "alogp": "2.75",
+   "aromatic_rings": 3,
+   "full_mwt": "298.30",
+   "hba": 5,
+   "hbd": 2,
+   "heavy_atoms": 22,
+   "num_ro5_violations": 0,
+   "psa": "106.42",
+   "qed_weighted": "0.70",
+   "rtb": 2
+  },
+  "routes": {
+   "oral": false,
+   "parenteral": false,
+   "topical": true
+  }
+ },
+ "CHEMBL1102": {
+  "drug_id": "CHEMBL1102",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 0,
+  "measured_adme": {},
+  "measured_affinity_to_mechanism_targets": {},
+  "molecule_type": "Small molecule",
+  "name": "GLUTETHIMIDE",
+  "properties": {
+   "alogp": "1.77",
+   "aromatic_rings": 1,
+   "full_mwt": "217.27",
+   "hba": 2,
+   "hbd": 1,
+   "heavy_atoms": 16,
+   "num_ro5_violations": 0,
+   "psa": "46.17",
+   "qed_weighted": "0.77",
+   "rtb": 2
+  },
+  "routes": {
+   "oral": true,
+   "parenteral": false,
+   "topical": false
+  }
+ },
+ "CHEMBL12": {
+  "drug_id": "CHEMBL12",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 0,
+  "measured_adme": {
+   "Clearance (ul min-1)": {
+    "median": 21.0,
+    "n": 3
+   },
+   "F (%)": {
+    "median": 96.0,
+    "n": 4
+   },
+   "Fu (no unit)": {
+    "median": 0.023,
+    "n": 20
+   },
+   "Papp (10'-5 cm/s)": {
+    "median": 1.395,
+    "n": 2
+   },
+   "Papp (10'-5cm/s)": {
+    "median": 1.745,
+    "n": 12
+   },
+   "Papp (10^-5cm/s)": {
+    "median": 1.26,
+    "n": 2
+   },
+   "Papp (cm s-1)": {
+    "median": 119000000.0,
+    "n": 1
+   },
+   "Papp (no unit)": {
+    "median": 2.87,
+    "n": 1
+   },
+   "T1/2 (hr)": {
+    "median": 23.44,
+    "n": 20
+   }
+  },
+  "measured_affinity_to_mechanism_targets": {
+   "CHEMBL2093872": {
+    "median_pactivity": 7.92,
+    "n": 9
+   }
+  },
+  "molecule_type": "Small molecule",
+  "name": "DIAZEPAM",
+  "properties": {
+   "alogp": "3.15",
+   "aromatic_rings": 2,
+   "full_mwt": "284.75",
+   "hba": 2,
+   "hbd": 0,
+   "heavy_atoms": 20,
+   "num_ro5_violations": 0,
+   "psa": "32.67",
+   "qed_weighted": "0.79",
+   "rtb": 1
+  },
+  "routes": {
+   "oral": true,
+   "parenteral": true,
+   "topical": true
+  }
+ },
+ "CHEMBL1200472": {
+  "drug_id": "CHEMBL1200472",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 1,
+  "measured_adme": {},
+  "measured_affinity_to_mechanism_targets": {},
+  "molecule_type": "Small molecule",
+  "name": "QUAZEPAM",
+  "properties": {
+   "alogp": "5.03",
+   "aromatic_rings": 2,
+   "full_mwt": "386.80",
+   "hba": 2,
+   "hbd": 0,
+   "heavy_atoms": 25,
+   "num_ro5_violations": 1,
+   "psa": "15.60",
+   "qed_weighted": "0.53",
+   "rtb": 2
+  },
+  "routes": {
+   "oral": true,
+   "parenteral": false,
+   "topical": false
+  }
+ },
+ "CHEMBL1200790": {
+  "drug_id": "CHEMBL1200790",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 0,
+  "measured_adme": {},
+  "measured_affinity_to_mechanism_targets": {},
+  "molecule_type": "Small molecule",
+  "name": "METHYPRYLON",
+  "properties": {
+   "alogp": "1.13",
+   "aromatic_rings": 0,
+   "full_mwt": "183.25",
+   "hba": 2,
+   "hbd": 1,
+   "heavy_atoms": 13,
+   "num_ro5_violations": 0,
+   "psa": "46.17",
+   "qed_weighted": "0.65",
+   "rtb": 2
+  },
+  "routes": {
+   "oral": true,
+   "parenteral": false,
+   "topical": false
+  }
+ },
+ "CHEMBL1200802": {
+  "drug_id": "CHEMBL1200802",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 0,
+  "measured_adme": {},
+  "measured_affinity_to_mechanism_targets": {},
+  "molecule_type": "Small molecule",
+  "name": "TALBUTAL",
+  "properties": {
+   "alogp": "0.96",
+   "aromatic_rings": 0,
+   "full_mwt": "224.26",
+   "hba": 3,
+   "hbd": 2,
+   "heavy_atoms": 16,
+   "num_ro5_violations": 0,
+   "psa": "75.27",
+   "qed_weighted": "0.55",
+   "rtb": 4
+  },
+  "routes": {
+   "oral": true,
+   "parenteral": false,
+   "topical": false
+  }
+ },
+ "CHEMBL1201748": {
+  "drug_id": "CHEMBL1201748",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 2,
+  "measured_adme": {
+   "Papp (ucm/s)": {
+    "median": 3.73,
+    "n": 1
+   }
+  },
+  "measured_affinity_to_mechanism_targets": {},
+  "molecule_type": "Small molecule",
+  "name": "CABAZITAXEL",
+  "properties": {
+   "alogp": "4.57",
+   "aromatic_rings": 2,
+   "full_mwt": "835.94",
+   "hba": 14,
+   "hbd": 3,
+   "heavy_atoms": 60,
+   "num_ro5_violations": 2,
+   "psa": "202.45",
+   "qed_weighted": "0.17",
+   "rtb": 10
+  },
+  "routes": {
+   "oral": false,
+   "parenteral": true,
+   "topical": false
+  }
+ },
+ "CHEMBL1201752": {
+  "drug_id": "CHEMBL1201752",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 1,
+  "measured_adme": {
+   "T1/2 (hr)": {
+    "median": 17.0,
+    "n": 1
+   }
+  },
+  "measured_affinity_to_mechanism_targets": {},
+  "molecule_type": "Small molecule",
+  "name": "IXABEPILONE",
+  "properties": {
+   "alogp": "4.05",
+   "aromatic_rings": 1,
+   "full_mwt": "506.71",
+   "hba": 7,
+   "hbd": 3,
+   "heavy_atoms": 35,
+   "num_ro5_violations": 1,
+   "psa": "112.05",
+   "qed_weighted": "0.52",
+   "rtb": 2
+  },
+  "routes": {
+   "oral": false,
+   "parenteral": true,
+   "topical": false
+  }
+ },
+ "CHEMBL1522": {
+  "drug_id": "CHEMBL1522",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 0,
+  "measured_adme": {
+   "F (%)": {
+    "median": 80.0,
+    "n": 2
+   },
+   "T1/2 (hr)": {
+    "median": 5.5,
+    "n": 2
+   }
+  },
+  "measured_affinity_to_mechanism_targets": {},
+  "molecule_type": "Small molecule",
+  "name": "ESZOPICLONE",
+  "properties": {
+   "alogp": "1.57",
+   "aromatic_rings": 2,
+   "full_mwt": "388.82",
+   "hba": 7,
+   "hbd": 0,
+   "heavy_atoms": 27,
+   "num_ro5_violations": 0,
+   "psa": "91.76",
+   "qed_weighted": "0.77",
+   "rtb": 2
+  },
+  "routes": {
+   "oral": true,
+   "parenteral": false,
+   "topical": false
+  }
+ },
+ "CHEMBL1568698": {
+  "drug_id": "CHEMBL1568698",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 0,
+  "measured_adme": {
+   "F (%)": {
+    "median": 10.0,
+    "n": 1
+   }
+  },
+  "measured_affinity_to_mechanism_targets": {
+   "CHEMBL2093872": {
+    "median_pactivity": 6.74,
+    "n": 2
+   }
+  },
+  "molecule_type": "Small molecule",
+  "name": "GANAXOLONE",
+  "properties": {
+   "alogp": "4.99",
+   "aromatic_rings": 0,
+   "full_mwt": "332.53",
+   "hba": 2,
+   "hbd": 1,
+   "heavy_atoms": 24,
+   "num_ro5_violations": 0,
+   "psa": "37.30",
+   "qed_weighted": "0.73",
+   "rtb": 1
+  },
+  "routes": {
+   "oral": true,
+   "parenteral": false,
+   "topical": false
+  }
+ },
+ "CHEMBL1697737": {
+  "drug_id": "CHEMBL1697737",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 0,
+  "measured_adme": {},
+  "measured_affinity_to_mechanism_targets": {},
+  "molecule_type": "Small molecule",
+  "name": "CLOTIAZEPAM",
+  "properties": {
+   "alogp": "3.78",
+   "aromatic_rings": 2,
+   "full_mwt": "318.83",
+   "hba": 3,
+   "hbd": 0,
+   "heavy_atoms": 21,
+   "num_ro5_violations": 0,
+   "psa": "32.67",
+   "qed_weighted": "0.83",
+   "rtb": 2
+  },
+  "routes": {
+   "oral": false,
+   "parenteral": false,
+   "topical": false
+  }
+ },
+ "CHEMBL1742994": {
+  "drug_id": "CHEMBL1742994",
+  "has_small_molecule_properties": false,
+  "lipinski_violations": null,
+  "measured_adme": {},
+  "measured_affinity_to_mechanism_targets": {},
+  "molecule_type": "Antibody drug conjugate",
+  "name": "BRENTUXIMAB VEDOTIN",
+  "properties": {},
+  "routes": {
+   "oral": false,
+   "parenteral": true,
+   "topical": false
+  }
+ },
+ "CHEMBL1743082": {
+  "drug_id": "CHEMBL1743082",
+  "has_small_molecule_properties": false,
+  "lipinski_violations": null,
+  "measured_adme": {},
+  "measured_affinity_to_mechanism_targets": {},
+  "molecule_type": "Antibody drug conjugate",
+  "name": "TRASTUZUMAB EMTANSINE",
+  "properties": {},
+  "routes": {
+   "oral": false,
+   "parenteral": true,
+   "topical": false
+  }
+ },
+ "CHEMBL1770916": {
+  "drug_id": "CHEMBL1770916",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 0,
+  "measured_adme": {
+   "F (%)": {
+    "median": 19.0,
+    "n": 1
+   }
+  },
+  "measured_affinity_to_mechanism_targets": {
+   "CHEMBL2094135": {
+    "median_pactivity": 8.21,
+    "n": 7
+   }
+  },
+  "molecule_type": "Small molecule",
+  "name": "NIROGACESTAT",
+  "properties": {
+   "alogp": "4.79",
+   "aromatic_rings": 2,
+   "full_mwt": "489.66",
+   "hba": 5,
+   "hbd": 3,
+   "heavy_atoms": 35,
+   "num_ro5_violations": 0,
+   "psa": "70.98",
+   "qed_weighted": "0.45",
+   "rtb": 10
+  },
+  "routes": {
+   "oral": true,
+   "parenteral": false,
+   "topical": false
+  }
+ },
+ "CHEMBL207538": {
+  "drug_id": "CHEMBL207538",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 0,
+  "measured_adme": {
+   "F (%)": {
+    "median": 2.15,
+    "n": 2
+   }
+  },
+  "measured_affinity_to_mechanism_targets": {
+   "CHEMBL2093872": {
+    "median_pactivity": 7.66,
+    "n": 1
+   }
+  },
+  "molecule_type": "Small molecule",
+  "name": "BREXANOLONE",
+  "properties": {
+   "alogp": "4.60",
+   "aromatic_rings": 0,
+   "full_mwt": "318.50",
+   "hba": 2,
+   "hbd": 1,
+   "heavy_atoms": 23,
+   "num_ro5_violations": 0,
+   "psa": "37.30",
+   "qed_weighted": "0.77",
+   "rtb": 1
+  },
+  "routes": {
+   "oral": false,
+   "parenteral": true,
+   "topical": false
+  }
+ },
+ "CHEMBL2103875": {
+  "drug_id": "CHEMBL2103875",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 1,
+  "measured_adme": {
+   "F (%)": {
+    "median": 30.0,
+    "n": 1
+   },
+   "T1/2 (hr)": {
+    "median": 30.0,
+    "n": 3
+   }
+  },
+  "measured_affinity_to_mechanism_targets": {
+   "CHEMBL2111289": {
+    "median_pactivity": 6.91,
+    "n": 8
+   }
+  },
+  "molecule_type": "Small molecule",
+  "name": "TRAMETINIB",
+  "properties": {
+   "alogp": "3.94",
+   "aromatic_rings": 4,
+   "full_mwt": "615.40",
+   "hba": 8,
+   "hbd": 2,
+   "heavy_atoms": 37,
+   "num_ro5_violations": 1,
+   "psa": "107.13",
+   "qed_weighted": "0.33",
+   "rtb": 5
+  },
+  "routes": {
+   "oral": true,
+   "parenteral": false,
+   "topical": false
+  }
+ },
+ "CHEMBL2105755": {
+  "drug_id": "CHEMBL2105755",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 1,
+  "measured_adme": {
+   "F (%)": {
+    "median": 29.0,
+    "n": 1
+   }
+  },
+  "measured_affinity_to_mechanism_targets": {
+   "CHEMBL233": {
+    "median_pactivity": 8.5,
+    "n": 3
+   }
+  },
+  "molecule_type": "Small molecule",
+  "name": "NALDEMEDINE",
+  "properties": {
+   "alogp": "3.48",
+   "aromatic_rings": 3,
+   "full_mwt": "570.65",
+   "hba": 9,
+   "hbd": 4,
+   "heavy_atoms": 42,
+   "num_ro5_violations": 1,
+   "psa": "141.18",
+   "qed_weighted": "0.35",
+   "rtb": 6
+  },
+  "routes": {
+   "oral": true,
+   "parenteral": false,
+   "topical": false
+  }
+ },
+ "CHEMBL2110725": {
+  "drug_id": "CHEMBL2110725",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 3,
+  "measured_adme": {},
+  "measured_affinity_to_mechanism_targets": {},
+  "molecule_type": "Small molecule",
+  "name": "VINFLUNINE",
+  "properties": {
+   "alogp": "5.08",
+   "aromatic_rings": 3,
+   "full_mwt": "816.94",
+   "hba": 11,
+   "hbd": 2,
+   "heavy_atoms": 59,
+   "num_ro5_violations": 3,
+   "psa": "133.87",
+   "qed_weighted": "0.19",
+   "rtb": 7
+  },
+  "routes": {
+   "oral": false,
+   "parenteral": false,
+   "topical": false
+  }
+ },
+ "CHEMBL2403108": {
+  "drug_id": "CHEMBL2403108",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 2,
+  "measured_adme": {
+   "F (%)": {
+    "median": 56.0,
+    "n": 5
+   },
+   "Fu (no unit)": {
+    "median": 0.028,
+    "n": 1
+   },
+   "T1/2 (hr)": {
+    "median": 9.7,
+    "n": 6
+   }
+  },
+  "measured_affinity_to_mechanism_targets": {
+   "CHEMBL2111387": {
+    "median_pactivity": 7.59,
+    "n": 1
+   },
+   "CHEMBL3883330": {
+    "median_pactivity": 6.95,
+    "n": 30
+   },
+   "CHEMBL4247": {
+    "median_pactivity": 8.12,
+    "n": 89
+   }
+  },
+  "molecule_type": "Small molecule",
+  "name": "CERITINIB",
+  "properties": {
+   "alogp": "6.36",
+   "aromatic_rings": 3,
+   "full_mwt": "558.15",
+   "hba": 8,
+   "hbd": 3,
+   "heavy_atoms": 38,
+   "num_ro5_violations": 2,
+   "psa": "105.24",
+   "qed_weighted": "0.28",
+   "rtb": 9
+  },
+  "routes": {
+   "oral": true,
+   "parenteral": false,
+   "topical": false
+  }
+ },
+ "CHEMBL270190": {
+  "drug_id": "CHEMBL270190",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 0,
+  "measured_adme": {
+   "T1/2 (hr)": {
+    "median": 1.5,
+    "n": 3
+   }
+  },
+  "measured_affinity_to_mechanism_targets": {
+   "CHEMBL233": {
+    "median_pactivity": 8.94,
+    "n": 6
+   }
+  },
+  "molecule_type": "Small molecule",
+  "name": "ALVIMOPAN",
+  "properties": {
+   "alogp": "3.05",
+   "aromatic_rings": 2,
+   "full_mwt": "424.54",
+   "hba": 4,
+   "hbd": 3,
+   "heavy_atoms": 31,
+   "num_ro5_violations": 0,
+   "psa": "89.87",
+   "qed_weighted": "0.61",
+   "rtb": 8
+  },
+  "routes": {
+   "oral": true,
+   "parenteral": false,
+   "topical": false
+  }
+ },
+ "CHEMBL285674": {
+  "drug_id": "CHEMBL285674",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 0,
+  "measured_adme": {
+   "T1/2 (hr)": {
+    "median": 10.0,
+    "n": 1
+   }
+  },
+  "measured_affinity_to_mechanism_targets": {},
+  "molecule_type": "Small molecule",
+  "name": "ESTAZOLAM",
+  "properties": {
+   "alogp": "3.27",
+   "aromatic_rings": 3,
+   "full_mwt": "294.75",
+   "hba": 4,
+   "hbd": 0,
+   "heavy_atoms": 21,
+   "num_ro5_violations": 0,
+   "psa": "43.07",
+   "qed_weighted": "0.69",
+   "rtb": 1
+  },
+  "routes": {
+   "oral": true,
+   "parenteral": false,
+   "topical": false
+  }
+ },
+ "CHEMBL315795": {
+  "drug_id": "CHEMBL315795",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 0,
+  "measured_adme": {
+   "F (%)": {
+    "median": 20.0,
+    "n": 1
+   },
+   "Fu (no unit)": {
+    "median": 0.36,
+    "n": 1
+   },
+   "T1/2 (hr)": {
+    "median": 4.5,
+    "n": 1
+   }
+  },
+  "measured_affinity_to_mechanism_targets": {},
+  "molecule_type": "Small molecule",
+  "name": "CLOMETHIAZOLE",
+  "properties": {
+   "alogp": "2.23",
+   "aromatic_rings": 1,
+   "full_mwt": "161.66",
+   "hba": 2,
+   "hbd": 0,
+   "heavy_atoms": 9,
+   "num_ro5_violations": 0,
+   "psa": "12.89",
+   "qed_weighted": "0.61",
+   "rtb": 2
+  },
+  "routes": {
+   "oral": false,
+   "parenteral": false,
+   "topical": false
+  }
+ },
+ "CHEMBL3187723": {
+  "drug_id": "CHEMBL3187723",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 0,
+  "measured_adme": {},
+  "measured_affinity_to_mechanism_targets": {
+   "CHEMBL2964": {
+    "median_pactivity": 7.44,
+    "n": 1
+   },
+   "CHEMBL3587": {
+    "median_pactivity": 7.63,
+    "n": 2
+   }
+  },
+  "molecule_type": "Small molecule",
+  "name": "BINIMETINIB",
+  "properties": {
+   "alogp": "3.01",
+   "aromatic_rings": 3,
+   "full_mwt": "441.23",
+   "hba": 6,
+   "hbd": 3,
+   "heavy_atoms": 27,
+   "num_ro5_violations": 0,
+   "psa": "88.41",
+   "qed_weighted": "0.40",
+   "rtb": 6
+  },
+  "routes": {
+   "oral": true,
+   "parenteral": false,
+   "topical": false
+  }
+ },
+ "CHEMBL325041": {
+  "drug_id": "CHEMBL325041",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": null,
+  "measured_adme": {
+   "F (%)": {
+    "median": 28.5,
+    "n": 2
+   },
+   "Fu (no unit)": {
+    "median": 0.17,
+    "n": 1
+   },
+   "T1/2 (hr)": {
+    "median": 2.0,
+    "n": 12
+   }
+  },
+  "measured_affinity_to_mechanism_targets": {
+   "CHEMBL2364701": {
+    "median_pactivity": 8.15,
+    "n": 6
+   }
+  },
+  "molecule_type": "Small molecule",
+  "name": "BORTEZOMIB",
+  "properties": {
+   "full_mwt": "384.25"
+  },
+  "routes": {
+   "oral": false,
+   "parenteral": false,
+   "topical": false
+  }
+ },
+ "CHEMBL3286830": {
+  "drug_id": "CHEMBL3286830",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 0,
+  "measured_adme": {
+   "F (%)": {
+    "median": 100.0,
+    "n": 3
+   },
+   "Fu (no unit)": {
+    "median": 0.24,
+    "n": 2
+   },
+   "Papp (ucm/s)": {
+    "median": 23.65,
+    "n": 2
+   },
+   "T1/2 (hr)": {
+    "median": 13.85,
+    "n": 2
+   }
+  },
+  "measured_affinity_to_mechanism_targets": {
+   "CHEMBL3883330": {
+    "median_pactivity": 7.93,
+    "n": 10
+   },
+   "CHEMBL4247": {
+    "median_pactivity": 8.26,
+    "n": 34
+   }
+  },
+  "molecule_type": "Small molecule",
+  "name": "LORLATINIB",
+  "properties": {
+   "alogp": "2.80",
+   "aromatic_rings": 3,
+   "full_mwt": "406.42",
+   "hba": 7,
+   "hbd": 1,
+   "heavy_atoms": 30,
+   "num_ro5_violations": 0,
+   "psa": "110.06",
+   "qed_weighted": "0.61",
+   "rtb": 0
+  },
+  "routes": {
+   "oral": true,
+   "parenteral": false,
+   "topical": false
+  }
+ },
+ "CHEMBL3301582": {
+  "drug_id": "CHEMBL3301582",
+  "has_small_molecule_properties": false,
+  "lipinski_violations": null,
+  "measured_adme": {},
+  "measured_affinity_to_mechanism_targets": {},
+  "molecule_type": "Antibody drug conjugate",
+  "name": "POLATUZUMAB VEDOTIN",
+  "properties": {},
+  "routes": {
+   "oral": false,
+   "parenteral": true,
+   "topical": false
+  }
+ },
+ "CHEMBL3301589": {
+  "drug_id": "CHEMBL3301589",
+  "has_small_molecule_properties": false,
+  "lipinski_violations": null,
+  "measured_adme": {},
+  "measured_affinity_to_mechanism_targets": {},
+  "molecule_type": "Antibody drug conjugate",
+  "name": "ENFORTUMAB VEDOTIN",
+  "properties": {},
+  "routes": {
+   "oral": false,
+   "parenteral": true,
+   "topical": false
+  }
+ },
+ "CHEMBL344159": {
+  "drug_id": "CHEMBL344159",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 1,
+  "measured_adme": {
+   "Papp (10^-6 cm/s)": {
+    "median": 46.7,
+    "n": 1
+   },
+   "T1/2 (hr)": {
+    "median": 3.165,
+    "n": 2
+   }
+  },
+  "measured_affinity_to_mechanism_targets": {
+   "CHEMBL1790": {
+    "median_pactivity": 8.88,
+    "n": 8
+   }
+  },
+  "molecule_type": "Small molecule",
+  "name": "TOLVAPTAN",
+  "properties": {
+   "alogp": "5.68",
+   "aromatic_rings": 3,
+   "full_mwt": "448.95",
+   "hba": 3,
+   "hbd": 2,
+   "heavy_atoms": 32,
+   "num_ro5_violations": 1,
+   "psa": "69.64",
+   "qed_weighted": "0.54",
+   "rtb": 3
+  },
+  "routes": {
+   "oral": true,
+   "parenteral": false,
+   "topical": false
+  }
+ },
+ "CHEMBL3545132": {
+  "drug_id": "CHEMBL3545132",
+  "has_small_molecule_properties": false,
+  "lipinski_violations": null,
+  "measured_adme": {},
+  "measured_affinity_to_mechanism_targets": {},
+  "molecule_type": "Antibody drug conjugate",
+  "name": "MIRVETUXIMAB SORAVTANSINE",
+  "properties": {},
+  "routes": {
+   "oral": false,
+   "parenteral": true,
+   "topical": false
+  }
+ },
+ "CHEMBL3545185": {
+  "drug_id": "CHEMBL3545185",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 0,
+  "measured_adme": {},
+  "measured_affinity_to_mechanism_targets": {
+   "CHEMBL5661": {
+    "median_pactivity": 7.6,
+    "n": 4
+   }
+  },
+  "molecule_type": "Small molecule",
+  "name": "SELINEXOR",
+  "properties": {
+   "alogp": "3.39",
+   "aromatic_rings": 3,
+   "full_mwt": "443.31",
+   "hba": 7,
+   "hbd": 2,
+   "heavy_atoms": 31,
+   "num_ro5_violations": 0,
+   "psa": "97.62",
+   "qed_weighted": "0.36",
+   "rtb": 5
+  },
+  "routes": {
+   "oral": true,
+   "parenteral": false,
+   "topical": false
+  }
+ },
+ "CHEMBL3545432": {
+  "drug_id": "CHEMBL3545432",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": null,
+  "measured_adme": {},
+  "measured_affinity_to_mechanism_targets": {},
+  "molecule_type": "Small molecule",
+  "name": "IXAZOMIB CITRATE",
+  "properties": {
+   "full_mwt": "517.13"
+  },
+  "routes": {
+   "oral": true,
+   "parenteral": false,
+   "topical": false
+  }
+ },
+ "CHEMBL3990044": {
+  "drug_id": "CHEMBL3990044",
+  "has_small_molecule_properties": false,
+  "lipinski_violations": null,
+  "measured_adme": {},
+  "measured_affinity_to_mechanism_targets": {},
+  "molecule_type": "Antibody",
+  "name": "RELATLIMAB",
+  "properties": {},
+  "routes": {
+   "oral": false,
+   "parenteral": true,
+   "topical": false
+  }
+ },
+ "CHEMBL407": {
+  "drug_id": "CHEMBL407",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 0,
+  "measured_adme": {
+   "F (%)": {
+    "median": 20.0,
+    "n": 1
+   },
+   "Fu (no unit)": {
+    "median": 0.58,
+    "n": 3
+   },
+   "T1/2 (hr)": {
+    "median": 0.69,
+    "n": 2
+   }
+  },
+  "measured_affinity_to_mechanism_targets": {
+   "CHEMBL2093872": {
+    "median_pactivity": 9.05,
+    "n": 2
+   }
+  },
+  "molecule_type": "Small molecule",
+  "name": "FLUMAZENIL",
+  "properties": {
+   "alogp": "1.77",
+   "aromatic_rings": 2,
+   "full_mwt": "303.29",
+   "hba": 5,
+   "hbd": 0,
+   "heavy_atoms": 22,
+   "num_ro5_violations": 0,
+   "psa": "64.43",
+   "qed_weighted": "0.79",
+   "rtb": 2
+  },
+  "routes": {
+   "oral": false,
+   "parenteral": true,
+   "topical": false
+  }
+ },
+ "CHEMBL4105630": {
+  "drug_id": "CHEMBL4105630",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 0,
+  "measured_adme": {
+   "F (%)": {
+    "median": 59.85,
+    "n": 4
+   },
+   "T1/2 (hr)": {
+    "median": 3.125,
+    "n": 2
+   }
+  },
+  "measured_affinity_to_mechanism_targets": {},
+  "molecule_type": "Small molecule",
+  "name": "ZURANOLONE",
+  "properties": {
+   "alogp": "4.34",
+   "aromatic_rings": 1,
+   "full_mwt": "409.57",
+   "hba": 5,
+   "hbd": 1,
+   "heavy_atoms": 30,
+   "num_ro5_violations": 0,
+   "psa": "78.91",
+   "qed_weighted": "0.81",
+   "rtb": 3
+  },
+  "routes": {
+   "oral": true,
+   "parenteral": false,
+   "topical": false
+  }
+ },
+ "CHEMBL426084": {
+  "drug_id": "CHEMBL426084",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 0,
+  "measured_adme": {},
+  "measured_affinity_to_mechanism_targets": {
+   "CHEMBL233": {
+    "median_pactivity": 10.28,
+    "n": 1
+   }
+  },
+  "molecule_type": "Small molecule",
+  "name": "SAMIDORPHAN",
+  "properties": {
+   "alogp": "1.25",
+   "aromatic_rings": 1,
+   "full_mwt": "370.45",
+   "hba": 5,
+   "hbd": 3,
+   "heavy_atoms": 27,
+   "num_ro5_violations": 0,
+   "psa": "103.86",
+   "qed_weighted": "0.74",
+   "rtb": 3
+  },
+  "routes": {
+   "oral": true,
+   "parenteral": false,
+   "topical": false
+  }
+ },
+ "CHEMBL428647": {
+  "drug_id": "CHEMBL428647",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 2,
+  "measured_adme": {
+   "F (%)": {
+    "median": 41.3,
+    "n": 15
+   },
+   "Fu (no unit)": {
+    "median": 0.04,
+    "n": 6
+   },
+   "Papp (10'-5 cm/s)": {
+    "median": 28.45,
+    "n": 2
+   },
+   "Papp (10^-6 cm/s)": {
+    "median": 2.46,
+    "n": 14
+   },
+   "Papp (nm/s)": {
+    "median": 68.125,
+    "n": 2
+   },
+   "Papp (ucm/s)": {
+    "median": 3.27,
+    "n": 20
+   },
+   "Solubility (ug.mL-1)": {
+    "median": 0.3,
+    "n": 1
+   },
+   "T1/2 (hr)": {
+    "median": 5.3,
+    "n": 25
+   }
+  },
+  "measured_affinity_to_mechanism_targets": {
+   "CHEMBL2095182": {
+    "median_pactivity": 6.71,
+    "n": 2
+   }
+  },
+  "molecule_type": "Small molecule",
+  "name": "PACLITAXEL",
+  "properties": {
+   "alogp": "3.74",
+   "aromatic_rings": 3,
+   "full_mwt": "853.92",
+   "hba": 14,
+   "hbd": 4,
+   "heavy_atoms": 62,
+   "num_ro5_violations": 2,
+   "psa": "221.29",
+   "qed_weighted": "0.13",
+   "rtb": 10
+  },
+  "routes": {
+   "oral": false,
+   "parenteral": true,
+   "topical": false
+  }
+ },
+ "CHEMBL4297841": {
+  "drug_id": "CHEMBL4297841",
+  "has_small_molecule_properties": false,
+  "lipinski_violations": null,
+  "measured_adme": {},
+  "measured_affinity_to_mechanism_targets": {},
+  "molecule_type": "Antibody drug conjugate",
+  "name": "TISOTUMAB VEDOTIN",
+  "properties": {},
+  "routes": {
+   "oral": false,
+   "parenteral": true,
+   "topical": false
+  }
+ },
+ "CHEMBL450": {
+  "drug_id": "CHEMBL450",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 0,
+  "measured_adme": {},
+  "measured_affinity_to_mechanism_targets": {},
+  "molecule_type": "Small molecule",
+  "name": "METHARBITAL",
+  "properties": {
+   "alogp": "0.50",
+   "aromatic_rings": 0,
+   "full_mwt": "198.22",
+   "hba": 3,
+   "hbd": 1,
+   "heavy_atoms": 14,
+   "num_ro5_violations": 0,
+   "psa": "66.48",
+   "qed_weighted": "0.66",
+   "rtb": 2
+  },
+  "routes": {
+   "oral": true,
+   "parenteral": false,
+   "topical": false
+  }
+ },
+ "CHEMBL451": {
+  "drug_id": "CHEMBL451",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 0,
+  "measured_adme": {
+   "F (%)": {
+    "median": 80.0,
+    "n": 1
+   },
+   "Fu (no unit)": {
+    "median": 0.056,
+    "n": 3
+   },
+   "T1/2 (hr)": {
+    "median": 8.3,
+    "n": 1
+   }
+  },
+  "measured_affinity_to_mechanism_targets": {},
+  "molecule_type": "Small molecule",
+  "name": "CHLORDIAZEPOXIDE",
+  "properties": {
+   "alogp": "2.95",
+   "aromatic_rings": 2,
+   "full_mwt": "299.76",
+   "hba": 3,
+   "hbd": 1,
+   "heavy_atoms": 21,
+   "num_ro5_violations": 0,
+   "psa": "50.46",
+   "qed_weighted": "0.65",
+   "rtb": 1
+  },
+  "routes": {
+   "oral": true,
+   "parenteral": true,
+   "topical": false
+  }
+ },
+ "CHEMBL451887": {
+  "drug_id": "CHEMBL451887",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 1,
+  "measured_adme": {
+   "Papp (10^-6 cm/s)": {
+    "median": 2.859,
+    "n": 2
+   },
+   "T1/2 (hr)": {
+    "median": 0.0833,
+    "n": 13
+   }
+  },
+  "measured_affinity_to_mechanism_targets": {
+   "CHEMBL2364701": {
+    "median_pactivity": 8.07,
+    "n": 1
+   }
+  },
+  "molecule_type": "Protein",
+  "name": "CARFILZOMIB",
+  "properties": {
+   "alogp": "2.58",
+   "aromatic_rings": 2,
+   "full_mwt": "719.92",
+   "hba": 8,
+   "hbd": 4,
+   "heavy_atoms": 52,
+   "num_ro5_violations": 1,
+   "psa": "158.47",
+   "qed_weighted": "0.15",
+   "rtb": 20
+  },
+  "routes": {
+   "oral": false,
+   "parenteral": true,
+   "topical": false
+  }
+ },
+ "CHEMBL452": {
+  "drug_id": "CHEMBL452",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 0,
+  "measured_adme": {
+   "F (%)": {
+    "median": 85.0,
+    "n": 2
+   },
+   "Fu (no unit)": {
+    "median": 0.15,
+    "n": 2
+   },
+   "T1/2 (hr)": {
+    "median": 38.0,
+    "n": 1
+   }
+  },
+  "measured_affinity_to_mechanism_targets": {
+   "CHEMBL2093872": {
+    "median_pactivity": 4.66,
+    "n": 2
+   }
+  },
+  "molecule_type": "Small molecule",
+  "name": "CLONAZEPAM",
+  "properties": {
+   "alogp": "3.04",
+   "aromatic_rings": 2,
+   "full_mwt": "315.72",
+   "hba": 4,
+   "hbd": 1,
+   "heavy_atoms": 22,
+   "num_ro5_violations": 0,
+   "psa": "84.60",
+   "qed_weighted": "0.68",
+   "rtb": 2
+  },
+  "routes": {
+   "oral": true,
+   "parenteral": false,
+   "topical": false
+  }
+ },
+ "CHEMBL454": {
+  "drug_id": "CHEMBL454",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 0,
+  "measured_adme": {},
+  "measured_affinity_to_mechanism_targets": {},
+  "molecule_type": "Small molecule",
+  "name": "BUTALBITAL",
+  "properties": {
+   "alogp": "0.96",
+   "aromatic_rings": 0,
+   "full_mwt": "224.26",
+   "hba": 3,
+   "hbd": 2,
+   "heavy_atoms": 16,
+   "num_ro5_violations": 0,
+   "psa": "75.27",
+   "qed_weighted": "0.55",
+   "rtb": 4
+  },
+  "routes": {
+   "oral": true,
+   "parenteral": false,
+   "topical": false
+  }
+ },
+ "CHEMBL4559134": {
+  "drug_id": "CHEMBL4559134",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 1,
+  "measured_adme": {},
+  "measured_affinity_to_mechanism_targets": {
+   "CHEMBL2041": {
+    "median_pactivity": 8.15,
+    "n": 30
+   }
+  },
+  "molecule_type": "Small molecule",
+  "name": "SELPERCATINIB",
+  "properties": {
+   "alogp": "3.28",
+   "aromatic_rings": 4,
+   "full_mwt": "525.61",
+   "hba": 10,
+   "hbd": 1,
+   "heavy_atoms": 39,
+   "num_ro5_violations": 1,
+   "psa": "112.04",
+   "qed_weighted": "0.37",
+   "rtb": 8
+  },
+  "routes": {
+   "oral": true,
+   "parenteral": false,
+   "topical": false
+  }
+ },
+ "CHEMBL4582651": {
+  "drug_id": "CHEMBL4582651",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 1,
+  "measured_adme": {
+   "F (%)": {
+    "median": 77.2,
+    "n": 1
+   }
+  },
+  "measured_affinity_to_mechanism_targets": {
+   "CHEMBL2041": {
+    "median_pactivity": 9.4,
+    "n": 15
+   },
+   "CHEMBL3430904": {
+    "median_pactivity": 8.38,
+    "n": 1
+   }
+  },
+  "molecule_type": "Small molecule",
+  "name": "PRALSETINIB",
+  "properties": {
+   "alogp": "4.20",
+   "aromatic_rings": 4,
+   "full_mwt": "533.61",
+   "hba": 9,
+   "hbd": 3,
+   "heavy_atoms": 39,
+   "num_ro5_violations": 1,
+   "psa": "135.53",
+   "qed_weighted": "0.31",
+   "rtb": 8
+  },
+  "routes": {
+   "oral": true,
+   "parenteral": false,
+   "topical": false
+  }
+ },
+ "CHEMBL500": {
+  "drug_id": "CHEMBL500",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 0,
+  "measured_adme": {
+   "F (%)": {
+    "median": 85.5,
+    "n": 2
+   },
+   "Fu (no unit)": {
+    "median": 0.58,
+    "n": 5
+   },
+   "Papp (10^-6 cm/s)": {
+    "median": 1.42,
+    "n": 1
+   },
+   "Papp (cm s-1)": {
+    "median": 36000000.0,
+    "n": 1
+   },
+   "Papp (cm/s * 10E6)": {
+    "median": 61.0,
+    "n": 4
+   },
+   "T1/2 (hr)": {
+    "median": 2.6,
+    "n": 2
+   }
+  },
+  "measured_affinity_to_mechanism_targets": {
+   "CHEMBL210": {
+    "median_pactivity": 9.27,
+    "n": 8
+   },
+   "CHEMBL213": {
+    "median_pactivity": 9.04,
+    "n": 5
+   }
+  },
+  "molecule_type": "Small molecule",
+  "name": "PINDOLOL",
+  "properties": {
+   "alogp": "1.91",
+   "aromatic_rings": 2,
+   "full_mwt": "248.33",
+   "hba": 3,
+   "hbd": 3,
+   "heavy_atoms": 18,
+   "num_ro5_violations": 0,
+   "psa": "57.28",
+   "qed_weighted": "0.73",
+   "rtb": 6
+  },
+  "routes": {
+   "oral": true,
+   "parenteral": false,
+   "topical": false
+  }
+ },
+ "CHEMBL511142": {
+  "drug_id": "CHEMBL511142",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 0,
+  "measured_adme": {
+   "Fu (no unit)": {
+    "median": 0.04,
+    "n": 1
+   },
+   "T1/2 (hr)": {
+    "median": 3.2,
+    "n": 1
+   }
+  },
+  "measured_affinity_to_mechanism_targets": {
+   "CHEMBL233": {
+    "median_pactivity": 9.35,
+    "n": 30
+   },
+   "CHEMBL237": {
+    "median_pactivity": 9.23,
+    "n": 16
+   }
+  },
+  "molecule_type": "Small molecule",
+  "name": "BUPRENORPHINE",
+  "properties": {
+   "alogp": "4.41",
+   "aromatic_rings": 1,
+   "full_mwt": "467.65",
+   "hba": 5,
+   "hbd": 2,
+   "heavy_atoms": 34,
+   "num_ro5_violations": 0,
+   "psa": "62.16",
+   "qed_weighted": "0.69",
+   "rtb": 4
+  },
+  "routes": {
+   "oral": false,
+   "parenteral": true,
+   "topical": true
+  }
+ },
+ "CHEMBL521606": {
+  "drug_id": "CHEMBL521606",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 0,
+  "measured_adme": {
+   "F (%)": {
+    "median": 39.5,
+    "n": 2
+   },
+   "Fu (no unit)": {
+    "median": 0.7,
+    "n": 5
+   },
+   "Papp (10'-8cm/s)": {
+    "median": 9.0,
+    "n": 1
+   },
+   "Papp (10^-6 cm/s)": {
+    "median": 0.0995,
+    "n": 6
+   },
+   "Papp (cm/s * 10E6)": {
+    "median": 7.14,
+    "n": 4
+   },
+   "Papp (ucm/s)": {
+    "median": 0.09,
+    "n": 1
+   },
+   "T1/2 (hr)": {
+    "median": 9.2,
+    "n": 1
+   }
+  },
+  "measured_affinity_to_mechanism_targets": {
+   "CHEMBL210": {
+    "median_pactivity": 8.02,
+    "n": 2
+   }
+  },
+  "molecule_type": "Small molecule",
+  "name": "NADOLOL",
+  "properties": {
+   "alogp": "0.63",
+   "aromatic_rings": 1,
+   "full_mwt": "309.41",
+   "hba": 5,
+   "hbd": 4,
+   "heavy_atoms": 22,
+   "num_ro5_violations": 0,
+   "psa": "81.95",
+   "qed_weighted": "0.64",
+   "rtb": 5
+  },
+  "routes": {
+   "oral": true,
+   "parenteral": false,
+   "topical": false
+  }
+ },
+ "CHEMBL526": {
+  "drug_id": "CHEMBL526",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 0,
+  "measured_adme": {
+   "F (%)": {
+    "median": 7.3,
+    "n": 1
+   },
+   "Fu (no unit)": {
+    "median": 0.25,
+    "n": 7
+   },
+   "T1/2 (hr)": {
+    "median": 0.7,
+    "n": 6
+   }
+  },
+  "measured_affinity_to_mechanism_targets": {},
+  "molecule_type": "Small molecule",
+  "name": "PROPOFOL",
+  "properties": {
+   "alogp": "3.64",
+   "aromatic_rings": 1,
+   "full_mwt": "178.27",
+   "hba": 1,
+   "hbd": 1,
+   "heavy_atoms": 13,
+   "num_ro5_violations": 0,
+   "psa": "20.23",
+   "qed_weighted": "0.73",
+   "rtb": 2
+  },
+  "routes": {
+   "oral": false,
+   "parenteral": true,
+   "topical": false
+  }
+ },
+ "CHEMBL5314379": {
+  "drug_id": "CHEMBL5314379",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": null,
+  "measured_adme": {},
+  "measured_affinity_to_mechanism_targets": {},
+  "molecule_type": "Protein",
+  "name": "VOCLOSPORIN",
+  "properties": {
+   "full_mwt": "1214.65"
+  },
+  "routes": {
+   "oral": true,
+   "parenteral": false,
+   "topical": false
+  }
+ },
+ "CHEMBL548": {
+  "drug_id": "CHEMBL548",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 0,
+  "measured_adme": {},
+  "measured_affinity_to_mechanism_targets": {},
+  "molecule_type": "Small molecule",
+  "name": "DINOPROSTONE",
+  "properties": {
+   "alogp": "3.25",
+   "aromatic_rings": 0,
+   "full_mwt": "352.47",
+   "hba": 4,
+   "hbd": 3,
+   "heavy_atoms": 25,
+   "num_ro5_violations": 0,
+   "psa": "94.83",
+   "qed_weighted": "0.37",
+   "rtb": 12
+  },
+  "routes": {
+   "oral": false,
+   "parenteral": true,
+   "topical": true
+  }
+ },
+ "CHEMBL568": {
+  "drug_id": "CHEMBL568",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 0,
+  "measured_adme": {
+   "Clearance (ul min-1)": {
+    "median": 1.2,
+    "n": 3
+   },
+   "F (%)": {
+    "median": 88.5,
+    "n": 2
+   },
+   "Fu (no unit)": {
+    "median": 0.059,
+    "n": 7
+   },
+   "Papp (cm s-1)": {
+    "median": 91000000.0,
+    "n": 1
+   },
+   "Papp (no unit)": {
+    "median": 4.09,
+    "n": 1
+   },
+   "T1/2 (hr)": {
+    "median": 10.7,
+    "n": 3
+   }
+  },
+  "measured_affinity_to_mechanism_targets": {},
+  "molecule_type": "Small molecule",
+  "name": "OXAZEPAM",
+  "properties": {
+   "alogp": "2.45",
+   "aromatic_rings": 2,
+   "full_mwt": "286.72",
+   "hba": 3,
+   "hbd": 2,
+   "heavy_atoms": 20,
+   "num_ro5_violations": 0,
+   "psa": "61.69",
+   "qed_weighted": "0.85",
+   "rtb": 1
+  },
+  "routes": {
+   "oral": true,
+   "parenteral": false,
+   "topical": false
+  }
+ },
+ "CHEMBL571546": {
+  "drug_id": "CHEMBL571546",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 0,
+  "measured_adme": {
+   "F (%)": {
+    "median": 41.96,
+    "n": 2
+   },
+   "T1/2 (hr)": {
+    "median": 2.2,
+    "n": 7
+   }
+  },
+  "measured_affinity_to_mechanism_targets": {
+   "CHEMBL267": {
+    "median_pactivity": 7.7,
+    "n": 5
+   }
+  },
+  "molecule_type": "Small molecule",
+  "name": "TIRBANIBULIN",
+  "properties": {
+   "alogp": "3.32",
+   "aromatic_rings": 3,
+   "full_mwt": "431.54",
+   "hba": 5,
+   "hbd": 1,
+   "heavy_atoms": 32,
+   "num_ro5_violations": 0,
+   "psa": "63.69",
+   "qed_weighted": "0.56",
+   "rtb": 9
+  },
+  "routes": {
+   "oral": false,
+   "parenteral": false,
+   "topical": true
+  }
+ },
+ "CHEMBL580": {
+  "drug_id": "CHEMBL580",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 0,
+  "measured_adme": {
+   "Clearance (ul min-1)": {
+    "median": 3.8,
+    "n": 3
+   },
+   "F (%)": {
+    "median": 80.0,
+    "n": 1
+   },
+   "Fu (no unit)": {
+    "median": 0.09,
+    "n": 10
+   },
+   "T1/2 (hr)": {
+    "median": 14.7,
+    "n": 2
+   }
+  },
+  "measured_affinity_to_mechanism_targets": {},
+  "molecule_type": "Small molecule",
+  "name": "LORAZEPAM",
+  "properties": {
+   "alogp": "3.10",
+   "aromatic_rings": 2,
+   "full_mwt": "321.16",
+   "hba": 3,
+   "hbd": 2,
+   "heavy_atoms": 21,
+   "num_ro5_violations": 0,
+   "psa": "61.69",
+   "qed_weighted": "0.85",
+   "rtb": 1
+  },
+  "routes": {
+   "oral": true,
+   "parenteral": true,
+   "topical": false
+  }
+ },
+ "CHEMBL591": {
+  "drug_id": "CHEMBL591",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 0,
+  "measured_adme": {},
+  "measured_affinity_to_mechanism_targets": {},
+  "molecule_type": "Small molecule",
+  "name": "ETHCHLORVYNOL",
+  "properties": {
+   "alogp": "1.51",
+   "aromatic_rings": 0,
+   "full_mwt": "144.60",
+   "hba": 1,
+   "hbd": 1,
+   "heavy_atoms": 9,
+   "num_ro5_violations": 0,
+   "psa": "20.23",
+   "qed_weighted": "0.58",
+   "rtb": 2
+  },
+  "routes": {
+   "oral": true,
+   "parenteral": false,
+   "topical": false
+  }
+ },
+ "CHEMBL601719": {
+  "drug_id": "CHEMBL601719",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 1,
+  "measured_adme": {
+   "Fu (no unit)": {
+    "median": 0.03,
+    "n": 3
+   },
+   "Papp (10^-6 cm/s)": {
+    "median": 16.2,
+    "n": 1
+   },
+   "Papp (ucm/s)": {
+    "median": 0.8,
+    "n": 3
+   },
+   "T1/2 (hr)": {
+    "median": 0.7769,
+    "n": 2
+   }
+  },
+  "measured_affinity_to_mechanism_targets": {
+   "CHEMBL2111387": {
+    "median_pactivity": 8.0,
+    "n": 2
+   },
+   "CHEMBL2689": {
+    "median_pactivity": 7.34,
+    "n": 6
+   },
+   "CHEMBL3717": {
+    "median_pactivity": 8.19,
+    "n": 64
+   },
+   "CHEMBL3883330": {
+    "median_pactivity": 6.36,
+    "n": 40
+   },
+   "CHEMBL4247": {
+    "median_pactivity": 7.37,
+    "n": 130
+   },
+   "CHEMBL5568": {
+    "median_pactivity": 8.19,
+    "n": 21
+   }
+  },
+  "molecule_type": "Small molecule",
+  "name": "CRIZOTINIB",
+  "properties": {
+   "alogp": "5.04",
+   "aromatic_rings": 3,
+   "full_mwt": "450.35",
+   "hba": 6,
+   "hbd": 2,
+   "heavy_atoms": 30,
+   "num_ro5_violations": 1,
+   "psa": "77.99",
+   "qed_weighted": "0.53",
+   "rtb": 5
+  },
+  "routes": {
+   "oral": true,
+   "parenteral": false,
+   "topical": false
+  }
+ },
+ "CHEMBL655": {
+  "drug_id": "CHEMBL655",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 0,
+  "measured_adme": {
+   "Clearance (ul min-1)": {
+    "median": 10.6,
+    "n": 2
+   },
+   "F (%)": {
+    "median": 44.75,
+    "n": 2
+   },
+   "Fu (no unit)": {
+    "median": 0.03,
+    "n": 12
+   },
+   "Papp (nm/s)": {
+    "median": 632.5,
+    "n": 2
+   },
+   "T1/2 (hr)": {
+    "median": 0.095,
+    "n": 59
+   }
+  },
+  "measured_affinity_to_mechanism_targets": {},
+  "molecule_type": "Small molecule",
+  "name": "MIDAZOLAM",
+  "properties": {
+   "alogp": "4.32",
+   "aromatic_rings": 3,
+   "full_mwt": "325.77",
+   "hba": 3,
+   "hbd": 0,
+   "heavy_atoms": 23,
+   "num_ro5_violations": 0,
+   "psa": "30.18",
+   "qed_weighted": "0.65",
+   "rtb": 1
+  },
+  "routes": {
+   "oral": true,
+   "parenteral": true,
+   "topical": true
+  }
+ },
+ "CHEMBL661": {
+  "drug_id": "CHEMBL661",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 0,
+  "measured_adme": {
+   "F (%)": {
+    "median": 49.0,
+    "n": 1
+   },
+   "Fu (no unit)": {
+    "median": 0.29,
+    "n": 7
+   },
+   "T1/2 (hr)": {
+    "median": 11.2,
+    "n": 13
+   }
+  },
+  "measured_affinity_to_mechanism_targets": {},
+  "molecule_type": "Small molecule",
+  "name": "ALPRAZOLAM",
+  "properties": {
+   "alogp": "3.58",
+   "aromatic_rings": 3,
+   "full_mwt": "308.77",
+   "hba": 4,
+   "hbd": 0,
+   "heavy_atoms": 22,
+   "num_ro5_violations": 0,
+   "psa": "43.07",
+   "qed_weighted": "0.69",
+   "rtb": 1
+  },
+  "routes": {
+   "oral": true,
+   "parenteral": false,
+   "topical": false
+  }
+ },
+ "CHEMBL681": {
+  "drug_id": "CHEMBL681",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 0,
+  "measured_adme": {
+   "Fu (no unit)": {
+    "median": 0.23,
+    "n": 1
+   },
+   "T1/2 (hr)": {
+    "median": 3.5,
+    "n": 1
+   }
+  },
+  "measured_affinity_to_mechanism_targets": {},
+  "molecule_type": "Small molecule",
+  "name": "ETOMIDATE",
+  "properties": {
+   "alogp": "2.67",
+   "aromatic_rings": 2,
+   "full_mwt": "244.29",
+   "hba": 4,
+   "hbd": 0,
+   "heavy_atoms": 18,
+   "num_ro5_violations": 0,
+   "psa": "44.12",
+   "qed_weighted": "0.78",
+   "rtb": 4
+  },
+  "routes": {
+   "oral": false,
+   "parenteral": true,
+   "topical": false
+  }
+ },
+ "CHEMBL70418": {
+  "drug_id": "CHEMBL70418",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 0,
+  "measured_adme": {
+   "F (%)": {
+    "median": 80.0,
+    "n": 1
+   }
+  },
+  "measured_affinity_to_mechanism_targets": {},
+  "molecule_type": "Small molecule",
+  "name": "CLOBAZAM",
+  "properties": {
+   "alogp": "3.37",
+   "aromatic_rings": 2,
+   "full_mwt": "300.75",
+   "hba": 2,
+   "hbd": 0,
+   "heavy_atoms": 21,
+   "num_ro5_violations": 0,
+   "psa": "40.62",
+   "qed_weighted": "0.76",
+   "rtb": 1
+  },
+  "routes": {
+   "oral": true,
+   "parenteral": false,
+   "topical": false
+  }
+ },
+ "CHEMBL723": {
+  "drug_id": "CHEMBL723",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 0,
+  "measured_adme": {
+   "F (%)": {
+    "median": 37.0,
+    "n": 2
+   },
+   "Fu (no unit)": {
+    "median": 0.02,
+    "n": 2
+   },
+   "T1/2 (hr)": {
+    "median": 7.0,
+    "n": 5
+   }
+  },
+  "measured_affinity_to_mechanism_targets": {},
+  "molecule_type": "Small molecule",
+  "name": "CARVEDILOL",
+  "properties": {
+   "alogp": "3.74",
+   "aromatic_rings": 4,
+   "full_mwt": "406.48",
+   "hba": 5,
+   "hbd": 3,
+   "heavy_atoms": 30,
+   "num_ro5_violations": 0,
+   "psa": "75.74",
+   "qed_weighted": "0.35",
+   "rtb": 10
+  },
+  "routes": {
+   "oral": true,
+   "parenteral": false,
+   "topical": false
+  }
+ },
+ "CHEMBL92": {
+  "drug_id": "CHEMBL92",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 2,
+  "measured_adme": {
+   "T1/2 (hr)": {
+    "median": 5.75,
+    "n": 3
+   }
+  },
+  "measured_affinity_to_mechanism_targets": {
+   "CHEMBL2095182": {
+    "median_pactivity": 6.7,
+    "n": 2
+   }
+  },
+  "molecule_type": "Small molecule",
+  "name": "DOCETAXEL ANHYDROUS",
+  "properties": {
+   "alogp": "3.26",
+   "aromatic_rings": 2,
+   "full_mwt": "807.89",
+   "hba": 14,
+   "hbd": 5,
+   "heavy_atoms": 58,
+   "num_ro5_violations": 2,
+   "psa": "224.45",
+   "qed_weighted": "0.15",
+   "rtb": 8
+  },
+  "routes": {
+   "oral": false,
+   "parenteral": true,
+   "topical": false
+  }
+ },
+ "CHEMBL967": {
+  "drug_id": "CHEMBL967",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 0,
+  "measured_adme": {
+   "F (%)": {
+    "median": 80.0,
+    "n": 1
+   },
+   "T1/2 (hr)": {
+    "median": 24.0,
+    "n": 1
+   }
+  },
+  "measured_affinity_to_mechanism_targets": {
+   "CHEMBL2093872": {
+    "median_pactivity": 1.2,
+    "n": 1
+   }
+  },
+  "molecule_type": "Small molecule",
+  "name": "TEMAZEPAM",
+  "properties": {
+   "alogp": "2.47",
+   "aromatic_rings": 2,
+   "full_mwt": "300.75",
+   "hba": 3,
+   "hbd": 1,
+   "heavy_atoms": 21,
+   "num_ro5_violations": 0,
+   "psa": "52.90",
+   "qed_weighted": "0.88",
+   "rtb": 1
+  },
+  "routes": {
+   "oral": true,
+   "parenteral": false,
+   "topical": false
+  }
+ },
+ "CHEMBL969": {
+  "drug_id": "CHEMBL969",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 0,
+  "measured_adme": {},
+  "measured_affinity_to_mechanism_targets": {},
+  "molecule_type": "Small molecule",
+  "name": "PRAZEPAM",
+  "properties": {
+   "alogp": "3.93",
+   "aromatic_rings": 2,
+   "full_mwt": "324.81",
+   "hba": 2,
+   "hbd": 0,
+   "heavy_atoms": 23,
+   "num_ro5_violations": 0,
+   "psa": "32.67",
+   "qed_weighted": "0.84",
+   "rtb": 3
+  },
+  "routes": {
+   "oral": true,
+   "parenteral": false,
+   "topical": false
+  }
+ },
+ "CHEMBL970": {
+  "drug_id": "CHEMBL970",
+  "has_small_molecule_properties": true,
+  "lipinski_violations": 0,
+  "measured_adme": {},
+  "measured_affinity_to_mechanism_targets": {
+   "CHEMBL2093872": {
+    "median_pactivity": 1.96,
+    "n": 1
+   }
+  },
+  "molecule_type": "Small molecule",
+  "name": "HALAZEPAM",
+  "properties": {
+   "alogp": "4.09",
+   "aromatic_rings": 2,
+   "full_mwt": "352.74",
+   "hba": 2,
+   "hbd": 0,
+   "heavy_atoms": 24,
+   "num_ro5_violations": 0,
+   "psa": "32.67",
+   "qed_weighted": "0.80",
+   "rtb": 2
+  },
+  "routes": {
+   "oral": true,
+   "parenteral": false,
+   "topical": false
+  }
+ }
+}

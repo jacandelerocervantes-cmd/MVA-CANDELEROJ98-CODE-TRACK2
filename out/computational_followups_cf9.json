@@ -1,0 +1,107 @@
+{
+ "cf9_overall": "runnable",
+ "drugs": {
+  "COLCHICINE": {
+   "adjusted": {
+    "estimable": false,
+    "n_lines": 0
+   },
+   "gdsc_names_matched": [],
+   "orientation": "LN_IC50 low = sensitive; rho > 0 = more lethal in weak-checkpoint lines",
+   "original_rho": -0.1497,
+   "plan_consequence": "hazard class: stays in the hazard panel and toxicity design H1 (positive/control check only); status unchanged: no independent screen covers it",
+   "reason": "drug (name or PRISM synonym) absent from GDSC2",
+   "verdict": "not estimable"
+  },
+  "ERIBULIN": {
+   "adjusted": {
+    "estimable": false,
+    "n_lines": 0
+   },
+   "gdsc_names_matched": [],
+   "orientation": "LN_IC50 low = sensitive; rho > 0 = more lethal in weak-checkpoint lines",
+   "original_rho": -0.1994,
+   "plan_consequence": "hazard class: stays in the hazard panel and toxicity design H1 (positive/control check only); status unchanged: no independent screen covers it",
+   "reason": "drug (name or PRISM synonym) absent from GDSC2",
+   "verdict": "not estimable"
+  },
+  "LAZERTINIB": {
+   "adjusted": {
+    "estimable": false,
+    "n_lines": 0
+   },
+   "gdsc_names_matched": [],
+   "orientation": "LN_IC50 low = sensitive; rho > 0 = more lethal in weak-checkpoint lines",
+   "original_rho": 0.2089,
+   "plan_consequence": "status unchanged: no independent screen covers it",
+   "reason": "drug (name or PRISM synonym) absent from GDSC2",
+   "verdict": "not estimable"
+  },
+  "NERATINIB": {
+   "adjusted": {
+    "estimable": false,
+    "n_lines": 0
+   },
+   "gdsc_names_matched": [],
+   "orientation": "LN_IC50 low = sensitive; rho > 0 = more lethal in weak-checkpoint lines",
+   "original_rho": 0.1944,
+   "plan_consequence": "status unchanged: no independent screen covers it",
+   "reason": "drug (name or PRISM synonym) absent from GDSC2",
+   "verdict": "not estimable"
+  },
+  "PACLITAXEL": {
+   "adjusted": {
+    "estimable": true,
+    "n_lineages": 21,
+    "n_lines": 697,
+    "p_perm": 0.27172827172827174,
+    "q_bh": 0.27172827172827174,
+    "rho_adj": -0.04225471251361726
+   },
+   "adjusted_auc_secondary": {
+    "estimable": true,
+    "n_lineages": 21,
+    "n_lines": 697,
+    "p_perm": 0.5234765234765235,
+    "rho_adj": 0.025385731646422237
+   },
+   "gdsc_names_matched": [
+    "Paclitaxel"
+   ],
+   "orientation": "LN_IC50 low = sensitive; rho > 0 = more lethal in weak-checkpoint lines",
+   "original_rho": -0.131,
+   "plan_consequence": "hazard class: stays in the hazard panel and toxicity design H1 (positive/control check only); the line C signal is not replicated in GDSC2 (control not passed); no change to the hazard classification",
+   "verdict": "refuted"
+  },
+  "VINCRISTINE": {
+   "adjusted": {
+    "estimable": false,
+    "n_lines": 0
+   },
+   "gdsc_names_matched": [],
+   "orientation": "LN_IC50 low = sensitive; rho > 0 = more lethal in weak-checkpoint lines",
+   "original_rho": -0.1643,
+   "plan_consequence": "hazard class: stays in the hazard panel and toxicity design H1 (positive/control check only); status unchanged: no independent screen covers it",
+   "reason": "drug (name or PRISM synonym) absent from GDSC2",
+   "verdict": "not estimable"
+  }
+ },
+ "label": "exploratory, post hoc, correlational, cancer cell lines; no patient data",
+ "line_matching_coverage": {
+  "ambiguous_dropped": 1,
+  "by_cosmic_id": 0,
+  "by_name": 1,
+  "by_sanger_id": 966,
+  "gdsc_lines": 969,
+  "matched_to_depmap_model": 967,
+  "retained_with_expression_and_lineage": 705,
+  "unmatched": 1
+ },
+ "min_lines": 100,
+ "n_estimable": 1,
+ "n_gdsc_drugs": 286,
+ "n_gdsc_rows": 242036,
+ "p_cut": 0.05,
+ "protocol": "protocol/addendum_computational_followups.md (CF9 execution)",
+ "screen": "GDSC2 fitted dose response, release 8.5 (GDSC2_fitted_dose_response_27Oct23.xlsx)"
+}

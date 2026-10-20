@@ -1,0 +1,23 @@
+{
+  "clinicaltrials": {
+    "conditions": {
+      "mosaic_variegated_aneuploidy": "mosaic variegated aneuploidy",
+      "rhabdomyosarcoma": "rhabdomyosarcoma",
+      "wilms_tumor": "Wilms tumor"
+    },
+    "page_size": 20,
+    "pediatric_filter": "AREA[StdAge]CHILD",
+    "studies_listed": 5
+  },
+  "name_cleaning": {
+    "salt_words": ["ANHYDROUS", "HYDROCHLORIDE", "SODIUM", "CITRATE", "MESYLATE", "SULFATE", "PHOSPHATE"]
+  },
+  "pubmed": {
+    "records_listed": 5,
+    "term_groups": {
+      "aneuploidy_cin": "\"aneuploidy\" OR \"chromosomal instability\" OR BUBR1 OR BUB1B OR \"mosaic variegated aneuploidy\"",
+      "pediatric": "\"pediatric\" OR \"children\"",
+      "tumour_context": "\"rhabdomyosarcoma\" OR \"embryonal tumor\" OR \"Wilms\""
+    }
+  }
+}

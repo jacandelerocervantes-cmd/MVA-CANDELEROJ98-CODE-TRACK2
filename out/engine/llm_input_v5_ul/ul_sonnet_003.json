@@ -1,0 +1,707 @@
+{
+ "items": [
+  {
+   "disease": "erythropoietic protoporphyria",
+   "drug": "aminolevulinic acid",
+   "id": "ho5-01182",
+   "pmid": "38254627",
+   "sentence": "Cimetidine Does Not Inhibit 5-Aminolevulinic Acid Synthase or Heme Oxygenase Activity: Implications for Treatment of Acute Intermittent Porphyria and Erythropoietic Protoporphyria."
+  },
+  {
+   "disease": "polycystic kidney disease",
+   "drug": "carboplatin",
+   "id": "ho5-01185",
+   "pmid": "7696122",
+   "sentence": "Animal and in vitro studies have achieved modification of cyst growth by reduction of dietary protein, use of amiloride and its analogs, antagonism of the epidermal growth factor receptor system, anti-inflammatory therapy, and most recently with the use of taxol, an agent that inhibits microtubule assembly."
+  },
+  {
+   "disease": "malignant hyperthermia of anesthesia",
+   "drug": "propofol",
+   "id": "ho5-01200",
+   "pmid": "39119152",
+   "sentence": "The concurrence of both diagnoses precluded the use of both propofol-based total intravenous anaesthesia and volatile inhalational anaesthesia."
+  },
+  {
+   "disease": "hypopituitarism",
+   "drug": "arginine hydrochloride",
+   "id": "ho5-01207",
+   "pmid": "42524088",
+   "sentence": "Pituitary metastases from pulmonary large cell neuroendocrine carcinoma (LCNEC) are exceedingly rare but should be considered in patients presenting with arginine vasopressin deficiency and panhypopituitarism in the context of known or suspected metastatic lung cancer."
+  },
+  {
+   "disease": "Sjogren syndrome",
+   "drug": "nifedipine",
+   "id": "ho5-01214",
+   "pmid": "19601524",
+   "sentence": "A 54-year-old woman started to take nifedipine orally for hypertension on February 18, 2006."
+  },
+  {
+   "disease": "aromatase excess syndrome",
+   "drug": "estradiol valerate",
+   "id": "ho5-01215",
+   "pmid": "15483104",
+   "sentence": "Excess of serum estrone in the presence of normal 17beta-estradiol levels may be the only indicative serum parameter of this mild manifestation of aromatase excess syndrome, which includes prepubertal gynecomastia and moderate hypogonadism in men but not necessarily short stature."
+  },
+  {
+   "disease": "Stargardt disease",
+   "drug": "retinol",
+   "id": "ho5-01232",
+   "pmid": "PPR:PPR1324267",
+   "sentence": "Retinol delivery depends on RBP4 interaction with another serum protein, Transthyretin (TTR)."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "olaparib",
+   "id": "ho5-01244",
+   "pmid": "42816529",
+   "sentence": "Background Ceralasertib, an ATR inhibitor, is known to exacerbate replication stress induced by the PARP inhibitor (PARPi) olaparib, with the combination having the potential to overcome PARPi resistance in the clinic."
+  },
+  {
+   "disease": "congenital generalized lipodystrophy",
+   "drug": "metreleptin",
+   "id": "ho5-01255",
+   "pmid": "42731057",
+   "sentence": "However, metabolic decompensation occurred during acute illness in one patient, necessitating treatment escalation, indicating that metreleptin does not fully protect against metabolic stress."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "tucatinib",
+   "id": "ho5-01262",
+   "pmid": "42226887",
+   "sentence": "Treatment of HER2+ mBC with and without BMs in Saudi Arabia largely aligned with international recommendations identified in our literature analysis, although access to lapatinib, tucatinib and neratinib can be limited and may lead to use of alternative regimens."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "trastuzumab emtansine",
+   "id": "ho5-01267",
+   "pmid": "41134751",
+   "sentence": "This case report describes the case of a 38-year-old woman with breast cancer being treated with T-DM1 who experienced extravasation and soft-tissue injury, and the medical management she received."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "tilmanocept",
+   "id": "ho5-01272",
+   "pmid": "42617582",
+   "sentence": "We report the LSG scan time, False Negative Rate (FNR) and False Omission Rate (FOR) for SLNB stratified by two radiopharmaceuticals ([ 99m Tc]Tc-Tilmanocept and [ 99m Tc]Tc-Nanocolloid)."
+  },
+  {
+   "disease": "Sjogren syndrome",
+   "drug": "cyclosporine",
+   "id": "ho5-01281",
+   "pmid": "41826593",
+   "sentence": "For long-term control, immunomodulators such as cyclosporine A (CsA), lifitegrast, and tacrolimus attenuate T-cell-mediated inflammation, promote goblet cell recovery, and stabilize the tear film."
+  },
+  {
+   "disease": "polycystic kidney disease",
+   "drug": "everolimus",
+   "id": "ho5-01284",
+   "pmid": "29369972",
+   "sentence": "Agents that inhibit mTOR, such as sirolimus and everolimus, are incorporated in immunosuppressive regimens to prevent renal allograft rejection and are often used to facilitate calcineurin inhibitor minimization or to reduce the incidence of tumor recurrence."
+  },
+  {
+   "disease": "malignant hyperthermia of anesthesia",
+   "drug": "desflurane",
+   "id": "ho5-01288",
+   "pmid": "30098954",
+   "sentence": "The patient received succinylcholine and desflurane during the procedure."
+  },
+  {
+   "disease": "CINCA syndrome",
+   "drug": "canakinumab",
+   "id": "ho5-01293",
+   "pmid": "34784874",
+   "sentence": "The only drug of this group registered in Russia is canakinumab (Ilaris®)."
+  },
+  {
+   "disease": "CINCA syndrome",
+   "drug": "canakinumab",
+   "id": "ho5-01313",
+   "pmid": "36106540",
+   "sentence": "Objectives A post-marketing all-patient surveillance program was conducted to evaluate the safety and effectiveness of canakinumab, a monoclonal anti-interleukin-1β antibody, in patients in Japan with cryopyrin-associated periodic fever syndrome (CAPS), including familial cold auto-inflammatory syndrome, Muckle-Wells syndrome, and neonatal onset multisystem inflammatory disease."
+  },
+  {
+   "disease": "malignant hyperthermia of anesthesia",
+   "drug": "pyridostigmine",
+   "id": "ho5-01314",
+   "pmid": "3177878",
+   "sentence": "Pyridostigmine, atropine, and naloxone were used if appropriate."
+  },
+  {
+   "disease": "hypopituitarism",
+   "drug": "arginine hydrochloride",
+   "id": "ho5-01328",
+   "pmid": "42831231",
+   "sentence": "Arginine vasopressin deficiency revealing a disseminated human chorionic gonadotropin-secreting germinoma."
+  },
+  {
+   "disease": "hypopituitarism",
+   "drug": "thyrotropin",
+   "id": "ho5-01329",
+   "pmid": "36874542",
+   "sentence": "Thyroid panel, thyrotropin-releasing hormone stimulation test, thyroid scan with Technetium-99, repeat measurement of serum IGF-1, resting cortisol, endogenous ACTH concentration, and ACTH stimulation testing were performed."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "pertuzumab",
+   "id": "ho5-01331",
+   "pmid": "42715513",
+   "sentence": "Here, we review evidence supporting de-escalation in the neoadjuvant setting from docetaxel or paclitaxel, carboplatin, trastuzumab, pertuzumab to docetaxel or paclitaxel, trastuzumab, pertuzumab with weekly paclitaxel and examine biomarker-guided strategies for further de-escalation, including chemotherapy-free approaches."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "tilmanocept",
+   "id": "ho5-01345",
+   "pmid": "42617582",
+   "sentence": "[ 99m Tc]Tc-Tilmanocept is an FDA-approved radiotracer with specific CD206-binding with potentially improved specificity of sentinel lymph node (SLN) identification."
+  },
+  {
+   "disease": "autosomal dominant familial periodic fever",
+   "drug": "canakinumab",
+   "id": "ho5-01348",
+   "pmid": "36752501",
+   "sentence": "Interestingly, the metabolic changes observed in all three TRAPS patients seemed independent of treatment with canakinumab and subsequent remission."
+  },
+  {
+   "disease": "classic Hodgkin lymphoma",
+   "drug": "bleomycin",
+   "id": "ho5-01355",
+   "pmid": "42779335",
+   "sentence": "Who needs bleomycin in classic Hodgkin lymphoma?"
+  },
+  {
+   "disease": "nephropathic cystinosis",
+   "drug": "testosterone",
+   "id": "ho5-01360",
+   "pmid": "33822926",
+   "sentence": "Testicular volumes and testosterone levels were in the normal ranges, with the exception of two and three older patients, respectively."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "etoposide",
+   "id": "ho5-01368",
+   "pmid": "42809895",
+   "sentence": "Triple-negative breast cancer (TNBC) lacks actionable therapeutic targets and remains highly dependent on cytotoxic chemotherapy, yet the rapid emergence of cisplatin resistance severely limits clinical benefits."
+  },
+  {
+   "disease": "pituitary gigantism",
+   "drug": "octreotide",
+   "id": "ho5-01382",
+   "pmid": "18445999",
+   "sentence": "We introduced octreotide to suppress GH secretion (100 mug 2/day s.c)."
+  },
+  {
+   "disease": "classic Hodgkin lymphoma",
+   "drug": "lactic acid",
+   "id": "ho5-01385",
+   "pmid": "16879607",
+   "sentence": "With multivariate analysis, sCD30, Ann Arbor stage, and lactic acid dehydrogenase were significant independent factors in terms of FFS."
+  },
+  {
+   "disease": "familial male-limited precocious puberty",
+   "drug": "testosterone",
+   "id": "ho5-01388",
+   "pmid": "33214411",
+   "sentence": "Laboratory studies revealed a markedly elevated testosterone level and low gonadotropin (luteinizing hormone [LH] and follicle-stimulating hormone) levels and a normal dehydroepiandrosterone sulfate, suggestive of peripheral precocious puberty."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "olaparib",
+   "id": "ho5-01403",
+   "pmid": "40370560",
+   "sentence": "Pharmacological inhibition of CDK5 remarkably abrogated G6PD phosphorylation, attenuated tumor growth and metastasis, and synergistically sensitized BC cells to poly-ADP-ribose polymerase (PARP) inhibitor Olaparib, in xenograft mouse models."
+  },
+  {
+   "disease": "classic Hodgkin lymphoma",
+   "drug": "prednisolone",
+   "id": "ho5-01414",
+   "pmid": "41877072",
+   "sentence": "Adriamycin, Bleomycin, Vincristine, Etoposide, Prednisolone and Cyclophosphamide (ABVE-PC) was the commonest chemotherapy regimen used in our cohort (61.4%)."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "fulvestrant",
+   "id": "ho5-01417",
+   "pmid": "41802242",
+   "sentence": "VIKTORIA-1 Trial of Gedatolisib Plus Fulvestrant With or Without Palbociclib in Hormone Receptor-Positive/HER2-/PIK3CA Wild-Type Advanced Breast Cancer."
+  },
+  {
+   "disease": "cystinosis",
+   "drug": "cysteamine",
+   "id": "ho5-01431",
+   "pmid": "42157047",
+   "sentence": "Long-term graft success in cystinosis depends on cysteamine adherence and structured multidisciplinary transition, supported by protocols developed by both pediatric nephrologists and hospital organizations."
+  },
+  {
+   "disease": "neurofibromatosis",
+   "drug": "selumetinib",
+   "id": "ho5-01446",
+   "pmid": "41616055",
+   "sentence": "Pharmacological inhibition of FAK with single agent VS-4718 did not significantly reduce macroscopic tumor volume; however, its use in combination with the mitogen-activated protein kinase kinase (MEK) inhibitor selumetinib resulted in both a significant reduction in tumor volume and the preservation of dorsal root ganglion architecture."
+  },
+  {
+   "disease": "phenylketonuria",
+   "drug": "pegvaliase",
+   "id": "ho5-01447",
+   "pmid": "40094206",
+   "sentence": "Methods A review of 51 PKU patients initiated on pegvaliase at the PKU clinic of M Health Fairview, Minneapolis, MN, between May 2018 and May 2024 was conducted."
+  },
+  {
+   "disease": "autosomal dominant familial periodic fever",
+   "drug": "canakinumab",
+   "id": "ho5-01448",
+   "pmid": "41020641",
+   "sentence": "Treatment with canakinumab resulted in a significant reduction in flare frequency and decreases in inflammatory markers."
+  },
+  {
+   "disease": "nephrogenic syndrome of inappropriate antidiuresis",
+   "drug": "urea",
+   "id": "ho5-01449",
+   "pmid": "19523572",
+   "sentence": "Some simple and readily available biologic parameters can be helpful in the diagnosis of SIADH (low urea and uric acid levels)."
+  },
+  {
+   "disease": "neurofibromatosis",
+   "drug": "etoposide",
+   "id": "ho5-01450",
+   "pmid": "36975468",
+   "sentence": "Chemotherapy (cisplatin, gemcitabine and paclitaxel) was initiated followed by radical resection."
+  },
+  {
+   "disease": "Fabry disease",
+   "drug": "migalastat",
+   "id": "ho5-01451",
+   "pmid": "40120803",
+   "sentence": "Objectives To explore the pathogenicity of novel missense mutations in the GLA gene in Fabry disease and the intervention effect of migalastat on the disease model of novel mutation sites."
+  },
+  {
+   "disease": "neurofibromatosis",
+   "drug": "dabrafenib",
+   "id": "ho5-01469",
+   "pmid": "41661389",
+   "sentence": "DaBRAFenib plus trametinib received approval for newly diagnosed BRAF V600E-mutant tumors, while tovorafenib was approved for relapsed/refractory BRAF-altered disease."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "niraparib",
+   "id": "ho5-01477",
+   "pmid": "41944954",
+   "sentence": "Niraparib in breast cancer: evidence-based perspective on translational progress."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "letrozole",
+   "id": "ho5-01489",
+   "pmid": "41385615",
+   "sentence": "Patients and methods The phase II, open-label CARABELA trial randomized patients with HR+/HER2- stage II to III breast cancer with Ki-67 ≥20% to receive letrozole/abemaciclib for 12 months or chemotherapy for 6 months."
+  },
+  {
+   "disease": "acquired polycythemia vera",
+   "drug": "imatinib",
+   "id": "ho5-01499",
+   "pmid": "24681942",
+   "sentence": "In March 2010, imatinib treatment was completed and the BCR/ABL fusion gene had become undetectable by real time quantitative PCR."
+  },
+  {
+   "disease": "androgen insensitivity syndrome",
+   "drug": "testosterone propionate",
+   "id": "ho5-01502",
+   "pmid": "42158164",
+   "sentence": "We report a 6-month-old male patient treated with intramuscular testosterone for micropenis."
+  },
+  {
+   "disease": "polycystic kidney disease",
+   "drug": "dapagliflozin",
+   "id": "ho5-01506",
+   "pmid": "33773943",
+   "sentence": "The other trials regarding the effects of dapagliflozin, canagliflozin, empagliflozin and more recently sotagliflozin have confirmed most of these results and extended them to other populations."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "etoposide",
+   "id": "ho5-01516",
+   "pmid": "PPR:PPR1284894",
+   "sentence": "Building on our previous findings that ARMCX3 knockdown suppresses malignant phenotypes and enhances cisplatin sensitivity, we investigated the down-stream mechanisms involved."
+  },
+  {
+   "disease": "acquired polycythemia vera",
+   "drug": "hydroxyurea",
+   "id": "ho5-01530",
+   "pmid": "41902804",
+   "sentence": "Ruxolitinib, a JAK1/JAK2 inhibitor, is effective for patients intolerant or resistant to hydroxyurea, improving hematocrit control, spleen volume, and symptoms."
+  },
+  {
+   "disease": "cystinosis",
+   "drug": "cysteamine",
+   "id": "ho5-01535",
+   "pmid": "41369756",
+   "sentence": "DR cysteamine contains methacrylic acid copolymer, an excipient associated with fibrosing colonopathy in patients with cystic fibrosis."
+  },
+  {
+   "disease": "classic Hodgkin lymphoma",
+   "drug": "nivolumab",
+   "id": "ho5-01536",
+   "pmid": "42667569",
+   "sentence": "Collectively, results from this study support the use of BV and nivolumab in combination with limited chemotherapy in patients with nonbulky, early-stage cHL."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "testosterone enanthate",
+   "id": "ho5-01545",
+   "pmid": "38561883",
+   "sentence": "Endocrine Society Clinical Practice Guideline recommend therapeutic goals based on the alleviation of symptoms and signs, as well as reaching testosterone levels between 400 - 700 ng/dL (one week after administering testosterone enanthate or cypionate) and maintaining baseline hematocrit.Hormone therapy is the primary modality in the management of hypogonadism."
+  },
+  {
+   "disease": "aromatase excess syndrome",
+   "drug": "estrone",
+   "id": "ho5-01547",
+   "pmid": "15483104",
+   "sentence": "Estrone levels of the proband and the other affected boys were elevated, 17beta-estradiol levels were high-normal, and testosterone levels were low."
+  },
+  {
+   "disease": "exudative vitreoretinopathy",
+   "drug": "atezolizumab",
+   "id": "ho5-01557",
+   "pmid": "41996523",
+   "sentence": "Treatment outcomes showed stable visual acuity in stage 3A; in stage 4A or higher, 3 eyes remained stable and 2 developed phthisis bulbi."
+  },
+  {
+   "disease": "malignant hyperthermia of anesthesia",
+   "drug": "phenytoin",
+   "id": "ho5-01561",
+   "pmid": "7353589",
+   "sentence": "Dantrolene sodium, phenytoin and procain, drugs used against MH, were found to afford protection against SCh rigidity and death in chicks."
+  },
+  {
+   "disease": "Stargardt disease",
+   "drug": "ferrous fumarate",
+   "id": "ho5-01562",
+   "pmid": "41094540",
+   "sentence": "Cell viability and morphology, mitochondrial morphology, ferrous iron (Fe 2+ ) levels, reactive oxygen species (ROS) production, lipid peroxidation, and ferroptosis-related gene and protein expression were assessed using MTS assay, inverted and confocal microscopy, fluorescence staining, quantitative real-time polymerase chain reaction (qRT-PCR), and Western blotting, respectively."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "margetuximab",
+   "id": "ho5-01570",
+   "pmid": "39220641",
+   "sentence": "The aim of this case series is to provide information regarding margetuximab utilization in clinical practice as later-line therapy in women with HER2+ MBC."
+  },
+  {
+   "disease": "Sjogren syndrome",
+   "drug": "fluconazole",
+   "id": "ho5-01579",
+   "pmid": "38289217",
+   "sentence": "The patient received fluconazole, ceftriaxone, vancomycin, and metronidazole."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "tilmanocept",
+   "id": "ho5-01580",
+   "pmid": "33224620",
+   "sentence": "We determined the optimal imaging time for axillary lymph node (LN) visualization following Tc-99m Tilmanocept in breast cancer patients to establish imaging guidelines that can allow for a reliable and efficient yet high yield study prior to surgery."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "trastuzumab",
+   "id": "ho5-01587",
+   "pmid": "42343365",
+   "sentence": "With the application of anti-HER2 drugs such as trastuzumab, the prognosis of patients with HER2-positive breast cancer has improved significantly."
+  },
+  {
+   "disease": "Stargardt disease",
+   "drug": "fluorescein",
+   "id": "ho5-01590",
+   "pmid": "32251237",
+   "sentence": "Methods All cases were imaged with color photographs, autofluorescence images, and spectral-domain optical coherence tomography, some with fluorescein and/or indocyanine green angiography."
+  },
+  {
+   "disease": "acquired polycythemia vera",
+   "drug": "rivaroxaban",
+   "id": "ho5-01593",
+   "pmid": "35023386",
+   "sentence": "The patient's symptoms were relieved after treatment with hydroxyurea and rivaroxaban."
+  },
+  {
+   "disease": "neurofibromatosis",
+   "drug": "cisplatin",
+   "id": "ho5-01594",
+   "pmid": "32104235",
+   "sentence": "MicroRNA-103a-3p potentiates chemoresistance to cisplatin in non-small cell lung carcinoma by targeting neurofibromatosis 1."
+  },
+  {
+   "disease": "mevalonic aciduria",
+   "drug": "etanercept",
+   "id": "ho5-01603",
+   "pmid": "40717084",
+   "sentence": "Etanercept was the effective biological agent tested, leading to complete or partial remission in 5 of the 6 patients."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "inavolisib",
+   "id": "ho5-01605",
+   "pmid": "42543051",
+   "sentence": "Purpose Inavolisib plus palbociclib and fulvestrant has been approved for treating PIK3CA-mutated, hormone receptor-positive human epidermal growth factor receptor 2-negative (HR + HER2-), advanced breast cancer in the USA."
+  },
+  {
+   "disease": "aromatase excess syndrome",
+   "drug": "estradiol valerate",
+   "id": "ho5-01613",
+   "pmid": "15483104",
+   "sentence": "Estrone levels of the proband and the other affected boys were elevated, 17beta-estradiol levels were high-normal, and testosterone levels were low."
+  },
+  {
+   "disease": "Fabry disease",
+   "drug": "migalastat",
+   "id": "ho5-01615",
+   "pmid": "41852515",
+   "sentence": "Approximately 30% of Japanese Fabry patients are reported to be responsive to migalastat."
+  },
+  {
+   "disease": "phenylketonuria",
+   "drug": "pegvaliase",
+   "id": "ho5-01619",
+   "pmid": "41971647",
+   "sentence": "Long-Term Safety and Efficacy of Pegvaliase in Japanese Adults With Phenylketonuria: Final Results of a Phase III Trial."
+  },
+  {
+   "disease": "erythropoietic protoporphyria",
+   "drug": "oxygen",
+   "id": "ho5-01620",
+   "pmid": "42213346",
+   "sentence": "These photoactive porphyrins generate reactive oxygen species that drive the characteristic cutaneous manifestations, including painful photosensitivity, skin fragility, and blistering."
+  },
+  {
+   "disease": "acquired polycythemia vera",
+   "drug": "momelotinib",
+   "id": "ho5-01622",
+   "pmid": "40769919",
+   "sentence": "In MF, the evolution of JAK inhibitors is particularly noteworthy, with momelotinib and pacritinib showing potential benefits in alleviating anemia."
+  },
+  {
+   "disease": "Marfan syndrome",
+   "drug": "spironolactone",
+   "id": "ho5-01624",
+   "pmid": "30653163",
+   "sentence": "The patient received \"Bentall Operation\" for MFS, and was prescribed warfarin 5 mg qod and spironolactone 20 mg bid during the follow-up period."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "tucatinib",
+   "id": "ho5-01625",
+   "pmid": "42431148",
+   "sentence": "Results A total of 70 patients (median age 57 years, median 2 prior lines for a/mBC) received tucatinib 300 mg orally BID and T-DXd on day 1 of each 21-day cycle."
+  },
+  {
+   "disease": "Fabry disease",
+   "drug": "pegunigalsidase alfa",
+   "id": "ho5-01633",
+   "pmid": "37940383",
+   "sentence": "BALANCE (NCT02795676) assessed non-inferiority of pegunigalsidase alfa versus agalsidase beta in adults with Fabry disease with an annualised estimated glomerular filtration rate (eGFR) slope more negative than -2 mL/min/1.73 m 2 /year who had received agalsidase beta for ≥1 year."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "docetaxel anhydrous",
+   "id": "ho5-01634",
+   "pmid": "42346259",
+   "sentence": "Excessive Tearing and Lacrimal and Canalicular Blockage Secondary to Docetaxel in Breast Cancer Patients in the Metastatic and Adjuvant Settings."
+  },
+  {
+   "disease": "polycystic kidney disease",
+   "drug": "vasopressin",
+   "id": "ho5-01636",
+   "pmid": "42298327",
+   "sentence": "Renal water reabsorption is classically regulated by vasopressin V2 receptor (V2R) signaling through cyclic AMP and protein kinase A, driving apical accumulation of aquaporin-2 (AQP2)."
+  },
+  {
+   "disease": "cystinosis",
+   "drug": "cysteamine",
+   "id": "ho5-01637",
+   "pmid": "41369756",
+   "sentence": "Nephropathic cystinosis: fibrosing colonopathy can also be seen long after introduction of delayed release cysteamine."
+  },
+  {
+   "disease": "polycystic kidney disease",
+   "drug": "caffeine",
+   "id": "ho5-01638",
+   "pmid": "28386880",
+   "sentence": "The relentless progression of ADPKD inclines the majority of physicians to advocate minimization of caffeine consumption despite the absence of clinical data supporting such a recommendation so far."
+  },
+  {
+   "disease": "Sjogren syndrome",
+   "drug": "prednisolone",
+   "id": "ho5-01640",
+   "pmid": "39968468",
+   "sentence": "Hydroxychloroquine was the most prescribed drug (72.97%), followed by prednisolone (28.38%)."
+  },
+  {
+   "disease": "neurofibromatosis",
+   "drug": "tyrosine",
+   "id": "ho5-01648",
+   "pmid": "42276040",
+   "sentence": "Results Thirty studies met inclusion criteria: 18 investigated bevacizumab, 5 mTOR inhibitors, 5 tyrosine kinase inhibitors (TKIs), and 2 the vascular endothelial growth factor receptor (VEGFR) vaccine."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "dexrazoxane",
+   "id": "ho5-01652",
+   "pmid": "PPR:PPR1052875",
+   "sentence": "The study group consisted of 30 patients with breast cancer who received dexrazoxane and the control group consisted of the patients who were similar to the study group and did not receive."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "dexrazoxane",
+   "id": "ho5-01654",
+   "pmid": "40762867",
+   "sentence": "Dexrazoxane (SMD: -0.53, 95%CI: -1.90 to -0.02) and β-blockers (SMD: -0.34, 95%CI: -0.70 to 0.02) showed potential benefits, albeit with greater uncertainty."
+  },
+  {
+   "disease": "cystinosis",
+   "drug": "cysteine",
+   "id": "ho5-01657",
+   "pmid": "40546328",
+   "sentence": "The primary biochemical/physiological defect in cystinosis is failure to supply cysteine to mTOR via cystinosin."
+  },
+  {
+   "disease": "polycystic kidney disease",
+   "drug": "tolvaptan",
+   "id": "ho5-01661",
+   "pmid": "42813962",
+   "sentence": "Aim Tolvaptan delays growth in total kidney volume (TKV) and decline in estimated glomerular filtration rate (eGFR) among individuals with autosomal dominant polycystic kidney disease (ADPKD) at elevated risk of rapid progression."
+  },
+  {
+   "disease": "Berardinelli-Seip congenital lipodystrophy",
+   "drug": "pioglitazone",
+   "id": "ho5-01662",
+   "pmid": "33880995",
+   "sentence": "Therefore, we added the peroxisome proliferator-activated receptor-gamma (PPARG) agonist, pioglitazone."
+  },
+  {
+   "disease": "exudative vitreoretinopathy",
+   "drug": "cysteine",
+   "id": "ho5-01663",
+   "pmid": "21177847",
+   "sentence": "An essential role of the cysteine-rich domain of FZD4 in Norrin/Wnt signaling and familial exudative vitreoretinopathy."
+  },
+  {
+   "disease": "congenital alveolar capillary dysplasia",
+   "drug": "nitric oxide",
+   "id": "ho5-01667",
+   "pmid": "31012231",
+   "sentence": "Elective support with nitric oxide was used postoperatively."
+  },
+  {
+   "disease": "androgen insensitivity syndrome",
+   "drug": "testosterone cypionate",
+   "id": "ho5-01679",
+   "pmid": "42158164",
+   "sentence": "Testosterone treatment for micropenis in partial androgen insensitivity syndrome."
+  },
+  {
+   "disease": "congenital generalized lipodystrophy",
+   "drug": "metreleptin",
+   "id": "ho5-01682",
+   "pmid": "PMC:PMC8089820",
+   "sentence": "We report metreleptin, insulin, and metformin use in an infant with type 1 CGL who presented with marked hypertriglyceridemia, hypoleptinemia, hyperglycemia, and transaminitis."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "niraparib",
+   "id": "ho5-01689",
+   "pmid": "41561735",
+   "sentence": "Comprehensive management of chest wall recurrent HER2-positive breast cancer with Anlotinib and hypofractionated radiotherapy: a case report."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "olaparib",
+   "id": "ho5-01690",
+   "pmid": "42798981",
+   "sentence": "Focal adhesion kinase inhibitor defactinib enhances olaparib-induced suppression of BRCA-proficient breast cancer cell proliferation."
+  },
+  {
+   "disease": "CINCA syndrome",
+   "drug": "oxygen",
+   "id": "ho5-01699",
+   "pmid": "37253813",
+   "sentence": "These results give new insights into the mechanism of inflammasome assembly, and into the function of reactive oxygen species in establishing a robust immune response."
+  },
+  {
+   "disease": "hypopituitarism",
+   "drug": "levothyroxine",
+   "id": "ho5-01703",
+   "pmid": "41363294",
+   "sentence": "Management included hormone replacement with hydrocortisone, levothyroxine, and desmopressin, as well as fluid regulation and supportive care."
+  },
+  {
+   "disease": "polycystic kidney disease",
+   "drug": "calcium",
+   "id": "ho5-01705",
+   "pmid": "42275149",
+   "sentence": "Mitochondria isolated from Pkd1 V/V kidneys showed a reduction in oxygen consumption rates and calcium retention capacity in the presence of NADH-generating substrates, but not in the presence of succinate."
+  },
+  {
+   "disease": "nephrogenic syndrome of inappropriate antidiuresis",
+   "drug": "vasopressin",
+   "id": "ho5-01710",
+   "pmid": "34955900",
+   "sentence": "The Role of Vasopressin V2 Receptor in Drug-Induced Hyponatremia."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "mitotane",
+   "id": "ho5-01716",
+   "pmid": "PMC:PMC7207525",
+   "sentence": "She was started on mitotane as adjuvant therapy."
+  },
+  {
+   "disease": "hypopituitarism",
+   "drug": "estradiol",
+   "id": "ho5-01723",
+   "pmid": "38570732",
+   "sentence": "Dehydroepiandrosterone (DHEA), androstenedione, testosterone, dihydrotestosterone, progesterone, 17αOH-progesterone, estradiol, and estrone were analyzed by a validated liquid chromatography-tandem mass spectrometry assay."
+  },
+  {
+   "disease": "phenylketonuria",
+   "drug": "pegvaliase",
+   "id": "ho5-01724",
+   "pmid": "41971647",
+   "sentence": "Pegvaliase, a pegylated recombinant phenylalanine ammonia lyase that metabolizes Phe, effectively reduced blood Phe in phase III studies in the United States."
+  },
+  {
+   "disease": "tyrosinemia",
+   "drug": "atezolizumab",
+   "id": "ho5-01725",
+   "pmid": "42117404",
+   "sentence": "Rational Design of Small-Molecule Stabilizers of Human Fumarylacetoacetate Hydrolase for the Treatment of Tyrosinemia Type I."
+  },
+  {
+   "disease": "neurofibromatosis",
+   "drug": "cisplatin",
+   "id": "ho5-01730",
+   "pmid": "28285878",
+   "sentence": "CSC-enriched MM cell subpopulations were identified by an OCT4/SOX2 reporter approach and were characterized by (1) increased resistance to cisplatin, (2) increased sensitivity toward the FAK inhibitor VS-6063 in vitro, and (3) a higher tumor-initiating capacity in vivo in orthotopic xenograft and allograft mouse models."
+  },
+  {
+   "disease": "hypopituitarism",
+   "drug": "thyrotropin",
+   "id": "ho5-01731",
+   "pmid": "36716819",
+   "sentence": "Thyrotropin-secreting tumor \"TSH-PitNET\": From diagnosis to treatment."
+  },
+  {
+   "disease": "nephropathic cystinosis",
+   "drug": "indomethacin",
+   "id": "ho5-01734",
+   "pmid": "34237326",
+   "sentence": "No significant effect on kidney function was observed for gender, pathogenic variant of the CTNS gene, and the prescription of indomethacin or renin angiotensin system blockers."
+  },
+  {
+   "disease": "malignant hyperthermia of anesthesia",
+   "drug": "desflurane",
+   "id": "ho5-01739",
+   "pmid": "42307544",
+   "sentence": "This case highlights the importance of considering MH even in the postoperative phase, particularly with the use of desflurane and potentially contributory agents such as sugammadex and ondansetron."
+  }
+ ],
+ "n_items": 100,
+ "shard": 3,
+ "split": "heldout"
+}

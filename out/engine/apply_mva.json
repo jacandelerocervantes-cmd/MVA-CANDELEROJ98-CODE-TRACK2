@@ -1,0 +1,3592 @@
+{
+  "age_rule": "bands 0-4, 5-11, 12-17 y from label text; unknown age is never assumed (a patient of unknown age reads the union of the bands)",
+  "disease": "mosaic variegated aneuploidy (MVA)",
+  "drugs_at_fda_checked": {
+    "aminosalicylic acid": {
+      "applications": [
+        "ANDA074346",
+        "ANDA080059",
+        "NDA006811",
+        "NDA009052"
+      ],
+      "eligible": true,
+      "marketing_statuses": [
+        "Discontinued",
+        "Prescription"
+      ],
+      "matched_name": "AMINOSALICYLIC ACID",
+      "n_applications": 4
+    },
+    "apomorphine": {
+      "applications": [
+        "ANDA212025",
+        "NDA021264",
+        "NDA210875",
+        "NDA214056"
+      ],
+      "eligible": true,
+      "marketing_statuses": [
+        "Discontinued",
+        "Prescription"
+      ],
+      "matched_name": "APOMORPHINE",
+      "n_applications": 4
+    },
+    "arsenic trioxide": {
+      "applications": [
+        "ANDA078729",
+        "ANDA206228",
+        "ANDA208231",
+        "ANDA209315",
+        "ANDA209780"
+      ],
+      "eligible": true,
+      "marketing_statuses": [
+        "Discontinued",
+        "None (Tentative Approval)",
+        "Prescription"
+      ],
+      "matched_name": "ARSENIC TRIOXIDE",
+      "n_applications": 13
+    },
+    "artenimol": {
+      "applications": [],
+      "eligible": false,
+      "marketing_statuses": [],
+      "matched_name": null,
+      "n_applications": 0,
+      "reason": "no Drugs@FDA record matches the active ingredient"
+    },
+    "belinostat": {
+      "applications": [
+        "NDA206256"
+      ],
+      "eligible": true,
+      "marketing_statuses": [
+        "Prescription"
+      ],
+      "matched_name": "BELINOSTAT",
+      "n_applications": 1
+    },
+    "cabazitaxel": {
+      "applications": [
+        "ANDA207381",
+        "ANDA207619",
+        "ANDA207693",
+        "ANDA207718",
+        "ANDA207735"
+      ],
+      "eligible": true,
+      "marketing_statuses": [
+        "Discontinued",
+        "None (Tentative Approval)",
+        "Prescription"
+      ],
+      "matched_name": "CABAZITAXEL",
+      "n_applications": 11
+    },
+    "carboplatin": {
+      "applications": [
+        "ANDA076099",
+        "ANDA076162",
+        "ANDA076235",
+        "ANDA076473",
+        "ANDA076517"
+      ],
+      "eligible": true,
+      "marketing_statuses": [
+        "Discontinued",
+        "Prescription"
+      ],
+      "matched_name": "CARBOPLATIN",
+      "n_applications": 37
+    },
+    "carvedilol": {
+      "applications": [
+        "ANDA076373",
+        "ANDA076649",
+        "ANDA076989",
+        "ANDA077316",
+        "ANDA077346"
+      ],
+      "eligible": true,
+      "marketing_statuses": [
+        "Discontinued",
+        "Prescription"
+      ],
+      "matched_name": "CARVEDILOL",
+      "n_applications": 21
+    },
+    "cisplatin": {
+      "applications": [
+        "ANDA074656",
+        "ANDA074713",
+        "ANDA074735",
+        "ANDA074814",
+        "ANDA075036"
+      ],
+      "eligible": true,
+      "marketing_statuses": [
+        "Discontinued",
+        "Prescription"
+      ],
+      "matched_name": "CISPLATIN",
+      "n_applications": 10
+    },
+    "doxorubicin": {
+      "applications": [
+        "ANDA062921",
+        "ANDA062926",
+        "ANDA062975",
+        "ANDA063097",
+        "ANDA063165"
+      ],
+      "eligible": true,
+      "marketing_statuses": [
+        "Discontinued",
+        "Prescription"
+      ],
+      "matched_name": "DOXORUBICIN",
+      "n_applications": 30
+    },
+    "fenoldopam": {
+      "applications": [],
+      "eligible": false,
+      "marketing_statuses": [
+        "Discontinued"
+      ],
+      "matched_name": "FENOLDOPAM",
+      "n_applications": 0,
+      "reason": "no product with marketing status Prescription"
+    },
+    "fingolimod": {
+      "applications": [
+        "ANDA207933",
+        "ANDA207939",
+        "ANDA207940",
+        "ANDA207945",
+        "ANDA207965"
+      ],
+      "eligible": true,
+      "marketing_statuses": [
+        "Discontinued",
+        "None (Tentative Approval)",
+        "Prescription"
+      ],
+      "matched_name": "FINGOLIMOD",
+      "n_applications": 24
+    },
+    "fluvastatin": {
+      "applications": [
+        "ANDA078407",
+        "ANDA078872",
+        "ANDA079011",
+        "ANDA090595",
+        "ANDA202458"
+      ],
+      "eligible": true,
+      "marketing_statuses": [
+        "Discontinued",
+        "None (Tentative Approval)",
+        "Prescription"
+      ],
+      "matched_name": "FLUVASTATIN",
+      "n_applications": 8
+    },
+    "fostamatinib": {
+      "applications": [
+        "ANDA217329",
+        "NDA209299"
+      ],
+      "eligible": true,
+      "marketing_statuses": [
+        "Prescription"
+      ],
+      "matched_name": "FOSTAMATINIB",
+      "n_applications": 2
+    },
+    "guanabenz": {
+      "applications": [],
+      "eligible": false,
+      "marketing_statuses": [
+        "Discontinued"
+      ],
+      "matched_name": "GUANABENZ",
+      "n_applications": 0,
+      "reason": "no product with marketing status Prescription"
+    },
+    "lovastatin": {
+      "applications": [
+        "ANDA075300",
+        "ANDA075451",
+        "ANDA075551",
+        "ANDA075636",
+        "ANDA075828"
+      ],
+      "eligible": true,
+      "marketing_statuses": [
+        "Discontinued",
+        "Prescription"
+      ],
+      "matched_name": "LOVASTATIN",
+      "n_applications": 12
+    },
+    "maprotiline": {
+      "applications": [],
+      "eligible": false,
+      "marketing_statuses": [
+        "Discontinued"
+      ],
+      "matched_name": "MAPROTILINE",
+      "n_applications": 0,
+      "reason": "no product with marketing status Prescription"
+    },
+    "methyldopa": {
+      "applications": [
+        "ANDA070060",
+        "ANDA070070",
+        "ANDA070073",
+        "ANDA070074",
+        "ANDA070075"
+      ],
+      "eligible": true,
+      "marketing_statuses": [
+        "Discontinued",
+        "Prescription"
+      ],
+      "matched_name": "METHYLDOPA",
+      "n_applications": 91
+    },
+    "moxonidine": {
+      "applications": [],
+      "eligible": false,
+      "marketing_statuses": [],
+      "matched_name": null,
+      "n_applications": 0,
+      "reason": "no Drugs@FDA record matches the active ingredient"
+    },
+    "olaparib": {
+      "applications": [
+        "ANDA217936",
+        "ANDA218044",
+        "ANDA219410",
+        "ANDA219893",
+        "NDA206162"
+      ],
+      "eligible": true,
+      "marketing_statuses": [
+        "Discontinued",
+        "None (Tentative Approval)",
+        "Prescription"
+      ],
+      "matched_name": "OLAPARIB",
+      "n_applications": 6
+    },
+    "paclitaxel": {
+      "applications": [
+        "ANDA075184",
+        "ANDA075190",
+        "ANDA075278",
+        "ANDA075297",
+        "ANDA075436"
+      ],
+      "eligible": true,
+      "marketing_statuses": [
+        "Discontinued",
+        "Prescription"
+      ],
+      "matched_name": "PACLITAXEL",
+      "n_applications": 24
+    },
+    "panobinostat": {
+      "applications": [],
+      "eligible": false,
+      "marketing_statuses": [
+        "Discontinued"
+      ],
+      "matched_name": "PANOBINOSTAT",
+      "n_applications": 0,
+      "reason": "no product with marketing status Prescription"
+    },
+    "pravastatin": {
+      "applications": [
+        "ANDA076056",
+        "ANDA076341",
+        "ANDA076445",
+        "ANDA076714",
+        "ANDA076939"
+      ],
+      "eligible": true,
+      "marketing_statuses": [
+        "Discontinued",
+        "None (Tentative Approval)",
+        "Prescription"
+      ],
+      "matched_name": "PRAVASTATIN",
+      "n_applications": 20
+    },
+    "progesterone": {
+      "applications": [
+        "ANDA075906",
+        "ANDA090845",
+        "ANDA091033",
+        "ANDA200456",
+        "ANDA200900"
+      ],
+      "eligible": true,
+      "marketing_statuses": [
+        "Discontinued",
+        "Prescription"
+      ],
+      "matched_name": "PROGESTERONE",
+      "n_applications": 26
+    },
+    "tolazoline": {
+      "applications": [],
+      "eligible": false,
+      "marketing_statuses": [
+        "Discontinued"
+      ],
+      "matched_name": "TOLAZOLINE",
+      "n_applications": 0,
+      "reason": "no product with marketing status Prescription"
+    },
+    "tyrosine": {
+      "applications": [],
+      "eligible": false,
+      "marketing_statuses": [
+        "Discontinued"
+      ],
+      "matched_name": "TYROSINE",
+      "n_applications": 0,
+      "reason": "no product with marketing status Prescription"
+    },
+    "vorinostat": {
+      "applications": [
+        "NDA021991"
+      ],
+      "eligible": true,
+      "marketing_statuses": [
+        "Prescription"
+      ],
+      "matched_name": "VORINOSTAT",
+      "n_applications": 1
+    },
+    "zinc chloride": {
+      "applications": [
+        "ANDA212007",
+        "ANDA216152",
+        "ANDA217625",
+        "NDA018959"
+      ],
+      "eligible": true,
+      "marketing_statuses": [
+        "Prescription"
+      ],
+      "matched_name": "ZINC CHLORIDE",
+      "n_applications": 4
+    }
+  },
+  "evidence_gap": {
+    "gaps": [
+      {
+        "design_from_borrowing_logic": "Single-patient (N-of-1) crossover design with a pre-specified outcome, analysed with a hierarchical model that borrows from the mechanism class.",
+        "gap": "number of patients available for any study",
+        "orpha_codes": [
+          "ORPHA:1052"
+        ],
+        "orphanet_tier": ">5",
+        "state": "the proband is one known case (stated by the project; not computed from any record)"
+      },
+      {
+        "design_from_borrowing_logic": "Bayesian hierarchical model borrowing from the mechanism class pool; any study result of one disease of the class updates the class level (hypothesis for study design only).",
+        "gap": "no label to measure the engine on this disease; only the class-level behaviour is known",
+        "state": "class pool cell_cycle_mitotic_checkpoint: mean AUC 0.686759, tau2 0.058352, k=3"
+      },
+      {
+        "design_from_borrowing_logic": "paediatric extrapolation or an age-stratified label supplement is a sponsor/regulatory step; within a study, the N-of-1 or series design of the first gap applies with an independent safety committee.",
+        "gap": "age band 0-4 y without labelled support for 20 of the 20 top-ranked drugs",
+        "state": "states verify, not_labelled or age_not_stated"
+      },
+      {
+        "design_from_borrowing_logic": "paediatric extrapolation or an age-stratified label supplement is a sponsor/regulatory step; within a study, the N-of-1 or series design of the first gap applies with an independent safety committee.",
+        "gap": "age band 5-11 y without labelled support for 20 of the 20 top-ranked drugs",
+        "state": "states verify, not_labelled or age_not_stated"
+      },
+      {
+        "design_from_borrowing_logic": "paediatric extrapolation or an age-stratified label supplement is a sponsor/regulatory step; within a study, the N-of-1 or series design of the first gap applies with an independent safety committee.",
+        "gap": "age band 12-17 y without labelled support for 20 of the 20 top-ranked drugs",
+        "state": "states verify, not_labelled or age_not_stated"
+      }
+    ],
+    "note": "Hypotheses for study design only: no dose, no drug recommendation.",
+    "orphanet_tier_source": "Orphanet prevalence records of ORPHA:1052"
+  },
+  "filter_chain": {
+    "dropped_by_type_after_fda": {
+      "biologic": 286,
+      "oligonucleotide": 11,
+      "unknown_type": 53
+    },
+    "fda_label_by_molecule_type": {
+      "Antibody": 102,
+      "Antibody drug conjugate": 10,
+      "Cell": 5,
+      "Enzyme": 32,
+      "Gene": 16,
+      "Oligonucleotide": 11,
+      "Oligosaccharide": 8,
+      "Protein": 113,
+      "Small molecule": 1293,
+      "Unknown": 53
+    },
+    "n_added_by_drugs_at_fda_check": 2,
+    "n_checked_at_drugs_at_fda": 9,
+    "n_fda_label": 1643,
+    "n_fda_label_only_rule": 1641,
+    "n_small_molecule": 1293,
+    "n_universe": 2705,
+    "n_without_fda_label": 1062
+  },
+  "inputs": {
+    "frozen_model_sha256": "09e3a8e8f5a32ea79d455d69439a2edd86a96058fc85cd5a62be1c13b398e673",
+    "genes_proposed_not_scored": [
+      "CEP192",
+      "MAD2L1BP",
+      "SMC5"
+    ],
+    "genes_scored_curated": [
+      "BUB1",
+      "BUB1B",
+      "BUB3",
+      "CENATAC",
+      "CEP57",
+      "MAD1L1",
+      "TRIP13"
+    ],
+    "landscape_file": "out/mva_landscape.json",
+    "landscape_sha256": "52f241bbc1cc6eca2cb4582e4704c8fd78cbe3af20b8ddd853a7642e82412a73",
+    "max_publication_year": 2024,
+    "mechanism_classes": {
+      "centrosome/centriole": [
+        "CENATAC",
+        "CEP57"
+      ],
+      "spindle-assembly checkpoint": [
+        "BUB1",
+        "BUB1B",
+        "BUB3",
+        "MAD1L1",
+        "TRIP13"
+      ]
+    },
+    "n_universe_drugs": 2705,
+    "universe_sha256": "c4df43ba87d3146b117faec7a9050fde3f87ad757004f3b852bcbe01ebbea29c"
+  },
+  "label": "application of the frozen engine; exploratory; not a candidate list",
+  "label_support": {
+    "apomorphine": {
+      "bands": {
+        "0_4": "not_labelled",
+        "12_17": "not_labelled",
+        "5_11": "not_labelled"
+      },
+      "basis": "heuristic classifier of labels.classify_pediatric (not hand-verified)",
+      "drug_id": "CHEMBL53",
+      "label": {
+        "fecha_etiqueta": "20220224",
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "setid": "aedf70e4-1949-44bc-bf1b-0f282c4f0705",
+        "titulo": "APOMORPHINE HYDROCLORIDE (APOMORPHINE HYDROCHLORIDE) INJECTION [TRUPHARMA, LLC]"
+      },
+      "label_status": "NOT_ESTABLISHED",
+      "manual_review_required": true,
+      "minimum_age_years": null,
+      "name": "APOMORPHINE",
+      "reading_failures": null,
+      "scope_of_manual_review": null,
+      "three_group_status_existing_pipeline": {
+        "0_to_under_3": "not_labelled",
+        "12_and_older": "adult_only",
+        "3_to_under_12": "not_labelled"
+      },
+      "verbatim_hazard_quotes": [
+        {
+          "category": "segundos_tumores",
+          "quote": "5.15 Retinal Pathology in Albino Rats In a 2-year carcinogenicity study of apomorphine in albino rat, retinal atrophy was detected at all subcutaneous doses tested (up to 0.8 mg/kg/day or 2 mg/kg/day in males or females, respectively; less than the maximum recommended human dose of 20 mg/day on a body surface area [mg/m2] basis).",
+          "section": "warnings",
+          "set_id": "aedf70e4-1949-44bc-bf1b-0f282c4f0705",
+          "truncated": false
+        },
+        {
+          "category": "segundos_tumores",
+          "quote": "Retinal atrophy/degeneration has been observed in albino rats treated with other dopamine agonists for prolonged periods (generally during 2-year carcinogenicity studies).",
+          "section": "warnings",
+          "set_id": "aedf70e4-1949-44bc-bf1b-0f282c4f0705",
+          "truncated": false
+        },
+        {
+          "category": "embrio_fetal",
+          "quote": "8 USE IN SPECIFIC POPULATIONS Pregnancy: Based on animal data, may cause fetal harm (8.1) Geriatric Use: In clinical trials, patients 65 years of age and older were more likely to experience certain adverse events (8.5) 8.1 Pregnancy Risk Summary There are no adequate data on the developmental risk associated with use of apomorphine hydrocloride in pregnant women.",
+          "section": "warnings",
+          "set_id": "aedf70e4-1949-44bc-bf1b-0f282c4f0705",
+          "truncated": false
+        }
+      ],
+      "verbatim_pediatric_use": {
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "seccion": "pediatric_use",
+        "setid": "aedf70e4-1949-44bc-bf1b-0f282c4f0705",
+        "texto_literal": "8.4 Pediatric Use Safety and effectiveness in pediatric patients have not been established.",
+        "truncada": false
+      },
+      "verbatim_pediatric_warnings": []
+    },
+    "arsenic trioxide": {
+      "bands": {
+        "0_4": "verify",
+        "12_17": "verify",
+        "5_11": "verify"
+      },
+      "basis": "heuristic classifier of labels.classify_pediatric (not hand-verified)",
+      "drug_id": "CHEMBL5483015",
+      "label": {
+        "fecha_etiqueta": "20230124",
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "setid": "c99b01b4-67ff-4793-8375-fe3a21c6c9be",
+        "titulo": "ARSENIC TRIOXIDE INJECTION [INGENUS PHARMACEUTICALS, LLC]"
+      },
+      "label_status": "UNKNOWN",
+      "manual_review_required": true,
+      "minimum_age_years": null,
+      "name": "ARSENIC TRIOXIDE",
+      "reading_failures": null,
+      "scope_of_manual_review": null,
+      "three_group_status_existing_pipeline": {
+        "0_to_under_3": "verify",
+        "12_and_older": "verify",
+        "3_to_under_12": "verify"
+      },
+      "verbatim_hazard_quotes": [
+        {
+          "category": "boxed_warning",
+          "quote": "BOXED WARNING Differentiation Syndrome: Patients with acute promyelocytic leukemia (APL) treated with arsenic trioxide injection have experienced differentiation syndrome, which may be life-threatening or fatal.",
+          "section": "boxed_warning",
+          "set_id": "c99b01b4-67ff-4793-8375-fe3a21c6c9be",
+          "truncated": false
+        },
+        {
+          "category": "boxed_warning",
+          "quote": "Signs and symptoms may include unexplained fever, dyspnea, hypoxia, acute respiratory distress, pulmonary infiltrates, pleural or pericardial effusions, weight gain, peripheral edema, hypotension, renal insufficiency, hepatopathy, and multi-organ dysfunction, in the presence or absence of leukocytosis.",
+          "section": "boxed_warning",
+          "set_id": "c99b01b4-67ff-4793-8375-fe3a21c6c9be",
+          "truncated": false
+        },
+        {
+          "category": "segundos_tumores",
+          "quote": "Monitor patients for the development of second primary malignancies.",
+          "section": "warnings",
+          "set_id": "c99b01b4-67ff-4793-8375-fe3a21c6c9be",
+          "truncated": false
+        },
+        {
+          "category": "segundos_tumores",
+          "quote": "Monitor patients for the development of second primary malignancies.",
+          "section": "warnings",
+          "set_id": "c99b01b4-67ff-4793-8375-fe3a21c6c9be",
+          "truncated": false
+        },
+        {
+          "category": "embrio_fetal",
+          "quote": "(5.5) Embryo-Fetal Toxicity: Can cause fetal harm.",
+          "section": "warnings",
+          "set_id": "c99b01b4-67ff-4793-8375-fe3a21c6c9be",
+          "truncated": false
+        },
+        {
+          "category": "embrio_fetal",
+          "quote": "5.6 Embryo-Fetal Toxicity Arsenic trioxide injection can cause fetal harm when administered to a pregnant woman.",
+          "section": "warnings",
+          "set_id": "c99b01b4-67ff-4793-8375-fe3a21c6c9be",
+          "truncated": false
+        }
+      ],
+      "verbatim_pediatric_use": {
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "seccion": "pediatric_use",
+        "setid": "c99b01b4-67ff-4793-8375-fe3a21c6c9be",
+        "texto_literal": "8.4 Pediatric Use The safety and efficacy of arsenic trioxide injection as a single agent for treatment of pediatric patients with relapsed or refractory APL is supported by the pivotal phase 2 study in 40 patients with relapsed or refractory APL.",
+        "truncada": false
+      },
+      "verbatim_pediatric_warnings": []
+    },
+    "belinostat": {
+      "bands": {
+        "0_4": "not_labelled",
+        "12_17": "not_labelled",
+        "5_11": "not_labelled"
+      },
+      "basis": "heuristic classifier of labels.classify_pediatric (not hand-verified)",
+      "drug_id": "CHEMBL408513",
+      "label": {
+        "fecha_etiqueta": "20250407",
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "setid": "2e8ef36b-71fa-4492-a16f-577d5f7d111d",
+        "titulo": "BELEODAQ (BELINOSTAT) INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION [ACROTECH BIOPHARMA INC]"
+      },
+      "label_status": "NOT_ESTABLISHED",
+      "manual_review_required": true,
+      "minimum_age_years": null,
+      "name": "BELINOSTAT",
+      "reading_failures": null,
+      "scope_of_manual_review": null,
+      "three_group_status_existing_pipeline": {
+        "0_to_under_3": "not_labelled",
+        "12_and_older": "adult_only",
+        "3_to_under_12": "not_labelled"
+      },
+      "verbatim_hazard_quotes": [
+        {
+          "category": "toxicidad_medular",
+          "quote": "5 WARNINGS AND PRECAUTIONS Hematologic Toxicity: Thrombocytopenia, leukopenia (neutropenia and lymphopenia), and anemia: Monitor blood counts and modify dosage for hematologic toxicities.",
+          "section": "warnings",
+          "set_id": "2e8ef36b-71fa-4492-a16f-577d5f7d111d",
+          "truncated": false
+        },
+        {
+          "category": "toxicidad_medular",
+          "quote": "(5.6) 5.1 Hematologic Toxicity Beleodaq can cause thrombocytopenia, leukopenia (neutropenia and lymphopenia), and/or anemia; monitor blood counts weekly during treatment, and modify dosage as necessary [see Dosage and Administration (2.2 ) and Adverse Reactions(6.1)].",
+          "section": "warnings",
+          "set_id": "2e8ef36b-71fa-4492-a16f-577d5f7d111d",
+          "truncated": false
+        },
+        {
+          "category": "embrio_fetal",
+          "quote": "Embryo-Fetal Toxicity: Can cause fetal harm.",
+          "section": "warnings",
+          "set_id": "2e8ef36b-71fa-4492-a16f-577d5f7d111d",
+          "truncated": false
+        },
+        {
+          "category": "embrio_fetal",
+          "quote": "5.6 Embryo-fetal Toxicity Based on its mechanism of action and findings of genotoxicity, Beleodaq can cause fetal harm when administered to a pregnant woman [see Clinical Pharmacology (12.1) and Nonclinical Toxicology (13.1)].",
+          "section": "warnings",
+          "set_id": "2e8ef36b-71fa-4492-a16f-577d5f7d111d",
+          "truncated": false
+        }
+      ],
+      "verbatim_pediatric_use": {
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "seccion": "pediatric_use",
+        "setid": "2e8ef36b-71fa-4492-a16f-577d5f7d111d",
+        "texto_literal": "8.4 Pediatric Use The safety and effectiveness of Beleodaq in pediatric patients have not been established.",
+        "truncada": false
+      },
+      "verbatim_pediatric_warnings": []
+    },
+    "bortezomib": {
+      "bands": {
+        "0_4": "not_labelled",
+        "12_17": "not_labelled",
+        "5_11": "not_labelled"
+      },
+      "basis": "manual review (config/pediatric_label_review.json)",
+      "drug_id": "CHEMBL325041",
+      "label": {
+        "fecha_etiqueta": "20260909",
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "setid": "b605b541-4bfd-db3e-9710-11c27f6dee6c",
+        "titulo": "BORTEZOMIB [APOTEX CORP]"
+      },
+      "label_status": "NOT_ESTABLISHED",
+      "manual_review_required": false,
+      "minimum_age_years": null,
+      "name": "BORTEZOMIB",
+      "reading_failures": null,
+      "scope_of_manual_review": "not established; studied with chemotherapy in paediatric and young adult lymphoid malignancies",
+      "three_group_status_existing_pipeline": {
+        "0_to_under_3": "not_labelled",
+        "12_and_older": "adult_only",
+        "3_to_under_12": "not_labelled"
+      },
+      "verbatim_hazard_quotes": [
+        {
+          "category": "toxicidad_medular",
+          "quote": "(5.6) Thrombocytopenia and Neutropenia: Monitor complete blood counts regularly throughout treatment.",
+          "section": "warnings",
+          "set_id": "b605b541-4bfd-db3e-9710-11c27f6dee6c",
+          "truncated": false
+        },
+        {
+          "category": "toxicidad_medular",
+          "quote": "5.7 Thrombocytopenia/Neutropenia Bortezomib is associated with thrombocytopenia and neutropenia that follow a cyclical pattern with nadirs occurring following the last dose of each cycle and typically recovering prior to initiation of the subsequent cycle.",
+          "section": "warnings",
+          "set_id": "b605b541-4bfd-db3e-9710-11c27f6dee6c",
+          "truncated": false
+        },
+        {
+          "category": "embrio_fetal",
+          "quote": "(5.10) Embryo-Fetal Toxicity: Bortezomib for injection can cause fetal harm.",
+          "section": "warnings",
+          "set_id": "b605b541-4bfd-db3e-9710-11c27f6dee6c",
+          "truncated": false
+        },
+        {
+          "category": "embrio_fetal",
+          "quote": "5.11 Embryo-Fetal Toxicity Based on the mechanism of action and findings in animals, bortezomib can cause fetal harm when administered to a pregnant woman.",
+          "section": "warnings",
+          "set_id": "b605b541-4bfd-db3e-9710-11c27f6dee6c",
+          "truncated": false
+        }
+      ],
+      "verbatim_pediatric_use": {
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "seccion": "pediatric_use",
+        "setid": "b605b541-4bfd-db3e-9710-11c27f6dee6c",
+        "texto_literal": "8.4 Pediatric Use Safety and effectiveness have not been established in pediatric patients.",
+        "truncada": false
+      },
+      "verbatim_pediatric_warnings": []
+    },
+    "bosutinib": {
+      "bands": {
+        "0_4": "partly (from 1 y)",
+        "12_17": "labelled",
+        "5_11": "labelled"
+      },
+      "basis": "manual review (config/pediatric_label_review.json)",
+      "drug_id": "CHEMBL288441",
+      "label": {
+        "fecha_etiqueta": "20260310",
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "setid": "adc84ad5-a04d-4fee-9ba8-91f7abd928e3",
+        "titulo": "BOSULIF [PFIZER LABORATORIES DIV PFIZER INC]"
+      },
+      "label_status": "ESTABLISHED",
+      "manual_review_required": false,
+      "minimum_age_years": 1.0,
+      "name": "BOSUTINIB",
+      "reading_failures": null,
+      "scope_of_manual_review": "chronic-phase Philadelphia-chromosome-positive chronic myelogenous leukaemia (newly diagnosed, or resistant or intolerant) from 1 year; no other paediatric indication; label read: Bosulif (Pfizer)",
+      "three_group_status_existing_pipeline": {
+        "0_to_under_3": "partly (from 1 y)",
+        "12_and_older": "labelled",
+        "3_to_under_12": "labelled"
+      },
+      "verbatim_hazard_quotes": [
+        {
+          "category": "toxicidad_medular",
+          "quote": "(2.3, 5.1) •Myelosuppression: Monitor blood counts and manage as necessary.",
+          "section": "warnings",
+          "set_id": "adc84ad5-a04d-4fee-9ba8-91f7abd928e3",
+          "truncated": false
+        },
+        {
+          "category": "toxicidad_medular",
+          "quote": "5.2 Myelosuppression Thrombocytopenia, anemia and neutropenia occur with BOSULIF treatment.",
+          "section": "warnings",
+          "set_id": "adc84ad5-a04d-4fee-9ba8-91f7abd928e3",
+          "truncated": false
+        },
+        {
+          "category": "embrio_fetal",
+          "quote": "(5.6) •Embryo-Fetal Toxicity: BOSULIF can cause fetal harm.",
+          "section": "warnings",
+          "set_id": "adc84ad5-a04d-4fee-9ba8-91f7abd928e3",
+          "truncated": false
+        },
+        {
+          "category": "embrio_fetal",
+          "quote": "5.7 Embryo-Fetal Toxicity Based on findings from animal studies and its mechanism of action, BOSULIF can cause fetal harm when administered to a pregnant woman.",
+          "section": "warnings",
+          "set_id": "adc84ad5-a04d-4fee-9ba8-91f7abd928e3",
+          "truncated": false
+        }
+      ],
+      "verbatim_pediatric_use": {
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "seccion": "pediatric_use",
+        "setid": "adc84ad5-a04d-4fee-9ba8-91f7abd928e3",
+        "texto_literal": "8.4 Pediatric Use The safety and effectiveness of BOSULIF have been established in pediatric patients 1 year of age and older with newly-diagnosed CP Ph+ CML and CP Ph+ CML that is resistant or intolerant to prior therapy.",
+        "truncada": false
+      },
+      "verbatim_pediatric_warnings": []
+    },
+    "cabazitaxel": {
+      "bands": {
+        "0_4": "not_labelled",
+        "12_17": "not_labelled",
+        "5_11": "not_labelled"
+      },
+      "basis": "manual review (config/pediatric_label_review.json)",
+      "drug_id": "CHEMBL1201748",
+      "label": {
+        "fecha_etiqueta": "20221101",
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "setid": "ec6892c8-01e1-6a8b-e053-2995a90a956f",
+        "titulo": "cabazitaxel [ACCORD HEALTHCARE INC.]"
+      },
+      "label_status": "NOT_ESTABLISHED",
+      "manual_review_required": false,
+      "minimum_age_years": null,
+      "name": "CABAZITAXEL",
+      "reading_failures": null,
+      "scope_of_manual_review": "label states safety and effectiveness in paediatric patients have not been established (a dose-finding study is described)",
+      "three_group_status_existing_pipeline": {
+        "0_to_under_3": "not_labelled",
+        "12_and_older": "adult_only",
+        "3_to_under_12": "not_labelled"
+      },
+      "verbatim_hazard_quotes": [
+        {
+          "category": "boxed_warning",
+          "quote": "WARNING: NEUTROPENIA AND HYPERSENSITIVITY WARNING: NEUTROPENIA AND HYPERSENSITIVITY See full prescribing information for complete boxed warning .",
+          "section": "boxed_warning",
+          "set_id": "ec6892c8-01e1-6a8b-e053-2995a90a956f",
+          "truncated": false
+        },
+        {
+          "category": "boxed_warning",
+          "quote": "Neutropenic deaths have been reported.",
+          "section": "boxed_warning",
+          "set_id": "ec6892c8-01e1-6a8b-e053-2995a90a956f",
+          "truncated": false
+        },
+        {
+          "category": "toxicidad_medular",
+          "quote": "WARNING: NEUTROPENIA AND HYPERSENSITIVITY WARNING: NEUTROPENIA AND HYPERSENSITIVITY See full prescribing information for complete boxed warning .",
+          "section": "boxed_warning",
+          "set_id": "ec6892c8-01e1-6a8b-e053-2995a90a956f",
+          "truncated": false
+        },
+        {
+          "category": "toxicidad_medular",
+          "quote": "Neutropenic deaths have been reported.",
+          "section": "boxed_warning",
+          "set_id": "ec6892c8-01e1-6a8b-e053-2995a90a956f",
+          "truncated": false
+        },
+        {
+          "category": "embrio_fetal",
+          "quote": "( 2.3, 5.8) Embryo-fetal toxicity: Cabazitaxel Injection can cause fetal harm and loss of pregnancy.",
+          "section": "warnings",
+          "set_id": "ec6892c8-01e1-6a8b-e053-2995a90a956f",
+          "truncated": false
+        },
+        {
+          "category": "embrio_fetal",
+          "quote": "5.9 Embryo-Fetal Toxicity Based on findings in animal reproduction studies and its mechanism of action, cabazitaxel can cause fetal harm when administered to a pregnant woman [see Clinical Pharmacology (12.1)] .",
+          "section": "warnings",
+          "set_id": "ec6892c8-01e1-6a8b-e053-2995a90a956f",
+          "truncated": false
+        }
+      ],
+      "verbatim_pediatric_use": {
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "seccion": "pediatric_use",
+        "setid": "ec6892c8-01e1-6a8b-e053-2995a90a956f",
+        "texto_literal": "8.4 Pediatric Use The safety and effectiveness of cabazitaxel in pediatric patients have not been established.",
+        "truncada": false
+      },
+      "verbatim_pediatric_warnings": [
+        {
+          "fecha_lectura": "read time not recorded (deterministic output)",
+          "fuente": "DailyMed",
+          "seccion": "pediatric_use",
+          "setid": "ec6892c8-01e1-6a8b-e053-2995a90a956f",
+          "texto_literal": "The maximum tolerated dose (MTD) was 30 mg/m 2 intravenously over 1 hour on Day 1 of a 21 day cycle in pediatric patients with solid tumors based on the dose-limiting toxicity (DLT) of febrile neutropenia.",
+          "truncada": false
+        }
+      ]
+    },
+    "carboplatin": {
+      "bands": {
+        "0_4": "not_labelled",
+        "12_17": "not_labelled",
+        "5_11": "not_labelled"
+      },
+      "basis": "manual review (config/pediatric_label_review.json)",
+      "drug_id": "CHEMBL1351",
+      "label": {
+        "fecha_etiqueta": "20260721",
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "setid": "4c89cedc-e48b-445c-ad05-54dbe60e4fb0",
+        "titulo": "CARBOPLATIN [NATCO PHARMA USA LLC]"
+      },
+      "label_status": "NOT_ESTABLISHED",
+      "manual_review_required": false,
+      "minimum_age_years": null,
+      "name": "CARBOPLATIN",
+      "reading_failures": null,
+      "scope_of_manual_review": "not established; the label refers to audiologic toxicity",
+      "three_group_status_existing_pipeline": {
+        "0_to_under_3": "not_labelled",
+        "12_and_older": "adult_only",
+        "3_to_under_12": "not_labelled"
+      },
+      "verbatim_hazard_quotes": [
+        {
+          "category": "boxed_warning",
+          "quote": "WARNINGS Carboplatin injection should be administered under the supervision of a qualified physician experienced in the use of cancer chemotherapeutic agents.",
+          "section": "boxed_warning",
+          "set_id": "4c89cedc-e48b-445c-ad05-54dbe60e4fb0",
+          "truncated": false
+        },
+        {
+          "category": "boxed_warning",
+          "quote": "Appropriate management of therapy and complications is possible only when adequate treatment facilities are readily available.",
+          "section": "boxed_warning",
+          "set_id": "4c89cedc-e48b-445c-ad05-54dbe60e4fb0",
+          "truncated": false
+        },
+        {
+          "category": "toxicidad_medular",
+          "quote": "Bone marrow suppression is dose related and may be severe, resulting in infection and/or bleeding.",
+          "section": "boxed_warning",
+          "set_id": "4c89cedc-e48b-445c-ad05-54dbe60e4fb0",
+          "truncated": false
+        },
+        {
+          "category": "toxicidad_medular",
+          "quote": "WARNINGS Bone marrow suppression (leukopenia, neutropenia, and thrombocytopenia) is dose-dependent and is also the dose-limiting toxicity.",
+          "section": "warnings",
+          "set_id": "4c89cedc-e48b-445c-ad05-54dbe60e4fb0",
+          "truncated": false
+        },
+        {
+          "category": "segundos_tumores",
+          "quote": "Carcinogenesis, Mutagenesis, Impairment of Fertility The carcinogenic potential of carboplatin has not been studied, but compounds with similar mechanisms of action and mutagenicity profiles have been reported to be carcinogenic.",
+          "section": "warnings",
+          "set_id": "4c89cedc-e48b-445c-ad05-54dbe60e4fb0",
+          "truncated": false
+        },
+        {
+          "category": "segundos_tumores",
+          "quote": "Secondary malignancies have been reported in association with multi-drug therapy.",
+          "section": "warnings",
+          "set_id": "4c89cedc-e48b-445c-ad05-54dbe60e4fb0",
+          "truncated": false
+        },
+        {
+          "category": "embrio_fetal",
+          "quote": "Carboplatin injection may cause fetal harm when administered to a pregnant woman.",
+          "section": "warnings",
+          "set_id": "4c89cedc-e48b-445c-ad05-54dbe60e4fb0",
+          "truncated": false
+        },
+        {
+          "category": "embrio_fetal",
+          "quote": "Carboplatin has been shown to be embryotoxic and teratogenic in rats.",
+          "section": "warnings",
+          "set_id": "4c89cedc-e48b-445c-ad05-54dbe60e4fb0",
+          "truncated": false
+        }
+      ],
+      "verbatim_pediatric_use": {
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "seccion": "pediatric_use",
+        "setid": "4c89cedc-e48b-445c-ad05-54dbe60e4fb0",
+        "texto_literal": "Pediatric Use Safety and effectiveness in pediatric patients have not been established (seeWARNINGS : \"audiologic toxicity\").",
+        "truncada": false
+      },
+      "verbatim_pediatric_warnings": [
+        {
+          "fecha_lectura": "read time not recorded (deterministic output)",
+          "fuente": "DailyMed",
+          "seccion": "pediatric_use",
+          "setid": "4c89cedc-e48b-445c-ad05-54dbe60e4fb0",
+          "texto_literal": "Pediatric Use Safety and effectiveness in pediatric patients have not been established (seeWARNINGS : \"audiologic toxicity\").",
+          "truncada": false
+        }
+      ]
+    },
+    "carvedilol": {
+      "bands": {
+        "0_4": "verify",
+        "12_17": "verify",
+        "5_11": "verify"
+      },
+      "basis": "heuristic classifier of labels.classify_pediatric (not hand-verified); no readable paediatric-use section",
+      "drug_id": "CHEMBL723",
+      "label": {
+        "fecha_etiqueta": "20260923",
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "setid": "5c297a25-6194-45c1-e063-6294a90ae8ed",
+        "titulo": "CARVEDILOL TABLET, FILM COATED [DIRECT_RX]"
+      },
+      "label_status": "UNKNOWN",
+      "manual_review_required": true,
+      "minimum_age_years": null,
+      "name": "CARVEDILOL",
+      "reading_failures": null,
+      "scope_of_manual_review": null,
+      "three_group_status_existing_pipeline": {
+        "0_to_under_3": "verify",
+        "12_and_older": "verify",
+        "3_to_under_12": "verify"
+      },
+      "verbatim_hazard_quotes": [
+        {
+          "category": "embrio_fetal",
+          "quote": "Clinical Considerations Disease-Associated Maternal and/or Embryo/Fetal Risk: Hypertension in pregnancy increases the maternal risk for pre-eclampsia, gestational diabetes, premature delivery, and delivery complications (e.g., need for cesarean section and post-partum hemorrhage).",
+          "section": "warnings",
+          "set_id": "5c297a25-6194-45c1-e063-6294a90ae8ed",
+          "truncated": false
+        },
+        {
+          "category": "embrio_fetal",
+          "quote": "In rats, the no-effect level for embryo-fetal toxicity was 60 mg per kg per day (10 times the MRHD as mg per m2); in rabbits, it was 15 mg per kg per day (5 times the MRHD as mg per m2).",
+          "section": "warnings",
+          "set_id": "5c297a25-6194-45c1-e063-6294a90ae8ed",
+          "truncated": false
+        }
+      ],
+      "verbatim_pediatric_use": null,
+      "verbatim_pediatric_warnings": []
+    },
+    "chloroquine": {
+      "bands": {
+        "0_4": "verify",
+        "12_17": "verify",
+        "5_11": "verify"
+      },
+      "basis": "manual review verdict: verify",
+      "drug_id": "CHEMBL76",
+      "label": {
+        "fecha_etiqueta": "20260929",
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "setid": "eb02c52d-907c-43fb-aa8f-2f378a9087e7",
+        "titulo": "Chloroquine Phosphate [AMNEAL PHARMACEUTICALS OF NEW YORK LLC]"
+      },
+      "label_status": "VERIFY",
+      "manual_review_required": true,
+      "minimum_age_years": null,
+      "name": "CHLOROQUINE",
+      "reading_failures": null,
+      "scope_of_manual_review": "the paediatric section only refers to the warnings and the dosage section (paediatric dosing for malaria); no statement of established use and no minimum age (implicit paediatric labelling)",
+      "three_group_status_existing_pipeline": {
+        "0_to_under_3": "verify",
+        "12_and_older": "verify",
+        "3_to_under_12": "verify"
+      },
+      "verbatim_hazard_quotes": [
+        {
+          "category": "toxicidad_medular",
+          "quote": "The publications reported both positive and negative results in the in vitro reverse gene mutation assays using bacteria (Ames test) and in the in vivo studies using rodents (mouse bone marrow cell sister chromatid exchange, mouse bone marrow cell chromosome abnormality, and rat DNA strand breaks in multiple organs when animals were dosed by intraperitoneal route).",
+          "section": "warnings",
+          "set_id": "eb02c52d-907c-43fb-aa8f-2f378a9087e7",
+          "truncated": false
+        },
+        {
+          "category": "segundos_tumores",
+          "quote": "Potential Carcinogenic Risk Experimental data showed a potential risk of inducing gene mutations.",
+          "section": "warnings",
+          "set_id": "eb02c52d-907c-43fb-aa8f-2f378a9087e7",
+          "truncated": false
+        },
+        {
+          "category": "segundos_tumores",
+          "quote": "There is insufficient evidence regarding the carcinogenicity of chloroquine in experimental animals (see PRECAUTIONS, Carcinogenesis, Mutagenesis, Impairment of Fertility ).",
+          "section": "warnings",
+          "set_id": "eb02c52d-907c-43fb-aa8f-2f378a9087e7",
+          "truncated": false
+        },
+        {
+          "category": "embrio_fetal",
+          "quote": "Usage in Pregnancy In animal studies, embryo-fetal developmental toxicity was shown at doses ranging from 250 mg/kg to 1,500 mg/kg body weight; approximately 3 to 16 times the maximum recommended therapeutic dose based on a body surface area comparison (see PRECAUTIONS, Animal Pharmacology and/or Animal Toxicology ).",
+          "section": "warnings",
+          "set_id": "eb02c52d-907c-43fb-aa8f-2f378a9087e7",
+          "truncated": false
+        }
+      ],
+      "verbatim_pediatric_use": {
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "seccion": "pediatric_use",
+        "setid": "eb02c52d-907c-43fb-aa8f-2f378a9087e7",
+        "texto_literal": "Pediatric Use See WARNINGS and DOSAGE AND ADMINISTRATION .",
+        "truncada": false
+      },
+      "verbatim_pediatric_warnings": []
+    },
+    "cisplatin": {
+      "bands": {
+        "0_4": "not_labelled",
+        "12_17": "not_labelled",
+        "5_11": "not_labelled"
+      },
+      "basis": "manual review (config/pediatric_label_review.json)",
+      "drug_id": "CHEMBL11359",
+      "label": {
+        "fecha_etiqueta": "20260624",
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "setid": "508496cb-3441-46b3-a4fe-e0d440e6adc6",
+        "titulo": "Cisplatin [WG CRITICAL CARE, LLC]"
+      },
+      "label_status": "NOT_ESTABLISHED",
+      "manual_review_required": false,
+      "minimum_age_years": null,
+      "name": "CISPLATIN",
+      "reading_failures": null,
+      "scope_of_manual_review": "no paediatric indication; the label's paediatric statement is an ototoxicity warning (more severe in patients under 5 years). The earlier heuristic 'established from 5 years' misread that warning",
+      "three_group_status_existing_pipeline": {
+        "0_to_under_3": "not_labelled",
+        "12_and_older": "adult_only",
+        "3_to_under_12": "not_labelled"
+      },
+      "verbatim_hazard_quotes": [
+        {
+          "category": "boxed_warning",
+          "quote": "WARNING: NEPHROTOXICITY, PERIPHERAL NEUROPATHY, NAUSEA AND VOMITING and MYELOSUPPRESSION. • Nephrotoxicity: cisplatin for injection can cause severe renal toxicity, including acute renal failure.",
+          "section": "boxed_warning",
+          "set_id": "508496cb-3441-46b3-a4fe-e0d440e6adc6",
+          "truncated": false
+        },
+        {
+          "category": "boxed_warning",
+          "quote": "Severe renal toxicities are dose-related and cumulative.",
+          "section": "boxed_warning",
+          "set_id": "508496cb-3441-46b3-a4fe-e0d440e6adc6",
+          "truncated": false
+        },
+        {
+          "category": "toxicidad_medular",
+          "quote": "WARNING: NEPHROTOXICITY, PERIPHERAL NEUROPATHY, NAUSEA AND VOMITING and MYELOSUPPRESSION. • Nephrotoxicity: cisplatin for injection can cause severe renal toxicity, including acute renal failure.",
+          "section": "boxed_warning",
+          "set_id": "508496cb-3441-46b3-a4fe-e0d440e6adc6",
+          "truncated": false
+        },
+        {
+          "category": "toxicidad_medular",
+          "quote": "Use highly effective antiemetic premedication [see Dosage and Administration (2.1) and Warnings and Precautions (5.3)]. • Myelosuppression: cisplatin for injection can cause severe myelosuppression with fatalities due to infections.",
+          "section": "boxed_warning",
+          "set_id": "508496cb-3441-46b3-a4fe-e0d440e6adc6",
+          "truncated": false
+        },
+        {
+          "category": "segundos_tumores",
+          "quote": "5 WARNINGS AND PRECAUTIONS •Hypersensitivity reactions: Anaphylaxis and death may occur; monitor for and treat accordingly (5.5) •Ototoxicity: Cumulative toxicity may be severe particularly in pediatric patients; consider audiometric and vestibular function monitoring (5.6, 8.4) •Ocular toxicity: Optic neuritis, papilledema, and cortical blindness may occur (5.7) •Secondary leukemia: Secondary acute leukemia may occur (5.8) •Embryo-fetal toxicity: Can cause fetal harm.",
+          "section": "warnings",
+          "set_id": "508496cb-3441-46b3-a4fe-e0d440e6adc6",
+          "truncated": false
+        },
+        {
+          "category": "segundos_tumores",
+          "quote": "5.8 Secondary Malignancies The development of acute leukemia secondary to the use of cisplatin for injection has been reported.",
+          "section": "warnings",
+          "set_id": "508496cb-3441-46b3-a4fe-e0d440e6adc6",
+          "truncated": false
+        },
+        {
+          "category": "embrio_fetal",
+          "quote": "5 WARNINGS AND PRECAUTIONS •Hypersensitivity reactions: Anaphylaxis and death may occur; monitor for and treat accordingly (5.5) •Ototoxicity: Cumulative toxicity may be severe particularly in pediatric patients; consider audiometric and vestibular function monitoring (5.6, 8.4) •Ocular toxicity: Optic neuritis, papilledema, and cortical blindness may occur (5.7) •Secondary leukemia: Secondary acute leukemia may occur (5.8) •Embryo-fetal toxicity: Can cause fetal harm.",
+          "section": "warnings",
+          "set_id": "508496cb-3441-46b3-a4fe-e0d440e6adc6",
+          "truncated": false
+        },
+        {
+          "category": "embrio_fetal",
+          "quote": "5.9 Embryo-Fetal Toxicity Based on human data, cisplatin for injection can cause fetal harm when administered to a pregnant woman.",
+          "section": "warnings",
+          "set_id": "508496cb-3441-46b3-a4fe-e0d440e6adc6",
+          "truncated": false
+        }
+      ],
+      "verbatim_pediatric_use": {
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "seccion": "pediatric_use",
+        "setid": "508496cb-3441-46b3-a4fe-e0d440e6adc6",
+        "texto_literal": "8.4 Pediatric Use Ototoxic effects may be more severe and detrimental in pediatric patients receiving cisplatin for injection, particularly in patients less than 5 years of age.",
+        "truncada": false
+      },
+      "verbatim_pediatric_warnings": []
+    },
+    "doxorubicin": {
+      "bands": {
+        "0_4": "age_not_stated",
+        "12_17": "age_not_stated",
+        "5_11": "age_not_stated"
+      },
+      "basis": "manual review (config/pediatric_label_review.json)",
+      "drug_id": "CHEMBL53463",
+      "label": {
+        "fecha_etiqueta": "20260505",
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "setid": "1fd148fb-0fbc-4b6f-b790-23546fb46a71",
+        "titulo": "Doxorubicin Hydrochloride [PFIZER LABORATORIES DIV PFIZER INC]"
+      },
+      "label_status": "ESTABLISHED",
+      "manual_review_required": false,
+      "minimum_age_years": null,
+      "name": "DOXORUBICIN",
+      "reading_failures": null,
+      "scope_of_manual_review": "label read: conventional doxorubicin hydrochloride injection (the earlier automatic read used the liposomal product, where paediatric use is not established). The indications include childhood cancers (metastatic Wilms' tumor, metastatic neuroblastoma) and the label gives paediatric safety information (late cardiovascular dysfunction, especially under 5 years) without a minimum age or a statement of established effectiveness",
+      "three_group_status_existing_pipeline": {
+        "0_to_under_3": "age_not_stated",
+        "12_and_older": "age_not_stated",
+        "3_to_under_12": "age_not_stated"
+      },
+      "verbatim_hazard_quotes": [
+        {
+          "category": "boxed_warning",
+          "quote": "WARNING: CARDIOMYOPATHY, SECONDARY MALIGNANCIES, EXTRAVASATION AND TISSUE NECROSIS, and SEVERE MYELOSUPPRESSION • Cardiomyopathy: Myocardial damage, including acute left ventricular failure, can occur with doxorubicin hydrochloride.",
+          "section": "boxed_warning",
+          "set_id": "1fd148fb-0fbc-4b6f-b790-23546fb46a71",
+          "truncated": false
+        },
+        {
+          "category": "boxed_warning",
+          "quote": "The risk of cardiomyopathy is proportional to the cumulative exposure with incidence rates from 1%–20% for cumulative doses ranging from 300 mg/m2 to 500 mg/m2 when doxorubicin hydrochloride is administered every 3 weeks.",
+          "section": "boxed_warning",
+          "set_id": "1fd148fb-0fbc-4b6f-b790-23546fb46a71",
+          "truncated": false
+        },
+        {
+          "category": "toxicidad_medular",
+          "quote": "WARNING: CARDIOMYOPATHY, SECONDARY MALIGNANCIES, EXTRAVASATION AND TISSUE NECROSIS, and SEVERE MYELOSUPPRESSION • Cardiomyopathy: Myocardial damage, including acute left ventricular failure, can occur with doxorubicin hydrochloride.",
+          "section": "boxed_warning",
+          "set_id": "1fd148fb-0fbc-4b6f-b790-23546fb46a71",
+          "truncated": false
+        },
+        {
+          "category": "toxicidad_medular",
+          "quote": "Immediately terminate the drug and apply ice to the affected area [see Warnings and Precautions (5.3)]. • Severe myelosuppression resulting in serious infection, septic shock, requirement for transfusions, hospitalization, and death may occur [see Warnings and Precautions (5.4)].",
+          "section": "boxed_warning",
+          "set_id": "1fd148fb-0fbc-4b6f-b790-23546fb46a71",
+          "truncated": false
+        },
+        {
+          "category": "segundos_tumores",
+          "quote": "WARNING: CARDIOMYOPATHY, SECONDARY MALIGNANCIES, EXTRAVASATION AND TISSUE NECROSIS, and SEVERE MYELOSUPPRESSION • Cardiomyopathy: Myocardial damage, including acute left ventricular failure, can occur with doxorubicin hydrochloride.",
+          "section": "boxed_warning",
+          "set_id": "1fd148fb-0fbc-4b6f-b790-23546fb46a71",
+          "truncated": false
+        },
+        {
+          "category": "segundos_tumores",
+          "quote": "Assess left ventricular ejection fraction (LVEF) before and regularly during and after treatment with doxorubicin hydrochloride [see Warnings and Precautions (5.1)]. • Secondary Malignancies: Secondary acute myelogenous leukemia (AML) and myelodysplastic syndrome (MDS) occur at a higher incidence in patients treated with anthracyclines, including doxorubicin hydrochloride [see Warnings and Precautions (5.2)]. • Extravasation and Tissue Necrosis: Extravasation of doxorubicin hydrochloride can result in severe local tissue injury and necrosis requiring wide excision of the affected area and skin",
+          "section": "boxed_warning",
+          "set_id": "1fd148fb-0fbc-4b6f-b790-23546fb46a71",
+          "truncated": true
+        },
+        {
+          "category": "embrio_fetal",
+          "quote": "(5.7) • Embryo-Fetal Toxicity: Can cause fetal harm.",
+          "section": "warnings",
+          "set_id": "1fd148fb-0fbc-4b6f-b790-23546fb46a71",
+          "truncated": false
+        },
+        {
+          "category": "embrio_fetal",
+          "quote": "5.8 Embryo-Fetal Toxicity Based on findings in animals and its mechanism of action, Doxorubicin Hydrochloride Injection can cause fetal harm when administered to a pregnant woman; avoid the use of Doxorubicin Hydrochloride Injection during the 1st trimester.",
+          "section": "warnings",
+          "set_id": "1fd148fb-0fbc-4b6f-b790-23546fb46a71",
+          "truncated": false
+        }
+      ],
+      "verbatim_pediatric_use": {
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "seccion": "pediatric_use",
+        "setid": "1fd148fb-0fbc-4b6f-b790-23546fb46a71",
+        "texto_literal": "8.4 Pediatric Use Based on postmarketing reports, pediatric patients treated with doxorubicin hydrochloride are at risk for developing late cardiovascular dysfunction.",
+        "truncada": false
+      },
+      "verbatim_pediatric_warnings": []
+    },
+    "everolimus": {
+      "bands": {
+        "0_4": "partly (from 1 y)",
+        "12_17": "labelled",
+        "5_11": "labelled"
+      },
+      "basis": "manual review (config/pediatric_label_review.json)",
+      "drug_id": "CHEMBL1908360",
+      "label": {
+        "fecha_etiqueta": "20260601",
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "setid": "2150f73a-179b-4afc-b8ce-67c85cc72f04",
+        "titulo": "Afinitor [NOVARTIS PHARMACEUTICALS CORPORATION]"
+      },
+      "label_status": "ESTABLISHED",
+      "manual_review_required": false,
+      "minimum_age_years": 1.0,
+      "name": "EVEROLIMUS",
+      "reading_failures": null,
+      "scope_of_manual_review": "label read: AFINITOR and AFINITOR DISPERZ; TSC-associated subependymal giant cell astrocytoma from 1 year (not established below 1 year); the ZORTRESS label (transplantation) says paediatric use below 18 years is not established",
+      "three_group_status_existing_pipeline": {
+        "0_to_under_3": "partly (from 1 y)",
+        "12_and_older": "labelled",
+        "3_to_under_12": "labelled"
+      },
+      "verbatim_hazard_quotes": [
+        {
+          "category": "toxicidad_medular",
+          "quote": "(2.9, 5.9) Myelosuppression: Monitor hematologic parameters prior to treatment and periodically thereafter.",
+          "section": "warnings",
+          "set_id": "2150f73a-179b-4afc-b8ce-67c85cc72f04",
+          "truncated": false
+        },
+        {
+          "category": "toxicidad_medular",
+          "quote": "5.10 Myelosuppression Anemia, lymphopenia, neutropenia, and thrombocytopenia have been reported in patients taking AFINITOR/AFINITOR DISPERZ.",
+          "section": "warnings",
+          "set_id": "2150f73a-179b-4afc-b8ce-67c85cc72f04",
+          "truncated": false
+        },
+        {
+          "category": "embrio_fetal",
+          "quote": "(5.12, 6.2) Embryo-Fetal Toxicity: Can cause fetal harm.",
+          "section": "warnings",
+          "set_id": "2150f73a-179b-4afc-b8ce-67c85cc72f04",
+          "truncated": false
+        },
+        {
+          "category": "embrio_fetal",
+          "quote": "5.13 Embryo-Fetal Toxicity Based on animal studies and the mechanism of action, AFINITOR/AFINITOR DISPERZ can cause fetal harm when administered to a pregnant woman.",
+          "section": "warnings",
+          "set_id": "2150f73a-179b-4afc-b8ce-67c85cc72f04",
+          "truncated": false
+        }
+      ],
+      "verbatim_pediatric_use": {
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "seccion": "pediatric_use",
+        "setid": "2150f73a-179b-4afc-b8ce-67c85cc72f04",
+        "texto_literal": "8.4 Pediatric Use TSC-Associated SEGA The safety and effectiveness of AFINITOR/AFINITOR DISPERZ have been established in pediatric patients age 1 year and older with TSC-associated SEGA that requires therapeutic intervention but cannot be curatively resected.",
+        "truncada": false
+      },
+      "verbatim_pediatric_warnings": [
+        {
+          "fecha_lectura": "read time not recorded (deterministic output)",
+          "fuente": "DailyMed",
+          "seccion": "pediatric_use",
+          "setid": "2150f73a-179b-4afc-b8ce-67c85cc72f04",
+          "texto_literal": "Two fatal cases due to infections were reported in pediatric patients.",
+          "truncada": false
+        }
+      ]
+    },
+    "fingolimod": {
+      "bands": {
+        "0_4": "verify",
+        "12_17": "verify",
+        "5_11": "verify"
+      },
+      "basis": "heuristic classifier of labels.classify_pediatric (not hand-verified)",
+      "drug_id": "CHEMBL314854",
+      "label": {
+        "fecha_etiqueta": "20260911",
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "setid": "a545c6fc-7006-52c2-f476-34e9801ac04f",
+        "titulo": "FINGOLIMOD CAPSULE [APOTEX CORP.]"
+      },
+      "label_status": "MIXED",
+      "manual_review_required": true,
+      "minimum_age_years": 18.0,
+      "name": "FINGOLIMOD",
+      "reading_failures": null,
+      "scope_of_manual_review": null,
+      "three_group_status_existing_pipeline": {
+        "0_to_under_3": "verify",
+        "12_and_older": "verify",
+        "3_to_under_12": "verify"
+      },
+      "verbatim_hazard_quotes": [
+        {
+          "category": "embrio_fetal",
+          "quote": "(5.7) Fetal Risk: May cause fetal harm.",
+          "section": "warnings",
+          "set_id": "a545c6fc-7006-52c2-f476-34e9801ac04f",
+          "truncated": false
+        },
+        {
+          "category": "embrio_fetal",
+          "quote": "5.8 Fetal Risk Fingolimod Capsules may cause fetal harm when administered to a pregnant woman.",
+          "section": "warnings",
+          "set_id": "a545c6fc-7006-52c2-f476-34e9801ac04f",
+          "truncated": false
+        }
+      ],
+      "verbatim_pediatric_use": {
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "seccion": "pediatric_use",
+        "setid": "a545c6fc-7006-52c2-f476-34e9801ac04f",
+        "texto_literal": "8.4 Pediatric Use Safety and effectiveness of Fingolimod Capsules for the treatment of relapsing forms of multiple sclerosis in pediatric patients 10 to less than 18 years of age were established in one randomized, double-blind clinical study in 215 patients (Fingolimod Capsules n = 107; intramuscular interferon (IFN) beta-1a n = 108) [see Clinical Studies (14.2)].",
+        "truncada": false
+      },
+      "verbatim_pediatric_warnings": [
+        {
+          "fecha_lectura": "read time not recorded (deterministic output)",
+          "fuente": "DailyMed",
+          "seccion": "pediatric_use",
+          "setid": "a545c6fc-7006-52c2-f476-34e9801ac04f",
+          "texto_literal": "Juvenile Animal Toxicity Data In a study in which fingolimod (0.3, 1.5, or 7.5 mg/kg/day) was orally administered to young rats from weaning through sexual maturity, changes in bone mineral density and persistent neurobehavioral impairment (altered auditory startle) were observed at all doses.",
+          "truncada": false
+        }
+      ]
+    },
+    "fluvastatin": {
+      "bands": {
+        "0_4": "verify",
+        "12_17": "verify",
+        "5_11": "verify"
+      },
+      "basis": "heuristic classifier of labels.classify_pediatric (not hand-verified)",
+      "drug_id": "CHEMBL2220442",
+      "label": {
+        "fecha_etiqueta": "20260410",
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "setid": "ccd6bbe1-e293-4e1c-9ec4-e6c217612e77",
+        "titulo": "FLUVASTATIN CAPSULE [BRYANT RANCH PREPACK]"
+      },
+      "label_status": "UNKNOWN",
+      "manual_review_required": true,
+      "minimum_age_years": 16.0,
+      "name": "FLUVASTATIN",
+      "reading_failures": null,
+      "scope_of_manual_review": null,
+      "three_group_status_existing_pipeline": {
+        "0_to_under_3": "verify",
+        "12_and_older": "verify",
+        "3_to_under_12": "verify"
+      },
+      "verbatim_hazard_quotes": [
+        {
+          "category": "segundos_tumores",
+          "quote": "5.5 CNS Toxicity CNS effects, as evidenced by decreased activity, ataxia, loss of righting reflex, and ptosis were seen in the following animal studies: the 18 month mouse carcinogenicity study at 50 mg/kg/day, the 6 month dog study at 36 mg/kg/day, the 6 month hamster study at 40 mg/kg/day, and in acute, high-dose studies in rats and hamsters (50 mg/kg), rabbits (300 mg/kg) and mice (1500 mg/kg).",
+          "section": "warnings",
+          "set_id": "ccd6bbe1-e293-4e1c-9ec4-e6c217612e77",
+          "truncated": false
+        },
+        {
+          "category": "embrio_fetal",
+          "quote": "Fluvastatin capsules may cause fetal harm when administered to pregnant women.",
+          "section": "contraindications",
+          "set_id": "ccd6bbe1-e293-4e1c-9ec4-e6c217612e77",
+          "truncated": false
+        },
+        {
+          "category": "embrio_fetal",
+          "quote": "Teratology studies with fluvastatin in rats and rabbits showed maternal toxicity at high dose levels, but there was no evidence of embryotoxic or teratogenic potential [see Nonclinical Toxicology (13)].",
+          "section": "warnings",
+          "set_id": "ccd6bbe1-e293-4e1c-9ec4-e6c217612e77",
+          "truncated": false
+        }
+      ],
+      "verbatim_pediatric_use": {
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "seccion": "pediatric_use",
+        "setid": "ccd6bbe1-e293-4e1c-9ec4-e6c217612e77",
+        "texto_literal": "8.4 Pediatric Use The safety and efficacy of fluvastatin sodium in children and adolescent patients 9 to 16 years of age with heterozygous familial hypercholesterolemia have been evaluated in open-label, uncontrolled clinical trials for a duration of two years.",
+        "truncada": false
+      },
+      "verbatim_pediatric_warnings": []
+    },
+    "fostamatinib": {
+      "bands": {
+        "0_4": "not_labelled",
+        "12_17": "not_labelled",
+        "5_11": "not_labelled"
+      },
+      "basis": "manual review (config/pediatric_label_review.json)",
+      "drug_id": "CHEMBL2103830",
+      "label": {
+        "fecha_etiqueta": "20251105",
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "setid": "21149cc3-049b-43e2-b141-c9499160556c",
+        "titulo": "TAVALISSE (FOSTAMATINIB) TABLET [RIGEL PHARMACEUTICALS, INC.]"
+      },
+      "label_status": "NOT_ESTABLISHED",
+      "manual_review_required": false,
+      "minimum_age_years": null,
+      "name": "FOSTAMATINIB",
+      "reading_failures": null,
+      "scope_of_manual_review": "not recommended under 18 years because of effects on actively growing bones in non-clinical studies",
+      "three_group_status_existing_pipeline": {
+        "0_to_under_3": "not_labelled",
+        "12_and_older": "adult_only",
+        "3_to_under_12": "not_labelled"
+      },
+      "verbatim_hazard_quotes": [
+        {
+          "category": "toxicidad_medular",
+          "quote": "(5.3) Neutropenia: Monitor ANC monthly, and for infection.",
+          "section": "warnings",
+          "set_id": "21149cc3-049b-43e2-b141-c9499160556c",
+          "truncated": false
+        },
+        {
+          "category": "toxicidad_medular",
+          "quote": "5.4 Neutropenia Neutropenia occurred in 6% of patients treated with TAVALISSE; febrile neutropenia occurred in 1% of patients.",
+          "section": "warnings",
+          "set_id": "21149cc3-049b-43e2-b141-c9499160556c",
+          "truncated": false
+        },
+        {
+          "category": "segundos_tumores",
+          "quote": "In subchronic, chronic, and carcinogenicity studies of TAVALISSE, chondrodystrophy of the femoral head was seen in rodents.",
+          "section": "warnings",
+          "set_id": "21149cc3-049b-43e2-b141-c9499160556c",
+          "truncated": false
+        },
+        {
+          "category": "embrio_fetal",
+          "quote": "(5.4) Embryo-Fetal Toxicity: TAVALISSE can cause fetal harm.",
+          "section": "warnings",
+          "set_id": "21149cc3-049b-43e2-b141-c9499160556c",
+          "truncated": false
+        },
+        {
+          "category": "embrio_fetal",
+          "quote": "5.5 Embryo-Fetal Toxicity Based on findings from animal studies and its mechanism of action, TAVALISSE can cause fetal harm when administered to a pregnant woman.",
+          "section": "warnings",
+          "set_id": "21149cc3-049b-43e2-b141-c9499160556c",
+          "truncated": false
+        }
+      ],
+      "verbatim_pediatric_use": {
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "seccion": "pediatric_use",
+        "setid": "21149cc3-049b-43e2-b141-c9499160556c",
+        "texto_literal": "8.4 Pediatric Use Safety and effectiveness in pediatric patients have not been established.",
+        "truncada": false
+      },
+      "verbatim_pediatric_warnings": [
+        {
+          "fecha_lectura": "read time not recorded (deterministic output)",
+          "fuente": "DailyMed",
+          "seccion": "pediatric_use",
+          "setid": "21149cc3-049b-43e2-b141-c9499160556c",
+          "texto_literal": "In subchronic, chronic, and carcinogenicity studies of TAVALISSE, chondrodystrophy of the femoral head was seen in rodents.",
+          "truncada": false
+        },
+        {
+          "fecha_lectura": "read time not recorded (deterministic output)",
+          "fuente": "DailyMed",
+          "seccion": "pediatric_use",
+          "setid": "21149cc3-049b-43e2-b141-c9499160556c",
+          "texto_literal": "In a study in juvenile rabbits, growth plate dysplasia was observed in the proximal femur and femoro-tibial joint, and bone marrow cellularity was reduced in the femur and sternum.",
+          "truncada": false
+        }
+      ]
+    },
+    "lovastatin": {
+      "bands": {
+        "0_4": "verify",
+        "12_17": "verify",
+        "5_11": "verify"
+      },
+      "basis": "heuristic classifier of labels.classify_pediatric (not hand-verified); no readable paediatric-use section",
+      "drug_id": "CHEMBL503",
+      "label": {
+        "fecha_etiqueta": "20261007",
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "setid": "7b86160d-74a9-4774-b5b3-5641e686991f",
+        "titulo": "LOVASTATIN TABLET [BLUEPOINT LABORATORIES]"
+      },
+      "label_status": "UNKNOWN",
+      "manual_review_required": true,
+      "minimum_age_years": null,
+      "name": "LOVASTATIN",
+      "reading_failures": null,
+      "scope_of_manual_review": null,
+      "three_group_status_existing_pipeline": {
+        "0_to_under_3": "verify",
+        "12_and_older": "verify",
+        "3_to_under_12": "verify"
+      },
+      "verbatim_hazard_quotes": [
+        {
+          "category": "toxicidad_medular",
+          "quote": "In addition, no evidence of damage to genetic material was noted in an in vitroalkaline elution assay using rat or mouse hepatocytes, a V-79 mammalian cell forward mutation study, an in vitrochromosome aberration study in CHO cells, or an in vivochromosomal aberration assay in mouse bone marrow.",
+          "section": "warnings",
+          "set_id": "7b86160d-74a9-4774-b5b3-5641e686991f",
+          "truncated": false
+        },
+        {
+          "category": "segundos_tumores",
+          "quote": "Carcinogenesis, Mutagenesis, Impairment of Fertility In a 21-month carcinogenic study in mice, there was a statistically significant increase in the incidence of hepatocellular carcinomas and adenomas in both males and females at 500 mg /kg /day.",
+          "section": "warnings",
+          "set_id": "7b86160d-74a9-4774-b5b3-5641e686991f",
+          "truncated": false
+        },
+        {
+          "category": "segundos_tumores",
+          "quote": "In a 24-month carcinogenicity study in rats, there was a positive dose response relationship for hepatocellular carcinogenicity in males at drug exposures between 2 to 7 times that of human exposure at 80 mg /day (doses in rats were 5, 30 and 180 mg /kg /day).",
+          "section": "warnings",
+          "set_id": "7b86160d-74a9-4774-b5b3-5641e686991f",
+          "truncated": false
+        }
+      ],
+      "verbatim_pediatric_use": null,
+      "verbatim_pediatric_warnings": []
+    },
+    "metformin": {
+      "bands": {
+        "0_4": "not_labelled",
+        "12_17": "labelled",
+        "5_11": "partly (from 10 y)"
+      },
+      "basis": "manual review (config/pediatric_label_review.json)",
+      "drug_id": "CHEMBL1431",
+      "label": {
+        "fecha_etiqueta": "20260921",
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "setid": "23aa50c5-28fe-4322-b5c6-1f1c48409b16",
+        "titulo": "Metformin Hydrochloride [A-S MEDICATION SOLUTIONS]"
+      },
+      "label_status": "ESTABLISHED",
+      "manual_review_required": false,
+      "minimum_age_years": 10.0,
+      "name": "METFORMIN",
+      "reading_failures": null,
+      "scope_of_manual_review": "type 2 diabetes mellitus in patients 10 to 16 years old (not established below 10 years); label read: a repackager's metformin hydrochloride tablets",
+      "three_group_status_existing_pipeline": {
+        "0_to_under_3": "not_labelled",
+        "12_and_older": "labelled",
+        "3_to_under_12": "partly (from 10 y)"
+      },
+      "verbatim_hazard_quotes": [
+        {
+          "category": "boxed_warning",
+          "quote": "WARNING: LACTIC ACIDOSIS Postmarketing cases of metformin-associated lactic acidosis have resulted in death, hypothermia, hypotension, and resistant bradyarrhythmias.",
+          "section": "boxed_warning",
+          "set_id": "23aa50c5-28fe-4322-b5c6-1f1c48409b16",
+          "truncated": false
+        },
+        {
+          "category": "boxed_warning",
+          "quote": "The onset of metformin-associated lactic acidosis is often subtle, accompanied only by nonspecific symptoms such as malaise, myalgias, respiratory distress, somnolence, and abdominal pain.",
+          "section": "boxed_warning",
+          "set_id": "23aa50c5-28fe-4322-b5c6-1f1c48409b16",
+          "truncated": false
+        },
+        {
+          "category": "embrio_fetal",
+          "quote": "Clinical Considerations Disease-associated maternal and/or embryo/fetal risk Poorly-controlled diabetes mellitus in pregnancy increases the maternal risk for diabetic ketoacidosis, pre-eclampsia, spontaneous abortions, preterm delivery, stillbirth and delivery complications.",
+          "section": "warnings",
+          "set_id": "23aa50c5-28fe-4322-b5c6-1f1c48409b16",
+          "truncated": false
+        }
+      ],
+      "verbatim_pediatric_use": {
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "seccion": "pediatric_use",
+        "setid": "23aa50c5-28fe-4322-b5c6-1f1c48409b16",
+        "texto_literal": "8.4 Pediatric Use The safety and effectiveness of metformin hydrochloride for the treatment of type 2 diabetes mellitus have been established in pediatric patients 10 to 16 years old.",
+        "truncada": false
+      },
+      "verbatim_pediatric_warnings": []
+    },
+    "methyldopa": {
+      "bands": {
+        "0_4": "verify",
+        "12_17": "verify",
+        "5_11": "verify"
+      },
+      "basis": "heuristic classifier of labels.classify_pediatric (not hand-verified)",
+      "drug_id": "CHEMBL459",
+      "label": {
+        "fecha_etiqueta": "20250328",
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "setid": "9e22e1d8-04ec-4b67-92ea-b09c706f2703",
+        "titulo": "METHYLDOPA TABLET [RISING PHARMA HOLDINGS, INC.]"
+      },
+      "label_status": "UNKNOWN",
+      "manual_review_required": true,
+      "minimum_age_years": null,
+      "name": "METHYLDOPA",
+      "reading_failures": null,
+      "scope_of_manual_review": null,
+      "three_group_status_existing_pipeline": {
+        "0_to_under_3": "verify",
+        "12_and_older": "verify",
+        "3_to_under_12": "verify"
+      },
+      "verbatim_hazard_quotes": [
+        {
+          "category": "toxicidad_medular",
+          "quote": "Rare cases of granulocytopenia have been reported.",
+          "section": "warnings",
+          "set_id": "9e22e1d8-04ec-4b67-92ea-b09c706f2703",
+          "truncated": false
+        },
+        {
+          "category": "toxicidad_medular",
+          "quote": "Reversible thrombocytopenia has occurred rarely.",
+          "section": "warnings",
+          "set_id": "9e22e1d8-04ec-4b67-92ea-b09c706f2703",
+          "truncated": false
+        },
+        {
+          "category": "embrio_fetal",
+          "quote": "Reproduction studies performed with methyldopa at oral doses up to 1000 mg/kg in mice, 200 mg/kg in rabbits and 100 mg/kg in rats revealed no evidence of harm to the fetus.",
+          "section": "warnings",
+          "set_id": "9e22e1d8-04ec-4b67-92ea-b09c706f2703",
+          "truncated": false
+        },
+        {
+          "category": "embrio_fetal",
+          "quote": "Published reports of the use of methyldopa during all trimesters indicate that if this drug is used during pregnancy the possibility of fetal harm appears remote.",
+          "section": "warnings",
+          "set_id": "9e22e1d8-04ec-4b67-92ea-b09c706f2703",
+          "truncated": false
+        }
+      ],
+      "verbatim_pediatric_use": {
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "seccion": "pediatric_use",
+        "setid": "9e22e1d8-04ec-4b67-92ea-b09c706f2703",
+        "texto_literal": "Pediatric Use There are no well-controlled clinical trials in pediatric patients.",
+        "truncada": false
+      },
+      "verbatim_pediatric_warnings": []
+    },
+    "olaparib": {
+      "bands": {
+        "0_4": "not_labelled",
+        "12_17": "not_labelled",
+        "5_11": "not_labelled"
+      },
+      "basis": "heuristic classifier of labels.classify_pediatric (not hand-verified)",
+      "drug_id": "CHEMBL521686",
+      "label": {
+        "fecha_etiqueta": "20250710",
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "openFDA",
+        "setid": "741ff3e3-dc1a-45a6-84e5-2481b27131aa",
+        "titulo": "olaparib"
+      },
+      "label_status": "NOT_ESTABLISHED",
+      "manual_review_required": true,
+      "minimum_age_years": null,
+      "name": "OLAPARIB",
+      "reading_failures": [
+        "_read_dailymed: label found but no readable text"
+      ],
+      "scope_of_manual_review": null,
+      "three_group_status_existing_pipeline": {
+        "0_to_under_3": "not_labelled",
+        "12_and_older": "adult_only",
+        "3_to_under_12": "not_labelled"
+      },
+      "verbatim_hazard_quotes": [
+        {
+          "category": "toxicidad_medular",
+          "quote": "Monitor complete blood count for cytopenia at baseline and monthly thereafter for clinically significant changes during treatment.",
+          "section": "warnings",
+          "set_id": "741ff3e3-dc1a-45a6-84e5-2481b27131aa",
+          "truncated": false
+        },
+        {
+          "category": "toxicidad_medular",
+          "quote": "If the levels have not recovered to Grade 1 or less after 4 weeks, refer the patient to a hematologist for further investigations, including bone marrow analysis and blood sample for cytogenetics.",
+          "section": "warnings",
+          "set_id": "741ff3e3-dc1a-45a6-84e5-2481b27131aa",
+          "truncated": false
+        },
+        {
+          "category": "segundos_tumores",
+          "quote": "5 WARNINGS AND PRECAUTIONS • Myelodysplastic Syndrome/Acute Myeloid Leukemia (MDS/AML): Occurred in approximately 1.2% of patients with various BRCA m, g BRCA m, HRR gene-mutated or HRD-positive cancers exposed to Lynparza and the majority of events had a fatal outcome.",
+          "section": "warnings",
+          "set_id": "741ff3e3-dc1a-45a6-84e5-2481b27131aa",
+          "truncated": false
+        },
+        {
+          "category": "segundos_tumores",
+          "quote": "( 5.5 , 8.1 , 8.3 ) 5.1 Myelodysplastic Syndrome/Acute Myeloid Leukemia Myelodysplastic syndrome (MDS)/Acute Myeloid Leukemia (AML) has occurred in patients treated with Lynparza and some cases were fatal.",
+          "section": "warnings",
+          "set_id": "741ff3e3-dc1a-45a6-84e5-2481b27131aa",
+          "truncated": false
+        },
+        {
+          "category": "embrio_fetal",
+          "quote": "( 5.4 ) • Embryo-Fetal Toxicity: Can cause fetal harm.",
+          "section": "warnings",
+          "set_id": "741ff3e3-dc1a-45a6-84e5-2481b27131aa",
+          "truncated": false
+        },
+        {
+          "category": "embrio_fetal",
+          "quote": "5.5 Embryo-Fetal Toxicity Lynparza can cause fetal harm when administered to a pregnant woman based on its mechanism of action and findings in animals.",
+          "section": "warnings",
+          "set_id": "741ff3e3-dc1a-45a6-84e5-2481b27131aa",
+          "truncated": false
+        }
+      ],
+      "verbatim_pediatric_use": {
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "openFDA",
+        "seccion": "pediatric_use",
+        "setid": "741ff3e3-dc1a-45a6-84e5-2481b27131aa",
+        "texto_literal": "8.4 Pediatric Use Safety and effectiveness of Lynparza have not been established in pediatric patients.",
+        "truncada": false
+      },
+      "verbatim_pediatric_warnings": []
+    },
+    "paclitaxel": {
+      "bands": {
+        "0_4": "not_labelled",
+        "12_17": "not_labelled",
+        "5_11": "not_labelled"
+      },
+      "basis": "manual review (config/pediatric_label_review.json)",
+      "drug_id": "CHEMBL428647",
+      "label": {
+        "fecha_etiqueta": "20240624",
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "setid": "0c12c77c-5fd4-48dc-a318-e96892233992",
+        "titulo": "Paclitaxel [ALEMBIC PHARMACEUTICALS INC.]"
+      },
+      "label_status": "NOT_ESTABLISHED",
+      "manual_review_required": false,
+      "minimum_age_years": null,
+      "name": "PACLITAXEL",
+      "reading_failures": null,
+      "scope_of_manual_review": "safety and effectiveness in paediatric patients have not been established; central nervous system toxicity was reported in a paediatric trial (attributed to the ethanol in the vehicle)",
+      "three_group_status_existing_pipeline": {
+        "0_to_under_3": "not_labelled",
+        "12_and_older": "adult_only",
+        "3_to_under_12": "not_labelled"
+      },
+      "verbatim_hazard_quotes": [
+        {
+          "category": "boxed_warning",
+          "quote": "WARNING Paclitaxel should be administered under the supervision of a physician experienced in the use of cancer chemotherapeutic agents.",
+          "section": "boxed_warning",
+          "set_id": "0c12c77c-5fd4-48dc-a318-e96892233992",
+          "truncated": false
+        },
+        {
+          "category": "boxed_warning",
+          "quote": "Appropriate management of complications is possible only when adequate diagnostic and treatment facilities are readily available.",
+          "section": "boxed_warning",
+          "set_id": "0c12c77c-5fd4-48dc-a318-e96892233992",
+          "truncated": false
+        },
+        {
+          "category": "toxicidad_medular",
+          "quote": "In order to monitor the occurrence of bone marrow suppression, primarily neutropenia, which may be severe and result in infection, it is recommended that frequent peripheral blood cell counts be performed on all patients receiving paclitaxel.",
+          "section": "boxed_warning",
+          "set_id": "0c12c77c-5fd4-48dc-a318-e96892233992",
+          "truncated": false
+        },
+        {
+          "category": "toxicidad_medular",
+          "quote": "Bone marrow suppression (primarily neutropenia) is dose-dependent and is the dose-limiting toxicity.",
+          "section": "warnings",
+          "set_id": "0c12c77c-5fd4-48dc-a318-e96892233992",
+          "truncated": false
+        },
+        {
+          "category": "segundos_tumores",
+          "quote": "Carcinogenesis, Mutagenesis, Impairment of Fertility The carcinogenic potential of paclitaxel has not been studied.",
+          "section": "warnings",
+          "set_id": "0c12c77c-5fd4-48dc-a318-e96892233992",
+          "truncated": false
+        },
+        {
+          "category": "embrio_fetal",
+          "quote": "Pregnancy Paclitaxel can cause fetal harm when administered to a pregnant woman.",
+          "section": "warnings",
+          "set_id": "0c12c77c-5fd4-48dc-a318-e96892233992",
+          "truncated": false
+        },
+        {
+          "category": "embrio_fetal",
+          "quote": "Administration of paclitaxel during the period of organogenesis to rabbits at doses of 3 mg/kg/day (about 0.2 the daily maximum recommended human dose on a mg/m2 basis) caused embryo- and fetotoxicity, as indicated by intrauterine mortality, increased resorptions, and increased fetal deaths.",
+          "section": "warnings",
+          "set_id": "0c12c77c-5fd4-48dc-a318-e96892233992",
+          "truncated": false
+        }
+      ],
+      "verbatim_pediatric_use": {
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "seccion": "pediatric_use",
+        "setid": "0c12c77c-5fd4-48dc-a318-e96892233992",
+        "texto_literal": "Pediatric Use The safety and effectiveness of paclitaxel in pediatric patients have not been established.",
+        "truncada": false
+      },
+      "verbatim_pediatric_warnings": [
+        {
+          "fecha_lectura": "read time not recorded (deterministic output)",
+          "fuente": "DailyMed",
+          "seccion": "pediatric_use",
+          "setid": "0c12c77c-5fd4-48dc-a318-e96892233992",
+          "texto_literal": "There have been reports of central nervous system (CNS) toxicity (rarely associated with death) in a clinical trial in pediatric patients in which paclitaxel was infused intravenously over 3 hours at doses ranging from 350 mg/m2 to 420 mg/m2.",
+          "truncada": false
+        },
+        {
+          "fecha_lectura": "read time not recorded (deterministic output)",
+          "fuente": "DailyMed",
+          "seccion": "pediatric_use",
+          "setid": "0c12c77c-5fd4-48dc-a318-e96892233992",
+          "texto_literal": "The toxicity is most likely attributable to the high dose of the ethanol component of the paclitaxel vehicle given over a short infusion time.",
+          "truncada": false
+        }
+      ]
+    },
+    "pravastatin": {
+      "bands": {
+        "0_4": "verify",
+        "12_17": "verify",
+        "5_11": "verify"
+      },
+      "basis": "heuristic classifier of labels.classify_pediatric (not hand-verified)",
+      "drug_id": "CHEMBL1144",
+      "label": {
+        "fecha_etiqueta": "20260910",
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "setid": "42ccbca7-fa52-4df9-8f1a-ea7da7312883",
+        "titulo": "PRAVASTATIN SODIUM TABLET [AUROBINDO PHARMA LIMITED]"
+      },
+      "label_status": "MIXED",
+      "manual_review_required": true,
+      "minimum_age_years": 8.0,
+      "name": "PRAVASTATIN",
+      "reading_failures": null,
+      "scope_of_manual_review": null,
+      "three_group_status_existing_pipeline": {
+        "0_to_under_3": "verify",
+        "12_and_older": "verify",
+        "3_to_under_12": "verify"
+      },
+      "verbatim_hazard_quotes": [
+        {
+          "category": "embrio_fetal",
+          "quote": "8 USE IN SPECIFIC POPULATIONS Pregnancy: May cause fetal harm (8.1) Lactation: Breastfeeding not recommended during treatment with pravastatin sodium tablets (8.2) 8.1 Pregnancy Risk Summary Discontinue pravastatin when pregnancy is recognized.",
+          "section": "warnings",
+          "set_id": "42ccbca7-fa52-4df9-8f1a-ea7da7312883",
+          "truncated": false
+        },
+        {
+          "category": "embrio_fetal",
+          "quote": "Pravastatin decreases synthesis of cholesterol and possibly other biologically active substances derived from cholesterol; therefore, pravastatin may cause fetal harm when administered to pregnant patients based on the mechanism of action [see Clinical Pharmacology (12.1)].",
+          "section": "warnings",
+          "set_id": "42ccbca7-fa52-4df9-8f1a-ea7da7312883",
+          "truncated": false
+        }
+      ],
+      "verbatim_pediatric_use": {
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "seccion": "pediatric_use",
+        "setid": "42ccbca7-fa52-4df9-8f1a-ea7da7312883",
+        "texto_literal": "8.4 Pediatric use The safety and effectiveness of pravastatin as an adjunct to diet to reduce LDL-C have been established in pediatric patients 8 years of age and older with HeFH.",
+        "truncada": false
+      },
+      "verbatim_pediatric_warnings": []
+    },
+    "progesterone": {
+      "bands": {
+        "0_4": "verify",
+        "12_17": "verify",
+        "5_11": "verify"
+      },
+      "basis": "heuristic classifier of labels.classify_pediatric (not hand-verified)",
+      "drug_id": "CHEMBL103",
+      "label": {
+        "fecha_etiqueta": "20260916",
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "setid": "d7619751-47b4-47c9-b716-e2a704b350c8",
+        "titulo": "PROGESTERONE CAPSULE [REMEDYREPACK INC.]"
+      },
+      "label_status": "UNKNOWN",
+      "manual_review_required": true,
+      "minimum_age_years": null,
+      "name": "PROGESTERONE",
+      "reading_failures": null,
+      "scope_of_manual_review": null,
+      "three_group_status_existing_pipeline": {
+        "0_to_under_3": "verify",
+        "12_and_older": "verify",
+        "3_to_under_12": "verify"
+      },
+      "verbatim_hazard_quotes": [
+        {
+          "category": "segundos_tumores",
+          "quote": "Carcinogenesis, Mutagenesis, Impairment of Fertility Progesterone has not been tested for carcinogenicity in animals by the oral route of administration.",
+          "section": "warnings",
+          "set_id": "d7619751-47b4-47c9-b716-e2a704b350c8",
+          "truncated": false
+        },
+        {
+          "category": "embrio_fetal",
+          "quote": "Pregnancy Category B: Reproductive studies have been performed in mice at doses up to 9 times the human oral dose, in rats at doses up to 44 times the human oral dose, in rabbits at a dose of 10 mcg/day delivered locally within the uterus by an implanted device, in guinea pigs at doses of approximately one-half the human oral dose and in rhesus monkeys at doses approximately the human dose, all based on body surface area, and have revealed little or no evidence of impaired fertility or harm to the fetus due to progesterone.",
+          "section": "warnings",
+          "set_id": "d7619751-47b4-47c9-b716-e2a704b350c8",
+          "truncated": false
+        }
+      ],
+      "verbatim_pediatric_use": {
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "seccion": "pediatric_use",
+        "setid": "d7619751-47b4-47c9-b716-e2a704b350c8",
+        "texto_literal": "Pediatric Use Progesterone capsules are not indicated in children.",
+        "truncada": false
+      },
+      "verbatim_pediatric_warnings": []
+    },
+    "selumetinib": {
+      "bands": {
+        "0_4": "partly (from 1 y)",
+        "12_17": "labelled",
+        "5_11": "labelled"
+      },
+      "basis": "manual review (config/pediatric_label_review.json)",
+      "drug_id": "CHEMBL1614701",
+      "label": {
+        "fecha_etiqueta": "20260526",
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "setid": "7d042c61-f28f-4ab5-ab10-d7558c0d49ff",
+        "titulo": "KOSELUGO [ASTRAZENECA PHARMACEUTICALS LP]"
+      },
+      "label_status": "ESTABLISHED",
+      "manual_review_required": false,
+      "minimum_age_years": 1.0,
+      "name": "SELUMETINIB",
+      "reading_failures": null,
+      "scope_of_manual_review": "neurofibromatosis type 1 with symptomatic, inoperable plexiform neurofibromas, from 1 year (not established below 1 year); growth plate dysplasia in young rats",
+      "three_group_status_existing_pipeline": {
+        "0_to_under_3": "partly (from 1 y)",
+        "12_and_older": "labelled",
+        "3_to_under_12": "labelled"
+      },
+      "verbatim_hazard_quotes": [
+        {
+          "category": "embrio_fetal",
+          "quote": "(5.6) • Embryo-Fetal Toxicity: Can cause fetal harm.",
+          "section": "warnings",
+          "set_id": "7d042c61-f28f-4ab5-ab10-d7558c0d49ff",
+          "truncated": false
+        },
+        {
+          "category": "embrio_fetal",
+          "quote": "5.7 Embryo-Fetal Toxicity Based on findings from clinical trials, animal studies and its mechanism of action, KOSELUGO can cause fetal harm when administered to a pregnant woman.",
+          "section": "warnings",
+          "set_id": "7d042c61-f28f-4ab5-ab10-d7558c0d49ff",
+          "truncated": false
+        }
+      ],
+      "verbatim_pediatric_use": {
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "seccion": "pediatric_use",
+        "setid": "7d042c61-f28f-4ab5-ab10-d7558c0d49ff",
+        "texto_literal": "8.4 Pediatric Use The safety and effectiveness have been established in pediatric patients 1 year of age and older with NF1 who have inoperable PN and the information on this use is discussed throughout the labeling.",
+        "truncada": false
+      },
+      "verbatim_pediatric_warnings": [
+        {
+          "fecha_lectura": "read time not recorded (deterministic output)",
+          "fuente": "DailyMed",
+          "seccion": "pediatric_use",
+          "setid": "7d042c61-f28f-4ab5-ab10-d7558c0d49ff",
+          "texto_literal": "Animal Toxicity Data In 3-month general toxicology studies, male rats receiving selumetinib at doses ≥ 10 mg/kg daily (~60-times the human exposure based on AUC at the clinical dose of 25 mg/m2 twice daily) showed growth plate dysplasia.",
+          "truncada": false
+        }
+      ]
+    },
+    "sirolimus": {
+      "bands": {
+        "0_4": "not_labelled",
+        "12_17": "partly (from 13 y)",
+        "5_11": "not_labelled"
+      },
+      "basis": "manual review (config/pediatric_label_review.json)",
+      "drug_id": "CHEMBL413",
+      "label": {
+        "fecha_etiqueta": "20260911",
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "setid": "9970e495-29c4-47b8-a3e9-c9b365abe400",
+        "titulo": "sirolimus [REMEDYREPACK INC.]"
+      },
+      "label_status": "ESTABLISHED",
+      "manual_review_required": false,
+      "minimum_age_years": 13.0,
+      "name": "SIROLIMUS",
+      "reading_failures": null,
+      "scope_of_manual_review": "prophylaxis of organ rejection in renal transplantation in children 13 years and older at low to moderate immunologic risk (not established below 13 years); label read: a repackager's sirolimus tablets",
+      "three_group_status_existing_pipeline": {
+        "0_to_under_3": "not_labelled",
+        "12_and_older": "partly (from 13 y)",
+        "3_to_under_12": "not_labelled"
+      },
+      "verbatim_hazard_quotes": [
+        {
+          "category": "boxed_warning",
+          "quote": "WARNING: IMMUNOSUPPRESSION, USE IS NOT RECOMMENDED IN LIVER OR LUNG TRANSPLANT PATIENTS Increased susceptibility to infection and the possible development of lymphoma and other malignancies may result from immunosuppression Increased susceptibility to infection and the possible development of lymphoma may result from immunosuppression.",
+          "section": "boxed_warning",
+          "set_id": "9970e495-29c4-47b8-a3e9-c9b365abe400",
+          "truncated": false
+        },
+        {
+          "category": "boxed_warning",
+          "quote": "Only physicians experienced in immunosuppressive therapy and management of renal transplant patients should use sirolimus for prophylaxis of organ rejection in patients receiving renal transplants.",
+          "section": "boxed_warning",
+          "set_id": "9970e495-29c4-47b8-a3e9-c9b365abe400",
+          "truncated": false
+        },
+        {
+          "category": "toxicidad_medular",
+          "quote": "5 WARNINGS AND PRECAUTIONS Hypersensitivity Reactions ( 5.4) Angioedema ( 5.5) Fluid Accumulation and Impairment of Wound Healing ( 5.6) Hyperlipidemia ( 5.7) Decline in Renal Function ( 5.8) Proteinuria ( 5.9) Latent Viral Infections ( 5.10) Interstitial Lung Disease/Non-Infectious Pneumonitis ( 5.11) De NovoUse Without Cyclosporine ( 5.12) Increased Risk of Calcineurin Inhibitor-Induced Hemolytic Uremic Syndrome/ Thrombotic Thrombocytopenic Purpura/ Thrombotic Microangiopathy ( 5.13) Embryo-Fetal Toxicity: Can cause fetal harm.",
+          "section": "warnings",
+          "set_id": "9970e495-29c4-47b8-a3e9-c9b365abe400",
+          "truncated": false
+        },
+        {
+          "category": "toxicidad_medular",
+          "quote": "5.13 Increased Risk of Calcineurin Inhibitor-Induced Hemolytic Uremic Syndrome/Thrombotic Thrombocytopenic Purpura/Thrombotic Microangiopathy The concomitant use of sirolimus with a calcineurin inhibitor may increase the risk of calcineurin inhibitor-induced hemolytic uremic syndrome/thrombotic thrombocytopenic purpura/thrombotic microangiopathy (HUS/TTP/TMA) [ seeAdverse Reactions ( 6.7) ].",
+          "section": "warnings",
+          "set_id": "9970e495-29c4-47b8-a3e9-c9b365abe400",
+          "truncated": false
+        },
+        {
+          "category": "embrio_fetal",
+          "quote": "5 WARNINGS AND PRECAUTIONS Hypersensitivity Reactions ( 5.4) Angioedema ( 5.5) Fluid Accumulation and Impairment of Wound Healing ( 5.6) Hyperlipidemia ( 5.7) Decline in Renal Function ( 5.8) Proteinuria ( 5.9) Latent Viral Infections ( 5.10) Interstitial Lung Disease/Non-Infectious Pneumonitis ( 5.11) De NovoUse Without Cyclosporine ( 5.12) Increased Risk of Calcineurin Inhibitor-Induced Hemolytic Uremic Syndrome/ Thrombotic Thrombocytopenic Purpura/ Thrombotic Microangiopathy ( 5.13) Embryo-Fetal Toxicity: Can cause fetal harm.",
+          "section": "warnings",
+          "set_id": "9970e495-29c4-47b8-a3e9-c9b365abe400",
+          "truncated": false
+        },
+        {
+          "category": "embrio_fetal",
+          "quote": "5.15 Embryo-Fetal Toxicity Based on animal studies and the mechanism of action [ see Clinical Pharmacology (12.1)], sirolimus can cause fetal harm when administered to a pregnant woman.",
+          "section": "warnings",
+          "set_id": "9970e495-29c4-47b8-a3e9-c9b365abe400",
+          "truncated": false
+        }
+      ],
+      "verbatim_pediatric_use": {
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "seccion": "pediatric_use",
+        "setid": "9970e495-29c4-47b8-a3e9-c9b365abe400",
+        "texto_literal": "8.4 Pediatric Use Renal Transplant The safety and efficacy of sirolimus in pediatric patients <13 years have not been established.",
+        "truncada": false
+      },
+      "verbatim_pediatric_warnings": []
+    },
+    "trametinib": {
+      "bands": {
+        "0_4": "partly (from 1 y)",
+        "12_17": "labelled",
+        "5_11": "labelled"
+      },
+      "basis": "manual review (config/pediatric_label_review.json)",
+      "drug_id": "CHEMBL2103875",
+      "label": {
+        "fecha_etiqueta": "20260507",
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "setid": "0002ad27-779d-42ab-83b5-bc65453412a1",
+        "titulo": "Mekinist [NOVARTIS PHARMACEUTICALS CORPORATION]"
+      },
+      "label_status": "ESTABLISHED",
+      "manual_review_required": false,
+      "minimum_age_years": 1.0,
+      "name": "TRAMETINIB",
+      "reading_failures": null,
+      "scope_of_manual_review": "in combination with dabrafenib, BRAF V600E-positive solid tumours and low-grade glioma from 1 year; not established as a single agent in paediatric patients",
+      "three_group_status_existing_pipeline": {
+        "0_to_under_3": "partly (from 1 y)",
+        "12_and_older": "labelled",
+        "3_to_under_12": "labelled"
+      },
+      "verbatim_hazard_quotes": [
+        {
+          "category": "segundos_tumores",
+          "quote": "5 WARNINGS AND PRECAUTIONS New Primary Malignancies, Cutaneous and Non-Cutaneous: Can occur when MEKINIST is used with dabrafenib.",
+          "section": "warnings",
+          "set_id": "0002ad27-779d-42ab-83b5-bc65453412a1",
+          "truncated": false
+        },
+        {
+          "category": "segundos_tumores",
+          "quote": "Monitor patients for new malignancies prior to, or while on therapy, and following discontinuation of treatment.",
+          "section": "warnings",
+          "set_id": "0002ad27-779d-42ab-83b5-bc65453412a1",
+          "truncated": false
+        },
+        {
+          "category": "embrio_fetal",
+          "quote": "(5.12) Embryo-Fetal Toxicity: Can cause fetal harm.",
+          "section": "warnings",
+          "set_id": "0002ad27-779d-42ab-83b5-bc65453412a1",
+          "truncated": false
+        },
+        {
+          "category": "embrio_fetal",
+          "quote": "5.13 Embryo-Fetal Toxicity Based on findings from animal studies and its mechanism of action, MEKINIST can cause fetal harm when administered to a pregnant woman.",
+          "section": "warnings",
+          "set_id": "0002ad27-779d-42ab-83b5-bc65453412a1",
+          "truncated": false
+        }
+      ],
+      "verbatim_pediatric_use": {
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "seccion": "pediatric_use",
+        "setid": "0002ad27-779d-42ab-83b5-bc65453412a1",
+        "texto_literal": "8.4 Pediatric Use BRAF V600E Mutation-Positive Unresectable or Metastatic Solid Tumors and LGG The safety and effectiveness of MEKINIST in combination with dabrafenib have been established in pediatric patients 1 year of age and older with unresectable or metastatic solid tumors with BRAF V600E mutation who have progressed following prior treatment and have no satisfactory alternative treatment options; or with LGG with BRAF V600E mutation who require systemic therapy.",
+        "truncada": false
+      },
+      "verbatim_pediatric_warnings": [
+        {
+          "fecha_lectura": "read time not recorded (deterministic output)",
+          "fuente": "DailyMed",
+          "seccion": "pediatric_use",
+          "setid": "0002ad27-779d-42ab-83b5-bc65453412a1",
+          "texto_literal": "Juvenile Animal Toxicity Data In a repeat-dose toxicity study in juvenile rats, decreased bone length and corneal dystrophy were observed at doses resulting in exposures as low as 0.3 times the human exposure at the recommended adult dose based on AUC.",
+          "truncada": false
+        }
+      ]
+    },
+    "tyrosine": {
+      "bands": {
+        "0_4": "verify",
+        "12_17": "verify",
+        "5_11": "verify"
+      },
+      "basis": "heuristic classifier of labels.classify_pediatric (not hand-verified); no readable paediatric-use section",
+      "drug_id": "CHEMBL925",
+      "label": {
+        "fecha_etiqueta": "20260921",
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "setid": "6350966e-e450-48ff-b720-1d8bc71dacff",
+        "titulo": "OB METAB (FUCUS VESICULOSUS, CAPSICUM ANNUUM, NICOTINAMIDUM, SPONGIA TOSTA, CROTON TIGLIUM, HYPOPHYSIS SUIS, L-ARGININE, L-ORNITHINE, L-TYROSINE, THYROIDINUM (SUIS), CALCAREA CARBONICA, GRAPHITES, KALI CARBONICUM) LIQUID [BIOACTIVE NUTRITIONAL, INC.]"
+      },
+      "label_status": "UNKNOWN",
+      "manual_review_required": true,
+      "minimum_age_years": null,
+      "name": "TYROSINE",
+      "reading_failures": null,
+      "scope_of_manual_review": null,
+      "three_group_status_existing_pipeline": {
+        "0_to_under_3": "verify",
+        "12_and_older": "verify",
+        "3_to_under_12": "verify"
+      },
+      "verbatim_hazard_quotes": [],
+      "verbatim_pediatric_use": null,
+      "verbatim_pediatric_warnings": []
+    },
+    "vorinostat": {
+      "bands": {
+        "0_4": "not_labelled",
+        "12_17": "not_labelled",
+        "5_11": "not_labelled"
+      },
+      "basis": "heuristic classifier of labels.classify_pediatric (not hand-verified)",
+      "drug_id": "CHEMBL98",
+      "label": {
+        "fecha_etiqueta": "20241112",
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "openFDA",
+        "setid": "cd86ee78-2781-468b-930c-3c4677bcc092",
+        "titulo": "vorinostat"
+      },
+      "label_status": "NOT_ESTABLISHED",
+      "manual_review_required": true,
+      "minimum_age_years": null,
+      "name": "VORINOSTAT",
+      "reading_failures": [
+        "_read_dailymed: label found but no readable text"
+      ],
+      "scope_of_manual_review": null,
+      "three_group_status_existing_pipeline": {
+        "0_to_under_3": "not_labelled",
+        "12_and_older": "adult_only",
+        "3_to_under_12": "not_labelled"
+      },
+      "verbatim_hazard_quotes": [
+        {
+          "category": "toxicidad_medular",
+          "quote": "( 5.1 ) Myelosuppression: Thrombocytopenia and anemia may require dose modification or discontinuation.",
+          "section": "warnings",
+          "set_id": "cd86ee78-2781-468b-930c-3c4677bcc092",
+          "truncated": false
+        },
+        {
+          "category": "toxicidad_medular",
+          "quote": "( 5.5 ) Severe Thrombocytopenia with Concomitant Use of other HDAC Inhibitors: Severe thrombocytopenia with gastrointestinal bleeding has been reported with concomitant use of ZOLINZA and other HDAC inhibitors (e.g., valproic acid).",
+          "section": "warnings",
+          "set_id": "cd86ee78-2781-468b-930c-3c4677bcc092",
+          "truncated": false
+        },
+        {
+          "category": "embrio_fetal",
+          "quote": "( 5.6 , 7.2 ) Embryo-Fetal Toxicity: Fetal harm can occur when administered to a pregnant woman.",
+          "section": "warnings",
+          "set_id": "cd86ee78-2781-468b-930c-3c4677bcc092",
+          "truncated": false
+        },
+        {
+          "category": "embrio_fetal",
+          "quote": "Women should be apprised of the potential harm to the fetus.",
+          "section": "warnings",
+          "set_id": "cd86ee78-2781-468b-930c-3c4677bcc092",
+          "truncated": false
+        }
+      ],
+      "verbatim_pediatric_use": {
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "openFDA",
+        "seccion": "pediatric_use",
+        "setid": "cd86ee78-2781-468b-930c-3c4677bcc092",
+        "texto_literal": "8.4 Pediatric Use The safety and effectiveness of ZOLINZA in pediatric patients have not been established.",
+        "truncada": false
+      },
+      "verbatim_pediatric_warnings": []
+    },
+    "zinc chloride": {
+      "bands": {
+        "0_4": "verify",
+        "12_17": "verify",
+        "5_11": "verify"
+      },
+      "basis": "heuristic classifier of labels.classify_pediatric (not hand-verified)",
+      "drug_id": "CHEMBL1200679",
+      "label": {
+        "fecha_etiqueta": "20260803",
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "setid": "2bd646d2-2a2a-4376-8da0-c7f08b0511ac",
+        "titulo": "ZINC CHLORIDE INJECTION [EXELA PHARMA SCIENCES,LLC]"
+      },
+      "label_status": "UNKNOWN",
+      "manual_review_required": true,
+      "minimum_age_years": null,
+      "name": "ZINC CHLORIDE",
+      "reading_failures": null,
+      "scope_of_manual_review": null,
+      "three_group_status_existing_pipeline": {
+        "0_to_under_3": "verify",
+        "12_and_older": "verify",
+        "3_to_under_12": "verify"
+      },
+      "verbatim_hazard_quotes": [
+        {
+          "category": "segundos_tumores",
+          "quote": "Carcinogenesis, Mutagenesis, Impairment of Fertility Long-term animal studies to evaluate the carcinogenic potential of Zinc Chloride Injection, USP, 1 mg/mL have not been performed, nor have studies been done to assess mutagenesis or impairment of fertility.",
+          "section": "warnings",
+          "set_id": "2bd646d2-2a2a-4376-8da0-c7f08b0511ac",
+          "truncated": false
+        },
+        {
+          "category": "embrio_fetal",
+          "quote": "It is also not known whether zinc chloride can cause fetal harm when administered to a pregnant woman or can affect reproduction capacity.",
+          "section": "warnings",
+          "set_id": "2bd646d2-2a2a-4376-8da0-c7f08b0511ac",
+          "truncated": false
+        }
+      ],
+      "verbatim_pediatric_use": {
+        "fecha_lectura": "read time not recorded (deterministic output)",
+        "fuente": "DailyMed",
+        "seccion": "pediatric_use",
+        "setid": "2bd646d2-2a2a-4376-8da0-c7f08b0511ac",
+        "texto_literal": "Pediatric Use See DOSAGE AND ADMINISTRATION section.",
+        "truncada": false
+      },
+      "verbatim_pediatric_warnings": []
+    }
+  },
+  "limits": [
+    "Application of the frozen B0 engine; exploratory; not a candidate list. It is not a validation and makes no claim of efficacy.",
+    "The engine was validated on diseases with known drugs (benchmark gold from approved indications and trials). Where no drug is known the ranking cannot be checked.",
+    "On Wilms tumour the engine failed to rank the known drugs of the disease in its top 20; a high rank is not evidence that a drug works and a low rank is not evidence against it.",
+    "Literature counts are co-mentions among at most 300 abstracts; they are not effect evidence. The knowledge-graph prior is target based.",
+    "ChEMBL molecule type and openFDA label presence are used as recorded; Drugs@FDA is a confirmation of marketing status only.",
+    "Label age support is label text read by a heuristic classifier unless config/pediatric_label_review.json holds a manual entry (manual review required otherwise); the age of a patient is never assumed.",
+    "Oncology-cytotoxic drugs carry serious label-documented toxicity (marrow suppression, second malignancy, embryo-fetal harm). In Fanconi anaemia DNA-crosslinking agents are of particular concern because of cellular hypersensitivity. This is a flag, not advice.",
+    "No dosing and no treatment recommendation. Hypotheses only."
+  ],
+  "literature_volume": {
+    "dilution_b0_gain_over_popularity_by_papers": {
+      "0.01": {
+        "B0_auc_gap_vs_popularity": 0.051009,
+        "n_papers_mean": 5.0
+      },
+      "0.03": {
+        "B0_auc_gap_vs_popularity": 0.064084,
+        "n_papers_mean": 8.809524
+      },
+      "0.1": {
+        "B0_auc_gap_vs_popularity": 0.093531,
+        "n_papers_mean": 29.0
+      },
+      "0.3": {
+        "B0_auc_gap_vs_popularity": 0.119834,
+        "n_papers_mean": 86.738095
+      },
+      "1.0": {
+        "B0_auc_gap_vs_popularity": 0.127407,
+        "n_papers_mean": 288.904762
+      }
+    },
+    "dilution_prior_only_gain_over_popularity_by_papers": {
+      "0.01": {
+        "PRIOR_ONLY_auc_gap_vs_popularity": 0.038025,
+        "n_papers_mean": 5.0
+      },
+      "0.03": {
+        "PRIOR_ONLY_auc_gap_vs_popularity": 0.038025,
+        "n_papers_mean": 8.809524
+      },
+      "0.1": {
+        "PRIOR_ONLY_auc_gap_vs_popularity": 0.038025,
+        "n_papers_mean": 29.0
+      },
+      "0.3": {
+        "PRIOR_ONLY_auc_gap_vs_popularity": 0.038025,
+        "n_papers_mean": 86.738095
+      },
+      "1.0": {
+        "PRIOR_ONLY_auc_gap_vs_popularity": 0.038025,
+        "n_papers_mean": 288.904762
+      }
+    },
+    "dilution_threshold_papers": 29,
+    "europe_pmc_hit_count": 2047,
+    "flag": {
+      "europe_pmc_hit_count": 2047,
+      "flag": false,
+      "hit_count_stratum": "H",
+      "papers_with_gene": 248,
+      "text": "literature volume above the dilution threshold: the literature features carry part of the ranking",
+      "threshold_papers": 29
+    },
+    "n_drugs_with_at_least_one_comention": 20,
+    "n_papers_retrieved": 300,
+    "n_papers_with_gene": 248,
+    "total_drug_mentions_papers_sum": 57
+  },
+  "mechanism_classes": {
+    "centrosome/centriole": {
+      "genes": [
+        "CENATAC",
+        "CEP57"
+      ],
+      "n_retrieved_papers_mentioning_class_gene": 12,
+      "scope_note": "independent papers among the retrieved abstracts that name the drug and a gene of this class",
+      "top_drugs_by_comention_small_molecule_fda": []
+    },
+    "spindle-assembly checkpoint": {
+      "genes": [
+        "BUB1",
+        "BUB1B",
+        "BUB3",
+        "MAD1L1",
+        "TRIP13"
+      ],
+      "n_retrieved_papers_mentioning_class_gene": 241,
+      "scope_note": "independent papers among the retrieved abstracts that name the drug and a gene of this class",
+      "top_drugs_by_comention_small_molecule_fda": [
+        {
+          "engine_rank_small_molecule_min": 2,
+          "n_benefit": 4,
+          "n_human": 4,
+          "n_papers": 12,
+          "name": "tyrosine"
+        },
+        {
+          "engine_rank_small_molecule_min": 10,
+          "n_benefit": 1,
+          "n_human": 3,
+          "n_papers": 9,
+          "name": "cisplatin"
+        },
+        {
+          "engine_rank_small_molecule_min": 14,
+          "n_benefit": 3,
+          "n_human": 7,
+          "n_papers": 7,
+          "name": "paclitaxel"
+        },
+        {
+          "engine_rank_small_molecule_min": 1,
+          "n_benefit": 1,
+          "n_human": 4,
+          "n_papers": 5,
+          "name": "olaparib"
+        },
+        {
+          "engine_rank_small_molecule_min": 4,
+          "n_benefit": 0,
+          "n_human": 0,
+          "n_papers": 4,
+          "name": "progesterone"
+        }
+      ]
+    }
+  },
+  "mechanism_x_age_band": {
+    "centrosome/centriole": {
+      "0_4": {},
+      "12_17": {},
+      "5_11": {}
+    },
+    "spindle-assembly checkpoint": {
+      "0_4": {
+        "not_labelled": [
+          "cisplatin",
+          "olaparib",
+          "paclitaxel"
+        ],
+        "verify": [
+          "progesterone",
+          "tyrosine"
+        ]
+      },
+      "12_17": {
+        "not_labelled": [
+          "cisplatin",
+          "olaparib",
+          "paclitaxel"
+        ],
+        "verify": [
+          "progesterone",
+          "tyrosine"
+        ]
+      },
+      "5_11": {
+        "not_labelled": [
+          "cisplatin",
+          "olaparib",
+          "paclitaxel"
+        ],
+        "verify": [
+          "progesterone",
+          "tyrosine"
+        ]
+      }
+    }
+  },
+  "model": "B0 (frozen; no refit; no label of the disease)",
+  "nine_report_drugs_positions": {
+    "bortezomib": {
+      "bands": {
+        "0_4": "not_labelled",
+        "12_17": "not_labelled",
+        "5_11": "not_labelled"
+      },
+      "fda_label": true,
+      "in_top20_filtered": false,
+      "molecule_type": "Small molecule",
+      "of_fda_label": 1643,
+      "of_fda_small_molecule": 1293,
+      "of_universe": 2705,
+      "rank_fda_label": 55,
+      "rank_fda_small_molecule": 52,
+      "rank_universe": 57,
+      "score": -5.321743,
+      "universe_name": "bortezomib"
+    },
+    "bosutinib": {
+      "bands": {
+        "0_4": "partly (from 1 y)",
+        "12_17": "labelled",
+        "5_11": "labelled"
+      },
+      "fda_label": true,
+      "in_top20_filtered": false,
+      "molecule_type": "Small molecule",
+      "of_fda_label": 1643,
+      "of_fda_small_molecule": 1293,
+      "of_universe": 2705,
+      "rank_fda_label": 116,
+      "rank_fda_small_molecule": 107,
+      "rank_universe": 126,
+      "score": -5.787801,
+      "universe_name": "bosutinib"
+    },
+    "chloroquine": {
+      "bands": {
+        "0_4": "verify",
+        "12_17": "verify",
+        "5_11": "verify"
+      },
+      "fda_label": true,
+      "in_top20_filtered": false,
+      "molecule_type": "Small molecule",
+      "of_fda_label": 1643,
+      "of_fda_small_molecule": 1293,
+      "of_universe": 2705,
+      "rank_fda_label": 1226,
+      "rank_fda_small_molecule": 1004,
+      "rank_universe": 1592,
+      "score": -6.919698,
+      "universe_name": "chloroquine"
+    },
+    "everolimus": {
+      "bands": {
+        "0_4": "partly (from 1 y)",
+        "12_17": "labelled",
+        "5_11": "labelled"
+      },
+      "fda_label": true,
+      "in_top20_filtered": false,
+      "molecule_type": "Small molecule",
+      "of_fda_label": 1643,
+      "of_fda_small_molecule": 1293,
+      "of_universe": 2705,
+      "rank_fda_label": 557,
+      "rank_fda_small_molecule": 484,
+      "rank_universe": 648,
+      "score": -6.428228,
+      "universe_name": "everolimus"
+    },
+    "metformin": {
+      "bands": {
+        "0_4": "not_labelled",
+        "12_17": "labelled",
+        "5_11": "partly (from 10 y)"
+      },
+      "fda_label": true,
+      "in_top20_filtered": false,
+      "molecule_type": "Small molecule",
+      "of_fda_label": 1643,
+      "of_fda_small_molecule": 1293,
+      "of_universe": 2705,
+      "rank_fda_label": 1363,
+      "rank_fda_small_molecule": 1107,
+      "rank_universe": 1844,
+      "score": -7.078504,
+      "universe_name": "metformin"
+    },
+    "selumetinib": {
+      "bands": {
+        "0_4": "partly (from 1 y)",
+        "12_17": "labelled",
+        "5_11": "labelled"
+      },
+      "fda_label": true,
+      "in_top20_filtered": false,
+      "molecule_type": "Small molecule",
+      "of_fda_label": 1643,
+      "of_fda_small_molecule": 1293,
+      "of_universe": 2705,
+      "rank_fda_label": 100,
+      "rank_fda_small_molecule": 93,
+      "rank_universe": 108,
+      "score": -5.71584,
+      "universe_name": "selumetinib"
+    },
+    "sirolimus": {
+      "bands": {
+        "0_4": "not_labelled",
+        "12_17": "partly (from 13 y)",
+        "5_11": "not_labelled"
+      },
+      "fda_label": true,
+      "in_top20_filtered": false,
+      "molecule_type": "Small molecule",
+      "of_fda_label": 1643,
+      "of_fda_small_molecule": 1293,
+      "of_universe": 2705,
+      "rank_fda_label": 1144,
+      "rank_fda_small_molecule": 941,
+      "rank_universe": 1449,
+      "score": -6.824432,
+      "universe_name": "sirolimus"
+    },
+    "sodium phenylbutyrate": {
+      "bands": null,
+      "fda_label": false,
+      "in_top20_filtered": false,
+      "molecule_type": "Small molecule",
+      "of_fda_label": 1643,
+      "of_fda_small_molecule": 1293,
+      "of_universe": 2705,
+      "rank_fda_label": null,
+      "rank_fda_small_molecule": null,
+      "rank_universe": 1917,
+      "score": -7.142514,
+      "universe_name": "phenylbutanoic acid"
+    },
+    "trametinib": {
+      "bands": {
+        "0_4": "partly (from 1 y)",
+        "12_17": "labelled",
+        "5_11": "labelled"
+      },
+      "fda_label": true,
+      "in_top20_filtered": false,
+      "molecule_type": "Small molecule",
+      "of_fda_label": 1643,
+      "of_fda_small_molecule": 1293,
+      "of_universe": 2705,
+      "rank_fda_label": 81,
+      "rank_fda_small_molecule": 77,
+      "rank_universe": 86,
+      "score": -5.638962,
+      "universe_name": "trametinib"
+    }
+  },
+  "protocol": "protocol/addendum_engine_apply.md",
+  "ranking_top20_fda_small_molecule": [
+    {
+      "approval": "openFDA label match + Drugs@FDA Prescription",
+      "atc": [
+        "L01XK01"
+      ],
+      "bands": {
+        "0_4": "not_labelled",
+        "12_17": "not_labelled",
+        "5_11": "not_labelled"
+      },
+      "drugs_at_fda": {
+        "applications": [
+          "ANDA217936",
+          "ANDA218044",
+          "ANDA219410",
+          "ANDA219893",
+          "NDA206162"
+        ],
+        "eligible": true,
+        "marketing_statuses": [
+          "Discontinued",
+          "None (Tentative Approval)",
+          "Prescription"
+        ],
+        "matched_name": "OLAPARIB",
+        "n_applications": 6
+      },
+      "first_approval": 2014,
+      "label_status": "NOT_ESTABLISHED",
+      "molecule_type": "Small molecule",
+      "n_benefit": 1,
+      "n_human": 4,
+      "n_papers_with_gene": 5,
+      "name": "olaparib",
+      "oncology_cytotoxic_chemotherapy_caution": true,
+      "openfda_label_match": true,
+      "platt_value": 0.069514,
+      "position": 1,
+      "rank_max": 1,
+      "rank_min": 1,
+      "score": -2.228689,
+      "tie_group_size": 1
+    },
+    {
+      "approval": "openFDA label match + Drugs@FDA: no Prescription product",
+      "atc": [],
+      "bands": {
+        "0_4": "verify",
+        "12_17": "verify",
+        "5_11": "verify"
+      },
+      "drugs_at_fda": {
+        "applications": [],
+        "eligible": false,
+        "marketing_statuses": [
+          "Discontinued"
+        ],
+        "matched_name": "TYROSINE",
+        "n_applications": 0,
+        "reason": "no product with marketing status Prescription"
+      },
+      "first_approval": 1982,
+      "label_status": "UNKNOWN",
+      "molecule_type": "Small molecule",
+      "n_benefit": 4,
+      "n_human": 4,
+      "n_papers_with_gene": 12,
+      "name": "tyrosine",
+      "oncology_cytotoxic_chemotherapy_caution": false,
+      "openfda_label_match": true,
+      "platt_value": 0.034803,
+      "position": 2,
+      "rank_max": 2,
+      "rank_min": 2,
+      "score": -3.065231,
+      "tie_group_size": 1
+    },
+    {
+      "approval": "openFDA label match + Drugs@FDA Prescription",
+      "atc": [
+        "L01XA02"
+      ],
+      "bands": {
+        "0_4": "not_labelled",
+        "12_17": "not_labelled",
+        "5_11": "not_labelled"
+      },
+      "drugs_at_fda": {
+        "applications": [
+          "ANDA076099",
+          "ANDA076162",
+          "ANDA076235",
+          "ANDA076473",
+          "ANDA076517"
+        ],
+        "eligible": true,
+        "marketing_statuses": [
+          "Discontinued",
+          "Prescription"
+        ],
+        "matched_name": "CARBOPLATIN",
+        "n_applications": 37
+      },
+      "first_approval": 1989,
+      "label_status": "NOT_ESTABLISHED",
+      "molecule_type": "Small molecule",
+      "n_benefit": 0,
+      "n_human": 1,
+      "n_papers_with_gene": 2,
+      "name": "carboplatin",
+      "oncology_cytotoxic_chemotherapy_caution": true,
+      "openfda_label_match": true,
+      "platt_value": 0.022767,
+      "position": 3,
+      "rank_max": 3,
+      "rank_min": 3,
+      "score": -3.566842,
+      "tie_group_size": 1
+    },
+    {
+      "approval": "openFDA label match + Drugs@FDA Prescription",
+      "atc": [
+        "G03DA04"
+      ],
+      "bands": {
+        "0_4": "verify",
+        "12_17": "verify",
+        "5_11": "verify"
+      },
+      "drugs_at_fda": {
+        "applications": [
+          "ANDA075906",
+          "ANDA090845",
+          "ANDA091033",
+          "ANDA200456",
+          "ANDA200900"
+        ],
+        "eligible": true,
+        "marketing_statuses": [
+          "Discontinued",
+          "Prescription"
+        ],
+        "matched_name": "PROGESTERONE",
+        "n_applications": 26
+      },
+      "first_approval": 1976,
+      "label_status": "UNKNOWN",
+      "molecule_type": "Small molecule",
+      "n_benefit": 0,
+      "n_human": 0,
+      "n_papers_with_gene": 4,
+      "name": "progesterone",
+      "oncology_cytotoxic_chemotherapy_caution": false,
+      "openfda_label_match": true,
+      "platt_value": 0.019797,
+      "position": 4,
+      "rank_max": 4,
+      "rank_min": 4,
+      "score": -3.730856,
+      "tie_group_size": 1
+    },
+    {
+      "approval": "openFDA label match + Drugs@FDA Prescription",
+      "atc": [
+        "B05XA12"
+      ],
+      "bands": {
+        "0_4": "verify",
+        "12_17": "verify",
+        "5_11": "verify"
+      },
+      "drugs_at_fda": {
+        "applications": [
+          "ANDA212007",
+          "ANDA216152",
+          "ANDA217625",
+          "NDA018959"
+        ],
+        "eligible": true,
+        "marketing_statuses": [
+          "Prescription"
+        ],
+        "matched_name": "ZINC CHLORIDE",
+        "n_applications": 4
+      },
+      "first_approval": 1986,
+      "label_status": "UNKNOWN",
+      "molecule_type": "Small molecule",
+      "n_benefit": 0,
+      "n_human": 0,
+      "n_papers_with_gene": 0,
+      "name": "zinc chloride",
+      "oncology_cytotoxic_chemotherapy_caution": false,
+      "openfda_label_match": true,
+      "platt_value": 0.009757,
+      "position": 5,
+      "rank_max": 5,
+      "rank_min": 5,
+      "score": -4.555086,
+      "tie_group_size": 1
+    },
+    {
+      "approval": "openFDA label match + Drugs@FDA Prescription",
+      "atc": [
+        "L01CD04"
+      ],
+      "bands": {
+        "0_4": "not_labelled",
+        "12_17": "not_labelled",
+        "5_11": "not_labelled"
+      },
+      "drugs_at_fda": {
+        "applications": [
+          "ANDA207381",
+          "ANDA207619",
+          "ANDA207693",
+          "ANDA207718",
+          "ANDA207735"
+        ],
+        "eligible": true,
+        "marketing_statuses": [
+          "Discontinued",
+          "None (Tentative Approval)",
+          "Prescription"
+        ],
+        "matched_name": "CABAZITAXEL",
+        "n_applications": 11
+      },
+      "first_approval": 2010,
+      "label_status": "NOT_ESTABLISHED",
+      "molecule_type": "Small molecule",
+      "n_benefit": 0,
+      "n_human": 1,
+      "n_papers_with_gene": 1,
+      "name": "cabazitaxel",
+      "oncology_cytotoxic_chemotherapy_caution": true,
+      "openfda_label_match": true,
+      "platt_value": 0.008863,
+      "position": 6,
+      "rank_max": 6,
+      "rank_min": 6,
+      "score": -4.666486,
+      "tie_group_size": 1
+    },
+    {
+      "approval": "openFDA label match + Drugs@FDA Prescription",
+      "atc": [
+        "L01XH01"
+      ],
+      "bands": {
+        "0_4": "not_labelled",
+        "12_17": "not_labelled",
+        "5_11": "not_labelled"
+      },
+      "drugs_at_fda": {
+        "applications": [
+          "NDA021991"
+        ],
+        "eligible": true,
+        "marketing_statuses": [
+          "Prescription"
+        ],
+        "matched_name": "VORINOSTAT",
+        "n_applications": 1
+      },
+      "first_approval": 2006,
+      "label_status": "NOT_ESTABLISHED",
+      "molecule_type": "Small molecule",
+      "n_benefit": 0,
+      "n_human": 0,
+      "n_papers_with_gene": 0,
+      "name": "vorinostat",
+      "oncology_cytotoxic_chemotherapy_caution": true,
+      "openfda_label_match": true,
+      "platt_value": 0.008535,
+      "position": 7,
+      "rank_max": 7,
+      "rank_min": 7,
+      "score": -4.710194,
+      "tie_group_size": 1
+    },
+    {
+      "approval": "openFDA label match + Drugs@FDA Prescription",
+      "atc": [
+        "L04AE01"
+      ],
+      "bands": {
+        "0_4": "verify",
+        "12_17": "verify",
+        "5_11": "verify"
+      },
+      "drugs_at_fda": {
+        "applications": [
+          "ANDA207933",
+          "ANDA207939",
+          "ANDA207940",
+          "ANDA207945",
+          "ANDA207965"
+        ],
+        "eligible": true,
+        "marketing_statuses": [
+          "Discontinued",
+          "None (Tentative Approval)",
+          "Prescription"
+        ],
+        "matched_name": "FINGOLIMOD",
+        "n_applications": 24
+      },
+      "first_approval": 2010,
+      "label_status": "MIXED",
+      "molecule_type": "Small molecule",
+      "n_benefit": 0,
+      "n_human": 0,
+      "n_papers_with_gene": 0,
+      "name": "fingolimod",
+      "oncology_cytotoxic_chemotherapy_caution": false,
+      "openfda_label_match": true,
+      "platt_value": 0.008533,
+      "position": 8,
+      "rank_max": 8,
+      "rank_min": 8,
+      "score": -4.710374,
+      "tie_group_size": 1
+    },
+    {
+      "approval": "Drugs@FDA Prescription",
+      "atc": [
+        "L01XX27"
+      ],
+      "bands": {
+        "0_4": "verify",
+        "12_17": "verify",
+        "5_11": "verify"
+      },
+      "drugs_at_fda": {
+        "applications": [
+          "ANDA078729",
+          "ANDA206228",
+          "ANDA208231",
+          "ANDA209315",
+          "ANDA209780"
+        ],
+        "eligible": true,
+        "marketing_statuses": [
+          "Discontinued",
+          "None (Tentative Approval)",
+          "Prescription"
+        ],
+        "matched_name": "ARSENIC TRIOXIDE",
+        "n_applications": 13
+      },
+      "first_approval": 2000,
+      "label_status": "UNKNOWN",
+      "molecule_type": "Small molecule",
+      "n_benefit": 0,
+      "n_human": 0,
+      "n_papers_with_gene": 0,
+      "name": "arsenic trioxide",
+      "oncology_cytotoxic_chemotherapy_caution": true,
+      "openfda_label_match": false,
+      "platt_value": 0.00845,
+      "position": 9,
+      "rank_max": 9,
+      "rank_min": 9,
+      "score": -4.721718,
+      "tie_group_size": 1
+    },
+    {
+      "approval": "openFDA label match + Drugs@FDA Prescription",
+      "atc": [
+        "L01XA01"
+      ],
+      "bands": {
+        "0_4": "not_labelled",
+        "12_17": "not_labelled",
+        "5_11": "not_labelled"
+      },
+      "drugs_at_fda": {
+        "applications": [
+          "ANDA074656",
+          "ANDA074713",
+          "ANDA074735",
+          "ANDA074814",
+          "ANDA075036"
+        ],
+        "eligible": true,
+        "marketing_statuses": [
+          "Discontinued",
+          "Prescription"
+        ],
+        "matched_name": "CISPLATIN",
+        "n_applications": 10
+      },
+      "first_approval": 1978,
+      "label_status": "NOT_ESTABLISHED",
+      "molecule_type": "Small molecule",
+      "n_benefit": 1,
+      "n_human": 3,
+      "n_papers_with_gene": 9,
+      "name": "cisplatin",
+      "oncology_cytotoxic_chemotherapy_caution": true,
+      "openfda_label_match": true,
+      "platt_value": 0.008221,
+      "position": 10,
+      "rank_max": 10,
+      "rank_min": 10,
+      "score": -4.753524,
+      "tie_group_size": 1
+    },
+    {
+      "approval": "openFDA label match + Drugs@FDA Prescription",
+      "atc": [
+        "L01DB01"
+      ],
+      "bands": {
+        "0_4": "age_not_stated",
+        "12_17": "age_not_stated",
+        "5_11": "age_not_stated"
+      },
+      "drugs_at_fda": {
+        "applications": [
+          "ANDA062921",
+          "ANDA062926",
+          "ANDA062975",
+          "ANDA063097",
+          "ANDA063165"
+        ],
+        "eligible": true,
+        "marketing_statuses": [
+          "Discontinued",
+          "Prescription"
+        ],
+        "matched_name": "DOXORUBICIN",
+        "n_applications": 30
+      },
+      "first_approval": 1974,
+      "label_status": "ESTABLISHED",
+      "molecule_type": "Small molecule",
+      "n_benefit": 0,
+      "n_human": 1,
+      "n_papers_with_gene": 2,
+      "name": "doxorubicin",
+      "oncology_cytotoxic_chemotherapy_caution": true,
+      "openfda_label_match": true,
+      "platt_value": 0.007254,
+      "position": 11,
+      "rank_max": 11,
+      "rank_min": 11,
+      "score": -4.898435,
+      "tie_group_size": 1
+    },
+    {
+      "approval": "openFDA label match + Drugs@FDA Prescription",
+      "atc": [
+        "B02BX09"
+      ],
+      "bands": {
+        "0_4": "not_labelled",
+        "12_17": "not_labelled",
+        "5_11": "not_labelled"
+      },
+      "drugs_at_fda": {
+        "applications": [
+          "ANDA217329",
+          "NDA209299"
+        ],
+        "eligible": true,
+        "marketing_statuses": [
+          "Prescription"
+        ],
+        "matched_name": "FOSTAMATINIB",
+        "n_applications": 2
+      },
+      "first_approval": 2018,
+      "label_status": "NOT_ESTABLISHED",
+      "molecule_type": "Small molecule",
+      "n_benefit": 0,
+      "n_human": 0,
+      "n_papers_with_gene": 0,
+      "name": "fostamatinib",
+      "oncology_cytotoxic_chemotherapy_caution": false,
+      "openfda_label_match": true,
+      "platt_value": 0.00722,
+      "position": 12,
+      "rank_max": 12,
+      "rank_min": 12,
+      "score": -4.903822,
+      "tie_group_size": 1
+    },
+    {
+      "approval": "openFDA label match + Drugs@FDA Prescription",
+      "atc": [
+        "L01XH04"
+      ],
+      "bands": {
+        "0_4": "not_labelled",
+        "12_17": "not_labelled",
+        "5_11": "not_labelled"
+      },
+      "drugs_at_fda": {
+        "applications": [
+          "NDA206256"
+        ],
+        "eligible": true,
+        "marketing_statuses": [
+          "Prescription"
+        ],
+        "matched_name": "BELINOSTAT",
+        "n_applications": 1
+      },
+      "first_approval": 2014,
+      "label_status": "NOT_ESTABLISHED",
+      "molecule_type": "Small molecule",
+      "n_benefit": 0,
+      "n_human": 0,
+      "n_papers_with_gene": 0,
+      "name": "belinostat",
+      "oncology_cytotoxic_chemotherapy_caution": true,
+      "openfda_label_match": true,
+      "platt_value": 0.00717,
+      "position": 13,
+      "rank_max": 13,
+      "rank_min": 13,
+      "score": -4.911879,
+      "tie_group_size": 1
+    },
+    {
+      "approval": "openFDA label match + Drugs@FDA Prescription",
+      "atc": [
+        "L01CD01"
+      ],
+      "bands": {
+        "0_4": "not_labelled",
+        "12_17": "not_labelled",
+        "5_11": "not_labelled"
+      },
+      "drugs_at_fda": {
+        "applications": [
+          "ANDA075184",
+          "ANDA075190",
+          "ANDA075278",
+          "ANDA075297",
+          "ANDA075436"
+        ],
+        "eligible": true,
+        "marketing_statuses": [
+          "Discontinued",
+          "Prescription"
+        ],
+        "matched_name": "PACLITAXEL",
+        "n_applications": 24
+      },
+      "first_approval": 1992,
+      "label_status": "NOT_ESTABLISHED",
+      "molecule_type": "Small molecule",
+      "n_benefit": 3,
+      "n_human": 7,
+      "n_papers_with_gene": 7,
+      "name": "paclitaxel",
+      "oncology_cytotoxic_chemotherapy_caution": true,
+      "openfda_label_match": true,
+      "platt_value": 0.007167,
+      "position": 14,
+      "rank_max": 14,
+      "rank_min": 14,
+      "score": -4.91242,
+      "tie_group_size": 1
+    },
+    {
+      "approval": "openFDA label match + Drugs@FDA Prescription",
+      "atc": [
+        "C07AG02"
+      ],
+      "bands": {
+        "0_4": "verify",
+        "12_17": "verify",
+        "5_11": "verify"
+      },
+      "drugs_at_fda": {
+        "applications": [
+          "ANDA076373",
+          "ANDA076649",
+          "ANDA076989",
+          "ANDA077316",
+          "ANDA077346"
+        ],
+        "eligible": true,
+        "marketing_statuses": [
+          "Discontinued",
+          "Prescription"
+        ],
+        "matched_name": "CARVEDILOL",
+        "n_applications": 21
+      },
+      "first_approval": 1995,
+      "label_status": "UNKNOWN",
+      "molecule_type": "Small molecule",
+      "n_benefit": 0,
+      "n_human": 0,
+      "n_papers_with_gene": 0,
+      "name": "carvedilol",
+      "oncology_cytotoxic_chemotherapy_caution": false,
+      "openfda_label_match": true,
+      "platt_value": 0.007034,
+      "position": 15,
+      "rank_max": 15,
+      "rank_min": 15,
+      "score": -4.93395,
+      "tie_group_size": 1
+    },
+    {
+      "approval": "openFDA label match + Drugs@FDA Prescription",
+      "atc": [
+        "C10AA03"
+      ],
+      "bands": {
+        "0_4": "verify",
+        "12_17": "verify",
+        "5_11": "verify"
+      },
+      "drugs_at_fda": {
+        "applications": [
+          "ANDA076056",
+          "ANDA076341",
+          "ANDA076445",
+          "ANDA076714",
+          "ANDA076939"
+        ],
+        "eligible": true,
+        "marketing_statuses": [
+          "Discontinued",
+          "None (Tentative Approval)",
+          "Prescription"
+        ],
+        "matched_name": "PRAVASTATIN",
+        "n_applications": 20
+      },
+      "first_approval": 1991,
+      "label_status": "MIXED",
+      "molecule_type": "Small molecule",
+      "n_benefit": 0,
+      "n_human": 0,
+      "n_papers_with_gene": 0,
+      "name": "pravastatin",
+      "oncology_cytotoxic_chemotherapy_caution": false,
+      "openfda_label_match": true,
+      "platt_value": 0.007034,
+      "position": 16,
+      "rank_max": 16,
+      "rank_min": 16,
+      "score": -4.933983,
+      "tie_group_size": 1
+    },
+    {
+      "approval": "openFDA label match + Drugs@FDA Prescription",
+      "atc": [
+        "C10AA02"
+      ],
+      "bands": {
+        "0_4": "verify",
+        "12_17": "verify",
+        "5_11": "verify"
+      },
+      "drugs_at_fda": {
+        "applications": [
+          "ANDA075300",
+          "ANDA075451",
+          "ANDA075551",
+          "ANDA075636",
+          "ANDA075828"
+        ],
+        "eligible": true,
+        "marketing_statuses": [
+          "Discontinued",
+          "Prescription"
+        ],
+        "matched_name": "LOVASTATIN",
+        "n_applications": 12
+      },
+      "first_approval": 1987,
+      "label_status": "UNKNOWN",
+      "molecule_type": "Small molecule",
+      "n_benefit": 0,
+      "n_human": 0,
+      "n_papers_with_gene": 0,
+      "name": "lovastatin",
+      "oncology_cytotoxic_chemotherapy_caution": false,
+      "openfda_label_match": true,
+      "platt_value": 0.007025,
+      "position": 17,
+      "rank_max": 17,
+      "rank_min": 17,
+      "score": -4.935562,
+      "tie_group_size": 1
+    },
+    {
+      "approval": "openFDA label match + Drugs@FDA Prescription",
+      "atc": [
+        "G04BE07",
+        "N04BC07"
+      ],
+      "bands": {
+        "0_4": "not_labelled",
+        "12_17": "not_labelled",
+        "5_11": "not_labelled"
+      },
+      "drugs_at_fda": {
+        "applications": [
+          "ANDA212025",
+          "NDA021264",
+          "NDA210875",
+          "NDA214056"
+        ],
+        "eligible": true,
+        "marketing_statuses": [
+          "Discontinued",
+          "Prescription"
+        ],
+        "matched_name": "APOMORPHINE",
+        "n_applications": 4
+      },
+      "first_approval": 2001,
+      "label_status": "NOT_ESTABLISHED",
+      "molecule_type": "Small molecule",
+      "n_benefit": 0,
+      "n_human": 0,
+      "n_papers_with_gene": 0,
+      "name": "apomorphine",
+      "oncology_cytotoxic_chemotherapy_caution": false,
+      "openfda_label_match": true,
+      "platt_value": 0.007017,
+      "position": 18,
+      "rank_max": 18,
+      "rank_min": 18,
+      "score": -4.936769,
+      "tie_group_size": 1
+    },
+    {
+      "approval": "openFDA label match + Drugs@FDA Prescription",
+      "atc": [
+        "C02AB01"
+      ],
+      "bands": {
+        "0_4": "verify",
+        "12_17": "verify",
+        "5_11": "verify"
+      },
+      "drugs_at_fda": {
+        "applications": [
+          "ANDA070060",
+          "ANDA070070",
+          "ANDA070073",
+          "ANDA070074",
+          "ANDA070075"
+        ],
+        "eligible": true,
+        "marketing_statuses": [
+          "Discontinued",
+          "Prescription"
+        ],
+        "matched_name": "METHYLDOPA",
+        "n_applications": 91
+      },
+      "first_approval": 1962,
+      "label_status": "UNKNOWN",
+      "molecule_type": "Small molecule",
+      "n_benefit": 0,
+      "n_human": 0,
+      "n_papers_with_gene": 0,
+      "name": "methyldopa",
+      "oncology_cytotoxic_chemotherapy_caution": false,
+      "openfda_label_match": true,
+      "platt_value": 0.006873,
+      "position": 19,
+      "rank_max": 19,
+      "rank_min": 19,
+      "score": -4.96075,
+      "tie_group_size": 1
+    },
+    {
+      "approval": "openFDA label match + Drugs@FDA Prescription",
+      "atc": [
+        "C10AA04"
+      ],
+      "bands": {
+        "0_4": "verify",
+        "12_17": "verify",
+        "5_11": "verify"
+      },
+      "drugs_at_fda": {
+        "applications": [
+          "ANDA078407",
+          "ANDA078872",
+          "ANDA079011",
+          "ANDA090595",
+          "ANDA202458"
+        ],
+        "eligible": true,
+        "marketing_statuses": [
+          "Discontinued",
+          "None (Tentative Approval)",
+          "Prescription"
+        ],
+        "matched_name": "FLUVASTATIN",
+        "n_applications": 8
+      },
+      "first_approval": 1993,
+      "label_status": "UNKNOWN",
+      "molecule_type": "Small molecule",
+      "n_benefit": 0,
+      "n_human": 0,
+      "n_papers_with_gene": 0,
+      "name": "fluvastatin",
+      "oncology_cytotoxic_chemotherapy_caution": false,
+      "openfda_label_match": true,
+      "platt_value": 0.006788,
+      "position": 20,
+      "rank_max": 20,
+      "rank_min": 20,
+      "score": -4.975177,
+      "tie_group_size": 1
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "description": "Rules that state, for each candidate, what it is proposed for in this case. A rule matches on the ChEMBL mechanism-of-action text of the drug (first match wins) and ties the proposal to one of the five consequences of the variant listed in the report (1 missegregation and mosaic aneuploidy; 2 proteotoxic and energy stress; 3 p53 and senescence response; 4 growth restriction and muscle atrophy; 5 tumour predisposition). The wording only says what the evidence in this repository supports. {antigen} and {genes} are filled from the drug's own data. Hypotheses for follow-up; not medical advice.",
+  "consequences": {
+    "1": "chromosome missegregation and mosaic aneuploidy",
+    "2": "proteotoxic and energy stress in aneuploid cells",
+    "3": "p53 and senescence response",
+    "4": "growth restriction and muscle atrophy",
+    "5": "tumour predisposition"
+  },
+  "rules": [
+    {
+      "id": "proteasome_inhibitor",
+      "match_any": [
+        "proteasome"
+      ],
+      "consequences": [
+        "2",
+        "5"
+      ],
+      "context": "tumour",
+      "new_use": "Tumour-directed: proteasome inhibition to exploit the proteotoxic stress of aneuploid cells, if the child develops a tumour (rhabdomyosarcoma or Wilms tumour are the tumours reported in this syndrome). It does not treat the constitutional defect.",
+      "caveat": "The support is from yeast and cancer cells and no paper on proteasome inhibitors in BUB1B-deficient cells was verified. In cell lines there is no association with checkpoint strength before adjusting; after adjusting for proliferation the direction is the same as for microtubule agents (less effective with a weak checkpoint). The network proximity of this class is membership of the proteasome in the checkpoint pathways, so it is not independent evidence.",
+      "validation": "Dose-response of a proteasome inhibitor in patient-derived cells or BUB1B-hypomorphic engineered cells against isogenic controls; read-outs: selective killing of aneuploid cells (karyotype or single-cell sequencing) and proteotoxic stress markers (ubiquitinated proteins, HSP70). Refuted if aneuploid and diploid cells are equally sensitive."
+    },
+    {
+      "id": "tubulin_toxin_antibody_drug_conjugate",
+      "match_all_groups": [
+        [
+          "tubulin"
+        ],
+        [
+          "binding agent"
+        ]
+      ],
+      "consequences": [
+        "5"
+      ],
+      "context": "tumour",
+      "new_use": "Tumour-directed delivery of a tubulin toxin to cells that carry {antigen}: relevant only if the child's tumour expresses that antigen (not established for any tumour of this syndrome). The payload is an antimitotic.",
+      "caveat": "Antimitotic payloads depend on the spindle checkpoint: cell-line data and taxane studies point to less effect where the checkpoint is weak.",
+      "validation": "Immunohistochemistry for the antigen in the child's tumour or in rhabdomyosarcoma and Wilms tumour models. Refuted if the antigen is absent; and test the payload in BUB1B-hypomorphic cells, where less effect is expected."
+    },
+    {
+      "id": "microtubule_agent_tumour",
+      "match_any": [
+        "tubulin"
+      ],
+      "consequences": [
+        "5"
+      ],
+      "context": "tumour_or_constitutional",
+      "new_use": "Antimitotic for a tumour context (consequence 5); no rationale for the constitutional defect.",
+      "caveat": "Cell lines with a weaker checkpoint are more resistant to every microtubule agent tested, in line with taxane-resistance reports: this class is not favoured and is listed for completeness.",
+      "only_for_list": "tumour_context",
+      "validation": "Viability and mitotic-slippage assays in cells with reduced BUB1B against controls. The cell-line data predict less effect with a weak checkpoint; a confirmation is a reason to avoid the class."
+    },
+    {
+      "id": "microtubule_agent_non_oncology",
+      "match_any": [
+        "tubulin"
+      ],
+      "only_for_list": "constitutional_defect",
+      "consequences": [],
+      "context": "none",
+      "new_use": "No specific repositioned use proposed: a microtubule agent used outside oncology; its closeness to the module comes only from tubulin, which is a generic component of the mitotic pathways.",
+      "caveat": "Cell lines with a weaker checkpoint are more resistant to every microtubule agent tested; listed because it met the criteria, not because a use is proposed.",
+      "validation": "None proposed; if tested, the same assay as for the other microtubule agents."
+    },
+    {
+      "id": "xpo1_inhibitor",
+      "match_any": [
+        "exportin"
+      ],
+      "consequences": [
+        "5"
+      ],
+      "context": "tumour",
+      "new_use": "Tumour-directed nuclear-export inhibition; XPO1 is a protein of the checkpoint module (curated mechanism).",
+      "caveat": "No mechanistic rationale specific to MVA was found; the case rests on network closeness alone.",
+      "validation": "Viability and mitotic phenotypes (mitotic index, micronuclei) in BUB1B-hypomorphic cells against controls and in tumour models. Refuted if there is no selective effect."
+    },
+    {
+      "id": "mtor_pathway",
+      "match_any": [
+        "fk506",
+        "fkbp",
+        "mtor"
+      ],
+      "consequences": [
+        "3",
+        "4"
+      ],
+      "context": "constitutional_extrapolation",
+      "new_use": "For the growth restriction, muscle atrophy and senescence consequences: BubR1-mutant mice show sarcopenia that correlates with mTORC1 hyperactivity, and the proband has short stature and muscle atrophy. An extrapolation from mouse genetics.",
+      "caveat": "No drug was tested in those mice and the drugs carry boxed warnings; in cell lines the weak-checkpoint group is not more sensitive (an apparent resistance of sirolimus disappears after adjusting for proliferation).",
+      "validation": "mTORC1 activity (phospho-S6) and muscle-differentiation or growth phenotypes in patient-derived myoblasts or in the BubR1 hypomorphic mouse model. Refuted if mTORC1 is not raised or the drug does not change the phenotype."
+    },
+    {
+      "id": "integrin_antibody",
+      "match_any": [
+        "integrin"
+      ],
+      "consequences": [],
+      "context": "none",
+      "new_use": "No specific repositioned use proposed: it is linked to the module only through integrin alpha-4/beta-1 (curated), which looks like a network-topology effect.",
+      "caveat": "Listed for completeness because it met the criteria of the wider ring.",
+      "validation": "None proposed."
+    }
+  ],
+  "default_measured_links": {
+    "consequences": [
+      "1"
+    ],
+    "context": "constitutional_hypothesis",
+    "new_use": "Hypothesis that it acts on the checkpoint and mitotic network, because it binds {genes} (measured activity at or below 1 uM), proteins of or next to the modules; this would act on consequence 1. The direction of effect is unknown.",
+    "caveat": "A broad binder: closeness to the module may reflect breadth of targets and not specificity.",
+    "validation": "Confirm binding with an orthogonal assay (biochemical kinase assay, thermal shift) at relevant concentrations and test mitotic fidelity (mitotic index, micronuclei, lagging chromosomes) in cells. Refuted if there is no engagement or no effect."
+  },
+  "default_none": {
+    "consequences": [],
+    "context": "none",
+    "new_use": "No specific repositioned use proposed beyond network closeness.",
+    "caveat": "",
+    "validation": "None proposed."
+  },
+  "antigen_aliases": {
+    "Tumor necrosis factor receptor superfamily member 8": "CD30 (TNFRSF8)",
+    "B-cell antigen receptor complex-associated protein beta chain": "CD79b",
+    "Coagulation factor III": "tissue factor (F3)",
+    "Receptor protein-tyrosine kinase erbB-2": "HER2 (ERBB2)",
+    "Folate receptor alpha": "folate receptor alpha (FOLR1)",
+    "Nectin-4": "Nectin-4"
+  }
+}

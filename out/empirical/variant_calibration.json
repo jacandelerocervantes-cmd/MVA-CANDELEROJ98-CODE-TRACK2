@@ -1,0 +1,120 @@
+{
+  "variant": "BUB1B p.Asn1002Lys (MANE NM_001211.6)",
+  "inputs": {
+    "scores": {
+      "CADD": 24.5,
+      "SIFT": 0.01,
+      "PolyPhen2": 0.997,
+      "AlphaMissense": 0.923,
+      "REVEL": 0.472
+    },
+    "gnomad_v4_exome_af": 6.8e-07
+  },
+  "per_predictor": {
+    "CADD": {
+      "predictor": "CADD",
+      "score": 24.5,
+      "criterion": null,
+      "strength": "none",
+      "points": 0,
+      "threshold_crossed": null,
+      "pmid": "36413997",
+      "threshold_source_quote": "CADD – ≤0.15 (0.15, 17.3] (17.3, 22.7] [25.3, 28.1) ≥28.1 – –",
+      "source": "Pejaver V et al. Am J Hum Genet 2022;109(12):2163-2177"
+    },
+    "SIFT": {
+      "predictor": "SIFT",
+      "score": 0.01,
+      "criterion": null,
+      "strength": "none",
+      "points": 0,
+      "threshold_crossed": null,
+      "pmid": "36413997",
+      "threshold_source_quote": "SIFT – – ≥0.327 [0.080, 0.327) (0, 0.001] 0 – –",
+      "source": "Pejaver V et al. Am J Hum Genet 2022;109(12):2163-2177"
+    },
+    "PolyPhen2": {
+      "predictor": "PolyPhen2",
+      "score": 0.997,
+      "criterion": "PP3",
+      "strength": "PP3_Supporting",
+      "points": 1,
+      "threshold_crossed": "[0.978, 0.999)",
+      "pmid": "36413997",
+      "threshold_source_quote": "PolyPhen2 – – ≤0.009 (0.009, 0.113] [0.978, 0.999) ≥0.999 – –",
+      "source": "Pejaver V et al. Am J Hum Genet 2022;109(12):2163-2177"
+    },
+    "AlphaMissense": {
+      "predictor": "AlphaMissense",
+      "score": 0.923,
+      "criterion": "PP3",
+      "strength": "PP3_Moderate",
+      "points": 2,
+      "threshold_crossed": "[0.906, 0.972)",
+      "pmid": "40084623",
+      "threshold_source_quote": "AlphaMissense - ≤ 0.070 [0.071, 0.099] [0.100, 0.169] [0.170, 0.791] [0.792, 0.905] [0.906, 0.971] [0.972, 0.989] ≥ 0.990",
+      "source": "Bergquist T et al. Genet Med 2025 (ClinGen calibration of AlphaMissense, ESM1b, VARITY)"
+    },
+    "REVEL": {
+      "predictor": "REVEL",
+      "score": 0.472,
+      "criterion": null,
+      "strength": "none",
+      "points": 0,
+      "threshold_crossed": null,
+      "pmid": "36413997",
+      "threshold_source_quote": "REVEL ≤0.003 (0.003, 0.016] (0.016, 0.183] (0.183, 0.290] [0.644, 0.773) [0.773, 0.932) ≥0.932 –",
+      "source": "Pejaver V et al. Am J Hum Genet 2022;109(12):2163-2177"
+    }
+  },
+  "overall_statement": "Calibrated strengths disagree across predictors: AlphaMissense 0.923 reaches PP3_Moderate (Bergquist 2025) and PolyPhen-2 0.997 reaches PP3_Supporting (Pejaver 2022), whereas REVEL 0.472, CADD-PHRED 24.5 and SIFT 0.01 fall in indeterminate gaps and give no PP3 strength. REVEL, the ClinGen-recommended tool of Pejaver 2022, is indeterminate. Choosing the highest-scoring tool after seeing all scores is post hoc; the defensible statement is 'PP3 at most Moderate (AlphaMissense only), none by REVEL', and the tools are correlated, so strengths must not be summed. The default AlphaMissense cut-off (0.564) is not itself calibrated evidence (Bergquist 2025).",
+  "acmg_combination_caveat": "Even the most favourable reading (PM2 for rarity at Supporting, as downgraded by ClinGen SVI, plus PP3_Moderate) does not classify the variant: it remains a variant of uncertain significance (Likely pathogenic needs more points than this; point system from Tavtigian 2020, not re-verified here). PM2 and PP3 are weak lines of evidence. Phase (cis/trans relative to a second BUB1B variant) is unresolved, so no inference on biallelic status or disease can be drawn.",
+  "acmg_classification": "Variant of uncertain significance (unchanged); phase unresolved",
+  "sources": {
+    "pejaver2022": {
+      "citation": "Pejaver V et al. Am J Hum Genet 2022;109(12):2163-2177",
+      "pmid": "36413997",
+      "pmcid": "PMC9748256",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9748256/fullTextXML",
+      "normalised_text_sha256": "247b8077b5aa7f3e174d3fdcb799718dee730f4af82e30e46c41ff3332918bfc"
+    },
+    "bergquist2025": {
+      "citation": "Bergquist T et al. Genet Med 2025 (ClinGen calibration of AlphaMissense, ESM1b, VARITY)",
+      "pmid": "40084623",
+      "pmcid": "PMC12208618",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12208618/",
+      "normalised_text_sha256": "78e4984074411f4f3a8e32852f8eb67bedcec161db259786df6504cf202d025f"
+    }
+  },
+  "quotes_verified_by_code": true,
+  "quotes": {
+    "pejaver_method": {
+      "source": "pejaver2022",
+      "text": "Scores that satisfied the posterior probability thresholds presented in Table 1 were then deemed to provide the corresponding strengths of evidence ( Table 2 )."
+    },
+    "pejaver_cadd": {
+      "source": "pejaver2022",
+      "text": "CADD – ≤0.15 (0.15, 17.3] (17.3, 22.7] [25.3, 28.1) ≥28.1 – –"
+    },
+    "pejaver_revel": {
+      "source": "pejaver2022",
+      "text": "REVEL ≤0.003 (0.003, 0.016] (0.016, 0.183] (0.183, 0.290] [0.644, 0.773) [0.773, 0.932) ≥0.932 –"
+    },
+    "pejaver_polyphen": {
+      "source": "pejaver2022",
+      "text": "PolyPhen2 – – ≤0.009 (0.009, 0.113] [0.978, 0.999) ≥0.999 – –"
+    },
+    "pejaver_sift": {
+      "source": "pejaver2022",
+      "text": "SIFT – – ≥0.327 [0.080, 0.327) (0, 0.001] 0 – –"
+    },
+    "bergquist_alphamissense": {
+      "source": "bergquist2025",
+      "text": "AlphaMissense - ≤ 0.070 [0.071, 0.099] [0.100, 0.169] [0.170, 0.791] [0.792, 0.905] [0.906, 0.971] [0.972, 0.989] ≥ 0.990"
+    },
+    "bergquist_default_threshold": {
+      "source": "bergquist2025",
+      "text": "In fact, the recommended thresholds for AlphaMissense (0.564) and ESM1b (−7.5) do not meet the Supporting level of evidence for pathogenicity or benignity, based on our calibration."
+    }
+  }
+}

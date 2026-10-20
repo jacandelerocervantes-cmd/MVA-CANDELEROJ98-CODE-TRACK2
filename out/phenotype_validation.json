@@ -1,0 +1,478 @@
+{
+ "modules": {
+  "MONDO_0004980": {
+   "n_terms": 18,
+   "omim": [
+    "OMIM:603165"
+   ],
+   "rule": "annotated_to_at_least_2_terms",
+   "sizes": {
+    "min2_terms": 1258,
+    "min3_terms": 518,
+    "top100_information_content": 100
+   }
+  },
+  "MONDO_0005090": {
+   "n_terms": 6,
+   "omim": [
+    "OMIM:181500"
+   ],
+   "rule": "annotated_to_at_least_2_terms",
+   "sizes": {
+    "min2_terms": 76,
+    "min3_terms": 16,
+    "top100_information_content": 100
+   }
+  },
+  "MONDO_0005147": {
+   "n_terms": 8,
+   "omim": [
+    "OMIM:222100"
+   ],
+   "rule": "annotated_to_at_least_2_terms",
+   "sizes": {
+    "min2_terms": 179,
+    "min3_terms": 36,
+    "top100_information_content": 100
+   }
+  },
+  "MONDO_0005260": {
+   "n_terms": 12,
+   "omim": [
+    "OMIM:209850"
+   ],
+   "rule": "annotated_to_at_least_2_terms",
+   "sizes": {
+    "min2_terms": 1900,
+    "min3_terms": 1111,
+    "top100_information_content": 100
+   }
+  },
+  "MONDO_0005575": {
+   "n_terms": 6,
+   "omim": [
+    "OMIM:114500"
+   ],
+   "rule": "annotated_to_at_least_2_terms",
+   "sizes": {
+    "min2_terms": 60,
+    "min3_terms": 35,
+    "top100_information_content": 100
+   }
+  },
+  "MONDO_0007147": {
+   "n_terms": 5,
+   "omim": [
+    "OMIM:107650"
+   ],
+   "rule": "annotated_to_at_least_2_terms",
+   "sizes": {
+    "min2_terms": 28,
+    "min3_terms": 2,
+    "top100_information_content": 100
+   }
+  },
+  "MONDO_0007661": {
+   "n_terms": 8,
+   "omim": [
+    "OMIM:137580"
+   ],
+   "rule": "annotated_to_at_least_2_terms",
+   "sizes": {
+    "min2_terms": 397,
+    "min3_terms": 163,
+    "top100_information_content": 100
+   }
+  },
+  "MONDO_0007915": {
+   "n_terms": 21,
+   "omim": [
+    "OMIM:152700"
+   ],
+   "rule": "annotated_to_at_least_2_terms",
+   "sizes": {
+    "min2_terms": 711,
+    "min3_terms": 281,
+    "top100_information_content": 100
+   }
+  },
+  "MONDO_0008383": {
+   "n_terms": 16,
+   "omim": [
+    "OMIM:180300"
+   ],
+   "rule": "annotated_to_at_least_2_terms",
+   "sizes": {
+    "min2_terms": 461,
+    "min3_terms": 220,
+    "top100_information_content": 100
+   }
+  },
+  "MONDO_0008728": {
+   "n_terms": 12,
+   "omim": [
+    "OMIM:201910"
+   ],
+   "rule": "annotated_to_at_least_2_terms",
+   "sizes": {
+    "min2_terms": 1650,
+    "min3_terms": 604,
+    "top100_information_content": 100
+   }
+  },
+  "MONDO_0009061": {
+   "n_terms": 31,
+   "omim": [
+    "OMIM:219700"
+   ],
+   "rule": "annotated_to_at_least_2_terms",
+   "sizes": {
+    "min2_terms": 1029,
+    "min3_terms": 584,
+    "top100_information_content": 100
+   }
+  },
+  "MONDO_0009688": {
+   "n_terms": 14,
+   "omim": [
+    "OMIM:254200"
+   ],
+   "rule": "annotated_to_at_least_2_terms",
+   "sizes": {
+    "min2_terms": 1926,
+    "min3_terms": 1053,
+    "top100_information_content": 100
+   }
+  },
+  "MONDO_0009691": {
+   "n_terms": 8,
+   "omim": [
+    "OMIM:254400"
+   ],
+   "rule": "annotated_to_at_least_2_terms",
+   "sizes": {
+    "min2_terms": 282,
+    "min3_terms": 100,
+    "top100_information_content": 100
+   }
+  },
+  "MONDO_0009891": {
+   "n_terms": 14,
+   "omim": [
+    "OMIM:263300"
+   ],
+   "rule": "annotated_to_at_least_2_terms",
+   "sizes": {
+    "min2_terms": 483,
+    "min3_terms": 164,
+    "top100_information_content": 100
+   }
+  },
+  "MONDO_0010602": {
+   "n_terms": 14,
+   "omim": [
+    "OMIM:134500",
+    "OMIM:306700"
+   ],
+   "rule": "annotated_to_at_least_2_terms",
+   "sizes": {
+    "min2_terms": 312,
+    "min3_terms": 158,
+    "top100_information_content": 100
+   }
+  },
+  "MONDO_0010604": {
+   "n_terms": 14,
+   "omim": [
+    "OMIM:306900"
+   ],
+   "rule": "annotated_to_at_least_2_terms",
+   "sizes": {
+    "min2_terms": 179,
+    "min3_terms": 84,
+    "top100_information_content": 100
+   }
+  },
+  "MONDO_0010679": {
+   "n_terms": 30,
+   "omim": [
+    "OMIM:310200"
+   ],
+   "rule": "annotated_to_at_least_2_terms",
+   "sizes": {
+    "min2_terms": 2349,
+    "min3_terms": 1566,
+    "top100_information_content": 100
+   }
+  },
+  "MONDO_0011382": {
+   "n_terms": 19,
+   "omim": [
+    "OMIM:603903"
+   ],
+   "rule": "annotated_to_at_least_2_terms",
+   "sizes": {
+    "min2_terms": 1030,
+    "min3_terms": 596,
+    "top100_information_content": 100
+   }
+  },
+  "MONDO_0011719": {
+   "n_terms": 8,
+   "omim": [
+    "OMIM:606764"
+   ],
+   "rule": "annotated_to_at_least_2_terms",
+   "sizes": {
+    "min2_terms": 302,
+    "min3_terms": 45,
+    "top100_information_content": 100
+   }
+  }
+ },
+ "n_candidates": 19,
+ "primary": {
+  "n_evaluable": 19,
+  "per_disease": {
+   "MONDO_0004980": {
+    "auc": 0.6807,
+    "n_known": 22,
+    "n_scorable": 1040
+   },
+   "MONDO_0005090": {
+    "auc": 0.9552,
+    "n_known": 26,
+    "n_scorable": 1040
+   },
+   "MONDO_0005147": {
+    "auc": 0.7917,
+    "n_known": 6,
+    "n_scorable": 1040
+   },
+   "MONDO_0005260": {
+    "auc": 0.6297,
+    "n_known": 3,
+    "n_scorable": 1040
+   },
+   "MONDO_0005575": {
+    "auc": 0.6314,
+    "n_known": 6,
+    "n_scorable": 1040
+   },
+   "MONDO_0007147": {
+    "auc": 0.6239,
+    "n_known": 3,
+    "n_scorable": 1040
+   },
+   "MONDO_0007661": {
+    "auc": 0.8798,
+    "n_known": 3,
+    "n_scorable": 1040
+   },
+   "MONDO_0007915": {
+    "auc": 0.4655,
+    "n_known": 6,
+    "n_scorable": 1040
+   },
+   "MONDO_0008383": {
+    "auc": 0.6647,
+    "n_known": 40,
+    "n_scorable": 1040
+   },
+   "MONDO_0008728": {
+    "auc": 0.9013,
+    "n_known": 4,
+    "n_scorable": 1040
+   },
+   "MONDO_0009061": {
+    "auc": 0.8525,
+    "n_known": 6,
+    "n_scorable": 1040
+   },
+   "MONDO_0009688": {
+    "auc": 0.4066,
+    "n_known": 4,
+    "n_scorable": 1040
+   },
+   "MONDO_0009691": {
+    "auc": 0.55,
+    "n_known": 4,
+    "n_scorable": 1040
+   },
+   "MONDO_0009891": {
+    "auc": 0.7599,
+    "n_known": 3,
+    "n_scorable": 1040
+   },
+   "MONDO_0010602": {
+    "auc": 0.9005,
+    "n_known": 18,
+    "n_scorable": 1040
+   },
+   "MONDO_0010604": {
+    "auc": 0.9435,
+    "n_known": 11,
+    "n_scorable": 1040
+   },
+   "MONDO_0010679": {
+    "auc": 0.154,
+    "n_known": 3,
+    "n_scorable": 1040
+   },
+   "MONDO_0011382": {
+    "auc": 0.8566,
+    "n_known": 3,
+    "n_scorable": 1040
+   },
+   "MONDO_0011719": {
+    "auc": 0.9788,
+    "n_known": 3,
+    "n_scorable": 1040
+   }
+  },
+  "summary": {
+   "ci95_high": 0.8065193111907057,
+   "ci95_low": 0.6169198055097163,
+   "mean_auc": 0.7171696700147907,
+   "median_auc": 0.759884281581485,
+   "n_auc_above_0_5": 16,
+   "n_diseases": 19,
+   "permutation": {
+    "null_mean": 0.5394095196770613,
+    "null_sd": 0.031089592508971597,
+    "observed_mean_auc": 0.7171696700147907,
+    "p_one_sided": 0.000999000999000999,
+    "permutations": 1000
+   }
+  },
+  "test_is_valid": true,
+  "validated": true
+ },
+ "rule": {
+  "auc_min": 0.6,
+  "ci_lower_min": 0.5,
+  "min_hpo_terms": 5,
+  "min_known": 3,
+  "min_valid_diseases": 15,
+  "primary": "min2_terms",
+  "string_score": 700
+ },
+ "secondary_top100": {
+  "n_evaluable": 19,
+  "per_disease": {
+   "MONDO_0004980": {
+    "auc": 0.5379,
+    "n_known": 22,
+    "n_scorable": 1040
+   },
+   "MONDO_0005090": {
+    "auc": 0.9549,
+    "n_known": 26,
+    "n_scorable": 1040
+   },
+   "MONDO_0005147": {
+    "auc": 0.8214,
+    "n_known": 6,
+    "n_scorable": 1040
+   },
+   "MONDO_0005260": {
+    "auc": 0.6403,
+    "n_known": 3,
+    "n_scorable": 1040
+   },
+   "MONDO_0005575": {
+    "auc": 0.5519,
+    "n_known": 6,
+    "n_scorable": 1040
+   },
+   "MONDO_0007147": {
+    "auc": 0.5391,
+    "n_known": 3,
+    "n_scorable": 1040
+   },
+   "MONDO_0007661": {
+    "auc": 0.9357,
+    "n_known": 3,
+    "n_scorable": 1040
+   },
+   "MONDO_0007915": {
+    "auc": 0.416,
+    "n_known": 6,
+    "n_scorable": 1040
+   },
+   "MONDO_0008383": {
+    "auc": 0.7539,
+    "n_known": 40,
+    "n_scorable": 1040
+   },
+   "MONDO_0008728": {
+    "auc": 0.9211,
+    "n_known": 4,
+    "n_scorable": 1040
+   },
+   "MONDO_0009061": {
+    "auc": 0.9612,
+    "n_known": 6,
+    "n_scorable": 1040
+   },
+   "MONDO_0009688": {
+    "auc": 0.8224,
+    "n_known": 4,
+    "n_scorable": 1040
+   },
+   "MONDO_0009691": {
+    "auc": 0.6856,
+    "n_known": 4,
+    "n_scorable": 1040
+   },
+   "MONDO_0009891": {
+    "auc": 0.8817,
+    "n_known": 3,
+    "n_scorable": 1040
+   },
+   "MONDO_0010602": {
+    "auc": 0.9452,
+    "n_known": 18,
+    "n_scorable": 1040
+   },
+   "MONDO_0010604": {
+    "auc": 0.9666,
+    "n_known": 11,
+    "n_scorable": 1040
+   },
+   "MONDO_0010679": {
+    "auc": 0.423,
+    "n_known": 3,
+    "n_scorable": 1040
+   },
+   "MONDO_0011382": {
+    "auc": 0.9605,
+    "n_known": 3,
+    "n_scorable": 1040
+   },
+   "MONDO_0011719": {
+    "auc": 0.9974,
+    "n_known": 3,
+    "n_scorable": 1040
+   }
+  },
+  "summary": {
+   "ci95_high": 0.857558766739839,
+   "ci95_low": 0.6854535815340572,
+   "mean_auc": 0.7745086262058773,
+   "median_auc": 0.8223938223938224,
+   "n_auc_above_0_5": 17,
+   "n_diseases": 19,
+   "permutation": {
+    "null_mean": 0.5231544481257888,
+    "null_sd": 0.030658823435500675,
+    "observed_mean_auc": 0.7745086262058773,
+    "p_one_sided": 0.000999000999000999,
+    "permutations": 1000
+   }
+  },
+  "test_is_valid": true,
+  "validated": true
+ },
+ "verdict": "line B validated"
+}

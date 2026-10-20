@@ -1,0 +1,39 @@
+{
+  "id": "bub1b_sac_lof",
+  "gene": "BUB1B",
+  "effect": "loss_of_function_hypomorphic",
+  "inheritance": "autosomal_recessive",
+  "disease": "Mosaic variegated aneuploidy syndrome 1 (MVA1)",
+  "pathway": "Spindle assembly checkpoint (mitotic checkpoint complex, kinetochore-microtubule attachment)",
+  "downstream": [
+    "chromosome missegregation and mosaic aneuploidy",
+    "chromosomal instability and proteotoxic stress",
+    "p53 response and senescence",
+    "tumour predisposition (embryonal tumours)"
+  ],
+  "status": "mechanism_candidate",
+  "evidence_level": "variant_pathogenic_plus_phenotype_match",
+  "seeds": {
+    "reactome_pathways": [
+      "R-HSA-69618"
+    ],
+    "genes": [
+      "BUB1B",
+      "CEP57",
+      "TRIP13",
+      "CENATAC",
+      "SLF2",
+      "SMC5",
+      "MAD1L1",
+      "BUB1",
+      "MAD2L1",
+      "BUB3",
+      "TTK",
+      "CENPE"
+    ],
+    "gene_source": "MVA genes (BUB1B, CEP57, TRIP13, CENATAC, SLF2, SMC5, MAD1L1) and core checkpoint components; documented in docs/mechanism_screen.md"
+  },
+  "hypothesis_note": "Biallelic status is a hypothesis: the phase of the two BUB1B variants is not resolved. The effect of p.Asn1002Lys is uncertain.",
+  "weight": 1.0,
+  "weight_note": "Author's convention: 1.0 for the primary mechanism (pathogenic variant with matching phenotype); 0.5 for downstream consequences (hypotheses)."
+}

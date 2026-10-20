@@ -1,0 +1,707 @@
+{
+ "items": [
+  {
+   "disease": "aromatase excess syndrome",
+   "drug": "letrozole",
+   "id": "ho-03100",
+   "pmid": "PPR:PPR429853",
+   "sentence": "Treatment of SARS-CoV-2 infected hamsters with letrozole, a clinically approved CYP19A1 inhibitor, supported recovery of dysregulated plasma sex hormone levels and was associated with improved lung function and health in male but not female animals compared to placebo controls."
+  },
+  {
+   "disease": "combined pituitary hormone deficiencies, genetic form",
+   "drug": "clonidine",
+   "id": "ho-03101",
+   "pmid": "PMC:PMC7208644",
+   "sentence": "IGF-1 level was normal 114 ng/mL(z score -0.39) and GH stimulation test (clonidine + glucagon) was abnormal with peak GH 1.85 ng/ml."
+  },
+  {
+   "disease": "tyrosinemia",
+   "drug": "tyrosine",
+   "id": "ho-03102",
+   "pmid": "38870230",
+   "sentence": "Furthermore, our results point to tyrosine metabolism and related candidate TB progression pathways for further investigation."
+  },
+  {
+   "disease": "tyrosinemia",
+   "drug": "thrombin",
+   "id": "ho-03103",
+   "pmid": "PPR:PPR849116",
+   "sentence": "Development of a Thrombin-antithrombin Complex Detection Kit and Study in Venous Thromboembolism Complicated by Cervical Cancer"
+  },
+  {
+   "disease": "Sjogren syndrome",
+   "drug": "amino acids",
+   "id": "ho-03104",
+   "pmid": "22219183",
+   "sentence": "Although most mutations leading to MSS result in deletion of the majority of the protein, three separate mutations have been identified that disrupt only the last five or six amino acids of the protein, which were assumed to encode a divergent ER retention motif."
+  },
+  {
+   "disease": "autosomal erythropoietic protoporphyria",
+   "drug": "aminolevulinic acid",
+   "id": "ho-03105",
+   "pmid": "35857390",
+   "sentence": "As a tumor photodiagnostic agent, 5-aminolevulinic acid (ALA) is metabolized in the heme biosynthesis pathway to produce protoporphyrin IX (PpIX) with fluorescence."
+  },
+  {
+   "disease": "acquired polycythemia vera",
+   "drug": "doxorubicin",
+   "id": "ho-03106",
+   "pmid": "38530594",
+   "sentence": "PRDX6 alleviated heart failure by inhibiting doxorubicin-induced ferroptosis through the JAK2/STAT1 pathway inactivation."
+  },
+  {
+   "disease": "isolated growth hormone deficiency",
+   "drug": "nintedanib",
+   "id": "ho-03107",
+   "pmid": "38048612",
+   "sentence": "Nintedanib (NIN) is an antifibrotic therapy approved for systemic sclerosis-associated ILD (SSc-ILD)."
+  },
+  {
+   "disease": "malignant hyperthermia of anesthesia",
+   "drug": "dantrolene",
+   "id": "ho-03108",
+   "pmid": "35953818",
+   "sentence": "Repositioned compound dantrolene suppressed USC progression and survival in mouse models."
+  },
+  {
+   "disease": "neurofibromatosis",
+   "drug": "bevacizumab",
+   "id": "ho-03109",
+   "pmid": "35445657",
+   "sentence": "The anti-VEGF antibody bevacizumab has shown efficacy for VS in some NF2 patients."
+  },
+  {
+   "disease": "short stature due to growth hormone qualitative anomaly",
+   "drug": "amino acids",
+   "id": "ho-03110",
+   "pmid": "30894609",
+   "sentence": "The tailored enzyme displayed high glucose tolerance levels, confirming that glucose tolerance can be achieved by the substitution of two amino acids that act as gatekeepers, changing active-site accessibility and preventing product inhibition."
+  },
+  {
+   "disease": "exudative vitreoretinopathy",
+   "drug": "tamoxifen",
+   "id": "ho-03111",
+   "pmid": "39585982",
+   "sentence": "We show that tamoxifen induction of Cdh5CreERT2;Ctnnb1 flex3/+ ;Ndp- KO mice stabilizing β-catenin in vascular endothelial cells alone rescued defects in cochlear vascular barrier function, restored dysregulated expression of endothelial cell disease biomarkers ( Cldn5, Abcb1a, Slc7a1, and Slc7a5 ), and prevented progressive outer hair cell death and hearing loss."
+  },
+  {
+   "disease": "cystinosis",
+   "drug": "cysteamine",
+   "id": "ho-03112",
+   "pmid": "32564281",
+   "sentence": "Cysteamine slows organ deterioration, but cannot treat renal Fanconi syndrome or prevent eventual kidney failure; therefore, novel treatment modalities for cystinosis are of great interest to researchers."
+  },
+  {
+   "disease": "aromatase excess syndrome",
+   "drug": "estradiol",
+   "id": "ho-03113",
+   "pmid": "37173342",
+   "sentence": "In contrast, low estradiol/androstendione and high progesterone concentrations, accompanied by decreased CYP17A1, HSD17B1, CYP19A1 and increased HSD3B1 protein abundance, appeared in atretic-like PF, gonadotropin-induced and spontaneous cysts."
+  },
+  {
+   "disease": "short stature due to growth hormone qualitative anomaly",
+   "drug": "sildenafil",
+   "id": "ho-03114",
+   "pmid": "PMC:PMC9625543",
+   "sentence": "Treatment of sildenafil to cells expressing 17.5 kD isoform of GH markedly improved the cell morphology compared to untreated cells, especially after 48h when a larger percentage of cells that were distorted (rounder shapes) regained the shape of normal cells expressing WT GH and no damage to cells expressing WT-GH was observed."
+  },
+  {
+   "disease": "phenylketonuria",
+   "drug": "selegiline",
+   "id": "ho-03115",
+   "pmid": "40638773",
+   "sentence": "Additional treatment strategies are necessary for long-term management and may include the use of neurotransmitter precursors (levodopa plus decarboxylase inhibitor (DCI), i.e., carbidopa or benserazide), 5-hydroxytryptophan, and/or dopamine (rotigotine patch, pramipexole) and/or serotonin agonists, or other medications (MAO inhibitors such as selegiline) to address specific neurotransmitter deficiencies and maintain optimal neurologic function."
+  },
+  {
+   "disease": "ATTRV122I amyloidosis",
+   "drug": "warfarin",
+   "id": "ho-03116",
+   "pmid": "38463172",
+   "sentence": "Background Guidelines for anticoagulation management services recommend personnel be specially trained in warfarin management and suggest using tools such as decision-support software."
+  },
+  {
+   "disease": "Fabry disease",
+   "drug": "gabapentin",
+   "id": "ho-03117",
+   "pmid": "20301469",
+   "sentence": "Supportive care: Diphenylhydantoin, carbamazepine, or gabapentin to reduce pain (acroparesthesia); aspirin, lipid-lowering agents, and blood pressure control for cardiac ischemia; aspirin and/or other antiplatelet agents may be recommended for stroke prophylaxis; ACE inhibitors or angiotensin receptor blockers to reduce proteinuria; chronic hemodialysis and/or kidney transplantation for ESKD; rehabilitation and hearing aids for auditory and vestibular symptoms; management of psychiatric manifestations per psychologist."
+  },
+  {
+   "disease": "Berardinelli-Seip congenital lipodystrophy",
+   "drug": "acetaminophen",
+   "id": "ho-03118",
+   "pmid": "36596386",
+   "sentence": "Caveolin-1 alleviates acetaminophen-induced vascular oxidative stress and inflammation in non-alcoholic fatty liver disease."
+  },
+  {
+   "disease": "sitosterolemia",
+   "drug": "ezetimibe",
+   "id": "ho-03119",
+   "pmid": "31829191",
+   "sentence": "All guinea pigs were grouped as follows: low fat diet; LD; LD plus PIO (4 mg/kg); LD plus PIO (8 mg/kg); LD plus ezetimibe (EZE) (2 mg/kg)."
+  },
+  {
+   "disease": "nephropathic cystinosis",
+   "drug": "urea",
+   "id": "ho-03120",
+   "pmid": "PPR:PPR364007",
+   "sentence": "High levels of glucose, calcium, albumin and protein are excreted at 6-months of age, consistent with the onset of Fanconi syndrome, with a progressive diminution of urine urea and creatinine from 9-months of age, indicative of chronic kidney disease."
+  },
+  {
+   "disease": "tuberous sclerosis",
+   "drug": "capecitabine",
+   "id": "ho-03121",
+   "pmid": "37354253",
+   "sentence": "Two cases were additionally biopsied post-treatment with capecitabine and temozolomide, and showed even more abundant oncocytic cytoplasm, eccentric nuclei, and a prominent cherry red nucleolus, and were arranged in a cluster of 3-4 cells, separated by stromal cells."
+  },
+  {
+   "disease": "Stargardt disease",
+   "drug": "retinol",
+   "id": "ho-03122",
+   "pmid": "33766534",
+   "sentence": "Retinol dehydrogenase 8 (RDH8) then reduces ATRal into all-trans retinol, which is the first step of the visual cycle."
+  },
+  {
+   "disease": "sitosterolemia",
+   "drug": "cholestyramine",
+   "id": "ho-03123",
+   "pmid": "35042526",
+   "sentence": "The four reported patients were treated with low cholesterol and phytosterol-limited diet alone or combined with cholestyramine."
+  },
+  {
+   "disease": "androgen insensitivity syndrome",
+   "drug": "omalizumab",
+   "id": "ho-03124",
+   "pmid": "39539920",
+   "sentence": "Recently, biologic therapies such as omalizumab and dupilumab have emerged as potential alternatives."
+  },
+  {
+   "disease": "Berardinelli-Seip congenital lipodystrophy",
+   "drug": "adenosine",
+   "id": "ho-03125",
+   "pmid": "PPR:PPR523586",
+   "sentence": "And i.p. delivery of AAV2/8 CAV1 would partially improve gallbladder cholecystokinin receptor (CCKAR) responsiveness and impede bile cholesterol nucleation, via the activation of adenosine monophosphate-activated protein kinase (AMPK) signaling induced a reduction of gallbladder mucin-1 (MUC1) and MUC5ac expression and gallbladder cholesterol accumulation."
+  },
+  {
+   "disease": "Marfan syndrome",
+   "drug": "irinotecan",
+   "id": "ho-03126",
+   "pmid": "39364312",
+   "sentence": "Finally, Irinotecan and Hesperetin were predicted through DGIDB database."
+  },
+  {
+   "disease": "isolated growth hormone deficiency",
+   "drug": "zanubrutinib",
+   "id": "ho-03127",
+   "pmid": "38478390",
+   "sentence": "These variant non-C481 mutations are of great clinical interest because some are shared among pirtobrutinib, zanubrutinib, and acalabrutinib, with potential implications for cross resistance and treatment sequencing."
+  },
+  {
+   "disease": "cystinosis",
+   "drug": "everolimus",
+   "id": "ho-03128",
+   "pmid": "PPR:PPR74793",
+   "sentence": "We found that treatment with Everolimus, an inhibitor of the mTOR pathway, reduces the number of large lysosomes and activates autophagy but does not rescue the cystine/cysteine loading defect."
+  },
+  {
+   "disease": "nephropathic cystinosis",
+   "drug": "cysteine",
+   "id": "ho-03129",
+   "pmid": "30661260",
+   "sentence": "Cysteine plays essential biological roles, but excessive amounts produce cellular oxidative stress."
+  },
+  {
+   "disease": "nephrogenic syndrome of inappropriate antidiuresis",
+   "drug": "vasopressin",
+   "id": "ho-03130",
+   "pmid": "33306826",
+   "sentence": "The whole coding regions of the arginine vasopressin V2 receptor (AVPR2) gene were amplified by PCR and subjected to Sanger sequencing."
+  },
+  {
+   "disease": "acquired polycythemia vera",
+   "drug": "angiotensin ii",
+   "id": "ho-03131",
+   "pmid": "38971897",
+   "sentence": "Animal models of AD were established using 0.1% beta-aminopropionitrile and angiotensin II and an in vitro model was developed using platelet-derived growth factor BB (PDGF-BB)."
+  },
+  {
+   "disease": "hyperinsulinemic hypoglycemia, familial",
+   "drug": "glutamine",
+   "id": "ho-03132",
+   "pmid": "39121856",
+   "sentence": "We found that glutamine anaplerosis into the tricarboxylic acid (TCA) cycle decreases during MuSC differentiation and coincides with decreased expression of the mitochondrial glutamate deaminase GLUD1."
+  },
+  {
+   "disease": "malignant hyperthermia of anesthesia",
+   "drug": "bromocriptine",
+   "id": "ho-03133",
+   "pmid": "PPR:PPR437554",
+   "sentence": "Pre-treatment of skeletal muscle cells with bromocriptine, an FDA approved drug recently found to have anti-exodosis effects, curbed exodosis of ER/SR resident proteins."
+  },
+  {
+   "disease": "malignant hyperthermia of anesthesia",
+   "drug": "calcium",
+   "id": "ho-03134",
+   "pmid": "38318125",
+   "sentence": "RyR1 is the sarcoplasmic reticulum (SR) calcium release channel that mediates excitation-contraction coupling in skeletal muscle."
+  },
+  {
+   "disease": "familial male-limited precocious puberty",
+   "drug": "epinephrine",
+   "id": "ho-03135",
+   "pmid": "PMC:PMC9624813",
+   "sentence": "The fact that the first symptoms of catecholamine excess had appeared during the first trimester of pregnancy led us to conduct in vitro studies to investigate the effects of estradiol and the pregnancy hormone chorionic gonadotropin (hCG) on epinephrine secretion by cultured cells derived from the resected patient's tumor."
+  },
+  {
+   "disease": "Sjogren syndrome",
+   "drug": "copper",
+   "id": "ho-03136",
+   "pmid": "11482962",
+   "sentence": "These modified silicas showed a high adsorption capacity for cobalt and copper cations in aqueous solution, in contrast to the original SILO matrix, confirming the unequivocal anchoring of silylating agents on the silica surface."
+  },
+  {
+   "disease": "short stature due to growth hormone qualitative anomaly",
+   "drug": "acetic acid",
+   "id": "ho-03137",
+   "pmid": "28690133",
+   "sentence": "The genome was found to contain various enzyme-encoding operons, including indole-3-acetic acid (IAA) biosynthesis proteins, 2,3-butanediol dehydrogenase, various non-ribosomal peptide synthetases, and several polyketide synthases."
+  },
+  {
+   "disease": "isolated growth hormone deficiency",
+   "drug": "ibrutinib",
+   "id": "ho-03138",
+   "pmid": "38914716",
+   "sentence": "The Bruton's tyrosine kinase (BTK) inhibitor ibrutinib represents an effective strategy for treatment of chronic lymphocytic leukemia (CLL), nevertheless about 30% of patients eventually undergo disease progression."
+  },
+  {
+   "disease": "congenital alveolar capillary dysplasia",
+   "drug": "bosentan",
+   "id": "ho-03139",
+   "pmid": "33832123",
+   "sentence": "Interventions After admission, nasal catheter oxygen inhalation, cefazoxime sodium, furosemide diuretic, milrinone lactate, and Bosentan were given to the patient."
+  },
+  {
+   "disease": "isolated growth hormone deficiency",
+   "drug": "zanubrutinib",
+   "id": "ho-03140",
+   "pmid": "39388891",
+   "sentence": "The aim of this study was to establish a stable idiopathic inflammatory myopathy (IIM)-associated interstitial lung disease (ILD) mouse model and evaluate the effects of zanubrutinib on IIM-ILD."
+  },
+  {
+   "disease": "exudative vitreoretinopathy",
+   "drug": "bleomycin",
+   "id": "ho-03141",
+   "pmid": "PPR:PPR908336",
+   "sentence": "We demonstrated that genetic deletion of LRP6 in αSMA-expressing cells using Acta2 -cre Lrp6 fl/fl ( Lrp6 AKO ) mice abrogated bleomycin (BLM)-induced lung inflammation and fibrosis phenotype, suggesting an important role of LRP6 in modulating inflammation and fibrotic processes in the lung."
+  },
+  {
+   "disease": "nephropathic cystinosis",
+   "drug": "cysteamine",
+   "id": "ho-03142",
+   "pmid": "39383294",
+   "sentence": "Cysteamine, a cystine-depleting therapy, is the cornerstone of treatment for this disorder."
+  },
+  {
+   "disease": "mevalonic aciduria",
+   "drug": "lumasiran",
+   "id": "ho-03143",
+   "pmid": "37324939",
+   "sentence": "Interestingly, many small nucleic acid drugs and vaccines were approved for the market, including Inclisiran, Patisiran, Inotersen, Givosiran, Lumasiran, Nusinersen, Volanesorsen, Eteplirsen, Golodirsen, Viltolarsen, Casimersen, Elasomeran, Tozinameran."
+  },
+  {
+   "disease": "familial male-limited precocious puberty",
+   "drug": "testosterone",
+   "id": "ho-03144",
+   "pmid": "32757547",
+   "sentence": "Treatment, therefore, is aimed at decreasing the effects of testosterone, as well as stopping the conversion of testosterone to estrogen."
+  },
+  {
+   "disease": "ATTRV122I amyloidosis",
+   "drug": "tafamidis",
+   "id": "ho-03145",
+   "pmid": "39970316",
+   "sentence": "Currently, several disease-modifying treatments for hATTRv are available in Belgium including the TTR stabilizer tafamidis and TTR mRNA silencers patisiran and vutrisiran."
+  },
+  {
+   "disease": "nephrogenic syndrome of inappropriate antidiuresis",
+   "drug": "tyrosine",
+   "id": "ho-03146",
+   "pmid": "17216256",
+   "sentence": "Molecular genetic analysis demonstrated that the patient had an AVPR2 missense mutation involving substitution of phenylalanine for tyrosine at position 205 (Y205F)."
+  },
+  {
+   "disease": "acquired polycythemia vera",
+   "drug": "venetoclax",
+   "id": "ho-03147",
+   "pmid": "39088684",
+   "sentence": "Following a treatment regimen of azacitidine and venetoclax, the patient achieved complete remission."
+  },
+  {
+   "disease": "short stature due to isolated growth hormone deficiency with X-linked hypogammaglobulinemia",
+   "drug": "tyrosine",
+   "id": "ho-03148",
+   "pmid": "39295138",
+   "sentence": "Covalent Bruton's tyrosine kinase-inhibitors (cBTK-i) are highly active in MYD88-mutated (MYD88 Mut ) Waldenstrom's macroglobulinaemia and suppress nuclear factor kappa-light-chain-enhancer of activated B cells and extracellular signal-regulated kinases-1/2 (ERK1/2)-related signalling."
+  },
+  {
+   "disease": "hyperinsulinemic hypoglycemia, familial",
+   "drug": "diazoxide",
+   "id": "ho-03149",
+   "pmid": "34633981",
+   "sentence": "Birth weight and diazoxide unresponsiveness strongly predict the likelihood of congenital hyperinsulinism due to a mutation in ABCC8 or KCNJ11."
+  },
+  {
+   "disease": "acquired polycythemia vera",
+   "drug": "imiquimod",
+   "id": "ho-03150",
+   "pmid": "39335596",
+   "sentence": "Cannabidiol Alleviates Imiquimod-Induced Psoriasis by Inhibiting JAK2-STAT3 in a Mouse Model."
+  },
+  {
+   "disease": "short stature due to isolated growth hormone deficiency with X-linked hypogammaglobulinemia",
+   "drug": "ibrutinib",
+   "id": "ho-03151",
+   "pmid": "37439706",
+   "sentence": "CD49d, the alpha chain of the very late antigen-4 (VLA-4) integrin, has a negative prognostic impact in chronic lymphocytic leukemia treated with the Bruton's tyrosine kinase (BTK) inhibitors, ibrutinib and acalabrutinib."
+  },
+  {
+   "disease": "neurofibromatosis",
+   "drug": "vinblastine",
+   "id": "ho-03152",
+   "pmid": "39503184",
+   "sentence": "Six cycles of the dose-dense methotrexate, vinblastine, adriamycin, and cisplatin-combined chemotherapy were completed after an ultrasound-guided percutaneous biopsy of the renal tumor."
+  },
+  {
+   "disease": "familial male-limited precocious puberty",
+   "drug": "testosterone",
+   "id": "ho-03153",
+   "pmid": "35909557",
+   "sentence": "Methods Physical examinations, bone age (BA), testosterone, and gonadotropin levels were measured as well as gene sequencing of the proband and parents."
+  },
+  {
+   "disease": "autosomal erythropoietic protoporphyria",
+   "drug": "trastuzumab",
+   "id": "ho-03154",
+   "pmid": "34312098",
+   "sentence": "Nine-Year Median Follow-up of Cardiotoxicity and Efficacy of Trastuzumab Concurrently With Anthracycline-Based and Anthracycline-Free Neoadjuvant Chemotherapy in HER2-Positive Breast Cancer Patients."
+  },
+  {
+   "disease": "mevalonic aciduria",
+   "drug": "anakinra",
+   "id": "ho-03155",
+   "pmid": "35418827",
+   "sentence": "Nonsteroidal anti-inflammatory drugs, corticosteroids, and anakinra are the most common treatments."
+  },
+  {
+   "disease": "nephropathic cystinosis",
+   "drug": "cysteine",
+   "id": "ho-03156",
+   "pmid": "35710564",
+   "sentence": "HCFs were incubated, harvested, and cystine was reduced to cysteine, the concentration of which was then determined per quantity of protein compared to a cysteine standard."
+  },
+  {
+   "disease": "nephropathic cystinosis",
+   "drug": "cysteine",
+   "id": "ho-03157",
+   "pmid": "38990725",
+   "sentence": "Feedforward cysteine regulation maintains melanoma differentiation state and limits metastatic spread."
+  },
+  {
+   "disease": "isolated growth hormone deficiency",
+   "drug": "pirtobrutinib",
+   "id": "ho-03158",
+   "pmid": "38968154",
+   "sentence": "Transcriptomic and proteomic differences in BTK-WT and BTK-mutated CLL and their changes during therapy with pirtobrutinib."
+  },
+  {
+   "disease": "epidermodysplasia verruciformis",
+   "drug": "calcium",
+   "id": "ho-03159",
+   "pmid": "38886367",
+   "sentence": "Noxious heat stimulation triggers intracellular calcium release from the endoplasmic reticulum (ER) of TMC6- but not control vector-transfected HEK293T cell, which can be significantly inhibited by blocking PLC or IP3R."
+  },
+  {
+   "disease": "autosomal erythropoietic protoporphyria",
+   "drug": "neratinib",
+   "id": "ho-03160",
+   "pmid": "26863403",
+   "sentence": "We also show that Vemurafenib, Linsitinib, Neratinib, and MK-2461 reduce heme levels in K562 cells, verifying that drug binding leads to a loss of FECH activity."
+  },
+  {
+   "disease": "mevalonic aciduria",
+   "drug": "tocilizumab",
+   "id": "ho-03161",
+   "pmid": "32252977",
+   "sentence": "Anti-interleukin-1 anakinra (n = 8), anti TNF etanercept (n = 7) and anti-interleukin 6 tocilizumab (n = 5) treatments were partially effective."
+  },
+  {
+   "disease": "erythropoietic protoporphyria",
+   "drug": "glycine",
+   "id": "ho-03162",
+   "pmid": "PPR:PPR789706",
+   "sentence": "This suggests that increased biosynthesis of 5-carbon (C5) chain deltaALA consumes not only C4 succinyl-CoA with C1 glycine but also specific C5 delta amino-acids."
+  },
+  {
+   "disease": "nephrogenic syndrome of inappropriate antidiuresis",
+   "drug": "inulin",
+   "id": "ho-03163",
+   "pmid": "38791455",
+   "sentence": "Emerging evidence suggests that plasma concentrations of soy isoflavones, substances with well-established antidiabetic properties, rise following supplemental inulin administration."
+  },
+  {
+   "disease": "neurofibromatosis",
+   "drug": "tyrosine",
+   "id": "ho-03164",
+   "pmid": "39543276",
+   "sentence": "Four patients were treated with first-line immune checkpoint inhibitors (ICI) plus tyrosine kinase inhibitors (TKI) combination therapy with a median PFS (mPFS) of 12.3 months."
+  },
+  {
+   "disease": "hypopituitarism",
+   "drug": "estradiol valerate",
+   "id": "ho-03165",
+   "pmid": "20301521",
+   "sentence": "Hormone replacement to induce secondary sex characteristics can be initiated in males at age 12 to 13 years with monthly injections of testosterone enanthate and in females at age 11 to 12 years with 17 beta-estradiol or estradiol valerate and later by cycling with progesterone."
+  },
+  {
+   "disease": "familial male-limited precocious puberty",
+   "drug": "letrozole",
+   "id": "ho-03166",
+   "pmid": "PPR:PPR382311",
+   "sentence": "Letrozole Protects Against Cadmium-induced Inhibition of Spermatogenesis via LHCGR and Hsd3b6 to Activate Testosterone Synthesis in Mice"
+  },
+  {
+   "disease": "nephrogenic syndrome of inappropriate antidiuresis",
+   "drug": "epinephrine",
+   "id": "ho-03167",
+   "pmid": "32820475",
+   "sentence": "In pediatric septic shock, vasopressors, epinephrine, and norepinephrine are recommended equally because there is no clear evidence that supports the use of one vasoactive agent."
+  },
+  {
+   "disease": "familial male-limited precocious puberty",
+   "drug": "estradiol",
+   "id": "ho-03168",
+   "pmid": "31711705",
+   "sentence": "In pGCs, 10 ng/mL AMH significantly decreased the FSH-stimulated effect on FSHR and CYP19A1 expression and estradiol production."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "olaparib",
+   "id": "ho-03169",
+   "pmid": "39172235",
+   "sentence": "Thus, while 20.8% (n = 38) of the cases meet the criteria for olaparib treatment per FDA approval, only 4.9% (n = 9) align with the eligibility criteria according to the EMA approval."
+  },
+  {
+   "disease": "congenital alveolar capillary dysplasia",
+   "drug": "furosemide",
+   "id": "ho-03170",
+   "pmid": "33832123",
+   "sentence": "Interventions After admission, nasal catheter oxygen inhalation, cefazoxime sodium, furosemide diuretic, milrinone lactate, and Bosentan were given to the patient."
+  },
+  {
+   "disease": "aromatase excess syndrome",
+   "drug": "estradiol",
+   "id": "ho-03171",
+   "pmid": "36230445",
+   "sentence": "A high dose of P4 (10.0 μM) significantly increased P4 (p < 0.01), androstenedione (p < 0.05), testosterone (p < 0.05), and estradiol (p < 0.05) production in porcine placental trophoblasts compared with that in control cells, while a low dose of P4 (1 × 10−3 μΜ) had no marked impact on steroid production."
+  },
+  {
+   "disease": "aromatase excess syndrome",
+   "drug": "estradiol",
+   "id": "ho-03172",
+   "pmid": "38662754",
+   "sentence": "However, the conversion of testosterone to estradiol was inhibited by elderberry extract and extract-derived FL, which reduced the mRNA and protein expression of CYP19A1."
+  },
+  {
+   "disease": "tyrosinemia",
+   "drug": "calcitriol",
+   "id": "ho-03173",
+   "pmid": "38366115",
+   "sentence": "We have selected lipid nanocapsules (LNC) coated with the cell-penetrating peptide transactivator of translation (TAT), loaded with either a pro-remyelinating compound, calcitriol (Cal-LNC TAT), or an anti-inflammatory bioactive lipid, prostaglandin D 2 -glycerol ester (PGD 2 -G) (PGD 2 -G-LNC TAT)."
+  },
+  {
+   "disease": "phenylketonuria",
+   "drug": "selexipag",
+   "id": "ho-03174",
+   "pmid": "39076250",
+   "sentence": "Selexipag is indicated for the treatment of pulmonary arterial hypertension (PAH), including PAH associated with connective tissue disease (CTD), and further insights into the management of selexipag-treated PAH-CTD patients in clinical settings are needed."
+  },
+  {
+   "disease": "tyrosinemia",
+   "drug": "temozolomide",
+   "id": "ho-03175",
+   "pmid": "38507464",
+   "sentence": "Methods The effect of TAT-Cx43266-283, temozolomide (TMZ), and erlotinib (EGFR inhibitor) was studied in patient-derived GBM stem cells (GSCs) and murine neural stem cells (NSCs) with and without EGFR alterations, in vitro and in vivo."
+  },
+  {
+   "disease": "pituitary gigantism",
+   "drug": "calcium",
+   "id": "ho-03176",
+   "pmid": "38867213",
+   "sentence": "RESULTS: It was found that AIP was positively associated with BMD after adjusting for age, gender, race, socioeconomic status, degree of education, income, Consuming alcoholic beverages, osteoporosis status (Yes or No), ALT, AST, serum creatinine, and total calcium levels."
+  },
+  {
+   "disease": "CINCA syndrome",
+   "drug": "bosentan",
+   "id": "ho-03177",
+   "pmid": "PPR:PPR910285",
+   "sentence": "Bosentan directly inhibits ETB receptors in ECs, preventing the NLRP3 inflammasome activation."
+  },
+  {
+   "disease": "phenylketonuria",
+   "drug": "sotatercept",
+   "id": "ho-03178",
+   "pmid": "39872419",
+   "sentence": "A new class of drug, sotatercept (a tumour growth factor-β signalling inhibitor), has also been recently approved by the Food and Drug Administration for management of PAH based on positive results from the phase III STELLAR study."
+  },
+  {
+   "disease": "androgen insensitivity syndrome",
+   "drug": "sparfloxacin",
+   "id": "ho-03179",
+   "pmid": "39313142",
+   "sentence": "In this study, we evaluated the inhibitory potential of five quinolone antibiotics-gatifloxacin, lomefloxacin, nalidixic acid, norfloxacin, and sparfloxacin-as ARIs relevant to various physiological and pathological conditions."
+  },
+  {
+   "disease": "pituitary gigantism",
+   "drug": "prednisolone",
+   "id": "ho-03180",
+   "pmid": "33638626",
+   "sentence": "Induction of remission by prednisolone (PSL) for type 1 AIP/IgG4-RD led to a marked improvement of CRS."
+  },
+  {
+   "disease": "Stargardt disease",
+   "drug": "retinol",
+   "id": "ho-03181",
+   "pmid": "34297769",
+   "sentence": "RDH8 is involved in vitamin A (retinol) metabolism and consequent biological processes related to hypertension."
+  },
+  {
+   "disease": "hereditary breast carcinoma",
+   "drug": "alpelisib",
+   "id": "ho-03182",
+   "pmid": "39539943",
+   "sentence": "Here we showed for the first time that an all-oral combination of elacestrant plus alpelisib was feasible, tolerable, and clinically active in an ESR1 and PIK3CA co-mutated and heavily pretreated patient."
+  },
+  {
+   "disease": "short stature due to isolated growth hormone deficiency with X-linked hypogammaglobulinemia",
+   "drug": "pirtobrutinib",
+   "id": "ho-03183",
+   "pmid": "39062757",
+   "sentence": "BTK signaling is implicated in various B-cell lymphomas such as mantle cell lymphoma, Waldenström Macroglobulinemia, follicular lymphoma, and diffuse large B cell lymphoma, leading to the development of transformative treatments like ibrutinib, the first-in-class covalent BTK inhibitor, and pirtobrutinib, the first-in-class noncovalent BTK inhibitor."
+  },
+  {
+   "disease": "aromatase excess syndrome",
+   "drug": "progesterone",
+   "id": "ho-03184",
+   "pmid": "37173342",
+   "sentence": "Intact and healthy PF, showed high estradiol/androstendione and low progesterone levels associated with CYP17A1, HSD17B1, and CYP19A1 elevation and reduced StAR/HSD3B1 protein expression."
+  },
+  {
+   "disease": "nephrogenic syndrome of inappropriate antidiuresis",
+   "drug": "corticotropin",
+   "id": "ho-03185",
+   "pmid": "24356291",
+   "sentence": "The most frequent etiology is SIADH (syndrome of inappropriate secretion of ADH), a diagnostic of exclusion which is made after eliminating corticotropin deficiency and hypothyroidism."
+  },
+  {
+   "disease": "hyperinsulinemic hypoglycemia, familial",
+   "drug": "glucagon",
+   "id": "ho-03186",
+   "pmid": "PPR:PPR938240",
+   "sentence": "To explore the possible utility of glucokinase activators (GKA) and of glucagon–like receptor-1 (GLP-1) agonists in these diseases, we have developed a novel hypomorphic Gck allele in mice encoding an aberrantly spliced mRNA deleted for exons 2 and 3."
+  },
+  {
+   "disease": "Sjogren syndrome",
+   "drug": "trazodone",
+   "id": "ho-03187",
+   "pmid": "PPR:PPR847278",
+   "sentence": "The present study tested trazodone and dibenzoylmethane (DBM), which partially inhibit PERK signaling with neuroprotective effects and no pancreatic toxicity."
+  },
+  {
+   "disease": "mevalonic aciduria",
+   "drug": "tocilizumab",
+   "id": "ho-03188",
+   "pmid": "39417850",
+   "sentence": "The child remains reliant on corticosteroids, with limited response to colchicine and improvement noted after transitioning from tocilizumab to infliximab."
+  },
+  {
+   "disease": "tuberous sclerosis",
+   "drug": "everolimus",
+   "id": "ho-03189",
+   "pmid": "39726678",
+   "sentence": "The mechanistic target of rapamycin (mTOR) inhibitors everolimus or sirolimus reduce the severity of several TSC-related clinical traits."
+  },
+  {
+   "disease": "familial male-limited precocious puberty",
+   "drug": "letrozole",
+   "id": "ho-03190",
+   "pmid": "35909557",
+   "sentence": "Background The long-term follow-up in children with familial male-limited precocious puberty (FMPP) who were treated with letrozole, triptorelin, and spironolactone is limited, especially considering the efficiency and safety."
+  },
+  {
+   "disease": "short stature due to isolated growth hormone deficiency with X-linked hypogammaglobulinemia",
+   "drug": "acalabrutinib",
+   "id": "ho-03191",
+   "pmid": "37185435",
+   "sentence": "Ibrutinib was the first BTK inhibitor to gain a Health Canada indication, followed by second-generation BTK inhibitors acalabrutinib and zanubrutinib, which have better safety profiles compared to ibrutinib, likely due to their improved selectivity for BTK."
+  },
+  {
+   "disease": "erythropoietic protoporphyria",
+   "drug": "isoniazid",
+   "id": "ho-03192",
+   "pmid": "37259680",
+   "sentence": "Results In the rat model, serum GLDH concentration gradually increased during isoniazid (INH) administration, while serum FECH, HO-1 and GST-α concentrations significantly increased after INH administration was stopped."
+  },
+  {
+   "disease": "short stature due to isolated growth hormone deficiency with X-linked hypogammaglobulinemia",
+   "drug": "tyrosine",
+   "id": "ho-03193",
+   "pmid": "39216117",
+   "sentence": "Bruton's tyrosine kinase: A promising target for treating systemic lupus erythematosus."
+  },
+  {
+   "disease": "acquired polycythemia vera",
+   "drug": "ruxolitinib",
+   "id": "ho-03194",
+   "pmid": "38841874",
+   "sentence": "We prospectively measured changes in JAK2 and CALR VAF in 77 patients with polycythemia vera and essential thrombocythemia, treated with ruxolitinib for a median of 8 years, and assessed correlation with complete clinical and hematological response (CCHR) and outcomes."
+  },
+  {
+   "disease": "ATTRV122I amyloidosis",
+   "drug": "vitamin k",
+   "id": "ho-03195",
+   "pmid": "39202728",
+   "sentence": "An educational intervention on vitamin K-rich foods was conducted, and his physician was informed about the interaction between omeprazole and acenocoumarol, recommending its replacement with pantoprazole."
+  },
+  {
+   "disease": "tuberous sclerosis",
+   "drug": "everolimus",
+   "id": "ho-03196",
+   "pmid": "39727664",
+   "sentence": "The clinical manifestations of TSC vary widely and include subependymal giant cell astrocytomas (SEGAs), renal angiomyolipomas (AMLs), facial angiofibromas (FAs), and neuropsychiatric conditions such as autism spectrum disorder (ASD). mTOR inhibitors, notably everolimus, have become central to TSC management, with documented efficacy in reducing the sizes of SEGAs and AMLs and showing promise in addressing additional TSC-related symptoms."
+  },
+  {
+   "disease": "tuberous sclerosis",
+   "drug": "vinorelbine",
+   "id": "ho-03197",
+   "pmid": "37549660",
+   "sentence": "She was treated consecutively with the mCHEMO schedule R-DEVEC (prednisone, vinorelbine, etoposide, cyclophosphamide, plus rituximab) and then ibrutinib, achieving an impressive long-lasting complete remission."
+  },
+  {
+   "disease": "hypopituitarism",
+   "drug": "glucagon",
+   "id": "ho-03198",
+   "pmid": "PMC:PMC7208644",
+   "sentence": "GH stimulation test with glucagon was abnormal and resulted in a very low GH response (peak GH 0.52 ng/mL)."
+  },
+  {
+   "disease": "malignant hyperthermia of anesthesia",
+   "drug": "sevoflurane",
+   "id": "ho-03199",
+   "pmid": "37591734",
+   "sentence": "Isoflurane and sevoflurane, but not propofol, depressed depolarization-evoked increases in ER Ca 2+ concentration significantly more in mouse RYR1 T4826I mutant neurons than in wild-type neurons."
+  }
+ ],
+ "n_items": 100,
+ "shard": 32,
+ "split": "heldout"
+}

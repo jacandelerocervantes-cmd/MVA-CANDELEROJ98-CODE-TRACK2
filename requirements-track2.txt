@@ -1,0 +1,7 @@
+# HSelith Track 2 - drug repurposing hypotheses (tested with Python 3.10.11)
+numpy>=1.26,<3
+scipy>=1.11,<2
+jsonschema>=4.20,<5
+pytest>=8,<10
+rdkit>=2025.9,<2027
+pillow>=10,<13

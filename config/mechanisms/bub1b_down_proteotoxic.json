@@ -1,0 +1,22 @@
+{
+  "id": "bub1b_down_proteotoxic",
+  "gene": "BUB1B",
+  "effect": "downstream_consequence_of_bub1b_loss",
+  "disease": "Mosaic variegated aneuploidy syndrome 1 (MVA1)",
+  "pathway": "Proteotoxic stress response (unfolded protein response, heat-shock response, proteasome)",
+  "derived_from": "chromosomal instability and proteotoxic stress",
+  "status": "mechanism_candidate",
+  "evidence_level": "downstream_consequence_hypothesis_literature_supported",
+  "seeds": {
+    "reactome_pathways": [
+      "R-HSA-381119",
+      "R-HSA-3371453",
+      "R-HSA-983168"
+    ],
+    "genes": [],
+    "gene_source": "Core components of the pathway; documented in docs/mechanism_screen.md"
+  },
+  "hypothesis_note": "Consequence of the primary mechanism, not an independent genetic finding; its relevance for this patient is a hypothesis.",
+  "weight": 0.5,
+  "weight_note": "Author's convention: 1.0 for the primary mechanism (pathogenic variant with matching phenotype); 0.5 for downstream consequences (hypotheses)."
+}

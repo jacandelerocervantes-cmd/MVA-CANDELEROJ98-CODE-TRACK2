@@ -1,0 +1,265 @@
+{
+ "counts": {
+  "not verifiable": 0,
+  "partly verified": 8,
+  "verified": 15
+ },
+ "date": "2026-10-18",
+ "method": "Official provider pages read on this date; no licence inferred from memory; no terms accepted; no dataset downloaded.",
+ "records": [
+  {
+   "date_read": "2026-10-18",
+   "licence_or_terms": "CC BY-SA 4.0 for ClinPGx/PharmGKB data and content, research use, not to be sold as a commercial item",
+   "missing": "",
+   "note": "Page lists ClinPGx, CPIC guidelines and content, PharmCAT. Share-alike: if you alter, reuse or change the data you must distribute your contributions under the same licence. Terms: for research purposes, not for sale as a commercial item.",
+   "quote": "grants use of its data and contents under the Creative Commons Attribution-ShareAlike 4.0 International License",
+   "resource": "CPIC (ClinPGx data usage policy)",
+   "reuse_restriction_for_cc_by_repo": "SHARE-ALIKE (CC BY-SA 4.0) and research-purpose terms: derived tables with CPIC-derived fields should be released under CC BY-SA 4.0, like the ChEMBL-derived tables.",
+   "url_read": "https://www.clinpgx.org/page/dataUsagePolicy (https://cpicpgx.org/license/ redirects here)",
+   "verdict": "verified"
+  },
+  {
+   "date_read": "2026-10-18",
+   "licence_or_terms": "Terms and Conditions of data use (attribution, date, modifications stated; some records carry third-party copyright)",
+   "missing": "",
+   "note": "In any publication or distribution: attribute ClinicalTrials.gov, show the date the data were processed, state any modifications. Downloading indicates acceptance of the terms. No warranty.",
+   "quote": "Some ClinicalTrials.gov data may be subject to the copyright of third parties",
+   "resource": "ClinicalTrials.gov",
+   "reuse_restriction_for_cc_by_repo": "Attribution, processing date and statement of modifications are required for distributed derived data; third-party copyright possible.",
+   "url_read": "https://clinicaltrials.gov/about-site/terms-conditions (last updated January 31, 2023)",
+   "verdict": "verified"
+  },
+  {
+   "date_read": "2026-10-18",
+   "licence_or_terms": "No DailyMed-specific licence page; the NLM copyright policy applies",
+   "missing": "No DailyMed page states a licence for label text; rights of individual labelers are not stated",
+   "note": "The DailyMed support pages read contain no licence or terms statement of their own.",
+   "quote": "",
+   "resource": "DailyMed (label text)",
+   "reuse_restriction_for_cc_by_repo": "Possible labeler rights on label text (see NLM row). Verbatim quotes in out/ are short.",
+   "url_read": "https://dailymed.nlm.nih.gov/dailymed/app-support-web-services.cfm (footer links to the NLM copyright page, read above)",
+   "verdict": "partly verified"
+  },
+  {
+   "date_read": "2026-10-18",
+   "licence_or_terms": "Enrichr terms: web tools and services free for academic, non-profit use; commercial use needs a licence",
+   "missing": "No library-specific licence statement",
+   "note": "The terms page is about Enrichr's tools and services; it does not state a licence for individual gene-set libraries. The underlying LINCS data are covered by the LINCS release policy. Cite Chen 2013, Kuleshov 2016.",
+   "quote": "free for academic, non-profit use, but for commercial uses please contact Mount Sinai Innovation Partners",
+   "resource": "Enrichr library LINCS_L1000_CRISPR_KO_Consensus_Sigs",
+   "reuse_restriction_for_cc_by_repo": "Possible non-commercial reading of the Enrichr terms; the library files are not redistributed.",
+   "url_read": "https://maayanlab.cloud/Enrichr/help#terms",
+   "verdict": "partly verified"
+  },
+  {
+   "date_read": "2026-10-18",
+   "licence_or_terms": "Enrichr terms: web tools and services free for academic, non-profit use; commercial use needs a licence",
+   "missing": "No library-specific licence statement",
+   "note": "The terms page is about Enrichr's tools and services; it does not state a licence for individual gene-set libraries. The underlying LINCS data are covered by the LINCS release policy. Cite Chen 2013, Kuleshov 2016.",
+   "quote": "free for academic, non-profit use, but for commercial uses please contact Mount Sinai Innovation Partners",
+   "resource": "Enrichr library LINCS_L1000_Chem_Pert_Consensus_Sigs",
+   "reuse_restriction_for_cc_by_repo": "Possible non-commercial reading of the Enrichr terms; the library files are not redistributed.",
+   "url_read": "https://maayanlab.cloud/Enrichr/help#terms",
+   "verdict": "partly verified"
+  },
+  {
+   "date_read": "2026-10-18",
+   "licence_or_terms": "No API-specific licence; copyright held by publishers/authors; open access subset articles carry their own Creative Commons licence",
+   "missing": "The REST API page read states no licence or terms of use of its own; the licence of each abstract/article was not checked",
+   "note": "Automated retrieval is allowed only through the OAI, REST, SOAP and bulk download services. Licence terms are not identical for all articles; check the statement in each article.",
+   "quote": "The respective copyright holders retain rights for reproduction, redistribution and reuse.",
+   "resource": "Europe PMC (REST API, abstracts, full text)",
+   "reuse_restriction_for_cc_by_repo": "Abstracts and full text are not CC BY by default; the repository must not redistribute them beyond short sentences used for verification.",
+   "url_read": "https://europepmc.org/Copyright and https://europepmc.org/RestfulWebService",
+   "verdict": "partly verified"
+  },
+  {
+   "date_read": "2026-10-18",
+   "licence_or_terms": "Sanger DepMap data usage policy (Genome Research Limited): non-exclusive, non-transferable right for internal proprietary research and educational purposes; no resale or commercial services",
+   "missing": "",
+   "note": "https://www.cancerrxgene.org/legal now shows only a site-update notice (GDSC integrated into the Sanger DepMap) and no terms; the usage policy above is the official statement. Files are provided 'as is'. The Sanger legal page asks for acknowledgement of Sanger data.",
+   "quote": "Users have a non-exclusive, non-transferable right to use data files for internal proprietary research and educational purposes",
+   "resource": "GDSC2 fitted dose response, release 8.5 (Genomics of Drug Sensitivity in Cancer)",
+   "reuse_restriction_for_cc_by_repo": "NON-TRANSFERABLE, internal research and educational use, no resale: redistribution of GDSC data or tables dense with GDSC values under CC BY 4.0 is not covered. Only derived summary fields should be published. data/gdsc/record.json cites https://www.cancerrxgene.org/legal, which no longer carries the terms (file not edited here).",
+   "url_read": "https://depmap.sanger.ac.uk/documentation/data-usage-policy/ and https://www.sanger.ac.uk/legal/",
+   "verdict": "verified"
+  },
+  {
+   "date_read": "2026-10-18",
+   "licence_or_terms": "Public GEO platform; NCBI policy applies",
+   "missing": "GPL6104 platform page not read (browser verification page)",
+   "note": "Platform annotation file used for probe mapping.",
+   "quote": "",
+   "resource": "GEO platform GPL6104",
+   "reuse_restriction_for_cc_by_repo": "None found.",
+   "url_read": "https://www.ncbi.nlm.nih.gov/home/about/policies/ (platform page not read)",
+   "verdict": "partly verified"
+  },
+  {
+   "date_read": "2026-10-18",
+   "licence_or_terms": "Public GEO record; NCBI policy applies; no submitter restriction visible in the series record",
+   "missing": "HTML series page and GEO disclaimer page not readable (browser verification page); no explicit submitter licence field exists in the record",
+   "note": "Series record: status 'Public on Jun 09 2010'; the fields read contain no restriction, licence or copyright statement.",
+   "quote": "",
+   "resource": "GEO series GSE22206",
+   "reuse_restriction_for_cc_by_repo": "None found.",
+   "url_read": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE22206&targ=self&form=text&view=brief (text view); the HTML series page and the GEO disclaimer page returned a browser-check page and were not read",
+   "verdict": "partly verified"
+  },
+  {
+   "date_read": "2026-10-18",
+   "licence_or_terms": "CC BY 4.0",
+   "missing": "",
+   "note": "Cite the GO papers and state the release used.",
+   "quote": "Gene Ontology Consortium data and data products are licensed under the Creative Commons Attribution 4.0 Unported License.",
+   "resource": "Gene Ontology",
+   "reuse_restriction_for_cc_by_repo": "Attribution only.",
+   "url_read": "https://geneontology.org/docs/go-citation-policy/",
+   "verdict": "verified"
+  },
+  {
+   "date_read": "2026-10-18",
+   "licence_or_terms": "HPO licence: free use under three conditions (acknowledge and cite; show version/date; do not alter content or logical relationships)",
+   "missing": "",
+   "note": "Users should add: 'This service/product uses the Human Phenotype Ontology (version information)' and are asked to include the HPO logo.",
+   "quote": "neither the content of the HPO file(s) nor the logical relationships embedded within the HPO file(s) be altered",
+   "resource": "Human Phenotype Ontology",
+   "reuse_restriction_for_cc_by_repo": "No-alteration and version/acknowledgement conditions; the repository does not redistribute HPO files, derived tables carry HPO identifiers only; the HPO statement and version should be shown in the README.",
+   "url_read": "https://hpo.jax.org/license",
+   "verdict": "verified"
+  },
+  {
+   "date_read": "2026-10-18",
+   "licence_or_terms": "Released without restriction except correct citation (Fort Lauderdale principles)",
+   "missing": "",
+   "note": "Embargo requests are possible for some datasets (at most 6 months); none is stated for these consensus signatures.",
+   "quote": "In general, LINCS data are released without any restrictions except correct citation.",
+   "resource": "LINCS L1000 data",
+   "reuse_restriction_for_cc_by_repo": "Citation only.",
+   "url_read": "https://lincsproject.org/LINCS/data/release-policy",
+   "verdict": "verified"
+  },
+  {
+   "date_read": "2026-10-18",
+   "licence_or_terms": "CC BY 4.0 for MGI data and annotations",
+   "missing": "",
+   "note": "Images on the site are copyrighted by their authors and may not be redistributed. Downloaded but not used by any result.",
+   "quote": "MGI data and annotations are licensed under a Creative Commons Attribution 4.0 International License.",
+   "resource": "MGI (Mouse Genome Informatics)",
+   "reuse_restriction_for_cc_by_repo": "Attribution only.",
+   "url_read": "https://www.informatics.jax.org/mgihome/other/copyright.shtml",
+   "verdict": "verified"
+  },
+  {
+   "date_read": "2026-10-18",
+   "licence_or_terms": "NCBI places no restrictions; submitter-claimed rights are not assessed by NCBI",
+   "missing": "",
+   "note": "Users reproducing copyrighted material are expected to adhere to the holder's terms; scripted access limited to 3 requests per second.",
+   "quote": "NCBI itself places no restrictions on the use or distribution of the data contained therein.",
+   "resource": "NCBI data-use policy (applies to GEO)",
+   "reuse_restriction_for_cc_by_repo": "Respect any submitter-claimed rights.",
+   "url_read": "https://www.ncbi.nlm.nih.gov/home/about/policies/",
+   "verdict": "verified"
+  },
+  {
+   "date_read": "2026-10-18",
+   "licence_or_terms": "NLM government works are not under US copyright; third-party material may be protected",
+   "missing": "",
+   "note": "NLM asks for credit ('Courtesy of the National Library of Medicine'). Material from companies or organisations may be protected and needs the holder's permission beyond fair use. The user must satisfy such restrictions.",
+   "quote": "are not subject to copyright protection in the United States",
+   "resource": "NLM copyright information (applies to DailyMed)",
+   "reuse_restriction_for_cc_by_repo": "Label text written by labelers may carry third-party rights; the repository stores only short verbatim quotes in derived tables.",
+   "url_read": "https://www.nlm.nih.gov/web_policies.html (the copyright.html page redirects here)",
+   "verdict": "verified"
+  },
+  {
+   "date_read": "2026-10-18",
+   "licence_or_terms": "Licence per contributing resource (OmniPath aggregates over 100 resources)",
+   "missing": "No licence statement for OmniPath as a whole; per-source licences not individually verified",
+   "note": "The interaction file used lists sources whose licence on that page is non-commercial or share-alike (e.g. HPRD and iPTMnet CC BY-NC-SA 4.0, Cellinker CC BY-NC 4.0, iTALK and Wang CC BY-NC-SA 3.0); many sources have no stated licence. Matching of sources to licences was done by text search on the page.",
+   "quote": "Where we could not find anything about licensing, we assumed no license.",
+   "resource": "OmniPath",
+   "reuse_restriction_for_cc_by_repo": "NON-COMMERCIAL / SHARE-ALIKE sub-resources and unlicensed sub-resources: derived signed-effect tables (out/signed_effect.json) carry OmniPath-derived fields; the raw interaction file is not redistributed.",
+   "url_read": "https://omnipathdb.org/info",
+   "verdict": "partly verified"
+  },
+  {
+   "date_read": "2026-10-18",
+   "licence_or_terms": "CC0 1.0",
+   "missing": "",
+   "note": "",
+   "quote": "Open Targets Platform is marked with CC0 1.0.",
+   "resource": "Open Targets Platform",
+   "reuse_restriction_for_cc_by_repo": "None.",
+   "url_read": "https://platform-docs.opentargets.org/licence",
+   "verdict": "verified"
+  },
+  {
+   "date_read": "2026-10-18",
+   "licence_or_terms": "CC BY 4.0 for Orphadata Science datasets",
+   "missing": "",
+   "note": "Cite the provenance, indicate changes, no endorsement. Other Orphanet content is not reusable without written consent.",
+   "quote": "use them as they wish (including use in other information systems) according to the Commons Attribution 4.0 International",
+   "resource": "Orphadata (Orphanet)",
+   "reuse_restriction_for_cc_by_repo": "Attribution and indication of changes.",
+   "url_read": "https://www.orphadata.com/legal-notice/",
+   "verdict": "verified"
+  },
+  {
+   "date_read": "2026-10-18",
+   "licence_or_terms": "EMBL-EBI Terms of Use: no additional restrictions beyond those of the original data owners",
+   "missing": "No QuickGO-specific licence statement; annotation-source licences not checked",
+   "note": "QuickGO has no separate licence page; the data are Gene Ontology data and annotations from contributing databases, which may carry third-party rights.",
+   "quote": "EMBL-EBI itself places no additional restrictions on the use or redistribution of the data available",
+   "resource": "QuickGO (EMBL-EBI)",
+   "reuse_restriction_for_cc_by_repo": "Attribution; third-party rights in contributed annotations are the user's responsibility.",
+   "url_read": "https://www.ebi.ac.uk/about/terms-of-use/ (QuickGO footer links here)",
+   "verdict": "partly verified"
+  },
+  {
+   "date_read": "2026-10-18",
+   "licence_or_terms": "Terms of Service link to the LINCS data release policy; sole restriction is correct citation",
+   "missing": "",
+   "note": "SigCom LINCS asks users to cite Evangelista et al., Nucleic Acids Res 2022.",
+   "quote": "LINCS data are released with the sole restriction that they must be correctly cited",
+   "resource": "SigCom LINCS",
+   "reuse_restriction_for_cc_by_repo": "Citation only.",
+   "url_read": "https://maayanlab.cloud/sigcom-lincs/#/About and https://lincsproject.org/LINCS/data/release-policy",
+   "verdict": "verified"
+  },
+  {
+   "date_read": "2026-10-18",
+   "licence_or_terms": "CC BY 4.0",
+   "missing": "",
+   "note": "Disclaimer: some data may be covered by patents or other rights; medical or genetic information is for research and information only.",
+   "quote": "apply the Creative Commons Attribution 4.0 International (CC BY 4.0) License to all copyrightable parts of our databases",
+   "resource": "UniProt",
+   "reuse_restriction_for_cc_by_repo": "Attribution only.",
+   "url_read": "https://www.uniprot.org/help/license",
+   "verdict": "verified"
+  },
+  {
+   "date_read": "2026-10-18",
+   "licence_or_terms": "Apache-2.0 (Hugging Face model card licence field)",
+   "missing": "",
+   "note": "Revision 090663c3ae57bf35ffe4d0d468a2a88d03051a4d recorded in data/models/revisions.json.",
+   "quote": "license: apache-2.0",
+   "resource": "cambridgeltl/SapBERT-from-PubMedBERT-fulltext",
+   "reuse_restriction_for_cc_by_repo": "Keep the Apache-2.0 notice if weights are redistributed (they are not).",
+   "url_read": "https://huggingface.co/cambridgeltl/SapBERT-from-PubMedBERT-fulltext",
+   "verdict": "verified"
+  },
+  {
+   "date_read": "2026-10-18",
+   "licence_or_terms": "MIT (Hugging Face model card licence field)",
+   "missing": "",
+   "note": "Revision e1354b7a3a09615f6aba48dfad4b7a613eef7062 recorded in data/models/revisions.json.",
+   "quote": "License: mit",
+   "resource": "microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext",
+   "reuse_restriction_for_cc_by_repo": "Keep the MIT notice if weights are redistributed (they are not).",
+   "url_read": "https://huggingface.co/microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext",
+   "verdict": "verified"
+  }
+ ],
+ "repository_note": "Raw source files are not redistributed; derived tables under out/ carry derived fields."
+}

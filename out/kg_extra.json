@@ -1,0 +1,40 @@
+{
+ "n_diseases_sampled": 200,
+ "results": {
+  "disease_only": {
+   "diseases_where_pagerank_beats_degree": 137,
+   "excess_ci95": [
+    0.014381045092004779,
+    0.030056398104213084
+   ],
+   "mean_auc": 0.8022563429439304,
+   "mean_auc_degree_baseline": 0.7804705687366958,
+   "mean_excess_over_degree": 0.021785774207234612,
+   "mean_n_phenotype_nodes": 17.51,
+   "mean_recall50_all": 0.06891449560957758,
+   "mean_recall50_degree_baseline": 0.0215583725073939,
+   "mean_recall50_universe": 0.09857215714688573,
+   "mean_recall50_universe_degree_baseline": 0.02639968678609298,
+   "n_diseases": 200,
+   "n_with_universe_drug": 199
+  },
+  "disease_plus_own_phenotypes": {
+   "diseases_where_pagerank_beats_degree": 137,
+   "excess_ci95": [
+    0.01281279942915714,
+    0.028333760804396365
+   ],
+   "mean_auc": 0.8005500345605248,
+   "mean_auc_degree_baseline": 0.7804705687366958,
+   "mean_excess_over_degree": 0.020079465823828854,
+   "mean_n_phenotype_nodes": 17.51,
+   "mean_recall50_all": 0.06019887299689614,
+   "mean_recall50_degree_baseline": 0.0215583725073939,
+   "mean_recall50_universe": 0.0879738532129705,
+   "mean_recall50_universe_degree_baseline": 0.02639968678609298,
+   "n_diseases": 200,
+   "n_with_universe_drug": 199
+  }
+ },
+ "top": 50
+}

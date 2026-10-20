@@ -1,0 +1,335 @@
+{
+ "positive_control": {
+  "M": 4,
+  "N_recovered": 3,
+  "approved_only": {
+   "M": 3,
+   "N_recovered": 3,
+   "recovers": "recovers 3 of 3"
+  },
+  "caution_list_json_only": {
+   "N_recovered": 2,
+   "note": "independent of the literature: classes were pre-specified, so this is the fair positive control",
+   "recovered": [
+    "PACLITAXEL",
+    "TREOSULFAN"
+   ]
+  },
+  "definition": "drug with a sentence marked 'verified' in verification.json reporting harm or reduced sensitivity in MVA/BUB1B patients or BUB1B-deficient human cells (hand-fixed list, see module docstring)",
+  "entries": [
+   {
+    "approved": true,
+    "caution_list_class": null,
+    "drug": "DACTINOMYCIN",
+    "in_caution_list_json": false,
+    "in_final_caution_output": true,
+    "in_proposals_review2_caution": true,
+    "kind": "harm",
+    "pmid": "31081598",
+    "proposals_review2_level": 3,
+    "setting": "child with biallelic BUB1B PCS/MVA; severe adverse reaction to dactinomycin stopped chemotherapy",
+    "verified_in_verification_json": true,
+    "why_not_in_final_output": null
+   },
+   {
+    "approved": true,
+    "caution_list_class": "c_quimioterapia_genotoxica",
+    "drug": "TREOSULFAN",
+    "in_caution_list_json": true,
+    "in_final_caution_output": true,
+    "in_proposals_review2_caution": true,
+    "kind": "harm",
+    "pmid": "31053147",
+    "proposals_review2_level": 3,
+    "setting": "MVA1 (BUB1B) boy; treosulfan-based conditioning HSCT followed by graft rejection, pancytopenia, sepsis, death",
+    "verified_in_verification_json": true,
+    "why_not_in_final_output": null
+   },
+   {
+    "approved": true,
+    "caution_list_class": "a_tubulina",
+    "drug": "PACLITAXEL",
+    "in_caution_list_json": true,
+    "in_final_caution_output": true,
+    "in_proposals_review2_caution": true,
+    "kind": "reduced_sensitivity",
+    "pmid": "39014450",
+    "proposals_review2_level": 2,
+    "setting": "human cells/lymphocytes with germline BUB1B variants; reduced paclitaxel sensitivity",
+    "verified_in_verification_json": true,
+    "why_not_in_final_output": null
+   },
+   {
+    "approved": true,
+    "caution_list_class": "a_tubulina",
+    "drug": "PACLITAXEL",
+    "in_caution_list_json": true,
+    "in_final_caution_output": true,
+    "in_proposals_review2_caution": true,
+    "kind": "reduced_sensitivity",
+    "pmid": "38987356",
+    "proposals_review2_level": 2,
+    "setting": "human PANC-1 cells; BUB1B knockdown attenuates paclitaxel-induced cell death",
+    "verified_in_verification_json": true,
+    "why_not_in_final_output": null
+   },
+   {
+    "approved": false,
+    "caution_list_class": null,
+    "drug": "COLCEMID",
+    "in_caution_list_json": false,
+    "in_final_caution_output": false,
+    "in_proposals_review2_caution": false,
+    "kind": "reduced_sensitivity",
+    "pmid": "10877982",
+    "proposals_review2_level": null,
+    "setting": "fibroblasts of two PCS/MVA infants insensitive to colcemid (no mitotic block)",
+    "verified_in_verification_json": true,
+    "why_not_in_final_output": "not an approved drug (outside data/universe.json, ChEMBL max_phase 4); the caution layer is approved-only by design (E14)"
+   }
+  ],
+  "excluded_near_misses": [
+   {
+    "drug": "CYCLOSPORINE",
+    "pmid": "32884756",
+    "why": "sentence is 'not_found' in verification.json (the verifier rejected it); not a verified report"
+   },
+   {
+    "drug": "CORTICOTROPIN",
+    "pmid": "23916859",
+    "why": "no benefit (refractory spasms), not harm or reduced sensitivity to a cytotoxic/spindle drug"
+   },
+   {
+    "drug": "SOMATROPIN",
+    "pmid": "35434947",
+    "why": "MVA type 2 (CEP57), not BUB1B; unsatisfactory response, not harm"
+   },
+   {
+    "drug": "FLUDARABINE / ANTITHYMOCYTE GLOBULIN",
+    "pmid": "31053147",
+    "why": "only listed as conditioning components; no drug-specific harm stated"
+   },
+   {
+    "drug": "VINCRISTINE",
+    "pmid": "39698932",
+    "why": "DESI1 knockdown, not BUB1B deficiency"
+   },
+   {
+    "drug": "PACLITAXEL",
+    "pmid": "17234259",
+    "why": "ovarian line resistant to paclitaxel, not BUB1B-deficient (kept only as non-BUB1B evidence)"
+   }
+  ],
+  "final_caution_output": "union of out/caution_list.json (class-based, label quotes) and the 'caution' block of out/proposals_review2.json (literature-based)",
+  "not_recovered": [
+   "COLCEMID"
+  ],
+  "positive_set_drugs": [
+   "COLCEMID",
+   "DACTINOMYCIN",
+   "PACLITAXEL",
+   "TREOSULFAN"
+  ],
+  "proposals_review2_caution_is_circular": "that block is built from these same verified reports, so recovery there is expected by construction",
+  "recovered": [
+   "DACTINOMYCIN",
+   "PACLITAXEL",
+   "TREOSULFAN"
+  ],
+  "recovers": "recovers 3 of 4"
+ },
+ "verifier_catch_rate": {
+  "caveat": "rows are sentence slots; the same sentence can occupy several sections/topics, so rows overcount distinct sentences",
+  "distinct_not_found_sentences": 1,
+  "file_counts_field": {
+   "not_checkable": 6,
+   "not_found": 2,
+   "verified": 355
+  },
+  "label_quote_check": {
+   "by_origin": {
+    "age_label_table": {
+     "quotes": 116
+    },
+    "caution_list": {
+     "quotes": 332
+    },
+    "pediatric_label_review": {
+     "quotes": 70
+    },
+    "proposal_safety": {
+     "quotes": 33
+    }
+   },
+   "found": 551,
+   "n_quotes": 551,
+   "not_checkable": 0,
+   "not_found": 0,
+   "source": "out/quote_check.json (not re-run)"
+  },
+  "n_sentences": 363,
+  "not_checkable_entries": [
+   {
+    "drug": null,
+    "pmid": null,
+    "section": "background_evidence",
+    "sentence_first_100": "Furthermore, we found that lysosomal dysfunction serves as the upstream mediator of CEBPB activation",
+    "topic": "proteotoxic_autophagy"
+   },
+   {
+    "drug": null,
+    "pmid": null,
+    "section": "background_evidence",
+    "sentence_first_100": "Accordingly, concomitant PRMT5:MEP50 expression renders cancer cells less sensitive to proteasome in",
+    "topic": "proteotoxic_autophagy"
+   },
+   {
+    "drug": null,
+    "pmid": null,
+    "section": "background_evidence",
+    "sentence_first_100": "Seven genome-wide paired screens identified ribosomes, rRNA processing, spliceosome-mediated RNA pro",
+    "topic": "proteotoxic_autophagy"
+   },
+   {
+    "drug": null,
+    "pmid": null,
+    "section": "findings",
+    "sentence_first_100": "We show here that enlarged CDK4/6i-treated cells that evade senescence mis-segregate chromosomes due",
+    "topic": "senescence_p53"
+   },
+   {
+    "drug": null,
+    "pmid": null,
+    "section": "against_or_risk",
+    "sentence_first_100": "We show here that enlarged CDK4/6i-treated cells that evade senescence mis-segregate chromosomes due",
+    "topic": "senescence_p53"
+   },
+   {
+    "drug": "ADAVOSERTIB",
+    "pmid": null,
+    "section": "not_approved",
+    "sentence_first_100": "We show that increasing aneuploidy in breast cancer cells sensitizes to the inhibition of WEE1 kinas",
+    "topic": "tumour_cin_safety"
+   }
+  ],
+  "not_found_entries": [
+   {
+    "claimed_verified_by_ai": false,
+    "drug": "CYCLOSPORINE",
+    "pmid": "32884756",
+    "section": "findings",
+    "sentence_first_100": "The hypertrichosis at 22 years old was due to side effect of cyclosporine A after renal transplantat",
+    "topic": "round2_clinical"
+   },
+   {
+    "claimed_verified_by_ai": false,
+    "drug": "CYCLOSPORINE",
+    "pmid": "32884756",
+    "section": "against_or_risk",
+    "sentence_first_100": "The hypertrichosis at 22 years old was due to side effect of cyclosporine A after renal transplantat",
+    "topic": "round2_clinical"
+   }
+  ],
+  "per_topic": {
+   "context": {
+    "n": 2,
+    "not_checkable": 0,
+    "not_checkable_rate": 0.0,
+    "not_found": 0,
+    "not_found_rate": 0.0,
+    "verified": 2,
+    "verified_rate": 1.0
+   },
+   "growth_muscle": {
+    "n": 48,
+    "not_checkable": 0,
+    "not_checkable_rate": 0.0,
+    "not_found": 0,
+    "not_found_rate": 0.0,
+    "verified": 48,
+    "verified_rate": 1.0
+   },
+   "proteotoxic_autophagy": {
+    "n": 39,
+    "not_checkable": 3,
+    "not_checkable_rate": 0.0769,
+    "not_found": 0,
+    "not_found_rate": 0.0,
+    "verified": 36,
+    "verified_rate": 0.9231
+   },
+   "round2_clinical": {
+    "n": 35,
+    "not_checkable": 0,
+    "not_checkable_rate": 0.0,
+    "not_found": 2,
+    "not_found_rate": 0.0571,
+    "verified": 33,
+    "verified_rate": 0.9429
+   },
+   "round2_models": {
+    "n": 41,
+    "not_checkable": 0,
+    "not_checkable_rate": 0.0,
+    "not_found": 0,
+    "not_found_rate": 0.0,
+    "verified": 41,
+    "verified_rate": 1.0
+   },
+   "round2_phenotypes": {
+    "n": 49,
+    "not_checkable": 0,
+    "not_checkable_rate": 0.0,
+    "not_found": 0,
+    "not_found_rate": 0.0,
+    "verified": 49,
+    "verified_rate": 1.0
+   },
+   "round2_vulnerabilities": {
+    "n": 37,
+    "not_checkable": 0,
+    "not_checkable_rate": 0.0,
+    "not_found": 0,
+    "not_found_rate": 0.0,
+    "verified": 37,
+    "verified_rate": 1.0
+   },
+   "round3_audit": {
+    "n": 4,
+    "not_checkable": 0,
+    "not_checkable_rate": 0.0,
+    "not_found": 0,
+    "not_found_rate": 0.0,
+    "verified": 4,
+    "verified_rate": 1.0
+   },
+   "senescence_p53": {
+    "n": 61,
+    "not_checkable": 2,
+    "not_checkable_rate": 0.0328,
+    "not_found": 0,
+    "not_found_rate": 0.0,
+    "verified": 59,
+    "verified_rate": 0.9672
+   },
+   "tumour_cin_safety": {
+    "n": 47,
+    "not_checkable": 1,
+    "not_checkable_rate": 0.0213,
+    "not_found": 0,
+    "not_found_rate": 0.0,
+    "verified": 46,
+    "verified_rate": 0.9787
+   }
+  },
+  "total": {
+   "n": 363,
+   "not_checkable": 6,
+   "not_checkable_rate": 0.0165,
+   "not_found": 2,
+   "not_found_rate": 0.0055,
+   "verified": 355,
+   "verified_rate": 0.978
+  }
+ }
+}

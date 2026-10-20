@@ -1,0 +1,166 @@
+{
+ "dev": {
+  "agreement": {
+   "direction": {
+    "accuracy": {
+     "ci95": [
+      0.9269778915716246,
+      0.9405229029503583
+     ],
+     "estimate": 0.9337436166033782
+    },
+    "kappa": {
+     "ci95": [
+      0.8246029129727305,
+      0.8558951949002148
+     ],
+     "estimate": 0.8407380008102561
+    },
+    "n": 7637,
+    "n_papers": 3383
+   },
+   "label_counts": {
+    "opus": {
+     "direction": {
+      "benefit": 1350,
+      "harm": 402,
+      "no_effect": 132,
+      "unclear": 5753
+     },
+     "relevance": {
+      "no": 5480,
+      "unclear": 1606,
+      "yes": 551
+     }
+    },
+    "sonnet": {
+     "direction": {
+      "benefit": 1563,
+      "harm": 424,
+      "no_effect": 129,
+      "unclear": 5521
+     },
+     "relevance": {
+      "no": 5489,
+      "unclear": 427,
+      "yes": 1721
+     }
+    }
+   },
+   "relevance": {
+    "accuracy": {
+     "ci95": [
+      0.7864226173359574,
+      0.8161958338022259
+     ],
+     "estimate": 0.8014927327484614
+    },
+    "kappa": {
+     "ci95": [
+      0.5463252467826774,
+      0.5835984812049908
+     ],
+     "estimate": 0.5649122495830142
+    },
+    "n": 7637,
+    "n_papers": 3383
+   },
+   "reliability_counts": {
+    "majority": 2287,
+    "robust": 5310,
+    "unresolved": 40
+   }
+  },
+  "relevance_gate": {
+   "kappa_point": 0.5649122495830142,
+   "passed": false,
+   "threshold": 0.6
+  }
+ },
+ "label": "post hoc development (engine v4, LLM-read evidence), not a pre-registered primary result",
+ "protocol": "protocol\\addendum_engine_v4_llm.md",
+ "protocol_sha256_at_dev_run": "4da5bf1a3b2003f442931e5c18fa6a838ba5d6b9784b057a8cef744b489718f8",
+ "status": "relevance kappa below the gate: labels unreliable, LLM features not used, no HELD-OUT scoring",
+ "unvalidated_registry": {
+  "c_grid": {
+   "conservative_default": [
+    1.0
+   ],
+   "note": "nested grouped CV, inner 3-fold on DEV",
+   "status": "UNVALIDATED",
+   "value": [
+    0.1,
+    1.0,
+    10.0
+   ]
+  },
+  "direction_rule": {
+   "conservative_default": "2-of-3 vote of opus, sonnet, rule; unresolved excluded",
+   "note": "reliability flag of engine_llm_agreement",
+   "status": "UNVALIDATED",
+   "value": "2-of-3 vote of opus, sonnet, rule; unresolved excluded"
+  },
+  "evaluation_universe": {
+   "conservative_default": "candidate set P_d",
+   "note": "avoids the selection asymmetry between gold and non-gold annotation",
+   "status": "UNVALIDATED",
+   "value": "candidate set P_d"
+  },
+  "feature_definitions": {
+   "conservative_default": [
+    "llm_log1p_rel_benefit",
+    "llm_log1p_rel_harm",
+    "llm_log1p_rel_robust"
+   ],
+   "note": "protocol section 3",
+   "status": "UNVALIDATED",
+   "value": [
+    "llm_log1p_rel_benefit",
+    "llm_log1p_rel_harm",
+    "llm_log1p_rel_robust"
+   ]
+  },
+  "kappa_gate": {
+   "conservative_default": 0.6,
+   "note": "fixed by the task",
+   "status": "UNVALIDATED",
+   "value": 0.6
+  },
+  "papers_per_pair": {
+   "conservative_default": 3,
+   "note": "budget control, fixed by the task",
+   "status": "UNVALIDATED",
+   "value": 3
+  },
+  "relevance_rule": {
+   "conservative_default": "both annotators say yes",
+   "note": "strict conjunction",
+   "status": "UNVALIDATED",
+   "value": "both annotators say yes"
+  },
+  "sentences_per_paper": {
+   "conservative_default": 2,
+   "note": "budget control, fixed by the task",
+   "status": "UNVALIDATED",
+   "value": 2
+  },
+  "top_k_candidates": {
+   "conservative_default": 30,
+   "note": "budget control, fixed by the task",
+   "status": "UNVALIDATED",
+   "value": 30
+  },
+  "training_features": {
+   "conservative_default": "f = 1.0 capped counts",
+   "note": "as the ablation refit",
+   "status": "UNVALIDATED",
+   "value": "f = 1.0 capped counts"
+  },
+  "verification_rate_limit": {
+   "conservative_default": "4 requests/s",
+   "note": "Europe PMC limit given by the task",
+   "status": "UNVALIDATED",
+   "value": "4 requests/s"
+  }
+ }
+}

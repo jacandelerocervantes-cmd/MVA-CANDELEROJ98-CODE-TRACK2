@@ -1,0 +1,59 @@
+{
+ "chembl_version": "ChEMBL_37",
+ "iterations": 1000,
+ "mechanism": "sub_IGBP1",
+ "n_approved_drugs": 2705,
+ "reactome_version": "97",
+ "sensitivity": {
+  "400": {
+   "n_pass": 8,
+   "n_scored": 1128,
+   "top10": [
+    "PRALSETINIB",
+    "DINOPROSTONE",
+    "AMOXAPINE",
+    "SELPERCATINIB",
+    "VOCLOSPORIN",
+    "OMIDENEPAG ISOPROPYL",
+    "ATOSIBAN",
+    "PROTIRELIN",
+    "OXYTOCIN",
+    "MISOPROSTOL"
+   ]
+  },
+  "700": {
+   "n_pass": 4,
+   "n_scored": 1040,
+   "top10": [
+    "PRALSETINIB",
+    "VOCLOSPORIN",
+    "SELPERCATINIB",
+    "DINOPROSTONE",
+    "CARVEDILOL",
+    "TRAMETINIB",
+    "BINIMETINIB",
+    "PINDOLOL",
+    "TOLVAPTAN",
+    "SAMIDORPHAN"
+   ]
+  },
+  "900": {
+   "n_pass": 6,
+   "n_scored": 905,
+   "top10": [
+    "SELPERCATINIB",
+    "PRALSETINIB",
+    "LITHIUM CARBONATE",
+    "VOCLOSPORIN",
+    "TRAMETINIB",
+    "COBIMETINIB",
+    "BINIMETINIB",
+    "TERLIPRESSIN",
+    "NALTREXONE",
+    "CARVEDILOL"
+   ]
+  }
+ },
+ "string_version": "v12.0",
+ "universe_sha256": "c4df43ba87d3146b117faec7a9050fde3f87ad757004f3b852bcbe01ebbea29c"
+}

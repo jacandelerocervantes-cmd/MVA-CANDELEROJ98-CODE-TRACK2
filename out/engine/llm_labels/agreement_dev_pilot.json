@@ -1,0 +1,70 @@
+{
+ "direction": {
+  "accuracy": {
+   "ci95": [
+    0.9292,
+    0.962
+   ],
+   "estimate": 0.9463
+  },
+  "counts_opus": {
+   "benefit": 133,
+   "harm": 56,
+   "no_effect": 17,
+   "unclear": 594
+  },
+  "counts_sonnet": {
+   "benefit": 144,
+   "harm": 58,
+   "no_effect": 15,
+   "unclear": 583
+  },
+  "kappa": {
+   "ci95": [
+    0.8333,
+    0.9086
+   ],
+   "estimate": 0.8731
+  }
+ },
+ "n_items": 800,
+ "n_papers": 685,
+ "note": "pilot on 8 of 77 DEV shards (seed 20261015), guideline v1; not the full DEV gate",
+ "relevance": {
+  "accuracy": {
+   "ci95": [
+    0.8149,
+    0.8708
+   ],
+   "estimate": 0.8438
+  },
+  "counts_opus": {
+   "no": 596,
+   "unclear": 145,
+   "yes": 59
+  },
+  "counts_sonnet": {
+   "no": 600,
+   "unclear": 49,
+   "yes": 151
+  },
+  "kappa": {
+   "ci95": [
+    0.5749,
+    0.6744
+   ],
+   "estimate": 0.6246
+  }
+ },
+ "shards": [
+  2,
+  4,
+  6,
+  25,
+  26,
+  28,
+  57,
+  62
+ ],
+ "split": "dev_pilot"
+}

@@ -1,0 +1,1127 @@
+{
+ "definition": {
+  "null": "1000 permutations of the score within lineage, seed 20261018",
+  "proliferation_covariate": "mean z of MKI67, PCNA, TOP2A, MCM2, CCNB1 (no measured doubling time on disk)",
+  "statistic": "partial rank correlation of PRISM viability with the checkpoint score, lineage fixed effects (OncotreeLineage, lineages < 10 lines pooled) and ranked proliferation covariate",
+  "survival_rule": "adjusted BH q < 0.10 and same sign as the original rho",
+  "within_lineage_min_lines": 30
+ },
+ "drugs": {
+  "ATORVASTATIN": {
+   "adjusted": {
+    "estimable": true,
+    "n_lines": 890,
+    "p_perm": 0.5094905094905094,
+    "q_bh": 0.850873264666368,
+    "rho_adj": -0.0217515158489955,
+    "within": {
+     "i2": 0.0,
+     "n_lineages": 16,
+     "p_random": 0.8209225337873666,
+     "p_stouffer": 0.8209225337873667,
+     "pooled_rho": -0.008524951113119381
+    }
+   },
+   "excluding_heme_lymphoid": {
+    "estimable": true,
+    "n_lines": 783,
+    "p_perm": 0.4325674325674326,
+    "q_bh": 0.7681103942786186,
+    "rho_adj": -0.027949886304042017,
+    "within": {
+     "i2": 0.0,
+     "n_lineages": 14,
+     "p_random": 0.7603298700439425,
+     "p_stouffer": 0.7603298700439426,
+     "pooled_rho": -0.012391079022653233
+    }
+   },
+   "in_prism": true,
+   "leave_one_lineage_out": {
+    "n_omissions": 16,
+    "n_sign_kept": 16,
+    "n_sign_kept_and_p_below_0_05": 0,
+    "rho_max": -0.002122463768524503,
+    "rho_min": -0.035230646739932925,
+    "worst_omitted_lineage": "Esophagus/Stomach"
+   },
+   "n_heme_lymphoid_lines_in_drug_data": 107,
+   "original_n_lines": 890,
+   "original_q": 0.047452547452547456,
+   "original_rho": -0.0975,
+   "verdict": "does not survive",
+   "verdict_excluding_heme_lymphoid": "does not survive"
+  },
+  "BOSUTINIB": {
+   "adjusted": {
+    "estimable": true,
+    "n_lines": 552,
+    "p_perm": 0.01998001998001998,
+    "q_bh": 0.25308025308025306,
+    "rho_adj": 0.1064005020486359,
+    "within": {
+     "i2": 0.0,
+     "n_lineages": 7,
+     "p_random": 0.6368981371557547,
+     "p_stouffer": 0.6368981371557548,
+     "pooled_rho": 0.02706674615120297
+    }
+   },
+   "excluding_heme_lymphoid": {
+    "estimable": true,
+    "n_lines": 552,
+    "p_perm": 0.01998001998001998,
+    "q_bh": 0.25308025308025306,
+    "rho_adj": 0.1064005020486359,
+    "within": {
+     "i2": 0.0,
+     "n_lineages": 7,
+     "p_random": 0.6368981371557547,
+     "p_stouffer": 0.6368981371557548,
+     "pooled_rho": 0.02706674615120297
+    }
+   },
+   "in_prism": true,
+   "leave_one_lineage_out": {
+    "n_omissions": 7,
+    "n_sign_kept": 7,
+    "n_sign_kept_and_p_below_0_05": 7,
+    "rho_max": 0.14059272659365105,
+    "rho_min": 0.09839801308586797,
+    "worst_omitted_lineage": "Skin"
+   },
+   "n_heme_lymphoid_lines_in_drug_data": 0,
+   "original_n_lines": 552,
+   "original_q": 0.047452547452547456,
+   "original_rho": 0.1301,
+   "verdict": "does not survive",
+   "verdict_excluding_heme_lymphoid": "does not survive"
+  },
+  "CABAZITAXEL": {
+   "adjusted": {
+    "estimable": true,
+    "n_lines": 549,
+    "p_perm": 0.058941058941058944,
+    "q_bh": 0.43072312303081534,
+    "rho_adj": -0.08374999481288141,
+    "within": {
+     "i2": 0.1253882170001457,
+     "n_lineages": 7,
+     "p_random": 0.03965023208545362,
+     "p_stouffer": 0.023879310304959864,
+     "pooled_rho": -0.1273120012991022
+    }
+   },
+   "excluding_heme_lymphoid": {
+    "estimable": true,
+    "n_lines": 549,
+    "p_perm": 0.058941058941058944,
+    "q_bh": 0.41477041477041476,
+    "rho_adj": -0.08374999481288141,
+    "within": {
+     "i2": 0.1253882170001457,
+     "n_lineages": 7,
+     "p_random": 0.03965023208545362,
+     "p_stouffer": 0.023879310304959864,
+     "pooled_rho": -0.1273120012991022
+    }
+   },
+   "in_prism": true,
+   "leave_one_lineage_out": {
+    "n_omissions": 7,
+    "n_sign_kept": 7,
+    "n_sign_kept_and_p_below_0_05": 1,
+    "rho_max": -0.06792652116736397,
+    "rho_min": -0.10079675759846402,
+    "worst_omitted_lineage": "Bowel"
+   },
+   "n_heme_lymphoid_lines_in_drug_data": 0,
+   "original_n_lines": 549,
+   "original_q": 0.047452547452547456,
+   "original_rho": -0.11,
+   "verdict": "does not survive",
+   "verdict_excluding_heme_lymphoid": "does not survive"
+  },
+  "CALCITRIOL": {
+   "adjusted": {
+    "estimable": true,
+    "n_lines": 553,
+    "p_perm": 0.13386613386613386,
+    "q_bh": 0.5892024642024642,
+    "rho_adj": 0.06533631161048797,
+    "within": {
+     "i2": 0.3031129478315029,
+     "n_lineages": 7,
+     "p_random": 0.7027799881821579,
+     "p_stouffer": 0.5674973072802532,
+     "pooled_rho": 0.02687357717953161
+    }
+   },
+   "excluding_heme_lymphoid": {
+    "estimable": true,
+    "n_lines": 553,
+    "p_perm": 0.13386613386613386,
+    "q_bh": 0.5892024642024642,
+    "rho_adj": 0.06533631161048797,
+    "within": {
+     "i2": 0.3031129478315029,
+     "n_lineages": 7,
+     "p_random": 0.7027799881821579,
+     "p_stouffer": 0.5674973072802532,
+     "pooled_rho": 0.02687357717953161
+    }
+   },
+   "in_prism": true,
+   "leave_one_lineage_out": {
+    "n_omissions": 7,
+    "n_sign_kept": 7,
+    "n_sign_kept_and_p_below_0_05": 1,
+    "rho_max": 0.09338996207664037,
+    "rho_min": 0.0491218862151338,
+    "worst_omitted_lineage": "Lung"
+   },
+   "n_heme_lymphoid_lines_in_drug_data": 0,
+   "original_n_lines": 553,
+   "original_q": 0.09490509490509491,
+   "original_rho": 0.108,
+   "verdict": "does not survive",
+   "verdict_excluding_heme_lymphoid": "does not survive"
+  },
+  "COBIMETINIB": {
+   "adjusted": {
+    "estimable": true,
+    "n_lines": 546,
+    "p_perm": 0.14685314685314685,
+    "q_bh": 0.5892024642024642,
+    "rho_adj": 0.06109006653879745,
+    "within": {
+     "i2": 0.6286481121075456,
+     "n_lineages": 7,
+     "p_random": 0.6751925656098821,
+     "p_stouffer": 0.5070085014445764,
+     "pooled_rho": 0.04073128378170643
+    }
+   },
+   "excluding_heme_lymphoid": {
+    "estimable": true,
+    "n_lines": 546,
+    "p_perm": 0.14685314685314685,
+    "q_bh": 0.5892024642024642,
+    "rho_adj": 0.06109006653879745,
+    "within": {
+     "i2": 0.6286481121075456,
+     "n_lineages": 7,
+     "p_random": 0.6751925656098821,
+     "p_stouffer": 0.5070085014445764,
+     "pooled_rho": 0.04073128378170643
+    }
+   },
+   "in_prism": true,
+   "leave_one_lineage_out": {
+    "n_omissions": 7,
+    "n_sign_kept": 7,
+    "n_sign_kept_and_p_below_0_05": 1,
+    "rho_max": 0.09443934647319265,
+    "rho_min": 0.044772936356924774,
+    "worst_omitted_lineage": "Esophagus/Stomach"
+   },
+   "n_heme_lymphoid_lines_in_drug_data": 0,
+   "original_n_lines": 546,
+   "original_q": 0.05272505272505272,
+   "original_rho": 0.1293,
+   "verdict": "does not survive",
+   "verdict_excluding_heme_lymphoid": "does not survive"
+  },
+  "COLCHICINE": {
+   "adjusted": {
+    "estimable": true,
+    "n_lines": 546,
+    "p_perm": 0.000999000999000999,
+    "q_bh": 0.03163503163503164,
+    "rho_adj": -0.15906142555663588,
+    "within": {
+     "i2": 0.3042834073331323,
+     "n_lineages": 7,
+     "p_random": 0.028376380033288445,
+     "p_stouffer": 0.005380215323630754,
+     "pooled_rho": -0.15378899117760858
+    }
+   },
+   "excluding_heme_lymphoid": {
+    "estimable": true,
+    "n_lines": 546,
+    "p_perm": 0.000999000999000999,
+    "q_bh": 0.03796203796203797,
+    "rho_adj": -0.15906142555663588,
+    "within": {
+     "i2": 0.3042834073331323,
+     "n_lineages": 7,
+     "p_random": 0.028376380033288445,
+     "p_stouffer": 0.005380215323630754,
+     "pooled_rho": -0.15378899117760858
+    }
+   },
+   "in_prism": true,
+   "leave_one_lineage_out": {
+    "n_omissions": 7,
+    "n_sign_kept": 7,
+    "n_sign_kept_and_p_below_0_05": 7,
+    "rho_max": -0.14370252211955772,
+    "rho_min": -0.17595716726963237,
+    "worst_omitted_lineage": "Skin"
+   },
+   "n_heme_lymphoid_lines_in_drug_data": 0,
+   "original_n_lines": 546,
+   "original_q": 0.03163503163503164,
+   "original_rho": -0.1497,
+   "verdict": "survives",
+   "verdict_excluding_heme_lymphoid": "survives"
+  },
+  "DASATINIB ANHYDROUS": {
+   "adjusted": {
+    "estimable": true,
+    "n_lines": 544,
+    "p_perm": 0.7972027972027972,
+    "q_bh": 0.939677606344273,
+    "rho_adj": 0.01196199739608305,
+    "within": {
+     "i2": 0.23358338942273862,
+     "n_lineages": 7,
+     "p_random": 0.5852407376933737,
+     "p_stouffer": 0.6358544055184556,
+     "pooled_rho": 0.03666188965541425
+    }
+   },
+   "excluding_heme_lymphoid": {
+    "estimable": true,
+    "n_lines": 544,
+    "p_perm": 0.7972027972027972,
+    "q_bh": 0.9339127130538173,
+    "rho_adj": 0.01196199739608305,
+    "within": {
+     "i2": 0.23358338942273862,
+     "n_lineages": 7,
+     "p_random": 0.5852407376933737,
+     "p_stouffer": 0.6358544055184556,
+     "pooled_rho": 0.03666188965541425
+    }
+   },
+   "in_prism": true,
+   "leave_one_lineage_out": {
+    "n_omissions": 7,
+    "n_sign_kept": 6,
+    "n_sign_kept_and_p_below_0_05": 0,
+    "rho_max": 0.04127722434192013,
+    "rho_min": -0.004373157479368644,
+    "worst_omitted_lineage": "Esophagus/Stomach"
+   },
+   "n_heme_lymphoid_lines_in_drug_data": 0,
+   "original_n_lines": 544,
+   "original_q": 0.05272505272505272,
+   "original_rho": 0.1226,
+   "verdict": "does not survive",
+   "verdict_excluding_heme_lymphoid": "does not survive"
+  },
+  "ERDAFITINIB": {
+   "adjusted": {
+    "estimable": true,
+    "n_lines": 533,
+    "p_perm": 0.4975024975024975,
+    "q_bh": 0.850873264666368,
+    "rho_adj": -0.029663082818695088,
+    "within": {
+     "i2": 0.0,
+     "n_lineages": 7,
+     "p_random": 0.26952960993974484,
+     "p_stouffer": 0.26952960993974484,
+     "pooled_rho": -0.0639815550298853
+    }
+   },
+   "excluding_heme_lymphoid": {
+    "estimable": true,
+    "n_lines": 533,
+    "p_perm": 0.4975024975024975,
+    "q_bh": 0.8302132649958736,
+    "rho_adj": -0.029663082818695088,
+    "within": {
+     "i2": 0.0,
+     "n_lineages": 7,
+     "p_random": 0.26952960993974484,
+     "p_stouffer": 0.26952960993974484,
+     "pooled_rho": -0.0639815550298853
+    }
+   },
+   "in_prism": true,
+   "leave_one_lineage_out": {
+    "n_omissions": 7,
+    "n_sign_kept": 7,
+    "n_sign_kept_and_p_below_0_05": 0,
+    "rho_max": -0.007013129048241644,
+    "rho_min": -0.04259323092872561,
+    "worst_omitted_lineage": "CNS/Brain"
+   },
+   "n_heme_lymphoid_lines_in_drug_data": 0,
+   "original_n_lines": 533,
+   "original_q": 0.06643356643356643,
+   "original_rho": -0.1153,
+   "verdict": "does not survive",
+   "verdict_excluding_heme_lymphoid": "does not survive"
+  },
+  "ERIBULIN": {
+   "adjusted": {
+    "estimable": true,
+    "n_lines": 872,
+    "p_perm": 0.000999000999000999,
+    "q_bh": 0.03163503163503164,
+    "rho_adj": -0.11489988609508327,
+    "within": {
+     "i2": 0.25291462795385544,
+     "n_lineages": 15,
+     "p_random": 0.05067821136303773,
+     "p_stouffer": 0.021087216352420054,
+     "pooled_rho": -0.08941318539604842
+    }
+   },
+   "excluding_heme_lymphoid": {
+    "estimable": true,
+    "n_lines": 766,
+    "p_perm": 0.002997002997002997,
+    "q_bh": 0.07117882117882118,
+    "rho_adj": -0.12869779387822292,
+    "within": {
+     "i2": 0.3385165458992489,
+     "n_lineages": 13,
+     "p_random": 0.05958205077247913,
+     "p_stouffer": 0.019070859656360635,
+     "pooled_rho": -0.09958109798322305
+    }
+   },
+   "in_prism": true,
+   "leave_one_lineage_out": {
+    "n_omissions": 15,
+    "n_sign_kept": 15,
+    "n_sign_kept_and_p_below_0_05": 15,
+    "rho_max": -0.09999703834087573,
+    "rho_min": -0.12576881997878672,
+    "worst_omitted_lineage": "Bowel"
+   },
+   "n_heme_lymphoid_lines_in_drug_data": 106,
+   "original_n_lines": 872,
+   "original_q": 0.018981018981018984,
+   "original_rho": -0.1994,
+   "verdict": "survives",
+   "verdict_excluding_heme_lymphoid": "survives"
+  },
+  "ETOPOSIDE": {
+   "adjusted": {
+    "estimable": true,
+    "n_lines": 549,
+    "p_perm": 0.004995004995004995,
+    "q_bh": 0.11863136863136862,
+    "rho_adj": -0.13161301800436545,
+    "within": {
+     "i2": 0.14634128560573273,
+     "n_lineages": 7,
+     "p_random": 0.15033700911892975,
+     "p_stouffer": 0.10512691430270547,
+     "pooled_rho": -0.09050281973386948
+    }
+   },
+   "excluding_heme_lymphoid": {
+    "estimable": true,
+    "n_lines": 549,
+    "p_perm": 0.004995004995004995,
+    "q_bh": 0.10545010545010544,
+    "rho_adj": -0.13161301800436545,
+    "within": {
+     "i2": 0.14634128560573273,
+     "n_lineages": 7,
+     "p_random": 0.15033700911892975,
+     "p_stouffer": 0.10512691430270547,
+     "pooled_rho": -0.09050281973386948
+    }
+   },
+   "in_prism": true,
+   "leave_one_lineage_out": {
+    "n_omissions": 7,
+    "n_sign_kept": 7,
+    "n_sign_kept_and_p_below_0_05": 7,
+    "rho_max": -0.125475036913386,
+    "rho_min": -0.1513242749172006,
+    "worst_omitted_lineage": "Ovary/Fallopian Tube"
+   },
+   "n_heme_lymphoid_lines_in_drug_data": 0,
+   "original_n_lines": 549,
+   "original_q": 0.018981018981018984,
+   "original_rho": -0.2172,
+   "verdict": "does not survive",
+   "verdict_excluding_heme_lymphoid": "does not survive"
+  },
+  "FLUVASTATIN": {
+   "adjusted": {
+    "estimable": true,
+    "n_lines": 531,
+    "p_perm": 0.008991008991008992,
+    "q_bh": 0.15529924620833713,
+    "rho_adj": -0.12279097725789768,
+    "within": {
+     "i2": 0.026294313056929603,
+     "n_lineages": 7,
+     "p_random": 0.089777465141959,
+     "p_stouffer": 0.07891009641304142,
+     "pooled_rho": -0.10132350251623556
+    }
+   },
+   "excluding_heme_lymphoid": {
+    "estimable": true,
+    "n_lines": 531,
+    "p_perm": 0.008991008991008992,
+    "q_bh": 0.15529924620833713,
+    "rho_adj": -0.12279097725789768,
+    "within": {
+     "i2": 0.026294313056929603,
+     "n_lineages": 7,
+     "p_random": 0.089777465141959,
+     "p_stouffer": 0.07891009641304142,
+     "pooled_rho": -0.10132350251623556
+    }
+   },
+   "in_prism": true,
+   "leave_one_lineage_out": {
+    "n_omissions": 7,
+    "n_sign_kept": 7,
+    "n_sign_kept_and_p_below_0_05": 7,
+    "rho_max": -0.09137460125587102,
+    "rho_min": -0.14473131549632814,
+    "worst_omitted_lineage": "Lung"
+   },
+   "n_heme_lymphoid_lines_in_drug_data": 0,
+   "original_n_lines": 531,
+   "original_q": 0.018981018981018984,
+   "original_rho": -0.1649,
+   "verdict": "does not survive",
+   "verdict_excluding_heme_lymphoid": "does not survive"
+  },
+  "LAZERTINIB": {
+   "adjusted": {
+    "estimable": true,
+    "n_lines": 872,
+    "p_perm": 0.000999000999000999,
+    "q_bh": 0.03163503163503164,
+    "rho_adj": 0.14001546782298827,
+    "within": {
+     "i2": 0.11717638943208929,
+     "n_lineages": 15,
+     "p_random": 0.00011016371531036686,
+     "p_stouffer": 2.677371395932897e-05,
+     "pooled_rho": 0.16039524138536312
+    }
+   },
+   "excluding_heme_lymphoid": {
+    "estimable": true,
+    "n_lines": 765,
+    "p_perm": 0.000999000999000999,
+    "q_bh": 0.03796203796203797,
+    "rho_adj": 0.14783123541298016,
+    "within": {
+     "i2": 0.19249120931371405,
+     "n_lineages": 13,
+     "p_random": 0.0003827932808785279,
+     "p_stouffer": 3.999658941223562e-05,
+     "pooled_rho": 0.16792954821386205
+    }
+   },
+   "in_prism": true,
+   "leave_one_lineage_out": {
+    "n_omissions": 15,
+    "n_sign_kept": 15,
+    "n_sign_kept_and_p_below_0_05": 15,
+    "rho_max": 0.15164396782384146,
+    "rho_min": 0.11791722392918573,
+    "worst_omitted_lineage": "Lung"
+   },
+   "n_heme_lymphoid_lines_in_drug_data": 107,
+   "original_n_lines": 872,
+   "original_q": 0.018981018981018984,
+   "original_rho": 0.2089,
+   "verdict": "survives",
+   "verdict_excluding_heme_lymphoid": "survives"
+  },
+  "LOVASTATIN": {
+   "adjusted": {
+    "estimable": true,
+    "n_lines": 549,
+    "p_perm": 0.5384615384615384,
+    "q_bh": 0.8627735900463174,
+    "rho_adj": -0.026762463703053883,
+    "within": {
+     "i2": 0.0,
+     "n_lineages": 7,
+     "p_random": 0.6808040648387763,
+     "p_stouffer": 0.6808040648387762,
+     "pooled_rho": 0.023550402402021085
+    }
+   },
+   "excluding_heme_lymphoid": {
+    "estimable": true,
+    "n_lines": 549,
+    "p_perm": 0.5384615384615384,
+    "q_bh": 0.8510342116899494,
+    "rho_adj": -0.026762463703053883,
+    "within": {
+     "i2": 0.0,
+     "n_lineages": 7,
+     "p_random": 0.6808040648387763,
+     "p_stouffer": 0.6808040648387762,
+     "pooled_rho": 0.023550402402021085
+    }
+   },
+   "in_prism": true,
+   "leave_one_lineage_out": {
+    "n_omissions": 7,
+    "n_sign_kept": 7,
+    "n_sign_kept_and_p_below_0_05": 0,
+    "rho_max": -0.016579413013814645,
+    "rho_min": -0.03884759798032128,
+    "worst_omitted_lineage": "Pancreas"
+   },
+   "n_heme_lymphoid_lines_in_drug_data": 0,
+   "original_n_lines": 549,
+   "original_q": 0.018981018981018984,
+   "original_rho": -0.1411,
+   "verdict": "does not survive",
+   "verdict_excluding_heme_lymphoid": "does not survive"
+  },
+  "METHOTREXATE": {
+   "adjusted": {
+    "estimable": true,
+    "n_lines": 553,
+    "p_perm": 0.09490509490509491,
+    "q_bh": 0.5151990866276581,
+    "rho_adj": -0.07547057523234985,
+    "within": {
+     "i2": 0.0,
+     "n_lineages": 7,
+     "p_random": 0.1921909556611362,
+     "p_stouffer": 0.1921909556611362,
+     "pooled_rho": -0.07429320578819248
+    }
+   },
+   "excluding_heme_lymphoid": {
+    "estimable": true,
+    "n_lines": 553,
+    "p_perm": 0.09490509490509491,
+    "q_bh": 0.500888000888001,
+    "rho_adj": -0.07547057523234985,
+    "within": {
+     "i2": 0.0,
+     "n_lineages": 7,
+     "p_random": 0.1921909556611362,
+     "p_stouffer": 0.1921909556611362,
+     "pooled_rho": -0.07429320578819248
+    }
+   },
+   "in_prism": true,
+   "leave_one_lineage_out": {
+    "n_omissions": 7,
+    "n_sign_kept": 7,
+    "n_sign_kept_and_p_below_0_05": 0,
+    "rho_max": -0.06840464100429844,
+    "rho_min": -0.0816429798354878,
+    "worst_omitted_lineage": "Pancreas"
+   },
+   "n_heme_lymphoid_lines_in_drug_data": 0,
+   "original_n_lines": 553,
+   "original_q": 0.018981018981018984,
+   "original_rho": -0.1497,
+   "verdict": "does not survive",
+   "verdict_excluding_heme_lymphoid": "does not survive"
+  },
+  "NERATINIB": {
+   "adjusted": {
+    "estimable": true,
+    "n_lines": 531,
+    "p_perm": 0.000999000999000999,
+    "q_bh": 0.03163503163503164,
+    "rho_adj": 0.18744509905585288,
+    "within": {
+     "i2": 0.17972526171563985,
+     "n_lineages": 7,
+     "p_random": 0.014377193237282409,
+     "p_stouffer": 0.005838761928152126,
+     "pooled_rho": 0.16088522227994687
+    }
+   },
+   "excluding_heme_lymphoid": {
+    "estimable": true,
+    "n_lines": 531,
+    "p_perm": 0.000999000999000999,
+    "q_bh": 0.03796203796203797,
+    "rho_adj": 0.18744509905585288,
+    "within": {
+     "i2": 0.17972526171563985,
+     "n_lineages": 7,
+     "p_random": 0.014377193237282409,
+     "p_stouffer": 0.005838761928152126,
+     "pooled_rho": 0.16088522227994687
+    }
+   },
+   "in_prism": true,
+   "leave_one_lineage_out": {
+    "n_omissions": 7,
+    "n_sign_kept": 7,
+    "n_sign_kept_and_p_below_0_05": 7,
+    "rho_max": 0.20919384446595699,
+    "rho_min": 0.16656316989873698,
+    "worst_omitted_lineage": "Pancreas"
+   },
+   "n_heme_lymphoid_lines_in_drug_data": 0,
+   "original_n_lines": 531,
+   "original_q": 0.018981018981018984,
+   "original_rho": 0.1944,
+   "verdict": "survives",
+   "verdict_excluding_heme_lymphoid": "survives"
+  },
+  "OLAPARIB": {
+   "adjusted": {
+    "estimable": true,
+    "n_lines": 547,
+    "p_perm": 0.06393606393606394,
+    "q_bh": 0.4474097331240188,
+    "rho_adj": -0.0824636065178868,
+    "within": {
+     "i2": 0.0,
+     "n_lineages": 7,
+     "p_random": 0.3503931059707093,
+     "p_stouffer": 0.3503931059707093,
+     "pooled_rho": -0.05359555709898745
+    }
+   },
+   "excluding_heme_lymphoid": {
+    "estimable": true,
+    "n_lines": 547,
+    "p_perm": 0.06393606393606394,
+    "q_bh": 0.4319818112921561,
+    "rho_adj": -0.0824636065178868,
+    "within": {
+     "i2": 0.0,
+     "n_lineages": 7,
+     "p_random": 0.3503931059707093,
+     "p_stouffer": 0.3503931059707093,
+     "pooled_rho": -0.05359555709898745
+    }
+   },
+   "in_prism": true,
+   "leave_one_lineage_out": {
+    "n_omissions": 7,
+    "n_sign_kept": 7,
+    "n_sign_kept_and_p_below_0_05": 1,
+    "rho_max": -0.07205396229334221,
+    "rho_min": -0.09109833646907348,
+    "worst_omitted_lineage": "CNS/Brain"
+   },
+   "n_heme_lymphoid_lines_in_drug_data": 0,
+   "original_n_lines": 547,
+   "original_q": 0.059940059940059943,
+   "original_rho": -0.1164,
+   "verdict": "does not survive",
+   "verdict_excluding_heme_lymphoid": "does not survive"
+  },
+  "PACLITAXEL": {
+   "adjusted": {
+    "estimable": true,
+    "n_lines": 546,
+    "p_perm": 0.001998001998001998,
+    "q_bh": 0.05423148280291138,
+    "rho_adj": -0.14114084305478744,
+    "within": {
+     "i2": 0.28890250815300095,
+     "n_lineages": 7,
+     "p_random": 0.018660703894870734,
+     "p_stouffer": 0.0020199267534778903,
+     "pooled_rho": -0.16295753182884026
+    }
+   },
+   "excluding_heme_lymphoid": {
+    "estimable": true,
+    "n_lines": 546,
+    "p_perm": 0.001998001998001998,
+    "q_bh": 0.05423148280291138,
+    "rho_adj": -0.14114084305478744,
+    "within": {
+     "i2": 0.28890250815300095,
+     "n_lineages": 7,
+     "p_random": 0.018660703894870734,
+     "p_stouffer": 0.0020199267534778903,
+     "pooled_rho": -0.16295753182884026
+    }
+   },
+   "in_prism": true,
+   "leave_one_lineage_out": {
+    "n_omissions": 7,
+    "n_sign_kept": 7,
+    "n_sign_kept_and_p_below_0_05": 7,
+    "rho_max": -0.09608232125451595,
+    "rho_min": -0.15784832981213054,
+    "worst_omitted_lineage": "Lung"
+   },
+   "n_heme_lymphoid_lines_in_drug_data": 0,
+   "original_n_lines": 546,
+   "original_q": 0.03163503163503164,
+   "original_rho": -0.131,
+   "verdict": "survives",
+   "verdict_excluding_heme_lymphoid": "survives"
+  },
+  "PREDNISOLONE": {
+   "adjusted": {
+    "estimable": true,
+    "n_lines": 531,
+    "p_perm": 0.030969030969030968,
+    "q_bh": 0.3226773226773227,
+    "rho_adj": 0.0974616475533625,
+    "within": {
+     "i2": 0.0,
+     "n_lineages": 7,
+     "p_random": 0.4105067427474517,
+     "p_stouffer": 0.4105067427474517,
+     "pooled_rho": 0.048457887076256104
+    }
+   },
+   "excluding_heme_lymphoid": {
+    "estimable": true,
+    "n_lines": 531,
+    "p_perm": 0.030969030969030968,
+    "q_bh": 0.3226773226773227,
+    "rho_adj": 0.0974616475533625,
+    "within": {
+     "i2": 0.0,
+     "n_lineages": 7,
+     "p_random": 0.4105067427474517,
+     "p_stouffer": 0.4105067427474517,
+     "pooled_rho": 0.048457887076256104
+    }
+   },
+   "in_prism": true,
+   "leave_one_lineage_out": {
+    "n_omissions": 7,
+    "n_sign_kept": 7,
+    "n_sign_kept_and_p_below_0_05": 5,
+    "rho_max": 0.11856605626086335,
+    "rho_min": 0.0808207811320691,
+    "worst_omitted_lineage": "Lung"
+   },
+   "n_heme_lymphoid_lines_in_drug_data": 0,
+   "original_n_lines": 531,
+   "original_q": 0.018981018981018984,
+   "original_rho": 0.1598,
+   "verdict": "does not survive",
+   "verdict_excluding_heme_lymphoid": "does not survive"
+  },
+  "PYRIMETHAMINE": {
+   "adjusted": {
+    "estimable": true,
+    "n_lines": 551,
+    "p_perm": 0.4015984015984016,
+    "q_bh": 0.763036963036963,
+    "rho_adj": -0.03619476027590877,
+    "within": {
+     "i2": 0.0774270123378223,
+     "n_lineages": 7,
+     "p_random": 0.5779197142867831,
+     "p_stouffer": 0.5391598900721536,
+     "pooled_rho": -0.03360445090800635
+    }
+   },
+   "excluding_heme_lymphoid": {
+    "estimable": true,
+    "n_lines": 551,
+    "p_perm": 0.4015984015984016,
+    "q_bh": 0.7681103942786186,
+    "rho_adj": -0.03619476027590877,
+    "within": {
+     "i2": 0.0774270123378223,
+     "n_lineages": 7,
+     "p_random": 0.5779197142867831,
+     "p_stouffer": 0.5391598900721536,
+     "pooled_rho": -0.03360445090800635
+    }
+   },
+   "in_prism": true,
+   "leave_one_lineage_out": {
+    "n_omissions": 7,
+    "n_sign_kept": 7,
+    "n_sign_kept_and_p_below_0_05": 0,
+    "rho_max": -0.02221209885430743,
+    "rho_min": -0.046674207925497445,
+    "worst_omitted_lineage": "Skin"
+   },
+   "n_heme_lymphoid_lines_in_drug_data": 0,
+   "original_n_lines": 551,
+   "original_q": 0.09038580467151895,
+   "original_rho": -0.1089,
+   "verdict": "does not survive",
+   "verdict_excluding_heme_lymphoid": "does not survive"
+  },
+  "SELUMETINIB": {
+   "adjusted": {
+    "estimable": true,
+    "n_lines": 554,
+    "p_perm": 0.03296703296703297,
+    "q_bh": 0.3226773226773227,
+    "rho_adj": 0.0913975821445537,
+    "within": {
+     "i2": 0.5309332150054421,
+     "n_lineages": 7,
+     "p_random": 0.13761119984757092,
+     "p_stouffer": 0.05789861588231808,
+     "pooled_rho": 0.1269722060892088
+    }
+   },
+   "excluding_heme_lymphoid": {
+    "estimable": true,
+    "n_lines": 554,
+    "p_perm": 0.03296703296703297,
+    "q_bh": 0.3226773226773227,
+    "rho_adj": 0.0913975821445537,
+    "within": {
+     "i2": 0.5309332150054421,
+     "n_lineages": 7,
+     "p_random": 0.13761119984757092,
+     "p_stouffer": 0.05789861588231808,
+     "pooled_rho": 0.1269722060892088
+    }
+   },
+   "in_prism": true,
+   "leave_one_lineage_out": {
+    "n_omissions": 7,
+    "n_sign_kept": 7,
+    "n_sign_kept_and_p_below_0_05": 3,
+    "rho_max": 0.11810797899467697,
+    "rho_min": 0.07563730008490366,
+    "worst_omitted_lineage": "CNS/Brain"
+   },
+   "n_heme_lymphoid_lines_in_drug_data": 0,
+   "original_n_lines": 554,
+   "original_q": 0.09903140337922947,
+   "original_rho": 0.1025,
+   "verdict": "does not survive",
+   "verdict_excluding_heme_lymphoid": "does not survive"
+  },
+  "SIMVASTATIN": {
+   "adjusted": {
+    "estimable": true,
+    "n_lines": 548,
+    "p_perm": 0.1018981018981019,
+    "q_bh": 0.5232605232605233,
+    "rho_adj": -0.071515490308017,
+    "within": {
+     "i2": 0.0,
+     "n_lineages": 7,
+     "p_random": 0.2695608046240565,
+     "p_stouffer": 0.26956080462405674,
+     "pooled_rho": -0.06334250471082187
+    }
+   },
+   "excluding_heme_lymphoid": {
+    "estimable": true,
+    "n_lines": 548,
+    "p_perm": 0.1018981018981019,
+    "q_bh": 0.5094905094905094,
+    "rho_adj": -0.071515490308017,
+    "within": {
+     "i2": 0.0,
+     "n_lineages": 7,
+     "p_random": 0.2695608046240565,
+     "p_stouffer": 0.26956080462405674,
+     "pooled_rho": -0.06334250471082187
+    }
+   },
+   "in_prism": true,
+   "leave_one_lineage_out": {
+    "n_omissions": 7,
+    "n_sign_kept": 7,
+    "n_sign_kept_and_p_below_0_05": 0,
+    "rho_max": -0.05960764012633137,
+    "rho_min": -0.08173424226370715,
+    "worst_omitted_lineage": "Lung"
+   },
+   "n_heme_lymphoid_lines_in_drug_data": 0,
+   "original_n_lines": 548,
+   "original_q": 0.018981018981018984,
+   "original_rho": -0.1781,
+   "verdict": "does not survive",
+   "verdict_excluding_heme_lymphoid": "does not survive"
+  },
+  "TRAMETINIB": {
+   "adjusted": {
+    "estimable": true,
+    "n_lines": 550,
+    "p_perm": 0.04795204795204795,
+    "q_bh": 0.38721278721278724,
+    "rho_adj": 0.08677008149251918,
+    "within": {
+     "i2": 0.0,
+     "n_lineages": 7,
+     "p_random": 0.2002447651172109,
+     "p_stouffer": 0.2002447651172109,
+     "pooled_rho": 0.07345065241174505
+    }
+   },
+   "excluding_heme_lymphoid": {
+    "estimable": true,
+    "n_lines": 550,
+    "p_perm": 0.04795204795204795,
+    "q_bh": 0.3723199877046031,
+    "rho_adj": 0.08677008149251918,
+    "within": {
+     "i2": 0.0,
+     "n_lineages": 7,
+     "p_random": 0.2002447651172109,
+     "p_stouffer": 0.2002447651172109,
+     "pooled_rho": 0.07345065241174505
+    }
+   },
+   "in_prism": true,
+   "leave_one_lineage_out": {
+    "n_omissions": 7,
+    "n_sign_kept": 7,
+    "n_sign_kept_and_p_below_0_05": 2,
+    "rho_max": 0.10708081790454403,
+    "rho_min": 0.0805635817899311,
+    "worst_omitted_lineage": "Pancreas"
+   },
+   "n_heme_lymphoid_lines_in_drug_data": 0,
+   "original_n_lines": 550,
+   "original_q": 0.047452547452547456,
+   "original_rho": 0.1305,
+   "verdict": "does not survive",
+   "verdict_excluding_heme_lymphoid": "does not survive"
+  },
+  "VINCRISTINE": {
+   "adjusted": {
+    "estimable": true,
+    "n_lines": 546,
+    "p_perm": 0.000999000999000999,
+    "q_bh": 0.03163503163503164,
+    "rho_adj": -0.15777916438160458,
+    "within": {
+     "i2": 0.0,
+     "n_lineages": 7,
+     "p_random": 0.0013104409987915264,
+     "p_stouffer": 0.0013104409987915238,
+     "pooled_rho": -0.18255188782405476
+    }
+   },
+   "excluding_heme_lymphoid": {
+    "estimable": true,
+    "n_lines": 546,
+    "p_perm": 0.000999000999000999,
+    "q_bh": 0.03796203796203797,
+    "rho_adj": -0.15777916438160458,
+    "within": {
+     "i2": 0.0,
+     "n_lineages": 7,
+     "p_random": 0.0013104409987915264,
+     "p_stouffer": 0.0013104409987915238,
+     "pooled_rho": -0.18255188782405476
+    }
+   },
+   "in_prism": true,
+   "leave_one_lineage_out": {
+    "n_omissions": 7,
+    "n_sign_kept": 7,
+    "n_sign_kept_and_p_below_0_05": 7,
+    "rho_max": -0.14059027222512477,
+    "rho_min": -0.17064802988800887,
+    "worst_omitted_lineage": "Skin"
+   },
+   "n_heme_lymphoid_lines_in_drug_data": 0,
+   "original_n_lines": 546,
+   "original_q": 0.018981018981018984,
+   "original_rho": -0.1643,
+   "verdict": "survives",
+   "verdict_excluding_heme_lymphoid": "survives"
+  }
+ },
+ "heme_lymphoid_lines_excluded": 109,
+ "label": "exploratory, correlational, from cancer cell lines; does not model partial BUB1B loss; hypothesis signal only",
+ "line_c_candidates": [
+  "LAZERTINIB",
+  "NERATINIB",
+  "PREDNISOLONE",
+  "TRAMETINIB",
+  "COBIMETINIB"
+ ],
+ "lineage_counts": {
+  "Adrenal Gland": 1,
+  "Ampulla of Vater": 4,
+  "Biliary Tract": 33,
+  "Bladder/Urinary Tract": 30,
+  "Bone": 27,
+  "Bowel": 45,
+  "Breast": 33,
+  "CNS/Brain": 64,
+  "Cervix": 13,
+  "Esophagus/Stomach": 57,
+  "Eye": 4,
+  "Fibroblast": 1,
+  "Head and Neck": 42,
+  "Kidney": 30,
+  "Liver": 22,
+  "Lung": 122,
+  "Lymphoid": 76,
+  "Myeloid": 33,
+  "Ovary/Fallopian Tube": 47,
+  "Pancreas": 44,
+  "Peripheral Nervous System": 17,
+  "Pleura": 10,
+  "Prostate": 5,
+  "Skin": 52,
+  "Soft Tissue": 31,
+  "Testis": 4,
+  "Thyroid": 13,
+  "Uterus": 34,
+  "Vulva/Vagina": 1
+ },
+ "median_abs_ratio_adjusted_to_original_hits": 0.6098976692951346,
+ "n_cell_lines": 895,
+ "n_estimable": 190,
+ "n_hits_surviving_excluding_heme_lymphoid": 6,
+ "n_lineages": 29,
+ "n_original_hits": 23,
+ "n_original_hits_estimable": 23,
+ "n_original_hits_surviving": 6,
+ "n_survive_all_drugs_adjusted_q_below_0_10": 7,
+ "non_surviving_hits": [
+  "ATORVASTATIN",
+  "BOSUTINIB",
+  "CABAZITAXEL",
+  "CALCITRIOL",
+  "COBIMETINIB",
+  "DASATINIB ANHYDROUS",
+  "ERDAFITINIB",
+  "ETOPOSIDE",
+  "FLUVASTATIN",
+  "LOVASTATIN",
+  "METHOTREXATE",
+  "OLAPARIB",
+  "PREDNISOLONE",
+  "PYRIMETHAMINE",
+  "SELUMETINIB",
+  "SIMVASTATIN",
+  "TRAMETINIB"
+ ],
+ "pearson_original_vs_adjusted_all": 0.7252306199316603,
+ "prednisolone_lymphoid_suspicion_supported": null,
+ "protocol": "protocol/addendum_line_c_adjusted.md",
+ "spearman_original_vs_adjusted_all": 0.6576898279933924,
+ "spearman_original_vs_adjusted_hits": 0.8757104295014932,
+ "surviving_hits": [
+  "COLCHICINE",
+  "ERIBULIN",
+  "LAZERTINIB",
+  "NERATINIB",
+  "PACLITAXEL",
+  "VINCRISTINE"
+ ]
+}

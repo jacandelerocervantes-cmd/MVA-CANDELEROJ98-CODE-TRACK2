@@ -1,0 +1,59 @@
+{
+ "chembl_version": "ChEMBL_37",
+ "iterations": 1000,
+ "mechanism": "bub1b_down_growth_mtor_ampk",
+ "n_approved_drugs": 2705,
+ "reactome_version": "97",
+ "sensitivity": {
+  "400": {
+   "n_pass": 25,
+   "n_scored": 1128,
+   "top10": [
+    "PREGABALIN",
+    "GABAPENTIN ENACARBIL",
+    "GABAPENTIN",
+    "NISOLDIPINE",
+    "NIFEDIPINE",
+    "CLEVIDIPINE",
+    "TEMSIROLIMUS",
+    "ISRADIPINE",
+    "ATALUREN",
+    "NIMODIPINE"
+   ]
+  },
+  "700": {
+   "n_pass": 33,
+   "n_scored": 1040,
+   "top10": [
+    "PREGABALIN",
+    "GABAPENTIN ENACARBIL",
+    "GABAPENTIN",
+    "FELODIPINE",
+    "CLEVIDIPINE",
+    "NISOLDIPINE",
+    "NIFEDIPINE",
+    "ISRADIPINE",
+    "SIROLIMUS",
+    "NIMODIPINE"
+   ]
+  },
+  "900": {
+   "n_pass": 10,
+   "n_scored": 905,
+   "top10": [
+    "ATALUREN",
+    "EVEROLIMUS",
+    "SIROLIMUS",
+    "TEMSIROLIMUS",
+    "PIMECROLIMUS",
+    "COBIMETINIB",
+    "BINIMETINIB",
+    "TRAMETINIB",
+    "EPTOTERMIN ALFA",
+    "DIBOTERMIN ALFA"
+   ]
+  }
+ },
+ "string_version": "v12.0",
+ "universe_sha256": "c4df43ba87d3146b117faec7a9050fde3f87ad757004f3b852bcbe01ebbea29c"
+}

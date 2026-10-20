@@ -1,0 +1,6909 @@
+{
+ "age_bands": {
+  "0-4": {
+   "filter_pass": [
+    "COLCHICINE",
+    "DOXORUBICIN",
+    "ENTRECTINIB",
+    "EVEROLIMUS",
+    "LAROTRECTINIB",
+    "PHENYLBUTANOIC ACID",
+    "SELPERCATINIB",
+    "SELUMETINIB",
+    "TRAMETINIB",
+    "TREOSULFAN"
+   ],
+   "outside_filter": {},
+   "p_top5": {
+    "COLCHICINE": 0.0058,
+    "DOXORUBICIN": 0.1792,
+    "ENTRECTINIB": 0.9586,
+    "EVEROLIMUS": 0.8628,
+    "LAROTRECTINIB": 0.5464,
+    "PHENYLBUTANOIC ACID": 0.0964,
+    "SELPERCATINIB": 0.6725,
+    "SELUMETINIB": 0.6498,
+    "TRAMETINIB": 0.9962,
+    "TREOSULFAN": 0.0323
+   },
+   "primary": [
+    "TRAMETINIB"
+   ],
+   "proposed": [
+    "TRAMETINIB"
+   ],
+   "restricted_pool_primary": [
+    "TRAMETINIB",
+    "ENTRECTINIB",
+    "EVEROLIMUS"
+   ],
+   "restricted_pool_proposed": [
+    "TRAMETINIB",
+    "ENTRECTINIB",
+    "EVEROLIMUS",
+    "SELPERCATINIB",
+    "SELUMETINIB",
+    "LAROTRECTINIB"
+   ],
+   "verify_or_unassessed_in_global_top10": [
+    "BRIGATINIB",
+    "MINOCYCLINE",
+    "PINDOLOL",
+    "CERITINIB",
+    "SELINEXOR",
+    "TYROSINE",
+    "FLUVASTATIN",
+    "ZINC CHLORIDE",
+    "LOVASTATIN"
+   ]
+  },
+  "12-17": {
+   "filter_pass": [
+    "COLCHICINE",
+    "DOXORUBICIN",
+    "ENTRECTINIB",
+    "EVEROLIMUS",
+    "LAROTRECTINIB",
+    "METFORMIN",
+    "PHENYLBUTANOIC ACID",
+    "SELPERCATINIB",
+    "SELUMETINIB",
+    "SIROLIMUS",
+    "TRAMETINIB",
+    "TREOSULFAN"
+   ],
+   "outside_filter": {},
+   "p_top5": {
+    "COLCHICINE": 0.0025,
+    "DOXORUBICIN": 0.1567,
+    "ENTRECTINIB": 0.9271,
+    "EVEROLIMUS": 0.8374,
+    "LAROTRECTINIB": 0.5146,
+    "METFORMIN": 0.1133,
+    "PHENYLBUTANOIC ACID": 0.0785,
+    "SELPERCATINIB": 0.6365,
+    "SELUMETINIB": 0.6198,
+    "SIROLIMUS": 0.095,
+    "TRAMETINIB": 0.9933,
+    "TREOSULFAN": 0.0253
+   },
+   "primary": [
+    "TRAMETINIB"
+   ],
+   "proposed": [
+    "TRAMETINIB"
+   ],
+   "restricted_pool_primary": [
+    "TRAMETINIB",
+    "ENTRECTINIB",
+    "EVEROLIMUS"
+   ],
+   "restricted_pool_proposed": [
+    "TRAMETINIB",
+    "ENTRECTINIB",
+    "EVEROLIMUS",
+    "SELPERCATINIB",
+    "SELUMETINIB",
+    "LAROTRECTINIB"
+   ],
+   "verify_or_unassessed_in_global_top10": [
+    "BRIGATINIB",
+    "MINOCYCLINE",
+    "PINDOLOL",
+    "CERITINIB",
+    "SELINEXOR",
+    "TYROSINE",
+    "FLUVASTATIN",
+    "ZINC CHLORIDE",
+    "LOVASTATIN"
+   ]
+  },
+  "5-11": {
+   "filter_pass": [
+    "COLCHICINE",
+    "DOXORUBICIN",
+    "ENTRECTINIB",
+    "EVEROLIMUS",
+    "LAROTRECTINIB",
+    "METFORMIN",
+    "PHENYLBUTANOIC ACID",
+    "SELPERCATINIB",
+    "SELUMETINIB",
+    "TRAMETINIB",
+    "TREOSULFAN"
+   ],
+   "outside_filter": {},
+   "p_top5": {
+    "COLCHICINE": 0.0028,
+    "DOXORUBICIN": 0.1682,
+    "ENTRECTINIB": 0.9332,
+    "EVEROLIMUS": 0.8375,
+    "LAROTRECTINIB": 0.5399,
+    "METFORMIN": 0.1238,
+    "PHENYLBUTANOIC ACID": 0.0817,
+    "SELPERCATINIB": 0.6528,
+    "SELUMETINIB": 0.6393,
+    "TRAMETINIB": 0.994,
+    "TREOSULFAN": 0.0268
+   },
+   "primary": [
+    "TRAMETINIB"
+   ],
+   "proposed": [
+    "TRAMETINIB"
+   ],
+   "restricted_pool_primary": [
+    "TRAMETINIB",
+    "ENTRECTINIB",
+    "EVEROLIMUS"
+   ],
+   "restricted_pool_proposed": [
+    "TRAMETINIB",
+    "ENTRECTINIB",
+    "EVEROLIMUS",
+    "SELPERCATINIB",
+    "SELUMETINIB",
+    "LAROTRECTINIB"
+   ],
+   "verify_or_unassessed_in_global_top10": [
+    "BRIGATINIB",
+    "MINOCYCLINE",
+    "PINDOLOL",
+    "CERITINIB",
+    "SELINEXOR",
+    "TYROSINE",
+    "FLUVASTATIN",
+    "ZINC CHLORIDE",
+    "LOVASTATIN"
+   ]
+  },
+  "unknown_age_union": {
+   "filter_pass": [
+    "COLCHICINE",
+    "DOXORUBICIN",
+    "ENTRECTINIB",
+    "EVEROLIMUS",
+    "LAROTRECTINIB",
+    "METFORMIN",
+    "PHENYLBUTANOIC ACID",
+    "SELPERCATINIB",
+    "SELUMETINIB",
+    "SIROLIMUS",
+    "TRAMETINIB",
+    "TREOSULFAN"
+   ],
+   "outside_filter": {},
+   "p_top5": {
+    "COLCHICINE": 0.0025,
+    "DOXORUBICIN": 0.1567,
+    "ENTRECTINIB": 0.9271,
+    "EVEROLIMUS": 0.8374,
+    "LAROTRECTINIB": 0.5146,
+    "METFORMIN": 0.1133,
+    "PHENYLBUTANOIC ACID": 0.0785,
+    "SELPERCATINIB": 0.6365,
+    "SELUMETINIB": 0.6198,
+    "SIROLIMUS": 0.095,
+    "TRAMETINIB": 0.9933,
+    "TREOSULFAN": 0.0253
+   },
+   "primary": [
+    "TRAMETINIB"
+   ],
+   "proposed": [
+    "TRAMETINIB"
+   ],
+   "restricted_pool_primary": [
+    "TRAMETINIB",
+    "ENTRECTINIB",
+    "EVEROLIMUS"
+   ],
+   "restricted_pool_proposed": [
+    "TRAMETINIB",
+    "ENTRECTINIB",
+    "EVEROLIMUS",
+    "SELPERCATINIB",
+    "SELUMETINIB",
+    "LAROTRECTINIB"
+   ],
+   "verify_or_unassessed_in_global_top10": [
+    "BRIGATINIB",
+    "MINOCYCLINE",
+    "PINDOLOL",
+    "CERITINIB",
+    "SELINEXOR",
+    "TYROSINE",
+    "FLUVASTATIN",
+    "ZINC CHLORIDE",
+    "LOVASTATIN"
+   ]
+  }
+ },
+ "age_label_coverage_n_assessed": {
+  "0-4": 46,
+  "12-17": 46,
+  "5-11": 46
+ },
+ "age_reading_disagreements_age_support_vs_engine": [],
+ "comparison": {
+  "new_proposed": [
+   "TRAMETINIB"
+  ],
+  "nine_report_drugs": {
+   "BORTEZOMIB": {
+    "group": "C hazard",
+    "reason": "hazard: verified entries state selective killing of aneuploid cells (hazard for a constitutional mosaic)",
+    "status": "hard-excluded"
+   },
+   "BOSUTINIB": {
+    "group": "C hazard",
+    "reason": "hazard: verified entries state selective killing of aneuploid cells (hazard for a constitutional mosaic)",
+    "status": "hard-excluded"
+   },
+   "CHLOROQUINE": {
+    "group": "C hazard",
+    "reason": "hazard: verified entries state selective killing of aneuploid cells (hazard for a constitutional mosaic)",
+    "status": "hard-excluded"
+   },
+   "EVEROLIMUS": {
+    "group": "A constitutional (sibling)",
+    "of": 81,
+    "p_top10": 0.056,
+    "p_top5": 0.0119,
+    "rank_by_p_top5": 30,
+    "status": "in pool, not proposed"
+   },
+   "METFORMIN": {
+    "group": "A constitutional",
+    "of": 81,
+    "p_top10": 0.0043,
+    "p_top5": 0.0002,
+    "rank_by_p_top5": 47,
+    "status": "in pool, not proposed"
+   },
+   "PHENYLBUTANOIC ACID": {
+    "group": "A constitutional (sodium phenylbutyrate)",
+    "of": 81,
+    "p_top10": 0.0149,
+    "p_top5": 0.003,
+    "rank_by_p_top5": 40,
+    "status": "in pool, not proposed"
+   },
+   "SELUMETINIB": {
+    "group": "B tumour context (sibling)",
+    "of": 81,
+    "p_top10": 0.1542,
+    "p_top5": 0.0422,
+    "rank_by_p_top5": 23,
+    "status": "in pool, not proposed"
+   },
+   "SIROLIMUS": {
+    "group": "A constitutional",
+    "of": 81,
+    "p_top10": 0.0,
+    "p_top5": 0.0,
+    "rank_by_p_top5": 73,
+    "status": "in pool, not proposed"
+   },
+   "TRAMETINIB": {
+    "group": "B tumour context",
+    "of": 81,
+    "p_top10": 0.6671,
+    "p_top5": 0.5017,
+    "rank_by_p_top5": 1,
+    "status": "proposed"
+   }
+  },
+  "old_rule_candidates": {
+   "b2_counted_as_prespecified": 0,
+   "b2_held_exploratory": 0
+  },
+  "old_rule_text": "at least two usable computational lines",
+  "proposed_not_in_report": []
+ },
+ "consequence_confidence": {
+  "1": 0.75,
+  "2": 0.25,
+  "3": 0.25,
+  "4": 0.25,
+  "5": 1.0
+ },
+ "criteria": [
+  "M",
+  "LIT",
+  "A",
+  "B1",
+  "B2",
+  "C",
+  "D",
+  "E",
+  "EP",
+  "ENG",
+  "S"
+ ],
+ "data_gaps": [
+  "engine ranking stored only for the top 20 and the nine report drugs: ENG is missing for the other pool drugs and 'top 50 of the engine' is the stored top 20",
+  "line C gives no drug-level result: missing for every drug",
+  "confidences of the five consequences are taken from report section 3.1 (out/differential_diagnosis.json holds the gene-level differential only)",
+  "age-band label support is assessed for the drugs of the label table only; the rest are 'not_assessed'"
+ ],
+ "drugs": {
+  "AMITRIPTYLINE": {
+   "age_bands": {
+    "0-4": "not_assessed",
+    "12-17": "not_assessed",
+    "5-11": "not_assessed"
+   },
+   "best_rank": 65,
+   "central_weight": {
+    "A": 0.011,
+    "B1": 0.014,
+    "B2": 0.018,
+    "C": 0.276,
+    "D": 0.118,
+    "E": 0.004,
+    "ENG": 0.125,
+    "EP": 0.025,
+    "LIT": 0.001,
+    "M": 0.056,
+    "S": 0.355
+   },
+   "confidence_factor": 0.456,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "missing",
+    "E": "contrary",
+    "ENG": "missing",
+    "EP": "contrary",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "neutral"
+   },
+   "evidence_tier": "no verified literature entry; 0 lines supporting, 1 contrary",
+   "grades": {
+    "A": 0.002,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": null,
+    "E": 0.0686,
+    "ENG": null,
+    "EP": 0.0,
+    "LIT": null,
+    "M": null,
+    "S": 0.5
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 79.1,
+   "n_missing": 6,
+   "p_rank1": 0.0,
+   "p_top10": 0.0,
+   "p_top3": 0.0,
+   "p_top5": 0.0,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "AMOXAPINE": {
+   "age_bands": {
+    "0-4": "not_assessed",
+    "12-17": "not_assessed",
+    "5-11": "not_assessed"
+   },
+   "best_rank": 59,
+   "central_weight": {
+    "A": 0.154,
+    "B1": 0.006,
+    "B2": 0.012,
+    "C": 0.119,
+    "D": 0.01,
+    "E": 0.008,
+    "ENG": 0.008,
+    "EP": 0.002,
+    "LIT": 0.18,
+    "M": 0.105,
+    "S": 0.397
+   },
+   "confidence_factor": 0.456,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "missing",
+    "E": "contrary",
+    "ENG": "missing",
+    "EP": "contrary",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "neutral"
+   },
+   "evidence_tier": "no verified literature entry; 0 lines supporting, 1 contrary",
+   "grades": {
+    "A": 0.0727,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": null,
+    "E": 0.1509,
+    "ENG": null,
+    "EP": 0.0,
+    "LIT": null,
+    "M": null,
+    "S": 0.5
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 75.76,
+   "n_missing": 6,
+   "p_rank1": 0.0,
+   "p_top10": 0.0,
+   "p_top3": 0.0,
+   "p_top5": 0.0,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "APOMORPHINE": {
+   "age_bands": {
+    "0-4": "not_labelled",
+    "12-17": "not_labelled",
+    "5-11": "not_labelled"
+   },
+   "best_rank": 1,
+   "central_weight": {
+    "A": 0.231,
+    "B1": 0.037,
+    "B2": 0.073,
+    "C": 0.107,
+    "D": 0.03,
+    "E": 0.06,
+    "ENG": 0.189,
+    "EP": 0.014,
+    "LIT": 0.069,
+    "M": 0.053,
+    "S": 0.136
+   },
+   "confidence_factor": 0.546,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "supportive",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "missing",
+    "E": "contrary",
+    "ENG": "supportive",
+    "EP": "contrary",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "supportive"
+   },
+   "evidence_tier": "no verified literature entry; 2 lines supporting, 1 contrary",
+   "grades": {
+    "A": 0.9483,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": null,
+    "E": 0.2328,
+    "ENG": 0.9869,
+    "EP": 0.0,
+    "LIT": null,
+    "M": null,
+    "S": 1.0
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 23.9,
+   "n_missing": 5,
+   "p_rank1": 0.0081,
+   "p_top10": 0.1824,
+   "p_top3": 0.0344,
+   "p_top5": 0.0673,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "ARIPIPRAZOLE": {
+   "age_bands": {
+    "0-4": "not_assessed",
+    "12-17": "not_assessed",
+    "5-11": "not_assessed"
+   },
+   "best_rank": 23,
+   "central_weight": {
+    "A": 0.018,
+    "B1": 0.028,
+    "B2": 0.081,
+    "C": 0.031,
+    "D": 0.272,
+    "E": 0.364,
+    "ENG": 0.016,
+    "EP": 0.061,
+    "LIT": 0.086,
+    "M": 0.027,
+    "S": 0.016
+   },
+   "confidence_factor": 0.545,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "supportive",
+    "E": "contrary",
+    "ENG": "missing",
+    "EP": "contrary",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "neutral"
+   },
+   "evidence_tier": "no verified literature entry; 1 lines supporting, 1 contrary",
+   "grades": {
+    "A": 0.0119,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": 1.0,
+    "E": 0.2078,
+    "ENG": null,
+    "EP": 0.0,
+    "LIT": null,
+    "M": null,
+    "S": 0.5
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 58.47,
+   "n_missing": 5,
+   "p_rank1": 0.0,
+   "p_top10": 0.0,
+   "p_top3": 0.0,
+   "p_top5": 0.0,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "ARSENIC TRIOXIDE": {
+   "age_bands": {
+    "0-4": "verify",
+    "12-17": "verify",
+    "5-11": "verify"
+   },
+   "best_rank": 1,
+   "central_weight": {
+    "A": 0.182,
+    "B1": 0.027,
+    "B2": 0.074,
+    "C": 0.1,
+    "D": 0.04,
+    "E": 0.18,
+    "ENG": 0.157,
+    "EP": 0.07,
+    "LIT": 0.08,
+    "M": 0.063,
+    "S": 0.026
+   },
+   "confidence_factor": 0.365,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "supportive",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "missing",
+    "E": "missing",
+    "ENG": "supportive",
+    "EP": "missing",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "neutral"
+   },
+   "evidence_tier": "no verified literature entry; 2 lines supporting, 0 contrary",
+   "grades": {
+    "A": 0.9225,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": null,
+    "E": null,
+    "ENG": 0.9938,
+    "EP": null,
+    "LIT": null,
+    "M": null,
+    "S": 0.5
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 24.48,
+   "n_missing": 7,
+   "p_rank1": 0.0245,
+   "p_top10": 0.2441,
+   "p_top3": 0.07,
+   "p_top5": 0.1228,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "AVAPRITINIB": {
+   "age_bands": {
+    "0-4": "not_labelled",
+    "12-17": "not_labelled",
+    "5-11": "not_labelled"
+   },
+   "best_rank": 4,
+   "central_weight": {
+    "A": 0.019,
+    "B1": 0.017,
+    "B2": 0.036,
+    "C": 0.117,
+    "D": 0.159,
+    "E": 0.19,
+    "ENG": 0.05,
+    "EP": 0.076,
+    "LIT": 0.056,
+    "M": 0.078,
+    "S": 0.201
+   },
+   "confidence_factor": 0.363,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "supportive",
+    "E": "missing",
+    "ENG": "missing",
+    "EP": "missing",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "supportive"
+   },
+   "evidence_tier": "no verified literature entry; 1 lines supporting, 0 contrary",
+   "grades": {
+    "A": 0.2711,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": 1.0,
+    "E": null,
+    "ENG": null,
+    "EP": null,
+    "LIT": null,
+    "M": null,
+    "S": 1.0
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 28.36,
+   "n_missing": 7,
+   "p_rank1": 0.0,
+   "p_top10": 0.1068,
+   "p_top3": 0.0,
+   "p_top5": 0.0104,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "BELINOSTAT": {
+   "age_bands": {
+    "0-4": "not_labelled",
+    "12-17": "not_labelled",
+    "5-11": "not_labelled"
+   },
+   "best_rank": 1,
+   "central_weight": {
+    "A": 0.077,
+    "B1": 0.04,
+    "B2": 0.055,
+    "C": 0.093,
+    "D": 0.145,
+    "E": 0.084,
+    "ENG": 0.205,
+    "EP": 0.02,
+    "LIT": 0.059,
+    "M": 0.049,
+    "S": 0.171
+   },
+   "confidence_factor": 0.635,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "supportive",
+    "E": "contrary",
+    "ENG": "supportive",
+    "EP": "contrary",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "supportive"
+   },
+   "evidence_tier": "no verified literature entry; 2 lines supporting, 1 contrary",
+   "grades": {
+    "A": 0.6367,
+    "B1": 0.1111,
+    "B2": null,
+    "C": null,
+    "D": 1.0,
+    "E": 0.2507,
+    "ENG": 0.9907,
+    "EP": 0.0,
+    "LIT": null,
+    "M": null,
+    "S": 1.0
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 14.45,
+   "n_missing": 4,
+   "p_rank1": 0.0104,
+   "p_top10": 0.3691,
+   "p_top3": 0.0561,
+   "p_top5": 0.1314,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "BRIGATINIB": {
+   "age_bands": {
+    "0-4": "not_assessed",
+    "12-17": "not_assessed",
+    "5-11": "not_assessed"
+   },
+   "best_rank": 1,
+   "central_weight": {
+    "A": 0.063,
+    "B1": 0.075,
+    "B2": 0.046,
+    "C": 0.103,
+    "D": 0.148,
+    "E": 0.176,
+    "ENG": 0.043,
+    "EP": 0.066,
+    "LIT": 0.08,
+    "M": 0.056,
+    "S": 0.144
+   },
+   "confidence_factor": 0.363,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "supportive",
+    "E": "missing",
+    "ENG": "missing",
+    "EP": "missing",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "supportive"
+   },
+   "evidence_tier": "no verified literature entry; 1 lines supporting, 0 contrary",
+   "grades": {
+    "A": 0.6852,
+    "B1": 0.3333,
+    "B2": null,
+    "C": null,
+    "D": 1.0,
+    "E": null,
+    "ENG": null,
+    "EP": null,
+    "LIT": null,
+    "M": null,
+    "S": 1.0
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 8.35,
+   "n_missing": 7,
+   "p_rank1": 0.0643,
+   "p_top10": 0.7304,
+   "p_top3": 0.2451,
+   "p_top5": 0.4316,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "CABAZITAXEL": {
+   "age_bands": {
+    "0-4": "not_labelled",
+    "12-17": "not_labelled",
+    "5-11": "not_labelled"
+   },
+   "best_rank": 10,
+   "central_weight": {
+    "A": 0.316,
+    "B1": 0.002,
+    "B2": 0.026,
+    "C": 0.03,
+    "D": 0.052,
+    "E": 0.168,
+    "ENG": 0.326,
+    "EP": 0.011,
+    "LIT": 0.052,
+    "M": 0.001,
+    "S": 0.017
+   },
+   "confidence_factor": 0.637,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "missing",
+    "E": "contrary",
+    "ENG": "supportive",
+    "EP": "contrary",
+    "LIT": "missing",
+    "M": "neutral",
+    "S": "contrary"
+   },
+   "evidence_tier": "no verified literature entry; 1 lines supporting, 1 contrary",
+   "grades": {
+    "A": 0.7105,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": null,
+    "E": 0.2507,
+    "ENG": 0.9961,
+    "EP": 0.0,
+    "LIT": null,
+    "M": 0.05,
+    "S": 0.0
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 54.06,
+   "n_missing": 4,
+   "p_rank1": 0.0,
+   "p_top10": 0.0001,
+   "p_top3": 0.0,
+   "p_top5": 0.0,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.5,
+   "track1_genes_bearing": [
+    "CENPE",
+    "MAD1L1",
+    "CDC20",
+    "MAD2L1BP",
+    "TTK",
+    "CEP192"
+   ]
+  },
+  "CANNABIDIOL": {
+   "age_bands": {
+    "0-4": "not_assessed",
+    "12-17": "not_assessed",
+    "5-11": "not_assessed"
+   },
+   "best_rank": 6,
+   "central_weight": {
+    "A": 0.011,
+    "B1": 0.021,
+    "B2": 0.036,
+    "C": 0.099,
+    "D": 0.18,
+    "E": 0.164,
+    "ENG": 0.045,
+    "EP": 0.083,
+    "LIT": 0.062,
+    "M": 0.07,
+    "S": 0.23
+   },
+   "confidence_factor": 0.363,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "supportive",
+    "E": "missing",
+    "ENG": "missing",
+    "EP": "missing",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "supportive"
+   },
+   "evidence_tier": "no verified literature entry; 1 lines supporting, 0 contrary",
+   "grades": {
+    "A": 0.004,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": 1.0,
+    "E": null,
+    "ENG": null,
+    "EP": null,
+    "LIT": null,
+    "M": null,
+    "S": 1.0
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 36.53,
+   "n_missing": 7,
+   "p_rank1": 0.0,
+   "p_top10": 0.0418,
+   "p_top3": 0.0,
+   "p_top5": 0.0,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "CARBAMAZEPINE": {
+   "age_bands": {
+    "0-4": "not_assessed",
+    "12-17": "not_assessed",
+    "5-11": "not_assessed"
+   },
+   "best_rank": 15,
+   "central_weight": {
+    "A": 0.014,
+    "B1": 0.572,
+    "B2": 0.01,
+    "C": 0.003,
+    "D": 0.008,
+    "E": 0.173,
+    "ENG": 0.017,
+    "EP": 0.026,
+    "LIT": 0.056,
+    "M": 0.084,
+    "S": 0.037
+   },
+   "confidence_factor": 0.456,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "missing",
+    "E": "contrary",
+    "ENG": "missing",
+    "EP": "contrary",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "neutral"
+   },
+   "evidence_tier": "no verified literature entry; 0 lines supporting, 1 contrary",
+   "grades": {
+    "A": 0.0,
+    "B1": 0.2222,
+    "B2": null,
+    "C": null,
+    "D": null,
+    "E": 0.3255,
+    "ENG": null,
+    "EP": 0.0,
+    "LIT": null,
+    "M": null,
+    "S": 0.5
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 64.59,
+   "n_missing": 6,
+   "p_rank1": 0.0,
+   "p_top10": 0.0,
+   "p_top3": 0.0,
+   "p_top5": 0.0,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "CARBOPLATIN": {
+   "age_bands": {
+    "0-4": "not_labelled",
+    "12-17": "not_labelled",
+    "5-11": "not_labelled"
+   },
+   "best_rank": 1,
+   "central_weight": {
+    "A": 0.201,
+    "B1": 0.17,
+    "B2": 0.072,
+    "C": 0.136,
+    "D": 0.018,
+    "E": 0.04,
+    "ENG": 0.237,
+    "EP": 0.032,
+    "LIT": 0.057,
+    "M": 0.027,
+    "S": 0.011
+   },
+   "confidence_factor": 0.637,
+   "consequences_addressed": {
+    "5": 0.5
+   },
+   "directions": {
+    "A": "neutral",
+    "B1": "missing",
+    "B2": "missing",
+    "C": "missing",
+    "D": "missing",
+    "E": "contrary",
+    "ENG": "supportive",
+    "EP": "contrary",
+    "LIT": "neutral",
+    "M": "neutral",
+    "S": "contrary"
+   },
+   "evidence_tier": "literature without a supportive finding (0 harm papers); 1 lines supporting, 1 contrary",
+   "grades": {
+    "A": 0.8633,
+    "B1": null,
+    "B2": null,
+    "C": null,
+    "D": null,
+    "E": 0.1181,
+    "ENG": 0.9985,
+    "EP": 0.0,
+    "LIT": 0.5,
+    "M": 0.525,
+    "S": 0.0
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0
+   },
+   "mean_rank": 33.19,
+   "n_missing": 4,
+   "p_rank1": 0.0005,
+   "p_top10": 0.1085,
+   "p_top3": 0.0091,
+   "p_top5": 0.0279,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.25,
+   "track1_genes_bearing": [
+    "CENPE",
+    "MAD1L1",
+    "CDC20",
+    "MAD2L1BP",
+    "TTK",
+    "CEP192"
+   ]
+  },
+  "CARVEDILOL": {
+   "age_bands": {
+    "0-4": "verify",
+    "12-17": "verify",
+    "5-11": "verify"
+   },
+   "best_rank": 1,
+   "central_weight": {
+    "A": 0.049,
+    "B1": 0.04,
+    "B2": 0.057,
+    "C": 0.07,
+    "D": 0.196,
+    "E": 0.034,
+    "ENG": 0.219,
+    "EP": 0.092,
+    "LIT": 0.069,
+    "M": 0.046,
+    "S": 0.127
+   },
+   "confidence_factor": 0.635,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "supportive",
+    "E": "contrary",
+    "ENG": "supportive",
+    "EP": "contrary",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "supportive"
+   },
+   "evidence_tier": "no verified literature entry; 2 lines supporting, 0 contrary",
+   "grades": {
+    "A": 0.5694,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": 1.0,
+    "E": 0.0232,
+    "ENG": 0.9892,
+    "EP": 0.4909,
+    "LIT": null,
+    "M": null,
+    "S": 1.0
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 14.6,
+   "n_missing": 4,
+   "p_rank1": 0.009,
+   "p_top10": 0.3911,
+   "p_top3": 0.0464,
+   "p_top5": 0.1238,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "CERITINIB": {
+   "age_bands": {
+    "0-4": "not_labelled",
+    "12-17": "not_labelled",
+    "5-11": "not_labelled"
+   },
+   "best_rank": 1,
+   "central_weight": {
+    "A": 0.099,
+    "B1": 0.076,
+    "B2": 0.218,
+    "C": 0.089,
+    "D": 0.109,
+    "E": 0.053,
+    "ENG": 0.056,
+    "EP": 0.066,
+    "LIT": 0.071,
+    "M": 0.049,
+    "S": 0.114
+   },
+   "confidence_factor": 0.636,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "supportive",
+    "C": "missing",
+    "D": "supportive",
+    "E": "contrary",
+    "ENG": "missing",
+    "EP": "contrary",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "supportive"
+   },
+   "evidence_tier": "no verified literature entry; 2 lines supporting, 0 contrary",
+   "grades": {
+    "A": 0.7002,
+    "B1": 0.1111,
+    "B2": 1.0,
+    "C": null,
+    "D": 1.0,
+    "E": 0.1101,
+    "ENG": null,
+    "EP": 0.4539,
+    "LIT": null,
+    "M": null,
+    "S": 1.0
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 10.49,
+   "n_missing": 4,
+   "p_rank1": 0.0966,
+   "p_top10": 0.6114,
+   "p_top3": 0.2487,
+   "p_top5": 0.3679,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "CHLORPROMAZINE": {
+   "age_bands": {
+    "0-4": "not_assessed",
+    "12-17": "not_assessed",
+    "5-11": "not_assessed"
+   },
+   "best_rank": 9,
+   "central_weight": {
+    "A": 0.003,
+    "B1": 0.022,
+    "B2": 0.087,
+    "C": 0.26,
+    "D": 0.237,
+    "E": 0.184,
+    "ENG": 0.038,
+    "EP": 0.057,
+    "LIT": 0.055,
+    "M": 0.044,
+    "S": 0.012
+   },
+   "confidence_factor": 0.363,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "supportive",
+    "E": "missing",
+    "ENG": "missing",
+    "EP": "missing",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "neutral"
+   },
+   "evidence_tier": "no verified literature entry; 1 lines supporting, 0 contrary",
+   "grades": {
+    "A": 0.006,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": 1.0,
+    "E": null,
+    "ENG": null,
+    "EP": null,
+    "LIT": null,
+    "M": null,
+    "S": 0.5
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 50.77,
+   "n_missing": 7,
+   "p_rank1": 0.0,
+   "p_top10": 0.0011,
+   "p_top3": 0.0,
+   "p_top5": 0.0,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "CISPLATIN": {
+   "age_bands": {
+    "0-4": "not_labelled",
+    "12-17": "not_labelled",
+    "5-11": "not_labelled"
+   },
+   "best_rank": 3,
+   "central_weight": {
+    "A": 0.043,
+    "B1": 0.137,
+    "B2": 0.119,
+    "C": 0.158,
+    "D": 0.014,
+    "E": 0.067,
+    "ENG": 0.372,
+    "EP": 0.015,
+    "LIT": 0.023,
+    "M": 0.049,
+    "S": 0.003
+   },
+   "confidence_factor": 0.455,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "missing",
+    "B2": "missing",
+    "C": "missing",
+    "D": "missing",
+    "E": "contrary",
+    "ENG": "supportive",
+    "EP": "contrary",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "contrary"
+   },
+   "evidence_tier": "no verified literature entry; 1 lines supporting, 1 contrary",
+   "grades": {
+    "A": 0.6104,
+    "B1": null,
+    "B2": null,
+    "C": null,
+    "D": null,
+    "E": 0.2337,
+    "ENG": 0.993,
+    "EP": 0.0,
+    "LIT": null,
+    "M": null,
+    "S": 0.0
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 47.92,
+   "n_missing": 6,
+   "p_rank1": 0.0,
+   "p_top10": 0.015,
+   "p_top3": 0.0004,
+   "p_top5": 0.003,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "CLOZAPINE": {
+   "age_bands": {
+    "0-4": "not_assessed",
+    "12-17": "not_assessed",
+    "5-11": "not_assessed"
+   },
+   "best_rank": 20,
+   "central_weight": {
+    "A": 0.009,
+    "B1": 0.046,
+    "B2": 0.077,
+    "C": 0.043,
+    "D": 0.278,
+    "E": 0.352,
+    "ENG": 0.027,
+    "EP": 0.031,
+    "LIT": 0.095,
+    "M": 0.019,
+    "S": 0.023
+   },
+   "confidence_factor": 0.545,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "supportive",
+    "E": "contrary",
+    "ENG": "missing",
+    "EP": "contrary",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "neutral"
+   },
+   "evidence_tier": "no verified literature entry; 1 lines supporting, 1 contrary",
+   "grades": {
+    "A": 0.0079,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": 1.0,
+    "E": 0.2507,
+    "ENG": null,
+    "EP": 0.0,
+    "LIT": null,
+    "M": null,
+    "S": 0.5
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 55.64,
+   "n_missing": 5,
+   "p_rank1": 0.0,
+   "p_top10": 0.0,
+   "p_top3": 0.0,
+   "p_top5": 0.0,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "COBIMETINIB": {
+   "age_bands": {
+    "0-4": "not_assessed",
+    "12-17": "not_assessed",
+    "5-11": "not_assessed"
+   },
+   "best_rank": 2,
+   "central_weight": {
+    "A": 0.053,
+    "B1": 0.218,
+    "B2": 0.028,
+    "C": 0.06,
+    "D": 0.257,
+    "E": 0.051,
+    "ENG": 0.011,
+    "EP": 0.01,
+    "LIT": 0.01,
+    "M": 0.042,
+    "S": 0.26
+   },
+   "confidence_factor": 0.545,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "supportive",
+    "E": "contrary",
+    "ENG": "missing",
+    "EP": "contrary",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "supportive"
+   },
+   "evidence_tier": "no verified literature entry; 1 lines supporting, 1 contrary",
+   "grades": {
+    "A": 0.4718,
+    "B1": 0.3333,
+    "B2": null,
+    "C": null,
+    "D": 1.0,
+    "E": 0.0471,
+    "ENG": null,
+    "EP": 0.0,
+    "LIT": null,
+    "M": null,
+    "S": 1.0
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 31.59,
+   "n_missing": 5,
+   "p_rank1": 0.0,
+   "p_top10": 0.0402,
+   "p_top3": 0.0014,
+   "p_top5": 0.0048,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "COLCHICINE": {
+   "age_bands": {
+    "0-4": "partly",
+    "12-17": "labelled",
+    "5-11": "labelled"
+   },
+   "best_rank": 13,
+   "central_weight": {
+    "A": 0.199,
+    "B1": 0.04,
+    "B2": 0.029,
+    "C": 0.098,
+    "D": 0.024,
+    "E": 0.44,
+    "ENG": 0.028,
+    "EP": 0.04,
+    "LIT": 0.076,
+    "M": 0.019,
+    "S": 0.008
+   },
+   "confidence_factor": 0.547,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "missing",
+    "E": "contrary",
+    "ENG": "missing",
+    "EP": "contrary",
+    "LIT": "missing",
+    "M": "neutral",
+    "S": "contrary"
+   },
+   "evidence_tier": "no verified literature entry; 0 lines supporting, 1 contrary",
+   "grades": {
+    "A": 0.8289,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": null,
+    "E": 0.3255,
+    "ENG": null,
+    "EP": 0.0,
+    "LIT": null,
+    "M": 0.05,
+    "S": 0.0
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 65.23,
+   "n_missing": 5,
+   "p_rank1": 0.0,
+   "p_top10": 0.0,
+   "p_top3": 0.0,
+   "p_top5": 0.0,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.5,
+   "track1_genes_bearing": [
+    "CENPE",
+    "MAD1L1",
+    "CDC20",
+    "MAD2L1BP",
+    "TTK",
+    "CEP192"
+   ]
+  },
+  "DESIPRAMINE": {
+   "age_bands": {
+    "0-4": "not_assessed",
+    "12-17": "not_assessed",
+    "5-11": "not_assessed"
+   },
+   "best_rank": 5,
+   "central_weight": {
+    "A": 0.048,
+    "B1": 0.028,
+    "B2": 0.047,
+    "C": 0.171,
+    "D": 0.019,
+    "E": 0.026,
+    "ENG": 0.019,
+    "EP": 0.489,
+    "LIT": 0.058,
+    "M": 0.069,
+    "S": 0.025
+   },
+   "confidence_factor": 0.456,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "missing",
+    "E": "contrary",
+    "ENG": "missing",
+    "EP": "supportive",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "neutral"
+   },
+   "evidence_tier": "no verified literature entry; 0 lines supporting, 0 contrary",
+   "grades": {
+    "A": 0.0295,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": null,
+    "E": 0.0254,
+    "ENG": null,
+    "EP": 0.7864,
+    "LIT": null,
+    "M": null,
+    "S": 0.5
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 58.17,
+   "n_missing": 6,
+   "p_rank1": 0.0,
+   "p_top10": 0.0092,
+   "p_top3": 0.0,
+   "p_top5": 0.0005,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "DISOPYRAMIDE": {
+   "age_bands": {
+    "0-4": "not_labelled",
+    "12-17": "not_labelled",
+    "5-11": "not_labelled"
+   },
+   "best_rank": 2,
+   "central_weight": {
+    "A": 0.306,
+    "B1": 0.227,
+    "B2": 0.081,
+    "C": 0.106,
+    "D": 0.03,
+    "E": 0.054,
+    "ENG": 0.028,
+    "EP": 0.033,
+    "LIT": 0.071,
+    "M": 0.031,
+    "S": 0.032
+   },
+   "confidence_factor": 0.365,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "supportive",
+    "B1": "missing",
+    "B2": "missing",
+    "C": "missing",
+    "D": "missing",
+    "E": "contrary",
+    "ENG": "missing",
+    "EP": "contrary",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "neutral"
+   },
+   "evidence_tier": "no verified literature entry; 1 lines supporting, 0 contrary",
+   "grades": {
+    "A": 0.9423,
+    "B1": null,
+    "B2": null,
+    "C": null,
+    "D": null,
+    "E": 0.2365,
+    "ENG": null,
+    "EP": 0.2448,
+    "LIT": null,
+    "M": null,
+    "S": 0.5
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 36.11,
+   "n_missing": 7,
+   "p_rank1": 0.0,
+   "p_top10": 0.0472,
+   "p_top3": 0.0046,
+   "p_top5": 0.0131,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "DOXEPIN": {
+   "age_bands": {
+    "0-4": "not_assessed",
+    "12-17": "not_assessed",
+    "5-11": "not_assessed"
+   },
+   "best_rank": 22,
+   "central_weight": {
+    "A": 0.01,
+    "B1": 0.039,
+    "B2": 0.101,
+    "C": 0.023,
+    "D": 0.32,
+    "E": 0.299,
+    "ENG": 0.034,
+    "EP": 0.04,
+    "LIT": 0.102,
+    "M": 0.022,
+    "S": 0.012
+   },
+   "confidence_factor": 0.545,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "supportive",
+    "E": "contrary",
+    "ENG": "missing",
+    "EP": "contrary",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "neutral"
+   },
+   "evidence_tier": "no verified literature entry; 1 lines supporting, 1 contrary",
+   "grades": {
+    "A": 0.0198,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": 1.0,
+    "E": 0.2166,
+    "ENG": null,
+    "EP": 0.0,
+    "LIT": null,
+    "M": null,
+    "S": 0.5
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 56.77,
+   "n_missing": 5,
+   "p_rank1": 0.0,
+   "p_top10": 0.0,
+   "p_top3": 0.0,
+   "p_top5": 0.0,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "DOXORUBICIN": {
+   "age_bands": {
+    "0-4": "labelled",
+    "12-17": "labelled",
+    "5-11": "labelled"
+   },
+   "best_rank": 3,
+   "central_weight": {
+    "A": 0.389,
+    "B1": 0.056,
+    "B2": 0.057,
+    "C": 0.04,
+    "D": 0.049,
+    "E": 0.006,
+    "ENG": 0.246,
+    "EP": 0.006,
+    "LIT": 0.052,
+    "M": 0.081,
+    "S": 0.017
+   },
+   "confidence_factor": 0.546,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "supportive",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "missing",
+    "E": "contrary",
+    "ENG": "supportive",
+    "EP": "contrary",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "contrary"
+   },
+   "evidence_tier": "no verified literature entry; 2 lines supporting, 1 contrary",
+   "grades": {
+    "A": 0.9699,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": null,
+    "E": 0.0033,
+    "ENG": 0.9923,
+    "EP": 0.0,
+    "LIT": null,
+    "M": null,
+    "S": 0.0
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 51.31,
+   "n_missing": 5,
+   "p_rank1": 0.0,
+   "p_top10": 0.0091,
+   "p_top3": 0.0002,
+   "p_top5": 0.0019,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "ENTRECTINIB": {
+   "age_bands": {
+    "0-4": "partly",
+    "12-17": "labelled",
+    "5-11": "labelled"
+   },
+   "best_rank": 2,
+   "central_weight": {
+    "A": 0.051,
+    "B1": 0.036,
+    "B2": 0.042,
+    "C": 0.109,
+    "D": 0.157,
+    "E": 0.193,
+    "ENG": 0.043,
+    "EP": 0.063,
+    "LIT": 0.088,
+    "M": 0.064,
+    "S": 0.156
+   },
+   "confidence_factor": 0.363,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "supportive",
+    "E": "missing",
+    "ENG": "missing",
+    "EP": "missing",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "supportive"
+   },
+   "evidence_tier": "no verified literature entry; 1 lines supporting, 0 contrary",
+   "grades": {
+    "A": 0.6461,
+    "B1": 0.1111,
+    "B2": null,
+    "C": null,
+    "D": 1.0,
+    "E": null,
+    "ENG": null,
+    "EP": null,
+    "LIT": null,
+    "M": null,
+    "S": 1.0
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 14.48,
+   "n_missing": 7,
+   "p_rank1": 0.0,
+   "p_top10": 0.4335,
+   "p_top3": 0.0553,
+   "p_top5": 0.1624,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "ERIBULIN": {
+   "age_bands": {
+    "0-4": "not_labelled",
+    "12-17": "not_labelled",
+    "5-11": "not_labelled"
+   },
+   "best_rank": 1,
+   "central_weight": {
+    "A": 0.053,
+    "B1": 0.142,
+    "B2": 0.049,
+    "C": 0.107,
+    "D": 0.033,
+    "E": 0.16,
+    "ENG": 0.039,
+    "EP": 0.116,
+    "LIT": 0.072,
+    "M": 0.215,
+    "S": 0.013
+   },
+   "confidence_factor": 0.365,
+   "consequences_addressed": {
+    "5": 1.0
+   },
+   "directions": {
+    "A": "neutral",
+    "B1": "missing",
+    "B2": "missing",
+    "C": "missing",
+    "D": "missing",
+    "E": "missing",
+    "ENG": "missing",
+    "EP": "missing",
+    "LIT": "supportive",
+    "M": "supportive",
+    "S": "contrary"
+   },
+   "evidence_tier": "level 1 literature (1 help, 0 harm papers); 0 lines supporting, 0 contrary",
+   "grades": {
+    "A": 0.4859,
+    "B1": null,
+    "B2": null,
+    "C": null,
+    "D": null,
+    "E": null,
+    "ENG": null,
+    "EP": null,
+    "LIT": 0.6225,
+    "M": 1.0,
+    "S": 0.0
+   },
+   "literature": {
+    "best_help_level": 1,
+    "n_harm_papers": 0,
+    "n_help_papers": 1,
+    "net": 0.5
+   },
+   "mean_rank": 32.22,
+   "n_missing": 7,
+   "p_rank1": 0.013,
+   "p_top10": 0.2217,
+   "p_top3": 0.0839,
+   "p_top5": 0.1382,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.25,
+   "track1_genes_bearing": [
+    "CENPE",
+    "MAD1L1",
+    "CDC20",
+    "MAD2L1BP",
+    "TTK",
+    "CEP192"
+   ]
+  },
+  "ESTRADIOL": {
+   "age_bands": {
+    "0-4": "not_assessed",
+    "12-17": "not_assessed",
+    "5-11": "not_assessed"
+   },
+   "best_rank": 26,
+   "central_weight": {
+    "A": 0.022,
+    "B1": 0.017,
+    "B2": 0.067,
+    "C": 0.377,
+    "D": 0.002,
+    "E": 0.295,
+    "ENG": 0.007,
+    "EP": 0.012,
+    "LIT": 0.078,
+    "M": 0.119,
+    "S": 0.004
+   },
+   "confidence_factor": 0.453,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "missing",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "contrary",
+    "E": "contrary",
+    "ENG": "missing",
+    "EP": "contrary",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "neutral"
+   },
+   "evidence_tier": "no verified literature entry; 0 lines supporting, 2 contrary",
+   "grades": {
+    "A": null,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": 0.0,
+    "E": 0.3255,
+    "ENG": null,
+    "EP": 0.0,
+    "LIT": null,
+    "M": null,
+    "S": 0.5
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 71.61,
+   "n_missing": 6,
+   "p_rank1": 0.0,
+   "p_top10": 0.0,
+   "p_top3": 0.0,
+   "p_top5": 0.0,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "ETOPOSIDE": {
+   "age_bands": {
+    "0-4": "not_labelled",
+    "12-17": "not_labelled",
+    "5-11": "not_labelled"
+   },
+   "best_rank": 16,
+   "central_weight": {
+    "A": 0.025,
+    "B1": 0.066,
+    "B2": 0.123,
+    "C": 0.052,
+    "D": 0.031,
+    "E": 0.07,
+    "ENG": 0.018,
+    "EP": 0.017,
+    "LIT": 0.167,
+    "M": 0.421,
+    "S": 0.01
+   },
+   "confidence_factor": 0.546,
+   "consequences_addressed": {
+    "5": 0.5
+   },
+   "directions": {
+    "A": "missing",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "missing",
+    "E": "contrary",
+    "ENG": "missing",
+    "EP": "contrary",
+    "LIT": "contrary",
+    "M": "neutral",
+    "S": "contrary"
+   },
+   "evidence_tier": "literature without a supportive finding (1 harm papers); 0 lines supporting, 1 contrary",
+   "grades": {
+    "A": null,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": null,
+    "E": 0.0065,
+    "ENG": null,
+    "EP": 0.0,
+    "LIT": 0.3775,
+    "M": 0.525,
+    "S": 0.0
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 1,
+    "n_help_papers": 0,
+    "net": -0.5
+   },
+   "mean_rank": 70.02,
+   "n_missing": 5,
+   "p_rank1": 0.0,
+   "p_top10": 0.0,
+   "p_top3": 0.0,
+   "p_top5": 0.0,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.25,
+   "track1_genes_bearing": [
+    "CENPE",
+    "MAD1L1",
+    "CDC20",
+    "MAD2L1BP",
+    "TTK",
+    "CEP192"
+   ]
+  },
+  "EVEROLIMUS": {
+   "age_bands": {
+    "0-4": "partly",
+    "12-17": "labelled",
+    "5-11": "labelled"
+   },
+   "best_rank": 2,
+   "central_weight": {
+    "A": 0.135,
+    "B1": 0.05,
+    "B2": 0.022,
+    "C": 0.082,
+    "D": 0.12,
+    "E": 0.053,
+    "ENG": 0.075,
+    "EP": 0.032,
+    "LIT": 0.374,
+    "M": 0.039,
+    "S": 0.018
+   },
+   "confidence_factor": 0.817,
+   "consequences_addressed": {
+    "3": 0.5,
+    "4": 1.0
+   },
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "supportive",
+    "E": "contrary",
+    "ENG": "neutral",
+    "EP": "contrary",
+    "LIT": "supportive",
+    "M": "neutral",
+    "S": "neutral"
+   },
+   "evidence_tier": "level 0 literature (2 help, 0 harm papers); 1 lines supporting, 1 contrary",
+   "grades": {
+    "A": 0.7688,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": 1.0,
+    "E": 0.1457,
+    "ENG": 0.6265,
+    "EP": 0.0,
+    "LIT": 0.6225,
+    "M": 0.35,
+    "S": 0.5
+   },
+   "literature": {
+    "best_help_level": 0,
+    "n_harm_papers": 0,
+    "n_help_papers": 2,
+    "net": 0.5
+   },
+   "mean_rank": 24.31,
+   "n_missing": 2,
+   "p_rank1": 0.0,
+   "p_top10": 0.056,
+   "p_top3": 0.0035,
+   "p_top5": 0.0119,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 1.0,
+   "track1_genes_bearing": [
+    "IGBP1"
+   ]
+  },
+  "FINGOLIMOD": {
+   "age_bands": {
+    "0-4": "verify",
+    "12-17": "verify",
+    "5-11": "verify"
+   },
+   "best_rank": 7,
+   "central_weight": {
+    "A": 0.004,
+    "B1": 0.029,
+    "B2": 0.045,
+    "C": 0.233,
+    "D": 0.029,
+    "E": 0.036,
+    "ENG": 0.325,
+    "EP": 0.002,
+    "LIT": 0.025,
+    "M": 0.018,
+    "S": 0.253
+   },
+   "confidence_factor": 0.546,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "missing",
+    "E": "contrary",
+    "ENG": "supportive",
+    "EP": "contrary",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "supportive"
+   },
+   "evidence_tier": "no verified literature entry; 1 lines supporting, 1 contrary",
+   "grades": {
+    "A": 0.4695,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": null,
+    "E": 0.2507,
+    "ENG": 0.9946,
+    "EP": 0.0,
+    "LIT": null,
+    "M": null,
+    "S": 1.0
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 35.54,
+   "n_missing": 5,
+   "p_rank1": 0.0,
+   "p_top10": 0.0045,
+   "p_top3": 0.0,
+   "p_top5": 0.0,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "FLUVASTATIN": {
+   "age_bands": {
+    "0-4": "verify",
+    "12-17": "verify",
+    "5-11": "verify"
+   },
+   "best_rank": 1,
+   "central_weight": {
+    "A": 0.082,
+    "B1": 0.05,
+    "B2": 0.068,
+    "C": 0.085,
+    "D": 0.045,
+    "E": 0.056,
+    "ENG": 0.141,
+    "EP": 0.224,
+    "LIT": 0.077,
+    "M": 0.069,
+    "S": 0.102
+   },
+   "confidence_factor": 0.546,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "missing",
+    "E": "contrary",
+    "ENG": "supportive",
+    "EP": "supportive",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "supportive"
+   },
+   "evidence_tier": "no verified literature entry; 2 lines supporting, 0 contrary",
+   "grades": {
+    "A": 0.7331,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": null,
+    "E": 0.1024,
+    "ENG": 0.9853,
+    "EP": 0.9407,
+    "LIT": null,
+    "M": null,
+    "S": 1.0
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 14.88,
+   "n_missing": 5,
+   "p_rank1": 0.0944,
+   "p_top10": 0.4768,
+   "p_top3": 0.2004,
+   "p_top5": 0.2927,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "FOSTAMATINIB": {
+   "age_bands": {
+    "0-4": "not_labelled",
+    "12-17": "not_labelled",
+    "5-11": "not_labelled"
+   },
+   "best_rank": 2,
+   "central_weight": {
+    "A": 0.016,
+    "B1": 0.01,
+    "B2": 0.054,
+    "C": 0.101,
+    "D": 0.298,
+    "E": 0.113,
+    "ENG": 0.211,
+    "EP": 0.016,
+    "LIT": 0.012,
+    "M": 0.06,
+    "S": 0.111
+   },
+   "confidence_factor": 0.635,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "supportive",
+    "E": "contrary",
+    "ENG": "supportive",
+    "EP": "contrary",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "supportive"
+   },
+   "evidence_tier": "no verified literature entry; 2 lines supporting, 1 contrary",
+   "grades": {
+    "A": 0.0,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": 1.0,
+    "E": 0.2507,
+    "ENG": 0.9915,
+    "EP": 0.0,
+    "LIT": null,
+    "M": null,
+    "S": 1.0
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 30.21,
+   "n_missing": 4,
+   "p_rank1": 0.0,
+   "p_top10": 0.0608,
+   "p_top3": 0.0013,
+   "p_top5": 0.007,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "HALOPERIDOL DECANOATE": {
+   "age_bands": {
+    "0-4": "not_assessed",
+    "12-17": "not_assessed",
+    "5-11": "not_assessed"
+   },
+   "best_rank": 8,
+   "central_weight": {
+    "A": 0.003,
+    "B1": 0.022,
+    "B2": 0.087,
+    "C": 0.26,
+    "D": 0.237,
+    "E": 0.184,
+    "ENG": 0.038,
+    "EP": 0.057,
+    "LIT": 0.055,
+    "M": 0.044,
+    "S": 0.012
+   },
+   "confidence_factor": 0.363,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "supportive",
+    "E": "missing",
+    "ENG": "missing",
+    "EP": "missing",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "neutral"
+   },
+   "evidence_tier": "no verified literature entry; 1 lines supporting, 0 contrary",
+   "grades": {
+    "A": 0.0079,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": 1.0,
+    "E": null,
+    "ENG": null,
+    "EP": null,
+    "LIT": null,
+    "M": null,
+    "S": 0.5
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 49.69,
+   "n_missing": 7,
+   "p_rank1": 0.0,
+   "p_top10": 0.0029,
+   "p_top3": 0.0,
+   "p_top5": 0.0,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "HYDROXYUREA": {
+   "age_bands": {
+    "0-4": "not_assessed",
+    "12-17": "not_assessed",
+    "5-11": "not_assessed"
+   },
+   "best_rank": 19,
+   "central_weight": {
+    "A": 0.035,
+    "B1": 0.582,
+    "B2": 0.009,
+    "C": 0.023,
+    "D": 0.02,
+    "E": 0.159,
+    "ENG": 0.021,
+    "EP": 0.024,
+    "LIT": 0.046,
+    "M": 0.059,
+    "S": 0.022
+   },
+   "confidence_factor": 0.545,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "contrary",
+    "E": "contrary",
+    "ENG": "missing",
+    "EP": "contrary",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "neutral"
+   },
+   "evidence_tier": "no verified literature entry; 0 lines supporting, 2 contrary",
+   "grades": {
+    "A": 0.422,
+    "B1": 0.2222,
+    "B2": null,
+    "C": null,
+    "D": 0.0,
+    "E": 0.2507,
+    "ENG": null,
+    "EP": 0.0,
+    "LIT": null,
+    "M": null,
+    "S": 0.5
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 60.43,
+   "n_missing": 5,
+   "p_rank1": 0.0,
+   "p_top10": 0.0,
+   "p_top3": 0.0,
+   "p_top5": 0.0,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "INDOMETHACIN": {
+   "age_bands": {
+    "0-4": "not_assessed",
+    "12-17": "not_assessed",
+    "5-11": "not_assessed"
+   },
+   "best_rank": 23,
+   "central_weight": {
+    "A": 0.049,
+    "B1": 0.002,
+    "B2": 0.024,
+    "C": 0.226,
+    "D": 0.003,
+    "E": 0.025,
+    "ENG": 0.029,
+    "EP": 0.49,
+    "LIT": 0.087,
+    "M": 0.058,
+    "S": 0.006
+   },
+   "confidence_factor": 0.363,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "contrary",
+    "E": "missing",
+    "ENG": "missing",
+    "EP": "missing",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "neutral"
+   },
+   "evidence_tier": "no verified literature entry; 0 lines supporting, 1 contrary",
+   "grades": {
+    "A": 0.4599,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": 0.0,
+    "E": null,
+    "ENG": null,
+    "EP": null,
+    "LIT": null,
+    "M": null,
+    "S": 0.5
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 63.98,
+   "n_missing": 7,
+   "p_rank1": 0.0,
+   "p_top10": 0.0,
+   "p_top3": 0.0,
+   "p_top5": 0.0,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "IXAZOMIB CITRATE": {
+   "age_bands": {
+    "0-4": "not_labelled",
+    "12-17": "not_labelled",
+    "5-11": "not_labelled"
+   },
+   "best_rank": 1,
+   "central_weight": {
+    "A": 0.062,
+    "B1": 0.081,
+    "B2": 0.056,
+    "C": 0.088,
+    "D": 0.169,
+    "E": 0.06,
+    "ENG": 0.043,
+    "EP": 0.29,
+    "LIT": 0.067,
+    "M": 0.064,
+    "S": 0.018
+   },
+   "confidence_factor": 0.635,
+   "consequences_addressed": {
+    "2": 0.5,
+    "5": 0.5
+   },
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "supportive",
+    "E": "contrary",
+    "ENG": "missing",
+    "EP": "supportive",
+    "LIT": "missing",
+    "M": "neutral",
+    "S": "contrary"
+   },
+   "evidence_tier": "no verified literature entry; 2 lines supporting, 0 contrary",
+   "grades": {
+    "A": 0.6635,
+    "B1": 0.1111,
+    "B2": null,
+    "C": null,
+    "D": 1.0,
+    "E": 0.0514,
+    "ENG": null,
+    "EP": 0.9407,
+    "LIT": null,
+    "M": 0.5,
+    "S": 0.0
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 29.91,
+   "n_missing": 4,
+   "p_rank1": 0.0106,
+   "p_top10": 0.1859,
+   "p_top3": 0.0462,
+   "p_top5": 0.0884,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "KETAMINE": {
+   "age_bands": {
+    "0-4": "not_assessed",
+    "12-17": "not_assessed",
+    "5-11": "not_assessed"
+   },
+   "best_rank": 2,
+   "central_weight": {
+    "A": 0.059,
+    "B1": 0.322,
+    "B2": 0.066,
+    "C": 0.234,
+    "D": 0.034,
+    "E": 0.004,
+    "ENG": 0.007,
+    "EP": 0.014,
+    "LIT": 0.031,
+    "M": 0.049,
+    "S": 0.18
+   },
+   "confidence_factor": 0.365,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "missing",
+    "B2": "missing",
+    "C": "missing",
+    "D": "missing",
+    "E": "contrary",
+    "ENG": "missing",
+    "EP": "contrary",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "supportive"
+   },
+   "evidence_tier": "no verified literature entry; 0 lines supporting, 1 contrary",
+   "grades": {
+    "A": 0.4883,
+    "B1": null,
+    "B2": null,
+    "C": null,
+    "D": null,
+    "E": 0.2507,
+    "ENG": null,
+    "EP": 0.0,
+    "LIT": null,
+    "M": null,
+    "S": 1.0
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 42.26,
+   "n_missing": 7,
+   "p_rank1": 0.0,
+   "p_top10": 0.0177,
+   "p_top3": 0.0003,
+   "p_top5": 0.0037,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "LAMOTRIGINE": {
+   "age_bands": {
+    "0-4": "not_assessed",
+    "12-17": "not_assessed",
+    "5-11": "not_assessed"
+   },
+   "best_rank": 10,
+   "central_weight": {
+    "A": 0.014,
+    "B1": 0.572,
+    "B2": 0.01,
+    "C": 0.003,
+    "D": 0.008,
+    "E": 0.173,
+    "ENG": 0.017,
+    "EP": 0.026,
+    "LIT": 0.056,
+    "M": 0.084,
+    "S": 0.037
+   },
+   "confidence_factor": 0.456,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "missing",
+    "E": "contrary",
+    "ENG": "missing",
+    "EP": "contrary",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "neutral"
+   },
+   "evidence_tier": "no verified literature entry; 0 lines supporting, 1 contrary",
+   "grades": {
+    "A": 0.0,
+    "B1": 0.3333,
+    "B2": null,
+    "C": null,
+    "D": null,
+    "E": 0.2507,
+    "ENG": null,
+    "EP": 0.0,
+    "LIT": null,
+    "M": null,
+    "S": 0.5
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 63.67,
+   "n_missing": 6,
+   "p_rank1": 0.0,
+   "p_top10": 0.0001,
+   "p_top3": 0.0,
+   "p_top5": 0.0,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "LAROTRECTINIB": {
+   "age_bands": {
+    "0-4": "labelled",
+    "12-17": "labelled",
+    "5-11": "labelled"
+   },
+   "best_rank": 5,
+   "central_weight": {
+    "A": 0.019,
+    "B1": 0.017,
+    "B2": 0.035,
+    "C": 0.118,
+    "D": 0.16,
+    "E": 0.185,
+    "ENG": 0.05,
+    "EP": 0.078,
+    "LIT": 0.056,
+    "M": 0.079,
+    "S": 0.203
+   },
+   "confidence_factor": 0.363,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "supportive",
+    "E": "missing",
+    "ENG": "missing",
+    "EP": "missing",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "supportive"
+   },
+   "evidence_tier": "no verified literature entry; 1 lines supporting, 0 contrary",
+   "grades": {
+    "A": 0.2472,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": 1.0,
+    "E": null,
+    "ENG": null,
+    "EP": null,
+    "LIT": null,
+    "M": null,
+    "S": 1.0
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 29.88,
+   "n_missing": 7,
+   "p_rank1": 0.0,
+   "p_top10": 0.0826,
+   "p_top3": 0.0,
+   "p_top5": 0.0032,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "LOVASTATIN": {
+   "age_bands": {
+    "0-4": "verify",
+    "12-17": "verify",
+    "5-11": "verify"
+   },
+   "best_rank": 1,
+   "central_weight": {
+    "A": 0.118,
+    "B1": 0.042,
+    "B2": 0.056,
+    "C": 0.082,
+    "D": 0.035,
+    "E": 0.146,
+    "ENG": 0.185,
+    "EP": 0.052,
+    "LIT": 0.068,
+    "M": 0.057,
+    "S": 0.16
+   },
+   "confidence_factor": 0.546,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "missing",
+    "E": "contrary",
+    "ENG": "supportive",
+    "EP": "supportive",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "supportive"
+   },
+   "evidence_tier": "no verified literature entry; 1 lines supporting, 0 contrary",
+   "grades": {
+    "A": 0.7895,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": null,
+    "E": 0.3255,
+    "ENG": 0.9876,
+    "EP": 0.5955,
+    "LIT": null,
+    "M": null,
+    "S": 1.0
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 14.0,
+   "n_missing": 5,
+   "p_rank1": 0.0084,
+   "p_top10": 0.4839,
+   "p_top3": 0.088,
+   "p_top5": 0.2111,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "METFORMIN": {
+   "age_bands": {
+    "0-4": "not_labelled",
+    "12-17": "labelled",
+    "5-11": "partly"
+   },
+   "best_rank": 4,
+   "central_weight": {
+    "A": 0.074,
+    "B1": 0.04,
+    "B2": 0.014,
+    "C": 0.194,
+    "D": 0.007,
+    "E": 0.48,
+    "ENG": 0.0,
+    "EP": 0.01,
+    "LIT": 0.144,
+    "M": 0.028,
+    "S": 0.011
+   },
+   "confidence_factor": 0.637,
+   "consequences_addressed": {
+    "2": 1.0,
+    "3": 0.0,
+    "4": 0.5
+   },
+   "directions": {
+    "A": "neutral",
+    "B1": "missing",
+    "B2": "missing",
+    "C": "missing",
+    "D": "missing",
+    "E": "contrary",
+    "ENG": "neutral",
+    "EP": "contrary",
+    "LIT": "contrary",
+    "M": "neutral",
+    "S": "neutral"
+   },
+   "evidence_tier": "level 1 literature (1 help, 2 harm papers); 0 lines supporting, 1 contrary",
+   "grades": {
+    "A": 0.7617,
+    "B1": null,
+    "B2": null,
+    "C": null,
+    "D": null,
+    "E": 0.3255,
+    "ENG": 0.1446,
+    "EP": 0.0,
+    "LIT": 0.4378,
+    "M": 0.3,
+    "S": 0.5
+   },
+   "literature": {
+    "best_help_level": 1,
+    "n_harm_papers": 2,
+    "n_help_papers": 1,
+    "net": -0.25
+   },
+   "mean_rank": 42.57,
+   "n_missing": 4,
+   "p_rank1": 0.0,
+   "p_top10": 0.0043,
+   "p_top3": 0.0,
+   "p_top5": 0.0002,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.5,
+   "track1_genes_bearing": [
+    "IGBP1"
+   ]
+  },
+  "METHYLDOPA": {
+   "age_bands": {
+    "0-4": "verify",
+    "12-17": "verify",
+    "5-11": "verify"
+   },
+   "best_rank": 3,
+   "central_weight": {
+    "A": 0.153,
+    "B1": 0.03,
+    "B2": 0.045,
+    "C": 0.079,
+    "D": 0.006,
+    "E": 0.045,
+    "ENG": 0.37,
+    "EP": 0.004,
+    "LIT": 0.016,
+    "M": 0.062,
+    "S": 0.188
+   },
+   "confidence_factor": 0.635,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "contrary",
+    "E": "contrary",
+    "ENG": "supportive",
+    "EP": "contrary",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "supportive"
+   },
+   "evidence_tier": "no verified literature entry; 1 lines supporting, 2 contrary",
+   "grades": {
+    "A": 0.7744,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": 0.0,
+    "E": 0.2231,
+    "ENG": 0.9861,
+    "EP": 0.0,
+    "LIT": null,
+    "M": null,
+    "S": 1.0
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 35.01,
+   "n_missing": 4,
+   "p_rank1": 0.0,
+   "p_top10": 0.0242,
+   "p_top3": 0.0003,
+   "p_top5": 0.0028,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "MINOCYCLINE": {
+   "age_bands": {
+    "0-4": "not_assessed",
+    "12-17": "not_assessed",
+    "5-11": "not_assessed"
+   },
+   "best_rank": 1,
+   "central_weight": {
+    "A": 0.164,
+    "B1": 0.149,
+    "B2": 0.067,
+    "C": 0.099,
+    "D": 0.039,
+    "E": 0.055,
+    "ENG": 0.046,
+    "EP": 0.113,
+    "LIT": 0.084,
+    "M": 0.066,
+    "S": 0.118
+   },
+   "confidence_factor": 0.365,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "supportive",
+    "B1": "missing",
+    "B2": "missing",
+    "C": "missing",
+    "D": "missing",
+    "E": "contrary",
+    "ENG": "missing",
+    "EP": "supportive",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "supportive"
+   },
+   "evidence_tier": "no verified literature entry; 1 lines supporting, 0 contrary",
+   "grades": {
+    "A": 0.9521,
+    "B1": null,
+    "B2": null,
+    "C": null,
+    "D": null,
+    "E": 0.1911,
+    "ENG": null,
+    "EP": 0.7656,
+    "LIT": null,
+    "M": null,
+    "S": 1.0
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 12.9,
+   "n_missing": 7,
+   "p_rank1": 0.1069,
+   "p_top10": 0.563,
+   "p_top3": 0.2708,
+   "p_top5": 0.3861,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "NORTRIPTYLINE": {
+   "age_bands": {
+    "0-4": "not_assessed",
+    "12-17": "not_assessed",
+    "5-11": "not_assessed"
+   },
+   "best_rank": 25,
+   "central_weight": {
+    "A": 0.006,
+    "B1": 0.192,
+    "B2": 0.048,
+    "C": 0.059,
+    "D": 0.013,
+    "E": 0.029,
+    "ENG": 0.046,
+    "EP": 0.451,
+    "LIT": 0.135,
+    "M": 0.008,
+    "S": 0.013
+   },
+   "confidence_factor": 0.456,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "missing",
+    "E": "contrary",
+    "ENG": "missing",
+    "EP": "contrary",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "neutral"
+   },
+   "evidence_tier": "no verified literature entry; 0 lines supporting, 0 contrary",
+   "grades": {
+    "A": 0.1001,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": null,
+    "E": 0.0681,
+    "ENG": null,
+    "EP": 0.2448,
+    "LIT": null,
+    "M": null,
+    "S": 0.5
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 69.45,
+   "n_missing": 6,
+   "p_rank1": 0.0,
+   "p_top10": 0.0,
+   "p_top3": 0.0,
+   "p_top5": 0.0,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "OLANZAPINE": {
+   "age_bands": {
+    "0-4": "not_assessed",
+    "12-17": "not_assessed",
+    "5-11": "not_assessed"
+   },
+   "best_rank": 26,
+   "central_weight": {
+    "A": 0.007,
+    "B1": 0.062,
+    "B2": 0.03,
+    "C": 0.083,
+    "D": 0.193,
+    "E": 0.459,
+    "ENG": 0.014,
+    "EP": 0.015,
+    "LIT": 0.08,
+    "M": 0.011,
+    "S": 0.046
+   },
+   "confidence_factor": 0.545,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "supportive",
+    "E": "contrary",
+    "ENG": "missing",
+    "EP": "contrary",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "neutral"
+   },
+   "evidence_tier": "no verified literature entry; 1 lines supporting, 1 contrary",
+   "grades": {
+    "A": 0.0902,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": 1.0,
+    "E": 0.171,
+    "ENG": null,
+    "EP": 0.0,
+    "LIT": null,
+    "M": null,
+    "S": 0.5
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 56.36,
+   "n_missing": 5,
+   "p_rank1": 0.0,
+   "p_top10": 0.0,
+   "p_top3": 0.0,
+   "p_top5": 0.0,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "OLAPARIB": {
+   "age_bands": {
+    "0-4": "not_labelled",
+    "12-17": "not_labelled",
+    "5-11": "not_labelled"
+   },
+   "best_rank": 3,
+   "central_weight": {
+    "A": 0.088,
+    "B1": 0.044,
+    "B2": 0.02,
+    "C": 0.029,
+    "D": 0.007,
+    "E": 0.065,
+    "ENG": 0.186,
+    "EP": 0.009,
+    "LIT": 0.093,
+    "M": 0.187,
+    "S": 0.272
+   },
+   "confidence_factor": 0.817,
+   "consequences_addressed": {
+    "5": 0.5
+   },
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "contrary",
+    "E": "contrary",
+    "ENG": "supportive",
+    "EP": "contrary",
+    "LIT": "contrary",
+    "M": "neutral",
+    "S": "supportive"
+   },
+   "evidence_tier": "literature without a supportive finding (1 harm papers); 1 lines supporting, 2 contrary",
+   "grades": {
+    "A": 0.6621,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": 0.0,
+    "E": 0.171,
+    "ENG": 1.0,
+    "EP": 0.0,
+    "LIT": 0.4378,
+    "M": 0.525,
+    "S": 1.0
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 1,
+    "n_help_papers": 0,
+    "net": -0.25
+   },
+   "mean_rank": 27.76,
+   "n_missing": 2,
+   "p_rank1": 0.0,
+   "p_top10": 0.0515,
+   "p_top3": 0.0003,
+   "p_top5": 0.0032,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.25,
+   "track1_genes_bearing": [
+    "CENPE",
+    "MAD1L1",
+    "CDC20",
+    "MAD2L1BP",
+    "TTK",
+    "CEP192"
+   ]
+  },
+  "PACLITAXEL": {
+   "age_bands": {
+    "0-4": "not_labelled",
+    "12-17": "not_labelled",
+    "5-11": "not_labelled"
+   },
+   "best_rank": 10,
+   "central_weight": {
+    "A": 0.029,
+    "B1": 0.108,
+    "B2": 0.03,
+    "C": 0.11,
+    "D": 0.026,
+    "E": 0.228,
+    "ENG": 0.049,
+    "EP": 0.016,
+    "LIT": 0.043,
+    "M": 0.352,
+    "S": 0.009
+   },
+   "confidence_factor": 0.728,
+   "consequences_addressed": {
+    "5": 0.5
+   },
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "missing",
+    "E": "contrary",
+    "ENG": "supportive",
+    "EP": "contrary",
+    "LIT": "contrary",
+    "M": "neutral",
+    "S": "contrary"
+   },
+   "evidence_tier": "literature without a supportive finding (2 harm papers); 1 lines supporting, 1 contrary",
+   "grades": {
+    "A": 0.0,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": null,
+    "E": 0.2507,
+    "ENG": 0.9899,
+    "EP": 0.0,
+    "LIT": 0.1824,
+    "M": 0.55,
+    "S": 0.0
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 2,
+    "n_help_papers": 0,
+    "net": -1.5
+   },
+   "mean_rank": 55.99,
+   "n_missing": 3,
+   "p_rank1": 0.0,
+   "p_top10": 0.0003,
+   "p_top3": 0.0,
+   "p_top5": 0.0,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.5,
+   "track1_genes_bearing": [
+    "CENPE",
+    "MAD1L1",
+    "CDC20",
+    "MAD2L1BP",
+    "TTK",
+    "CEP192"
+   ]
+  },
+  "PAROXETINE": {
+   "age_bands": {
+    "0-4": "not_assessed",
+    "12-17": "not_assessed",
+    "5-11": "not_assessed"
+   },
+   "best_rank": 8,
+   "central_weight": {
+    "A": 0.061,
+    "B1": 0.039,
+    "B2": 0.019,
+    "C": 0.059,
+    "D": 0.017,
+    "E": 0.063,
+    "ENG": 0.007,
+    "EP": 0.531,
+    "LIT": 0.119,
+    "M": 0.039,
+    "S": 0.046
+   },
+   "confidence_factor": 0.456,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "missing",
+    "E": "contrary",
+    "ENG": "missing",
+    "EP": "supportive",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "neutral"
+   },
+   "evidence_tier": "no verified literature entry; 0 lines supporting, 0 contrary",
+   "grades": {
+    "A": 0.1528,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": null,
+    "E": 0.0103,
+    "ENG": null,
+    "EP": 0.6836,
+    "LIT": null,
+    "M": null,
+    "S": 0.5
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 58.01,
+   "n_missing": 6,
+   "p_rank1": 0.0,
+   "p_top10": 0.0015,
+   "p_top3": 0.0,
+   "p_top5": 0.0,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "PHENYLBUTANOIC ACID": {
+   "age_bands": {
+    "0-4": "partly",
+    "12-17": "labelled",
+    "5-11": "labelled"
+   },
+   "best_rank": 2,
+   "central_weight": {
+    "A": 0.053,
+    "B1": 0.133,
+    "B2": 0.056,
+    "C": 0.108,
+    "D": 0.016,
+    "E": 0.056,
+    "ENG": 0.032,
+    "EP": 0.033,
+    "LIT": 0.459,
+    "M": 0.015,
+    "S": 0.038
+   },
+   "confidence_factor": 0.455,
+   "consequences_addressed": {
+    "2": 1.0,
+    "3": 1.0
+   },
+   "directions": {
+    "A": "missing",
+    "B1": "missing",
+    "B2": "missing",
+    "C": "missing",
+    "D": "missing",
+    "E": "contrary",
+    "ENG": "missing",
+    "EP": "contrary",
+    "LIT": "supportive",
+    "M": "neutral",
+    "S": "neutral"
+   },
+   "evidence_tier": "level 1 literature (2 help, 0 harm papers); 0 lines supporting, 1 contrary",
+   "grades": {
+    "A": null,
+    "B1": null,
+    "B2": null,
+    "C": null,
+    "D": null,
+    "E": 0.2231,
+    "ENG": null,
+    "EP": 0.0,
+    "LIT": 0.7311,
+    "M": 0.25,
+    "S": 0.5
+   },
+   "literature": {
+    "best_help_level": 1,
+    "n_harm_papers": 0,
+    "n_help_papers": 2,
+    "net": 1.0
+   },
+   "mean_rank": 48.78,
+   "n_missing": 6,
+   "p_rank1": 0.0,
+   "p_top10": 0.0149,
+   "p_top3": 0.0011,
+   "p_top5": 0.003,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "PHENYTOIN": {
+   "age_bands": {
+    "0-4": "not_assessed",
+    "12-17": "not_assessed",
+    "5-11": "not_assessed"
+   },
+   "best_rank": 22,
+   "central_weight": {
+    "A": 0.014,
+    "B1": 0.572,
+    "B2": 0.01,
+    "C": 0.003,
+    "D": 0.008,
+    "E": 0.173,
+    "ENG": 0.017,
+    "EP": 0.026,
+    "LIT": 0.056,
+    "M": 0.084,
+    "S": 0.037
+   },
+   "confidence_factor": 0.456,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "missing",
+    "E": "contrary",
+    "ENG": "missing",
+    "EP": "contrary",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "neutral"
+   },
+   "evidence_tier": "no verified literature entry; 0 lines supporting, 1 contrary",
+   "grades": {
+    "A": 0.0,
+    "B1": 0.2222,
+    "B2": null,
+    "C": null,
+    "D": null,
+    "E": 0.2069,
+    "ENG": null,
+    "EP": 0.0,
+    "LIT": null,
+    "M": null,
+    "S": 0.5
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 69.54,
+   "n_missing": 6,
+   "p_rank1": 0.0,
+   "p_top10": 0.0,
+   "p_top3": 0.0,
+   "p_top5": 0.0,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "PINDOLOL": {
+   "age_bands": {
+    "0-4": "not_assessed",
+    "12-17": "not_assessed",
+    "5-11": "not_assessed"
+   },
+   "best_rank": 1,
+   "central_weight": {
+    "A": 0.184,
+    "B1": 0.039,
+    "B2": 0.052,
+    "C": 0.084,
+    "D": 0.149,
+    "E": 0.075,
+    "ENG": 0.045,
+    "EP": 0.115,
+    "LIT": 0.081,
+    "M": 0.063,
+    "S": 0.113
+   },
+   "confidence_factor": 0.545,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "supportive",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "supportive",
+    "E": "contrary",
+    "ENG": "missing",
+    "EP": "supportive",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "supportive"
+   },
+   "evidence_tier": "no verified literature entry; 2 lines supporting, 0 contrary",
+   "grades": {
+    "A": 0.9469,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": 1.0,
+    "E": 0.2507,
+    "ENG": null,
+    "EP": 0.7108,
+    "LIT": null,
+    "M": null,
+    "S": 1.0
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 10.54,
+   "n_missing": 5,
+   "p_rank1": 0.0695,
+   "p_top10": 0.6206,
+   "p_top3": 0.2381,
+   "p_top5": 0.3783,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "POMALIDOMIDE": {
+   "age_bands": {
+    "0-4": "not_labelled",
+    "12-17": "not_labelled",
+    "5-11": "not_labelled"
+   },
+   "best_rank": 2,
+   "central_weight": {
+    "A": 0.374,
+    "B1": 0.047,
+    "B2": 0.042,
+    "C": 0.047,
+    "D": 0.178,
+    "E": 0.098,
+    "ENG": 0.018,
+    "EP": 0.034,
+    "LIT": 0.066,
+    "M": 0.058,
+    "S": 0.038
+   },
+   "confidence_factor": 0.545,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "supportive",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "supportive",
+    "E": "contrary",
+    "ENG": "missing",
+    "EP": "contrary",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "neutral"
+   },
+   "evidence_tier": "no verified literature entry; 2 lines supporting, 1 contrary",
+   "grades": {
+    "A": 0.9744,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": 1.0,
+    "E": 0.2507,
+    "ENG": null,
+    "EP": 0.0,
+    "LIT": null,
+    "M": null,
+    "S": 0.5
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 34.34,
+   "n_missing": 5,
+   "p_rank1": 0.0,
+   "p_top10": 0.041,
+   "p_top3": 0.0038,
+   "p_top5": 0.0097,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "PRAVASTATIN": {
+   "age_bands": {
+    "0-4": "verify",
+    "12-17": "verify",
+    "5-11": "verify"
+   },
+   "best_rank": 4,
+   "central_weight": {
+    "A": 0.02,
+    "B1": 0.016,
+    "B2": 0.096,
+    "C": 0.088,
+    "D": 0.025,
+    "E": 0.303,
+    "ENG": 0.205,
+    "EP": 0.007,
+    "LIT": 0.011,
+    "M": 0.027,
+    "S": 0.2
+   },
+   "confidence_factor": 0.546,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "missing",
+    "E": "contrary",
+    "ENG": "supportive",
+    "EP": "contrary",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "supportive"
+   },
+   "evidence_tier": "no verified literature entry; 1 lines supporting, 1 contrary",
+   "grades": {
+    "A": 0.57,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": null,
+    "E": 0.319,
+    "ENG": 0.9884,
+    "EP": 0.0,
+    "LIT": null,
+    "M": null,
+    "S": 1.0
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 30.8,
+   "n_missing": 5,
+   "p_rank1": 0.0,
+   "p_top10": 0.0286,
+   "p_top3": 0.0,
+   "p_top5": 0.0016,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "PROGESTERONE": {
+   "age_bands": {
+    "0-4": "verify",
+    "12-17": "verify",
+    "5-11": "verify"
+   },
+   "best_rank": 1,
+   "central_weight": {
+    "A": 0.211,
+    "B1": 0.048,
+    "B2": 0.057,
+    "C": 0.101,
+    "D": 0.15,
+    "E": 0.08,
+    "ENG": 0.197,
+    "EP": 0.027,
+    "LIT": 0.054,
+    "M": 0.042,
+    "S": 0.032
+   },
+   "confidence_factor": 0.635,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "supportive",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "supportive",
+    "E": "contrary",
+    "ENG": "supportive",
+    "EP": "contrary",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "neutral"
+   },
+   "evidence_tier": "no verified literature entry; 3 lines supporting, 1 contrary",
+   "grades": {
+    "A": 0.9178,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": 1.0,
+    "E": 0.2455,
+    "ENG": 0.9977,
+    "EP": 0.0,
+    "LIT": null,
+    "M": null,
+    "S": 0.5
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 21.23,
+   "n_missing": 4,
+   "p_rank1": 0.0093,
+   "p_top10": 0.2138,
+   "p_top3": 0.0406,
+   "p_top5": 0.0817,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "PROMETHAZINE": {
+   "age_bands": {
+    "0-4": "not_assessed",
+    "12-17": "not_assessed",
+    "5-11": "not_assessed"
+   },
+   "best_rank": 50,
+   "central_weight": {
+    "A": 0.074,
+    "B1": 0.04,
+    "B2": 0.014,
+    "C": 0.194,
+    "D": 0.007,
+    "E": 0.48,
+    "ENG": 0.0,
+    "EP": 0.01,
+    "LIT": 0.144,
+    "M": 0.028,
+    "S": 0.011
+   },
+   "confidence_factor": 0.456,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "missing",
+    "E": "contrary",
+    "ENG": "missing",
+    "EP": "contrary",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "neutral"
+   },
+   "evidence_tier": "no verified literature entry; 0 lines supporting, 1 contrary",
+   "grades": {
+    "A": 0.0059,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": null,
+    "E": 0.2507,
+    "ENG": null,
+    "EP": 0.0,
+    "LIT": null,
+    "M": null,
+    "S": 0.5
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 75.15,
+   "n_missing": 6,
+   "p_rank1": 0.0,
+   "p_top10": 0.0,
+   "p_top3": 0.0,
+   "p_top5": 0.0,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "QUETIAPINE": {
+   "age_bands": {
+    "0-4": "not_assessed",
+    "12-17": "not_assessed",
+    "5-11": "not_assessed"
+   },
+   "best_rank": 27,
+   "central_weight": {
+    "A": 0.008,
+    "B1": 0.013,
+    "B2": 0.342,
+    "C": 0.016,
+    "D": 0.025,
+    "E": 0.459,
+    "ENG": 0.003,
+    "EP": 0.028,
+    "LIT": 0.101,
+    "M": 0.002,
+    "S": 0.002
+   },
+   "confidence_factor": 0.456,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "missing",
+    "E": "contrary",
+    "ENG": "missing",
+    "EP": "contrary",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "neutral"
+   },
+   "evidence_tier": "no verified literature entry; 0 lines supporting, 1 contrary",
+   "grades": {
+    "A": 0.061,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": null,
+    "E": 0.3255,
+    "ENG": null,
+    "EP": 0.0,
+    "LIT": null,
+    "M": null,
+    "S": 0.5
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 69.6,
+   "n_missing": 6,
+   "p_rank1": 0.0,
+   "p_top10": 0.0,
+   "p_top3": 0.0,
+   "p_top5": 0.0,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "QUIZARTINIB": {
+   "age_bands": {
+    "0-4": "not_labelled",
+    "12-17": "not_labelled",
+    "5-11": "not_labelled"
+   },
+   "best_rank": 3,
+   "central_weight": {
+    "A": 0.017,
+    "B1": 0.078,
+    "B2": 0.04,
+    "C": 0.102,
+    "D": 0.312,
+    "E": 0.03,
+    "ENG": 0.037,
+    "EP": 0.292,
+    "LIT": 0.06,
+    "M": 0.023,
+    "S": 0.009
+   },
+   "confidence_factor": 0.545,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "supportive",
+    "E": "contrary",
+    "ENG": "missing",
+    "EP": "supportive",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "neutral"
+   },
+   "evidence_tier": "no verified literature entry; 1 lines supporting, 0 contrary",
+   "grades": {
+    "A": 0.0,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": 1.0,
+    "E": 0.0089,
+    "ENG": null,
+    "EP": 0.7108,
+    "LIT": null,
+    "M": null,
+    "S": 0.5
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 44.89,
+   "n_missing": 5,
+   "p_rank1": 0.0,
+   "p_top10": 0.0152,
+   "p_top3": 0.0003,
+   "p_top5": 0.0015,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "REGORAFENIB": {
+   "age_bands": {
+    "0-4": "not_labelled",
+    "12-17": "not_labelled",
+    "5-11": "not_labelled"
+   },
+   "best_rank": 2,
+   "central_weight": {
+    "A": 0.207,
+    "B1": 0.211,
+    "B2": 0.032,
+    "C": 0.085,
+    "D": 0.233,
+    "E": 0.025,
+    "ENG": 0.02,
+    "EP": 0.015,
+    "LIT": 0.06,
+    "M": 0.093,
+    "S": 0.018
+   },
+   "confidence_factor": 0.545,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "supportive",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "supportive",
+    "E": "contrary",
+    "ENG": "missing",
+    "EP": "contrary",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "neutral"
+   },
+   "evidence_tier": "no verified literature entry; 2 lines supporting, 1 contrary",
+   "grades": {
+    "A": 0.9037,
+    "B1": 0.3333,
+    "B2": null,
+    "C": null,
+    "D": 1.0,
+    "E": 0.0268,
+    "ENG": null,
+    "EP": 0.0,
+    "LIT": null,
+    "M": null,
+    "S": 0.5
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 33.34,
+   "n_missing": 5,
+   "p_rank1": 0.0,
+   "p_top10": 0.0494,
+   "p_top3": 0.0032,
+   "p_top5": 0.0111,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "RIPRETINIB": {
+   "age_bands": {
+    "0-4": "not_labelled",
+    "12-17": "not_labelled",
+    "5-11": "not_labelled"
+   },
+   "best_rank": 3,
+   "central_weight": {
+    "A": 0.028,
+    "B1": 0.02,
+    "B2": 0.038,
+    "C": 0.116,
+    "D": 0.165,
+    "E": 0.198,
+    "ENG": 0.048,
+    "EP": 0.071,
+    "LIT": 0.08,
+    "M": 0.064,
+    "S": 0.172
+   },
+   "confidence_factor": 0.363,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "supportive",
+    "E": "missing",
+    "ENG": "missing",
+    "EP": "missing",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "supportive"
+   },
+   "evidence_tier": "no verified literature entry; 1 lines supporting, 0 contrary",
+   "grades": {
+    "A": 0.4633,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": 1.0,
+    "E": null,
+    "ENG": null,
+    "EP": null,
+    "LIT": null,
+    "M": null,
+    "S": 1.0
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 22.98,
+   "n_missing": 7,
+   "p_rank1": 0.0,
+   "p_top10": 0.1915,
+   "p_top3": 0.006,
+   "p_top5": 0.0434,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "RISPERIDONE": {
+   "age_bands": {
+    "0-4": "not_assessed",
+    "12-17": "not_assessed",
+    "5-11": "not_assessed"
+   },
+   "best_rank": 2,
+   "central_weight": {
+    "A": 0.296,
+    "B1": 0.031,
+    "B2": 0.084,
+    "C": 0.15,
+    "D": 0.104,
+    "E": 0.184,
+    "ENG": 0.015,
+    "EP": 0.029,
+    "LIT": 0.086,
+    "M": 0.014,
+    "S": 0.007
+   },
+   "confidence_factor": 0.545,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "supportive",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "supportive",
+    "E": "contrary",
+    "ENG": "missing",
+    "EP": "contrary",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "neutral"
+   },
+   "evidence_tier": "no verified literature entry; 2 lines supporting, 1 contrary",
+   "grades": {
+    "A": 0.9305,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": 1.0,
+    "E": 0.3255,
+    "ENG": null,
+    "EP": 0.0,
+    "LIT": null,
+    "M": null,
+    "S": 0.5
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 33.26,
+   "n_missing": 5,
+   "p_rank1": 0.0,
+   "p_top10": 0.0377,
+   "p_top3": 0.0006,
+   "p_top5": 0.0043,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "SELINEXOR": {
+   "age_bands": {
+    "0-4": "not_labelled",
+    "12-17": "not_labelled",
+    "5-11": "not_labelled"
+   },
+   "best_rank": 1,
+   "central_weight": {
+    "A": 0.039,
+    "B1": 0.054,
+    "B2": 0.163,
+    "C": 0.088,
+    "D": 0.102,
+    "E": 0.114,
+    "ENG": 0.054,
+    "EP": 0.087,
+    "LIT": 0.103,
+    "M": 0.146,
+    "S": 0.05
+   },
+   "confidence_factor": 0.636,
+   "consequences_addressed": {
+    "5": 1.0
+   },
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "supportive",
+    "C": "missing",
+    "D": "supportive",
+    "E": "missing",
+    "ENG": "missing",
+    "EP": "missing",
+    "LIT": "supportive",
+    "M": "supportive",
+    "S": "neutral"
+   },
+   "evidence_tier": "level 1 literature (1 help, 0 harm papers); 2 lines supporting, 0 contrary",
+   "grades": {
+    "A": 0.0461,
+    "B1": 0.0,
+    "B2": 1.0,
+    "C": null,
+    "D": 1.0,
+    "E": null,
+    "ENG": null,
+    "EP": null,
+    "LIT": 0.6225,
+    "M": 1.0,
+    "S": 0.5
+   },
+   "literature": {
+    "best_help_level": 1,
+    "n_harm_papers": 0,
+    "n_help_papers": 1,
+    "net": 0.5
+   },
+   "mean_rank": 15.66,
+   "n_missing": 4,
+   "p_rank1": 0.1295,
+   "p_top10": 0.4955,
+   "p_top3": 0.2801,
+   "p_top5": 0.3669,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.5,
+   "track1_genes_bearing": [
+    "CENPE",
+    "MAD1L1",
+    "CDC20",
+    "MAD2L1BP",
+    "TTK",
+    "CEP192"
+   ]
+  },
+  "SELPERCATINIB": {
+   "age_bands": {
+    "0-4": "partly",
+    "12-17": "labelled",
+    "5-11": "labelled"
+   },
+   "best_rank": 1,
+   "central_weight": {
+    "A": 0.11,
+    "B1": 0.007,
+    "B2": 0.079,
+    "C": 0.079,
+    "D": 0.148,
+    "E": 0.263,
+    "ENG": 0.04,
+    "EP": 0.086,
+    "LIT": 0.094,
+    "M": 0.005,
+    "S": 0.088
+   },
+   "confidence_factor": 0.454,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "supportive",
+    "E": "missing",
+    "ENG": "missing",
+    "EP": "missing",
+    "LIT": "missing",
+    "M": "neutral",
+    "S": "supportive"
+   },
+   "evidence_tier": "no verified literature entry; 1 lines supporting, 0 contrary",
+   "grades": {
+    "A": 0.7566,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": 1.0,
+    "E": null,
+    "ENG": null,
+    "EP": null,
+    "LIT": null,
+    "M": 0.05,
+    "S": 1.0
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 25.42,
+   "n_missing": 6,
+   "p_rank1": 0.0008,
+   "p_top10": 0.1542,
+   "p_top3": 0.0146,
+   "p_top5": 0.0421,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.5,
+   "track1_genes_bearing": [
+    "CENPE",
+    "MAD1L1",
+    "CDC20",
+    "MAD2L1BP",
+    "TTK",
+    "CEP192"
+   ]
+  },
+  "SELUMETINIB": {
+   "age_bands": {
+    "0-4": "partly",
+    "12-17": "labelled",
+    "5-11": "labelled"
+   },
+   "best_rank": 2,
+   "central_weight": {
+    "A": 0.1,
+    "B1": 0.314,
+    "B2": 0.049,
+    "C": 0.046,
+    "D": 0.041,
+    "E": 0.07,
+    "ENG": 0.118,
+    "EP": 0.029,
+    "LIT": 0.134,
+    "M": 0.072,
+    "S": 0.027
+   },
+   "confidence_factor": 0.728,
+   "consequences_addressed": {
+    "5": 0.5
+   },
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "missing",
+    "E": "contrary",
+    "ENG": "supportive",
+    "EP": "contrary",
+    "LIT": "neutral",
+    "M": "neutral",
+    "S": "neutral"
+   },
+   "evidence_tier": "literature without a supportive finding (0 harm papers); 1 lines supporting, 1 contrary",
+   "grades": {
+    "A": 0.7345,
+    "B1": 0.4444,
+    "B2": null,
+    "C": null,
+    "D": null,
+    "E": 0.0539,
+    "ENG": 0.9288,
+    "EP": 0.0,
+    "LIT": 0.5,
+    "M": 0.525,
+    "S": 0.5
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0
+   },
+   "mean_rank": 25.28,
+   "n_missing": 3,
+   "p_rank1": 0.0,
+   "p_top10": 0.1542,
+   "p_top3": 0.0127,
+   "p_top5": 0.0422,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.25,
+   "track1_genes_bearing": [
+    "CENPE",
+    "MAD1L1",
+    "CDC20",
+    "MAD2L1BP",
+    "TTK",
+    "CEP192"
+   ]
+  },
+  "SILDENAFIL": {
+   "age_bands": {
+    "0-4": "not_assessed",
+    "12-17": "not_assessed",
+    "5-11": "not_assessed"
+   },
+   "best_rank": 6,
+   "central_weight": {
+    "A": 0.154,
+    "B1": 0.006,
+    "B2": 0.012,
+    "C": 0.119,
+    "D": 0.01,
+    "E": 0.008,
+    "ENG": 0.008,
+    "EP": 0.002,
+    "LIT": 0.18,
+    "M": 0.105,
+    "S": 0.397
+   },
+   "confidence_factor": 0.456,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "missing",
+    "E": "contrary",
+    "ENG": "missing",
+    "EP": "contrary",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "supportive"
+   },
+   "evidence_tier": "no verified literature entry; 0 lines supporting, 1 contrary",
+   "grades": {
+    "A": 0.7885,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": null,
+    "E": 0.3255,
+    "ENG": null,
+    "EP": 0.0,
+    "LIT": null,
+    "M": null,
+    "S": 1.0
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 41.14,
+   "n_missing": 6,
+   "p_rank1": 0.0,
+   "p_top10": 0.0032,
+   "p_top3": 0.0,
+   "p_top5": 0.0,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "SIROLIMUS": {
+   "age_bands": {
+    "0-4": "not_labelled",
+    "12-17": "partly",
+    "5-11": "not_labelled"
+   },
+   "best_rank": 14,
+   "central_weight": {
+    "A": 0.163,
+    "B1": 0.15,
+    "B2": 0.018,
+    "C": 0.039,
+    "D": 0.163,
+    "E": 0.078,
+    "ENG": 0.012,
+    "EP": 0.03,
+    "LIT": 0.251,
+    "M": 0.086,
+    "S": 0.01
+   },
+   "confidence_factor": 0.817,
+   "consequences_addressed": {
+    "2": 1.0,
+    "3": 1.0,
+    "4": 1.0,
+    "5": 0.0
+   },
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "supportive",
+    "E": "contrary",
+    "ENG": "neutral",
+    "EP": "contrary",
+    "LIT": "contrary",
+    "M": "neutral",
+    "S": "neutral"
+   },
+   "evidence_tier": "level 1 literature (7 help, 9 harm papers); 1 lines supporting, 1 contrary",
+   "grades": {
+    "A": 0.7768,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": 1.0,
+    "E": 0.0748,
+    "ENG": 0.273,
+    "EP": 0.0,
+    "LIT": 0.3775,
+    "M": 0.35,
+    "S": 0.5
+   },
+   "literature": {
+    "best_help_level": 1,
+    "n_harm_papers": 9,
+    "n_help_papers": 7,
+    "net": -0.5
+   },
+   "mean_rank": 36.71,
+   "n_missing": 2,
+   "p_rank1": 0.0,
+   "p_top10": 0.0,
+   "p_top3": 0.0,
+   "p_top5": 0.0,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 1.0,
+   "track1_genes_bearing": [
+    "IGBP1",
+    "CENPE",
+    "MAD1L1",
+    "CDC20",
+    "MAD2L1BP",
+    "TTK",
+    "CEP192"
+   ]
+  },
+  "SORAFENIB": {
+   "age_bands": {
+    "0-4": "not_labelled",
+    "12-17": "not_labelled",
+    "5-11": "not_labelled"
+   },
+   "best_rank": 16,
+   "central_weight": {
+    "A": 0.002,
+    "B1": 0.134,
+    "B2": 0.006,
+    "C": 0.082,
+    "D": 0.002,
+    "E": 0.182,
+    "ENG": 0.006,
+    "EP": 0.151,
+    "LIT": 0.002,
+    "M": 0.106,
+    "S": 0.328
+   },
+   "confidence_factor": 0.456,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "missing",
+    "E": "contrary",
+    "ENG": "missing",
+    "EP": "contrary",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "supportive"
+   },
+   "evidence_tier": "no verified literature entry; 0 lines supporting, 0 contrary",
+   "grades": {
+    "A": 0.136,
+    "B1": 0.1111,
+    "B2": null,
+    "C": null,
+    "D": null,
+    "E": 0.2078,
+    "ENG": null,
+    "EP": 0.2448,
+    "LIT": null,
+    "M": null,
+    "S": 1.0
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 49.26,
+   "n_missing": 6,
+   "p_rank1": 0.0,
+   "p_top10": 0.0,
+   "p_top3": 0.0,
+   "p_top5": 0.0,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "SPIRONOLACTONE": {
+   "age_bands": {
+    "0-4": "not_assessed",
+    "12-17": "not_assessed",
+    "5-11": "not_assessed"
+   },
+   "best_rank": 25,
+   "central_weight": {
+    "A": 0.089,
+    "B1": 0.042,
+    "B2": 0.044,
+    "C": 0.059,
+    "D": 0.328,
+    "E": 0.141,
+    "ENG": 0.018,
+    "EP": 0.008,
+    "LIT": 0.159,
+    "M": 0.027,
+    "S": 0.084
+   },
+   "confidence_factor": 0.545,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "supportive",
+    "E": "contrary",
+    "ENG": "missing",
+    "EP": "contrary",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "neutral"
+   },
+   "evidence_tier": "no verified literature entry; 1 lines supporting, 1 contrary",
+   "grades": {
+    "A": 0.1589,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": 1.0,
+    "E": 0.171,
+    "ENG": null,
+    "EP": 0.0,
+    "LIT": null,
+    "M": null,
+    "S": 0.5
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 53.66,
+   "n_missing": 5,
+   "p_rank1": 0.0,
+   "p_top10": 0.0,
+   "p_top3": 0.0,
+   "p_top5": 0.0,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "SUNITINIB": {
+   "age_bands": {
+    "0-4": "not_labelled",
+    "12-17": "not_labelled",
+    "5-11": "not_labelled"
+   },
+   "best_rank": 2,
+   "central_weight": {
+    "A": 0.292,
+    "B1": 0.022,
+    "B2": 0.039,
+    "C": 0.114,
+    "D": 0.222,
+    "E": 0.039,
+    "ENG": 0.045,
+    "EP": 0.096,
+    "LIT": 0.072,
+    "M": 0.032,
+    "S": 0.027
+   },
+   "confidence_factor": 0.545,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "supportive",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "supportive",
+    "E": "contrary",
+    "ENG": "missing",
+    "EP": "supportive",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "neutral"
+   },
+   "evidence_tier": "no verified literature entry; 2 lines supporting, 0 contrary",
+   "grades": {
+    "A": 0.9088,
+    "B1": 0.1111,
+    "B2": null,
+    "C": null,
+    "D": 1.0,
+    "E": 0.062,
+    "ENG": null,
+    "EP": 0.5169,
+    "LIT": null,
+    "M": null,
+    "S": 0.5
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 25.67,
+   "n_missing": 5,
+   "p_rank1": 0.0,
+   "p_top10": 0.1127,
+   "p_top3": 0.0038,
+   "p_top5": 0.0194,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "TAMOXIFEN": {
+   "age_bands": {
+    "0-4": "not_assessed",
+    "12-17": "not_assessed",
+    "5-11": "not_assessed"
+   },
+   "best_rank": 13,
+   "central_weight": {
+    "A": 0.066,
+    "B1": 0.104,
+    "B2": 0.002,
+    "C": 0.146,
+    "D": 0.031,
+    "E": 0.026,
+    "ENG": 0.006,
+    "EP": 0.491,
+    "LIT": 0.048,
+    "M": 0.047,
+    "S": 0.033
+   },
+   "confidence_factor": 0.456,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "missing",
+    "E": "contrary",
+    "ENG": "missing",
+    "EP": "supportive",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "neutral"
+   },
+   "evidence_tier": "no verified literature entry; 0 lines supporting, 0 contrary",
+   "grades": {
+    "A": 0.2508,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": null,
+    "E": 0.1183,
+    "ENG": null,
+    "EP": 0.5169,
+    "LIT": null,
+    "M": null,
+    "S": 0.5
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 56.79,
+   "n_missing": 6,
+   "p_rank1": 0.0,
+   "p_top10": 0.0,
+   "p_top3": 0.0,
+   "p_top5": 0.0,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "TEMOZOLOMIDE": {
+   "age_bands": {
+    "0-4": "not_labelled",
+    "12-17": "not_labelled",
+    "5-11": "not_labelled"
+   },
+   "best_rank": 3,
+   "central_weight": {
+    "A": 0.212,
+    "B1": 0.082,
+    "B2": 0.045,
+    "C": 0.091,
+    "D": 0.066,
+    "E": 0.026,
+    "ENG": 0.069,
+    "EP": 0.01,
+    "LIT": 0.035,
+    "M": 0.341,
+    "S": 0.022
+   },
+   "confidence_factor": 0.546,
+   "consequences_addressed": {
+    "5": 1.0
+   },
+   "directions": {
+    "A": "neutral",
+    "B1": "missing",
+    "B2": "missing",
+    "C": "missing",
+    "D": "missing",
+    "E": "contrary",
+    "ENG": "missing",
+    "EP": "contrary",
+    "LIT": "neutral",
+    "M": "supportive",
+    "S": "contrary"
+   },
+   "evidence_tier": "level 0 literature (1 help, 1 harm papers); 0 lines supporting, 1 contrary",
+   "grades": {
+    "A": 0.6123,
+    "B1": null,
+    "B2": null,
+    "C": null,
+    "D": null,
+    "E": 0.2507,
+    "ENG": null,
+    "EP": 0.0,
+    "LIT": 0.5,
+    "M": 1.0,
+    "S": 0.0
+   },
+   "literature": {
+    "best_help_level": 0,
+    "n_harm_papers": 1,
+    "n_help_papers": 1,
+    "net": 0.0
+   },
+   "mean_rank": 41.06,
+   "n_missing": 5,
+   "p_rank1": 0.0,
+   "p_top10": 0.0902,
+   "p_top3": 0.0012,
+   "p_top5": 0.0326,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.25,
+   "track1_genes_bearing": [
+    "CENPE",
+    "MAD1L1",
+    "CDC20",
+    "MAD2L1BP",
+    "TTK",
+    "CEP192"
+   ]
+  },
+  "TEMSIROLIMUS": {
+   "age_bands": {
+    "0-4": "not_assessed",
+    "12-17": "not_assessed",
+    "5-11": "not_assessed"
+   },
+   "best_rank": 1,
+   "central_weight": {
+    "A": 0.149,
+    "B1": 0.036,
+    "B2": 0.05,
+    "C": 0.013,
+    "D": 0.076,
+    "E": 0.006,
+    "ENG": 0.01,
+    "EP": 0.016,
+    "LIT": 0.068,
+    "M": 0.293,
+    "S": 0.284
+   },
+   "confidence_factor": 0.726,
+   "consequences_addressed": {
+    "3": 0.5,
+    "4": 0.5,
+    "5": 0.5
+   },
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "supportive",
+    "E": "contrary",
+    "ENG": "missing",
+    "EP": "contrary",
+    "LIT": "neutral",
+    "M": "neutral",
+    "S": "supportive"
+   },
+   "evidence_tier": "literature without a supportive finding (0 harm papers); 1 lines supporting, 1 contrary",
+   "grades": {
+    "A": 0.7763,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": 1.0,
+    "E": 0.0419,
+    "ENG": null,
+    "EP": 0.0,
+    "LIT": 0.5,
+    "M": 0.6,
+    "S": 1.0
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0
+   },
+   "mean_rank": 21.56,
+   "n_missing": 3,
+   "p_rank1": 0.0001,
+   "p_top10": 0.1376,
+   "p_top3": 0.0037,
+   "p_top5": 0.02,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 1.0,
+   "track1_genes_bearing": [
+    "IGBP1",
+    "CENPE",
+    "MAD1L1",
+    "CDC20",
+    "MAD2L1BP",
+    "TTK",
+    "CEP192"
+   ]
+  },
+  "TIRBANIBULIN": {
+   "age_bands": {
+    "0-4": "not_assessed",
+    "12-17": "not_assessed",
+    "5-11": "not_assessed"
+   },
+   "best_rank": 1,
+   "central_weight": {
+    "A": 0.07,
+    "B1": 0.035,
+    "B2": 0.21,
+    "C": 0.11,
+    "D": 0.012,
+    "E": 0.16,
+    "ENG": 0.053,
+    "EP": 0.077,
+    "LIT": 0.076,
+    "M": 0.057,
+    "S": 0.14
+   },
+   "confidence_factor": 0.363,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "missing",
+    "B1": "neutral",
+    "B2": "supportive",
+    "C": "missing",
+    "D": "contrary",
+    "E": "missing",
+    "ENG": "missing",
+    "EP": "missing",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "supportive"
+   },
+   "evidence_tier": "no verified literature entry; 1 lines supporting, 1 contrary",
+   "grades": {
+    "A": null,
+    "B1": 0.0,
+    "B2": 1.0,
+    "C": null,
+    "D": 0.0,
+    "E": null,
+    "ENG": null,
+    "EP": null,
+    "LIT": null,
+    "M": null,
+    "S": 1.0
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 35.26,
+   "n_missing": 7,
+   "p_rank1": 0.0149,
+   "p_top10": 0.1764,
+   "p_top3": 0.0673,
+   "p_top5": 0.1009,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "TOPIRAMATE": {
+   "age_bands": {
+    "0-4": "not_assessed",
+    "12-17": "not_assessed",
+    "5-11": "not_assessed"
+   },
+   "best_rank": 12,
+   "central_weight": {
+    "A": 0.018,
+    "B1": 0.279,
+    "B2": 0.038,
+    "C": 0.019,
+    "D": 0.025,
+    "E": 0.021,
+    "ENG": 0.02,
+    "EP": 0.034,
+    "LIT": 0.06,
+    "M": 0.019,
+    "S": 0.467
+   },
+   "confidence_factor": 0.456,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "missing",
+    "E": "contrary",
+    "ENG": "missing",
+    "EP": "contrary",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "supportive"
+   },
+   "evidence_tier": "no verified literature entry; 0 lines supporting, 1 contrary",
+   "grades": {
+    "A": 0.0673,
+    "B1": 0.2222,
+    "B2": null,
+    "C": null,
+    "D": null,
+    "E": 0.1509,
+    "ENG": null,
+    "EP": 0.0,
+    "LIT": null,
+    "M": null,
+    "S": 1.0
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 56.16,
+   "n_missing": 6,
+   "p_rank1": 0.0,
+   "p_top10": 0.0,
+   "p_top3": 0.0,
+   "p_top5": 0.0,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "TRAMETINIB": {
+   "age_bands": {
+    "0-4": "partly",
+    "12-17": "labelled",
+    "5-11": "labelled"
+   },
+   "best_rank": 1,
+   "central_weight": {
+    "A": 0.088,
+    "B1": 0.127,
+    "B2": 0.055,
+    "C": 0.084,
+    "D": 0.105,
+    "E": 0.066,
+    "ENG": 0.109,
+    "EP": 0.048,
+    "LIT": 0.124,
+    "M": 0.141,
+    "S": 0.053
+   },
+   "confidence_factor": 0.817,
+   "consequences_addressed": {
+    "5": 1.0
+   },
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "supportive",
+    "E": "contrary",
+    "ENG": "supportive",
+    "EP": "contrary",
+    "LIT": "supportive",
+    "M": "supportive",
+    "S": "neutral"
+   },
+   "evidence_tier": "level 1 literature (2 help, 0 harm papers); 2 lines supporting, 1 contrary",
+   "grades": {
+    "A": 0.6184,
+    "B1": 0.4444,
+    "B2": null,
+    "C": null,
+    "D": 1.0,
+    "E": 0.0709,
+    "ENG": 0.9412,
+    "EP": 0.0,
+    "LIT": 0.6792,
+    "M": 1.0,
+    "S": 0.5
+   },
+   "literature": {
+    "best_help_level": 1,
+    "n_harm_papers": 0,
+    "n_help_papers": 2,
+    "net": 0.75
+   },
+   "mean_rank": 9.0,
+   "n_missing": 2,
+   "p_rank1": 0.2104,
+   "p_top10": 0.6671,
+   "p_top3": 0.3974,
+   "p_top5": 0.5017,
+   "primary": true,
+   "proposed": true,
+   "track1_bonus": 0.25,
+   "track1_genes_bearing": [
+    "CENPE",
+    "MAD1L1",
+    "CDC20",
+    "MAD2L1BP",
+    "TTK",
+    "CEP192"
+   ]
+  },
+  "TREOSULFAN": {
+   "age_bands": {
+    "0-4": "partly",
+    "12-17": "labelled",
+    "5-11": "labelled"
+   },
+   "best_rank": 6,
+   "central_weight": {
+    "A": 0.013,
+    "B1": 0.106,
+    "B2": 0.001,
+    "C": 0.037,
+    "D": 0.022,
+    "E": 0.333,
+    "ENG": 0.001,
+    "EP": 0.02,
+    "LIT": 0.043,
+    "M": 0.41,
+    "S": 0.016
+   },
+   "confidence_factor": 0.365,
+   "consequences_addressed": {
+    "5": 0.5
+   },
+   "directions": {
+    "A": "neutral",
+    "B1": "missing",
+    "B2": "missing",
+    "C": "missing",
+    "D": "missing",
+    "E": "missing",
+    "ENG": "missing",
+    "EP": "missing",
+    "LIT": "contrary",
+    "M": "neutral",
+    "S": "contrary"
+   },
+   "evidence_tier": "literature without a supportive finding (1 harm papers); 0 lines supporting, 0 contrary",
+   "grades": {
+    "A": 0.0,
+    "B1": null,
+    "B2": null,
+    "C": null,
+    "D": null,
+    "E": null,
+    "ENG": null,
+    "EP": null,
+    "LIT": 0.2689,
+    "M": 0.525,
+    "S": 0.0
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 1,
+    "n_help_papers": 0,
+    "net": -1.0
+   },
+   "mean_rank": 66.31,
+   "n_missing": 7,
+   "p_rank1": 0.0,
+   "p_top10": 0.0004,
+   "p_top3": 0.0,
+   "p_top5": 0.0,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.25,
+   "track1_genes_bearing": [
+    "CENPE",
+    "MAD1L1",
+    "CDC20",
+    "MAD2L1BP",
+    "TTK",
+    "CEP192"
+   ]
+  },
+  "TYROSINE": {
+   "age_bands": {
+    "0-4": "verify",
+    "12-17": "verify",
+    "5-11": "verify"
+   },
+   "best_rank": 1,
+   "central_weight": {
+    "A": 0.023,
+    "B1": 0.138,
+    "B2": 0.072,
+    "C": 0.106,
+    "D": 0.05,
+    "E": 0.127,
+    "ENG": 0.137,
+    "EP": 0.078,
+    "LIT": 0.083,
+    "M": 0.062,
+    "S": 0.123
+   },
+   "confidence_factor": 0.273,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "missing",
+    "B2": "missing",
+    "C": "missing",
+    "D": "missing",
+    "E": "missing",
+    "ENG": "supportive",
+    "EP": "missing",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "supportive"
+   },
+   "evidence_tier": "no verified literature entry; 1 lines supporting, 0 contrary",
+   "grades": {
+    "A": 0.1664,
+    "B1": null,
+    "B2": null,
+    "C": null,
+    "D": null,
+    "E": null,
+    "ENG": 0.9992,
+    "EP": null,
+    "LIT": null,
+    "M": null,
+    "S": 1.0
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 18.48,
+   "n_missing": 8,
+   "p_rank1": 0.115,
+   "p_top10": 0.4514,
+   "p_top3": 0.2456,
+   "p_top5": 0.3221,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "VALPROIC ACID": {
+   "age_bands": {
+    "0-4": "not_assessed",
+    "12-17": "not_assessed",
+    "5-11": "not_assessed"
+   },
+   "best_rank": 14,
+   "central_weight": {
+    "A": 0.001,
+    "B1": 0.329,
+    "B2": 0.136,
+    "C": 0.113,
+    "D": 0.013,
+    "E": 0.129,
+    "ENG": 0.082,
+    "EP": 0.083,
+    "LIT": 0.041,
+    "M": 0.027,
+    "S": 0.046
+   },
+   "confidence_factor": 0.183,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "missing",
+    "B2": "missing",
+    "C": "missing",
+    "D": "missing",
+    "E": "missing",
+    "ENG": "missing",
+    "EP": "missing",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "neutral"
+   },
+   "evidence_tier": "no verified literature entry; 0 lines supporting, 0 contrary",
+   "grades": {
+    "A": 0.0397,
+    "B1": null,
+    "B2": null,
+    "C": null,
+    "D": null,
+    "E": null,
+    "ENG": null,
+    "EP": null,
+    "LIT": null,
+    "M": null,
+    "S": 0.5
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 63.63,
+   "n_missing": 9,
+   "p_rank1": 0.0,
+   "p_top10": 0.0,
+   "p_top3": 0.0,
+   "p_top5": 0.0,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "VINCRISTINE": {
+   "age_bands": {
+    "0-4": "verify",
+    "12-17": "verify",
+    "5-11": "verify"
+   },
+   "best_rank": 1,
+   "central_weight": {
+    "A": 0.234,
+    "B1": 0.085,
+    "B2": 0.079,
+    "C": 0.076,
+    "D": 0.025,
+    "E": 0.105,
+    "ENG": 0.025,
+    "EP": 0.031,
+    "LIT": 0.105,
+    "M": 0.215,
+    "S": 0.02
+   },
+   "confidence_factor": 0.546,
+   "consequences_addressed": {
+    "5": 1.0
+   },
+   "directions": {
+    "A": "neutral",
+    "B1": "missing",
+    "B2": "missing",
+    "C": "missing",
+    "D": "missing",
+    "E": "contrary",
+    "ENG": "missing",
+    "EP": "contrary",
+    "LIT": "supportive",
+    "M": "supportive",
+    "S": "contrary"
+   },
+   "evidence_tier": "level 1 literature (1 help, 0 harm papers); 0 lines supporting, 1 contrary",
+   "grades": {
+    "A": 0.8219,
+    "B1": null,
+    "B2": null,
+    "C": null,
+    "D": null,
+    "E": 0.2507,
+    "ENG": null,
+    "EP": 0.0,
+    "LIT": 0.6225,
+    "M": 1.0,
+    "S": 0.0
+   },
+   "literature": {
+    "best_help_level": 1,
+    "n_harm_papers": 0,
+    "n_help_papers": 1,
+    "net": 0.5
+   },
+   "mean_rank": 33.54,
+   "n_missing": 5,
+   "p_rank1": 0.0024,
+   "p_top10": 0.1761,
+   "p_top3": 0.0408,
+   "p_top5": 0.0956,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.25,
+   "track1_genes_bearing": [
+    "CENPE",
+    "MAD1L1",
+    "CDC20",
+    "MAD2L1BP",
+    "TTK",
+    "CEP192"
+   ]
+  },
+  "VORINOSTAT": {
+   "age_bands": {
+    "0-4": "not_labelled",
+    "12-17": "not_labelled",
+    "5-11": "not_labelled"
+   },
+   "best_rank": 1,
+   "central_weight": {
+    "A": 0.063,
+    "B1": 0.119,
+    "B2": 0.06,
+    "C": 0.056,
+    "D": 0.158,
+    "E": 0.019,
+    "ENG": 0.232,
+    "EP": 0.02,
+    "LIT": 0.065,
+    "M": 0.034,
+    "S": 0.174
+   },
+   "confidence_factor": 0.635,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "supportive",
+    "E": "contrary",
+    "ENG": "supportive",
+    "EP": "contrary",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "supportive"
+   },
+   "evidence_tier": "no verified literature entry; 2 lines supporting, 1 contrary",
+   "grades": {
+    "A": 0.5695,
+    "B1": 0.2222,
+    "B2": null,
+    "C": null,
+    "D": 1.0,
+    "E": 0.0033,
+    "ENG": 0.9954,
+    "EP": 0.0,
+    "LIT": null,
+    "M": null,
+    "S": 1.0
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 19.45,
+   "n_missing": 4,
+   "p_rank1": 0.0014,
+   "p_top10": 0.2348,
+   "p_top3": 0.0244,
+   "p_top5": 0.0719,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "ZINC CHLORIDE": {
+   "age_bands": {
+    "0-4": "verify",
+    "12-17": "verify",
+    "5-11": "verify"
+   },
+   "best_rank": 2,
+   "central_weight": {
+    "A": 0.018,
+    "B1": 0.142,
+    "B2": 0.07,
+    "C": 0.105,
+    "D": 0.05,
+    "E": 0.13,
+    "ENG": 0.137,
+    "EP": 0.079,
+    "LIT": 0.084,
+    "M": 0.061,
+    "S": 0.124
+   },
+   "confidence_factor": 0.273,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "missing",
+    "B2": "missing",
+    "C": "missing",
+    "D": "missing",
+    "E": "missing",
+    "ENG": "supportive",
+    "EP": "missing",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "supportive"
+   },
+   "evidence_tier": "no verified literature entry; 1 lines supporting, 0 contrary",
+   "grades": {
+    "A": -0.0415,
+    "B1": null,
+    "B2": null,
+    "C": null,
+    "D": null,
+    "E": null,
+    "ENG": 0.9969,
+    "EP": null,
+    "LIT": null,
+    "M": null,
+    "S": 1.0
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 25.75,
+   "n_missing": 8,
+   "p_rank1": 0.0,
+   "p_top10": 0.3521,
+   "p_top3": 0.148,
+   "p_top5": 0.2327,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "ZIPRASIDONE": {
+   "age_bands": {
+    "0-4": "not_assessed",
+    "12-17": "not_assessed",
+    "5-11": "not_assessed"
+   },
+   "best_rank": 46,
+   "central_weight": {
+    "A": 0.074,
+    "B1": 0.04,
+    "B2": 0.014,
+    "C": 0.194,
+    "D": 0.007,
+    "E": 0.48,
+    "ENG": 0.0,
+    "EP": 0.01,
+    "LIT": 0.144,
+    "M": 0.028,
+    "S": 0.011
+   },
+   "confidence_factor": 0.456,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "missing",
+    "E": "contrary",
+    "ENG": "missing",
+    "EP": "contrary",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "neutral"
+   },
+   "evidence_tier": "no verified literature entry; 0 lines supporting, 1 contrary",
+   "grades": {
+    "A": 0.1042,
+    "B1": 0.0,
+    "B2": null,
+    "C": null,
+    "D": null,
+    "E": 0.2507,
+    "ENG": null,
+    "EP": 0.0,
+    "LIT": null,
+    "M": null,
+    "S": 0.5
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 70.89,
+   "n_missing": 6,
+   "p_rank1": 0.0,
+   "p_top10": 0.0,
+   "p_top3": 0.0,
+   "p_top5": 0.0,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  },
+  "ZONISAMIDE": {
+   "age_bands": {
+    "0-4": "not_assessed",
+    "12-17": "not_assessed",
+    "5-11": "not_assessed"
+   },
+   "best_rank": 6,
+   "central_weight": {
+    "A": 0.012,
+    "B1": 0.258,
+    "B2": 0.018,
+    "C": 0.082,
+    "D": 0.007,
+    "E": 0.121,
+    "ENG": 0.04,
+    "EP": 0.032,
+    "LIT": 0.001,
+    "M": 0.135,
+    "S": 0.293
+   },
+   "confidence_factor": 0.456,
+   "consequences_addressed": {},
+   "directions": {
+    "A": "neutral",
+    "B1": "neutral",
+    "B2": "missing",
+    "C": "missing",
+    "D": "missing",
+    "E": "contrary",
+    "ENG": "missing",
+    "EP": "contrary",
+    "LIT": "missing",
+    "M": "missing",
+    "S": "supportive"
+   },
+   "evidence_tier": "no verified literature entry; 0 lines supporting, 1 contrary",
+   "grades": {
+    "A": 0.0119,
+    "B1": 0.3333,
+    "B2": null,
+    "C": null,
+    "D": null,
+    "E": 0.2507,
+    "ENG": null,
+    "EP": 0.0,
+    "LIT": null,
+    "M": null,
+    "S": 1.0
+   },
+   "literature": {
+    "best_help_level": null,
+    "n_harm_papers": 0,
+    "n_help_papers": 0,
+    "net": 0.0
+   },
+   "mean_rank": 50.96,
+   "n_missing": 6,
+   "p_rank1": 0.0,
+   "p_top10": 0.0027,
+   "p_top3": 0.0,
+   "p_top5": 0.0,
+   "primary": false,
+   "proposed": false,
+   "track1_bonus": 0.0,
+   "track1_genes_bearing": []
+  }
+ },
+ "excluded": {
+  "BORTEZOMIB": "hazard: verified entries state selective killing of aneuploid cells (hazard for a constitutional mosaic)",
+  "BOSUTINIB": "hazard: verified entries state selective killing of aneuploid cells (hazard for a constitutional mosaic)",
+  "CHLOROQUINE": "hazard: verified entries state selective killing of aneuploid cells (hazard for a constitutional mosaic)"
+ },
+ "label": "hypotheses for follow-up; low evidence; the integration orders hypotheses and creates no evidence; no clinical recommendation, dose or claim of efficacy",
+ "missing_penalty": 0.5,
+ "n_draws": 10000,
+ "pool": {
+  "approval_checked_not_eligible": [
+   "ESTRONE",
+   "OXYMETHOLONE",
+   "TOLAZOLINE"
+  ],
+  "approval_not_checked": [
+   "ABEMACICLIB",
+   "ACAMPROSATE",
+   "ACYCLOVIR",
+   "ADAPALENE",
+   "ALFACALCIDOL",
+   "AMBRISENTAN",
+   "AMIODARONE",
+   "AMISULPRIDE",
+   "AMPHETAMINE",
+   "AMPHOTERICIN B",
+   "APROCITENTAN",
+   "ATALUREN",
+   "ATROPINE",
+   "AURANOFIN",
+   "AXITINIB",
+   "BENZONATATE",
+   "BETAMETHASONE",
+   "BINIMETINIB",
+   "BOSENTAN",
+   "BUMETANIDE",
+   "BUTABARBITAL",
+   "CALCITRIOL",
+   "CARBENOXOLONE",
+   "CARBIDOPA ANHYDROUS",
+   "CEFIXIME",
+   "CENOBAMATE",
+   "CHENODIOL",
+   "CHLOROTHIAZIDE",
+   "CHLORPROTHIXENE",
+   "CLEMASTINE",
+   "COPANLISIB",
+   "CRIZOTINIB",
+   "DABRAFENIB",
+   "DAPRODUSTAT",
+   "DASATINIB ANHYDROUS",
+   "DESERPIDINE",
+   "DEXKETOPROFEN",
+   "DICLOFENAC",
+   "DIDANOSINE",
+   "DIFLORASONE DIACETATE",
+   "DOBUTAMINE",
+   "DRONEDARONE",
+   "DROSPIRENONE",
+   "DYDROGESTERONE",
+   "EDARAVONE",
+   "ENZALUTAMIDE",
+   "EPLERENONE",
+   "ERDAFITINIB",
+   "ESLICARBAZEPINE",
+   "ESTRADIOL CYPIONATE",
+   "ESTRADIOL VALERATE",
+   "ESTRIOL",
+   "ETHACRYNIC ACID",
+   "ETODOLAC",
+   "FLUCYTOSINE",
+   "FLUMAZENIL",
+   "FLUPHENAZINE",
+   "FLUVOXAMINE",
+   "FRUQUINTINIB",
+   "FUROSEMIDE",
+   "FUTIBATINIB",
+   "GALLIUM NITRATE",
+   "GLUCOSAMINE",
+   "HALOPROGIN",
+   "HEXYLCAINE",
+   "HOMATROPINE",
+   "HYDROCHLOROTHIAZIDE",
+   "HYDROXYCHLOROQUINE",
+   "INFIGRATINIB",
+   "ISOTRETINOIN",
+   "KETOPROFEN",
+   "LAZERTINIB",
+   "LENALIDOMIDE",
+   "LEVOFLOXACIN ANHYDROUS",
+   "LIDOCAINE",
+   "LORAZEPAM",
+   "LOSARTAN",
+   "LOXAPINE",
+   "MACITENTAN",
+   "MASOPROCOL",
+   "MAVACAMTEN",
+   "MECAMYLAMINE",
+   "MESTRANOL",
+   "METHADONE",
+   "METHOTREXATE",
+   "METHYSERGIDE",
+   "MIRTAZAPINE",
+   "MOLINDONE",
+   "NELFINAVIR",
+   "NERATINIB",
+   "NIACIN",
+   "NIACINAMIDE",
+   "NICARDIPINE",
+   "NICLOSAMIDE",
+   "NIFEDIPINE",
+   "NIMODIPINE",
+   "NIROGACESTAT",
+   "NITAZOXANIDE",
+   "NIZATIDINE",
+   "OXCARBAZEPINE",
+   "OXYBUTYNIN",
+   "PEMETREXED",
+   "PEMIGATINIB",
+   "PENICILLIN G",
+   "PHENACEMIDE",
+   "PHENOXYBENZAMINE",
+   "PIMOZIDE",
+   "PLICAMYCIN",
+   "PRALSETINIB",
+   "PRAZIQUANTEL",
+   "PREDNISOLONE",
+   "PRIMIDONE",
+   "PROPOFOL",
+   "PYRIMETHAMINE",
+   "QUININE",
+   "RACECADOTRIL",
+   "RALOXIFENE",
+   "RANOLAZINE",
+   "RILMENIDINE",
+   "RITLECITINIB",
+   "RUFINAMIDE",
+   "RUXOLITINIB",
+   "SALMETEROL",
+   "SCOPOLAMINE",
+   "SODIUM CITRATE",
+   "SONIDEGIB",
+   "SPARSENTAN",
+   "SUFENTANIL",
+   "SULFACETAMIDE",
+   "TACALCITOL",
+   "TAZAROTENE",
+   "TEDIZOLID",
+   "TEMAZEPAM",
+   "THONZONIUM",
+   "TIGECYCLINE",
+   "TIVOZANIB",
+   "TOFACITINIB",
+   "TORSEMIDE",
+   "TOVORAFENIB",
+   "TRAMADOL",
+   "TRETINOIN",
+   "TRIAMTERENE",
+   "TRICHLORMETHIAZIDE",
+   "TRICLABENDAZOLE",
+   "TRIDIHEXETHYL",
+   "TRIFLUOPERAZINE",
+   "TRIOXSALEN",
+   "URSODIOL",
+   "VECURONIUM",
+   "VENETOCLAX",
+   "VERAPAMIL",
+   "VERNAKALANT"
+  ],
+  "drugs": [
+   "AMITRIPTYLINE",
+   "AMOXAPINE",
+   "APOMORPHINE",
+   "ARIPIPRAZOLE",
+   "ARSENIC TRIOXIDE",
+   "AVAPRITINIB",
+   "BELINOSTAT",
+   "BORTEZOMIB",
+   "BOSUTINIB",
+   "BRIGATINIB",
+   "CABAZITAXEL",
+   "CANNABIDIOL",
+   "CARBAMAZEPINE",
+   "CARBOPLATIN",
+   "CARVEDILOL",
+   "CERITINIB",
+   "CHLOROQUINE",
+   "CHLORPROMAZINE",
+   "CISPLATIN",
+   "CLOZAPINE",
+   "COBIMETINIB",
+   "COLCHICINE",
+   "DESIPRAMINE",
+   "DISOPYRAMIDE",
+   "DOXEPIN",
+   "DOXORUBICIN",
+   "ENTRECTINIB",
+   "ERIBULIN",
+   "ESTRADIOL",
+   "ETOPOSIDE",
+   "EVEROLIMUS",
+   "FINGOLIMOD",
+   "FLUVASTATIN",
+   "FOSTAMATINIB",
+   "HALOPERIDOL DECANOATE",
+   "HYDROXYUREA",
+   "INDOMETHACIN",
+   "IXAZOMIB CITRATE",
+   "KETAMINE",
+   "LAMOTRIGINE",
+   "LAROTRECTINIB",
+   "LOVASTATIN",
+   "METFORMIN",
+   "METHYLDOPA",
+   "MINOCYCLINE",
+   "NORTRIPTYLINE",
+   "OLANZAPINE",
+   "OLAPARIB",
+   "PACLITAXEL",
+   "PAROXETINE",
+   "PHENYLBUTANOIC ACID",
+   "PHENYTOIN",
+   "PINDOLOL",
+   "POMALIDOMIDE",
+   "PRAVASTATIN",
+   "PROGESTERONE",
+   "PROMETHAZINE",
+   "QUETIAPINE",
+   "QUIZARTINIB",
+   "REGORAFENIB",
+   "RIPRETINIB",
+   "RISPERIDONE",
+   "SELINEXOR",
+   "SELPERCATINIB",
+   "SELUMETINIB",
+   "SILDENAFIL",
+   "SIROLIMUS",
+   "SORAFENIB",
+   "SPIRONOLACTONE",
+   "SUNITINIB",
+   "TAMOXIFEN",
+   "TEMOZOLOMIDE",
+   "TEMSIROLIMUS",
+   "TIRBANIBULIN",
+   "TOPIRAMATE",
+   "TRAMETINIB",
+   "TREOSULFAN",
+   "TYROSINE",
+   "VALPROIC ACID",
+   "VINCRISTINE",
+   "VORINOSTAT",
+   "ZINC CHLORIDE",
+   "ZIPRASIDONE",
+   "ZONISAMIDE"
+  ],
+  "n_after_exclusion": 81,
+  "n_by_source": {
+   "A": 31,
+   "B1": 13,
+   "B2": 3,
+   "D": 14,
+   "E": 9,
+   "ENG": 28,
+   "EP": 7,
+   "literature": 19
+  },
+  "n_not_small_molecule_or_not_in_universe": 45,
+  "size": 84
+ },
+ "primary": [
+  "TRAMETINIB"
+ ],
+ "proposal_rule": "P(top 5) >= 0.5, not hard-excluded; primary = top 3",
+ "proposed": [
+  "TRAMETINIB"
+ ],
+ "protocol": "protocol/addendum_multi_evidence.md (post hoc)",
+ "seed": 20261018,
+ "sensitivity": {
+  "equal_weights": {
+   "jaccard_top5_with_baseline_proposed": 0.2,
+   "ties_with_fifth": [],
+   "top5": [
+    {
+     "drug": "TRAMETINIB",
+     "score": 0.5307
+    },
+    {
+     "drug": "BRIGATINIB",
+     "score": 0.5145
+    },
+    {
+     "drug": "CERITINIB",
+     "score": 0.5114
+    },
+    {
+     "drug": "PINDOLOL",
+     "score": 0.5034
+    },
+    {
+     "drug": "MINOCYCLINE",
+     "score": 0.4958
+    }
+   ],
+   "top5_in_baseline_proposed": [
+    "TRAMETINIB"
+   ]
+  },
+  "label_error_monte_carlo": {
+   "10": {
+    "draws_per_replicate": 2000,
+    "expected_baseline_retained": 0.62,
+    "mean_jaccard": 0.62,
+    "mean_set_size": 0.62,
+    "n_baseline": 1,
+    "replicates": 200,
+    "retained_fraction_by_baseline_candidate": {
+     "TRAMETINIB": 0.62
+    }
+   },
+   "20": {
+    "draws_per_replicate": 2000,
+    "expected_baseline_retained": 0.52,
+    "mean_jaccard": 0.52,
+    "mean_set_size": 0.52,
+    "n_baseline": 1,
+    "replicates": 200,
+    "retained_fraction_by_baseline_candidate": {
+     "TRAMETINIB": 0.52
+    }
+   },
+   "30": {
+    "draws_per_replicate": 2000,
+    "expected_baseline_retained": 0.41,
+    "mean_jaccard": 0.41,
+    "mean_set_size": 0.41,
+    "n_baseline": 1,
+    "replicates": 200,
+    "retained_fraction_by_baseline_candidate": {
+     "TRAMETINIB": 0.41
+    }
+   }
+  },
+  "leave_one_criterion_out": {
+   "A": {
+    "baseline_retained": [],
+    "jaccard_with_baseline": 0.0,
+    "proposed": [
+     "TYROSINE",
+     "ZINC CHLORIDE",
+     "SELINEXOR"
+    ],
+    "top5_by_p_top5": [
+     {
+      "drug": "TYROSINE",
+      "p_top5": 0.827
+     },
+     {
+      "drug": "ZINC CHLORIDE",
+      "p_top5": 0.793
+     },
+     {
+      "drug": "SELINEXOR",
+      "p_top5": 0.558
+     },
+     {
+      "drug": "TRAMETINIB",
+      "p_top5": 0.469
+     },
+     {
+      "drug": "BRIGATINIB",
+      "p_top5": 0.404
+     }
+    ]
+   },
+   "B1": {
+    "baseline_retained": [],
+    "jaccard_with_baseline": 0.0,
+    "proposed": [],
+    "top5_by_p_top5": [
+     {
+      "drug": "BRIGATINIB",
+      "p_top5": 0.487
+     },
+     {
+      "drug": "PINDOLOL",
+      "p_top5": 0.482
+     },
+     {
+      "drug": "SELINEXOR",
+      "p_top5": 0.393
+     },
+     {
+      "drug": "FLUVASTATIN",
+      "p_top5": 0.365
+     },
+     {
+      "drug": "ENTRECTINIB",
+      "p_top5": 0.353
+     }
+    ]
+   },
+   "B2": {
+    "baseline_retained": [
+     "TRAMETINIB"
+    ],
+    "jaccard_with_baseline": 1.0,
+    "proposed": [
+     "TRAMETINIB"
+    ],
+    "top5_by_p_top5": [
+     {
+      "drug": "TRAMETINIB",
+      "p_top5": 0.562
+     },
+     {
+      "drug": "BRIGATINIB",
+      "p_top5": 0.489
+     },
+     {
+      "drug": "PINDOLOL",
+      "p_top5": 0.439
+     },
+     {
+      "drug": "MINOCYCLINE",
+      "p_top5": 0.398
+     },
+     {
+      "drug": "TYROSINE",
+      "p_top5": 0.332
+     }
+    ]
+   },
+   "C": {
+    "baseline_retained": [
+     "TRAMETINIB"
+    ],
+    "jaccard_with_baseline": 1.0,
+    "proposed": [
+     "TRAMETINIB"
+    ],
+    "top5_by_p_top5": [
+     {
+      "drug": "TRAMETINIB",
+      "p_top5": 0.522
+     },
+     {
+      "drug": "BRIGATINIB",
+      "p_top5": 0.414
+     },
+     {
+      "drug": "PINDOLOL",
+      "p_top5": 0.384
+     },
+     {
+      "drug": "CERITINIB",
+      "p_top5": 0.372
+     },
+     {
+      "drug": "MINOCYCLINE",
+      "p_top5": 0.365
+     }
+    ]
+   },
+   "D": {
+    "baseline_retained": [],
+    "jaccard_with_baseline": 0.0,
+    "proposed": [
+     "MINOCYCLINE"
+    ],
+    "top5_by_p_top5": [
+     {
+      "drug": "MINOCYCLINE",
+      "p_top5": 0.547
+     },
+     {
+      "drug": "FLUVASTATIN",
+      "p_top5": 0.461
+     },
+     {
+      "drug": "TYROSINE",
+      "p_top5": 0.446
+     },
+     {
+      "drug": "LOVASTATIN",
+      "p_top5": 0.446
+     },
+     {
+      "drug": "TRAMETINIB",
+      "p_top5": 0.42
+     }
+    ]
+   },
+   "E": {
+    "baseline_retained": [
+     "TRAMETINIB"
+    ],
+    "jaccard_with_baseline": 0.5,
+    "proposed": [
+     "MINOCYCLINE",
+     "TRAMETINIB"
+    ],
+    "top5_by_p_top5": [
+     {
+      "drug": "MINOCYCLINE",
+      "p_top5": 0.587
+     },
+     {
+      "drug": "TRAMETINIB",
+      "p_top5": 0.565
+     },
+     {
+      "drug": "CERITINIB",
+      "p_top5": 0.467
+     },
+     {
+      "drug": "PINDOLOL",
+      "p_top5": 0.426
+     },
+     {
+      "drug": "FLUVASTATIN",
+      "p_top5": 0.411
+     }
+    ]
+   },
+   "ENG": {
+    "baseline_retained": [],
+    "jaccard_with_baseline": 0.0,
+    "proposed": [
+     "BRIGATINIB",
+     "PINDOLOL",
+     "CERITINIB",
+     "MINOCYCLINE"
+    ],
+    "top5_by_p_top5": [
+     {
+      "drug": "BRIGATINIB",
+      "p_top5": 0.674
+     },
+     {
+      "drug": "PINDOLOL",
+      "p_top5": 0.564
+     },
+     {
+      "drug": "CERITINIB",
+      "p_top5": 0.537
+     },
+     {
+      "drug": "MINOCYCLINE",
+      "p_top5": 0.502
+     },
+     {
+      "drug": "SELINEXOR",
+      "p_top5": 0.48
+     }
+    ]
+   },
+   "EP": {
+    "baseline_retained": [
+     "TRAMETINIB"
+    ],
+    "jaccard_with_baseline": 1.0,
+    "proposed": [
+     "TRAMETINIB"
+    ],
+    "top5_by_p_top5": [
+     {
+      "drug": "TRAMETINIB",
+      "p_top5": 0.678
+     },
+     {
+      "drug": "BRIGATINIB",
+      "p_top5": 0.401
+     },
+     {
+      "drug": "SELINEXOR",
+      "p_top5": 0.367
+     },
+     {
+      "drug": "BELINOSTAT",
+      "p_top5": 0.363
+     },
+     {
+      "drug": "CERITINIB",
+      "p_top5": 0.342
+     }
+    ]
+   },
+   "LIT": {
+    "baseline_retained": [],
+    "jaccard_with_baseline": 0.0,
+    "proposed": [],
+    "top5_by_p_top5": [
+     {
+      "drug": "BRIGATINIB",
+      "p_top5": 0.443
+     },
+     {
+      "drug": "PINDOLOL",
+      "p_top5": 0.414
+     },
+     {
+      "drug": "CERITINIB",
+      "p_top5": 0.399
+     },
+     {
+      "drug": "TRAMETINIB",
+      "p_top5": 0.388
+     },
+     {
+      "drug": "MINOCYCLINE",
+      "p_top5": 0.381
+     }
+    ]
+   },
+   "M": {
+    "baseline_retained": [],
+    "jaccard_with_baseline": 0.0,
+    "proposed": [],
+    "top5_by_p_top5": [
+     {
+      "drug": "BRIGATINIB",
+      "p_top5": 0.485
+     },
+     {
+      "drug": "PINDOLOL",
+      "p_top5": 0.442
+     },
+     {
+      "drug": "CERITINIB",
+      "p_top5": 0.426
+     },
+     {
+      "drug": "MINOCYCLINE",
+      "p_top5": 0.417
+     },
+     {
+      "drug": "TYROSINE",
+      "p_top5": 0.337
+     }
+    ]
+   },
+   "S": {
+    "baseline_retained": [
+     "TRAMETINIB"
+    ],
+    "jaccard_with_baseline": 0.5,
+    "proposed": [
+     "TRAMETINIB",
+     "SELINEXOR"
+    ],
+    "top5_by_p_top5": [
+     {
+      "drug": "TRAMETINIB",
+      "p_top5": 0.686
+     },
+     {
+      "drug": "SELINEXOR",
+      "p_top5": 0.509
+     },
+     {
+      "drug": "ERIBULIN",
+      "p_top5": 0.379
+     },
+     {
+      "drug": "CERITINIB",
+      "p_top5": 0.274
+     },
+     {
+      "drug": "PINDOLOL",
+      "p_top5": 0.264
+     }
+    ]
+   }
+  },
+  "literature_only_weights": {
+   "baseline_retained": [
+    "TRAMETINIB"
+   ],
+   "jaccard_with_baseline": 0.2,
+   "proposed": [
+    "ERIBULIN",
+    "TRAMETINIB",
+    "SELINEXOR",
+    "VINCRISTINE",
+    "TEMOZOLOMIDE"
+   ],
+   "top5_by_p_top5": [
+    {
+     "drug": "ERIBULIN",
+     "p_top5": 1.0
+    },
+    {
+     "drug": "SELINEXOR",
+     "p_top5": 1.0
+    },
+    {
+     "drug": "TRAMETINIB",
+     "p_top5": 1.0
+    },
+    {
+     "drug": "VINCRISTINE",
+     "p_top5": 1.0
+    },
+    {
+     "drug": "TEMOZOLOMIDE",
+     "p_top5": 0.76
+    }
+   ]
+  },
+  "track1_gene_block_off": {
+   "baseline_retained": [
+    "TRAMETINIB"
+   ],
+   "drugs_with_gene_bonus": {
+    "CABAZITAXEL": {
+     "bonus": 0.5,
+     "genes": [
+      "CENPE",
+      "MAD1L1",
+      "CDC20",
+      "MAD2L1BP",
+      "TTK",
+      "CEP192"
+     ]
+    },
+    "CARBOPLATIN": {
+     "bonus": 0.25,
+     "genes": [
+      "CENPE",
+      "MAD1L1",
+      "CDC20",
+      "MAD2L1BP",
+      "TTK",
+      "CEP192"
+     ]
+    },
+    "COLCHICINE": {
+     "bonus": 0.5,
+     "genes": [
+      "CENPE",
+      "MAD1L1",
+      "CDC20",
+      "MAD2L1BP",
+      "TTK",
+      "CEP192"
+     ]
+    },
+    "ERIBULIN": {
+     "bonus": 0.25,
+     "genes": [
+      "CENPE",
+      "MAD1L1",
+      "CDC20",
+      "MAD2L1BP",
+      "TTK",
+      "CEP192"
+     ]
+    },
+    "ETOPOSIDE": {
+     "bonus": 0.25,
+     "genes": [
+      "CENPE",
+      "MAD1L1",
+      "CDC20",
+      "MAD2L1BP",
+      "TTK",
+      "CEP192"
+     ]
+    },
+    "EVEROLIMUS": {
+     "bonus": 1.0,
+     "genes": [
+      "IGBP1"
+     ]
+    },
+    "METFORMIN": {
+     "bonus": 0.5,
+     "genes": [
+      "IGBP1"
+     ]
+    },
+    "OLAPARIB": {
+     "bonus": 0.25,
+     "genes": [
+      "CENPE",
+      "MAD1L1",
+      "CDC20",
+      "MAD2L1BP",
+      "TTK",
+      "CEP192"
+     ]
+    },
+    "PACLITAXEL": {
+     "bonus": 0.5,
+     "genes": [
+      "CENPE",
+      "MAD1L1",
+      "CDC20",
+      "MAD2L1BP",
+      "TTK",
+      "CEP192"
+     ]
+    },
+    "SELINEXOR": {
+     "bonus": 0.5,
+     "genes": [
+      "CENPE",
+      "MAD1L1",
+      "CDC20",
+      "MAD2L1BP",
+      "TTK",
+      "CEP192"
+     ]
+    },
+    "SELPERCATINIB": {
+     "bonus": 0.5,
+     "genes": [
+      "CENPE",
+      "MAD1L1",
+      "CDC20",
+      "MAD2L1BP",
+      "TTK",
+      "CEP192"
+     ]
+    },
+    "SELUMETINIB": {
+     "bonus": 0.25,
+     "genes": [
+      "CENPE",
+      "MAD1L1",
+      "CDC20",
+      "MAD2L1BP",
+      "TTK",
+      "CEP192"
+     ]
+    },
+    "SIROLIMUS": {
+     "bonus": 1.0,
+     "genes": [
+      "IGBP1",
+      "CENPE",
+      "MAD1L1",
+      "CDC20",
+      "MAD2L1BP",
+      "TTK",
+      "CEP192"
+     ]
+    },
+    "TEMOZOLOMIDE": {
+     "bonus": 0.25,
+     "genes": [
+      "CENPE",
+      "MAD1L1",
+      "CDC20",
+      "MAD2L1BP",
+      "TTK",
+      "CEP192"
+     ]
+    },
+    "TEMSIROLIMUS": {
+     "bonus": 1.0,
+     "genes": [
+      "IGBP1",
+      "CENPE",
+      "MAD1L1",
+      "CDC20",
+      "MAD2L1BP",
+      "TTK",
+      "CEP192"
+     ]
+    },
+    "TRAMETINIB": {
+     "bonus": 0.25,
+     "genes": [
+      "CENPE",
+      "MAD1L1",
+      "CDC20",
+      "MAD2L1BP",
+      "TTK",
+      "CEP192"
+     ]
+    },
+    "TREOSULFAN": {
+     "bonus": 0.25,
+     "genes": [
+      "CENPE",
+      "MAD1L1",
+      "CDC20",
+      "MAD2L1BP",
+      "TTK",
+      "CEP192"
+     ]
+    },
+    "VINCRISTINE": {
+     "bonus": 0.25,
+     "genes": [
+      "CENPE",
+      "MAD1L1",
+      "CDC20",
+      "MAD2L1BP",
+      "TTK",
+      "CEP192"
+     ]
+    }
+   },
+   "jaccard_with_baseline": 1.0,
+   "p_top5_change": {
+    "APOMORPHINE": -0.001,
+    "ARSENIC TRIOXIDE": -0.0002,
+    "AVAPRITINIB": -0.0001,
+    "BELINOSTAT": -0.0019,
+    "BRIGATINIB": -0.0034,
+    "CARBOPLATIN": 0.0022,
+    "CARVEDILOL": -0.0007,
+    "CERITINIB": -0.0014,
+    "CISPLATIN": -0.0001,
+    "DISOPYRAMIDE": -0.0002,
+    "DOXORUBICIN": -0.0002,
+    "ENTRECTINIB": -0.0015,
+    "ERIBULIN": -0.0014,
+    "EVEROLIMUS": 0.0024,
+    "FLUVASTATIN": -0.0006,
+    "KETAMINE": -0.0001,
+    "LAROTRECTINIB": -0.0001,
+    "LOVASTATIN": -0.0008,
+    "MINOCYCLINE": -0.0018,
+    "OLAPARIB": 0.0014,
+    "PINDOLOL": -0.0022,
+    "POMALIDOMIDE": -0.0006,
+    "PROGESTERONE": -0.0007,
+    "REGORAFENIB": -0.0003,
+    "RIPRETINIB": -0.0006,
+    "RISPERIDONE": -0.0002,
+    "SELINEXOR": -0.001,
+    "SELPERCATINIB": 0.0029,
+    "SELUMETINIB": 0.0017,
+    "SUNITINIB": -0.0001,
+    "TEMOZOLOMIDE": -0.0007,
+    "TEMSIROLIMUS": 0.014,
+    "TRAMETINIB": -0.0002,
+    "TYROSINE": -0.0007,
+    "VINCRISTINE": -0.0007,
+    "VORINOSTAT": -0.0008,
+    "ZINC CHLORIDE": -0.0003
+   },
+   "proposed": [
+    "TRAMETINIB"
+   ],
+   "top5_by_p_top5": [
+    {
+     "drug": "TRAMETINIB",
+     "p_top5": 0.502
+    },
+    {
+     "drug": "BRIGATINIB",
+     "p_top5": 0.435
+    },
+    {
+     "drug": "MINOCYCLINE",
+     "p_top5": 0.388
+    },
+    {
+     "drug": "PINDOLOL",
+     "p_top5": 0.381
+    },
+    {
+     "drug": "CERITINIB",
+     "p_top5": 0.369
+    }
+   ]
+  }
+ },
+ "track1_gene_block": {
+  "cap": 0.1,
+  "genes": [
+   {
+    "gene": "BUB1B",
+    "role": "recessive candidate, compound heterozygous: stop-gain with predicted decay plus a missense of uncertain significance; primary",
+    "tier": "causal candidate",
+    "tier_weight": 0.0
+   },
+   {
+    "gene": "IGBP1",
+    "role": "hemizygous missense, rank 2 genome-wide, phenotype score 0.141; alpha4 regulatory subunit of PP2A; literature links it to the PP2A switch that dephosphorylates AKT (PMID 34998390, 38419089), translation initiation (PMID 18625885) and autophagy (PMID 40600667); variant effect untested; not an MVA gene",
+    "tier": "hypothesis-grade modifier, insufficient evidence",
+    "tier_weight": 1.0
+   },
+   {
+    "gene": "CENPE",
+    "role": "structural call not overlapping coding sequence (MCPH13)",
+    "tier": "pathway context only",
+    "tier_weight": 0.5
+   },
+   {
+    "gene": "MAD1L1",
+    "role": "structural call not overlapping coding sequence (MVA7)",
+    "tier": "pathway context only",
+    "tier_weight": 0.5
+   },
+   {
+    "gene": "CDC20",
+    "role": "megabase-scale duplication not analysed in Track 1; real copy-number change or caller artefact, undetermined",
+    "tier": "undetermined",
+    "tier_weight": 0.25
+   },
+   {
+    "gene": "MAD2L1BP",
+    "role": "megabase-scale duplication not analysed in Track 1; undetermined",
+    "tier": "undetermined",
+    "tier_weight": 0.25
+   },
+   {
+    "gene": "TTK",
+    "role": "megabase-scale deletion containing the gene, not analysed in Track 1; undetermined",
+    "tier": "undetermined",
+    "tier_weight": 0.25
+   },
+   {
+    "gene": "CEP192",
+    "role": "megabase-scale deletion overlapping the gene, not analysed in Track 1; undetermined",
+    "tier": "undetermined",
+    "tier_weight": 0.25
+   },
+   {
+    "gene": "DNAH10",
+    "role": "no mechanistic link found in the differential diagnosis",
+    "tier": "none",
+    "tier_weight": 0.0
+   },
+   {
+    "gene": "IZUMO4",
+    "role": "no mechanistic link found in the differential diagnosis",
+    "tier": "none",
+    "tier_weight": 0.0
+   },
+   {
+    "gene": "ZNF418",
+    "role": "no mechanistic link found in the differential diagnosis",
+    "tier": "none",
+    "tier_weight": 0.0
+   }
+  ],
+  "statement": "These are hypotheses to test (karyotype or single-cell sequencing for the megabase events; function tests for IGBP1), not findings.",
+  "tests": {
+   "CENPE_MAD1L1": "pathway context only; no direct test proposed",
+   "IGBP1": "function tests of the variant (PP2A-AKT-mTOR readouts)",
+   "megabase_events": "karyotype or single-cell sequencing"
+  }
+ }
+}

@@ -1,0 +1,1574 @@
+{
+ "definition": {
+  "grade": "q < 0.1: 0.5 + 0.5 clip(rho / 0.3, -1, 1); else 0.5; missing if not in PRISM or fewer than 100 lines",
+  "not_adjusted_for": "proliferation and lineage",
+  "null": "1000 permutations of the score across cell lines, seed 20261018; BH across tested drugs",
+  "score": "mean over cell lines of the z-scored expression of BUB1B, BUB1, BUB3, MAD1L1, MAD2L1, TTK; low = weak checkpoint",
+  "statistic": "Spearman rho between PRISM viability (log fold change) and the score; rho > 0 = more lethal when the checkpoint is weak"
+ },
+ "drugs": {
+  "ABEMACICLIB": {
+   "grade": 0.5,
+   "n_lines": 550,
+   "n_prism_rows": 1,
+   "p_perm": 0.27172827172827174,
+   "q_bh": 0.6047440931161862,
+   "rho": 0.0475
+  },
+  "ACAMPROSATE": {
+   "grade": 0.5,
+   "n_lines": 522,
+   "n_prism_rows": 1,
+   "p_perm": 0.7792207792207793,
+   "q_bh": 0.9318994258753295,
+   "rho": -0.0117
+  },
+  "ACYCLOVIR": {
+   "grade": 0.5,
+   "n_lines": 554,
+   "n_prism_rows": 2,
+   "p_perm": 0.3956043956043956,
+   "q_bh": 0.7024750949984595,
+   "rho": 0.0372
+  },
+  "ADAPALENE": {
+   "grade": 0.5,
+   "n_lines": 546,
+   "n_prism_rows": 1,
+   "p_perm": 0.7962037962037962,
+   "q_bh": 0.9318994258753295,
+   "rho": 0.0114
+  },
+  "AMBRISENTAN": {
+   "grade": 0.5,
+   "n_lines": 538,
+   "n_prism_rows": 1,
+   "p_perm": 0.8591408591408591,
+   "q_bh": 0.9381423174526623,
+   "rho": -0.0084
+  },
+  "AMIODARONE": {
+   "grade": 0.5,
+   "n_lines": 552,
+   "n_prism_rows": 1,
+   "p_perm": 0.1838161838161838,
+   "q_bh": 0.5439336782620365,
+   "rho": 0.0549
+  },
+  "AMISULPRIDE": {
+   "grade": 0.5,
+   "n_lines": 546,
+   "n_prism_rows": 1,
+   "p_perm": 0.2957042957042957,
+   "q_bh": 0.6312788335260244,
+   "rho": 0.0449
+  },
+  "AMITRIPTYLINE": {
+   "grade": 0.5,
+   "n_lines": 554,
+   "n_prism_rows": 1,
+   "p_perm": 0.12887112887112886,
+   "q_bh": 0.46287046287046285,
+   "rho": 0.0661
+  },
+  "AMOXAPINE": {
+   "grade": 0.5,
+   "n_lines": 546,
+   "n_prism_rows": 1,
+   "p_perm": 0.2077922077922078,
+   "q_bh": 0.5640074211502784,
+   "rho": 0.0526
+  },
+  "ARIPIPRAZOLE": {
+   "grade": 0.5,
+   "n_lines": 552,
+   "n_prism_rows": 1,
+   "p_perm": 0.9590409590409591,
+   "q_bh": 0.9847679202517912,
+   "rho": -0.0025
+  },
+  "ATORVASTATIN": {
+   "grade": 0.3375,
+   "n_lines": 890,
+   "n_prism_rows": 2,
+   "p_perm": 0.003996003996003996,
+   "q_bh": 0.047452547452547456,
+   "rho": -0.0975
+  },
+  "ATROPINE": {
+   "grade": 0.5,
+   "n_lines": 549,
+   "n_prism_rows": 1,
+   "p_perm": 0.43156843156843155,
+   "q_bh": 0.7321250178393035,
+   "rho": -0.0354
+  },
+  "AURANOFIN": {
+   "grade": 0.5,
+   "n_lines": 469,
+   "n_prism_rows": 1,
+   "p_perm": 0.8831168831168831,
+   "q_bh": 0.9479785750972192,
+   "rho": 0.0057
+  },
+  "AVAPRITINIB": {
+   "grade": 0.5,
+   "n_lines": 872,
+   "n_prism_rows": 1,
+   "p_perm": 0.7252747252747253,
+   "q_bh": 0.9103396603396603,
+   "rho": -0.0107
+  },
+  "AXITINIB": {
+   "grade": 0.5,
+   "n_lines": 546,
+   "n_prism_rows": 1,
+   "p_perm": 0.01898101898101898,
+   "q_bh": 0.13357013357013356,
+   "rho": -0.1047
+  },
+  "BELINOSTAT": {
+   "grade": 0.5,
+   "n_lines": 552,
+   "n_prism_rows": 1,
+   "p_perm": 0.23876123876123875,
+   "q_bh": 0.5742358906915869,
+   "rho": -0.048
+  },
+  "BENZONATATE": {
+   "grade": 0.5,
+   "n_lines": 549,
+   "n_prism_rows": 1,
+   "p_perm": 0.4905094905094905,
+   "q_bh": 0.7898034169220609,
+   "rho": -0.0302
+  },
+  "BETAMETHASONE": {
+   "grade": 0.5,
+   "n_lines": 549,
+   "n_prism_rows": 1,
+   "p_perm": 0.03396603396603397,
+   "q_bh": 0.20131383767747407,
+   "rho": 0.091
+  },
+  "BORTEZOMIB": {
+   "grade": 0.5,
+   "n_lines": 551,
+   "n_prism_rows": 1,
+   "p_perm": 0.3336663336663337,
+   "q_bh": 0.6792227380462674,
+   "rho": -0.0421
+  },
+  "BOSENTAN": {
+   "grade": 0.5,
+   "n_lines": 554,
+   "n_prism_rows": 1,
+   "p_perm": 0.7042957042957043,
+   "q_bh": 0.8980951933972068,
+   "rho": 0.0159
+  },
+  "BOSUTINIB": {
+   "grade": 0.7168,
+   "n_lines": 552,
+   "n_prism_rows": 1,
+   "p_perm": 0.003996003996003996,
+   "q_bh": 0.047452547452547456,
+   "rho": 0.1301
+  },
+  "BRIGATINIB": {
+   "grade": 0.5,
+   "n_lines": 533,
+   "n_prism_rows": 1,
+   "p_perm": 0.029970029970029972,
+   "q_bh": 0.18368728046147403,
+   "rho": 0.0942
+  },
+  "BROMOCRIPTINE": {
+   "grade": 0.5,
+   "n_lines": 538,
+   "n_prism_rows": 1,
+   "p_perm": 0.8731268731268731,
+   "q_bh": 0.9436586141131595,
+   "rho": 0.0076
+  },
+  "BUMETANIDE": {
+   "grade": 0.5,
+   "n_lines": 552,
+   "n_prism_rows": 1,
+   "p_perm": 0.999000999000999,
+   "q_bh": 0.999000999000999,
+   "rho": 0.0001
+  },
+  "CABAZITAXEL": {
+   "grade": 0.3167,
+   "n_lines": 549,
+   "n_prism_rows": 1,
+   "p_perm": 0.003996003996003996,
+   "q_bh": 0.047452547452547456,
+   "rho": -0.11
+  },
+  "CALCITRIOL": {
+   "grade": 0.68,
+   "n_lines": 553,
+   "n_prism_rows": 2,
+   "p_perm": 0.01098901098901099,
+   "q_bh": 0.09490509490509491,
+   "rho": 0.108
+  },
+  "CARBAMAZEPINE": {
+   "grade": 0.5,
+   "n_lines": 552,
+   "n_prism_rows": 1,
+   "p_perm": 0.22877122877122877,
+   "q_bh": 0.5719280719280718,
+   "rho": -0.0533
+  },
+  "CARBOPLATIN": {
+   "grade": 0.5,
+   "n_lines": 516,
+   "n_prism_rows": 1,
+   "p_perm": 0.5864135864135864,
+   "q_bh": 0.8328984448387433,
+   "rho": 0.0256
+  },
+  "CARVEDILOL": {
+   "grade": 0.5,
+   "n_lines": 531,
+   "n_prism_rows": 1,
+   "p_perm": 0.19880119880119881,
+   "q_bh": 0.5474235909018518,
+   "rho": 0.0569
+  },
+  "CEFIXIME": {
+   "grade": 0.5,
+   "n_lines": 546,
+   "n_prism_rows": 1,
+   "p_perm": 0.23676323676323677,
+   "q_bh": 0.5742358906915869,
+   "rho": -0.0524
+  },
+  "CENOBAMATE": {
+   "grade": 0.5,
+   "n_lines": 872,
+   "n_prism_rows": 1,
+   "p_perm": 0.964035964035964,
+   "q_bh": 0.9847679202517912,
+   "rho": 0.0017
+  },
+  "CERITINIB": {
+   "grade": 0.5,
+   "n_lines": 534,
+   "n_prism_rows": 1,
+   "p_perm": 0.7162837162837162,
+   "q_bh": 0.9072927072927072,
+   "rho": 0.0149
+  },
+  "CHLOROQUINE": {
+   "grade": 0.5,
+   "n_lines": 551,
+   "n_prism_rows": 1,
+   "p_perm": 0.8141858141858141,
+   "q_bh": 0.9318994258753295,
+   "rho": 0.0108
+  },
+  "CHLOROTHIAZIDE": {
+   "grade": 0.5,
+   "n_lines": 544,
+   "n_prism_rows": 1,
+   "p_perm": 0.8111888111888111,
+   "q_bh": 0.9318994258753295,
+   "rho": 0.0108
+  },
+  "CHLORPROMAZINE": {
+   "grade": 0.5,
+   "n_lines": 551,
+   "n_prism_rows": 1,
+   "p_perm": 0.6233766233766234,
+   "q_bh": 0.8460111317254174,
+   "rho": 0.0207
+  },
+  "CISPLATIN": {
+   "grade": 0.5,
+   "n_lines": 522,
+   "n_prism_rows": 1,
+   "p_perm": 0.3626373626373626,
+   "q_bh": 0.6792227380462674,
+   "rho": 0.0406
+  },
+  "CLEMASTINE": {
+   "grade": 0.5,
+   "n_lines": 549,
+   "n_prism_rows": 1,
+   "p_perm": 0.7342657342657343,
+   "q_bh": 0.9118332647744413,
+   "rho": -0.015
+  },
+  "CLOZAPINE": {
+   "grade": 0.5,
+   "n_lines": 538,
+   "n_prism_rows": 1,
+   "p_perm": 0.926073926073926,
+   "q_bh": 0.9614975188745679,
+   "rho": 0.0048
+  },
+  "COBIMETINIB": {
+   "grade": 0.7155,
+   "n_lines": 546,
+   "n_prism_rows": 1,
+   "p_perm": 0.004995004995004995,
+   "q_bh": 0.05272505272505272,
+   "rho": 0.1293
+  },
+  "COLCHICINE": {
+   "grade": 0.2505,
+   "n_lines": 546,
+   "n_prism_rows": 1,
+   "p_perm": 0.001998001998001998,
+   "q_bh": 0.03163503163503164,
+   "rho": -0.1497
+  },
+  "CRIZOTINIB": {
+   "grade": 0.5,
+   "n_lines": 554,
+   "n_prism_rows": 1,
+   "p_perm": 0.12887112887112886,
+   "q_bh": 0.46287046287046285,
+   "rho": -0.0647
+  },
+  "DABRAFENIB": {
+   "grade": 0.5,
+   "n_lines": 531,
+   "n_prism_rows": 1,
+   "p_perm": 0.0899100899100899,
+   "q_bh": 0.41051971284529426,
+   "rho": -0.0727
+  },
+  "DAPRODUSTAT": {
+   "grade": 0.5,
+   "n_lines": 533,
+   "n_prism_rows": 1,
+   "p_perm": 0.5344655344655345,
+   "q_bh": 0.8184615384615385,
+   "rho": 0.0251
+  },
+  "DASATINIB ANHYDROUS": {
+   "grade": 0.7043,
+   "n_lines": 544,
+   "n_prism_rows": 1,
+   "p_perm": 0.004995004995004995,
+   "q_bh": 0.05272505272505272,
+   "rho": 0.1226
+  },
+  "DESIPRAMINE": {
+   "grade": 0.5,
+   "n_lines": 533,
+   "n_prism_rows": 1,
+   "p_perm": 0.2917082917082917,
+   "q_bh": 0.6298247207338116,
+   "rho": 0.0484
+  },
+  "DEXMEDETOMIDINE": {
+   "grade": 0.5,
+   "n_lines": 870,
+   "n_prism_rows": 1,
+   "p_perm": 0.1028971028971029,
+   "q_bh": 0.42913608130999437,
+   "rho": 0.0536
+  },
+  "DEXTROAMPHETAMINE": {
+   "grade": 0.5,
+   "n_lines": 554,
+   "n_prism_rows": 1,
+   "p_perm": 0.4195804195804196,
+   "q_bh": 0.7313787130300892,
+   "rho": 0.035
+  },
+  "DICLOFENAC": {
+   "grade": 0.5,
+   "n_lines": 531,
+   "n_prism_rows": 1,
+   "p_perm": 0.997002997002997,
+   "q_bh": 0.999000999000999,
+   "rho": 0.0001
+  },
+  "DIHYDROERGOTAMINE": {
+   "grade": 0.5,
+   "n_lines": 546,
+   "n_prism_rows": 1,
+   "p_perm": 0.013986013986013986,
+   "q_bh": 0.1062937062937063,
+   "rho": 0.1036
+  },
+  "DISOPYRAMIDE": {
+   "grade": 0.5,
+   "n_lines": 554,
+   "n_prism_rows": 1,
+   "p_perm": 0.22477522477522477,
+   "q_bh": 0.5719280719280718,
+   "rho": -0.0527
+  },
+  "DOBUTAMINE": {
+   "grade": 0.5,
+   "n_lines": 545,
+   "n_prism_rows": 1,
+   "p_perm": 0.37662337662337664,
+   "q_bh": 0.6815089672232529,
+   "rho": -0.0374
+  },
+  "DOXEPIN": {
+   "grade": 0.5,
+   "n_lines": 552,
+   "n_prism_rows": 1,
+   "p_perm": 0.8571428571428571,
+   "q_bh": 0.9381423174526623,
+   "rho": 0.0075
+  },
+  "DOXORUBICIN": {
+   "grade": 0.5,
+   "n_lines": 551,
+   "n_prism_rows": 1,
+   "p_perm": 0.35264735264735264,
+   "q_bh": 0.6792227380462674,
+   "rho": -0.0403
+  },
+  "DRONEDARONE": {
+   "grade": 0.5,
+   "n_lines": 527,
+   "n_prism_rows": 1,
+   "p_perm": 0.9790209790209791,
+   "q_bh": 0.9894360958190747,
+   "rho": -0.0017
+  },
+  "DROSPIRENONE": {
+   "grade": 0.5,
+   "n_lines": 554,
+   "n_prism_rows": 2,
+   "p_perm": 0.1028971028971029,
+   "q_bh": 0.42913608130999437,
+   "rho": -0.0691
+  },
+  "ENTRECTINIB": {
+   "grade": 0.5,
+   "n_lines": 533,
+   "n_prism_rows": 1,
+   "p_perm": 0.09290709290709291,
+   "q_bh": 0.41051971284529426,
+   "rho": 0.0745
+  },
+  "ENZALUTAMIDE": {
+   "grade": 0.5,
+   "n_lines": 552,
+   "n_prism_rows": 1,
+   "p_perm": 0.9250749250749251,
+   "q_bh": 0.9614975188745679,
+   "rho": -0.004
+  },
+  "EPLERENONE": {
+   "grade": 0.5,
+   "n_lines": 556,
+   "n_prism_rows": 2,
+   "p_perm": 0.13186813186813187,
+   "q_bh": 0.46287046287046285,
+   "rho": 0.0653
+  },
+  "ERDAFITINIB": {
+   "grade": 0.3078,
+   "n_lines": 533,
+   "n_prism_rows": 1,
+   "p_perm": 0.006993006993006993,
+   "q_bh": 0.06643356643356643,
+   "rho": -0.1153
+  },
+  "ERIBULIN": {
+   "grade": 0.1677,
+   "n_lines": 872,
+   "n_prism_rows": 1,
+   "p_perm": 0.000999000999000999,
+   "q_bh": 0.018981018981018984,
+   "rho": -0.1994
+  },
+  "ESCITALOPRAM": {
+   "grade": 0.5,
+   "n_lines": 546,
+   "n_prism_rows": 1,
+   "p_perm": 0.9170829170829171,
+   "q_bh": 0.9614975188745679,
+   "rho": 0.0047
+  },
+  "ESTRADIOL": {
+   "grade": 0.5,
+   "n_lines": 555,
+   "n_prism_rows": 2,
+   "p_perm": 0.6843156843156843,
+   "q_bh": 0.8905478083560276,
+   "rho": -0.0176
+  },
+  "ESTRADIOL CYPIONATE": {
+   "grade": 0.5,
+   "n_lines": 555,
+   "n_prism_rows": 2,
+   "p_perm": 0.6843156843156843,
+   "q_bh": 0.8905478083560276,
+   "rho": -0.0176
+  },
+  "ESTRADIOL VALERATE": {
+   "grade": 0.5,
+   "n_lines": 555,
+   "n_prism_rows": 2,
+   "p_perm": 0.6843156843156843,
+   "q_bh": 0.8905478083560276,
+   "rho": -0.0176
+  },
+  "ESTRIOL": {
+   "grade": 0.5,
+   "n_lines": 552,
+   "n_prism_rows": 1,
+   "p_perm": 0.8401598401598401,
+   "q_bh": 0.9381423174526623,
+   "rho": -0.0089
+  },
+  "ETODOLAC": {
+   "grade": 0.5,
+   "n_lines": 554,
+   "n_prism_rows": 1,
+   "p_perm": 0.7982017982017982,
+   "q_bh": 0.9318994258753295,
+   "rho": -0.0102
+  },
+  "ETOPOSIDE": {
+   "grade": 0.138,
+   "n_lines": 549,
+   "n_prism_rows": 1,
+   "p_perm": 0.000999000999000999,
+   "q_bh": 0.018981018981018984,
+   "rho": -0.2172
+  },
+  "EVEROLIMUS": {
+   "grade": 0.5,
+   "n_lines": 549,
+   "n_prism_rows": 1,
+   "p_perm": 0.6173826173826173,
+   "q_bh": 0.8460111317254174,
+   "rho": 0.0233
+  },
+  "FINGOLIMOD": {
+   "grade": 0.5,
+   "n_lines": 549,
+   "n_prism_rows": 1,
+   "p_perm": 0.4965034965034965,
+   "q_bh": 0.7927366750896162,
+   "rho": 0.0305
+  },
+  "FLUCYTOSINE": {
+   "grade": 0.5,
+   "n_lines": 542,
+   "n_prism_rows": 1,
+   "p_perm": 0.06793206793206794,
+   "q_bh": 0.34465534465534464,
+   "rho": -0.0777
+  },
+  "FLUMAZENIL": {
+   "grade": 0.5,
+   "n_lines": 538,
+   "n_prism_rows": 1,
+   "p_perm": 0.21178821178821178,
+   "q_bh": 0.5667571864754963,
+   "rho": -0.053
+  },
+  "FLUPHENAZINE": {
+   "grade": 0.5,
+   "n_lines": 549,
+   "n_prism_rows": 1,
+   "p_perm": 0.7932067932067932,
+   "q_bh": 0.9318994258753295,
+   "rho": 0.0103
+  },
+  "FLUVASTATIN": {
+   "grade": 0.2252,
+   "n_lines": 531,
+   "n_prism_rows": 1,
+   "p_perm": 0.000999000999000999,
+   "q_bh": 0.018981018981018984,
+   "rho": -0.1649
+  },
+  "FLUVOXAMINE": {
+   "grade": 0.5,
+   "n_lines": 549,
+   "n_prism_rows": 1,
+   "p_perm": 0.24375624375624375,
+   "q_bh": 0.5789210789210789,
+   "rho": 0.0493
+  },
+  "FOSTAMATINIB": {
+   "grade": 0.5,
+   "n_lines": 550,
+   "n_prism_rows": 1,
+   "p_perm": 0.12287712287712288,
+   "q_bh": 0.46287046287046285,
+   "rho": -0.067
+  },
+  "FRUQUINTINIB": {
+   "grade": 0.5,
+   "n_lines": 534,
+   "n_prism_rows": 1,
+   "p_perm": 0.6163836163836164,
+   "q_bh": 0.8460111317254174,
+   "rho": -0.0219
+  },
+  "FUROSEMIDE": {
+   "grade": 0.5,
+   "n_lines": 544,
+   "n_prism_rows": 1,
+   "p_perm": 0.6113886113886113,
+   "q_bh": 0.8460111317254174,
+   "rho": 0.0214
+  },
+  "FUTIBATINIB": {
+   "grade": 0.5,
+   "n_lines": 867,
+   "n_prism_rows": 1,
+   "p_perm": 0.3386613386613387,
+   "q_bh": 0.6792227380462674,
+   "rho": -0.0325
+  },
+  "HALOPERIDOL DECANOATE": {
+   "grade": 0.5,
+   "n_lines": 549,
+   "n_prism_rows": 1,
+   "p_perm": 0.6723276723276723,
+   "q_bh": 0.8905478083560276,
+   "rho": 0.018
+  },
+  "HOMATROPINE": {
+   "grade": 0.5,
+   "n_lines": 554,
+   "n_prism_rows": 2,
+   "p_perm": 0.22877122877122877,
+   "q_bh": 0.5719280719280718,
+   "rho": -0.05
+  },
+  "HYDROCHLOROTHIAZIDE": {
+   "grade": 0.5,
+   "n_lines": 545,
+   "n_prism_rows": 1,
+   "p_perm": 0.24975024975024976,
+   "q_bh": 0.5833191199044858,
+   "rho": 0.0483
+  },
+  "HYDROXYCHLOROQUINE": {
+   "grade": 0.5,
+   "n_lines": 550,
+   "n_prism_rows": 1,
+   "p_perm": 0.2517482517482518,
+   "q_bh": 0.5833191199044858,
+   "rho": 0.0504
+  },
+  "HYDROXYUREA": {
+   "grade": 0.5,
+   "n_lines": 548,
+   "n_prism_rows": 2,
+   "p_perm": 0.18681318681318682,
+   "q_bh": 0.5439336782620365,
+   "rho": 0.0575
+  },
+  "INDOMETHACIN": {
+   "grade": 0.5,
+   "n_lines": 552,
+   "n_prism_rows": 1,
+   "p_perm": 0.5054945054945055,
+   "q_bh": 0.793751702842612,
+   "rho": 0.029
+  },
+  "IXAZOMIB CITRATE": {
+   "grade": 0.5,
+   "n_lines": 544,
+   "n_prism_rows": 1,
+   "p_perm": 0.06393606393606394,
+   "q_bh": 0.33744033744033747,
+   "rho": -0.0783
+  },
+  "KETOPROFEN": {
+   "grade": 0.5,
+   "n_lines": 529,
+   "n_prism_rows": 1,
+   "p_perm": 0.3756243756243756,
+   "q_bh": 0.6815089672232529,
+   "rho": -0.0395
+  },
+  "LAMOTRIGINE": {
+   "grade": 0.5,
+   "n_lines": 552,
+   "n_prism_rows": 1,
+   "p_perm": 0.978021978021978,
+   "q_bh": 0.9894360958190747,
+   "rho": -0.0012
+  },
+  "LAZERTINIB": {
+   "grade": 0.8482,
+   "n_lines": 872,
+   "n_prism_rows": 1,
+   "p_perm": 0.000999000999000999,
+   "q_bh": 0.018981018981018984,
+   "rho": 0.2089
+  },
+  "LENALIDOMIDE": {
+   "grade": 0.5,
+   "n_lines": 552,
+   "n_prism_rows": 1,
+   "p_perm": 0.18681318681318682,
+   "q_bh": 0.5439336782620365,
+   "rho": -0.0566
+  },
+  "LEVOFLOXACIN ANHYDROUS": {
+   "grade": 0.5,
+   "n_lines": 531,
+   "n_prism_rows": 1,
+   "p_perm": 0.42857142857142855,
+   "q_bh": 0.7321250178393035,
+   "rho": 0.0327
+  },
+  "LEVOTHYROXINE": {
+   "grade": 0.5,
+   "n_lines": 546,
+   "n_prism_rows": 1,
+   "p_perm": 0.6933066933066933,
+   "q_bh": 0.8961106920290594,
+   "rho": -0.0163
+  },
+  "LIDOCAINE": {
+   "grade": 0.5,
+   "n_lines": 478,
+   "n_prism_rows": 1,
+   "p_perm": 0.5764235764235764,
+   "q_bh": 0.8328984448387433,
+   "rho": -0.0242
+  },
+  "LORAZEPAM": {
+   "grade": 0.5,
+   "n_lines": 531,
+   "n_prism_rows": 1,
+   "p_perm": 0.7682317682317682,
+   "q_bh": 0.9318994258753295,
+   "rho": 0.0115
+  },
+  "LOSARTAN": {
+   "grade": 0.5,
+   "n_lines": 888,
+   "n_prism_rows": 2,
+   "p_perm": 0.5474525474525475,
+   "q_bh": 0.8185564435564435,
+   "rho": 0.0195
+  },
+  "LOVASTATIN": {
+   "grade": 0.2648,
+   "n_lines": 549,
+   "n_prism_rows": 1,
+   "p_perm": 0.000999000999000999,
+   "q_bh": 0.018981018981018984,
+   "rho": -0.1411
+  },
+  "LOXAPINE": {
+   "grade": 0.5,
+   "n_lines": 538,
+   "n_prism_rows": 1,
+   "p_perm": 0.5874125874125874,
+   "q_bh": 0.8328984448387433,
+   "rho": -0.0251
+  },
+  "MACITENTAN": {
+   "grade": 0.5,
+   "n_lines": 538,
+   "n_prism_rows": 1,
+   "p_perm": 0.1958041958041958,
+   "q_bh": 0.5470999588646648,
+   "rho": -0.0543
+  },
+  "MAVACAMTEN": {
+   "grade": 0.5,
+   "n_lines": 867,
+   "n_prism_rows": 1,
+   "p_perm": 0.3086913086913087,
+   "q_bh": 0.6516816516816516,
+   "rho": 0.0363
+  },
+  "MECAMYLAMINE": {
+   "grade": 0.5,
+   "n_lines": 549,
+   "n_prism_rows": 1,
+   "p_perm": 0.14785214785214784,
+   "q_bh": 0.4825682791784487,
+   "rho": -0.0626
+  },
+  "METFORMIN": {
+   "grade": 0.5,
+   "n_lines": 544,
+   "n_prism_rows": 1,
+   "p_perm": 0.3306693306693307,
+   "q_bh": 0.6792227380462674,
+   "rho": 0.0424
+  },
+  "METHOTREXATE": {
+   "grade": 0.2505,
+   "n_lines": 553,
+   "n_prism_rows": 2,
+   "p_perm": 0.000999000999000999,
+   "q_bh": 0.018981018981018984,
+   "rho": -0.1497
+  },
+  "METHYLDOPA": {
+   "grade": 0.5,
+   "n_lines": 554,
+   "n_prism_rows": 2,
+   "p_perm": 0.8551448551448552,
+   "q_bh": 0.9381423174526623,
+   "rho": -0.0081
+  },
+  "MINOCYCLINE": {
+   "grade": 0.5,
+   "n_lines": 889,
+   "n_prism_rows": 2,
+   "p_perm": 0.3646353646353646,
+   "q_bh": 0.6792227380462674,
+   "rho": -0.0305
+  },
+  "MIRTAZAPINE": {
+   "grade": 0.5,
+   "n_lines": 549,
+   "n_prism_rows": 1,
+   "p_perm": 0.8741258741258742,
+   "q_bh": 0.9436586141131595,
+   "rho": 0.0059
+  },
+  "MOLINDONE": {
+   "grade": 0.5,
+   "n_lines": 549,
+   "n_prism_rows": 1,
+   "p_perm": 0.8481518481518482,
+   "q_bh": 0.9381423174526623,
+   "rho": 0.0097
+  },
+  "NELFINAVIR": {
+   "grade": 0.5,
+   "n_lines": 546,
+   "n_prism_rows": 1,
+   "p_perm": 0.3436563436563437,
+   "q_bh": 0.6792227380462674,
+   "rho": 0.0394
+  },
+  "NERATINIB": {
+   "grade": 0.824,
+   "n_lines": 531,
+   "n_prism_rows": 1,
+   "p_perm": 0.000999000999000999,
+   "q_bh": 0.018981018981018984,
+   "rho": 0.1944
+  },
+  "NIACIN": {
+   "grade": 0.5,
+   "n_lines": 554,
+   "n_prism_rows": 1,
+   "p_perm": 0.16683316683316685,
+   "q_bh": 0.5258675750479028,
+   "rho": 0.0572
+  },
+  "NICARDIPINE": {
+   "grade": 0.5,
+   "n_lines": 554,
+   "n_prism_rows": 1,
+   "p_perm": 0.9400599400599401,
+   "q_bh": 0.9707140685401555,
+   "rho": -0.0028
+  },
+  "NICOTINE": {
+   "grade": 0.5,
+   "n_lines": 553,
+   "n_prism_rows": 2,
+   "p_perm": 0.34965034965034963,
+   "q_bh": 0.6792227380462674,
+   "rho": 0.0398
+  },
+  "NIFEDIPINE": {
+   "grade": 0.5,
+   "n_lines": 872,
+   "n_prism_rows": 1,
+   "p_perm": 0.7512487512487512,
+   "q_bh": 0.926865342449758,
+   "rho": -0.0111
+  },
+  "NIMODIPINE": {
+   "grade": 0.5,
+   "n_lines": 554,
+   "n_prism_rows": 1,
+   "p_perm": 0.6983016983016983,
+   "q_bh": 0.8964683964683965,
+   "rho": -0.0168
+  },
+  "NITAZOXANIDE": {
+   "grade": 0.5,
+   "n_lines": 534,
+   "n_prism_rows": 1,
+   "p_perm": 0.7942057942057942,
+   "q_bh": 0.9318994258753295,
+   "rho": 0.0105
+  },
+  "NIZATIDINE": {
+   "grade": 0.5,
+   "n_lines": 549,
+   "n_prism_rows": 1,
+   "p_perm": 0.22477522477522477,
+   "q_bh": 0.5719280719280718,
+   "rho": 0.0524
+  },
+  "NORTRIPTYLINE": {
+   "grade": 0.5,
+   "n_lines": 551,
+   "n_prism_rows": 1,
+   "p_perm": 0.1038961038961039,
+   "q_bh": 0.42913608130999437,
+   "rho": 0.0713
+  },
+  "OLANZAPINE": {
+   "grade": 0.5,
+   "n_lines": 546,
+   "n_prism_rows": 1,
+   "p_perm": 0.6203796203796204,
+   "q_bh": 0.8460111317254174,
+   "rho": -0.0211
+  },
+  "OLAPARIB": {
+   "grade": 0.306,
+   "n_lines": 547,
+   "n_prism_rows": 1,
+   "p_perm": 0.005994005994005994,
+   "q_bh": 0.059940059940059943,
+   "rho": -0.1164
+  },
+  "OXCARBAZEPINE": {
+   "grade": 0.5,
+   "n_lines": 550,
+   "n_prism_rows": 1,
+   "p_perm": 0.028971028971028972,
+   "q_bh": 0.1834831834831835,
+   "rho": -0.1023
+  },
+  "OXYBUTYNIN": {
+   "grade": 0.5,
+   "n_lines": 549,
+   "n_prism_rows": 1,
+   "p_perm": 0.04695304695304695,
+   "q_bh": 0.25488796917368345,
+   "rho": 0.0894
+  },
+  "OXYMETAZOLINE": {
+   "grade": 0.5,
+   "n_lines": 552,
+   "n_prism_rows": 1,
+   "p_perm": 0.3836163836163836,
+   "q_bh": 0.6876142725199329,
+   "rho": -0.0374
+  },
+  "PACLITAXEL": {
+   "grade": 0.2817,
+   "n_lines": 546,
+   "n_prism_rows": 1,
+   "p_perm": 0.001998001998001998,
+   "q_bh": 0.03163503163503164,
+   "rho": -0.131
+  },
+  "PALIPERIDONE": {
+   "grade": 0.5,
+   "n_lines": 554,
+   "n_prism_rows": 2,
+   "p_perm": 0.5814185814185814,
+   "q_bh": 0.8328984448387433,
+   "rho": -0.0231
+  },
+  "PAROXETINE": {
+   "grade": 0.5,
+   "n_lines": 538,
+   "n_prism_rows": 1,
+   "p_perm": 0.11388611388611389,
+   "q_bh": 0.46039067315663057,
+   "rho": -0.0675
+  },
+  "PEMETREXED": {
+   "grade": 0.5,
+   "n_lines": 534,
+   "n_prism_rows": 1,
+   "p_perm": 0.027972027972027972,
+   "q_bh": 0.18326501085121777,
+   "rho": -0.0963
+  },
+  "PEMIGATINIB": {
+   "grade": 0.5,
+   "n_lines": 851,
+   "n_prism_rows": 1,
+   "p_perm": 0.43656343656343655,
+   "q_bh": 0.7340447163456012,
+   "rho": -0.0263
+  },
+  "PHENTOLAMINE": {
+   "grade": 0.5,
+   "n_lines": 554,
+   "n_prism_rows": 1,
+   "p_perm": 0.8421578421578422,
+   "q_bh": 0.9381423174526623,
+   "rho": -0.0084
+  },
+  "PHENYTOIN": {
+   "grade": 0.5,
+   "n_lines": 554,
+   "n_prism_rows": 1,
+   "p_perm": 0.27372627372627373,
+   "q_bh": 0.6047440931161862,
+   "rho": 0.0457
+  },
+  "PIMOZIDE": {
+   "grade": 0.5,
+   "n_lines": 546,
+   "n_prism_rows": 1,
+   "p_perm": 0.8291708291708292,
+   "q_bh": 0.9377527234670092,
+   "rho": 0.0091
+  },
+  "PINDOLOL": {
+   "grade": 0.5,
+   "n_lines": 554,
+   "n_prism_rows": 1,
+   "p_perm": 0.027972027972027972,
+   "q_bh": 0.18326501085121777,
+   "rho": -0.0945
+  },
+  "POMALIDOMIDE": {
+   "grade": 0.5,
+   "n_lines": 531,
+   "n_prism_rows": 1,
+   "p_perm": 0.36363636363636365,
+   "q_bh": 0.6792227380462674,
+   "rho": 0.0394
+  },
+  "PRAMIPEXOLE": {
+   "grade": 0.5,
+   "n_lines": 549,
+   "n_prism_rows": 1,
+   "p_perm": 0.6443556443556444,
+   "q_bh": 0.8621660030110735,
+   "rho": 0.0191
+  },
+  "PRAVASTATIN": {
+   "grade": 0.5,
+   "n_lines": 546,
+   "n_prism_rows": 1,
+   "p_perm": 0.7872127872127872,
+   "q_bh": 0.9318994258753295,
+   "rho": 0.0118
+  },
+  "PRAZIQUANTEL": {
+   "grade": 0.5,
+   "n_lines": 546,
+   "n_prism_rows": 1,
+   "p_perm": 0.04695304695304695,
+   "q_bh": 0.25488796917368345,
+   "rho": -0.0834
+  },
+  "PRAZOSIN": {
+   "grade": 0.5,
+   "n_lines": 547,
+   "n_prism_rows": 1,
+   "p_perm": 0.21878121878121878,
+   "q_bh": 0.5719280719280718,
+   "rho": 0.0535
+  },
+  "PREDNISOLONE": {
+   "grade": 0.7663,
+   "n_lines": 531,
+   "n_prism_rows": 1,
+   "p_perm": 0.000999000999000999,
+   "q_bh": 0.018981018981018984,
+   "rho": 0.1598
+  },
+  "PRIMIDONE": {
+   "grade": 0.5,
+   "n_lines": 544,
+   "n_prism_rows": 1,
+   "p_perm": 0.13886113886113885,
+   "q_bh": 0.46287046287046285,
+   "rho": -0.0645
+  },
+  "PROGESTERONE": {
+   "grade": 0.5,
+   "n_lines": 544,
+   "n_prism_rows": 1,
+   "p_perm": 0.12887112887112886,
+   "q_bh": 0.46287046287046285,
+   "rho": 0.0647
+  },
+  "PROMETHAZINE": {
+   "grade": 0.5,
+   "n_lines": 534,
+   "n_prism_rows": 1,
+   "p_perm": 0.8071928071928072,
+   "q_bh": 0.9318994258753295,
+   "rho": 0.0109
+  },
+  "PROPOFOL": {
+   "grade": 0.5,
+   "n_lines": 550,
+   "n_prism_rows": 1,
+   "p_perm": 0.5384615384615384,
+   "q_bh": 0.8184615384615385,
+   "rho": 0.0266
+  },
+  "PYRIMETHAMINE": {
+   "grade": 0.3185,
+   "n_lines": 551,
+   "n_prism_rows": 1,
+   "p_perm": 0.00999000999000999,
+   "q_bh": 0.09038580467151895,
+   "rho": -0.1089
+  },
+  "QUETIAPINE": {
+   "grade": 0.5,
+   "n_lines": 552,
+   "n_prism_rows": 1,
+   "p_perm": 0.41058941058941056,
+   "q_bh": 0.7223332223332223,
+   "rho": 0.0355
+  },
+  "QUININE": {
+   "grade": 0.5,
+   "n_lines": 551,
+   "n_prism_rows": 1,
+   "p_perm": 0.42657342657342656,
+   "q_bh": 0.7321250178393035,
+   "rho": 0.0341
+  },
+  "QUIZARTINIB": {
+   "grade": 0.5,
+   "n_lines": 551,
+   "n_prism_rows": 1,
+   "p_perm": 0.0919080919080919,
+   "q_bh": 0.41051971284529426,
+   "rho": -0.0742
+  },
+  "RALOXIFENE": {
+   "grade": 0.5,
+   "n_lines": 554,
+   "n_prism_rows": 1,
+   "p_perm": 0.18081918081918083,
+   "q_bh": 0.5439336782620365,
+   "rho": 0.0548
+  },
+  "RANOLAZINE": {
+   "grade": 0.5,
+   "n_lines": 554,
+   "n_prism_rows": 1,
+   "p_perm": 0.8251748251748252,
+   "q_bh": 0.9377527234670092,
+   "rho": -0.0078
+  },
+  "REGORAFENIB": {
+   "grade": 0.5,
+   "n_lines": 552,
+   "n_prism_rows": 1,
+   "p_perm": 0.23276723276723277,
+   "q_bh": 0.5742358906915869,
+   "rho": -0.0509
+  },
+  "RIPRETINIB": {
+   "grade": 0.5,
+   "n_lines": 872,
+   "n_prism_rows": 1,
+   "p_perm": 0.36063936063936064,
+   "q_bh": 0.6792227380462674,
+   "rho": -0.0318
+  },
+  "RISPERIDONE": {
+   "grade": 0.5,
+   "n_lines": 531,
+   "n_prism_rows": 1,
+   "p_perm": 0.5024975024975025,
+   "q_bh": 0.793751702842612,
+   "rho": -0.0281
+  },
+  "RUFINAMIDE": {
+   "grade": 0.5,
+   "n_lines": 546,
+   "n_prism_rows": 1,
+   "p_perm": 0.07392607392607392,
+   "q_bh": 0.3511488511488511,
+   "rho": 0.0784
+  },
+  "RUXOLITINIB": {
+   "grade": 0.5,
+   "n_lines": 546,
+   "n_prism_rows": 1,
+   "p_perm": 0.3256743256743257,
+   "q_bh": 0.6792227380462674,
+   "rho": -0.0413
+  },
+  "SCOPOLAMINE": {
+   "grade": 0.5,
+   "n_lines": 554,
+   "n_prism_rows": 1,
+   "p_perm": 0.14985014985014986,
+   "q_bh": 0.4825682791784487,
+   "rho": 0.0613
+  },
+  "SELINEXOR": {
+   "grade": 0.5,
+   "n_lines": 554,
+   "n_prism_rows": 1,
+   "p_perm": 0.916083916083916,
+   "q_bh": 0.9614975188745679,
+   "rho": -0.0044
+  },
+  "SELPERCATINIB": {
+   "grade": 0.5,
+   "n_lines": 852,
+   "n_prism_rows": 1,
+   "p_perm": 0.5764235764235764,
+   "q_bh": 0.8328984448387433,
+   "rho": -0.0191
+  },
+  "SELUMETINIB": {
+   "grade": 0.6708,
+   "n_lines": 554,
+   "n_prism_rows": 1,
+   "p_perm": 0.011988011988011988,
+   "q_bh": 0.09903140337922947,
+   "rho": 0.1025
+  },
+  "SILDENAFIL": {
+   "grade": 0.5,
+   "n_lines": 543,
+   "n_prism_rows": 1,
+   "p_perm": 0.13786213786213786,
+   "q_bh": 0.46287046287046285,
+   "rho": 0.062
+  },
+  "SIMVASTATIN": {
+   "grade": 0.2032,
+   "n_lines": 548,
+   "n_prism_rows": 2,
+   "p_perm": 0.000999000999000999,
+   "q_bh": 0.018981018981018984,
+   "rho": -0.1781
+  },
+  "SIROLIMUS": {
+   "grade": 0.5,
+   "n_lines": 554,
+   "n_prism_rows": 2,
+   "p_perm": 0.012987012987012988,
+   "q_bh": 0.10281385281385282,
+   "rho": -0.107
+  },
+  "SONIDEGIB": {
+   "grade": 0.5,
+   "n_lines": 554,
+   "n_prism_rows": 1,
+   "p_perm": 0.1918081918081918,
+   "q_bh": 0.5439336782620365,
+   "rho": -0.059
+  },
+  "SORAFENIB": {
+   "grade": 0.5,
+   "n_lines": 546,
+   "n_prism_rows": 1,
+   "p_perm": 0.26173826173826176,
+   "q_bh": 0.598805955948813,
+   "rho": 0.0459
+  },
+  "SPARSENTAN": {
+   "grade": 0.5,
+   "n_lines": 872,
+   "n_prism_rows": 1,
+   "p_perm": 0.8001998001998002,
+   "q_bh": 0.9318994258753295,
+   "rho": 0.0081
+  },
+  "SPIRONOLACTONE": {
+   "grade": 0.5,
+   "n_lines": 555,
+   "n_prism_rows": 2,
+   "p_perm": 0.13586413586413587,
+   "q_bh": 0.46287046287046285,
+   "rho": 0.0648
+  },
+  "SUFENTANIL": {
+   "grade": 0.5,
+   "n_lines": 531,
+   "n_prism_rows": 1,
+   "p_perm": 0.7282717282717283,
+   "q_bh": 0.9103396603396603,
+   "rho": -0.016
+  },
+  "SULFACETAMIDE": {
+   "grade": 0.5,
+   "n_lines": 554,
+   "n_prism_rows": 1,
+   "p_perm": 0.6393606393606394,
+   "q_bh": 0.8615497977200104,
+   "rho": 0.0188
+  },
+  "SUNITINIB": {
+   "grade": 0.5,
+   "n_lines": 546,
+   "n_prism_rows": 1,
+   "p_perm": 0.017982017982017984,
+   "q_bh": 0.13140705448397758,
+   "rho": -0.113
+  },
+  "TAMOXIFEN": {
+   "grade": 0.5,
+   "n_lines": 553,
+   "n_prism_rows": 1,
+   "p_perm": 0.1918081918081918,
+   "q_bh": 0.5439336782620365,
+   "rho": -0.0543
+  },
+  "TAZAROTENE": {
+   "grade": 0.5,
+   "n_lines": 544,
+   "n_prism_rows": 1,
+   "p_perm": 0.06893106893106893,
+   "q_bh": 0.34465534465534464,
+   "rho": 0.0807
+  },
+  "TEDIZOLID": {
+   "grade": 0.5,
+   "n_lines": 554,
+   "n_prism_rows": 1,
+   "p_perm": 0.5364635364635365,
+   "q_bh": 0.8184615384615385,
+   "rho": -0.0292
+  },
+  "TEMAZEPAM": {
+   "grade": 0.5,
+   "n_lines": 554,
+   "n_prism_rows": 1,
+   "p_perm": 0.44555444555444557,
+   "q_bh": 0.7425907425907426,
+   "rho": -0.0326
+  },
+  "TEMOZOLOMIDE": {
+   "grade": 0.5,
+   "n_lines": 546,
+   "n_prism_rows": 1,
+   "p_perm": 0.16883116883116883,
+   "q_bh": 0.5258675750479028,
+   "rho": 0.06
+  },
+  "TEMSIROLIMUS": {
+   "grade": 0.5,
+   "n_lines": 554,
+   "n_prism_rows": 1,
+   "p_perm": 0.5454545454545454,
+   "q_bh": 0.8185564435564435,
+   "rho": -0.0274
+  },
+  "THONZONIUM": {
+   "grade": 0.5,
+   "n_lines": 546,
+   "n_prism_rows": 1,
+   "p_perm": 0.7962037962037962,
+   "q_bh": 0.9318994258753295,
+   "rho": -0.0108
+  },
+  "TIGECYCLINE": {
+   "grade": 0.5,
+   "n_lines": 872,
+   "n_prism_rows": 1,
+   "p_perm": 0.1258741258741259,
+   "q_bh": 0.46287046287046285,
+   "rho": 0.0527
+  },
+  "TIVOZANIB": {
+   "grade": 0.5,
+   "n_lines": 531,
+   "n_prism_rows": 1,
+   "p_perm": 0.07292707292707293,
+   "q_bh": 0.3511488511488511,
+   "rho": -0.0772
+  },
+  "TOFACITINIB": {
+   "grade": 0.5,
+   "n_lines": 543,
+   "n_prism_rows": 1,
+   "p_perm": 0.5514485514485514,
+   "q_bh": 0.8185564435564435,
+   "rho": 0.0264
+  },
+  "TOPIRAMATE": {
+   "grade": 0.5,
+   "n_lines": 551,
+   "n_prism_rows": 1,
+   "p_perm": 0.9040959040959041,
+   "q_bh": 0.9614975188745679,
+   "rho": -0.0062
+  },
+  "TRAMADOL": {
+   "grade": 0.5,
+   "n_lines": 554,
+   "n_prism_rows": 1,
+   "p_perm": 0.46553446553446554,
+   "q_bh": 0.7592407592407592,
+   "rho": -0.0313
+  },
+  "TRAMETINIB": {
+   "grade": 0.7175,
+   "n_lines": 550,
+   "n_prism_rows": 1,
+   "p_perm": 0.003996003996003996,
+   "q_bh": 0.047452547452547456,
+   "rho": 0.1305
+  },
+  "TRAZODONE": {
+   "grade": 0.5,
+   "n_lines": 552,
+   "n_prism_rows": 1,
+   "p_perm": 0.9120879120879121,
+   "q_bh": 0.9614975188745679,
+   "rho": -0.0043
+  },
+  "TRETINOIN": {
+   "grade": 0.5,
+   "n_lines": 870,
+   "n_prism_rows": 1,
+   "p_perm": 0.2787212787212787,
+   "q_bh": 0.6087016431844018,
+   "rho": 0.0363
+  },
+  "TRIAMTERENE": {
+   "grade": 0.5,
+   "n_lines": 551,
+   "n_prism_rows": 1,
+   "p_perm": 0.2647352647352647,
+   "q_bh": 0.598805955948813,
+   "rho": -0.0476
+  },
+  "TRICLABENDAZOLE": {
+   "grade": 0.5,
+   "n_lines": 531,
+   "n_prism_rows": 1,
+   "p_perm": 0.5594405594405595,
+   "q_bh": 0.8239822193310566,
+   "rho": 0.026
+  },
+  "TRIFLUOPERAZINE": {
+   "grade": 0.5,
+   "n_lines": 546,
+   "n_prism_rows": 1,
+   "p_perm": 0.45754245754245754,
+   "q_bh": 0.7559397124614515,
+   "rho": 0.0328
+  },
+  "URSODIOL": {
+   "grade": 0.5,
+   "n_lines": 551,
+   "n_prism_rows": 1,
+   "p_perm": 0.6043956043956044,
+   "q_bh": 0.8460111317254174,
+   "rho": 0.0229
+  },
+  "VECURONIUM": {
+   "grade": 0.5,
+   "n_lines": 549,
+   "n_prism_rows": 1,
+   "p_perm": 0.4675324675324675,
+   "q_bh": 0.7592407592407592,
+   "rho": -0.0307
+  },
+  "VENETOCLAX": {
+   "grade": 0.5,
+   "n_lines": 538,
+   "n_prism_rows": 1,
+   "p_perm": 0.13586413586413587,
+   "q_bh": 0.46287046287046285,
+   "rho": 0.064
+  },
+  "VERAPAMIL": {
+   "grade": 0.5,
+   "n_lines": 530,
+   "n_prism_rows": 1,
+   "p_perm": 0.33966033966033965,
+   "q_bh": 0.6792227380462674,
+   "rho": -0.0411
+  },
+  "VINCRISTINE": {
+   "grade": 0.2262,
+   "n_lines": 546,
+   "n_prism_rows": 1,
+   "p_perm": 0.000999000999000999,
+   "q_bh": 0.018981018981018984,
+   "rho": -0.1643
+  },
+  "VORINOSTAT": {
+   "grade": 0.5,
+   "n_lines": 522,
+   "n_prism_rows": 1,
+   "p_perm": 0.03496503496503497,
+   "q_bh": 0.20131383767747407,
+   "rho": -0.095
+  },
+  "ZIPRASIDONE": {
+   "grade": 0.5,
+   "n_lines": 538,
+   "n_prism_rows": 1,
+   "p_perm": 0.5354645354645354,
+   "q_bh": 0.8184615384615385,
+   "rho": 0.0255
+  },
+  "ZONISAMIDE": {
+   "grade": 0.5,
+   "n_lines": 544,
+   "n_prism_rows": 1,
+   "p_perm": 0.36863136863136864,
+   "q_bh": 0.6799996120384469,
+   "rho": 0.0382
+  }
+ },
+ "label": "exploratory, correlational, from cancer cell lines; not validated; a hypothesis signal only",
+ "n_cell_lines": 895,
+ "n_in_prism": 190,
+ "n_pool_drugs": 224,
+ "n_significant_q_below_cut": 23,
+ "n_tested": 190,
+ "not_in_prism": [
+  "AMPHETAMINE",
+  "AMPHOTERICIN B",
+  "APOMORPHINE",
+  "APROCITENTAN",
+  "ARSENIC TRIOXIDE",
+  "BINIMETINIB",
+  "CANNABIDIOL",
+  "CARBIDOPA ANHYDROUS",
+  "CHENODIOL",
+  "DIFLORASONE DIACETATE",
+  "EDARAVONE",
+  "ESLICARBAZEPINE",
+  "ETHACRYNIC ACID",
+  "GALLIUM NITRATE",
+  "ISOTRETINOIN",
+  "KETAMINE",
+  "LAROTRECTINIB",
+  "METHADONE",
+  "NIACINAMIDE",
+  "NIROGACESTAT",
+  "PENICILLIN G",
+  "PHENOXYBENZAMINE",
+  "PHENYLBUTANOIC ACID",
+  "PRALSETINIB",
+  "RITLECITINIB",
+  "SALMETEROL",
+  "SODIUM CITRATE",
+  "TIRBANIBULIN",
+  "TORSEMIDE",
+  "TOVORAFENIB",
+  "TREOSULFAN",
+  "TYROSINE",
+  "VALPROIC ACID",
+  "ZINC CHLORIDE"
+ ],
+ "spearman_score_vs_proliferation": 0.81
+}

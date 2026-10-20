@@ -1,0 +1,2949 @@
+{
+ "b1_near_threshold_information_only": [
+  {
+   "drug": "MAVACAMTEN",
+   "native": "robust in 5 of 9 configurations (needs 7)",
+   "rank_in_line": 1,
+   "reason": "",
+   "robustness_count": 5,
+   "status": "candidate"
+  },
+  {
+   "drug": "BINIMETINIB",
+   "native": "robust in 4 of 9 configurations (needs 7)",
+   "rank_in_line": 2,
+   "reason": "label warns about a condition of the child (HP:0003202 muscle atrophy: 'rhabdomyolysis' in the warnings section)",
+   "robustness_count": 4,
+   "status": "hard_excluded"
+  },
+  {
+   "drug": "PARATHYROID HORMONE",
+   "native": "robust in 4 of 9 configurations (needs 7)",
+   "rank_in_line": 3,
+   "reason": "not a small molecule (Protein)",
+   "robustness_count": 4,
+   "status": "not_eligible"
+  },
+  {
+   "drug": "SELUMETINIB",
+   "native": "robust in 4 of 9 configurations (needs 7)",
+   "rank_in_line": 4,
+   "reason": "label warns about a condition of the child (HP:0004322/HP:0001508/HP:0001518 growth: 'reduced growth' in the warnings section)",
+   "robustness_count": 4,
+   "status": "hard_excluded"
+  },
+  {
+   "drug": "TRAMETINIB",
+   "native": "robust in 4 of 9 configurations (needs 7)",
+   "rank_in_line": 5,
+   "reason": "",
+   "robustness_count": 4,
+   "status": "candidate"
+  }
+ ],
+ "candidates": {
+  "AMPHOTERICIN B": {
+   "age_bands": {
+    "0-4": "not_assessed",
+    "12-17": "not_assessed",
+    "5-11": "not_assessed"
+   },
+   "age_union": "no band with label support (not_assessed/not_assessed/not_assessed)",
+   "drug": "AMPHOTERICIN B",
+   "lines": [
+    "EP"
+   ],
+   "safety_flags": [
+    "boxed warning in the label",
+    "label read, no keyword match for the phenotype terms"
+   ],
+   "smaa_p_top5": 0.0055,
+   "smaa_rank": 44
+  },
+  "AURANOFIN": {
+   "age_bands": {
+    "0-4": "not_assessed",
+    "12-17": "not_assessed",
+    "5-11": "not_assessed"
+   },
+   "age_union": "no band with label support (not_assessed/not_assessed/not_assessed)",
+   "drug": "AURANOFIN",
+   "lines": [
+    "EP"
+   ],
+   "safety_flags": [
+    "boxed warning in the label",
+    "label read, no keyword match for the phenotype terms"
+   ],
+   "smaa_p_top5": 0.0008,
+   "smaa_rank": 71
+  },
+  "CERITINIB": {
+   "age_bands": {
+    "0-4": "not_labelled",
+    "12-17": "not_labelled",
+    "5-11": "not_labelled"
+   },
+   "age_union": "no band with label support (not_labelled/not_labelled/not_labelled)",
+   "drug": "CERITINIB",
+   "lines": [
+    "B2"
+   ],
+   "safety_flags": [
+    "label read, no keyword match for the phenotype terms"
+   ],
+   "smaa_p_top5": 0.2376,
+   "smaa_rank": 8
+  },
+  "ERDAFITINIB": {
+   "age_bands": {
+    "0-4": "not_assessed",
+    "12-17": "not_assessed",
+    "5-11": "not_assessed"
+   },
+   "age_union": "no band with label support (not_assessed/not_assessed/not_assessed)",
+   "drug": "ERDAFITINIB",
+   "lines": [
+    "D"
+   ],
+   "safety_flags": [
+    "label read, no keyword match for the phenotype terms"
+   ],
+   "smaa_p_top5": 0.0009,
+   "smaa_rank": 69
+  },
+  "EVEROLIMUS": {
+   "age_bands": {
+    "0-4": "partly",
+    "12-17": "labelled",
+    "5-11": "labelled"
+   },
+   "age_union": "supported in 0-4, 5-11, 12-17",
+   "drug": "EVEROLIMUS",
+   "lines": [
+    "LIT"
+   ],
+   "safety_flags": [
+    "boxed warning in the label",
+    "entry in config/proposal_safety.json",
+    "label read, no keyword match for the phenotype terms"
+   ],
+   "smaa_p_top5": 0.0038,
+   "smaa_rank": 50
+  },
+  "LAZERTINIB": {
+   "age_bands": {
+    "0-4": "not_assessed",
+    "12-17": "not_assessed",
+    "5-11": "not_assessed"
+   },
+   "age_union": "no band with label support (not_assessed/not_assessed/not_assessed)",
+   "drug": "LAZERTINIB",
+   "lines": [
+    "C"
+   ],
+   "safety_flags": [
+    "label read, no keyword match for the phenotype terms"
+   ],
+   "smaa_p_top5": 0.0688,
+   "smaa_rank": 18
+  },
+  "METFORMIN": {
+   "age_bands": {
+    "0-4": "not_labelled",
+    "12-17": "labelled",
+    "5-11": "partly"
+   },
+   "age_union": "supported in 5-11, 12-17",
+   "drug": "METFORMIN",
+   "lines": [
+    "LIT"
+   ],
+   "safety_flags": [
+    "boxed warning in the label",
+    "entry in config/proposal_safety.json",
+    "label read, no keyword match for the phenotype terms"
+   ],
+   "smaa_p_top5": 0.0001,
+   "smaa_rank": 87
+  },
+  "NERATINIB": {
+   "age_bands": {
+    "0-4": "not_assessed",
+    "12-17": "not_assessed",
+    "5-11": "not_assessed"
+   },
+   "age_union": "no band with label support (not_assessed/not_assessed/not_assessed)",
+   "drug": "NERATINIB",
+   "lines": [
+    "C",
+    "EP"
+   ],
+   "safety_flags": [
+    "label read, no keyword match for the phenotype terms"
+   ],
+   "smaa_p_top5": 0.2114,
+   "smaa_rank": 9
+  },
+  "NIROGACESTAT": {
+   "age_bands": {
+    "0-4": "not_assessed",
+    "12-17": "not_assessed",
+    "5-11": "not_assessed"
+   },
+   "age_union": "no band with label support (not_assessed/not_assessed/not_assessed)",
+   "drug": "NIROGACESTAT",
+   "lines": [
+    "D"
+   ],
+   "safety_flags": [
+    "label read, no keyword match for the phenotype terms"
+   ],
+   "smaa_p_top5": 0.0008,
+   "smaa_rank": 72
+  },
+  "NITAZOXANIDE": {
+   "age_bands": {
+    "0-4": "not_assessed",
+    "12-17": "not_assessed",
+    "5-11": "not_assessed"
+   },
+   "age_union": "no band with label support (not_assessed/not_assessed/not_assessed)",
+   "drug": "NITAZOXANIDE",
+   "lines": [
+    "EP"
+   ],
+   "safety_flags": [
+    "label read, no keyword match for the phenotype terms"
+   ],
+   "smaa_p_top5": 0.0033,
+   "smaa_rank": 51
+  },
+  "OLAPARIB": {
+   "age_bands": {
+    "0-4": "not_labelled",
+    "12-17": "not_labelled",
+    "5-11": "not_labelled"
+   },
+   "age_union": "no band with label support (not_labelled/not_labelled/not_labelled)",
+   "drug": "OLAPARIB",
+   "lines": [
+    "ENG"
+   ],
+   "safety_flags": [
+    "label read, no keyword match for the phenotype terms"
+   ],
+   "smaa_p_top5": 0.0001,
+   "smaa_rank": 88
+  },
+  "PHENYLBUTANOIC ACID": {
+   "age_bands": {
+    "0-4": "partly",
+    "12-17": "labelled",
+    "5-11": "labelled"
+   },
+   "age_union": "supported in 0-4, 5-11, 12-17",
+   "drug": "PHENYLBUTANOIC ACID",
+   "lines": [
+    "LIT"
+   ],
+   "safety_flags": [
+    "entry in config/proposal_safety.json",
+    "label read, no keyword match for the phenotype terms"
+   ],
+   "smaa_p_top5": 0.001,
+   "smaa_rank": 68
+  },
+  "POMALIDOMIDE": {
+   "age_bands": {
+    "0-4": "not_labelled",
+    "12-17": "not_labelled",
+    "5-11": "not_labelled"
+   },
+   "age_union": "no band with label support (not_labelled/not_labelled/not_labelled)",
+   "drug": "POMALIDOMIDE",
+   "lines": [
+    "A"
+   ],
+   "safety_flags": [
+    "boxed warning in the label",
+    "label read, no keyword match for the phenotype terms"
+   ],
+   "smaa_p_top5": 0.0029,
+   "smaa_rank": 53
+  },
+  "PROGESTERONE": {
+   "age_bands": {
+    "0-4": "verify",
+    "12-17": "verify",
+    "5-11": "verify"
+   },
+   "age_union": "no band with label support (verify/verify/verify)",
+   "drug": "PROGESTERONE",
+   "lines": [
+    "ENG"
+   ],
+   "safety_flags": [
+    "boxed warning in the label",
+    "label read, no keyword match for the phenotype terms"
+   ],
+   "smaa_p_top5": 0.0132,
+   "smaa_rank": 34
+  },
+  "PYRIMETHAMINE": {
+   "age_bands": {
+    "0-4": "not_assessed",
+    "12-17": "not_assessed",
+    "5-11": "not_assessed"
+   },
+   "age_union": "no band with label support (not_assessed/not_assessed/not_assessed)",
+   "drug": "PYRIMETHAMINE",
+   "lines": [
+    "EP"
+   ],
+   "safety_flags": [
+    "label read, no keyword match for the phenotype terms"
+   ],
+   "smaa_p_top5": 0.0114,
+   "smaa_rank": 35
+  },
+  "REGORAFENIB": {
+   "age_bands": {
+    "0-4": "not_labelled",
+    "12-17": "not_labelled",
+    "5-11": "not_labelled"
+   },
+   "age_union": "no band with label support (not_labelled/not_labelled/not_labelled)",
+   "drug": "REGORAFENIB",
+   "lines": [
+    "D"
+   ],
+   "safety_flags": [
+    "boxed warning in the label",
+    "label read, no keyword match for the phenotype terms"
+   ],
+   "smaa_p_top5": 0.0078,
+   "smaa_rank": 41
+  },
+  "RITLECITINIB": {
+   "age_bands": {
+    "0-4": "not_assessed",
+    "12-17": "not_assessed",
+    "5-11": "not_assessed"
+   },
+   "age_union": "no band with label support (not_assessed/not_assessed/not_assessed)",
+   "drug": "RITLECITINIB",
+   "lines": [
+    "D"
+   ],
+   "safety_flags": [
+    "boxed warning in the label",
+    "label read, no keyword match for the phenotype terms"
+   ],
+   "smaa_p_top5": 0.0,
+   "smaa_rank": 191
+  },
+  "SELINEXOR": {
+   "age_bands": {
+    "0-4": "not_labelled",
+    "12-17": "not_labelled",
+    "5-11": "not_labelled"
+   },
+   "age_union": "no band with label support (not_labelled/not_labelled/not_labelled)",
+   "drug": "SELINEXOR",
+   "lines": [
+    "B2"
+   ],
+   "safety_flags": [
+    "entry in config/proposal_safety.json",
+    "label read, no keyword match for the phenotype terms"
+   ],
+   "smaa_p_top5": 0.4161,
+   "smaa_rank": 3
+  },
+  "SUNITINIB": {
+   "age_bands": {
+    "0-4": "not_labelled",
+    "12-17": "not_labelled",
+    "5-11": "not_labelled"
+   },
+   "age_union": "no band with label support (not_labelled/not_labelled/not_labelled)",
+   "drug": "SUNITINIB",
+   "lines": [
+    "D"
+   ],
+   "safety_flags": [
+    "boxed warning in the label",
+    "label read, no keyword match for the phenotype terms"
+   ],
+   "smaa_p_top5": 0.0007,
+   "smaa_rank": 76
+  },
+  "TIRBANIBULIN": {
+   "age_bands": {
+    "0-4": "not_assessed",
+    "12-17": "not_assessed",
+    "5-11": "not_assessed"
+   },
+   "age_union": "no band with label support (not_assessed/not_assessed/not_assessed)",
+   "drug": "TIRBANIBULIN",
+   "lines": [
+    "B2"
+   ],
+   "safety_flags": [
+    "label read, no keyword match for the phenotype terms"
+   ],
+   "smaa_p_top5": 0.0327,
+   "smaa_rank": 25
+  },
+  "TRAMETINIB": {
+   "age_bands": {
+    "0-4": "partly",
+    "12-17": "labelled",
+    "5-11": "labelled"
+   },
+   "age_union": "supported in 0-4, 5-11, 12-17",
+   "drug": "TRAMETINIB",
+   "lines": [
+    "LIT",
+    "C"
+   ],
+   "safety_flags": [
+    "entry in config/proposal_safety.json",
+    "label read, no keyword match for the phenotype terms"
+   ],
+   "smaa_p_top5": 0.4181,
+   "smaa_rank": 2
+  },
+  "TYROSINE": {
+   "age_bands": {
+    "0-4": "verify",
+    "12-17": "verify",
+    "5-11": "verify"
+   },
+   "age_union": "no band with label support (verify/verify/verify)",
+   "drug": "TYROSINE",
+   "lines": [
+    "ENG"
+   ],
+   "safety_flags": [
+    "label read, no keyword match for the phenotype terms"
+   ],
+   "smaa_p_top5": 0.1294,
+   "smaa_rank": 13
+  },
+  "VORINOSTAT": {
+   "age_bands": {
+    "0-4": "not_labelled",
+    "12-17": "not_labelled",
+    "5-11": "not_labelled"
+   },
+   "age_union": "no band with label support (not_labelled/not_labelled/not_labelled)",
+   "drug": "VORINOSTAT",
+   "lines": [
+    "ENG"
+   ],
+   "safety_flags": [
+    "label read, no keyword match for the phenotype terms"
+   ],
+   "smaa_p_top5": 0.0057,
+   "smaa_rank": 43
+  },
+  "ZINC CHLORIDE": {
+   "age_bands": {
+    "0-4": "verify",
+    "12-17": "verify",
+    "5-11": "verify"
+   },
+   "age_union": "no band with label support (verify/verify/verify)",
+   "drug": "ZINC CHLORIDE",
+   "lines": [
+    "ENG"
+   ],
+   "safety_flags": [
+    "label read, no keyword match for the phenotype terms"
+   ],
+   "smaa_p_top5": 0.082,
+   "smaa_rank": 16
+  }
+ },
+ "convergence": {
+  "in_two_or_more_lines": [
+   "NERATINIB",
+   "TRAMETINIB"
+  ],
+  "matrix": {
+   "AMPHOTERICIN B": {
+    "A": false,
+    "B1": false,
+    "B2": false,
+    "C": false,
+    "D": false,
+    "E": false,
+    "ENG": false,
+    "EP": true,
+    "ET1": false,
+    "LIT": false
+   },
+   "AURANOFIN": {
+    "A": false,
+    "B1": false,
+    "B2": false,
+    "C": false,
+    "D": false,
+    "E": false,
+    "ENG": false,
+    "EP": true,
+    "ET1": false,
+    "LIT": false
+   },
+   "CERITINIB": {
+    "A": false,
+    "B1": false,
+    "B2": true,
+    "C": false,
+    "D": false,
+    "E": false,
+    "ENG": false,
+    "EP": false,
+    "ET1": false,
+    "LIT": false
+   },
+   "ERDAFITINIB": {
+    "A": false,
+    "B1": false,
+    "B2": false,
+    "C": false,
+    "D": true,
+    "E": false,
+    "ENG": false,
+    "EP": false,
+    "ET1": false,
+    "LIT": false
+   },
+   "EVEROLIMUS": {
+    "A": false,
+    "B1": false,
+    "B2": false,
+    "C": false,
+    "D": false,
+    "E": false,
+    "ENG": false,
+    "EP": false,
+    "ET1": false,
+    "LIT": true
+   },
+   "LAZERTINIB": {
+    "A": false,
+    "B1": false,
+    "B2": false,
+    "C": true,
+    "D": false,
+    "E": false,
+    "ENG": false,
+    "EP": false,
+    "ET1": false,
+    "LIT": false
+   },
+   "METFORMIN": {
+    "A": false,
+    "B1": false,
+    "B2": false,
+    "C": false,
+    "D": false,
+    "E": false,
+    "ENG": false,
+    "EP": false,
+    "ET1": false,
+    "LIT": true
+   },
+   "NERATINIB": {
+    "A": false,
+    "B1": false,
+    "B2": false,
+    "C": true,
+    "D": false,
+    "E": false,
+    "ENG": false,
+    "EP": true,
+    "ET1": false,
+    "LIT": false
+   },
+   "NIROGACESTAT": {
+    "A": false,
+    "B1": false,
+    "B2": false,
+    "C": false,
+    "D": true,
+    "E": false,
+    "ENG": false,
+    "EP": false,
+    "ET1": false,
+    "LIT": false
+   },
+   "NITAZOXANIDE": {
+    "A": false,
+    "B1": false,
+    "B2": false,
+    "C": false,
+    "D": false,
+    "E": false,
+    "ENG": false,
+    "EP": true,
+    "ET1": false,
+    "LIT": false
+   },
+   "OLAPARIB": {
+    "A": false,
+    "B1": false,
+    "B2": false,
+    "C": false,
+    "D": false,
+    "E": false,
+    "ENG": true,
+    "EP": false,
+    "ET1": false,
+    "LIT": false
+   },
+   "PHENYLBUTANOIC ACID": {
+    "A": false,
+    "B1": false,
+    "B2": false,
+    "C": false,
+    "D": false,
+    "E": false,
+    "ENG": false,
+    "EP": false,
+    "ET1": false,
+    "LIT": true
+   },
+   "POMALIDOMIDE": {
+    "A": true,
+    "B1": false,
+    "B2": false,
+    "C": false,
+    "D": false,
+    "E": false,
+    "ENG": false,
+    "EP": false,
+    "ET1": false,
+    "LIT": false
+   },
+   "PROGESTERONE": {
+    "A": false,
+    "B1": false,
+    "B2": false,
+    "C": false,
+    "D": false,
+    "E": false,
+    "ENG": true,
+    "EP": false,
+    "ET1": false,
+    "LIT": false
+   },
+   "PYRIMETHAMINE": {
+    "A": false,
+    "B1": false,
+    "B2": false,
+    "C": false,
+    "D": false,
+    "E": false,
+    "ENG": false,
+    "EP": true,
+    "ET1": false,
+    "LIT": false
+   },
+   "REGORAFENIB": {
+    "A": false,
+    "B1": false,
+    "B2": false,
+    "C": false,
+    "D": true,
+    "E": false,
+    "ENG": false,
+    "EP": false,
+    "ET1": false,
+    "LIT": false
+   },
+   "RITLECITINIB": {
+    "A": false,
+    "B1": false,
+    "B2": false,
+    "C": false,
+    "D": true,
+    "E": false,
+    "ENG": false,
+    "EP": false,
+    "ET1": false,
+    "LIT": false
+   },
+   "SELINEXOR": {
+    "A": false,
+    "B1": false,
+    "B2": true,
+    "C": false,
+    "D": false,
+    "E": false,
+    "ENG": false,
+    "EP": false,
+    "ET1": false,
+    "LIT": false
+   },
+   "SUNITINIB": {
+    "A": false,
+    "B1": false,
+    "B2": false,
+    "C": false,
+    "D": true,
+    "E": false,
+    "ENG": false,
+    "EP": false,
+    "ET1": false,
+    "LIT": false
+   },
+   "TIRBANIBULIN": {
+    "A": false,
+    "B1": false,
+    "B2": true,
+    "C": false,
+    "D": false,
+    "E": false,
+    "ENG": false,
+    "EP": false,
+    "ET1": false,
+    "LIT": false
+   },
+   "TRAMETINIB": {
+    "A": false,
+    "B1": false,
+    "B2": false,
+    "C": true,
+    "D": false,
+    "E": false,
+    "ENG": false,
+    "EP": false,
+    "ET1": false,
+    "LIT": true
+   },
+   "TYROSINE": {
+    "A": false,
+    "B1": false,
+    "B2": false,
+    "C": false,
+    "D": false,
+    "E": false,
+    "ENG": true,
+    "EP": false,
+    "ET1": false,
+    "LIT": false
+   },
+   "VORINOSTAT": {
+    "A": false,
+    "B1": false,
+    "B2": false,
+    "C": false,
+    "D": false,
+    "E": false,
+    "ENG": true,
+    "EP": false,
+    "ET1": false,
+    "LIT": false
+   },
+   "ZINC CHLORIDE": {
+    "A": false,
+    "B1": false,
+    "B2": false,
+    "C": false,
+    "D": false,
+    "E": false,
+    "ENG": true,
+    "EP": false,
+    "ET1": false,
+    "LIT": false
+   }
+  },
+  "n_candidates_distinct": 24,
+  "n_unique_to_one_line": 22,
+  "pairs": [
+   {
+    "lines": [
+     "LIT",
+     "ENG"
+    ],
+    "note": "hypergeometric test over the completed pool; no multiplicity claim",
+    "overlap": 0,
+    "p_hypergeometric": 1.0,
+    "shared": [],
+    "sizes": [
+     4,
+     5
+    ]
+   },
+   {
+    "lines": [
+     "LIT",
+     "A"
+    ],
+    "note": "hypergeometric test over the completed pool; no multiplicity claim",
+    "overlap": 0,
+    "p_hypergeometric": 1.0,
+    "shared": [],
+    "sizes": [
+     4,
+     1
+    ]
+   },
+   {
+    "lines": [
+     "LIT",
+     "B2"
+    ],
+    "note": "hypergeometric test over the completed pool; no multiplicity claim",
+    "overlap": 0,
+    "p_hypergeometric": 1.0,
+    "shared": [],
+    "sizes": [
+     4,
+     3
+    ]
+   },
+   {
+    "lines": [
+     "LIT",
+     "C"
+    ],
+    "note": "hypergeometric test over the completed pool; no multiplicity claim",
+    "overlap": 1,
+    "p_hypergeometric": 0.052852900947071346,
+    "shared": [
+     "TRAMETINIB"
+    ],
+    "sizes": [
+     4,
+     3
+    ]
+   },
+   {
+    "lines": [
+     "LIT",
+     "D"
+    ],
+    "note": "hypergeometric test over the completed pool; no multiplicity claim",
+    "overlap": 0,
+    "p_hypergeometric": 1.0,
+    "shared": [],
+    "sizes": [
+     4,
+     5
+    ]
+   },
+   {
+    "lines": [
+     "LIT",
+     "EP"
+    ],
+    "note": "hypergeometric test over the completed pool; no multiplicity claim",
+    "overlap": 0,
+    "p_hypergeometric": 1.0,
+    "shared": [],
+    "sizes": [
+     4,
+     5
+    ]
+   },
+   {
+    "lines": [
+     "ENG",
+     "A"
+    ],
+    "note": "hypergeometric test over the completed pool; no multiplicity claim",
+    "overlap": 0,
+    "p_hypergeometric": 1.0,
+    "shared": [],
+    "sizes": [
+     5,
+     1
+    ]
+   },
+   {
+    "lines": [
+     "ENG",
+     "B2"
+    ],
+    "note": "hypergeometric test over the completed pool; no multiplicity claim",
+    "overlap": 0,
+    "p_hypergeometric": 1.0,
+    "shared": [],
+    "sizes": [
+     5,
+     3
+    ]
+   },
+   {
+    "lines": [
+     "ENG",
+     "C"
+    ],
+    "note": "hypergeometric test over the completed pool; no multiplicity claim",
+    "overlap": 0,
+    "p_hypergeometric": 1.0,
+    "shared": [],
+    "sizes": [
+     5,
+     3
+    ]
+   },
+   {
+    "lines": [
+     "ENG",
+     "D"
+    ],
+    "note": "hypergeometric test over the completed pool; no multiplicity claim",
+    "overlap": 0,
+    "p_hypergeometric": 1.0,
+    "shared": [],
+    "sizes": [
+     5,
+     5
+    ]
+   },
+   {
+    "lines": [
+     "ENG",
+     "EP"
+    ],
+    "note": "hypergeometric test over the completed pool; no multiplicity claim",
+    "overlap": 0,
+    "p_hypergeometric": 1.0,
+    "shared": [],
+    "sizes": [
+     5,
+     5
+    ]
+   },
+   {
+    "lines": [
+     "A",
+     "B2"
+    ],
+    "note": "hypergeometric test over the completed pool; no multiplicity claim",
+    "overlap": 0,
+    "p_hypergeometric": 1.0,
+    "shared": [],
+    "sizes": [
+     1,
+     3
+    ]
+   },
+   {
+    "lines": [
+     "A",
+     "C"
+    ],
+    "note": "hypergeometric test over the completed pool; no multiplicity claim",
+    "overlap": 0,
+    "p_hypergeometric": 1.0,
+    "shared": [],
+    "sizes": [
+     1,
+     3
+    ]
+   },
+   {
+    "lines": [
+     "A",
+     "D"
+    ],
+    "note": "hypergeometric test over the completed pool; no multiplicity claim",
+    "overlap": 0,
+    "p_hypergeometric": 1.0,
+    "shared": [],
+    "sizes": [
+     1,
+     5
+    ]
+   },
+   {
+    "lines": [
+     "A",
+     "EP"
+    ],
+    "note": "hypergeometric test over the completed pool; no multiplicity claim",
+    "overlap": 0,
+    "p_hypergeometric": 1.0,
+    "shared": [],
+    "sizes": [
+     1,
+     5
+    ]
+   },
+   {
+    "lines": [
+     "B2",
+     "C"
+    ],
+    "note": "hypergeometric test over the completed pool; no multiplicity claim",
+    "overlap": 0,
+    "p_hypergeometric": 1.0,
+    "shared": [],
+    "sizes": [
+     3,
+     3
+    ]
+   },
+   {
+    "lines": [
+     "B2",
+     "D"
+    ],
+    "note": "hypergeometric test over the completed pool; no multiplicity claim",
+    "overlap": 0,
+    "p_hypergeometric": 1.0,
+    "shared": [],
+    "sizes": [
+     3,
+     5
+    ]
+   },
+   {
+    "lines": [
+     "B2",
+     "EP"
+    ],
+    "note": "hypergeometric test over the completed pool; no multiplicity claim",
+    "overlap": 0,
+    "p_hypergeometric": 1.0,
+    "shared": [],
+    "sizes": [
+     3,
+     5
+    ]
+   },
+   {
+    "lines": [
+     "C",
+     "D"
+    ],
+    "note": "hypergeometric test over the completed pool; no multiplicity claim",
+    "overlap": 0,
+    "p_hypergeometric": 1.0,
+    "shared": [],
+    "sizes": [
+     3,
+     5
+    ]
+   },
+   {
+    "lines": [
+     "C",
+     "EP"
+    ],
+    "note": "hypergeometric test over the completed pool; no multiplicity claim",
+    "overlap": 1,
+    "p_hypergeometric": 0.06576854320688401,
+    "shared": [
+     "NERATINIB"
+    ],
+    "sizes": [
+     3,
+     5
+    ]
+   },
+   {
+    "lines": [
+     "D",
+     "EP"
+    ],
+    "note": "hypergeometric test over the completed pool; no multiplicity claim",
+    "overlap": 0,
+    "p_hypergeometric": 1.0,
+    "shared": [],
+    "sizes": [
+     5,
+     5
+    ]
+   }
+  ],
+  "universe_n": 224
+ },
+ "convergence_including_also_qualifying": {
+  "in_two_or_more_lines": [
+   "NERATINIB",
+   "TRAMETINIB"
+  ],
+  "matrix": {
+   "AMPHOTERICIN B": {
+    "A": false,
+    "B1": false,
+    "B2": false,
+    "C": false,
+    "D": false,
+    "E": false,
+    "ENG": false,
+    "EP": true,
+    "ET1": false,
+    "LIT": false
+   },
+   "APOMORPHINE": {
+    "A": false,
+    "B1": false,
+    "B2": false,
+    "C": false,
+    "D": false,
+    "E": false,
+    "ENG": true,
+    "EP": false,
+    "ET1": false,
+    "LIT": false
+   },
+   "ARSENIC TRIOXIDE": {
+    "A": false,
+    "B1": false,
+    "B2": false,
+    "C": false,
+    "D": false,
+    "E": false,
+    "ENG": true,
+    "EP": false,
+    "ET1": false,
+    "LIT": false
+   },
+   "AURANOFIN": {
+    "A": false,
+    "B1": false,
+    "B2": false,
+    "C": false,
+    "D": false,
+    "E": false,
+    "ENG": false,
+    "EP": true,
+    "ET1": false,
+    "LIT": false
+   },
+   "BELINOSTAT": {
+    "A": false,
+    "B1": false,
+    "B2": false,
+    "C": false,
+    "D": false,
+    "E": false,
+    "ENG": true,
+    "EP": false,
+    "ET1": false,
+    "LIT": false
+   },
+   "CARVEDILOL": {
+    "A": false,
+    "B1": false,
+    "B2": false,
+    "C": false,
+    "D": false,
+    "E": false,
+    "ENG": true,
+    "EP": false,
+    "ET1": false,
+    "LIT": false
+   },
+   "CERITINIB": {
+    "A": false,
+    "B1": false,
+    "B2": true,
+    "C": false,
+    "D": false,
+    "E": false,
+    "ENG": false,
+    "EP": false,
+    "ET1": false,
+    "LIT": false
+   },
+   "ERDAFITINIB": {
+    "A": false,
+    "B1": false,
+    "B2": false,
+    "C": false,
+    "D": true,
+    "E": false,
+    "ENG": false,
+    "EP": false,
+    "ET1": false,
+    "LIT": false
+   },
+   "EVEROLIMUS": {
+    "A": false,
+    "B1": false,
+    "B2": false,
+    "C": false,
+    "D": false,
+    "E": false,
+    "ENG": false,
+    "EP": false,
+    "ET1": false,
+    "LIT": true
+   },
+   "FOSTAMATINIB": {
+    "A": false,
+    "B1": false,
+    "B2": false,
+    "C": false,
+    "D": false,
+    "E": false,
+    "ENG": true,
+    "EP": false,
+    "ET1": false,
+    "LIT": false
+   },
+   "LAZERTINIB": {
+    "A": false,
+    "B1": false,
+    "B2": false,
+    "C": true,
+    "D": false,
+    "E": false,
+    "ENG": false,
+    "EP": false,
+    "ET1": false,
+    "LIT": false
+   },
+   "METFORMIN": {
+    "A": false,
+    "B1": false,
+    "B2": false,
+    "C": false,
+    "D": false,
+    "E": false,
+    "ENG": false,
+    "EP": false,
+    "ET1": false,
+    "LIT": true
+   },
+   "NERATINIB": {
+    "A": false,
+    "B1": false,
+    "B2": false,
+    "C": true,
+    "D": false,
+    "E": false,
+    "ENG": false,
+    "EP": true,
+    "ET1": false,
+    "LIT": false
+   },
+   "NIROGACESTAT": {
+    "A": false,
+    "B1": false,
+    "B2": false,
+    "C": false,
+    "D": true,
+    "E": false,
+    "ENG": false,
+    "EP": false,
+    "ET1": false,
+    "LIT": false
+   },
+   "NITAZOXANIDE": {
+    "A": false,
+    "B1": false,
+    "B2": false,
+    "C": false,
+    "D": false,
+    "E": false,
+    "ENG": false,
+    "EP": true,
+    "ET1": false,
+    "LIT": false
+   },
+   "OLAPARIB": {
+    "A": false,
+    "B1": false,
+    "B2": false,
+    "C": false,
+    "D": false,
+    "E": false,
+    "ENG": true,
+    "EP": false,
+    "ET1": false,
+    "LIT": false
+   },
+   "PHENYLBUTANOIC ACID": {
+    "A": false,
+    "B1": false,
+    "B2": false,
+    "C": false,
+    "D": false,
+    "E": false,
+    "ENG": false,
+    "EP": false,
+    "ET1": false,
+    "LIT": true
+   },
+   "POMALIDOMIDE": {
+    "A": true,
+    "B1": false,
+    "B2": false,
+    "C": false,
+    "D": false,
+    "E": false,
+    "ENG": false,
+    "EP": false,
+    "ET1": false,
+    "LIT": false
+   },
+   "PROGESTERONE": {
+    "A": false,
+    "B1": false,
+    "B2": false,
+    "C": false,
+    "D": false,
+    "E": false,
+    "ENG": true,
+    "EP": false,
+    "ET1": false,
+    "LIT": false
+   },
+   "PYRIMETHAMINE": {
+    "A": false,
+    "B1": false,
+    "B2": false,
+    "C": false,
+    "D": false,
+    "E": false,
+    "ENG": false,
+    "EP": true,
+    "ET1": false,
+    "LIT": false
+   },
+   "REGORAFENIB": {
+    "A": false,
+    "B1": false,
+    "B2": false,
+    "C": false,
+    "D": true,
+    "E": false,
+    "ENG": false,
+    "EP": false,
+    "ET1": false,
+    "LIT": false
+   },
+   "RITLECITINIB": {
+    "A": false,
+    "B1": false,
+    "B2": false,
+    "C": false,
+    "D": true,
+    "E": false,
+    "ENG": false,
+    "EP": false,
+    "ET1": false,
+    "LIT": false
+   },
+   "SELINEXOR": {
+    "A": false,
+    "B1": false,
+    "B2": true,
+    "C": false,
+    "D": false,
+    "E": false,
+    "ENG": false,
+    "EP": false,
+    "ET1": false,
+    "LIT": false
+   },
+   "SUNITINIB": {
+    "A": false,
+    "B1": false,
+    "B2": false,
+    "C": false,
+    "D": true,
+    "E": false,
+    "ENG": false,
+    "EP": false,
+    "ET1": false,
+    "LIT": false
+   },
+   "TIRBANIBULIN": {
+    "A": false,
+    "B1": false,
+    "B2": true,
+    "C": false,
+    "D": false,
+    "E": false,
+    "ENG": false,
+    "EP": false,
+    "ET1": false,
+    "LIT": false
+   },
+   "TRAMETINIB": {
+    "A": false,
+    "B1": false,
+    "B2": false,
+    "C": true,
+    "D": false,
+    "E": false,
+    "ENG": false,
+    "EP": false,
+    "ET1": false,
+    "LIT": true
+   },
+   "TYROSINE": {
+    "A": false,
+    "B1": false,
+    "B2": false,
+    "C": false,
+    "D": false,
+    "E": false,
+    "ENG": true,
+    "EP": false,
+    "ET1": false,
+    "LIT": false
+   },
+   "VORINOSTAT": {
+    "A": false,
+    "B1": false,
+    "B2": false,
+    "C": false,
+    "D": false,
+    "E": false,
+    "ENG": true,
+    "EP": false,
+    "ET1": false,
+    "LIT": false
+   },
+   "ZINC CHLORIDE": {
+    "A": false,
+    "B1": false,
+    "B2": false,
+    "C": false,
+    "D": false,
+    "E": false,
+    "ENG": true,
+    "EP": false,
+    "ET1": false,
+    "LIT": false
+   }
+  },
+  "n_candidates_distinct": 29,
+  "n_unique_to_one_line": 27,
+  "pairs": [
+   {
+    "lines": [
+     "LIT",
+     "ENG"
+    ],
+    "note": "hypergeometric test over the completed pool; no multiplicity claim",
+    "overlap": 0,
+    "p_hypergeometric": 1.0,
+    "shared": [],
+    "sizes": [
+     4,
+     10
+    ]
+   },
+   {
+    "lines": [
+     "LIT",
+     "A"
+    ],
+    "note": "hypergeometric test over the completed pool; no multiplicity claim",
+    "overlap": 0,
+    "p_hypergeometric": 1.0,
+    "shared": [],
+    "sizes": [
+     4,
+     1
+    ]
+   },
+   {
+    "lines": [
+     "LIT",
+     "B2"
+    ],
+    "note": "hypergeometric test over the completed pool; no multiplicity claim",
+    "overlap": 0,
+    "p_hypergeometric": 1.0,
+    "shared": [],
+    "sizes": [
+     4,
+     3
+    ]
+   },
+   {
+    "lines": [
+     "LIT",
+     "C"
+    ],
+    "note": "hypergeometric test over the completed pool; no multiplicity claim",
+    "overlap": 1,
+    "p_hypergeometric": 0.052852900947071346,
+    "shared": [
+     "TRAMETINIB"
+    ],
+    "sizes": [
+     4,
+     3
+    ]
+   },
+   {
+    "lines": [
+     "LIT",
+     "D"
+    ],
+    "note": "hypergeometric test over the completed pool; no multiplicity claim",
+    "overlap": 0,
+    "p_hypergeometric": 1.0,
+    "shared": [],
+    "sizes": [
+     4,
+     5
+    ]
+   },
+   {
+    "lines": [
+     "LIT",
+     "EP"
+    ],
+    "note": "hypergeometric test over the completed pool; no multiplicity claim",
+    "overlap": 0,
+    "p_hypergeometric": 1.0,
+    "shared": [],
+    "sizes": [
+     4,
+     5
+    ]
+   },
+   {
+    "lines": [
+     "ENG",
+     "A"
+    ],
+    "note": "hypergeometric test over the completed pool; no multiplicity claim",
+    "overlap": 0,
+    "p_hypergeometric": 1.0,
+    "shared": [],
+    "sizes": [
+     10,
+     1
+    ]
+   },
+   {
+    "lines": [
+     "ENG",
+     "B2"
+    ],
+    "note": "hypergeometric test over the completed pool; no multiplicity claim",
+    "overlap": 0,
+    "p_hypergeometric": 1.0,
+    "shared": [],
+    "sizes": [
+     10,
+     3
+    ]
+   },
+   {
+    "lines": [
+     "ENG",
+     "C"
+    ],
+    "note": "hypergeometric test over the completed pool; no multiplicity claim",
+    "overlap": 0,
+    "p_hypergeometric": 1.0,
+    "shared": [],
+    "sizes": [
+     10,
+     3
+    ]
+   },
+   {
+    "lines": [
+     "ENG",
+     "D"
+    ],
+    "note": "hypergeometric test over the completed pool; no multiplicity claim",
+    "overlap": 0,
+    "p_hypergeometric": 1.0,
+    "shared": [],
+    "sizes": [
+     10,
+     5
+    ]
+   },
+   {
+    "lines": [
+     "ENG",
+     "EP"
+    ],
+    "note": "hypergeometric test over the completed pool; no multiplicity claim",
+    "overlap": 0,
+    "p_hypergeometric": 1.0,
+    "shared": [],
+    "sizes": [
+     10,
+     5
+    ]
+   },
+   {
+    "lines": [
+     "A",
+     "B2"
+    ],
+    "note": "hypergeometric test over the completed pool; no multiplicity claim",
+    "overlap": 0,
+    "p_hypergeometric": 1.0,
+    "shared": [],
+    "sizes": [
+     1,
+     3
+    ]
+   },
+   {
+    "lines": [
+     "A",
+     "C"
+    ],
+    "note": "hypergeometric test over the completed pool; no multiplicity claim",
+    "overlap": 0,
+    "p_hypergeometric": 1.0,
+    "shared": [],
+    "sizes": [
+     1,
+     3
+    ]
+   },
+   {
+    "lines": [
+     "A",
+     "D"
+    ],
+    "note": "hypergeometric test over the completed pool; no multiplicity claim",
+    "overlap": 0,
+    "p_hypergeometric": 1.0,
+    "shared": [],
+    "sizes": [
+     1,
+     5
+    ]
+   },
+   {
+    "lines": [
+     "A",
+     "EP"
+    ],
+    "note": "hypergeometric test over the completed pool; no multiplicity claim",
+    "overlap": 0,
+    "p_hypergeometric": 1.0,
+    "shared": [],
+    "sizes": [
+     1,
+     5
+    ]
+   },
+   {
+    "lines": [
+     "B2",
+     "C"
+    ],
+    "note": "hypergeometric test over the completed pool; no multiplicity claim",
+    "overlap": 0,
+    "p_hypergeometric": 1.0,
+    "shared": [],
+    "sizes": [
+     3,
+     3
+    ]
+   },
+   {
+    "lines": [
+     "B2",
+     "D"
+    ],
+    "note": "hypergeometric test over the completed pool; no multiplicity claim",
+    "overlap": 0,
+    "p_hypergeometric": 1.0,
+    "shared": [],
+    "sizes": [
+     3,
+     5
+    ]
+   },
+   {
+    "lines": [
+     "B2",
+     "EP"
+    ],
+    "note": "hypergeometric test over the completed pool; no multiplicity claim",
+    "overlap": 0,
+    "p_hypergeometric": 1.0,
+    "shared": [],
+    "sizes": [
+     3,
+     5
+    ]
+   },
+   {
+    "lines": [
+     "C",
+     "D"
+    ],
+    "note": "hypergeometric test over the completed pool; no multiplicity claim",
+    "overlap": 0,
+    "p_hypergeometric": 1.0,
+    "shared": [],
+    "sizes": [
+     3,
+     5
+    ]
+   },
+   {
+    "lines": [
+     "C",
+     "EP"
+    ],
+    "note": "hypergeometric test over the completed pool; no multiplicity claim",
+    "overlap": 1,
+    "p_hypergeometric": 0.06576854320688401,
+    "shared": [
+     "NERATINIB"
+    ],
+    "sizes": [
+     3,
+     5
+    ]
+   },
+   {
+    "lines": [
+     "D",
+     "EP"
+    ],
+    "note": "hypergeometric test over the completed pool; no multiplicity claim",
+    "overlap": 0,
+    "p_hypergeometric": 1.0,
+    "shared": [],
+    "sizes": [
+     5,
+     5
+    ]
+   }
+  ],
+  "universe_n": 224
+ },
+ "cross_check": {
+  "note": "multi-evidence SMAA (completed run) as a cross-check column only",
+  "proposed_by_smaa": [
+   "CALCITRIOL"
+  ],
+  "stability": {
+   "equal_weights_top5": [
+    "CALCITRIOL",
+    "DEXMEDETOMIDINE",
+    "TRAMETINIB",
+    "SELINEXOR",
+    "ACYCLOVIR"
+   ],
+   "leave_one_out_proposed": {
+    "A": [
+     "CALCITRIOL",
+     "SELINEXOR",
+     "TYROSINE",
+     "ZINC CHLORIDE"
+    ],
+    "B1": [
+     "CALCITRIOL"
+    ],
+    "B2": [
+     "CALCITRIOL"
+    ],
+    "C": [
+     "DEXMEDETOMIDINE",
+     "CALCITRIOL"
+    ],
+    "D": [
+     "ACYCLOVIR",
+     "DEXMEDETOMIDINE",
+     "CALCITRIOL",
+     "MINOCYCLINE"
+    ],
+    "E": [
+     "CALCITRIOL"
+    ],
+    "ENG": [
+     "CALCITRIOL"
+    ],
+    "EP": [
+     "TRAMETINIB",
+     "CALCITRIOL"
+    ],
+    "LIT": [
+     "CALCITRIOL"
+    ],
+    "M": [
+     "CALCITRIOL"
+    ],
+    "S": [
+     "CALCITRIOL",
+     "TRAMETINIB",
+     "SELINEXOR"
+    ]
+   },
+   "literature_only_proposed": [
+    "ERIBULIN",
+    "TRAMETINIB",
+    "SELINEXOR",
+    "VINCRISTINE",
+    "TEMOZOLOMIDE"
+   ],
+   "mc_retained": {
+    "10": [
+     1.0,
+     1,
+     {
+      "CALCITRIOL": 1.0
+     }
+    ],
+    "20": [
+     1.0,
+     1,
+     {
+      "CALCITRIOL": 1.0
+     }
+    ],
+    "30": [
+     1.0,
+     1,
+     {
+      "CALCITRIOL": 1.0
+     }
+    ]
+   },
+   "track1_off_proposed": [
+    "CALCITRIOL"
+   ]
+  },
+  "trametinib_survives": false
+ },
+ "data_gaps": [
+  "lines with an empty native set are reported as empty; the B1 near-threshold drugs are information only"
+ ],
+ "filters": {
+  "approval_unconfirmed_28": [
+   "ALFACALCIDOL",
+   "ATALUREN",
+   "BUTABARBITAL",
+   "CARBENOXOLONE",
+   "CHLORPROTHIXENE",
+   "COPANLISIB",
+   "DAPRODUSTAT",
+   "DESERPIDINE",
+   "DEXKETOPROFEN",
+   "DIDANOSINE",
+   "DYDROGESTERONE",
+   "GLUCOSAMINE",
+   "HALOPROGIN",
+   "HEXYLCAINE",
+   "INFIGRATINIB",
+   "MASOPROCOL",
+   "MESTRANOL",
+   "METHYSERGIDE",
+   "NICLOSAMIDE",
+   "PHENACEMIDE",
+   "PLICAMYCIN",
+   "RACECADOTRIL",
+   "RILMENIDINE",
+   "TACALCITOL",
+   "TRICHLORMETHIAZIDE",
+   "TRIDIHEXETHYL",
+   "TRIOXSALEN",
+   "VERNAKALANT"
+  ],
+  "contra_only": {
+   "HP:0002859 rhabdomyosarcoma": [
+    "active malignancy",
+    "malignant neoplasm"
+   ]
+  },
+  "cytotoxic_context_n": 38,
+  "hard_excluded": {
+   "BORTEZOMIB": "hazard: verified entries state selective killing of aneuploid cells (hazard for a constitutional mosaic)",
+   "BOSUTINIB": "hazard: verified entries state selective killing of aneuploid cells (hazard for a constitutional mosaic)",
+   "CHLOROQUINE": "hazard: verified entries state selective killing of aneuploid cells (hazard for a constitutional mosaic)",
+   "LONAPEGSOMATROPIN": "growth-hormone/IGF-1 class: label contraindicates active malignancy",
+   "SOMAPACITAN": "growth-hormone/IGF-1 class: label contraindicates active malignancy",
+   "SOMATROGON": "growth-hormone/IGF-1 class: label contraindicates active malignancy",
+   "SOMATROPIN": "growth-hormone/IGF-1 class: label contraindicates active malignancy"
+  },
+  "phenotype_keywords": {
+   "HP:0000121 nephrocalcinosis": [
+    "nephrocalcinosis",
+    "hypercalcemia",
+    "hypercalcaemia",
+    "hypercalciuria",
+    "renal calcification"
+   ],
+   "HP:0002859 rhabdomyosarcoma": [
+    "rhabdomyosarcoma"
+   ],
+   "HP:0003202 muscle atrophy": [
+    "muscle atrophy",
+    "muscle wasting",
+    "myopathy",
+    "rhabdomyolysis"
+   ],
+   "HP:0004322/HP:0001508/HP:0001518 growth": [
+    "growth retardation",
+    "growth suppression",
+    "growth inhibition",
+    "decreased growth",
+    "reduced growth",
+    "impaired growth",
+    "stunted growth",
+    "failure to thrive"
+   ]
+  },
+  "pool_size": 224,
+  "searched_sections": [
+   "boxed_warning",
+   "contraindications",
+   "warnings"
+  ]
+ },
+ "label": "hypotheses for follow-up; each line proposes its own candidates; convergence is information, not a requirement; no claim of efficacy, no recommendation, no dose",
+ "lines": {
+  "A": {
+   "also_qualifying": [],
+   "found_but_not_proposed": [
+    {
+     "drug": "CYCLOSPORINE",
+     "native": "graph rank 46; fraction of random queries with the drug in their top 50 0.038",
+     "reason": "not a small molecule (Protein)",
+     "status": "not_eligible"
+    },
+    {
+     "drug": "DISOPYRAMIDE",
+     "native": "graph rank 49; fraction of random queries with the drug in their top 50 0.036",
+     "reason": "label warns about a condition of the child (HP:0004322/HP:0001508/HP:0001518 growth: 'decreased growth' in the warnings section)",
+     "status": "hard_excluded"
+    }
+   ],
+   "limit": "weak discrimination (excess over a degree baseline 0.022); generic-drug filter applied",
+   "line": "A",
+   "n_native_set": 3,
+   "n_qualifying": 1,
+   "name": "A knowledge graph",
+   "shown": [
+    {
+     "age_bands": {
+      "0-4": "not_labelled",
+      "12-17": "not_labelled",
+      "5-11": "not_labelled"
+     },
+     "age_union": "no band with label support (not_labelled/not_labelled/not_labelled)",
+     "consequences_addressed": {},
+     "drug": "POMALIDOMIDE",
+     "evidence_tier": "no verified literature entry; contrary: E, EP; line limit: weak discrimination (excess over a degree baseline 0.022); generic-drug filter applied",
+     "graph_rank": 43,
+     "label_source": "DailyMed b8c3b7f3-7e72-47af-be23-133e7bb3db59",
+     "line": "A",
+     "native": "graph rank 43; fraction of random queries with the drug in their top 50 0.006",
+     "random_query_fraction": 0.006,
+     "rank_in_line": 1,
+     "refuting_experiment": "dose-response in BUB1B-deficient versus isogenic control cells for the phenotype the graph links to the drug",
+     "safety_flags": [
+      "boxed warning in the label",
+      "label read, no keyword match for the phenotype terms"
+     ],
+     "smaa_p_top5_cross_check": 0.0029,
+     "smaa_rank_by_p_top5": 53,
+     "track1_genes_bearing": []
+    }
+   ]
+  },
+  "B1": {
+   "also_qualifying": [],
+   "found_but_not_proposed": [],
+   "limit": "did not beat a degree baseline; validation not met",
+   "line": "B1",
+   "n_native_set": 0,
+   "n_qualifying": 0,
+   "name": "B1 phenotype module",
+   "shown": []
+  },
+  "B2": {
+   "also_qualifying": [],
+   "found_but_not_proposed": [
+    {
+     "drug": "NATALIZUMAB",
+     "native": "robust in scheme W3 (pathogenic gene only), two-record links",
+     "reason": "not a small molecule (Antibody)",
+     "status": "not_eligible"
+    }
+   ],
+   "limit": "exploratory; support set of a few drugs, from the pathogenic gene only",
+   "line": "B2",
+   "n_native_set": 4,
+   "n_qualifying": 3,
+   "name": "B2 network proximity (mitosis module)",
+   "shown": [
+    {
+     "age_bands": {
+      "0-4": "not_labelled",
+      "12-17": "not_labelled",
+      "5-11": "not_labelled"
+     },
+     "age_union": "no band with label support (not_labelled/not_labelled/not_labelled)",
+     "consequences_addressed": {},
+     "drug": "CERITINIB",
+     "evidence_tier": "no verified literature entry; contrary: E, EP; line limit: exploratory; support set of a few drugs, from the pathogenic gene only",
+     "label_source": "DailyMed fff5d805-4ffd-4e8e-8e63-6f129697563e",
+     "line": "B2",
+     "native": "robust in scheme W3 (pathogenic gene only), two-record links",
+     "rank_in_line": 1,
+     "refuting_experiment": "target engagement and viability or mitotic-fidelity readout in cells with BUB1B loss",
+     "safety_flags": [
+      "label read, no keyword match for the phenotype terms"
+     ],
+     "smaa_p_top5_cross_check": 0.2376,
+     "smaa_rank_by_p_top5": 8,
+     "track1_genes_bearing": []
+    },
+    {
+     "age_bands": {
+      "0-4": "not_labelled",
+      "12-17": "not_labelled",
+      "5-11": "not_labelled"
+     },
+     "age_union": "no band with label support (not_labelled/not_labelled/not_labelled)",
+     "consequences_addressed": {
+      "5": 1.0
+     },
+     "drug": "SELINEXOR",
+     "evidence_tier": "level 1 literature (1 help, 0 harm papers); contrary: none found; line limit: exploratory; support set of a few drugs, from the pathogenic gene only",
+     "label_source": "DailyMed f6dd2682-75a6-4863-90a8-a3197f6f78a8",
+     "line": "B2",
+     "native": "robust in scheme W3 (pathogenic gene only), two-record links",
+     "rank_in_line": 3,
+     "refuting_experiment": "target engagement and viability or mitotic-fidelity readout in cells with BUB1B loss",
+     "safety_flags": [
+      "entry in config/proposal_safety.json",
+      "label read, no keyword match for the phenotype terms"
+     ],
+     "smaa_p_top5_cross_check": 0.4161,
+     "smaa_rank_by_p_top5": 3,
+     "track1_genes_bearing": [
+      "CENPE",
+      "MAD1L1",
+      "CDC20",
+      "MAD2L1BP",
+      "TTK",
+      "CEP192"
+     ]
+    },
+    {
+     "age_bands": {
+      "0-4": "not_assessed",
+      "12-17": "not_assessed",
+      "5-11": "not_assessed"
+     },
+     "age_union": "no band with label support (not_assessed/not_assessed/not_assessed)",
+     "consequences_addressed": {},
+     "drug": "TIRBANIBULIN",
+     "evidence_tier": "no verified literature entry; contrary: D; line limit: exploratory; support set of a few drugs, from the pathogenic gene only",
+     "label_source": "DailyMed 589c8de8-b773-4d47-b60c-48471806cccc",
+     "line": "B2",
+     "native": "robust in scheme W3 (pathogenic gene only), two-record links",
+     "rank_in_line": 4,
+     "refuting_experiment": "target engagement and viability or mitotic-fidelity readout in cells with BUB1B loss",
+     "safety_flags": [
+      "label read, no keyword match for the phenotype terms"
+     ],
+     "smaa_p_top5_cross_check": 0.0327,
+     "smaa_rank_by_p_top5": 25,
+     "track1_genes_bearing": []
+    }
+   ]
+  },
+  "C": {
+   "also_qualifying": [],
+   "found_but_not_proposed": [
+    {
+     "drug": "PREDNISOLONE",
+     "native": "rho 0.160, BH q 0.019, 531 cell lines",
+     "reason": "label warns about a condition of the child (HP:0003202 muscle atrophy: 'myopathy' in the warnings section)",
+     "status": "hard_excluded"
+    },
+    {
+     "drug": "BOSUTINIB",
+     "native": "rho 0.130, BH q 0.047, 552 cell lines",
+     "reason": "hazard: verified entries state selective killing of aneuploid cells (hazard for a constitutional mosaic)",
+     "status": "hard_excluded"
+    },
+    {
+     "drug": "COBIMETINIB",
+     "native": "rho 0.129, BH q 0.053, 546 cell lines",
+     "reason": "label warns about a condition of the child (HP:0003202 muscle atrophy: 'rhabdomyolysis' in the warnings section)",
+     "status": "hard_excluded"
+    },
+    {
+     "drug": "DASATINIB ANHYDROUS",
+     "native": "rho 0.123, BH q 0.053, 544 cell lines",
+     "reason": "label warns about a condition of the child (HP:0004322/HP:0001508/HP:0001518 growth: 'growth retardation' in the warnings section)",
+     "status": "hard_excluded"
+    },
+    {
+     "drug": "CALCITRIOL",
+     "native": "rho 0.108, BH q 0.095, 553 cell lines",
+     "reason": "label warns about a condition of the child (HP:0000121 nephrocalcinosis: 'hypercalcemia' in the contraindications section)",
+     "status": "hard_excluded"
+    },
+    {
+     "drug": "SELUMETINIB",
+     "native": "rho 0.102, BH q 0.099, 554 cell lines",
+     "reason": "label warns about a condition of the child (HP:0004322/HP:0001508/HP:0001518 growth: 'reduced growth' in the warnings section)",
+     "status": "hard_excluded"
+    }
+   ],
+   "limit": "correlational, from cancer cell lines, not adjusted for proliferation or lineage",
+   "line": "C",
+   "n_native_set": 9,
+   "n_qualifying": 3,
+   "name": "C PRISM drug-level vulnerability",
+   "shown": [
+    {
+     "age_bands": {
+      "0-4": "not_assessed",
+      "12-17": "not_assessed",
+      "5-11": "not_assessed"
+     },
+     "age_union": "no band with label support (not_assessed/not_assessed/not_assessed)",
+     "consequences_addressed": {},
+     "drug": "LAZERTINIB",
+     "evidence_tier": "no verified literature entry; contrary: none found; line limit: correlational, from cancer cell lines, not adjusted for proliferation or lineage",
+     "label_source": "DailyMed c417f9ee-2027-4ed5-92ad-3c19266de16c",
+     "line": "C",
+     "n_lines": 872,
+     "native": "rho 0.209, BH q 0.019, 872 cell lines",
+     "q_bh": 0.018981018981018984,
+     "rank_in_line": 1,
+     "refuting_experiment": "isogenic BUB1B-low versus control lines, controlling for proliferation, with the drug sensitivity of the PRISM screen repeated",
+     "rho": 0.2089,
+     "safety_flags": [
+      "label read, no keyword match for the phenotype terms"
+     ],
+     "smaa_p_top5_cross_check": 0.0688,
+     "smaa_rank_by_p_top5": 18,
+     "track1_genes_bearing": []
+    },
+    {
+     "age_bands": {
+      "0-4": "not_assessed",
+      "12-17": "not_assessed",
+      "5-11": "not_assessed"
+     },
+     "age_union": "no band with label support (not_assessed/not_assessed/not_assessed)",
+     "consequences_addressed": {},
+     "drug": "NERATINIB",
+     "evidence_tier": "no verified literature entry; contrary: E; line limit: correlational, from cancer cell lines, not adjusted for proliferation or lineage",
+     "label_source": "DailyMed d1e41dcf-e82a-47c2-a0ad-6c6eef621834",
+     "line": "C",
+     "n_lines": 531,
+     "native": "rho 0.194, BH q 0.019, 531 cell lines",
+     "q_bh": 0.018981018981018984,
+     "rank_in_line": 2,
+     "refuting_experiment": "isogenic BUB1B-low versus control lines, controlling for proliferation, with the drug sensitivity of the PRISM screen repeated",
+     "rho": 0.1944,
+     "safety_flags": [
+      "label read, no keyword match for the phenotype terms"
+     ],
+     "smaa_p_top5_cross_check": 0.2114,
+     "smaa_rank_by_p_top5": 9,
+     "track1_genes_bearing": []
+    },
+    {
+     "age_bands": {
+      "0-4": "partly",
+      "12-17": "labelled",
+      "5-11": "labelled"
+     },
+     "age_union": "supported in 0-4, 5-11, 12-17",
+     "consequences_addressed": {
+      "5": 1.0
+     },
+     "drug": "TRAMETINIB",
+     "evidence_tier": "level 1 literature (2 help, 0 harm papers); contrary: E, EP; line limit: correlational, from cancer cell lines, not adjusted for proliferation or lineage",
+     "label_source": "openFDA 0002ad27-779d-42ab-83b5-bc65453412a1",
+     "line": "C",
+     "n_lines": 550,
+     "native": "rho 0.131, BH q 0.047, 550 cell lines",
+     "q_bh": 0.047452547452547456,
+     "rank_in_line": 4,
+     "refuting_experiment": "isogenic BUB1B-low versus control lines, controlling for proliferation, with the drug sensitivity of the PRISM screen repeated",
+     "rho": 0.1305,
+     "safety_flags": [
+      "entry in config/proposal_safety.json",
+      "label read, no keyword match for the phenotype terms"
+     ],
+     "smaa_p_top5_cross_check": 0.4181,
+     "smaa_rank_by_p_top5": 2,
+     "track1_genes_bearing": [
+      "CENPE",
+      "MAD1L1",
+      "CDC20",
+      "MAD2L1BP",
+      "TTK",
+      "CEP192"
+     ]
+    }
+   ]
+  },
+  "D": {
+   "also_qualifying": [],
+   "found_but_not_proposed": [
+    {
+     "drug": "BORTEZOMIB",
+     "native": "strengthens checkpoint, net signed effect 381",
+     "reason": "hazard: verified entries state selective killing of aneuploid cells (hazard for a constitutional mosaic)",
+     "status": "hard_excluded"
+    },
+    {
+     "drug": "CARFILZOMIB",
+     "native": "strengthens checkpoint, net signed effect 381",
+     "reason": "not a small molecule (Protein)",
+     "status": "not_eligible"
+    },
+    {
+     "drug": "IXAZOMIB CITRATE",
+     "native": "strengthens checkpoint, net signed effect 381",
+     "reason": "cytotoxic or caution-list class: not proposed for constitutional use (project caution)",
+     "status": "context_hazard"
+    }
+   ],
+   "limit": "exploratory; 4 of 6 controls recovered, two by construction",
+   "line": "D",
+   "n_native_set": 335,
+   "n_qualifying": 5,
+   "name": "D signed direction",
+   "shown": [
+    {
+     "age_bands": {
+      "0-4": "not_labelled",
+      "12-17": "not_labelled",
+      "5-11": "not_labelled"
+     },
+     "age_union": "no band with label support (not_labelled/not_labelled/not_labelled)",
+     "consequences_addressed": {},
+     "drug": "REGORAFENIB",
+     "evidence_tier": "no verified literature entry; contrary: E, EP; line limit: exploratory; 4 of 6 controls recovered, two by construction",
+     "label_source": "DailyMed 824f19c9-0546-4a8a-8d8f-c4055c04f7c7",
+     "line": "D",
+     "native": "strengthens checkpoint, net signed effect 94",
+     "net": 94.0,
+     "rank_in_line": 4,
+     "refuting_experiment": "spindle-checkpoint readouts (mitotic arrest, BUBR1/MAD2 at kinetochores) after the drug in BUB1B-hypomorph cells",
+     "safety_flags": [
+      "boxed warning in the label",
+      "label read, no keyword match for the phenotype terms"
+     ],
+     "smaa_p_top5_cross_check": 0.0078,
+     "smaa_rank_by_p_top5": 41,
+     "track1_genes_bearing": []
+    },
+    {
+     "age_bands": {
+      "0-4": "not_labelled",
+      "12-17": "not_labelled",
+      "5-11": "not_labelled"
+     },
+     "age_union": "no band with label support (not_labelled/not_labelled/not_labelled)",
+     "consequences_addressed": {},
+     "drug": "SUNITINIB",
+     "evidence_tier": "no verified literature entry; contrary: E; line limit: exploratory; 4 of 6 controls recovered, two by construction",
+     "label_source": "DailyMed a9479e5f-914f-46ca-95c1-327c66457e47",
+     "line": "D",
+     "native": "strengthens checkpoint, net signed effect 57",
+     "net": 57.0,
+     "rank_in_line": 5,
+     "refuting_experiment": "spindle-checkpoint readouts (mitotic arrest, BUBR1/MAD2 at kinetochores) after the drug in BUB1B-hypomorph cells",
+     "safety_flags": [
+      "boxed warning in the label",
+      "label read, no keyword match for the phenotype terms"
+     ],
+     "smaa_p_top5_cross_check": 0.0007,
+     "smaa_rank_by_p_top5": 76,
+     "track1_genes_bearing": []
+    },
+    {
+     "age_bands": {
+      "0-4": "not_assessed",
+      "12-17": "not_assessed",
+      "5-11": "not_assessed"
+     },
+     "age_union": "no band with label support (not_assessed/not_assessed/not_assessed)",
+     "consequences_addressed": {},
+     "drug": "NIROGACESTAT",
+     "evidence_tier": "no verified literature entry; contrary: none found; line limit: exploratory; 4 of 6 controls recovered, two by construction",
+     "label_source": "DailyMed f172e6ff-3190-41b0-b95a-58a7ef9e9e1e",
+     "line": "D",
+     "native": "strengthens checkpoint, net signed effect 49",
+     "net": 49.0,
+     "rank_in_line": 6,
+     "refuting_experiment": "spindle-checkpoint readouts (mitotic arrest, BUBR1/MAD2 at kinetochores) after the drug in BUB1B-hypomorph cells",
+     "safety_flags": [
+      "label read, no keyword match for the phenotype terms"
+     ],
+     "smaa_p_top5_cross_check": 0.0008,
+     "smaa_rank_by_p_top5": 72,
+     "track1_genes_bearing": []
+    },
+    {
+     "age_bands": {
+      "0-4": "not_assessed",
+      "12-17": "not_assessed",
+      "5-11": "not_assessed"
+     },
+     "age_union": "no band with label support (not_assessed/not_assessed/not_assessed)",
+     "consequences_addressed": {},
+     "drug": "RITLECITINIB",
+     "evidence_tier": "no verified literature entry; contrary: none found; line limit: exploratory; 4 of 6 controls recovered, two by construction",
+     "label_source": "DailyMed 1882f799-61b0-4813-965a-4910c4ae419c",
+     "line": "D",
+     "native": "strengthens checkpoint, net signed effect 39",
+     "net": 39.0,
+     "rank_in_line": 7,
+     "refuting_experiment": "spindle-checkpoint readouts (mitotic arrest, BUBR1/MAD2 at kinetochores) after the drug in BUB1B-hypomorph cells",
+     "safety_flags": [
+      "boxed warning in the label",
+      "label read, no keyword match for the phenotype terms"
+     ],
+     "smaa_p_top5_cross_check": 0.0,
+     "smaa_rank_by_p_top5": 191,
+     "track1_genes_bearing": []
+    },
+    {
+     "age_bands": {
+      "0-4": "not_assessed",
+      "12-17": "not_assessed",
+      "5-11": "not_assessed"
+     },
+     "age_union": "no band with label support (not_assessed/not_assessed/not_assessed)",
+     "consequences_addressed": {},
+     "drug": "ERDAFITINIB",
+     "evidence_tier": "no verified literature entry; contrary: none found; line limit: exploratory; 4 of 6 controls recovered, two by construction",
+     "label_source": "DailyMed 2a8aa5c0-6c92-4566-8c45-e8f4d1fc20ee",
+     "line": "D",
+     "native": "strengthens checkpoint, net signed effect 34",
+     "net": 34.0,
+     "rank_in_line": 8,
+     "refuting_experiment": "spindle-checkpoint readouts (mitotic arrest, BUBR1/MAD2 at kinetochores) after the drug in BUB1B-hypomorph cells",
+     "safety_flags": [
+      "label read, no keyword match for the phenotype terms"
+     ],
+     "smaa_p_top5_cross_check": 0.0009,
+     "smaa_rank_by_p_top5": 69,
+     "track1_genes_bearing": []
+    }
+   ]
+  },
+  "E": {
+   "also_qualifying": [],
+   "found_but_not_proposed": [],
+   "limit": "knockout signature may not represent partial loss of function; consensus library, no cell-line-specific signatures",
+   "line": "E",
+   "n_native_set": 0,
+   "n_qualifying": 0,
+   "name": "E signature reversal, BUB1B knockout signature",
+   "shown": []
+  },
+  "ENG": {
+   "also_qualifying": [
+    "ARSENIC TRIOXIDE",
+    "FOSTAMATINIB",
+    "BELINOSTAT",
+    "CARVEDILOL",
+    "APOMORPHINE"
+   ],
+   "found_but_not_proposed": [
+    {
+     "drug": "CARBOPLATIN",
+     "native": "engine rank 3 of 1293, score -3.567",
+     "reason": "cytotoxic or caution-list class: not proposed for constitutional use (project caution)",
+     "status": "context_hazard"
+    },
+    {
+     "drug": "CABAZITAXEL",
+     "native": "engine rank 6 of 1293, score -4.666",
+     "reason": "cytotoxic or caution-list class: not proposed for constitutional use (project caution)",
+     "status": "context_hazard"
+    },
+    {
+     "drug": "FINGOLIMOD",
+     "native": "engine rank 8 of 1293, score -4.710",
+     "reason": "label warns about a condition of the child (HP:0004322/HP:0001508/HP:0001518 growth: 'growth retardation' in the warnings section)",
+     "status": "hard_excluded"
+    },
+    {
+     "drug": "CISPLATIN",
+     "native": "engine rank 10 of 1293, score -4.754",
+     "reason": "cytotoxic or caution-list class: not proposed for constitutional use (project caution)",
+     "status": "context_hazard"
+    },
+    {
+     "drug": "DOXORUBICIN",
+     "native": "engine rank 11 of 1293, score -4.898",
+     "reason": "cytotoxic or caution-list class: not proposed for constitutional use (project caution)",
+     "status": "context_hazard"
+    },
+    {
+     "drug": "PACLITAXEL",
+     "native": "engine rank 14 of 1293, score -4.912",
+     "reason": "cytotoxic or caution-list class: not proposed for constitutional use (project caution)",
+     "status": "context_hazard"
+    },
+    {
+     "drug": "PRAVASTATIN",
+     "native": "engine rank 16 of 1293, score -4.934",
+     "reason": "label warns about a condition of the child (HP:0003202 muscle atrophy: 'myopathy' in the warnings section)",
+     "status": "hard_excluded"
+    },
+    {
+     "drug": "LOVASTATIN",
+     "native": "engine rank 17 of 1293, score -4.936",
+     "reason": "label warns about a condition of the child (HP:0003202 muscle atrophy: 'myopathy' in the contraindications section)",
+     "status": "hard_excluded"
+    }
+   ],
+   "limit": "prior from literature co-mention and graph targets; cannot be checked where no drug is known",
+   "line": "ENG",
+   "n_native_set": 1293,
+   "n_qualifying": 10,
+   "name": "Engine (frozen B0)",
+   "shown": [
+    {
+     "age_bands": {
+      "0-4": "not_labelled",
+      "12-17": "not_labelled",
+      "5-11": "not_labelled"
+     },
+     "age_union": "no band with label support (not_labelled/not_labelled/not_labelled)",
+     "consequences_addressed": {
+      "5": 0.5
+     },
+     "drug": "OLAPARIB",
+     "engine_score": -2.228689,
+     "evidence_tier": "literature without a supportive finding (1 harm papers); contrary: LIT, D, E, EP; line limit: prior from literature co-mention and graph targets; cannot be checked where no drug is known",
+     "label_source": "openFDA 741ff3e3-dc1a-45a6-84e5-2481b27131aa",
+     "line": "ENG",
+     "native": "engine rank 1 of 1293, score -2.229",
+     "rank_in_line": 1,
+     "refuting_experiment": "test the co-mention link directly: drug in BUB1B-depleted versus control cells with checkpoint and proliferation readouts",
+     "safety_flags": [
+      "label read, no keyword match for the phenotype terms"
+     ],
+     "smaa_p_top5_cross_check": 0.0001,
+     "smaa_rank_by_p_top5": 88,
+     "track1_genes_bearing": [
+      "CENPE",
+      "MAD1L1",
+      "CDC20",
+      "MAD2L1BP",
+      "TTK",
+      "CEP192"
+     ]
+    },
+    {
+     "age_bands": {
+      "0-4": "verify",
+      "12-17": "verify",
+      "5-11": "verify"
+     },
+     "age_union": "no band with label support (verify/verify/verify)",
+     "consequences_addressed": {},
+     "drug": "TYROSINE",
+     "engine_score": -3.065231,
+     "evidence_tier": "no verified literature entry; contrary: none found; line limit: prior from literature co-mention and graph targets; cannot be checked where no drug is known",
+     "label_source": "DailyMed 6350966e-e450-48ff-b720-1d8bc71dacff",
+     "line": "ENG",
+     "native": "engine rank 2 of 1293, score -3.065",
+     "rank_in_line": 2,
+     "refuting_experiment": "test the co-mention link directly: drug in BUB1B-depleted versus control cells with checkpoint and proliferation readouts",
+     "safety_flags": [
+      "label read, no keyword match for the phenotype terms"
+     ],
+     "smaa_p_top5_cross_check": 0.1294,
+     "smaa_rank_by_p_top5": 13,
+     "track1_genes_bearing": []
+    },
+    {
+     "age_bands": {
+      "0-4": "verify",
+      "12-17": "verify",
+      "5-11": "verify"
+     },
+     "age_union": "no band with label support (verify/verify/verify)",
+     "consequences_addressed": {},
+     "drug": "PROGESTERONE",
+     "engine_score": -3.730856,
+     "evidence_tier": "no verified literature entry; contrary: E, EP; line limit: prior from literature co-mention and graph targets; cannot be checked where no drug is known",
+     "label_source": "DailyMed d7619751-47b4-47c9-b716-e2a704b350c8",
+     "line": "ENG",
+     "native": "engine rank 4 of 1293, score -3.731",
+     "rank_in_line": 4,
+     "refuting_experiment": "test the co-mention link directly: drug in BUB1B-depleted versus control cells with checkpoint and proliferation readouts",
+     "safety_flags": [
+      "boxed warning in the label",
+      "label read, no keyword match for the phenotype terms"
+     ],
+     "smaa_p_top5_cross_check": 0.0132,
+     "smaa_rank_by_p_top5": 34,
+     "track1_genes_bearing": []
+    },
+    {
+     "age_bands": {
+      "0-4": "verify",
+      "12-17": "verify",
+      "5-11": "verify"
+     },
+     "age_union": "no band with label support (verify/verify/verify)",
+     "consequences_addressed": {},
+     "drug": "ZINC CHLORIDE",
+     "engine_score": -4.555086,
+     "evidence_tier": "no verified literature entry; contrary: none found; line limit: prior from literature co-mention and graph targets; cannot be checked where no drug is known",
+     "label_source": "DailyMed 2bd646d2-2a2a-4376-8da0-c7f08b0511ac",
+     "line": "ENG",
+     "native": "engine rank 5 of 1293, score -4.555",
+     "rank_in_line": 5,
+     "refuting_experiment": "test the co-mention link directly: drug in BUB1B-depleted versus control cells with checkpoint and proliferation readouts",
+     "safety_flags": [
+      "label read, no keyword match for the phenotype terms"
+     ],
+     "smaa_p_top5_cross_check": 0.082,
+     "smaa_rank_by_p_top5": 16,
+     "track1_genes_bearing": []
+    },
+    {
+     "age_bands": {
+      "0-4": "not_labelled",
+      "12-17": "not_labelled",
+      "5-11": "not_labelled"
+     },
+     "age_union": "no band with label support (not_labelled/not_labelled/not_labelled)",
+     "consequences_addressed": {},
+     "drug": "VORINOSTAT",
+     "engine_score": -4.710194,
+     "evidence_tier": "no verified literature entry; contrary: E, EP; line limit: prior from literature co-mention and graph targets; cannot be checked where no drug is known",
+     "label_source": "openFDA cd86ee78-2781-468b-930c-3c4677bcc092",
+     "line": "ENG",
+     "native": "engine rank 7 of 1293, score -4.710",
+     "rank_in_line": 7,
+     "refuting_experiment": "test the co-mention link directly: drug in BUB1B-depleted versus control cells with checkpoint and proliferation readouts",
+     "safety_flags": [
+      "label read, no keyword match for the phenotype terms"
+     ],
+     "smaa_p_top5_cross_check": 0.0057,
+     "smaa_rank_by_p_top5": 43,
+     "track1_genes_bearing": []
+    }
+   ]
+  },
+  "EP": {
+   "also_qualifying": [],
+   "found_but_not_proposed": [
+    {
+     "drug": "DEXKETOPROFEN",
+     "native": "reversal p 0.0010, FDR q 0.059, R 8",
+     "reason": "the approval check could not confirm it (may be approved under another name)",
+     "status": "approval_unconfirmed"
+    },
+    {
+     "drug": "FLUVASTATIN",
+     "native": "reversal p 0.0010, FDR q 0.059, R 8",
+     "reason": "label warns about a condition of the child (HP:0003202 muscle atrophy: 'myopathy' in the warnings section)",
+     "status": "hard_excluded"
+    },
+    {
+     "drug": "GLUCOSAMINE",
+     "native": "reversal p 0.0010, FDR q 0.059, R 8",
+     "reason": "the approval check could not confirm it (may be approved under another name)",
+     "status": "approval_unconfirmed"
+    },
+    {
+     "drug": "IXAZOMIB CITRATE",
+     "native": "reversal p 0.0010, FDR q 0.059, R 8",
+     "reason": "cytotoxic or caution-list class: not proposed for constitutional use (project caution)",
+     "status": "context_hazard"
+    },
+    {
+     "drug": "MASOPROCOL",
+     "native": "reversal p 0.0010, FDR q 0.059, R 11",
+     "reason": "the approval check could not confirm it (may be approved under another name)",
+     "status": "approval_unconfirmed"
+    },
+    {
+     "drug": "NELFINAVIR",
+     "native": "reversal p 0.0010, FDR q 0.059, R 8",
+     "reason": "label warns about a condition of the child (HP:0003202 muscle atrophy: 'myopathy' in the contraindications section)",
+     "status": "hard_excluded"
+    },
+    {
+     "drug": "NICLOSAMIDE",
+     "native": "reversal p 0.0010, FDR q 0.059, R 15",
+     "reason": "the approval check could not confirm it (may be approved under another name)",
+     "status": "approval_unconfirmed"
+    },
+    {
+     "drug": "PIMOZIDE",
+     "native": "reversal p 0.0010, FDR q 0.059, R 9",
+     "reason": "label warns about a condition of the child (HP:0003202 muscle atrophy: 'rhabdomyolysis' in the warnings section)",
+     "status": "hard_excluded"
+    },
+    {
+     "drug": "PLICAMYCIN",
+     "native": "reversal p 0.0010, FDR q 0.059, R 7",
+     "reason": "the approval check could not confirm it (may be approved under another name)",
+     "status": "approval_unconfirmed"
+    }
+   ],
+   "limit": "one adult patient lymphoblastoid cell line, 2 arrays against 2 controls",
+   "line": "EP",
+   "n_native_set": 18,
+   "n_qualifying": 5,
+   "name": "E-P signature reversal, patient signature (GSE22206)",
+   "shown": [
+    {
+     "R": 10,
+     "age_bands": {
+      "0-4": "not_assessed",
+      "12-17": "not_assessed",
+      "5-11": "not_assessed"
+     },
+     "age_union": "no band with label support (not_assessed/not_assessed/not_assessed)",
+     "consequences_addressed": {},
+     "drug": "AMPHOTERICIN B",
+     "evidence_tier": "no verified literature entry; contrary: E; line limit: one adult patient lymphoblastoid cell line, 2 arrays against 2 controls",
+     "label_source": "DailyMed a96a734f-d1c4-4d42-93c2-7c336da7f7b9",
+     "line": "EP",
+     "native": "reversal p 0.0010, FDR q 0.059, R 10",
+     "p_rev": 0.000999000999000999,
+     "q_rev": 0.05932955932955933,
+     "rank_in_line": 1,
+     "refuting_experiment": "RNA-seq before and after the drug in patient-derived cells, testing whether the patient signature reverses",
+     "safety_flags": [
+      "boxed warning in the label",
+      "label read, no keyword match for the phenotype terms"
+     ],
+     "smaa_p_top5_cross_check": 0.0055,
+     "smaa_rank_by_p_top5": 44,
+     "track1_genes_bearing": []
+    },
+    {
+     "R": 8,
+     "age_bands": {
+      "0-4": "not_assessed",
+      "12-17": "not_assessed",
+      "5-11": "not_assessed"
+     },
+     "age_union": "no band with label support (not_assessed/not_assessed/not_assessed)",
+     "consequences_addressed": {},
+     "drug": "AURANOFIN",
+     "evidence_tier": "no verified literature entry; contrary: E; line limit: one adult patient lymphoblastoid cell line, 2 arrays against 2 controls",
+     "label_source": "DailyMed d688978b-8b91-4377-9f1d-89b805f5747c",
+     "line": "EP",
+     "native": "reversal p 0.0010, FDR q 0.059, R 8",
+     "p_rev": 0.000999000999000999,
+     "q_rev": 0.05932955932955933,
+     "rank_in_line": 2,
+     "refuting_experiment": "RNA-seq before and after the drug in patient-derived cells, testing whether the patient signature reverses",
+     "safety_flags": [
+      "boxed warning in the label",
+      "label read, no keyword match for the phenotype terms"
+     ],
+     "smaa_p_top5_cross_check": 0.0008,
+     "smaa_rank_by_p_top5": 71,
+     "track1_genes_bearing": []
+    },
+    {
+     "R": 12,
+     "age_bands": {
+      "0-4": "not_assessed",
+      "12-17": "not_assessed",
+      "5-11": "not_assessed"
+     },
+     "age_union": "no band with label support (not_assessed/not_assessed/not_assessed)",
+     "consequences_addressed": {},
+     "drug": "NERATINIB",
+     "evidence_tier": "no verified literature entry; contrary: E; line limit: one adult patient lymphoblastoid cell line, 2 arrays against 2 controls",
+     "label_source": "DailyMed d1e41dcf-e82a-47c2-a0ad-6c6eef621834",
+     "line": "EP",
+     "native": "reversal p 0.0010, FDR q 0.059, R 12",
+     "p_rev": 0.000999000999000999,
+     "q_rev": 0.05932955932955933,
+     "rank_in_line": 9,
+     "refuting_experiment": "RNA-seq before and after the drug in patient-derived cells, testing whether the patient signature reverses",
+     "safety_flags": [
+      "label read, no keyword match for the phenotype terms"
+     ],
+     "smaa_p_top5_cross_check": 0.2114,
+     "smaa_rank_by_p_top5": 9,
+     "track1_genes_bearing": []
+    },
+    {
+     "R": 11,
+     "age_bands": {
+      "0-4": "not_assessed",
+      "12-17": "not_assessed",
+      "5-11": "not_assessed"
+     },
+     "age_union": "no band with label support (not_assessed/not_assessed/not_assessed)",
+     "consequences_addressed": {},
+     "drug": "NITAZOXANIDE",
+     "evidence_tier": "no verified literature entry; contrary: E; line limit: one adult patient lymphoblastoid cell line, 2 arrays against 2 controls",
+     "label_source": "DailyMed 40a7cc30-76cd-49fe-965a-7823c4140d0f",
+     "line": "EP",
+     "native": "reversal p 0.0010, FDR q 0.059, R 11",
+     "p_rev": 0.000999000999000999,
+     "q_rev": 0.05932955932955933,
+     "rank_in_line": 11,
+     "refuting_experiment": "RNA-seq before and after the drug in patient-derived cells, testing whether the patient signature reverses",
+     "safety_flags": [
+      "label read, no keyword match for the phenotype terms"
+     ],
+     "smaa_p_top5_cross_check": 0.0033,
+     "smaa_rank_by_p_top5": 51,
+     "track1_genes_bearing": []
+    },
+    {
+     "R": 8,
+     "age_bands": {
+      "0-4": "not_assessed",
+      "12-17": "not_assessed",
+      "5-11": "not_assessed"
+     },
+     "age_union": "no band with label support (not_assessed/not_assessed/not_assessed)",
+     "consequences_addressed": {},
+     "drug": "PYRIMETHAMINE",
+     "evidence_tier": "no verified literature entry; contrary: E; line limit: one adult patient lymphoblastoid cell line, 2 arrays against 2 controls",
+     "label_source": "DailyMed 2c57a992-619b-40ce-9395-f12ac47a2c67",
+     "line": "EP",
+     "native": "reversal p 0.0010, FDR q 0.059, R 8",
+     "p_rev": 0.000999000999000999,
+     "q_rev": 0.05932955932955933,
+     "rank_in_line": 14,
+     "refuting_experiment": "RNA-seq before and after the drug in patient-derived cells, testing whether the patient signature reverses",
+     "safety_flags": [
+      "label read, no keyword match for the phenotype terms"
+     ],
+     "smaa_p_top5_cross_check": 0.0114,
+     "smaa_rank_by_p_top5": 35,
+     "track1_genes_bearing": []
+    }
+   ]
+  },
+  "ET1": {
+   "also_qualifying": [],
+   "found_but_not_proposed": [],
+   "limit": "weighted combination of gene signatures; consensus library",
+   "line": "ET1",
+   "n_native_set": 0,
+   "n_qualifying": 0,
+   "name": "E-T1 signature reversal, Track 1 combined signature",
+   "shown": []
+  },
+  "LIT": {
+   "also_qualifying": [],
+   "found_but_not_proposed": [
+    {
+     "drug": "SIROLIMUS",
+     "native": "rule group constitutional; best help level 1; 7 help papers; net -0.5",
+     "reason": "label warns about a condition of the child (HP:0003202 muscle atrophy: 'rhabdomyolysis' in the warnings section)",
+     "status": "hard_excluded"
+    },
+    {
+     "drug": "CHLOROQUINE",
+     "native": "rule group tumour_context; best help level 1; 2 help papers; net 0.0",
+     "reason": "hazard: verified entries state selective killing of aneuploid cells (hazard for a constitutional mosaic)",
+     "status": "hard_excluded"
+    },
+    {
+     "drug": "NICOTINAMIDE MONONUCLEOTIDE",
+     "native": "rule group constitutional; best help level 1; 1 help papers; net 0.5",
+     "reason": "not in the drug universe",
+     "status": "not_eligible"
+    },
+    {
+     "drug": "BORTEZOMIB",
+     "native": "rule group tumour_context; best help level None; 0 help papers; net 0",
+     "reason": "hazard: verified entries state selective killing of aneuploid cells (hazard for a constitutional mosaic)",
+     "status": "hard_excluded"
+    },
+    {
+     "drug": "BOSUTINIB",
+     "native": "rule group tumour_context; best help level None; 0 help papers; net 0",
+     "reason": "hazard: verified entries state selective killing of aneuploid cells (hazard for a constitutional mosaic)",
+     "status": "hard_excluded"
+    },
+    {
+     "drug": "DASATINIB",
+     "native": "rule group tumour_context; best help level None; 0 help papers; net 0",
+     "reason": "not in the drug universe",
+     "status": "not_eligible"
+    },
+    {
+     "drug": "SELUMETINIB",
+     "native": "rule group class_sibling; best help level None; 0 help papers; net 0",
+     "reason": "label warns about a condition of the child (HP:0004322/HP:0001508/HP:0001518 growth: 'reduced growth' in the warnings section)",
+     "status": "hard_excluded"
+    }
+   ],
+   "limit": "AI-assigned labels, mostly level 0-1 from mice, yeast and cell lines; rules written after the literature was read",
+   "line": "LIT",
+   "n_native_set": 11,
+   "n_qualifying": 4,
+   "name": "Literature (research line)",
+   "shown": [
+    {
+     "age_bands": {
+      "0-4": "partly",
+      "12-17": "labelled",
+      "5-11": "labelled"
+     },
+     "age_union": "supported in 0-4, 5-11, 12-17",
+     "best_help_level": 1,
+     "consequences_addressed": {
+      "2": 1.0,
+      "3": 1.0
+     },
+     "drug": "PHENYLBUTANOIC ACID",
+     "evidence_tier": "level 1 literature (2 help, 0 harm papers); contrary: E, EP; line limit: AI-assigned labels, mostly level 0-1 from mice, yeast and cell lines; rules written after the literature was read",
+     "label_source": "DailyMed 35855917-12cb-4c18-b7c5-5f275c1c80f0",
+     "line": "LIT",
+     "n_help_papers": 2,
+     "native": "rule group constitutional; best help level 1; 2 help papers; net 1.0",
+     "net": 1.0,
+     "rank_in_line": 2,
+     "refuting_experiment": "dose-response in BUB1B-hypomorphic or patient-derived cells, reading the consequence the drug targets (growth/mTOR signalling, senescence, aneuploid stress)",
+     "rule_group": "constitutional",
+     "safety_flags": [
+      "entry in config/proposal_safety.json",
+      "label read, no keyword match for the phenotype terms"
+     ],
+     "smaa_p_top5_cross_check": 0.001,
+     "smaa_rank_by_p_top5": 68,
+     "track1_genes_bearing": []
+    },
+    {
+     "age_bands": {
+      "0-4": "partly",
+      "12-17": "labelled",
+      "5-11": "labelled"
+     },
+     "age_union": "supported in 0-4, 5-11, 12-17",
+     "best_help_level": 1,
+     "consequences_addressed": {
+      "5": 1.0
+     },
+     "drug": "TRAMETINIB",
+     "evidence_tier": "level 1 literature (2 help, 0 harm papers); contrary: E, EP; line limit: AI-assigned labels, mostly level 0-1 from mice, yeast and cell lines; rules written after the literature was read",
+     "label_source": "openFDA 0002ad27-779d-42ab-83b5-bc65453412a1",
+     "line": "LIT",
+     "n_help_papers": 2,
+     "native": "rule group tumour_context; best help level 1; 2 help papers; net 0.75",
+     "net": 0.75,
+     "rank_in_line": 3,
+     "refuting_experiment": "dose-response in BUB1B-hypomorphic or patient-derived cells, reading the consequence the drug targets (growth/mTOR signalling, senescence, aneuploid stress)",
+     "rule_group": "tumour_context",
+     "safety_flags": [
+      "entry in config/proposal_safety.json",
+      "label read, no keyword match for the phenotype terms"
+     ],
+     "smaa_p_top5_cross_check": 0.4181,
+     "smaa_rank_by_p_top5": 2,
+     "track1_genes_bearing": [
+      "CENPE",
+      "MAD1L1",
+      "CDC20",
+      "MAD2L1BP",
+      "TTK",
+      "CEP192"
+     ]
+    },
+    {
+     "age_bands": {
+      "0-4": "not_labelled",
+      "12-17": "labelled",
+      "5-11": "partly"
+     },
+     "age_union": "supported in 5-11, 12-17",
+     "best_help_level": 1,
+     "consequences_addressed": {
+      "2": 1.0,
+      "3": 0.0,
+      "4": 0.5
+     },
+     "drug": "METFORMIN",
+     "evidence_tier": "level 1 literature (1 help, 2 harm papers); contrary: LIT, E, EP; line limit: AI-assigned labels, mostly level 0-1 from mice, yeast and cell lines; rules written after the literature was read",
+     "label_source": "DailyMed e087ce3b-8d7f-43a3-8d20-54513da7617d",
+     "line": "LIT",
+     "n_help_papers": 1,
+     "native": "rule group constitutional; best help level 1; 1 help papers; net -0.25",
+     "net": -0.25,
+     "rank_in_line": 6,
+     "refuting_experiment": "dose-response in BUB1B-hypomorphic or patient-derived cells, reading the consequence the drug targets (growth/mTOR signalling, senescence, aneuploid stress)",
+     "rule_group": "constitutional",
+     "safety_flags": [
+      "boxed warning in the label",
+      "entry in config/proposal_safety.json",
+      "label read, no keyword match for the phenotype terms"
+     ],
+     "smaa_p_top5_cross_check": 0.0001,
+     "smaa_rank_by_p_top5": 87,
+     "track1_genes_bearing": [
+      "IGBP1"
+     ]
+    },
+    {
+     "age_bands": {
+      "0-4": "partly",
+      "12-17": "labelled",
+      "5-11": "labelled"
+     },
+     "age_union": "supported in 0-4, 5-11, 12-17",
+     "best_help_level": 0,
+     "consequences_addressed": {
+      "3": 0.5,
+      "4": 1.0
+     },
+     "drug": "EVEROLIMUS",
+     "evidence_tier": "level 0 literature (2 help, 0 harm papers); contrary: E, EP; line limit: AI-assigned labels, mostly level 0-1 from mice, yeast and cell lines; rules written after the literature was read",
+     "label_source": "DailyMed ed7f01b0-3660-4785-a057-a32eea78d64b",
+     "line": "LIT",
+     "n_help_papers": 2,
+     "native": "rule group class_sibling; best help level 0; 2 help papers; net 0.5",
+     "net": 0.5,
+     "rank_in_line": 7,
+     "refuting_experiment": "dose-response in BUB1B-hypomorphic or patient-derived cells, reading the consequence the drug targets (growth/mTOR signalling, senescence, aneuploid stress)",
+     "rule_group": "class_sibling",
+     "safety_flags": [
+      "boxed warning in the label",
+      "entry in config/proposal_safety.json",
+      "label read, no keyword match for the phenotype terms"
+     ],
+     "smaa_p_top5_cross_check": 0.0038,
+     "smaa_rank_by_p_top5": 50,
+     "track1_genes_bearing": [
+      "IGBP1"
+     ]
+    }
+   ]
+  }
+ },
+ "n_native": {
+  "A": 3,
+  "B1": 0,
+  "B2": 4,
+  "C": 9,
+  "D": 335,
+  "E": 0,
+  "ENG": 1293,
+  "EP": 18,
+  "ET1": 0,
+  "LIT": 11
+ },
+ "protocol": "protocol/addendum_multi_evidence.md section 12",
+ "track1_gene_block_statement": "Track 1 genes other than BUB1B are hypotheses to test (karyotype or single-cell sequencing for the megabase events; function tests for IGBP1), not findings."
+}
